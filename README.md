@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # 🌍 Just Arrived – Global City Travel Data
 
 **Just Arrived** is an open dataset offering rich, structured travel information for over **50,000 cities worldwide**. All data is generated and refreshed automatically, with support for future community contributions via pull requests.

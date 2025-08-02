@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.12
+          python-version: 3.10
 
       - name: Install dependencies
         run: |
@@ -26,3 +26,17 @@ jobs:
 
       - name: Run validation
         run: python validate_all.py
+
+      - name: Install MinIO client (mc)
+        run: |
+          curl -s https://dl.min.io/client/mc/release/linux-amd64/mc -o mc
+          chmod +x mc
+          sudo mv mc /usr/local/bin/
+
+      - name: Configure MinIO client
+        run: |
+          mc alias set myminio https://${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
+
+      - name: Upload en/ JSON files to MinIO
+        run: |
+          mc mirror --overwrite en/ myminio/${{ secrets.MINIO_BUCKET }}/en/

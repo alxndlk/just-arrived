@@ -74,7 +74,7 @@ class CityData(BaseModel):
     currencies: dict[str, CurrencyInfo]
     population: Optional[int]
     welcome_message_title: str
-    welcome_message_text: str
+    welcome_message_body: str
     welcome_message_image: HttpUrl
     airports: List[Airport]
     hospitals: Hospitals
@@ -93,7 +93,7 @@ class DevCityData(BaseModel):
     currencies: Optional[dict[str, CurrencyInfo]] = None
     population: Optional[int] = None
     welcome_message_title: Optional[str] = None
-    welcome_message_text: Optional[str] = None
+    welcome_message_body: Optional[str] = None
     welcome_message_image: Optional[HttpUrl] = None
     airports: Optional[List[Airport]] = None
     hospitals: Optional[Hospitals] = None

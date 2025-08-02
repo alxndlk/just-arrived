@@ -15,7 +15,7 @@ def validate_json_file(path: Path) -> bool:
             data = json.load(f)
 
         if not isinstance(data, dict):
-            print(f"❌ INVALID: {path}")
+            print(f"INVALID: {path}")
             print("Reason: Top-level JSON is not a dictionary.")
             return False
 

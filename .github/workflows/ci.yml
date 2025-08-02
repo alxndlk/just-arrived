@@ -1,5 +1,5 @@
 name: CI pipeline for JSON and Python files
-description: This workflow validates JSON and Python files, and uploads JSON files to MinIO.
+description: This workflow validates JSON and Python files, and uploads validated JSON files to MinIO.
 
 on:
   pull_request:
@@ -9,36 +9,49 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate:
+  validate-and-upload:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: 📥 Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.12
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run validation
+      - name: ✅ Run validation
         run: python validate_all.py
 
-      - name: Install MinIO client (mc)
+      - name: 🛠️ Install MinIO client (mc)
         run: |
           curl -s https://dl.min.io/client/mc/release/linux-amd64/mc -o mc
           chmod +x mc
           sudo mv mc /usr/local/bin/
 
-      - name: Configure MinIO client
+      - name: 🔐 Configure MinIO client
         run: |
-          mc alias set myminio https://${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
+          mc alias set myminio http://${{ secrets.MINIO_ENDPOINT }} \
+            ${{ secrets.MINIO_ACCESS_KEY }} \
+            ${{ secrets.MINIO_SECRET_KEY }}
 
-      - name: Upload en/ JSON files to MinIO
+      - name: 🔍 Count JSON files in en/
         run: |
+          echo "Total JSON files in en/:"
+          find en -name '*.json' | wc -l
+
+      - name: ☁️ Upload en/ JSON files to MinIO
+        run: |
+          echo "Uploading files to MinIO..."
           mc mirror --overwrite en/ myminio/${{ secrets.MINIO_BUCKET }}/en/
+
+      - name: 📦 Verify uploaded files
+        run: |
+          echo "Uploaded file count:"
+          mc ls myminio/${{ secrets.MINIO_BUCKET }}/en/ | wc -l

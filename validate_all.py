@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 from pydantic import ValidationError
 from city_schema import CityData, DevCityData
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SKIP_DIRS = {"__pycache__", ".venv", "logs", "functions"}
 
@@ -15,7 +16,7 @@ def validate_json_file(path: Path) -> bool:
             data = json.load(f)
 
         if not isinstance(data, dict):
-            print(f"INVALID: {path}")
+            print(f"❌ INVALID: {path}")
             print("Reason: Top-level JSON is not a dictionary.")
             return False
 
@@ -44,9 +45,13 @@ def main():
     print(f"🔍 Validating {len(json_files)} files...\n")
 
     failed = 0
-    for file in json_files:
-        if not validate_json_file(file):
-            failed += 1
+
+    with ThreadPoolExecutor(max_workers=32) as executor:
+        futures = {executor.submit(validate_json_file, path): path for path in json_files}
+        for future in as_completed(futures):
+            result = future.result()
+            if not result:
+                failed += 1
 
     print(f"\n✅ Passed: {len(json_files) - failed}")
     print(f"❌ Failed: {failed}")

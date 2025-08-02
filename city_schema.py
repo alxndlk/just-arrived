@@ -1,11 +1,10 @@
 from pydantic import BaseModel, Field, HttpUrl
 from typing import List, Optional
 
-
-class Currency(BaseModel):
+class CurrencyInfo(BaseModel):
     name: str
-    code: str
     symbol: str
+
 
 
 class Terminal(BaseModel):
@@ -72,8 +71,7 @@ class CityData(BaseModel):
     language: Optional[List[str]]
     lat: float
     lon: float
-    timezone: str
-    currency: List[Currency]
+    currencies: dict[str, CurrencyInfo]
     population: Optional[int]
     welcome_message_title: str
     welcome_message_text: str
@@ -92,8 +90,7 @@ class DevCityData(BaseModel):
     language: Optional[List[str]] = None
     lat: float
     lon: float
-    timezone: Optional[str] = None
-    currency: Optional[List[Currency]] = None
+    currencies: Optional[dict[str, CurrencyInfo]] = None
     population: Optional[int] = None
     welcome_message_title: Optional[str] = None
     welcome_message_text: Optional[str] = None

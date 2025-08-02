@@ -26,8 +26,6 @@ Each city JSON file includes detailed, traveler-friendly data:
 ## 📂 Data Format
 
 - All data is stored in individual **JSON** files, one per city
-- Source city list is from [simplemaps.com/world-cities](https://simplemaps.com/data/world-cities)
-- Code is written in Python with multithreading and update logic
 
 CSV and JSON files are located in the `/data_assets/` and `/en/` folders.
 
@@ -38,7 +36,7 @@ CSV and JSON files are located in the `/data_assets/` and `/en/` folders.
 Contributions are welcome via **issues and pull requests**.
 
 All changes require review and approval before being merged.  
-We do **not** allow direct commits to `main`.
+We do **not** allow direct commits to `master`.
 
 ---
 

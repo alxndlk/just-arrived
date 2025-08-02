@@ -1,10 +1,12 @@
-name: Validate City JSON Files
+name: CI pipeline for JSON and Python files
+description: This workflow validates JSON and Python files, and uploads JSON files to MinIO.
 
 on:
   pull_request:
     paths:
       - "**.json"
       - "**.py"
+  workflow_dispatch:
 
 jobs:
   validate:

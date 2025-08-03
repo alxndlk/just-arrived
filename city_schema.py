@@ -45,9 +45,10 @@ class Hospitals(BaseModel):
 
 
 class EmergencyNumbers(BaseModel):
-    ambulance: str
-    fire: str
-    police: str
+    general: Optional[str] = None
+    ambulance: Optional[str] = None
+    fire: Optional[str] = None
+    police: Optional[str] = None
 
 
 class AvgPriceData(BaseModel):

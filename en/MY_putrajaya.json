@@ -50,8 +50,60 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kuala Lumpur International Airport (klia)",
+      "iata_code": "KUL",
+      "icao_code": "WMKK",
+      "distance_km": 17.6,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kuala Lumpur International Airport, also known as KLIA, serves both domestic and international flights."
+        },
+        {
+          "name": "klia2 Terminal",
+          "description": "The klia2 terminal at Kuala Lumpur International Airport is dedicated to low-cost carriers and budget airlines."
+        }
+      ],
+      "website": "https://www.klia.com.my/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLIA Free WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 3 hours per day with unlimited data usage."
+      }
+    },
+    {
+      "airport_name": "Sultan Abdul Aziz Shah",
+      "iata_code": "SZB",
+      "icao_code": "WMSA",
+      "distance_km": 28.9,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.klia.com.my/",
+      "wifi": {
+        "available": true,
+        "network_name": "SZB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:54.693784Z",
+    "generated_at": "2025-08-04T18:24:41.482165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

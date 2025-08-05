@@ -47,8 +47,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 14.9,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at Findel Airport, primarily used for budget airlines and charter flights."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bitburg Air Base",
+      "iata_code": "BBJ",
+      "icao_code": "EDAB",
+      "distance_km": 48.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bitburg Air Base Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bitburg Air Base Airport, handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.bitburgairbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bitburg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:07.639746Z",
+    "generated_at": "2025-08-04T19:37:50.543590Z",
     "env": "development",
     "source": "justarrived-generator"
   }

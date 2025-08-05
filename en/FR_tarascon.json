@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Garons",
+      "iata_code": "FNI",
+      "icao_code": "LFTW",
+      "distance_km": 20.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Garons Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Avignon-Caumont",
+      "iata_code": "AVN",
+      "icao_code": "LFMV",
+      "distance_km": 21.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Avignon-Caumont Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.avignon.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "AVN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:32.175799Z",
+    "generated_at": "2025-08-04T19:05:46.986647Z",
     "env": "development",
     "source": "justarrived-generator"
   }

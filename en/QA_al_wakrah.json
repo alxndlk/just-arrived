@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Doha International",
+      "iata_code": "DOH",
+      "icao_code": "OTBD",
+      "distance_km": 11.1,
+      "gmt": "3",
+      "country": "Qatar",
+      "timezone": "Asia/Qatar",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for Qatar Airways flights."
+        }
+      ],
+      "website": "https://dohahamadairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Al Udeid AB",
+      "iata_code": "XJD",
+      "icao_code": "OTBH",
+      "distance_km": 32.0,
+      "gmt": "3",
+      "country": "Qatar",
+      "timezone": "Asia/Qatar",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:57.760696Z",
+    "generated_at": "2025-08-04T20:00:26.696534Z",
     "env": "development",
     "source": "justarrived-generator"
   }

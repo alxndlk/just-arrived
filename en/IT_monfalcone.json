@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ronchi Dei Legionari",
+      "iata_code": "TRS",
+      "icao_code": "LIPQ",
+      "distance_km": 4.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.aeroporto.fvg.it/en",
+      "wifi": {
+        "available": true,
+        "network_name": "TRS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portoroz",
+      "iata_code": "POW",
+      "icao_code": "LJPZ",
+      "distance_km": 32.3,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo flights and shipments."
+        }
+      ],
+      "website": "https://www.portoroz-airport.si/",
+      "wifi": {
+        "available": true,
+        "network_name": "Portoroz Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 37.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Airfield Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.airfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:32.170590Z",
+    "generated_at": "2025-08-04T18:42:43.039339Z",
     "env": "development",
     "source": "justarrived-generator"
   }

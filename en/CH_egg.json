@@ -51,8 +51,51 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 19.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for domestic flights"
+        },
+        {
+          "name": "Terminal E",
+          "description": "The newest terminal for long-haul flights"
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Buochs",
+      "iata_code": "BXO",
+      "icao_code": "LSZC",
+      "distance_km": 43.9,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:12.476419Z",
+    "generated_at": "2025-08-04T20:33:37.828869Z",
     "env": "development",
     "source": "justarrived-generator"
   }

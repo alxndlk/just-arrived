@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biratnagar",
+      "iata_code": "BIR",
+      "icao_code": "VNVT",
+      "distance_km": 39.5,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.biratnagarairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BIR Airport Wifi",
+        "note": "Passengers can access free wifi for up to 2 hours with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:26.164040Z",
+    "generated_at": "2025-08-04T18:21:57.660372Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Whangarei",
+      "iata_code": "WRE",
+      "icao_code": "NZWR",
+      "distance_km": 6.0,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Whangarei Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Whangarei Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.whangareiairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Whangarei Airport Wifi",
+        "note": "Wifi is free for all passengers and can be accessed throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dargaville",
+      "iata_code": "DGR",
+      "icao_code": "NZDA",
+      "distance_km": 46.0,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dargaville Airport serves all domestic flights within New Zealand."
+        }
+      ],
+      "website": "https://www.dargavilleairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dargaville Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:12.118611Z",
+    "generated_at": "2025-08-04T18:29:02.595035Z",
     "env": "development",
     "source": "justarrived-generator"
   }

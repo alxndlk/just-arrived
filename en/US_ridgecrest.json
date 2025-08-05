@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kern County",
+      "iata_code": "IYK",
+      "icao_code": "KIYK",
+      "distance_km": 15.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kern County Airport, where all commercial flights are operated."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and chartered flights."
+        }
+      ],
+      "website": "https://www.kerncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kern County Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminals."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:13.204100Z",
+    "generated_at": "2025-08-04T18:43:52.341658Z",
     "env": "development",
     "source": "justarrived-generator"
   }

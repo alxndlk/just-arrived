@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biarritz Parme",
+      "iata_code": "BIQ",
+      "icao_code": "LFBZ",
+      "distance_km": 6.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biarritz Parme Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for some domestic flights and seasonal charters."
+        }
+      ],
+      "website": "https://www.biarritz.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Biarritz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Donostia - San Sebastian",
+      "iata_code": "EAS",
+      "icao_code": "LESO",
+      "distance_km": 31.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:25.192843Z",
+    "generated_at": "2025-08-04T20:32:37.370767Z",
     "env": "development",
     "source": "justarrived-generator"
   }

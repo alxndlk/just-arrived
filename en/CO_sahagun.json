@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "S. Jeronimo",
+      "iata_code": "MTR",
+      "icao_code": "SKMR",
+      "distance_km": 43.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/terminales/Paginas/aeropuerto-simon-bolivar.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MTR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Corozal",
+      "iata_code": "CZU",
+      "icao_code": "SKCZ",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal is where all domestic and international flights depart and arrive."
+        }
+      ],
+      "website": "https://www.corozalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Corozal Airport Wifi",
+        "note": "Passengers can enjoy free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:38.484466Z",
+    "generated_at": "2025-08-04T18:20:43.397908Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 16.0,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bahrain International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bahrain International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bahrain Airport Free WiFi",
+        "note": "WiFi is available throughout the airport with no time or data limits."
+      }
+    },
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 21.0,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sakhir Air Base Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sakhir Air Base Airport is responsible for handling all air freight and logistics operations."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "SakhirAirBaseWifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 35.7,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of King Abdulaziz AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Royal Terminal",
+          "description": "This terminal is exclusively used for members of the royal family and VIPs."
+        }
+      ],
+      "website": "https://www.kaia.com.sa/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAIA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:17.054851Z",
+    "generated_at": "2025-08-04T20:16:35.739739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

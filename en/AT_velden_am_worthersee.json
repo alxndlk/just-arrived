@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alpe Adria",
+      "iata_code": "KLU",
+      "icao_code": "LOWK",
+      "distance_km": 22.9,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.klagenfurt-airport.at/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:12.742325Z",
+    "generated_at": "2025-08-04T19:33:50.124395Z",
     "env": "development",
     "source": "justarrived-generator"
   }

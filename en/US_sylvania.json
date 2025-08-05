@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toledo",
+      "iata_code": "TDZ",
+      "icao_code": "KTDZ",
+      "distance_km": 14.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Toledo Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.toledoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toledo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toledo Express",
+      "iata_code": "TOL",
+      "icao_code": "KTOL",
+      "distance_km": 15.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Express Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Toledo Express Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.toledoexpressairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ToledoExpressWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lenawee County",
+      "iata_code": "ADG",
+      "icao_code": "KADG",
+      "distance_km": 34.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lenawee County Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lenawee County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.lenaweecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lenawee Airport Wifi",
+        "note": "Wifi is available for free throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:48.547787Z",
+    "generated_at": "2025-08-04T18:57:43.272597Z",
     "env": "development",
     "source": "justarrived-generator"
   }

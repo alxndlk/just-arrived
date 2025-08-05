@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Henri Coanda International",
+      "iata_code": "OTP",
+      "icao_code": "LROP",
+      "distance_km": 5.0,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.bucharestairports.ro/en/otp",
+      "wifi": {
+        "available": true,
+        "network_name": "OTP Free WiFi",
+        "note": "Passengers can connect for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Baneasa",
+      "iata_code": "BBU",
+      "icao_code": "LRBS",
+      "distance_km": 7.3,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Baneasa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Baneasa Airport, mainly used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.baneasaairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baneasa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:52.138354Z",
+    "generated_at": "2025-08-04T19:32:50.491306Z",
     "env": "development",
     "source": "justarrived-generator"
   }

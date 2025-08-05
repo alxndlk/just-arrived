@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beirut Rafic Hariri Airport",
+      "iata_code": "BEY",
+      "icao_code": "OLBA",
+      "distance_km": 8.7,
+      "gmt": "2",
+      "country": "Lebanon",
+      "timezone": "Asia/Beirut",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.beirutairport.gov.lb/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:01.817687Z",
+    "generated_at": "2025-08-04T19:13:42.309965Z",
     "env": "development",
     "source": "justarrived-generator"
   }

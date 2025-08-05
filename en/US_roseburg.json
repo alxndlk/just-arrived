@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roseburg Municipal Airport",
+      "iata_code": "RBG",
+      "icao_code": "KRBG",
+      "distance_km": 1.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roseburg Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private flights and charter services."
+        }
+      ],
+      "website": "https://www.cityofroseburg.org/departments/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "RBG Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:32.862988Z",
+    "generated_at": "2025-08-04T18:49:41.731036Z",
     "env": "development",
     "source": "justarrived-generator"
   }

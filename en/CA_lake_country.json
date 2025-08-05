@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kelowna Airport",
+      "iata_code": "YLW",
+      "icao_code": "CYLW",
+      "distance_km": 14.8,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kelowna Airport serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Kelowna Airport serves regional and charter flights."
+        }
+      ],
+      "website": "https://ylw.kelowna.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YLW Free WiFi",
+        "note": "Passengers can connect to the free WiFi network after watching a short advertisement."
+      }
+    },
+    {
+      "airport_name": "Vernon Regional Airport",
+      "iata_code": "YVE",
+      "icao_code": "CYVK",
+      "distance_km": 19.4,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:38.025533Z",
+    "generated_at": "2025-08-04T20:19:29.495913Z",
     "env": "development",
     "source": "justarrived-generator"
   }

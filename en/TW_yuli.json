@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Green Island",
+      "iata_code": "GNI",
+      "icao_code": "RCGI",
+      "distance_km": 33.3,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Green Island Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Green Island Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.taiwan-airport.com/green-island-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "GreenIslandAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:58.870951Z",
+    "generated_at": "2025-08-04T18:51:44.661710Z",
     "env": "development",
     "source": "justarrived-generator"
   }

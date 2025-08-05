@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sarajevo",
+      "iata_code": "SJJ",
+      "icao_code": "LQSA",
+      "distance_km": 15.7,
+      "gmt": "1",
+      "country": "Bosnia and Herzegovina",
+      "timezone": "Europe/Sarajevo",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Sarajevo Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Sarajevo Airport."
+        }
+      ],
+      "website": "https://www.sarajevo-airport.ba/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJJ Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:35.951928Z",
+    "generated_at": "2025-08-04T18:56:40.175876Z",
     "env": "development",
     "source": "justarrived-generator"
   }

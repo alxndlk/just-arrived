@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Antalya",
+      "iata_code": "AYT",
+      "icao_code": "LTAI",
+      "distance_km": 22.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights to and from Antalya Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights within Turkey."
+        }
+      ],
+      "website": "https://www.antalya-airport.aero",
+      "wifi": {
+        "available": true,
+        "network_name": "Antalya Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:20.669629Z",
+    "generated_at": "2025-08-04T18:21:54.975227Z",
     "env": "development",
     "source": "justarrived-generator"
   }

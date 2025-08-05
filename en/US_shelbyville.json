@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mount Comfort Airport",
+      "iata_code": "QQQ",
+      "icao_code": "KMQJ",
+      "distance_km": 35.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Columbus Municipal",
+      "iata_code": "CLU",
+      "icao_code": "KBAK",
+      "distance_km": 37.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Columbus Municipal Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Columbus Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.columbusmunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Indianapolis International",
+      "iata_code": "IND",
+      "icao_code": "KIND",
+      "distance_km": 48.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Indianapolis International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "A concourse within the main terminal, primarily serving domestic flights for airlines such as Delta and Southwest."
+        },
+        {
+          "name": "Concourse B",
+          "description": "A concourse within the main terminal, primarily serving domestic flights for airlines such as American and United."
+        },
+        {
+          "name": "Concourse C",
+          "description": "A concourse within the main terminal, primarily serving international flights for airlines such as Air Canada and Lufthansa."
+        }
+      ],
+      "website": "https://www.indianapolisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IND Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:54.322605Z",
+    "generated_at": "2025-08-04T20:17:30.404434Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dos Galpoes",
+      "iata_code": "LVB",
+      "icao_code": "SNLB",
+      "distance_km": 10.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.dosgalpoesairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "DosGalpoesAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rivera",
+      "iata_code": "RVY",
+      "icao_code": "SURV",
+      "distance_km": 10.3,
+      "gmt": "-3",
+      "country": "Uruguay",
+      "timezone": "America/Montevideo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rivera Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rivera Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.riveraairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RVY Airport WiFi",
+        "note": "Passengers can access the airport's WiFi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:31.195738Z",
+    "generated_at": "2025-08-04T18:21:40.966509Z",
     "env": "development",
     "source": "justarrived-generator"
   }

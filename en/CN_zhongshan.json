@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Macau International",
+      "iata_code": "MFM",
+      "icao_code": "VMMC",
+      "distance_km": 44.2,
+      "gmt": "8",
+      "country": "Macao",
+      "timezone": "Asia/Macau",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.macau-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MFM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Shenzhen",
+      "iata_code": "SZX",
+      "icao_code": "ZGSZ",
+      "distance_km": 45.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.szairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SZX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:21.755716Z",
+    "generated_at": "2025-08-04T20:10:30.239731Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thisted",
+      "iata_code": "TED",
+      "icao_code": "EKTS",
+      "distance_km": 12.6,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thisted Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Thisted Airport, handling all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.thistedairport.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Thisted Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Skive Airport",
+      "iata_code": "SQW",
+      "icao_code": "EKSV",
+      "distance_km": 48.2,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skive Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skive Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.skiveairport.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skive Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:51.687263Z",
+    "generated_at": "2025-08-04T19:11:51.071628Z",
     "env": "development",
     "source": "justarrived-generator"
   }

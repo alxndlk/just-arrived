@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atlanta Speedway Airport",
+      "iata_code": "HMP",
+      "icao_code": "KHMP",
+      "distance_km": 21.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hartsfield-jackson Atlanta International",
+      "iata_code": "ATL",
+      "icao_code": "KATL",
+      "distance_km": 45.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hartsfield-Jackson Atlanta International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Hartsfield-Jackson Atlanta International Airport serves all international flights and is connected to the main terminal via a shuttle train."
+        },
+        {
+          "name": "F Terminal",
+          "description": "The F Terminal at Hartsfield-Jackson Atlanta International Airport serves domestic flights for Delta Airlines."
+        },
+        {
+          "name": "T Terminal",
+          "description": "The T Terminal at Hartsfield-Jackson Atlanta International Airport serves domestic flights for Delta Airlines."
+        }
+      ],
+      "website": "https://www.atl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATL Free Wi-Fi",
+        "note": "Wi-Fi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "College Park",
+      "iata_code": "CGS",
+      "icao_code": "KCGS",
+      "distance_km": 47.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at College Park Airport serves as the primary hub for passenger and cargo flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at College Park Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.collegeparkaviationmuseum.com/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CPA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:59.941635Z",
+    "generated_at": "2025-08-04T20:30:26.325192Z",
     "env": "development",
     "source": "justarrived-generator"
   }

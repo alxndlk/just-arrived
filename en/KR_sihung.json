@@ -50,8 +50,113 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gimpo Airport",
+      "iata_code": "GMP",
+      "icao_code": "RKSS",
+      "distance_km": 19.9,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gimpo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Gimpo Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/gimpoeng/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Gimpo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Suwon",
+      "iata_code": "SWU",
+      "icao_code": "RKSW",
+      "distance_km": 21.7,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seoul AB",
+      "iata_code": "SSN",
+      "icao_code": "RKSM",
+      "distance_km": 28.8,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seoul (Incheon)",
+      "iata_code": "ICN",
+      "icao_code": "RKSI",
+      "distance_km": 32.0,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Incheon Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer international terminal at Incheon Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The domestic terminal at Incheon Airport."
+        }
+      ],
+      "website": "https://www.airport.kr/ap/en/index.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Incheon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Osan AB",
+      "iata_code": "OSN",
+      "icao_code": "RKSO",
+      "distance_km": 38.8,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Osan AB Airport handles all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Osan AB Airport is used for military personnel and their families traveling to and from the base."
+        }
+      ],
+      "website": "https://www.osan.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:41.349602Z",
+    "generated_at": "2025-08-04T19:56:34.008952Z",
     "env": "development",
     "source": "justarrived-generator"
   }

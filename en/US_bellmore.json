@@ -48,8 +48,124 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Republic Field",
+      "iata_code": "FRG",
+      "icao_code": "KFRG",
+      "distance_km": 12.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 22.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles international flights for various airlines"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Primarily used by Delta Air Lines for domestic and international flights"
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Main international hub for Delta Air Lines and other international airlines"
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Used by JetBlue for domestic and international flights"
+        },
+        {
+          "name": "Terminal 7",
+          "description": "Used by various international airlines"
+        },
+        {
+          "name": "Terminal 8",
+          "description": "Main domestic hub for American Airlines and other domestic airlines"
+        }
+      ],
+      "website": "https://www.jfkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JFK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require additional authentication for longer use."
+      }
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 31.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Long Island Mac Arthur",
+      "iata_code": "ISP",
+      "icao_code": "KISP",
+      "distance_km": 39.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 48.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 49.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Teterboro Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Teterboro Airport caters to private and executive charter flights."
+        }
+      ],
+      "website": "https://www.teterboroairport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Teterboro Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:07.563374Z",
+    "generated_at": "2025-08-04T20:19:31.443747Z",
     "env": "development",
     "source": "justarrived-generator"
   }

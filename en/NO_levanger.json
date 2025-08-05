@@ -50,8 +50,39 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Værnes",
+      "iata_code": "TRD",
+      "icao_code": "ENVA",
+      "distance_km": 37.6,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Værnes Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Værnes Airport is used for flights within Norway."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Værnes Airport is used for flights to and from other countries."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/trondheim-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:41.587863Z",
+    "generated_at": "2025-08-04T19:25:40.188510Z",
     "env": "development",
     "source": "justarrived-generator"
   }

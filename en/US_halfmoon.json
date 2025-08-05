@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albany International",
+      "iata_code": "ALB",
+      "icao_code": "KALB",
+      "distance_km": 14.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany International Airport serves all airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is primarily used by low-cost carriers and offers a more streamlined and efficient travel experience."
+        }
+      ],
+      "website": "https://albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ALB Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'ALB Free WiFi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Schenectady County",
+      "iata_code": "SCH",
+      "icao_code": "KSCH",
+      "distance_km": 16.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Schenectady County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Schenectady County Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.schenectadyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:59.105271Z",
+    "generated_at": "2025-08-04T18:46:41.126047Z",
     "env": "development",
     "source": "justarrived-generator"
   }

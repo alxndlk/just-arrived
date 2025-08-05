@@ -49,8 +49,56 @@
     "police": "000"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chimbu",
+      "iata_code": "CMU",
+      "icao_code": "AYCH",
+      "distance_km": 3.6,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chimbu Airport serves domestic flights within Papua New Guinea."
+        }
+      ],
+      "website": "https://www.pacificairways.com/chimbu-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Chimbu Airport Wifi",
+        "note": "Wifi is available in the main terminal and can be accessed by requesting a password at the information desk."
+      }
+    },
+    {
+      "airport_name": "Goroka",
+      "iata_code": "GKA",
+      "icao_code": "AYGA",
+      "distance_km": 48.2,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Goroka Airport serves domestic flights within Papua New Guinea."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Goroka Airport handles freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.pngairports.com.pg/airports/goroka-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Goroka Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:22.850751Z",
+    "generated_at": "2025-08-04T19:19:41.222361Z",
     "env": "development",
     "source": "justarrived-generator"
   }

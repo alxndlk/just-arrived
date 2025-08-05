@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 33.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.lotnisko-bielsko.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bielsko-Bialo Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zilina",
+      "iata_code": "ILZ",
+      "icao_code": "LZZI",
+      "distance_km": 47.4,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.airportzilina.sk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zilina Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:15.929904Z",
+    "generated_at": "2025-08-04T20:27:30.640498Z",
     "env": "development",
     "source": "justarrived-generator"
   }

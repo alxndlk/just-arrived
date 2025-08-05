@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Smith-Reynolds",
+      "iata_code": "INT",
+      "icao_code": "KINT",
+      "distance_km": 13.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smith-Reynolds Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Smith-Reynolds Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.smithreynoldsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SmithReynoldsAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Piedmont Triad International",
+      "iata_code": "GSO",
+      "icao_code": "KGSO",
+      "distance_km": 13.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Piedmont Triad International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Piedmont Triad International Airport handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://flyfrompti.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:05.204414Z",
+    "generated_at": "2025-08-04T18:44:47.631954Z",
     "env": "development",
     "source": "justarrived-generator"
   }

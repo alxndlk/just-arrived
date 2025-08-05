@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 11.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport houses all necessary facilities for travelers, including check-in counters, baggage claim, and departure gates."
+        },
+        {
+          "name": "Business Terminal",
+          "description": "The business terminal at Rotterdam Zestienhoven Airport is dedicated to providing premium services for business travelers, such as VIP lounges and meeting rooms."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport WiFi",
+        "note": "WiFi is free for the first hour, after which a fee may apply."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilze-Rijen Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gilze-Rijen Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://gilze-rijen-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 44.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's main terminal, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to flights within Europe."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Serving non-Schengen flights and some intercontinental flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Dedicated to SkyTeam alliance airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Serving non-Schengen flights and some intercontinental flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport",
+        "note": "Free wifi is available throughout the airport, with a limited time of 4 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:46.104278Z",
+    "generated_at": "2025-08-04T18:42:48.994679Z",
     "env": "development",
     "source": "justarrived-generator"
   }

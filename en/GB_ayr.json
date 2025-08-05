@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Prestwick",
+      "iata_code": "PIK",
+      "icao_code": "EGPK",
+      "distance_km": 5.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Prestwick Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Prestwick Airport handles all freight and cargo flights."
+        }
+      ],
+      "website": "https://www.glasgowprestwick.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Glasgow International",
+      "iata_code": "GLA",
+      "icao_code": "EGPF",
+      "distance_km": 46.8,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:54.595798Z",
+    "generated_at": "2025-08-04T20:04:28.331252Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Olympic Dam",
+      "iata_code": "OLP",
+      "icao_code": "YOLD",
+      "distance_km": 27.2,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Adelaide",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Olympic Dam Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Olympic Dam Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.olympicdamairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "ODA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:47.745389Z",
+    "generated_at": "2025-08-04T19:38:58.977383Z",
     "env": "development",
     "source": "justarrived-generator"
   }

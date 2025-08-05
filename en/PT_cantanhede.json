@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coimbra",
+      "iata_code": "CBP",
+      "icao_code": "LPCO",
+      "distance_km": 22.2,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Coimbra Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.aeroportocoimbra.pt/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Coimbra Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:57.736485Z",
+    "generated_at": "2025-08-04T20:06:32.939171Z",
     "env": "development",
     "source": "justarrived-generator"
   }

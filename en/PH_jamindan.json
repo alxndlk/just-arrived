@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roxas City",
+      "iata_code": "RXS",
+      "icao_code": "RPVR",
+      "distance_km": 33.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Roxas City Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Roxas City Airport, handling the transportation of goods and packages."
+        }
+      ],
+      "website": "https://roxasairport.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "RXS Airport WiFi",
+        "note": "WiFi is available throughout the airport for free, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "Kalibo",
+      "iata_code": "KLO",
+      "icao_code": "RPVK",
+      "distance_km": 33.9,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:27.646859Z",
+    "generated_at": "2025-08-04T20:06:26.310850Z",
     "env": "development",
     "source": "justarrived-generator"
   }

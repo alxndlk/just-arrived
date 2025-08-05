@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Boos",
+      "iata_code": "URO",
+      "icao_code": "LFOP",
+      "distance_km": 40.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.rouen-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "BoosAirportWifi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Octeville",
+      "iata_code": "LEH",
+      "icao_code": "LFOH",
+      "distance_km": 48.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Octeville Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Octeville Airport is used for the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.leh-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Octeville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:23.963453Z",
+    "generated_at": "2025-08-04T19:19:41.553911Z",
     "env": "development",
     "source": "justarrived-generator"
   }

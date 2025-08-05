@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 25.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 30.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Millville Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.millvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Millville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cape May County",
+      "iata_code": "WWD",
+      "icao_code": "KWWD",
+      "distance_km": 31.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Cape May County Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights only."
+        }
+      ],
+      "website": "https://www.flycapecod.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapeMayAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:05.527527Z",
+    "generated_at": "2025-08-04T20:23:37.228857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

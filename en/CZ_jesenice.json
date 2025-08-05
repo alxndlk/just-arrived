@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Prague Vaclav Havel Airport",
+      "iata_code": "PRG",
+      "icao_code": "LKPR",
+      "distance_km": 23.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Prague Vaclav Havel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.prg.aero/en",
+      "wifi": {
+        "available": true,
+        "network_name": "PRG Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but it may require periodic reconnection."
+      }
+    },
+    {
+      "airport_name": "Pribram Airport",
+      "iata_code": "QEP",
+      "icao_code": "LKPM",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "Czechia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.pribramairport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pribram Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:40.594622Z",
+    "generated_at": "2025-08-04T20:28:30.385185Z",
     "env": "development",
     "source": "justarrived-generator"
   }

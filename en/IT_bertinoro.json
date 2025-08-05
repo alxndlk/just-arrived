@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Luigi Ridolfi",
+      "iata_code": "FRL",
+      "icao_code": "LIPK",
+      "distance_km": 7.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Luigi Ridolfi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Luigi Ridolfi Airport, primarily serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.ravenna-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Luigi Ridolfi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Miramare",
+      "iata_code": "RMI",
+      "icao_code": "LIPR",
+      "distance_km": 41.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Miramare Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Miramare Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.miramareairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "MiramareAirportWifi",
+        "note": "Passengers can connect to the airport's free WiFi network with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:22.403232Z",
+    "generated_at": "2025-08-04T19:21:51.075125Z",
     "env": "development",
     "source": "justarrived-generator"
   }

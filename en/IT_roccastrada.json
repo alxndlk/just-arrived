@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Siena",
+      "iata_code": "SAY",
+      "icao_code": "LIQS",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baccarini",
+      "iata_code": "GRS",
+      "icao_code": "LIRS",
+      "distance_km": 28.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "http://www.baccariniairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baccarini Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:55.396146Z",
+    "generated_at": "2025-08-04T20:33:31.654328Z",
     "env": "development",
     "source": "justarrived-generator"
   }

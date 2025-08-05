@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Jacques",
+      "iata_code": "RNS",
+      "icao_code": "LFRN",
+      "distance_km": 0.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.saint-jacques-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "StJacquesAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:38.906660Z",
+    "generated_at": "2025-08-04T19:11:44.615838Z",
     "env": "development",
     "source": "justarrived-generator"
   }

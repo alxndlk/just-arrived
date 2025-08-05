@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miho",
+      "iata_code": "YGJ",
+      "icao_code": "RJOH",
+      "distance_km": 7.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Miho Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Miho Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.mihoairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miho Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Izumo",
+      "iata_code": "IZO",
+      "icao_code": "RJOC",
+      "distance_km": 33.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Izumo Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.izumo-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "IZO Airport WiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:52.740675Z",
+    "generated_at": "2025-08-04T18:36:41.508911Z",
     "env": "development",
     "source": "justarrived-generator"
   }

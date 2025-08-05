@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sheppard AFB",
+      "iata_code": "SPS",
+      "icao_code": "KSPS",
+      "distance_km": 11.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kickapoo",
+      "iata_code": "KIP",
+      "icao_code": "KCWC",
+      "distance_km": 20.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kickapoo Airport provides all necessary amenities for travelers, including check-in counters, baggage claim, and dining options."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those traveling on private or chartered flights, the private terminal at Kickapoo Airport offers a luxurious and exclusive experience."
+        }
+      ],
+      "website": "https://www.kickapooairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kickapoo Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:29.011227Z",
+    "generated_at": "2025-08-04T20:27:26.245302Z",
     "env": "development",
     "source": "justarrived-generator"
   }

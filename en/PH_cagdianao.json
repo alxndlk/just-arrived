@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Surigao",
+      "iata_code": "SUG",
+      "icao_code": "RPWS",
+      "distance_km": 27.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sayak Airport",
+      "iata_code": "IAO",
+      "icao_code": "RPNS",
+      "distance_km": 38.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and domestic flights."
+        }
+      ],
+      "website": "https://www.sayakairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Sayak Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:27.164638Z",
+    "generated_at": "2025-08-04T20:16:31.516974Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Davis Monthan AFB",
+      "iata_code": "DMA",
+      "icao_code": "KDMA",
+      "distance_km": 17.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Davis Monthan AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Davis Monthan AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.dm.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tucson International Airport",
+      "iata_code": "TUS",
+      "icao_code": "KTUS",
+      "distance_km": 24.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "This terminal serves regional flights."
+        }
+      ],
+      "website": "https://www.flytucson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TUS_Free_WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    },
+    {
+      "airport_name": "Avra Valley",
+      "iata_code": "AVW",
+      "icao_code": "KAVQ",
+      "distance_km": 47.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Avra Valley Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Avra Valley Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.avravalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AVW Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:30.140730Z",
+    "generated_at": "2025-08-04T19:05:48.176563Z",
     "env": "development",
     "source": "justarrived-generator"
   }

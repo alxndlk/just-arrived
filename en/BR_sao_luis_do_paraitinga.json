@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ubatuba",
+      "iata_code": "UBT",
+      "icao_code": "SDUB",
+      "distance_km": 33.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "http://www.ubatubaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ubatuba Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guaratingueta",
+      "iata_code": "GUJ",
+      "icao_code": "SBGW",
+      "distance_km": 46.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guaratingueta Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportoguaratingueta.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Guaratingueta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:40.413970Z",
+    "generated_at": "2025-08-04T19:25:40.769096Z",
     "env": "development",
     "source": "justarrived-generator"
   }

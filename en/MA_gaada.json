@@ -50,8 +50,56 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melilla",
+      "iata_code": "MLN",
+      "icao_code": "GEML",
+      "distance_km": 13.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Africa/Ceuta",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Melilla Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/melilla-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Melilla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nador",
+      "iata_code": "NDR",
+      "icao_code": "GMFN",
+      "distance_km": 19.3,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Nador-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Nador Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:00.667154Z",
+    "generated_at": "2025-08-04T20:31:28.319324Z",
     "env": "development",
     "source": "justarrived-generator"
   }

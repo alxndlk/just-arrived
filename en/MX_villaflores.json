@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Llano San Juan",
+      "iata_code": "TGZ",
+      "icao_code": "MMTG",
+      "distance_km": 44.9,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal for flights to and from other countries."
+        }
+      ],
+      "website": "http://www.aeropuertosgap.com.mx/en/tuxtla-gutierrez-international-airport.html",
+      "wifi": {
+        "available": true,
+        "network_name": "TGZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:15.980728Z",
+    "generated_at": "2025-08-04T18:35:51.397950Z",
     "env": "development",
     "source": "justarrived-generator"
   }

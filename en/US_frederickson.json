@@ -48,8 +48,108 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 18.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at McChord AFB Airport serves both civilian and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at McChord AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.mcchord.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "McChord AFB Airport WiFi",
+        "note": "WiFi is available throughout the airport, but a valid military ID is required to access the network."
+      }
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 25.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 39.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Olympia",
+      "iata_code": "OLM",
+      "icao_code": "KOLM",
+      "distance_km": 43.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Renton",
+      "iata_code": "RNT",
+      "icao_code": "KRNT",
+      "distance_km": 46.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boeing Field/King County International Airport",
+      "iata_code": "BFI",
+      "icao_code": "KBFI",
+      "distance_km": 49.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boeing Field/King County International Airport, serving all commercial and general aviation flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The south terminal at Boeing Field/King County International Airport, primarily used for general aviation and private flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac",
+      "wifi": {
+        "available": true,
+        "network_name": "BFI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:42.106104Z",
+    "generated_at": "2025-08-04T20:12:27.743283Z",
     "env": "development",
     "source": "justarrived-generator"
   }

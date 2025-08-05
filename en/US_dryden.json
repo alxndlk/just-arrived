@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tompkins County",
+      "iata_code": "ITH",
+      "icao_code": "KITH",
+      "distance_km": 8.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tompkins County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Tompkins County Airport caters to private and corporate aircraft."
+        }
+      ],
+      "website": "https://flyithaca.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITHAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Greater Binghamton",
+      "iata_code": "BGM",
+      "icao_code": "KBGM",
+      "distance_km": 42.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:15.297129Z",
+    "generated_at": "2025-08-04T20:22:27.338489Z",
     "env": "development",
     "source": "justarrived-generator"
   }

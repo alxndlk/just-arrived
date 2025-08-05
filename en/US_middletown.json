@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "James Cox Dayton International",
+      "iata_code": "DAY",
+      "icao_code": "KDAY",
+      "distance_km": 45.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at James Cox Dayton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights and is connected to the main terminal via a skywalk."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is primarily used for international flights and is connected to the main terminal via a skywalk."
+        }
+      ],
+      "website": "https://www.daytonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dayton-Wright Brothers Airport",
+      "iata_code": "MGY",
+      "icao_code": "KMGY",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dayton-Wright Brothers Airport offers a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For private and charter flights, the private terminal at Dayton-Wright Brothers Airport provides a more personalized and luxurious experience."
+        }
+      ],
+      "website": "https://www.dayton-wrightbrothersairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DWBAirportWifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:26.078820Z",
+    "generated_at": "2025-08-04T20:31:25.483393Z",
     "env": "development",
     "source": "justarrived-generator"
   }

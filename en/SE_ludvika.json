@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dala Airport",
+      "iata_code": "BLE",
+      "icao_code": "ESSD",
+      "distance_km": 35.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dala Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Dala Airport, handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.dalaairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "DalaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:03.324655Z",
+    "generated_at": "2025-08-04T19:08:46.317864Z",
     "env": "development",
     "source": "justarrived-generator"
   }

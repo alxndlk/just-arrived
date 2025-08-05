@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tres Arroyos",
+      "iata_code": "OYO",
+      "icao_code": "SAZH",
+      "distance_km": 39.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "http://tresarroyosairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "TresArroyosAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:28.943274Z",
+    "generated_at": "2025-08-04T19:13:54.306710Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Isla Grande",
+      "iata_code": "SIG",
+      "icao_code": "TJIG",
+      "distance_km": 23.5,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Isla Grande Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.sanjuan-airport.com/isla-grande-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "IslaGrandeAirportWiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Luis Munoz Marin International",
+      "iata_code": "SJU",
+      "icao_code": "TJSJ",
+      "distance_km": 33.5,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Luis Munoz Marin International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Luis Munoz Marin International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.sanjuanmarinaeroport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJU Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Arecibo",
+      "iata_code": "ARE",
+      "icao_code": "TJAB",
+      "distance_km": 37.6,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arecibo Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arecibo Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.areciboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arecibo Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:32.003905Z",
+    "generated_at": "2025-08-04T19:35:48.095251Z",
     "env": "development",
     "source": "justarrived-generator"
   }

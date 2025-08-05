@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dhanbad",
+      "iata_code": "DBD",
+      "icao_code": "VEDB",
+      "distance_km": 46.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Dhanbad Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.dhanbadairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Dhanbad Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:48.586155Z",
+    "generated_at": "2025-08-04T18:20:46.018205Z",
     "env": "development",
     "source": "justarrived-generator"
   }

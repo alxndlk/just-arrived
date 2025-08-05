@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sao Mateus",
+      "iata_code": "SBJ",
+      "icao_code": "SNMX",
+      "distance_km": 20.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sao Mateus Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sao Mateus Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.saomateusairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "SaoMateusAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:25.368628Z",
+    "generated_at": "2025-08-04T18:12:47.914292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,87 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Republic Field",
+      "iata_code": "FRG",
+      "icao_code": "KFRG",
+      "distance_km": 6.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Long Island Mac Arthur",
+      "iata_code": "ISP",
+      "icao_code": "KISP",
+      "distance_km": 25.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Long Island Mac Arthur Airport serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Long Island Mac Arthur Airport serves domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Long Island Mac Arthur Airport serves international flights."
+        }
+      ],
+      "website": "https://www.macarthurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MacArthur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 35.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 43.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brookhaven",
+      "iata_code": "WSH",
+      "icao_code": "KHWV",
+      "distance_km": 45.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:36.629419Z",
+    "generated_at": "2025-08-04T20:21:28.017822Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kagoshima",
+      "iata_code": "KOJ",
+      "icao_code": "RJFK",
+      "distance_km": 32.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kagoshima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Kagoshima Airport serves flights to and from other countries."
+        }
+      ],
+      "website": "https://www.koj-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Miyazaki",
+      "iata_code": "KMI",
+      "icao_code": "RJFM",
+      "distance_km": 46.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Miyazaki Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights operated by low-cost carriers."
+        }
+      ],
+      "website": "https://www.miyazaki-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miyazaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:45.346968Z",
+    "generated_at": "2025-08-04T18:32:47.267415Z",
     "env": "development",
     "source": "justarrived-generator"
   }

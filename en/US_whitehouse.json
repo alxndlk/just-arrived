@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tyler Pounds Regional Airport",
+      "iata_code": "TYR",
+      "icao_code": "KTYR",
+      "distance_km": 22.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cherokee County",
+      "iata_code": "JKV",
+      "icao_code": "KJSO",
+      "distance_km": 30.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cherokee County Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.cherokeecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CCAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:32.122404Z",
+    "generated_at": "2025-08-04T20:33:29.920402Z",
     "env": "development",
     "source": "justarrived-generator"
   }

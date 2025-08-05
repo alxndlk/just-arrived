@@ -51,8 +51,85 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 20.5,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Zhulyany Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Zhulyany Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://iev.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zhulyany Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gostomel Airport",
+      "iata_code": "GML",
+      "icao_code": "UKKM",
+      "distance_km": 21.9,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gostomel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gostomel Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://gostomelairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Gostomel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Boryspil (Borispol)",
+      "iata_code": "KBP",
+      "icao_code": "UKBB",
+      "distance_km": 38.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal D",
+          "description": "The largest and newest terminal at Boryspil Airport, serving international flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "A smaller terminal used for domestic flights and some international flights."
+        }
+      ],
+      "website": "https://kbp.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boryspil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:55.121652Z",
+    "generated_at": "2025-08-04T20:12:36.663246Z",
     "env": "development",
     "source": "justarrived-generator"
   }

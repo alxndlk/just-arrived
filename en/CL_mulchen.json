@@ -50,8 +50,39 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Angeles",
+      "iata_code": "LSQ",
+      "icao_code": "SCGE",
+      "distance_km": 39.2,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Los Angeles Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Los Angeles Airport, primarily serving international flights."
+        },
+        {
+          "name": "Tom Bradley International Terminal",
+          "description": "The main international terminal at Los Angeles Airport, serving a wide variety of international flights."
+        }
+      ],
+      "website": "https://www.flylax.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LAX Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:51.933911Z",
+    "generated_at": "2025-08-04T20:10:28.380054Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Antônio Ribeiro Nogueira Jr. State Airport ",
+      "iata_code": "JTN",
+      "icao_code": "SDIM",
+      "distance_km": 18.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Santos",
+      "iata_code": "SSZ",
+      "icao_code": "SBST",
+      "distance_km": 31.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Santos Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Santos Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.santosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantosAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:28.574603Z",
+    "generated_at": "2025-08-04T20:02:26.040516Z",
     "env": "development",
     "source": "justarrived-generator"
   }

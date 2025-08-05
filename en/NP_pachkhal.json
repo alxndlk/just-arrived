@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manang",
+      "iata_code": "NGX",
+      "icao_code": "VNMA",
+      "distance_km": 25.6,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Manang Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles the transportation of goods and supplies to and from Manang Airport."
+        }
+      ],
+      "website": "https://www.manangairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Manang Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Tribhuvan International",
+      "iata_code": "KTM",
+      "icao_code": "VNKT",
+      "distance_km": 26.2,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights departing and arriving at Tribhuvan International Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights departing and arriving at Tribhuvan International Airport."
+        }
+      ],
+      "website": "https://www.tiairport.com.np/",
+      "wifi": {
+        "available": true,
+        "network_name": "TIA_Free_WiFi",
+        "note": "Passengers can access free WiFi for 2 hours by providing their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:18.663523Z",
+    "generated_at": "2025-08-04T18:32:58.502895Z",
     "env": "development",
     "source": "justarrived-generator"
   }

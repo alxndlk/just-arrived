@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Intermediate",
+      "iata_code": "PMB",
+      "icao_code": "KPMB",
+      "distance_km": 22.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Intermediate Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Intermediate Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.intermediateairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IntermediateAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:06.701020Z",
+    "generated_at": "2025-08-04T19:05:57.567762Z",
     "env": "development",
     "source": "justarrived-generator"
   }

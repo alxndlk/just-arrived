@@ -48,8 +48,47 @@
     "ambulance": "199"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Port Harcourt",
+      "iata_code": "PHC",
+      "icao_code": "DNPO",
+      "distance_km": 13.9,
+      "gmt": "1",
+      "country": "Nigeria",
+      "timezone": "Africa/Lagos",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.port-harcourt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PHC Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Port Harcourt City",
+      "iata_code": "PHG",
+      "icao_code": "DNPM",
+      "distance_km": 13.9,
+      "gmt": "1",
+      "country": "Nigeria",
+      "timezone": "Africa/Lagos",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:15.761113Z",
+    "generated_at": "2025-08-04T20:10:29.958040Z",
     "env": "development",
     "source": "justarrived-generator"
   }

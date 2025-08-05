@@ -50,8 +50,81 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vienna",
+      "iata_code": "VIA",
+      "icao_code": "SSVI",
+      "distance_km": 1.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Vienna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.viennaairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "ViennaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cacador",
+      "iata_code": "CFC",
+      "icao_code": "SBCD",
+      "distance_km": 31.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cacador Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Cacador Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.cacadorairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CACADOR_AIRPORT_WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Joacaba",
+      "iata_code": "JCB",
+      "icao_code": "SSJA",
+      "distance_km": 40.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Joacaba Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.joacabaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Joacaba Airport Wifi",
+        "note": "Passengers can access free wifi for up to 2 hours. Additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:28.829380Z",
+    "generated_at": "2025-08-04T18:27:51.532878Z",
     "env": "development",
     "source": "justarrived-generator"
   }

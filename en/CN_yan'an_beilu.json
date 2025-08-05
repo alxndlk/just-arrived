@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Urumqi",
+      "iata_code": "URC",
+      "icao_code": "ZWWW",
+      "distance_km": 20.9,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Urumqi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "http://www.urumqiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Urumqi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newport News Railway",
+      "iata_code": "ZWW",
+      "icao_code": "ZWWW",
+      "distance_km": 20.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Newport News Railway Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Newport News Railway Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.newportnewsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NNRA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:40.353943Z",
+    "generated_at": "2025-08-04T18:06:47.900895Z",
     "env": "development",
     "source": "justarrived-generator"
   }

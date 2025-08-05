@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mannheim Airport",
+      "iata_code": "MHG",
+      "icao_code": "EDFM",
+      "distance_km": 11.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mannheim Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.mannheim-airport.de/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Mannheim Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Heidelberg Airport",
+      "iata_code": "HDB",
+      "icao_code": "EDIU",
+      "distance_km": 18.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Heidelberg Airport"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.heidelberg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heidelberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:06.695382Z",
+    "generated_at": "2025-08-04T20:25:31.414060Z",
     "env": "development",
     "source": "justarrived-generator"
   }

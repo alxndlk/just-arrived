@@ -50,8 +50,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oran",
+      "iata_code": "ORA",
+      "icao_code": "SASO",
+      "distance_km": 28.0,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bermejo",
+      "iata_code": "BJO",
+      "icao_code": "SLBJ",
+      "distance_km": 29.6,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bermejo Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bermejo Airport handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.bermejoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Bermejo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:04.562515Z",
+    "generated_at": "2025-08-04T20:00:35.247012Z",
     "env": "development",
     "source": "justarrived-generator"
   }

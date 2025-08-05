@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braganca Paulista",
+      "iata_code": "BJP",
+      "icao_code": "SBBP",
+      "distance_km": 27.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.bragancapaulistaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "BPAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sao Jose Dos Campos",
+      "iata_code": "SJK",
+      "icao_code": "SBSJ",
+      "distance_km": 41.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sao Jose Dos Campos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.saopaulo-airport.com/sao-jose-dos-campos-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "SJK Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for the first 2 hours, after which a fee may apply."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:08.971142Z",
+    "generated_at": "2025-08-04T18:28:41.651053Z",
     "env": "development",
     "source": "justarrived-generator"
   }

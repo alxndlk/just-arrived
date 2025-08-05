@@ -48,8 +48,100 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 14.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Serves domestic flights for major airlines such as American Airlines and Delta."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Serves domestic and international flights for airlines such as JetBlue and United."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Serves domestic and international flights for airlines such as Alaska Airlines and Southwest."
+        }
+      ],
+      "website": "https://www.flyreagan.com/dca/reagan-national-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Connect to the network and accept the terms of use to access."
+      }
+    },
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 22.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 26.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 29.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tipton AAF Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.tiptonaafairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "TiptonAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:46.969361Z",
+    "generated_at": "2025-08-04T20:17:30.068601Z",
     "env": "development",
     "source": "justarrived-generator"
   }

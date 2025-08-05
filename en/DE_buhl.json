@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Karlsruhe/Baden-Baden",
+      "iata_code": "FKB",
+      "icao_code": "EDSB",
+      "distance_km": 10.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Karlsruhe/Baden-Baden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.baden-airpark.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FKB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Entzheim",
+      "iata_code": "SXB",
+      "icao_code": "LFST",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.strasbourg.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Entzheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 44.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Black Forest Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and logistics operations at Black Forest Airport."
+        }
+      ],
+      "website": "https://www.blackforestairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlackForestAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:56.630629Z",
+    "generated_at": "2025-08-04T18:42:51.947453Z",
     "env": "development",
     "source": "justarrived-generator"
   }

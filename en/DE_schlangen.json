@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 27.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 29.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Guetersloh",
+      "iata_code": "GUT",
+      "icao_code": "ETUO",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guetersloh Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Guetersloh Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.guetersloh-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "GUT-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:43.561449Z",
+    "generated_at": "2025-08-04T20:31:31.704277Z",
     "env": "development",
     "source": "justarrived-generator"
   }

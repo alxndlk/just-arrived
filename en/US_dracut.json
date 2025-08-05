@@ -48,8 +48,129 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lawrence",
+      "iata_code": "LWM",
+      "icao_code": "KLWM",
+      "distance_km": 15.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boire Field",
+      "iata_code": "ASH",
+      "icao_code": "KASH",
+      "distance_km": 20.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes amenities such as restaurants, shops, and baggage claim."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.boirefield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boire Field WiFi",
+        "note": "Passengers can access free WiFi throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Hanscom Field",
+      "iata_code": "BED",
+      "icao_code": "KBED",
+      "distance_km": 23.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hanscom Field Airport serves as the primary hub for all commercial and private flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal is dedicated to private jet operations and offers exclusive services for private jet passengers."
+        }
+      ],
+      "website": "https://www.hanscomfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HanscomFieldWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'HanscomFieldWiFi' from their device's list of available networks."
+      }
+    },
+    {
+      "airport_name": "Manchester-boston Regional Airport",
+      "iata_code": "MHT",
+      "icao_code": "KMHT",
+      "distance_km": 29.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Beverly Municipal Airport",
+      "iata_code": "BVY",
+      "icao_code": "KBVY",
+      "distance_km": 37.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 42.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest terminal at Logan International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A hub for American Airlines and JetBlue, with a variety of shops and restaurants."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A terminal primarily used by Delta Air Lines and its partners, with a Sky Club lounge and many dining options."
+        },
+        {
+          "name": "Terminal E",
+          "description": "The international terminal, with duty-free shopping and a variety of dining options."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOS Free WiFi",
+        "note": "Connect to the network and follow the prompts to access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:36.236784Z",
+    "generated_at": "2025-08-04T20:08:27.508069Z",
     "env": "development",
     "source": "justarrived-generator"
   }

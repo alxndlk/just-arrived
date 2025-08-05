@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 15.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Atsugi NAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Atsugi NAS Airport is used for military operations and personnel."
+        }
+      ],
+      "website": "https://www.atugi-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Atsugi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:57.722893Z",
+    "generated_at": "2025-08-04T18:44:43.083803Z",
     "env": "development",
     "source": "justarrived-generator"
   }

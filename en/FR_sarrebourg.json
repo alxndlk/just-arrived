@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Entzheim",
+      "iata_code": "SXB",
+      "icao_code": "LFST",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.strasbourg.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Entzheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:24.800688Z",
+    "generated_at": "2025-08-04T19:16:01.448236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

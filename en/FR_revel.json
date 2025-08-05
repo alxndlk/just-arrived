@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mazamet",
+      "iata_code": "DCM",
+      "icao_code": "LFCK",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mazamet Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Mazamet Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.mazametairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mazamet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Salvaza",
+      "iata_code": "CCF",
+      "icao_code": "LFMK",
+      "distance_km": 36.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Salvaza Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.carcassonne-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Salvaza Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:40.824031Z",
+    "generated_at": "2025-08-04T19:29:42.614554Z",
     "env": "development",
     "source": "justarrived-generator"
   }

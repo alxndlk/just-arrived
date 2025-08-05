@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Iejima",
+      "iata_code": "IEJ",
+      "icao_code": "RORE",
+      "distance_km": 23.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Iejima Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.iejima-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Iejima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kadena AB",
+      "iata_code": "DNA",
+      "icao_code": "RODN",
+      "distance_km": 34.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kadena AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kadena AB Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.kadena.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kadena Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:10.697092Z",
+    "generated_at": "2025-08-04T18:25:44.912952Z",
     "env": "development",
     "source": "justarrived-generator"
   }

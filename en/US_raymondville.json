@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Valley International",
+      "iata_code": "HRL",
+      "icao_code": "KHRL",
+      "distance_km": 30.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "This terminal serves primarily low-cost carriers."
+        }
+      ],
+      "website": "https://www.flythevalley.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HRL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:21.911300Z",
+    "generated_at": "2025-08-04T19:25:54.291477Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Enrique Olaya Herrera International Airport",
+      "iata_code": "EOH",
+      "icao_code": "SKMD",
+      "distance_km": 15.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertoolayaherrera.gov.co/",
+      "wifi": {
+        "available": true,
+        "network_name": "EOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jose Maria Cordova",
+      "iata_code": "MDE",
+      "icao_code": "SKRG",
+      "distance_km": 30.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jose Maria Cordova Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Jose Maria Cordova Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertojosemariacordova.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MDE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:16.784455Z",
+    "generated_at": "2025-08-04T19:33:53.473459Z",
     "env": "development",
     "source": "justarrived-generator"
   }

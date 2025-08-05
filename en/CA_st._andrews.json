@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gimli",
+      "iata_code": "YGM",
+      "icao_code": "CYGM",
+      "distance_km": 44.1,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Winnipeg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gimli Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gimli Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.gimliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gimli Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Winnipeg",
+      "iata_code": "YWG",
+      "icao_code": "CYWG",
+      "distance_km": 45.1,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Winnipeg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Winnipeg Airport serves all domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Winnipeg Airport serves all international flights and includes customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.waa.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YWG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:21.427234Z",
+    "generated_at": "2025-08-04T19:17:54.552787Z",
     "env": "development",
     "source": "justarrived-generator"
   }

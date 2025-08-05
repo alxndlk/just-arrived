@@ -52,8 +52,77 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Canos",
+      "iata_code": "GAO",
+      "icao_code": "MUGT",
+      "distance_km": 15.4,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo shipments."
+        }
+      ],
+      "website": "https://www.cubajet.com/airports/los-canos-airport-gao/",
+      "wifi": {
+        "available": true,
+        "network_name": "Los Canos Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guantanamo NAS",
+      "iata_code": "NBW",
+      "icao_code": "MUGM",
+      "distance_km": 19.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal for Guantanamo NAS Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/ns_guantanamo_bay/about/installation_guide/airfield.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Guantanamo NAS Airport WiFi",
+        "note": "WiFi is available throughout the terminal, but may have limited connectivity due to the remote location of the airport."
+      }
+    },
+    {
+      "airport_name": "Orestes Acosta",
+      "iata_code": "MOA",
+      "icao_code": "MUMO",
+      "distance_km": 39.6,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orestes Acosta Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.orestesacostaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Orestes Acosta Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:02.835777Z",
+    "generated_at": "2025-08-04T18:53:42.511292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

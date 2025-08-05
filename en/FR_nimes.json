@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Garons",
+      "iata_code": "FNI",
+      "icao_code": "LFTW",
+      "distance_km": 10.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Garons Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Garons Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Montpellier Méditerranée",
+      "iata_code": "MPL",
+      "icao_code": "LFMT",
+      "distance_km": 43.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Avignon-Caumont",
+      "iata_code": "AVN",
+      "icao_code": "LFMV",
+      "distance_km": 43.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Avignon-Caumont Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.avignon.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Avignon-Caumont Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:21.975110Z",
+    "generated_at": "2025-08-04T19:58:28.242584Z",
     "env": "development",
     "source": "justarrived-generator"
   }

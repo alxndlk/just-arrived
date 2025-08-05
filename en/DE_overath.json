@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cologne/bonn Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require periodic reconnection."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:01.542907Z",
+    "generated_at": "2025-08-04T18:44:44.456966Z",
     "env": "development",
     "source": "justarrived-generator"
   }

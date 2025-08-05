@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 9.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake Simcoe Regional Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lake Simcoe Regional Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.lakesimcoeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LSR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Muskoka",
+      "iata_code": "YQA",
+      "icao_code": "CYQA",
+      "distance_km": 49.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Muskoka Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Muskoka Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.muskokaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Muskoka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:25.113426Z",
+    "generated_at": "2025-08-04T18:53:48.245037Z",
     "env": "development",
     "source": "justarrived-generator"
   }

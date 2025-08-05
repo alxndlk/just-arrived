@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Blagnac",
+      "iata_code": "TLS",
+      "icao_code": "LFBO",
+      "distance_km": 11.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Blagnac Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.toulouse.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toulouse Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:29.836751Z",
+    "generated_at": "2025-08-04T19:29:00.725595Z",
     "env": "development",
     "source": "justarrived-generator"
   }

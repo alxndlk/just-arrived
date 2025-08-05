@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 23.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 26.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glenn L Martin Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights at Glenn L Martin Airport."
+        }
+      ],
+      "website": "https://www.glennlmartinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GLM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 34.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport offers a variety of amenities and services for passengers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tipton AAF Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.tiptonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tipton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lee",
+      "iata_code": "ANP",
+      "icao_code": "KANP",
+      "distance_km": 48.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lee Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lee Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.leeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lee Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:57.808393Z",
+    "generated_at": "2025-08-04T20:07:30.718267Z",
     "env": "development",
     "source": "justarrived-generator"
   }

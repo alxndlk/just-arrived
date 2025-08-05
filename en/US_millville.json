@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 2.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.millvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MIV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 42.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Atlantic City International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Atlantic City International Airport, used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.sjta.com/acairport/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cape May County",
+      "iata_code": "WWD",
+      "icao_code": "KWWD",
+      "distance_km": 44.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dover AFB",
+      "iata_code": "DOV",
+      "icao_code": "KDOV",
+      "distance_km": 45.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dover AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Dover AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.dover.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "DOV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:05.184128Z",
+    "generated_at": "2025-08-04T20:10:29.223358Z",
     "env": "development",
     "source": "justarrived-generator"
   }

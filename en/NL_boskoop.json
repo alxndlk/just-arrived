@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 19.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's oldest and smallest terminal, primarily used for low-cost carriers."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Schiphol's main terminal, with a wide range of shops, restaurants, and services."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Schiphol's newest and most modern terminal, primarily used for intercontinental flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport Free WiFi",
+        "note": "Limited to 4 hours per device, but can be renewed."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 43.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Soesterberg Air Base is used for military operations and flights."
+        }
+      ],
+      "website": "https://www.defensie.nl/organisatie/luchtmacht/vliegbases-en-luchtmachtonderdelen/vliegbases/soesterberg-air-base",
+      "wifi": {
+        "available": true,
+        "network_name": "Soesterberg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:00.202552Z",
+    "generated_at": "2025-08-04T20:18:34.237077Z",
     "env": "development",
     "source": "justarrived-generator"
   }

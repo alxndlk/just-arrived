@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vals-Lanas",
+      "iata_code": "OBS",
+      "icao_code": "LFHO",
+      "distance_km": 38.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroport-vals-lanas.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "VALS-LANAS-AIRPORT",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:28.039439Z",
+    "generated_at": "2025-08-04T19:31:45.530125Z",
     "env": "development",
     "source": "justarrived-generator"
   }

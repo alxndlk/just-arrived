@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 25.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Atlantic City International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Atlantic City International Airport, primarily serving regional flights."
+        }
+      ],
+      "website": "https://www.sjta.com/acairport/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACY Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    },
+    {
+      "airport_name": "Robert J. Miller",
+      "iata_code": "MJX",
+      "icao_code": "KMJX",
+      "distance_km": 43.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Robert J. Miller Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Robert J. Miller Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sjta.com/atlantic-city-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "RJM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:20.243343Z",
+    "generated_at": "2025-08-04T18:53:45.760771Z",
     "env": "development",
     "source": "justarrived-generator"
   }

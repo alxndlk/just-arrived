@@ -50,8 +50,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 7.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sde Dov Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Sde Dov Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sde-dov-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirport_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 17.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main and largest terminal at Ben Gurion International Airport, handling most international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Free WiFi @ Ben Gurion Airport",
+        "note": "Passengers can enjoy free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:13.677103Z",
+    "generated_at": "2025-08-04T18:19:58.930876Z",
     "env": "development",
     "source": "justarrived-generator"
   }

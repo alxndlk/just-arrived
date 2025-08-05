@@ -51,8 +51,47 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Javier",
+      "iata_code": "MJV",
+      "icao_code": "LELC",
+      "distance_km": 12.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Corvera International",
+      "iata_code": "RMU",
+      "icao_code": "LEMI",
+      "distance_km": 18.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.corveraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Corvera Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:30.961185Z",
+    "generated_at": "2025-08-04T20:05:33.155202Z",
     "env": "development",
     "source": "justarrived-generator"
   }

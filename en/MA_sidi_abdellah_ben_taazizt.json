@@ -50,8 +50,47 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meknes",
+      "iata_code": "MEK",
+      "icao_code": "GMFM",
+      "distance_km": 20.1,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sais",
+      "iata_code": "FEZ",
+      "icao_code": "GMFF",
+      "distance_km": 36.6,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sais Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.fez-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FEZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:56.209563Z",
+    "generated_at": "2025-08-04T20:29:34.457281Z",
     "env": "development",
     "source": "justarrived-generator"
   }

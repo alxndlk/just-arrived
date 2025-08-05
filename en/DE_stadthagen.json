@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 36.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Hanover Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Hanover Airport, mainly serving budget airlines and charter flights."
+        }
+      ],
+      "website": "https://www.hannover-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hanover Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also offered for faster speeds."
+      }
+    },
+    {
+      "airport_name": "Finkenwerder",
+      "iata_code": "XFW",
+      "icao_code": "EDHI",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Finkenwerder Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.finkenwerder-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Finkenwerder Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:55.305194Z",
+    "generated_at": "2025-08-04T18:50:48.152183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

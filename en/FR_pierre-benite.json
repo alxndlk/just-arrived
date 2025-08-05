@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bron",
+      "iata_code": "LYN",
+      "icao_code": "LFLY",
+      "distance_km": 9.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bron Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bron Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.bron-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BronAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St-Exupéry",
+      "iata_code": "LYS",
+      "icao_code": "LFLL",
+      "distance_km": 19.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St-Exupéry Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at St-Exupéry Airport, primarily used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.lyonaeroports.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "LYS_WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the LYS_WiFi network and follow the instructions to access."
+      }
+    },
+    {
+      "airport_name": "Boutheon",
+      "iata_code": "EBU",
+      "icao_code": "LFMH",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Boutheon Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Boutheon Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://www.boutheon-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boutheon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:29.166743Z",
+    "generated_at": "2025-08-04T19:24:41.787843Z",
     "env": "development",
     "source": "justarrived-generator"
   }

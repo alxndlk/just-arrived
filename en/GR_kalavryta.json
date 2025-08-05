@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Araxos Airport",
+      "iata_code": "GPA",
+      "icao_code": "LGRX",
+      "distance_km": 41.3,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Araxos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.araxos-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Araxos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:57.186190Z",
+    "generated_at": "2025-08-04T19:31:56.233631Z",
     "env": "development",
     "source": "justarrived-generator"
   }

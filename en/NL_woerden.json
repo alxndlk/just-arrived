@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 26.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles mainly European flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Dedicated to low-cost carriers."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 27.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base serves both commercial and military flights."
+        }
+      ],
+      "website": "https://www.defensie.nl/onderwerpen/vliegbases/soesterberg-air-base",
+      "wifi": {
+        "available": true,
+        "network_name": "SoesterbergAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a login or registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:26.776541Z",
+    "generated_at": "2025-08-04T20:03:28.932599Z",
     "env": "development",
     "source": "justarrived-generator"
   }

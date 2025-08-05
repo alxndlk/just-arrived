@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Will Rogers World Airport",
+      "iata_code": "OKC",
+      "icao_code": "KOKC",
+      "distance_km": 37.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Will Rogers World Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Will Rogers World Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://flyokc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wiley Post",
+      "iata_code": "PWA",
+      "icao_code": "KPWA",
+      "distance_km": 40.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wiley Post Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Wiley Post Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.wileypostairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WileyPostAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:37.946223Z",
+    "generated_at": "2025-08-04T18:59:52.182983Z",
     "env": "development",
     "source": "justarrived-generator"
   }

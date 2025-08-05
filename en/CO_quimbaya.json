@@ -50,8 +50,85 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Eden",
+      "iata_code": "AXM",
+      "icao_code": "SKAR",
+      "distance_km": 20.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Eden Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at El Eden Airport is responsible for handling all cargo shipments."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/ElEden",
+      "wifi": {
+        "available": true,
+        "network_name": "ElEdenAirportWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Matecana",
+      "iata_code": "PEI",
+      "icao_code": "SKPE",
+      "distance_km": 20.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertopei.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Matecana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cartago",
+      "iata_code": "CRC",
+      "icao_code": "SKGO",
+      "distance_km": 25.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cartago Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cartago Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.cartagoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Cartago Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:02.712302Z",
+    "generated_at": "2025-08-04T18:37:44.360243Z",
     "env": "development",
     "source": "justarrived-generator"
   }

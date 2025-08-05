@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Syktyvkar",
+      "iata_code": "SCW",
+      "icao_code": "UUYY",
+      "distance_km": 4.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Syktyvkar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.syktyvkarairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Syktyvkar Airport WiFi",
+        "note": "Passengers can access the WiFi network for free for a limited time."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:59.637940Z",
+    "generated_at": "2025-08-04T19:25:46.069859Z",
     "env": "development",
     "source": "justarrived-generator"
   }

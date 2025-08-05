@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Colima",
+      "iata_code": "CLQ",
+      "icao_code": "MMIA",
+      "distance_km": 49.5,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights within Mexico."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights to and from Mexico."
+        }
+      ],
+      "website": "https://www.colima-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Colima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:42.327139Z",
+    "generated_at": "2025-08-04T18:13:52.130479Z",
     "env": "development",
     "source": "justarrived-generator"
   }

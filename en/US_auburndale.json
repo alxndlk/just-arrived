@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gilbert Field",
+      "iata_code": "GIF",
+      "icao_code": "KGIF",
+      "distance_km": 6.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bartow",
+      "iata_code": "BOW",
+      "icao_code": "KBOW",
+      "distance_km": 22.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bartow Airport serves all commercial flights and includes check-in counters, baggage claim, and boarding gates."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Bartow Airport caters to private and charter flights, offering exclusive amenities and services for passengers."
+        }
+      ],
+      "website": "https://www.bartowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BARTOW_AIRPORT_WIFI",
+        "note": "Passengers can enjoy complimentary wifi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LAL",
+      "icao_code": "KLAL",
+      "distance_km": 24.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Zephyrhills",
+      "iata_code": "ZPH",
+      "icao_code": "KZPH",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:53.079343Z",
+    "generated_at": "2025-08-04T20:17:30.374957Z",
     "env": "development",
     "source": "justarrived-generator"
   }

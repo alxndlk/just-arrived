@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sendai",
+      "iata_code": "SDJ",
+      "icao_code": "RJSS",
+      "distance_km": 21.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sendai Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Sendai Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.sendai-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sendai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:33.321861Z",
+    "generated_at": "2025-08-04T18:43:58.221569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

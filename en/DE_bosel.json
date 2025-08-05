@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Varrelbusch",
+      "iata_code": "VAC",
+      "icao_code": "EDWU",
+      "distance_km": 11.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Varrelbusch Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.varrelbuschairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Varrelbusch Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leer Papenburg Airport",
+      "iata_code": "QEJ",
+      "icao_code": "EDWF",
+      "distance_km": 45.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leer Papenburg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights and private charters."
+        }
+      ],
+      "website": "https://www.leerpapenburgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeerPapenburgAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:09.615587Z",
+    "generated_at": "2025-08-04T20:32:36.260675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

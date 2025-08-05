@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamilton",
+      "iata_code": "HLZ",
+      "icao_code": "NZHN",
+      "distance_km": 15.8,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hamilton Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.hamiltonairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hamilton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Raglan",
+      "iata_code": "RAG",
+      "icao_code": "NZRA",
+      "distance_km": 44.7,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Raglan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Raglan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.raglanairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Raglan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:50.256773Z",
+    "generated_at": "2025-08-04T19:16:48.572946Z",
     "env": "development",
     "source": "justarrived-generator"
   }

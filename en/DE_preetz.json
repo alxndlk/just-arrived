@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiel-Holtenau",
+      "iata_code": "KEL",
+      "icao_code": "EDHK",
+      "distance_km": 18.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kiel-Holtenau Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights and private aircraft."
+        }
+      ],
+      "website": "https://www.kiel-holtenau-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kiel-Holtenau Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 44.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:25.874362Z",
+    "generated_at": "2025-08-04T20:18:36.092371Z",
     "env": "development",
     "source": "justarrived-generator"
   }

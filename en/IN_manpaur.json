@@ -51,8 +51,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Janakpur",
+      "iata_code": "JKR",
+      "icao_code": "VNJP",
+      "distance_km": 22.4,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Janakpur Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.janakpurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Janakpur Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Darbhanga Airport",
+      "iata_code": "DBR",
+      "icao_code": "VE89",
+      "distance_km": 35.1,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:30.010268Z",
+    "generated_at": "2025-08-04T20:26:29.686561Z",
     "env": "development",
     "source": "justarrived-generator"
   }

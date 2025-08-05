@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guetersloh",
+      "iata_code": "GUT",
+      "icao_code": "ETUO",
+      "distance_km": 8.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.guetersloh-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "GUT Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 25.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bielefeld Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.bielefeld-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BFE-Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited speed and data usage."
+      }
+    },
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 33.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Paderborn/lippstadt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.airport-pad.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:38.098937Z",
+    "generated_at": "2025-08-04T18:29:51.542785Z",
     "env": "development",
     "source": "justarrived-generator"
   }

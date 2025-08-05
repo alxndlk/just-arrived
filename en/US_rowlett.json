@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Love Field",
+      "iata_code": "DAL",
+      "icao_code": "KDAL",
+      "distance_km": 29.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Terrell Field",
+      "iata_code": "TRL",
+      "icao_code": "KTRL",
+      "distance_km": 32.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Terrell Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Terrell Field Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.terrellfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TerrellFieldAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Redbird",
+      "iata_code": "RBD",
+      "icao_code": "KRBD",
+      "distance_km": 39.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dallas/Fort Worth International",
+      "iata_code": "DFW",
+      "icao_code": "KDFW",
+      "distance_km": 45.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Majors Field",
+      "iata_code": "GVT",
+      "icao_code": "KGVT",
+      "distance_km": 48.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Majors Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private flights and offers luxurious amenities for passengers."
+        }
+      ],
+      "website": "https://www.flygvt.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GVT Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:53.107737Z",
+    "generated_at": "2025-08-04T20:01:35.055605Z",
     "env": "development",
     "source": "justarrived-generator"
   }

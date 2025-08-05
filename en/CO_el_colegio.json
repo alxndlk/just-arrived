@@ -50,8 +50,39 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Nuevo Dorado International",
+      "iata_code": "BOG",
+      "icao_code": "SKBO",
+      "distance_km": 35.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Newest terminal, mainly for international flights."
+        }
+      ],
+      "website": "https://eldorado.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ElDoradoWiFi",
+        "note": "Free WiFi available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:06.764663Z",
+    "generated_at": "2025-08-04T18:51:47.598343Z",
     "env": "development",
     "source": "justarrived-generator"
   }

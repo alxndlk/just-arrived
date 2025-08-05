@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "HAR",
+      "icao_code": "KCXY",
+      "distance_km": 31.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Capital City Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Capital City Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Harrisburg International",
+      "iata_code": "MDT",
+      "icao_code": "KMDT",
+      "distance_km": 39.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Harrisburg International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Harrisburg International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flyhia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HIA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:33.554386Z",
+    "generated_at": "2025-08-04T19:16:42.187495Z",
     "env": "development",
     "source": "justarrived-generator"
   }

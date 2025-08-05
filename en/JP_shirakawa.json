@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fukushima Airport",
+      "iata_code": "FKS",
+      "icao_code": "RJSF",
+      "distance_km": 22.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fukushima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fukushima Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.fks-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FKS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:13.650612Z",
+    "generated_at": "2025-08-04T18:26:42.940975Z",
     "env": "development",
     "source": "justarrived-generator"
   }

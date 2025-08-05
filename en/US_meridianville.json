@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Huntsville International - Carl T. Jones Field",
+      "iata_code": "HSV",
+      "icao_code": "KHSV",
+      "distance_km": 31.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Huntsville International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Huntsville International Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flyhuntsville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HSV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pyor",
+      "iata_code": "DCU",
+      "icao_code": "KDCU",
+      "distance_km": 48.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.pyorairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "PyorAirportWifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:11.092884Z",
+    "generated_at": "2025-08-04T19:25:51.586058Z",
     "env": "development",
     "source": "justarrived-generator"
   }

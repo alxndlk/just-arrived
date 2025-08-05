@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toledo",
+      "iata_code": "TOW",
+      "icao_code": "SBTD",
+      "distance_km": 39.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Toledo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.toledoairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "Toledo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cascavel",
+      "iata_code": "CAC",
+      "icao_code": "SBCA",
+      "distance_km": 39.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cascavel Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights and private charters."
+        }
+      ],
+      "website": "http://www.aeroportocascavel.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAC_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:42.968168Z",
+    "generated_at": "2025-08-04T20:17:29.609254Z",
     "env": "development",
     "source": "justarrived-generator"
   }

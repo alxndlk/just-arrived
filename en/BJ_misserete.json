@@ -47,8 +47,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cotonou",
+      "iata_code": "COO",
+      "icao_code": "DBBB",
+      "distance_km": 32.1,
+      "gmt": "1",
+      "country": "Benin",
+      "timezone": "Africa/Porto-Novo",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Cotonou Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Cotonou Airport."
+        }
+      ],
+      "website": "https://www.aeroport-cotonou.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "COO Airport Wifi",
+        "note": "Passengers can access free wifi for 30 minutes in the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:48.631524Z",
+    "generated_at": "2025-08-04T18:12:57.487167Z",
     "env": "development",
     "source": "justarrived-generator"
   }

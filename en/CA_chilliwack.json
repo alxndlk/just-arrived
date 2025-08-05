@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chilliwack Municipalcipal Airport",
+      "iata_code": "YCW",
+      "icao_code": "CYCW",
+      "distance_km": 3.8,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chilliwack Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Chilliwack Municipal Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.chilliwackairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YCW Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Abbotsford",
+      "iata_code": "YXX",
+      "icao_code": "CYXX",
+      "distance_km": 33.3,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:19.482539Z",
+    "generated_at": "2025-08-04T19:59:35.206139Z",
     "env": "development",
     "source": "justarrived-generator"
   }

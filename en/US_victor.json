@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Rochester International",
+      "iata_code": "ROC",
+      "icao_code": "KROC",
+      "distance_km": 24.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rochester International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights, with a few international flights operated by Air Canada."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves as the hub for Delta Air Lines, with most of their domestic and international flights departing from here."
+        }
+      ],
+      "website": "https://www.rochesterairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "ROC Free WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit or data cap."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:23.586844Z",
+    "generated_at": "2025-08-04T19:04:47.079000Z",
     "env": "development",
     "source": "justarrived-generator"
   }

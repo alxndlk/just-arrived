@@ -54,8 +54,68 @@
     "police": "104"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tocumen International",
+      "iata_code": "PTY",
+      "icao_code": "MPTO",
+      "distance_km": 11.9,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Paitilla-Marcos A. Gelabert",
+      "iata_code": "PAC",
+      "icao_code": "MPMG",
+      "distance_km": 12.8,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paitilla-Marcos A. Gelabert Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Paitilla-Marcos A. Gelabert Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.tocumenpanama.aero/en",
+      "wifi": {
+        "available": true,
+        "network_name": "PAC Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Blas",
+      "iata_code": "NBL",
+      "icao_code": "MPWN",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Blas Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.sanblasairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SanBlasAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network for internet access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:31.687708Z",
+    "generated_at": "2025-08-04T20:03:29.350161Z",
     "env": "development",
     "source": "justarrived-generator"
   }

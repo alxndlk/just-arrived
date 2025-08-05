@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "FBL",
+      "icao_code": "KFBL",
+      "distance_km": 18.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those flying on private jets, there is a separate terminal with luxurious lounges and concierge services."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Minneapolis - St. Paul International",
+      "iata_code": "MSP",
+      "icao_code": "KMSP",
+      "distance_km": 47.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Minneapolis - St. Paul International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Minneapolis - St. Paul International Airport, primarily serving low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.mspairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSP Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:13.696324Z",
+    "generated_at": "2025-08-04T18:54:41.389204Z",
     "env": "development",
     "source": "justarrived-generator"
   }

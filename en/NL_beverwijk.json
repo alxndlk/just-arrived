@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 20.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Schiphol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for some European and intercontinental flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal primarily used for intercontinental flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A dedicated terminal for SkyTeam airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "A newer terminal used for some European and intercontinental flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:24.780270Z",
+    "generated_at": "2025-08-04T18:32:57.950419Z",
     "env": "development",
     "source": "justarrived-generator"
   }

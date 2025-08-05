@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Livingstone",
+      "iata_code": "LVI",
+      "icao_code": "FLLI",
+      "distance_km": 12.6,
+      "gmt": "2",
+      "country": "Zambia",
+      "timezone": "Africa/Lusaka",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Livingstone Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Livingstone Airport offers exclusive services for premium travelers."
+        }
+      ],
+      "website": "https://www.livingstoneairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Livingstone Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Victoria Falls",
+      "iata_code": "VFA",
+      "icao_code": "FVFA",
+      "distance_km": 17.8,
+      "gmt": "2",
+      "country": "Zimbabwe",
+      "timezone": "Africa/Harare",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Victoria Falls Airport handles both international and domestic flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Victoria Falls Airport handles flights within Zimbabwe."
+        }
+      ],
+      "website": "https://www.caaz.co.zw/index.php/airports/victoria-falls-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "VFA Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:06.852042Z",
+    "generated_at": "2025-08-04T18:37:43.945701Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Raglan",
+      "iata_code": "BHS",
+      "icao_code": "YBTH",
+      "distance_km": 4.6,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Raglan Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.raglanairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Raglan Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Springhill",
+      "iata_code": "OAG",
+      "icao_code": "YORG",
+      "distance_km": 44.9,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Springhill Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Springhill Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.springhillairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Springhill Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:06.492223Z",
+    "generated_at": "2025-08-04T19:33:49.100348Z",
     "env": "development",
     "source": "justarrived-generator"
   }

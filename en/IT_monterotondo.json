@@ -51,8 +51,64 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ciampino Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ciampino Airport, primarily used by low-cost airlines."
+        }
+      ],
+      "website": "https://www.adr.it/ciampino",
+      "wifi": {
+        "available": true,
+        "network_name": "Ciampino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leonardo Da Vinci (Fiumicino)",
+      "iata_code": "FCO",
+      "icao_code": "LIRF",
+      "distance_km": 41.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leonardo Da Vinci Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Leonardo Da Vinci Airport, primarily used by low-cost airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Leonardo Da Vinci Airport, serving mostly international flights."
+        }
+      ],
+      "website": "https://www.adr.it/en/fiumicino",
+      "wifi": {
+        "available": true,
+        "network_name": "FCO Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 4 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:57.995873Z",
+    "generated_at": "2025-08-04T18:33:51.586131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

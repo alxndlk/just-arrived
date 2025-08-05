@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meixian",
+      "iata_code": "MXZ",
+      "icao_code": "ZGMX",
+      "distance_km": 20.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.meixianairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Meixian Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Xingning",
+      "iata_code": "XIN",
+      "icao_code": "ZGXN",
+      "distance_km": 49.2,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.xingningairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Xingning Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:02.525874Z",
+    "generated_at": "2025-08-04T18:36:43.475362Z",
     "env": "development",
     "source": "justarrived-generator"
   }

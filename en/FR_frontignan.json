@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Montpellier Méditerranée",
+      "iata_code": "MPL",
+      "icao_code": "LFMT",
+      "distance_km": 21.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Montpellier Méditerranée Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Montpellier Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beziers Vias",
+      "iata_code": "BZR",
+      "icao_code": "LFMU",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beziers Vias Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Beziers Vias Airport, primarily used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.beziers.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Beziers Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:31.174899Z",
+    "generated_at": "2025-08-04T18:49:42.804564Z",
     "env": "development",
     "source": "justarrived-generator"
   }

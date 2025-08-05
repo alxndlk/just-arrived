@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 31.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake Simcoe Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lake Simcoe Regional Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.lakesimcoeairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "LakeSimcoeAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:51.621194Z",
+    "generated_at": "2025-08-04T18:50:44.397865Z",
     "env": "development",
     "source": "justarrived-generator"
   }

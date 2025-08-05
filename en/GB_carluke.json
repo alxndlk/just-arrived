@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Edinburgh",
+      "iata_code": "EDI",
+      "icao_code": "EGPH",
+      "distance_km": 37.8,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Edinburgh Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Gates 1-6",
+          "description": "This terminal is used for boarding and disembarking flights to and from the UK and Ireland."
+        },
+        {
+          "name": "Gates 7-11",
+          "description": "This terminal is used for boarding and disembarking flights to and from Europe, North Africa, and the Middle East."
+        },
+        {
+          "name": "Gates 12-14",
+          "description": "This terminal is used for boarding and disembarking flights to and from North America and the rest of the world."
+        }
+      ],
+      "website": "https://www.edinburghairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EDI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Connect to the 'EDI Airport WiFi' network and follow the instructions to connect."
+      }
+    },
+    {
+      "airport_name": "Glasgow International",
+      "iata_code": "GLA",
+      "icao_code": "EGPF",
+      "distance_km": 40.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glasgow International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Glasgow International Airport is used for overflow and seasonal flights."
+        }
+      ],
+      "website": "https://www.glasgowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GLA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:43.295406Z",
+    "generated_at": "2025-08-04T20:22:34.749602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hawkes Bay",
+      "iata_code": "NPE",
+      "icao_code": "NZNR",
+      "distance_km": 4.7,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hawkes Bay Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Hawkes Bay Airport serves smaller airlines and charter flights."
+        }
+      ],
+      "website": "https://www.hawkesbay-airport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "HawkesBayAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:22.556887Z",
+    "generated_at": "2025-08-04T18:25:49.568474Z",
     "env": "development",
     "source": "justarrived-generator"
   }

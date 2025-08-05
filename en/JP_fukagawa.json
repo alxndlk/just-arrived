@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Asahikawa",
+      "iata_code": "AKJ",
+      "icao_code": "RJEC",
+      "distance_km": 33.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Asahikawa Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Asahikawa Airport handles all domestic flights within Japan."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Asahikawa Airport handles all international flights to and from other countries."
+        }
+      ],
+      "website": "https://www.asahikawa-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Asahikawa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:33.952441Z",
+    "generated_at": "2025-08-04T18:55:41.012220Z",
     "env": "development",
     "source": "justarrived-generator"
   }

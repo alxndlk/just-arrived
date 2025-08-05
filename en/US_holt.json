@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "LAN",
+      "icao_code": "KLAN",
+      "distance_km": 15.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Capital City Airport houses all major airlines and provides a variety of services for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Capital City Airport handles all freight and cargo shipments for the airport."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Reynolds Municipal",
+      "iata_code": "JXN",
+      "icao_code": "KJXN",
+      "distance_km": 42.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:59.793506Z",
+    "generated_at": "2025-08-04T20:11:32.818454Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Matias",
+      "iata_code": "MQK",
+      "icao_code": "SLTI",
+      "distance_km": 3.6,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Matias Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Matias Airport is responsible for handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.sanmatiasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanMatiasAirportWiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:48.283864Z",
+    "generated_at": "2025-08-04T19:37:41.181318Z",
     "env": "development",
     "source": "justarrived-generator"
   }

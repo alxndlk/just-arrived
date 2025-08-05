@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Rochester International",
+      "iata_code": "ROC",
+      "icao_code": "KROC",
+      "distance_km": 29.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rochester International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves domestic flights operated by major airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves regional flights operated by smaller airlines."
+        }
+      ],
+      "website": "https://www2.monroecounty.gov/airport-index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "ROC Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:36.515285Z",
+    "generated_at": "2025-08-04T19:31:49.509390Z",
     "env": "development",
     "source": "justarrived-generator"
   }

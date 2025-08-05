@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tashkent International",
+      "iata_code": "TAS",
+      "icao_code": "UTTT",
+      "distance_km": 16.4,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tashkent International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to international flights, primarily used by Uzbekistan Airways."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for domestic flights, with modern facilities and amenities."
+        }
+      ],
+      "website": "https://www.tas.uz/",
+      "wifi": {
+        "available": true,
+        "network_name": "TAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a password from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:25.401921Z",
+    "generated_at": "2025-08-04T18:41:40.046567Z",
     "env": "development",
     "source": "justarrived-generator"
   }

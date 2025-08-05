@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wanganui",
+      "iata_code": "WAG",
+      "icao_code": "NZWU",
+      "distance_km": 3.9,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wanganui Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.wanganuiairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wanganui Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Royal Air Force Base",
+      "iata_code": "OHA",
+      "icao_code": "NZOH",
+      "distance_km": 41.9,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Royal Air Force Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Royal Air Force Base Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.airforce.mil.nz/ohakea/",
+      "wifi": {
+        "available": true,
+        "network_name": "RAFB Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:58.738686Z",
+    "generated_at": "2025-08-04T18:34:47.654637Z",
     "env": "development",
     "source": "justarrived-generator"
   }

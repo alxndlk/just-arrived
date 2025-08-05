@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stuttgart Echterdingen",
+      "iata_code": "STR",
+      "icao_code": "EDDS",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Heidelberg Airport",
+      "iata_code": "HDB",
+      "icao_code": "EDIU",
+      "distance_km": 49.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Heidelberg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.heidelberg-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heidelberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport, simply connect to the network and accept the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:42.435445Z",
+    "generated_at": "2025-08-04T20:25:29.505041Z",
     "env": "development",
     "source": "justarrived-generator"
   }

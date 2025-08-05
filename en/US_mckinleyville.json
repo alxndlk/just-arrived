@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arcata",
+      "iata_code": "ACV",
+      "icao_code": "KACV",
+      "distance_km": 3.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arcata Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arcata Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://flyacv.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Murray Field",
+      "iata_code": "EKA",
+      "icao_code": "KEKA",
+      "distance_km": 16.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Murray Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Murray Field Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.murrayfieldairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Murray Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:37.386485Z",
+    "generated_at": "2025-08-04T19:01:42.955250Z",
     "env": "development",
     "source": "justarrived-generator"
   }

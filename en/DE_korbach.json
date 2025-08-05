@@ -49,8 +49,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fritzlar Airbase",
+      "iata_code": "FRZ",
+      "icao_code": "ETHF",
+      "distance_km": 33.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kassel-Calden",
+      "iata_code": "KSF",
+      "icao_code": "EDVK",
+      "distance_km": 38.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kassel-Calden Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.kassel-airport.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kassel-Calden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 40.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Paderborn/Lippstadt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and seasonal destinations."
+        }
+      ],
+      "website": "https://www.paderborn-lippstadt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:57.111314Z",
+    "generated_at": "2025-08-04T20:12:28.755308Z",
     "env": "development",
     "source": "justarrived-generator"
   }

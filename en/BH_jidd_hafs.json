@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 10.4,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bahrain International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bahrain International Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 20.5,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 41.0,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at King Abdulaziz AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at King Abdulaziz AB Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.jed-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JED Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:14.754157Z",
+    "generated_at": "2025-08-04T20:01:32.254274Z",
     "env": "development",
     "source": "justarrived-generator"
   }

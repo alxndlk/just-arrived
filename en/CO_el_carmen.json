@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aguasclaras",
+      "iata_code": "OCV",
+      "icao_code": "SKOC",
+      "distance_km": 32.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aguasclarasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AguasclarasAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:44.639733Z",
+    "generated_at": "2025-08-04T19:17:40.211660Z",
     "env": "development",
     "source": "justarrived-generator"
   }

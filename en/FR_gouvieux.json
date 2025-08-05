@@ -51,8 +51,88 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 23.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest and busiest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals (2A to 2G) serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Charles De Gaulle Airport, mainly used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/airport/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also offered for faster connection speeds."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 24.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Paris Cergy Pontoise",
+      "iata_code": "POX",
+      "icao_code": "LFPT",
+      "distance_km": 27.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Beauvais-Tille",
+      "iata_code": "BVA",
+      "icao_code": "LFOB",
+      "distance_km": 37.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beauvais-Tille Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Beauvais-Tille Airport, primarily used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.aeroportparisbeauvais.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Beauvais Airport Free WiFi",
+        "note": "WiFi is available throughout the airport, but may experience slow speeds during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:24.804581Z",
+    "generated_at": "2025-08-04T20:32:37.398925Z",
     "env": "development",
     "source": "justarrived-generator"
   }

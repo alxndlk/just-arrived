@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Saint Cloud Regional",
+      "iata_code": "STC",
+      "icao_code": "KSTC",
+      "distance_km": 5.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Saint Cloud Regional Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.stcloudairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Princeton Municipal Airport",
+      "iata_code": "PNM",
+      "icao_code": "KPNM",
+      "distance_km": 42.7,
+      "gmt": "-5",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Princeton Municipal Airport, serving all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights at Princeton Municipal Airport."
+        }
+      ],
+      "website": "https://www.princetonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PrincetonAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:35.516893Z",
+    "generated_at": "2025-08-04T20:21:36.673801Z",
     "env": "development",
     "source": "justarrived-generator"
   }

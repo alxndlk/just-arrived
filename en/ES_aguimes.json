@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gran Canaria",
+      "iata_code": "LPA",
+      "icao_code": "GCLP",
+      "distance_km": 7.5,
+      "gmt": null,
+      "country": "Spain",
+      "timezone": "Atlantic/Canary",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gran Canaria Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/gran-canaria-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "GranCanariaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:56.877799Z",
+    "generated_at": "2025-08-04T20:07:34.981809Z",
     "env": "development",
     "source": "justarrived-generator"
   }

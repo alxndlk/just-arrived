@@ -51,8 +51,93 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 8.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mandelieu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Mandelieu Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mandelieu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cote D'azur International Airport",
+      "iata_code": "NCE",
+      "icao_code": "LFMN",
+      "distance_km": 19.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 37.8,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fontvieille Heliport Airport is a small and modern facility, offering convenient access to private and charter flights."
+        }
+      ],
+      "website": "https://www.monte-carlo.mc/en/fontvieille-heliport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fontvieille_Heliport_WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "La Mole",
+      "iata_code": "LTT",
+      "icao_code": "LFTZ",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.la-mole-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "La Mole Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:32.078637Z",
+    "generated_at": "2025-08-04T20:27:31.767554Z",
     "env": "development",
     "source": "justarrived-generator"
   }

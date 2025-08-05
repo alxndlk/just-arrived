@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Criciuma",
+      "iata_code": "CCM",
+      "icao_code": "SBCM",
+      "distance_km": 38.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Criciuma Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.criciumaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Criciuma Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Jaguaruna Regional Airport",
+      "iata_code": "JJG",
+      "icao_code": "SBJA",
+      "distance_km": 41.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jaguaruna Regional Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jaguaruna Regional Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.jaguarunaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jaguaruna Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:41.409989Z",
+    "generated_at": "2025-08-04T20:12:32.301372Z",
     "env": "development",
     "source": "justarrived-generator"
   }

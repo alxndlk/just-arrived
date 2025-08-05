@@ -51,8 +51,64 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 27.6,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Charleroi Brussels South Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Charleroi Brussels South Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.brussels-charleroi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited bandwidth for streaming or large downloads."
+      }
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves mainly international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves mainly domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves mainly low-cost carriers."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BRU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:02.343781Z",
+    "generated_at": "2025-08-04T18:51:46.379160Z",
     "env": "development",
     "source": "justarrived-generator"
   }

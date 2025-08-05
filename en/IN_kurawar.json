@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bhopal",
+      "iata_code": "BHO",
+      "icao_code": "VABP",
+      "distance_km": 41.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bhopal Airport serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bhopal Airport dedicated to domestic flights operated by low-cost carriers."
+        }
+      ],
+      "website": "https://www.bhopalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BHO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:38.207248Z",
+    "generated_at": "2025-08-04T19:05:48.319953Z",
     "env": "development",
     "source": "justarrived-generator"
   }

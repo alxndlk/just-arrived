@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rock County",
+      "iata_code": "JVL",
+      "icao_code": "KJVL",
+      "distance_km": 30.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rock County Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Rock County Airport caters to private jets and offers exclusive services for private jet travelers."
+        }
+      ],
+      "website": "https://www.rockcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RockCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dane County Regional",
+      "iata_code": "MSN",
+      "icao_code": "KMSN",
+      "distance_km": 47.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dane County Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a smaller terminal at Dane County Regional Airport, serving regional flights."
+        }
+      ],
+      "website": "https://www.msnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:25.471396Z",
+    "generated_at": "2025-08-04T19:15:43.273856Z",
     "env": "development",
     "source": "justarrived-generator"
   }

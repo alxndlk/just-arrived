@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kagoshima",
+      "iata_code": "KOJ",
+      "icao_code": "RJFK",
+      "distance_km": 45.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kagoshima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kagoshima Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.koj-ab.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kagoshima Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the network and entering their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:40.929771Z",
+    "generated_at": "2025-08-04T18:40:47.749115Z",
     "env": "development",
     "source": "justarrived-generator"
   }

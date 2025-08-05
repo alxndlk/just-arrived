@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Halle",
+      "iata_code": "LEJ",
+      "icao_code": "EDDP",
+      "distance_km": 26.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and budget airlines."
+        }
+      ],
+      "website": "https://www.leipzig-halle-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LEJ Free Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:35.740056Z",
+    "generated_at": "2025-08-04T20:31:36.736066Z",
     "env": "development",
     "source": "justarrived-generator"
   }

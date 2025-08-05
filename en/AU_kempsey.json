@@ -48,8 +48,52 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kempsey",
+      "iata_code": "KPS",
+      "icao_code": "YKMP",
+      "distance_km": 6.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kempsey Airport serves all domestic flights."
+        }
+      ],
+      "website": "https://www.kempseyairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "KPS Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Port Macquarie",
+      "iata_code": "PQQ",
+      "icao_code": "YPMQ",
+      "distance_km": 38.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Macquarie Airport, serving domestic and regional flights."
+        }
+      ],
+      "website": "https://www.pmairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "PMAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:36.079420Z",
+    "generated_at": "2025-08-04T19:38:55.931978Z",
     "env": "development",
     "source": "justarrived-generator"
   }

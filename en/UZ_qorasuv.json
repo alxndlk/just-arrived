@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Osh International Airport",
+      "iata_code": "OSS",
+      "icao_code": "UAFO",
+      "distance_km": 15.3,
+      "gmt": "6",
+      "country": "Kyrgyzstan",
+      "timezone": "Asia/Bishkek",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://oshairport.kg/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osh Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Andizhan",
+      "iata_code": "AZN",
+      "icao_code": "UTKA",
+      "distance_km": 49.5,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:06.153161Z",
+    "generated_at": "2025-08-04T20:07:35.527922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

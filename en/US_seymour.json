@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Freeman Municipalcipal",
+      "iata_code": "SER",
+      "icao_code": "KSER",
+      "distance_km": 2.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Columbus Municipal",
+      "iata_code": "CLU",
+      "icao_code": "KBAK",
+      "distance_km": 30.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Columbus Municipal Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Columbus Municipal Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.columbusairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:21.190548Z",
+    "generated_at": "2025-08-04T20:19:28.362969Z",
     "env": "development",
     "source": "justarrived-generator"
   }

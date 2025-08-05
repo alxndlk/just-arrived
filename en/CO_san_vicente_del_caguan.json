@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Vicente",
+      "iata_code": "SVI",
+      "icao_code": "SKSV",
+      "distance_km": 3.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Vicente Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at San Vicente Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.sanvicenteairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SVI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:42.584225Z",
+    "generated_at": "2025-08-04T18:23:37.727982Z",
     "env": "development",
     "source": "justarrived-generator"
   }

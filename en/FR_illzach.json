@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 24.6,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Euroairport Swiss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Euroairport Swiss Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.euroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 24.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Colmar-houssen",
+      "iata_code": "CMR",
+      "icao_code": "LFGA",
+      "distance_km": 33.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Colmar-houssen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The dedicated terminal for handling cargo shipments at Colmar-houssen Airport."
+        }
+      ],
+      "website": "https://www.colmar-houssen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ColmarHoussenAirport",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:45.275264Z",
+    "generated_at": "2025-08-04T19:06:49.787152Z",
     "env": "development",
     "source": "justarrived-generator"
   }

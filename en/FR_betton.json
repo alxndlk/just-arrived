@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Jacques",
+      "iata_code": "RNS",
+      "icao_code": "LFRN",
+      "distance_km": 14.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St Jacques Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at St Jacques Airport, primarily used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.rennes.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "St Jacques Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for the first 2 hours. Additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:05.041563Z",
+    "generated_at": "2025-08-04T19:14:40.630314Z",
     "env": "development",
     "source": "justarrived-generator"
   }

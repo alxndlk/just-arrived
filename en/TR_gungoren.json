@@ -50,8 +50,51 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Istanbul Airport",
+      "iata_code": "IST",
+      "icao_code": "LTFM",
+      "distance_km": 29.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Istanbul Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Istanbul Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Istanbul Airport, dedicated to international flights."
+        }
+      ],
+      "website": "https://www.istairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "IST Airport Wifi",
+        "note": "Free wifi is available throughout the airport. Simply connect to the network and follow the instructions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Sabiha Gokcen",
+      "iata_code": "SAW",
+      "icao_code": "LTFJ",
+      "distance_km": 39.0,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:24.945304Z",
+    "generated_at": "2025-08-04T19:57:26.280414Z",
     "env": "development",
     "source": "justarrived-generator"
   }

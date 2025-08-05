@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miyazaki",
+      "iata_code": "KMI",
+      "icao_code": "RJFM",
+      "distance_km": 49.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Miyazaki Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Miyazaki Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.miyazaki-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miyazaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:47.040079Z",
+    "generated_at": "2025-08-04T19:02:41.084048Z",
     "env": "development",
     "source": "justarrived-generator"
   }

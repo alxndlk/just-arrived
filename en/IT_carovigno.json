@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Papola Casale",
+      "iata_code": "BDS",
+      "icao_code": "LIBR",
+      "distance_km": 24.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "M. A. Grottag",
+      "iata_code": "TAR",
+      "icao_code": "LIBG",
+      "distance_km": 30.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.grottagairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Grottag Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:18.647438Z",
+    "generated_at": "2025-08-04T20:17:36.769055Z",
     "env": "development",
     "source": "justarrived-generator"
   }

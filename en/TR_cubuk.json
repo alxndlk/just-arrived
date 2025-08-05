@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Esenboga International",
+      "iata_code": "ESB",
+      "icao_code": "LTAC",
+      "distance_km": 14.2,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights departing and arriving at Esenboga International Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights departing and arriving at Esenboga International Airport."
+        }
+      ],
+      "website": "https://www.esenbogaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Esenboga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Etimesgut",
+      "iata_code": "ANK",
+      "icao_code": "LTAD",
+      "distance_km": 33.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.etimesgutairport.com.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Etimesgut Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:01.625045Z",
+    "generated_at": "2025-08-04T18:19:54.034531Z",
     "env": "development",
     "source": "justarrived-generator"
   }

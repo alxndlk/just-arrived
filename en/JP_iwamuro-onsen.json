@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niigata",
+      "iata_code": "KIJ",
+      "icao_code": "RJSN",
+      "distance_km": 33.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niigata Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Niigata Airport handles all international flights."
+        }
+      ],
+      "website": "https://www.niigata-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niigata Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after completing a short registration process."
+      }
+    },
+    {
+      "airport_name": "Sado Shima",
+      "iata_code": "SDS",
+      "icao_code": "RJSD",
+      "distance_km": 47.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sado Shima Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.sado-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "SadoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:27.843162Z",
+    "generated_at": "2025-08-04T19:28:41.487953Z",
     "env": "development",
     "source": "justarrived-generator"
   }

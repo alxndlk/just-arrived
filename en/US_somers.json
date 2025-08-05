@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Danbury Municipal Airport",
+      "iata_code": "DXR",
+      "icao_code": "KDXR",
+      "distance_km": 24.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 26.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all major airlines flying in and out of Westchester County Apt Airport."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "This terminal is dedicated to private and chartered flights."
+        }
+      ],
+      "website": "https://www.airportsite.com/westchester-county-apt",
+      "wifi": {
+        "available": true,
+        "network_name": "Westchester Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stewart",
+      "iata_code": "SWF",
+      "icao_code": "KSWF",
+      "distance_km": 38.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.swfny.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SWF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dutchess County",
+      "iata_code": "POU",
+      "icao_code": "KPOU",
+      "distance_km": 38.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dutchess County Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Dutchess County Airport caters to private and charter flights, offering exclusive services and amenities."
+        }
+      ],
+      "website": "https://www.dutchesscountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dutchess County Airport WiFi",
+        "note": "WiFi is available for free throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:01.303703Z",
+    "generated_at": "2025-08-04T20:14:26.417877Z",
     "env": "development",
     "source": "justarrived-generator"
   }

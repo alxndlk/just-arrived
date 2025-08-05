@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leer Papenburg Airport",
+      "iata_code": "QEJ",
+      "icao_code": "EDWF",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leer Papenburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.leer-papenburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "LP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Juist",
+      "iata_code": "JUI",
+      "icao_code": "EDWJ",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Juist Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.juist-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Juist Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:02.865009Z",
+    "generated_at": "2025-08-04T20:21:30.229257Z",
     "env": "development",
     "source": "justarrived-generator"
   }

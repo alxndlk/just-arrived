@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jessore",
+      "iata_code": "JSR",
+      "icao_code": "VGJR",
+      "distance_km": 45.0,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jessore Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.caab.gov.bd/airports/jessore-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "JSR Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited speed and connectivity."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:43.718022Z",
+    "generated_at": "2025-08-04T19:36:44.703511Z",
     "env": "development",
     "source": "justarrived-generator"
   }

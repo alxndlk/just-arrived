@@ -50,8 +50,56 @@
     "police": "91"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gambela",
+      "iata_code": "GMB",
+      "icao_code": "HAGM",
+      "distance_km": 3.7,
+      "gmt": "3",
+      "country": "Ethiopia",
+      "timezone": "Africa/Addis_Ababa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gambela Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gambela Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ethiopianairports.gov.et/index.php/gambela-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Gambela Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Dembidollo",
+      "iata_code": "DEM",
+      "icao_code": "HADD",
+      "distance_km": 48.6,
+      "gmt": "3",
+      "country": "Ethiopia",
+      "timezone": "Africa/Addis_Ababa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dembidollo Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.ethiopianairports.gov.et/dembidollo-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Dembidollo Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:47.436374Z",
+    "generated_at": "2025-08-04T18:19:48.320117Z",
     "env": "development",
     "source": "justarrived-generator"
   }

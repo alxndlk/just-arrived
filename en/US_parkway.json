@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sacramento International",
+      "iata_code": "SMF",
+      "icao_code": "KSMF",
+      "distance_km": 24.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Sacramento International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Sacramento International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://sacramento.aero/smf",
+      "wifi": {
+        "available": true,
+        "network_name": "SMF Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require multiple logins for longer stays."
+      }
+    },
+    {
+      "airport_name": "Travis AFB",
+      "iata_code": "SUU",
+      "icao_code": "KSUU",
+      "distance_km": 49.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Travis AFB Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.travis.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TravisAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:27.412530Z",
+    "generated_at": "2025-08-04T19:04:49.641224Z",
     "env": "development",
     "source": "justarrived-generator"
   }

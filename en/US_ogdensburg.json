@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ogdensburg",
+      "iata_code": "OGS",
+      "icao_code": "KOGS",
+      "distance_km": 3.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ogdensburg Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.flyogs.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OGS Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Brockville",
+      "iata_code": "XBR",
+      "icao_code": "CNL3",
+      "distance_km": 21.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brockville Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Brockville Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.brockvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brockville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Smith Falls",
+      "iata_code": "YSH",
+      "icao_code": "CYSH",
+      "distance_km": 45.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:17.486604Z",
+    "generated_at": "2025-08-04T20:30:37.581518Z",
     "env": "development",
     "source": "justarrived-generator"
   }

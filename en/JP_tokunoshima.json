@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tokunoshima",
+      "iata_code": "TKN",
+      "icao_code": "RJKN",
+      "distance_km": 17.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Okino Erabu",
+      "iata_code": "OKE",
+      "icao_code": "RJKB",
+      "distance_km": 45.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.okinoerabu-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKE Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:43.972696Z",
+    "generated_at": "2025-08-04T20:29:27.969540Z",
     "env": "development",
     "source": "justarrived-generator"
   }

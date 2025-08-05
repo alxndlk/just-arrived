@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kakamega",
+      "iata_code": "GGM",
+      "icao_code": "HKKG",
+      "distance_km": 41.2,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kakamega Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kakamega Airport handles all freight operations."
+        }
+      ],
+      "website": "https://www.kakamegaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kakamega Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tororo",
+      "iata_code": "TRY",
+      "icao_code": "HUTO",
+      "distance_km": 45.1,
+      "gmt": "3",
+      "country": "Uganda",
+      "timezone": "Africa/Kampala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tororo Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.tororoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tororo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:20.728645Z",
+    "generated_at": "2025-08-04T18:27:45.483710Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vienna International",
+      "iata_code": "VIE",
+      "icao_code": "LOWW",
+      "distance_km": 22.0,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Vienna International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.viennaairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "VIE Airport Free WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:59.636657Z",
+    "generated_at": "2025-08-04T19:06:52.194303Z",
     "env": "development",
     "source": "justarrived-generator"
   }

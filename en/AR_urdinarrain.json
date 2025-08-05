@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gualeguaychu",
+      "iata_code": "GHU",
+      "icao_code": "SAAG",
+      "distance_km": 43.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.gualeguaychuairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "GualeguaychuAirportWifi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:58.728228Z",
+    "generated_at": "2025-08-04T19:33:44.240104Z",
     "env": "development",
     "source": "justarrived-generator"
   }

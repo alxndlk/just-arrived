@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sabiha Gokcen",
+      "iata_code": "SAW",
+      "icao_code": "LTFJ",
+      "distance_km": 23.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Sabiha Gokcen Airport serves all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Sabiha Gokcen Airport serves all domestic flights within Turkey."
+        }
+      ],
+      "website": "https://www.sabihagokcen.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "SabihaGokcenAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cengiz Topel",
+      "iata_code": "KCO",
+      "icao_code": "LTBQ",
+      "distance_km": 25.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cengiz Topel Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cengiz Topel Airport is used for transporting goods and freight."
+        }
+      ],
+      "website": "https://www.cengiztopelairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cengiz Topel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:10.967946Z",
+    "generated_at": "2025-08-04T18:28:41.318650Z",
     "env": "development",
     "source": "justarrived-generator"
   }

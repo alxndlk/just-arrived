@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Legazpi",
+      "iata_code": "LGP",
+      "icao_code": "RPLP",
+      "distance_km": 30.7,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Legazpi Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Legazpi Airport handles all domestic flights within the Philippines."
+        }
+      ],
+      "website": "https://www.legazpiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LGP Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Naga",
+      "iata_code": "WNP",
+      "icao_code": "RPUN",
+      "distance_km": 40.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.nagaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NagaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:48.019862Z",
+    "generated_at": "2025-08-04T18:20:47.477423Z",
     "env": "development",
     "source": "justarrived-generator"
   }

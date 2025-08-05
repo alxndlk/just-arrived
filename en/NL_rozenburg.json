@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 13.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for Rotterdam Zestienhoven Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and low-cost airlines."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 49.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilze-Rijen Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.defensie.nl/english/topics/airbase-locations/gilze-rijen-air-base",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "WiFi is available throughout the terminal, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:36.103210Z",
+    "generated_at": "2025-08-04T19:15:47.425518Z",
     "env": "development",
     "source": "justarrived-generator"
   }

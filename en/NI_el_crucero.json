@@ -50,8 +50,35 @@
     "police": "118"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Augusto C Sandino",
+      "iata_code": "MGA",
+      "icao_code": "MNMG",
+      "distance_km": 23.9,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.managuainternationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGA Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:23.120063Z",
+    "generated_at": "2025-08-04T19:11:39.219581Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nay Pyi Taw",
+      "iata_code": "NYT",
+      "icao_code": "VYNT",
+      "distance_km": 9.0,
+      "gmt": "6.30",
+      "country": null,
+      "timezone": "Asia/Rangoon",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nay Pyi Taw Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.myanmarairports.com.mm/nay-pyi-taw-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "NPT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tilin",
+      "iata_code": "TIO",
+      "icao_code": "VYHN",
+      "distance_km": 42.6,
+      "gmt": "6.30",
+      "country": null,
+      "timezone": "Asia/Rangoon",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tilin Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tilin Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tilinairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tilin Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:48.607955Z",
+    "generated_at": "2025-08-04T20:09:25.473547Z",
     "env": "development",
     "source": "justarrived-generator"
   }

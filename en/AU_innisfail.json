@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Innisfail",
+      "iata_code": "IFL",
+      "icao_code": "YIFL",
+      "distance_km": 3.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Innisfail Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.innisfailairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Innisfail Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dunk Island",
+      "iata_code": "DKI",
+      "icao_code": "YDKI",
+      "distance_km": 47.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dunk Island Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Dunk Island Airport is reserved for VIP and private charter flights."
+        }
+      ],
+      "website": "https://www.dunkislandairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dunk Island Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:13.690134Z",
+    "generated_at": "2025-08-04T19:38:47.442786Z",
     "env": "development",
     "source": "justarrived-generator"
   }

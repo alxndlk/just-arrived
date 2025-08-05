@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roumanieres",
+      "iata_code": "EGC",
+      "icao_code": "LFBE",
+      "distance_km": 0.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roumanieres Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.bergerac.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Roumanieres Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bassillac",
+      "iata_code": "PGX",
+      "icao_code": "LFBX",
+      "distance_km": 41.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:48.431809Z",
+    "generated_at": "2025-08-04T20:10:32.243038Z",
     "env": "development",
     "source": "justarrived-generator"
   }

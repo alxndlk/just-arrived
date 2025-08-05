@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Ramon",
+      "iata_code": "SRD",
+      "icao_code": "SLRA",
+      "distance_km": 10.9,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Ramon Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Ramon Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sanramonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SanRamonAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Joaquin",
+      "iata_code": "SJB",
+      "icao_code": "SLJO",
+      "distance_km": 28.5,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Joaquin Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Joaquin Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sanjoaquinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJB Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the 'SJB Airport WiFi' network and entering the provided password."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:47.218895Z",
+    "generated_at": "2025-08-04T19:37:42.933544Z",
     "env": "development",
     "source": "justarrived-generator"
   }

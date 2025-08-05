@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wharton",
+      "iata_code": "WHT",
+      "icao_code": "K5R5",
+      "distance_km": 0.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wharton Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wharton Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.whartonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Wharton Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bay City",
+      "iata_code": "BBC",
+      "icao_code": "KBYY",
+      "distance_km": 39.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "This terminal serves regional flights."
+        }
+      ],
+      "website": "https://www.baycityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BayCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:35.679824Z",
+    "generated_at": "2025-08-04T19:35:48.216842Z",
     "env": "development",
     "source": "justarrived-generator"
   }

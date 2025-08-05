@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "MBS International",
+      "iata_code": "MBS",
+      "icao_code": "KMBS",
+      "distance_km": 17.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.mbsairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "MBS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tuscola Area",
+      "iata_code": "TZC",
+      "icao_code": "K78D",
+      "distance_km": 38.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tuscola Area Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Tuscola Area Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.tuscolaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tuscola Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:53.163493Z",
+    "generated_at": "2025-08-04T20:17:25.796194Z",
     "env": "development",
     "source": "justarrived-generator"
   }

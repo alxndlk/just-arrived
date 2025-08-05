@@ -50,8 +50,59 @@
     "police": "865513"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Singerbhil",
+      "iata_code": "IXA",
+      "icao_code": "VEAT",
+      "distance_km": 40.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Comilla",
+      "iata_code": "CLA",
+      "icao_code": "VGCM",
+      "distance_km": 46.9,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.comillaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Comilla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zia International",
+      "iata_code": "DAC",
+      "icao_code": "VGZR",
+      "distance_km": 49.3,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:22.026877Z",
+    "generated_at": "2025-08-04T20:28:33.550503Z",
     "env": "development",
     "source": "justarrived-generator"
   }

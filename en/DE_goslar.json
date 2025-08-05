@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braunschweig",
+      "iata_code": "BWE",
+      "icao_code": "EDVE",
+      "distance_km": 40.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.braunschweig-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.hildesheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hildesheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:24.500176Z",
+    "generated_at": "2025-08-04T20:03:32.744762Z",
     "env": "development",
     "source": "justarrived-generator"
   }

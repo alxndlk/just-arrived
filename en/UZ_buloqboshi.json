@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Andizhan",
+      "iata_code": "AZN",
+      "icao_code": "UTKA",
+      "distance_km": 21.1,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Andizhan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.uzairways.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Andizhan Airport WiFi",
+        "note": "Password required for access."
+      }
+    },
+    {
+      "airport_name": "Osh International Airport",
+      "iata_code": "OSS",
+      "icao_code": "UAFO",
+      "distance_km": 24.0,
+      "gmt": "6",
+      "country": "Kyrgyzstan",
+      "timezone": "Asia/Bishkek",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:47.242367Z",
+    "generated_at": "2025-08-04T20:08:28.627271Z",
     "env": "development",
     "source": "justarrived-generator"
   }

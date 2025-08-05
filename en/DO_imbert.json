@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Union",
+      "iata_code": "POP",
+      "icao_code": "MDPP",
+      "distance_km": 27.9,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cibao International Airport",
+      "iata_code": "STI",
+      "icao_code": "MDST",
+      "distance_km": 45.5,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles mainly domestic flights."
+        }
+      ],
+      "website": "https://aeropuertocibao.com.do/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aeropuerto Cibao WiFi",
+        "note": "Passengers can connect for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:26.526918Z",
+    "generated_at": "2025-08-04T20:13:32.042710Z",
     "env": "development",
     "source": "justarrived-generator"
   }

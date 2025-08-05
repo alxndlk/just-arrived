@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jharsuguda Airport",
+      "iata_code": "JRG",
+      "icao_code": "VEJH",
+      "distance_km": 36.1,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://jrgairport.gov.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "JRG Airport WiFi",
+        "note": "Passengers can access the WiFi for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:34.693418Z",
+    "generated_at": "2025-08-04T20:16:36.462192Z",
     "env": "development",
     "source": "justarrived-generator"
   }

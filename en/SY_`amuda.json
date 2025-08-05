@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kameshli",
+      "iata_code": "KAC",
+      "icao_code": "OSKL",
+      "distance_km": 25.8,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal handles all international flights to and from Kameshli Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal handles all domestic flights to and from Kameshli Airport."
+        }
+      ],
+      "website": "http://www.kameshliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAC Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the network KAC Free WiFi."
+      }
+    },
+    {
+      "airport_name": "Mardin",
+      "iata_code": "MQM",
+      "icao_code": "LTCR",
+      "distance_km": 29.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mardin Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mardinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mardin Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:34.043233Z",
+    "generated_at": "2025-08-04T18:30:45.216507Z",
     "env": "development",
     "source": "justarrived-generator"
   }

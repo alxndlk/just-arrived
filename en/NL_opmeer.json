@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "De Kooy/Den Helder Airport",
+      "iata_code": "DHR",
+      "icao_code": "EHKD",
+      "distance_km": 30.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at De Kooy/Den Helder Airport, serving all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A separate terminal for private and charter flights at De Kooy/Den Helder Airport."
+        }
+      ],
+      "website": "https://www.denhelderairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "DHR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's largest terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Serving mainly European and some intercontinental flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Dedicated to long-haul flights, including to North America and Asia."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport Wifi",
+        "note": "Free wifi is available throughout the airport, with a time limit of 4 hours per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:42.179867Z",
+    "generated_at": "2025-08-04T19:17:42.220316Z",
     "env": "development",
     "source": "justarrived-generator"
   }

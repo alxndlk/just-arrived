@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Changsha",
+      "iata_code": "CSX",
+      "icao_code": "ZGHA",
+      "distance_km": 18.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.csxairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CSX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:56.431236Z",
+    "generated_at": "2025-08-04T18:33:47.649954Z",
     "env": "development",
     "source": "justarrived-generator"
   }

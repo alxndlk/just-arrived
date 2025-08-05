@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "National",
+      "iata_code": "CRM",
+      "icao_code": "RPVF",
+      "distance_km": 4.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of National Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "https://nationalairport.com.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NationalAirportWiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Calbayog",
+      "iata_code": "CYP",
+      "icao_code": "RPVC",
+      "distance_km": 49.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Calbayog Airport handles all domestic flights to and from various destinations in the Philippines."
+        }
+      ],
+      "website": "https://www.calbayogairport.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "Calbayog Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:58.830001Z",
+    "generated_at": "2025-08-04T18:46:41.423991Z",
     "env": "development",
     "source": "justarrived-generator"
   }

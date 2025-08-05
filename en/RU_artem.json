@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vladivostok",
+      "iata_code": "VVO",
+      "icao_code": "UHWW",
+      "distance_km": 5.0,
+      "gmt": "10",
+      "country": "Russia",
+      "timezone": "Asia/Vladivostok",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://vvo.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "VVO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:29.002605Z",
+    "generated_at": "2025-08-04T18:14:44.108651Z",
     "env": "development",
     "source": "justarrived-generator"
   }

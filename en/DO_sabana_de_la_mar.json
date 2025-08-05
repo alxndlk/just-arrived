@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arroyo Barril International",
+      "iata_code": "EPS",
+      "icao_code": "MDAB",
+      "distance_km": 23.1,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arroyo Barril International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arroyo Barril International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.arroyobarrilairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arroyo Barril Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Samaná El Catey International",
+      "iata_code": "AZS",
+      "icao_code": "MDZY",
+      "distance_km": 42.7,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Samaná El Catey International Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.samanaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Samaná Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:04.755105Z",
+    "generated_at": "2025-08-04T19:03:46.964378Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Edremit/korfez",
+      "iata_code": "EDO",
+      "icao_code": "LTFD",
+      "distance_km": 27.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mytilene International Airport",
+      "iata_code": "MJT",
+      "icao_code": "LGMT",
+      "distance_km": 42.6,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mytilene International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Mytilene International Airport offers exclusive services for premium travelers."
+        }
+      ],
+      "website": "https://www.mjt-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "MJT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:26.528937Z",
+    "generated_at": "2025-08-04T20:18:25.990179Z",
     "env": "development",
     "source": "justarrived-generator"
   }

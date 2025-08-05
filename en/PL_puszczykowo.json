@@ -51,8 +51,35 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lawica",
+      "iata_code": "POZ",
+      "icao_code": "EPPO",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lawica Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "http://www.airport-poznan.com.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airport_Free_WiFi",
+        "note": "Limited to 30 minutes per device per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:11.393514Z",
+    "generated_at": "2025-08-04T19:30:45.137273Z",
     "env": "development",
     "source": "justarrived-generator"
   }

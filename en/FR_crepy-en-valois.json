@@ -51,8 +51,64 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 34.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Charles De Gaulle Airport, divided into seven sub-terminals and serving mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The smallest terminal at Charles De Gaulle Airport, serving mainly low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration with a valid email address."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for commercial flights at Le Bourget Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/le-bourget-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Le Bourget Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:05.551744Z",
+    "generated_at": "2025-08-04T19:09:42.971190Z",
     "env": "development",
     "source": "justarrived-generator"
   }

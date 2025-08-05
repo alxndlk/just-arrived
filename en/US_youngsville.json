@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lafayette Regional",
+      "iata_code": "LFT",
+      "icao_code": "KLFT",
+      "distance_km": 12.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lafayette Regional Airport houses all arrival and departure gates."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Lafayette Regional Airport is primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.lftairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LFT Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Acadiana Regional",
+      "iata_code": "ARA",
+      "icao_code": "KARA",
+      "distance_km": 12.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Acadiana Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Acadiana Regional Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flyara.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARA Free Wifi",
+        "note": "Passengers can connect to the airport's free wifi network for internet access."
+      }
+    },
+    {
+      "airport_name": "St Landry Parish",
+      "iata_code": "OPL",
+      "icao_code": "KOPL",
+      "distance_km": 49.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Landry Parish Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Landry Parish Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.stlandryparishairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StLandryAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:01.762721Z",
+    "generated_at": "2025-08-04T19:02:52.268156Z",
     "env": "development",
     "source": "justarrived-generator"
   }

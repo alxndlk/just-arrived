@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lenawee County",
+      "iata_code": "ADG",
+      "icao_code": "KADG",
+      "distance_km": 0.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lenawee County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lenawee County Airport is reserved for private flights and VIP passengers."
+        }
+      ],
+      "website": "https://www.lenaweecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LenaweeAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toledo Express",
+      "iata_code": "TOL",
+      "icao_code": "KTOL",
+      "distance_km": 39.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Express Airport serves all commercial flights and includes various amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Toledo Express Airport caters to private and charter flights, providing services such as fueling and aircraft maintenance."
+        }
+      ],
+      "website": "https://www.toledoexpressairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Toledo",
+      "iata_code": "TDZ",
+      "icao_code": "KTDZ",
+      "distance_km": 49.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Toledo Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.toledoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "ToledoAirportWifi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:39.735525Z",
+    "generated_at": "2025-08-04T18:54:53.456331Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "WonJu",
+      "iata_code": "WJU",
+      "icao_code": "RKNW",
+      "distance_km": 10.6,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport.kr/wonju",
+      "wifi": {
+        "available": true,
+        "network_name": "WonJu Airport WiFi",
+        "note": "Passengers can connect to the WiFi for free for up to one hour."
+      }
+    },
+    {
+      "airport_name": "Jeonju",
+      "iata_code": "CHN",
+      "icao_code": "RKJU",
+      "distance_km": 36.1,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/jeonju/en/index.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Jeonju Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:35.138147Z",
+    "generated_at": "2025-08-04T18:07:43.503132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

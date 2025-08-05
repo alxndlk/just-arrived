@@ -54,8 +54,47 @@
     "police": "1011"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oranjemund",
+      "iata_code": "OMD",
+      "icao_code": "FYOG",
+      "distance_km": 4.0,
+      "gmt": "2",
+      "country": "Namibia",
+      "timezone": "Africa/Windhoek",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kortdoorn",
+      "iata_code": "ALJ",
+      "icao_code": "FAAB",
+      "distance_km": 10.2,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kortdoorn Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kortdoorn Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kortdoornairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kortdoorn Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:11.559865Z",
+    "generated_at": "2025-08-04T20:34:29.403857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

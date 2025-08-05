@@ -48,8 +48,134 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dekalb-Peachtree",
+      "iata_code": "PDK",
+      "icao_code": "KPDK",
+      "distance_km": 9.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton County",
+      "iata_code": "FTY",
+      "icao_code": "KFTY",
+      "distance_km": 21.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fulton County Airport is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.fultoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FTY Airport Wifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "College Park",
+      "iata_code": "CGS",
+      "icao_code": "KCGS",
+      "distance_km": 21.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at College Park Airport serves as the hub for all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at College Park Airport provides a luxurious and convenient experience for private jet travelers."
+        }
+      ],
+      "website": "https://www.collegeparkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPA Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hartsfield-jackson Atlanta International",
+      "iata_code": "ATL",
+      "icao_code": "KATL",
+      "distance_km": 23.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Serves all domestic flights within the United States."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Serves all international flights coming into and out of the United States."
+        }
+      ],
+      "website": "https://www.atl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATL Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gwinnett County Airport",
+      "iata_code": "LZU",
+      "icao_code": "KLZU",
+      "distance_km": 36.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gwinnett County Airport, serving both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and chartered flights at Gwinnett County Airport."
+        }
+      ],
+      "website": "https://www.gwinnettcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GwinnettAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Atlanta Speedway Airport",
+      "iata_code": "HMP",
+      "icao_code": "KHMP",
+      "distance_km": 46.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:12.480701Z",
+    "generated_at": "2025-08-04T20:16:30.802645Z",
     "env": "development",
     "source": "justarrived-generator"
   }

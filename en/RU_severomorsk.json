@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Murmansk",
+      "iata_code": "MMK",
+      "icao_code": "ULMM",
+      "distance_km": 40.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://murmanskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Murmansk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:36.453177Z",
+    "generated_at": "2025-08-04T18:32:40.706997Z",
     "env": "development",
     "source": "justarrived-generator"
   }

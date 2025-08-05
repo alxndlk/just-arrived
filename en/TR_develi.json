@@ -50,8 +50,39 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Erkilet International Airport",
+      "iata_code": "ASR",
+      "icao_code": "LTAU",
+      "distance_km": 42.9,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Erkilet International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Erkilet International Airport handles all domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Erkilet International Airport handles all international flights to and from other countries."
+        }
+      ],
+      "website": "https://www.kayseri.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Erkilet Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the network name and entering their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:10.225107Z",
+    "generated_at": "2025-08-04T18:24:46.612014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "North Central",
+      "iata_code": "SFZ",
+      "icao_code": "KSFZ",
+      "distance_km": 10.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "T. F. Green Airport",
+      "iata_code": "PVD",
+      "icao_code": "KPVD",
+      "distance_km": 28.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Worcester Regional Airport",
+      "iata_code": "ORH",
+      "icao_code": "KORH",
+      "distance_km": 44.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Worcester Regional Airport serves all commercial flights."
+        }
+      ],
+      "website": "https://www.flyorh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ORH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:36.669302Z",
+    "generated_at": "2025-08-04T20:29:32.526436Z",
     "env": "development",
     "source": "justarrived-generator"
   }

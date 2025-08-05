@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thalerhof",
+      "iata_code": "GRZ",
+      "icao_code": "LOWG",
+      "distance_km": 48.9,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thalerhof Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flughafen-graz.at/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:35.255964Z",
+    "generated_at": "2025-08-04T19:04:50.942909Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,104 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 12.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Washington Dulles International Airport houses all major airlines and serves as the primary hub for domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Washington Dulles International Airport mainly serves domestic flights and is connected to the main terminal by an underground train."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Washington Dulles International Airport serves international flights and is connected to the main terminal by an underground train."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Washington Dulles International Airport serves both domestic and international flights and is connected to the main terminal by an underground train."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IAD Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection in different areas."
+      }
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 27.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 34.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 37.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Potomac Airfield Airport houses all arrival and departure gates for domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Potomac Airfield Airport serves as the gateway for all international flights."
+        }
+      ],
+      "website": "https://www.potomacairfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Potomac Airfield WiFi",
+        "note": "Guests can enjoy complimentary WiFi throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Warrenton–Fauquier Airport",
+      "iata_code": "HWY",
+      "icao_code": "KHWY",
+      "distance_km": 43.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:18.066695Z",
+    "generated_at": "2025-08-04T20:28:33.230112Z",
     "env": "development",
     "source": "justarrived-generator"
   }

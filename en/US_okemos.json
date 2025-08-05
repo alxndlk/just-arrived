@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "LAN",
+      "icao_code": "KLAN",
+      "distance_km": 16.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Capital City Airport serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is a smaller terminal at Capital City Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Reynolds Municipal",
+      "iata_code": "JXN",
+      "icao_code": "KJXN",
+      "distance_km": 49.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Reynolds Municipal Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Reynolds Municipal Airport is dedicated to private and corporate flights."
+        }
+      ],
+      "website": "https://www.cityofjackson.org/175/Reynolds-Municipal-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Reynolds Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:42.892077Z",
+    "generated_at": "2025-08-04T18:46:57.697429Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Siauliai International",
+      "iata_code": "SQQ",
+      "icao_code": "EYSA",
+      "distance_km": 33.7,
+      "gmt": "2",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.siauliaiairport.lt/",
+      "wifi": {
+        "available": true,
+        "network_name": "Siauliai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Panevezys",
+      "iata_code": "PNV",
+      "icao_code": "EYPP",
+      "distance_km": 43.4,
+      "gmt": "2",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.panevezysairport.lt/",
+      "wifi": {
+        "available": true,
+        "network_name": "Panevezys Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:01.313365Z",
+    "generated_at": "2025-08-04T19:37:47.435219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "HAR",
+      "icao_code": "KCXY",
+      "distance_km": 28.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Harrisburg International",
+      "iata_code": "MDT",
+      "icao_code": "KMDT",
+      "distance_km": 35.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Harrisburg International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Harrisburg International Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.flyhia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HIA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "York Airport",
+      "iata_code": "THV",
+      "icao_code": "KTHV",
+      "distance_km": 43.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:46.242067Z",
+    "generated_at": "2025-08-04T20:18:33.201150Z",
     "env": "development",
     "source": "justarrived-generator"
   }

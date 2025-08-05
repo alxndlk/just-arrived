@@ -49,8 +49,35 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aarhus Airport",
+      "iata_code": "AAR",
+      "icao_code": "EKAH",
+      "distance_km": 19.8,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aarhus Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Aarhus Airport, primarily used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.aar.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:44.322717Z",
+    "generated_at": "2025-08-04T19:35:50.509503Z",
     "env": "development",
     "source": "justarrived-generator"
   }

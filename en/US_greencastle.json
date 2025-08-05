@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hulman Field",
+      "iata_code": "HUF",
+      "icao_code": "KHUF",
+      "distance_km": 45.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hulman Field Airport offers a variety of amenities for travelers, including dining options and gift shops."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Hulman Field Airport is used for private and charter flights, with its own dedicated parking and service facilities."
+        }
+      ],
+      "website": "https://www.hulmanfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HulmanFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Indianapolis International",
+      "iata_code": "IND",
+      "icao_code": "KIND",
+      "distance_km": 47.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Indianapolis International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves domestic flights for airlines such as Southwest and Delta."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves both domestic and international flights for airlines such as United and American."
+        }
+      ],
+      "website": "https://www.indianapolisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IND WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:25.268059Z",
+    "generated_at": "2025-08-04T19:28:41.592797Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nantes Atlantique",
+      "iata_code": "NTE",
+      "icao_code": "LFRS",
+      "distance_km": 13.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nantes Atlantique Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nantes Atlantique Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.nantes.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nantes Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:18.992330Z",
+    "generated_at": "2025-08-04T19:03:49.041185Z",
     "env": "development",
     "source": "justarrived-generator"
   }

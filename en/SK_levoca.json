@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Poprad/Tatry",
+      "iata_code": "TAT",
+      "icao_code": "LZTT",
+      "distance_km": 26.1,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.airport-poprad.sk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TAT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Presov",
+      "iata_code": "POV",
+      "icao_code": "LZPW",
+      "distance_km": 48.2,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.presovairport.sk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Presov Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:01.794807Z",
+    "generated_at": "2025-08-04T19:09:41.664982Z",
     "env": "development",
     "source": "justarrived-generator"
   }

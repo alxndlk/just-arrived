@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mackay",
+      "iata_code": "MKY",
+      "icao_code": "YBMK",
+      "distance_km": 9.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lindeman Island",
+      "iata_code": "LDC",
+      "icao_code": "YLIN",
+      "distance_km": 21.9,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Lindeman",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brampton Island",
+      "iata_code": "BMP",
+      "icao_code": "YBPI",
+      "distance_km": 34.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brampton Island Airport provides all necessary facilities for travelers, including check-in counters, baggage claim, and a small cafe."
+        }
+      ],
+      "website": "https://www.bramptonislandairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brampton Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:31.538929Z",
+    "generated_at": "2025-08-04T20:31:30.731220Z",
     "env": "development",
     "source": "justarrived-generator"
   }

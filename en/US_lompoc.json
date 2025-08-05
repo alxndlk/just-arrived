@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lompoc Airport",
+      "iata_code": "LPC",
+      "icao_code": "KLPC",
+      "distance_km": 3.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lompoc Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.lompocairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lompoc Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Public",
+      "iata_code": "SMX",
+      "icao_code": "KSMX",
+      "distance_km": 27.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.santamariaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SMX_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:24.902532Z",
+    "generated_at": "2025-08-04T18:32:01.683309Z",
     "env": "development",
     "source": "justarrived-generator"
   }

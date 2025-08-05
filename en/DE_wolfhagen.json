@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kassel-Calden",
+      "iata_code": "KSF",
+      "icao_code": "EDVK",
+      "distance_km": 18.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kassel-Calden Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.kasselairport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KSF Free Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fritzlar Airbase",
+      "iata_code": "FRZ",
+      "icao_code": "ETHF",
+      "distance_km": 23.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:16.659088Z",
+    "generated_at": "2025-08-04T20:22:32.245007Z",
     "env": "development",
     "source": "justarrived-generator"
   }

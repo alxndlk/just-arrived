@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minot International Airport",
+      "iata_code": "MOT",
+      "icao_code": "KMOT",
+      "distance_km": 2.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Minot International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The General Aviation Terminal at Minot International Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.flyminot.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MOT Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:25.306777Z",
+    "generated_at": "2025-08-04T18:30:41.052439Z",
     "env": "development",
     "source": "justarrived-generator"
   }

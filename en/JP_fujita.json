@@ -106,8 +106,35 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Mount Fuji",
+      "iata_code": "FSZ",
+      "icao_code": "RJNS",
+      "distance_km": 10.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mount Fuji Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.mtfuji-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MtFujiAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:39.866140Z",
+    "generated_at": "2025-08-04T18:11:55.362707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

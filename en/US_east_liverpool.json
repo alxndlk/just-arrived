@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beaver Falls",
+      "iata_code": "BFP",
+      "icao_code": "KBVI",
+      "distance_km": 20.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pittsburgh International",
+      "iata_code": "PIT",
+      "icao_code": "KPIT",
+      "distance_km": 30.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pittsburgh International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Airside Terminal",
+          "description": "The airside terminal at Pittsburgh International Airport serves as the departure and arrival area for all flights."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:26.191733Z",
+    "generated_at": "2025-08-04T20:30:28.357872Z",
     "env": "development",
     "source": "justarrived-generator"
   }

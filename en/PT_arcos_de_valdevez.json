@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braga",
+      "iata_code": "BGZ",
+      "icao_code": "LPBR",
+      "distance_km": 33.4,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Braga Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Braga Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.bragaairport.pt/",
+      "wifi": {
+        "available": true,
+        "network_name": "Braga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vigo",
+      "iata_code": "VGO",
+      "icao_code": "LEVX",
+      "distance_km": 45.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vigo Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Charter Terminal",
+          "description": "The charter terminal at Vigo Airport is used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/vigo-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vigo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:05.528115Z",
+    "generated_at": "2025-08-04T20:13:25.911804Z",
     "env": "development",
     "source": "justarrived-generator"
   }

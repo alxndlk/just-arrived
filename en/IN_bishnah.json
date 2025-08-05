@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Satwari",
+      "iata_code": "IXJ",
+      "icao_code": "VIJU",
+      "distance_km": 7.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/satwari",
+      "wifi": {
+        "available": true,
+        "network_name": "Satwari Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sialkot International",
+      "iata_code": "SKT",
+      "icao_code": "OPST",
+      "distance_km": 34.4,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sialkot International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sialkot International Airport handles freight and logistics operations."
+        }
+      ],
+      "website": "https://sial.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "SIALKOT AIRPORT FREE WIFI",
+        "note": "Passengers can access free WiFi for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:27.069733Z",
+    "generated_at": "2025-08-04T19:17:01.989397Z",
     "env": "development",
     "source": "justarrived-generator"
   }

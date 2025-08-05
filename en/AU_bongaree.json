@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Redcliffe",
+      "iata_code": "RCL",
+      "icao_code": "NVSR",
+      "distance_km": 16.6,
+      "gmt": "11",
+      "country": "Vanuatu",
+      "timezone": "Pacific/Efate",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Caloundra",
+      "iata_code": "CUD",
+      "icao_code": "YCDR",
+      "distance_km": 31.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Caloundra Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights at Caloundra Airport."
+        }
+      ],
+      "website": "https://www.sunshinecoastairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Caloundra Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brisbane International",
+      "iata_code": "BNE",
+      "icao_code": "YBBN",
+      "distance_km": 36.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Brisbane International Airport serves as the primary gateway for international flights to and from Australia."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Brisbane International Airport handles all domestic flights within Australia."
+        }
+      ],
+      "website": "https://www.bne.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNE Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but limited to 3 hours per device per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:05.553115Z",
+    "generated_at": "2025-08-04T20:34:28.716748Z",
     "env": "development",
     "source": "justarrived-generator"
   }

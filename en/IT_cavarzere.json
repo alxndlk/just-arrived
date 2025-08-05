@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCE Free WiFi",
+        "note": "Free WiFi is available throughout the airport with no time limit"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:14.586127Z",
+    "generated_at": "2025-08-04T19:14:43.603412Z",
     "env": "development",
     "source": "justarrived-generator"
   }

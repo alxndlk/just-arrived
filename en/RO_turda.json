@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cluj Napoca International Airport",
+      "iata_code": "CLJ",
+      "icao_code": "LRCL",
+      "distance_km": 25.0,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.clujairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:38.434232Z",
+    "generated_at": "2025-08-04T18:32:41.152977Z",
     "env": "development",
     "source": "justarrived-generator"
   }

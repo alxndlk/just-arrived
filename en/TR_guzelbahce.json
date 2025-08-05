@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adnan Menderes Airport",
+      "iata_code": "ADB",
+      "icao_code": "LTBJ",
+      "distance_km": 22.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights."
+        }
+      ],
+      "website": "https://www.adnanmenderesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ADB Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cigli AB",
+      "iata_code": "IGL",
+      "icao_code": "LTBL",
+      "distance_km": 23.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.cigliabairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CigliABWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:07.303127Z",
+    "generated_at": "2025-08-04T18:35:48.392264Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roanoke Regional Airport",
+      "iata_code": "ROA",
+      "icao_code": "KROA",
+      "distance_km": 3.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Virginia Tech",
+      "iata_code": "BCB",
+      "icao_code": "KBCB",
+      "distance_km": 42.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flyroanoke.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:00.127120Z",
+    "generated_at": "2025-08-04T20:17:35.839355Z",
     "env": "development",
     "source": "justarrived-generator"
   }

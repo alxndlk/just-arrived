@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Volk Field",
+      "iata_code": "VOK",
+      "icao_code": "KVOK",
+      "distance_km": 18.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Volk Field Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Volk Field Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.volkfield.ang.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Volk Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fort Mccoy",
+      "iata_code": "CMY",
+      "icao_code": "KCMY",
+      "distance_km": 22.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Mccoy Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fort Mccoy Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.fortmccoyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FortMccoyAirportWifi",
+        "note": "Password required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:56.921236Z",
+    "generated_at": "2025-08-04T19:30:41.839422Z",
     "env": "development",
     "source": "justarrived-generator"
   }

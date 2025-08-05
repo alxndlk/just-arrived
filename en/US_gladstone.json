@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Downtown",
+      "iata_code": "MKC",
+      "icao_code": "KMKC",
+      "distance_km": 10.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Downtown Airport offers a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those flying on private jets, the private terminal at Downtown Airport offers a luxurious and exclusive experience."
+        }
+      ],
+      "website": "https://www.downtownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Downtown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kansas City International Airport",
+      "iata_code": "MCI",
+      "icao_code": "KMCI",
+      "distance_km": 16.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for major airlines such as United and American Airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights for airlines such as Delta and Southwest."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic flights for airlines such as Alaska and Frontier."
+        }
+      ],
+      "website": "https://www.flykci.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCI_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lee's Summit Municipal Airport",
+      "iata_code": "QQL",
+      "icao_code": "KLXT",
+      "distance_km": 32.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Johnson Executive",
+      "iata_code": "OJC",
+      "icao_code": "KOJC",
+      "distance_km": 43.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Johnson Executive Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Johnson Executive Airport caters to high-end travelers and offers exclusive amenities."
+        }
+      ],
+      "website": "https://www.johnsonexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JohnsonExecutiveWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:59.836037Z",
+    "generated_at": "2025-08-04T20:25:26.614987Z",
     "env": "development",
     "source": "justarrived-generator"
   }

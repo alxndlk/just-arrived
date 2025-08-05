@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 16.5,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for inter-island flights."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 25.5,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport, serving both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Kaneohe Bay MCAS Airport, serving military personnel and their families."
+        }
+      ],
+      "website": "https://www.kaneohebaymcas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KaneoheBayMCAS_WiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:56.615890Z",
+    "generated_at": "2025-08-04T20:10:28.824803Z",
     "env": "development",
     "source": "justarrived-generator"
   }

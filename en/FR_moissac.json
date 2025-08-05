@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Garenne",
+      "iata_code": "AGF",
+      "icao_code": "LFBA",
+      "distance_km": 39.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at La Garenne Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at La Garenne Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.la-garenne-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaGarenneAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Laberandie",
+      "iata_code": "ZAO",
+      "icao_code": "LFCC",
+      "distance_km": 48.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Laberandie Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Laberandie Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.laberandieairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Laberandie Airport Wifi",
+        "note": "Passengers can connect to the airport's wifi network for free with a provided password."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:24.472588Z",
+    "generated_at": "2025-08-04T19:11:41.264560Z",
     "env": "development",
     "source": "justarrived-generator"
   }

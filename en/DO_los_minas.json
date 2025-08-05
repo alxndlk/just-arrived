@@ -104,8 +104,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Dr.Joaquin Balaguer",
+      "iata_code": "JBQ",
+      "icao_code": "MDJB",
+      "distance_km": 15.6,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aeropuerto de las Américas",
+      "iata_code": "SDQ",
+      "icao_code": "MDSD",
+      "distance_km": 20.6,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aerodom.com/airports/sdq-aeropuerto-de-las-americas",
+      "wifi": {
+        "available": true,
+        "network_name": "SDQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:54.447378Z",
+    "generated_at": "2025-08-04T19:59:30.070424Z",
     "env": "development",
     "source": "justarrived-generator"
   }

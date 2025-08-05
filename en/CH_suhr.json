@@ -51,8 +51,72 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 37.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 48.1,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Euroairport France Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Euroairport France Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 48.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Euroairport Swiss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Euroairport Swiss Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:02.069290Z",
+    "generated_at": "2025-08-04T20:28:31.954708Z",
     "env": "development",
     "source": "justarrived-generator"
   }

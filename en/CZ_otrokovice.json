@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kunovice",
+      "iata_code": "UHE",
+      "icao_code": "LKKU",
+      "distance_km": 17.0,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kunovice-airport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kunovice Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Prerov",
+      "iata_code": "PRV",
+      "icao_code": "LKPO",
+      "distance_km": 48.3,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport-prerov.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "PRV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:24.193349Z",
+    "generated_at": "2025-08-04T19:00:43.152117Z",
     "env": "development",
     "source": "justarrived-generator"
   }

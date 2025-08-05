@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Blue Grass",
+      "iata_code": "LEX",
+      "icao_code": "KLEX",
+      "distance_km": 11.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Blue Grass Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal is used for shipping and receiving goods and packages."
+        }
+      ],
+      "website": "https://www.bluegrassairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlueGrassAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Capital City",
+      "iata_code": "FFT",
+      "icao_code": "KFFT",
+      "distance_km": 21.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:20.627264Z",
+    "generated_at": "2025-08-04T20:28:33.546462Z",
     "env": "development",
     "source": "justarrived-generator"
   }

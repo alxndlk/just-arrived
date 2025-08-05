@@ -46,8 +46,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fera Island",
+      "iata_code": "FRE",
+      "icao_code": "AGGF",
+      "distance_km": 5.0,
+      "gmt": "11",
+      "country": "Solomon Islands",
+      "timezone": "Pacific/Guadalcanal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fera Island Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.solomonislands-aviation.gov.sb/fera-island-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fera Airport Wifi",
+        "note": "Wifi is available in the main terminal building."
+      }
+    },
+    {
+      "airport_name": "Barakoma",
+      "iata_code": "VEV",
+      "icao_code": "AGBA",
+      "distance_km": 33.1,
+      "gmt": "11",
+      "country": "Solomon Islands",
+      "timezone": "Pacific/Guadalcanal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Barakoma Airport serves domestic flights within Solomon Islands."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Barakoma Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.solomonairlines.com/en/solomon-islands/destinations/barakoma",
+      "wifi": {
+        "available": true,
+        "network_name": "Barakoma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:30.953187Z",
+    "generated_at": "2025-08-04T19:37:59.009902Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shanghai Hongqiao International",
+      "iata_code": "SHA",
+      "icao_code": "ZSSS",
+      "distance_km": 48.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights."
+        }
+      ],
+      "website": "http://www.shanghaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SHA Free Wifi",
+        "note": "Passengers can connect to the free wifi network for up to 3 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:28.269880Z",
+    "generated_at": "2025-08-04T18:28:45.295662Z",
     "env": "development",
     "source": "justarrived-generator"
   }

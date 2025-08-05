@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palese",
+      "iata_code": "BRI",
+      "icao_code": "LIBD",
+      "distance_km": 32.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Palese Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroportidipuglia.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "BRI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:17.255385Z",
+    "generated_at": "2025-08-04T19:13:49.618292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

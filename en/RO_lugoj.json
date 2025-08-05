@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Caransebes",
+      "iata_code": "CSB",
+      "icao_code": "LRCS",
+      "distance_km": 39.3,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.csbairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "CSB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Timisoara (traian Vuia) International",
+      "iata_code": "TSR",
+      "icao_code": "LRTR",
+      "distance_km": 48.4,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.aerotim.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "TSR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:55.217984Z",
+    "generated_at": "2025-08-04T18:37:40.710914Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,131 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 10.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Frankfurt International Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 4 hours per day."
+      }
+    },
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 16.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Air Base Airport offers a modern and efficient travel experience for passengers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Air Base Airport serves as a base for military operations and personnel."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 16.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.frankfurt-egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Frankfurt-Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 21.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mainz Finthen Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mainzfinthenairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MainzFinthenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Reichelsheim Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Reichelsheim Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.reichelsheimairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Reichelsheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:01.655074Z",
+    "generated_at": "2025-08-04T20:13:35.018628Z",
     "env": "development",
     "source": "justarrived-generator"
   }

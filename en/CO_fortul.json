@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Colonizadores",
+      "iata_code": "RVE",
+      "icao_code": "SKSA",
+      "distance_km": 19.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Los Colonizadores Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Los Colonizadores Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.loscolonizadoresairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LosColonizadoresAirportWifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tame",
+      "iata_code": "TME",
+      "icao_code": "SKTM",
+      "distance_km": 32.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tame Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/servicios-a-la-navegacion-aerea/ais/aeropuertos/tame",
+      "wifi": {
+        "available": true,
+        "network_name": "Tame Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:50.795589Z",
+    "generated_at": "2025-08-04T18:45:41.274411Z",
     "env": "development",
     "source": "justarrived-generator"
   }

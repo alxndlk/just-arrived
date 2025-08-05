@@ -48,8 +48,79 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "OWD",
+      "icao_code": "KOWD",
+      "distance_km": 6.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Plymouth",
+      "iata_code": "PYM",
+      "icao_code": "KPYM",
+      "distance_km": 22.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 37.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The original terminal at Logan International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal at Logan International Airport, serving mainly domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A modern terminal at Logan International Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal E",
+          "description": "The international terminal at Logan International Airport, serving mainly non-US carriers."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOS Free WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    },
+    {
+      "airport_name": "New Bedford",
+      "iata_code": "EWB",
+      "icao_code": "KEWB",
+      "distance_km": 39.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:23.418623Z",
+    "generated_at": "2025-08-04T20:21:26.888074Z",
     "env": "development",
     "source": "justarrived-generator"
   }

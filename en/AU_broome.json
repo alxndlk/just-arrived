@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Broome",
+      "iata_code": "BME",
+      "icao_code": "YBRM",
+      "distance_km": 1.0,
+      "gmt": "8",
+      "country": "Australia",
+      "timezone": "Australia/Perth",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Broome Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Broome Airport, serving smaller domestic flights."
+        }
+      ],
+      "website": "https://www.broomeairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Broome Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:23.289578Z",
+    "generated_at": "2025-08-04T19:19:39.849170Z",
     "env": "development",
     "source": "justarrived-generator"
   }

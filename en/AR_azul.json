@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Olavarria",
+      "iata_code": "OVR",
+      "icao_code": "SAZF",
+      "distance_km": 35.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.olavarriaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Olavarria Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:23.476832Z",
+    "generated_at": "2025-08-04T18:27:46.108572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

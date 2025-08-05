@@ -51,8 +51,72 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dolni Benesov",
+      "iata_code": "ZBE",
+      "icao_code": "LKZA",
+      "distance_km": 11.8,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Olomouc",
+      "iata_code": "OLO",
+      "icao_code": "LKOL",
+      "distance_km": 40.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Olomouc Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.olomoucairport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Olomouc Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Prerov",
+      "iata_code": "PRV",
+      "icao_code": "LKPO",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.pardubice-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PRV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:33.071419Z",
+    "generated_at": "2025-08-04T20:11:34.766237Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mostar",
+      "iata_code": "OMO",
+      "icao_code": "LQMO",
+      "distance_km": 46.9,
+      "gmt": "1",
+      "country": "Bosnia and Herzegovina",
+      "timezone": "Europe/Sarajevo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mostar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mostar-airport.ba/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mostar Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:40.675949Z",
+    "generated_at": "2025-08-04T18:54:48.079969Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Marcos Regional Airport",
+      "iata_code": "HYI",
+      "icao_code": "KHYI",
+      "distance_km": 11.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Marcos Regional Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.flysanmarcos.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanMarcosAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Austin-bergstrom International",
+      "iata_code": "AUS",
+      "icao_code": "KAUS",
+      "distance_km": 31.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin-Bergstrom International Airport houses the majority of the airport's amenities and services."
+        },
+        {
+          "name": "Barbara Jordan Terminal",
+          "description": "The Barbara Jordan Terminal at Austin-Bergstrom International Airport serves as the primary terminal for international flights."
+        }
+      ],
+      "website": "https://www.austintexas.gov/department/austin-bergstrom-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AUS Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a fee for access."
+      }
+    },
+    {
+      "airport_name": "New Braunfels Regional Airport",
+      "iata_code": "QQZ",
+      "icao_code": "KBAZ",
+      "distance_km": 35.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:33.074034Z",
+    "generated_at": "2025-08-04T20:03:29.432712Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palmerston North",
+      "iata_code": "PMR",
+      "icao_code": "NZPM",
+      "distance_km": 3.6,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palmerston North Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.pnairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "PN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Royal Air Force Base",
+      "iata_code": "OHA",
+      "icao_code": "NZOH",
+      "distance_km": 25.0,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Royal Air Force Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights at Royal Air Force Base Airport."
+        }
+      ],
+      "website": "https://www.royalairforcebaseairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "RAFBA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:00.427342Z",
+    "generated_at": "2025-08-04T18:22:48.641472Z",
     "env": "development",
     "source": "justarrived-generator"
   }

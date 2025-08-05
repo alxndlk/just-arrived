@@ -50,8 +50,55 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hovden",
+      "iata_code": "HOV",
+      "icao_code": "ENOV",
+      "distance_km": 4.3,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Vigra",
+      "iata_code": "AES",
+      "icao_code": "ENAL",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sandane",
+      "iata_code": "SDN",
+      "icao_code": "ENSD",
+      "distance_km": 48.3,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sandane Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/sandane-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Sandane Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:04.545732Z",
+    "generated_at": "2025-08-04T20:27:29.565080Z",
     "env": "development",
     "source": "justarrived-generator"
   }

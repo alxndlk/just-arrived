@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beauvais-Tille",
+      "iata_code": "BVA",
+      "icao_code": "LFOB",
+      "distance_km": 31.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beauvais-Tille Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Beauvais-Tille Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroportparisbeauvais.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BVA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paris Cergy Pontoise",
+      "iata_code": "POX",
+      "icao_code": "LFPT",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boos",
+      "iata_code": "URO",
+      "icao_code": "LFOP",
+      "distance_km": 44.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:52.761373Z",
+    "generated_at": "2025-08-04T20:24:28.935450Z",
     "env": "development",
     "source": "justarrived-generator"
   }

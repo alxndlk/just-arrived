@@ -50,8 +50,56 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hat Yai",
+      "iata_code": "HDY",
+      "icao_code": "VTSS",
+      "distance_km": 33.3,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hat Yai Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hat Yai Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.hatyaiairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HatYaiAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Alor Setar",
+      "iata_code": "AOR",
+      "icao_code": "WMKA",
+      "distance_km": 48.7,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Alor Setar Airport handles both domestic and international flights."
+        }
+      ],
+      "website": "https://www.malaysiaairports.com.my/",
+      "wifi": {
+        "available": true,
+        "network_name": "AlorSetarAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:20.718269Z",
+    "generated_at": "2025-08-04T18:53:46.501254Z",
     "env": "development",
     "source": "justarrived-generator"
   }

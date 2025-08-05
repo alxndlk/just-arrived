@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Borger",
+      "iata_code": "BGD",
+      "icao_code": "KBGD",
+      "distance_km": 1.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Borger Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The General Aviation Terminal at Borger Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.borgerairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "BorgerAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:50.326816Z",
+    "generated_at": "2025-08-04T19:15:52.331799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

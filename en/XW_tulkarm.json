@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 64532,
   "welcome_message_title": "Welcome to Tulkarm",
-  "welcome_message_body": null,
+  "welcome_message_body": "\"Welcome to Tulkarm, a charming city in the heart of the West Bank known for its rich history and warm hospitality. We invite you to explore and experience all that our beautiful city has to offer. Enjoy your stay!\"",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "tulkarm",
@@ -39,8 +39,51 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 32.2,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 37.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic and low-cost flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main terminal at Ben Gurion International Airport, serving most international flights and major airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A new terminal currently under construction, set to open in 2022 and serve as the main hub for El Al Airlines."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Ben Gurion Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:46.875653Z",
+    "generated_at": "2025-08-04T20:01:34.646697Z",
     "env": "development",
     "source": "justarrived-generator"
   }

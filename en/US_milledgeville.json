@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baldwin County",
+      "iata_code": "MLJ",
+      "icao_code": "KMLJ",
+      "distance_km": 0.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Smart",
+      "iata_code": "MAC",
+      "icao_code": "KMAC",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.smartairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Smart Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:27.770938Z",
+    "generated_at": "2025-08-04T20:18:26.006770Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,75 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 25.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 41.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 47.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 49.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Charles De Gaulle Airport, divided into seven sub-terminals serving various airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Charles De Gaulle Airport, mainly used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/flight-connections/charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport, but may have limited speed and data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:37.978062Z",
+    "generated_at": "2025-08-04T20:26:35.698850Z",
     "env": "development",
     "source": "justarrived-generator"
   }

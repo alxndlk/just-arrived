@@ -48,8 +48,77 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tobias Bolaños International",
+      "iata_code": "SYQ",
+      "icao_code": "MRPV",
+      "distance_km": 6.4,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tobias Bolaños International Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeris.cr/en/tobias-bolanos-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TobiasBolanosAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Juan Santamaría International",
+      "iata_code": "SJO",
+      "icao_code": "MROC",
+      "distance_km": 15.6,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Juan Santamaría International Airport handles all international and domestic flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Juan Santamaría International Airport serves as a hub for smaller airlines and domestic flights within Costa Rica."
+        }
+      ],
+      "website": "https://sjoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and connectivity."
+      }
+    },
+    {
+      "airport_name": "Guapiles",
+      "iata_code": "GPL",
+      "icao_code": "MRGP",
+      "distance_km": 46.5,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Guapiles Airport handles all incoming and outgoing flights."
+        }
+      ],
+      "website": "https://www.guapilesairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "GuapilesAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:57.960126Z",
+    "generated_at": "2025-08-04T19:17:47.857231Z",
     "env": "development",
     "source": "justarrived-generator"
   }

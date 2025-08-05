@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Xingtai",
+      "iata_code": "XNT",
+      "icao_code": "ZBXT",
+      "distance_km": 27.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Xingtai Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.xingtai-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Xingtai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Handan",
+      "iata_code": "HDG",
+      "icao_code": "ZBHD",
+      "distance_km": 37.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Handan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "http://www.hdgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:39.178344Z",
+    "generated_at": "2025-08-04T18:06:46.471482Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ronchi Dei Legionari",
+      "iata_code": "TRS",
+      "icao_code": "LIPQ",
+      "distance_km": 11.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ronchi Dei Legionari Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroporto.fvg.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 26.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Airfield Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.airfieldairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portoroz",
+      "iata_code": "POW",
+      "icao_code": "LJPZ",
+      "distance_km": 39.2,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Portoroz Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Portoroz Airport is responsible for the handling and storage of all air freight."
+        }
+      ],
+      "website": "https://www.portoroz-airport.si/",
+      "wifi": {
+        "available": true,
+        "network_name": "Portoroz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:44.468486Z",
+    "generated_at": "2025-08-04T19:11:50.017823Z",
     "env": "development",
     "source": "justarrived-generator"
   }

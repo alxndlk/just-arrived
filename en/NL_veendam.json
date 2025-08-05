@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eelde",
+      "iata_code": "GRQ",
+      "icao_code": "EHGG",
+      "distance_km": 19.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eelde Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Eelde Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.groningenairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eelde Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leer Papenburg Airport",
+      "iata_code": "QEJ",
+      "icao_code": "EDWF",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leer Papenburg Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.leerpapenburgairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeerPapenburgAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:50.992544Z",
+    "generated_at": "2025-08-04T20:10:28.114737Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Nuevo Dorado International",
+      "iata_code": "BOG",
+      "icao_code": "SKBO",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://eldorado.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "El Dorado Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Girardot",
+      "iata_code": "GIR",
+      "icao_code": "SKGI",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Girardot Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Girardot Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/",
+      "wifi": {
+        "available": true,
+        "network_name": "Girardot Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:25.487963Z",
+    "generated_at": "2025-08-04T18:10:53.669744Z",
     "env": "development",
     "source": "justarrived-generator"
   }

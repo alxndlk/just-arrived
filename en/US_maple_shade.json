@@ -48,8 +48,150 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "North Philadelphia",
+      "iata_code": "PNE",
+      "icao_code": "KPNE",
+      "distance_km": 14.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Philadelphia International",
+      "iata_code": "PHL",
+      "icao_code": "KPHL",
+      "distance_km": 22.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal D",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal E",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.phl.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PHL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Willow Grove NAS",
+      "iata_code": "NXX",
+      "icao_code": "KNXX",
+      "distance_km": 30.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Willow Grove NAS Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Willow Grove NAS Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.willowgrovenasairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "WGNAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wings Field",
+      "iata_code": "BBX",
+      "icao_code": "KLOM",
+      "distance_km": 31.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wings Field Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "The private aviation terminal at Wings Field Airport provides a luxurious and exclusive experience for private jet travelers."
+        }
+      ],
+      "website": "https://www.wingsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WingsFieldWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Trenton Mercer Airport",
+      "iata_code": "TTN",
+      "icao_code": "KTTN",
+      "distance_km": 39.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Doylestown",
+      "iata_code": "DYL",
+      "icao_code": "KDYL",
+      "distance_km": 42.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Doylestown Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Doylestown Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.doylestownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Doylestown Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:50.989725Z",
+    "generated_at": "2025-08-04T20:15:27.663441Z",
     "env": "development",
     "source": "justarrived-generator"
   }

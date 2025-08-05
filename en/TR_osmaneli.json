@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yenisehir",
+      "iata_code": "YEI",
+      "icao_code": "LTBR",
+      "distance_km": 41.7,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yenisehir Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Yenisehir Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.yenisehirairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yenisehir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cengiz Topel",
+      "iata_code": "KCO",
+      "icao_code": "LTBQ",
+      "distance_km": 47.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cengiz Topel Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cengiz Topel Airport is used for shipping and receiving of goods."
+        }
+      ],
+      "website": "https://www.cengiztopelairport.com.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cengiz Topel Airport Wifi",
+        "note": "Passengers can connect to the airport's wifi network for free with a limited data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:25.798737Z",
+    "generated_at": "2025-08-04T19:03:53.314718Z",
     "env": "development",
     "source": "justarrived-generator"
   }

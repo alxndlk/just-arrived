@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Franz Josef Strauss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Franz Josef Strauss Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:14.372245Z",
+    "generated_at": "2025-08-04T19:15:39.625336Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alpe D Huez",
+      "iata_code": "AHZ",
+      "icao_code": "LFHU",
+      "distance_km": 26.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Alpe D Huez Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.alpedhuezairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AlpeDHuezAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Grenoble-isere Airport (St Geoirs)",
+      "iata_code": "GNB",
+      "icao_code": "LFLS",
+      "distance_km": 40.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.grenoble-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Grenoble Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:53.539577Z",
+    "generated_at": "2025-08-04T18:35:42.938499Z",
     "env": "development",
     "source": "justarrived-generator"
   }

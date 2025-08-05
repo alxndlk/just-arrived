@@ -48,8 +48,88 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jacksonville NAS",
+      "iata_code": "NIP",
+      "icao_code": "KNIP",
+      "distance_km": 26.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Craig Municipal",
+      "iata_code": "CRG",
+      "icao_code": "KCRG",
+      "distance_km": 35.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Craig Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Craig Municipal Airport is reserved for private and corporate flights."
+        }
+      ],
+      "website": "https://www.craigairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Craig Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jacksonville,",
+      "iata_code": "JAX",
+      "icao_code": "KJAX",
+      "distance_km": 35.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jacksonville Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Jacksonville Airport serves domestic flights for American Airlines and Delta."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Jacksonville Airport serves domestic flights for Southwest Airlines."
+        }
+      ],
+      "website": "https://www.flyjax.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JAX-WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Augustine",
+      "iata_code": "UST",
+      "icao_code": "KSGJ",
+      "distance_km": 37.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:46.151168Z",
+    "generated_at": "2025-08-04T20:12:32.799736Z",
     "env": "development",
     "source": "justarrived-generator"
   }

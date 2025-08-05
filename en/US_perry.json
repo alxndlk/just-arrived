@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lewis B Wilson",
+      "iata_code": "MCN",
+      "icao_code": "KMCN",
+      "distance_km": 26.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated for private and charter flights."
+        }
+      ],
+      "website": "https://www.flymcn.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCN Airport WiFi",
+        "note": "Complimentary for all passengers."
+      }
+    },
+    {
+      "airport_name": "Smart",
+      "iata_code": "MAC",
+      "icao_code": "KMAC",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.macairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:05.000162Z",
+    "generated_at": "2025-08-04T18:51:48.741062Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,135 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Frankfurt International Airport, serving a wide range of international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Frankfurt International Airport, mainly serving Lufthansa and its partner airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal currently under construction, set to open in 2023 and increase the airport's capacity by 25 million passengers per year."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with a daily time limit of 30 minutes per device. Unlimited access can be purchased for a fee."
+      }
+    },
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 22.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 26.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A smaller terminal for private and charter flights at Frankfurt-Egelsbach Airport."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Frankfurt-Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 31.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Reichelsheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Reichelsheim Airport, handling all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.reichelsheim-airport.de",
+      "wifi": {
+        "available": true,
+        "network_name": "Reichelsheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mainz Finthen Airport is a modern and efficient facility, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mainz-finthen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "MainzFinthenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:56.205256Z",
+    "generated_at": "2025-08-04T20:16:29.646112Z",
     "env": "development",
     "source": "justarrived-generator"
   }

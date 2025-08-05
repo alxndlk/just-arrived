@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Muzaffarabad",
+      "iata_code": "MFG",
+      "icao_code": "OPMF",
+      "distance_km": 24.6,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tarbela",
+      "iata_code": "TLB",
+      "icao_code": "OPTA",
+      "distance_km": 41.8,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tarbela Airport handles both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tarbelaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tarbela Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:39.745810Z",
+    "generated_at": "2025-08-04T20:01:29.926552Z",
     "env": "development",
     "source": "justarrived-generator"
   }

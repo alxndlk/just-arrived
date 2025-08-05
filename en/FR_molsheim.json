@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Entzheim",
+      "iata_code": "SXB",
+      "icao_code": "LFST",
+      "distance_km": 10.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Entzheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Entzheim Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.strasbourg.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Entzheim Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Black Forest Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Black Forest Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.blackforestairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BFA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:09.323549Z",
+    "generated_at": "2025-08-04T19:31:41.039342Z",
     "env": "development",
     "source": "justarrived-generator"
   }

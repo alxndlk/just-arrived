@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ljungbyhed Airport",
+      "iata_code": "QEL",
+      "icao_code": "ESTL",
+      "distance_km": 22.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ljungbyhed Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ljungbyhed Airport, handling freight and logistics operations."
+        }
+      ],
+      "website": "https://www.ljungbyhedairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ljungbyhed Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Angelholm",
+      "iata_code": "AGH",
+      "icao_code": "ESDB",
+      "distance_km": 26.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Angelholm Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Angelholm Airport is used for transporting goods and packages."
+        }
+      ],
+      "website": "https://angelholmairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Angelholm Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:54.922355Z",
+    "generated_at": "2025-08-04T20:28:36.159050Z",
     "env": "development",
     "source": "justarrived-generator"
   }

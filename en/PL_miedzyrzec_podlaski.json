@@ -51,8 +51,35 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biala Podlaska",
+      "iata_code": "BXP",
+      "icao_code": "EPBP",
+      "distance_km": 24.9,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://bialapodlaskaairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "BialaPodlaskaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:35.533840Z",
+    "generated_at": "2025-08-04T19:04:51.536243Z",
     "env": "development",
     "source": "justarrived-generator"
   }

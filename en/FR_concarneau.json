@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pluguffan",
+      "iata_code": "UIP",
+      "icao_code": "LFRQ",
+      "distance_km": 21.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pluguffan Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pluguffan Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.brest.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Pluguffan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lann Bihoue",
+      "iata_code": "LRT",
+      "icao_code": "LFRH",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lann Bihoue Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lann Bihoue Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.lorient.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:18.829669Z",
+    "generated_at": "2025-08-04T18:54:41.493363Z",
     "env": "development",
     "source": "justarrived-generator"
   }

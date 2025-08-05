@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sam Neua",
+      "iata_code": "NEU",
+      "icao_code": "VLSN",
+      "distance_km": 2.0,
+      "gmt": "7",
+      "country": "Laos",
+      "timezone": "Asia/Vientiane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Oudomxai",
+      "iata_code": "ODY",
+      "icao_code": "VLOS",
+      "distance_km": 22.4,
+      "gmt": "7",
+      "country": "Laos",
+      "timezone": "Asia/Vientiane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Oudomxai Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.oudomxaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ODY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:01.186807Z",
+    "generated_at": "2025-08-04T20:02:32.922768Z",
     "env": "development",
     "source": "justarrived-generator"
   }

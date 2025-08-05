@@ -51,8 +51,56 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Galatina",
+      "iata_code": "LCC",
+      "icao_code": "LIBN",
+      "distance_km": 13.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Galatina Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.galatinaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Galatina Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Papola Casale",
+      "iata_code": "BDS",
+      "icao_code": "LIBR",
+      "distance_km": 35.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Papola Casale Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.aeroportidipuglia.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "PapolaCasaleAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:28.410254Z",
+    "generated_at": "2025-08-04T19:18:49.748692Z",
     "env": "development",
     "source": "justarrived-generator"
   }

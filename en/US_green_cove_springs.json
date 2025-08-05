@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jacksonville NAS",
+      "iata_code": "NIP",
+      "icao_code": "KNIP",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jacksonville NAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Jacksonville NAS Airport is used for military personnel and their families."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/nas_jacksonville.html",
+      "wifi": {
+        "available": true,
+        "network_name": "JAXNAS Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Augustine",
+      "iata_code": "UST",
+      "icao_code": "KSGJ",
+      "distance_km": 33.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Augustine Airport houses all the necessary facilities for travelers, including check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at St Augustine Airport caters to private and charter flights, offering amenities such as a lounge and concierge services."
+        }
+      ],
+      "website": "https://www.flyust.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StAugAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:57.102189Z",
+    "generated_at": "2025-08-04T19:27:57.048667Z",
     "env": "development",
     "source": "justarrived-generator"
   }

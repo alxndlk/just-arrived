@@ -50,8 +50,56 @@
     "police": "132"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mosteiros",
+      "iata_code": "MTI",
+      "icao_code": "GVMT",
+      "distance_km": 12.2,
+      "gmt": "-1",
+      "country": "Cape Verde",
+      "timezone": "Atlantic/Cape_Verde",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.mosteirosairport.cv/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mosteiros Airport Wifi",
+        "note": "Free wifi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Sao Filipe",
+      "iata_code": "SFL",
+      "icao_code": "GVSF",
+      "distance_km": 25.4,
+      "gmt": "-1",
+      "country": "Cape Verde",
+      "timezone": "Atlantic/Cape_Verde",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sao Filipe Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sao Filipe Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aeroportosantiago.cv/aeroportos/sao-filipe/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:09.916334Z",
+    "generated_at": "2025-08-04T19:39:41.991579Z",
     "env": "development",
     "source": "justarrived-generator"
   }

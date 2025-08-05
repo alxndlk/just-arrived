@@ -54,8 +54,60 @@
     "police": "104"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tocumen International",
+      "iata_code": "PTY",
+      "icao_code": "MPTO",
+      "distance_km": 22.1,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tocumen International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Tocumen International Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.tocumenpanama.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tocumen Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Paitilla-Marcos A. Gelabert",
+      "iata_code": "PAC",
+      "icao_code": "MPMG",
+      "distance_km": 36.8,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.pa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:12.765114Z",
+    "generated_at": "2025-08-04T18:25:46.305976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

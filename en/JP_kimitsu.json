@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 26.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Haneda Airport, primarily serving domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "A dedicated terminal for international flights at Haneda Airport."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection after a certain amount of time."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:59.031778Z",
+    "generated_at": "2025-08-04T18:21:49.257095Z",
     "env": "development",
     "source": "justarrived-generator"
   }

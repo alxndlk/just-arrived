@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 9.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 21.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 32.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lewis Lockport",
+      "iata_code": "LOT",
+      "icao_code": "KLOT",
+      "distance_km": 35.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lewis Lockport Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lewis Lockport Airport is used for shipping and receiving freight."
+        }
+      ],
+      "website": "https://www.lewislockportairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LLA Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "JOT",
+      "icao_code": "KJOT",
+      "distance_km": 37.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves all domestic flights and houses various amenities for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Municipal Airport handles all international flights and offers customs and immigration services for arriving passengers."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:40.148394Z",
+    "generated_at": "2025-08-04T20:10:31.384200Z",
     "env": "development",
     "source": "justarrived-generator"
   }

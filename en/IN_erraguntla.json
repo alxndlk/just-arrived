@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cuddapah",
+      "iata_code": "CDP",
+      "icao_code": "VOCP",
+      "distance_km": 29.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cuddapah Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.cuddapahairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CDP Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:16.084401Z",
+    "generated_at": "2025-08-04T20:27:30.611671Z",
     "env": "development",
     "source": "justarrived-generator"
   }

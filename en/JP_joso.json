@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 41.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibaraki Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibaraki Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.ibaraki-airport.net/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 45.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used by low-cost carriers and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal opened in 2020, dedicated to low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport, but users must re-login every 3 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:14.549118Z",
+    "generated_at": "2025-08-04T18:26:45.681129Z",
     "env": "development",
     "source": "justarrived-generator"
   }

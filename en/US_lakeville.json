@@ -48,8 +48,135 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minneapolis - St. Paul International",
+      "iata_code": "MSP",
+      "icao_code": "KMSP",
+      "distance_km": 23.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Minneapolis - St. Paul International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Minneapolis - St. Paul International Airport, primarily serving low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.mspairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSP Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may require a brief registration process."
+      }
+    },
+    {
+      "airport_name": "Downtown",
+      "iata_code": "STP",
+      "icao_code": "KSTP",
+      "distance_km": 32.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Downtown Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Downtown Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.downtownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DowntownAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Flying Cloud",
+      "iata_code": "FCM",
+      "icao_code": "KFCM",
+      "distance_km": 34.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flyingcloudairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FCM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "FBL",
+      "icao_code": "KFBL",
+      "distance_km": 42.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport is responsible for handling all air freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Crystal",
+      "iata_code": "MIC",
+      "icao_code": "KMIC",
+      "distance_km": 43.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Crystal Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Crystal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.crystalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CrystalAirportWifi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:23.372654Z",
+    "generated_at": "2025-08-04T20:25:33.209035Z",
     "env": "development",
     "source": "justarrived-generator"
   }

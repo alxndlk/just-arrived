@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Centralia",
+      "iata_code": "YCE",
+      "icao_code": "CYCE",
+      "distance_km": 35.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Centralia Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Centralia Airport handles all freight and cargo services."
+        }
+      ],
+      "website": "https://www.centraliaairport.ca",
+      "wifi": {
+        "available": true,
+        "network_name": "Centralia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sarnia",
+      "iata_code": "YZR",
+      "icao_code": "CYZR",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sarnia Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sarnia Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.sarniaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sarnia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:45.779880Z",
+    "generated_at": "2025-08-04T19:23:51.060426Z",
     "env": "development",
     "source": "justarrived-generator"
   }

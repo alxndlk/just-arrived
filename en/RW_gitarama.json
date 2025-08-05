@@ -50,8 +50,39 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kigali International",
+      "iata_code": "KGL",
+      "icao_code": "HRYR",
+      "distance_km": 43.3,
+      "gmt": "2",
+      "country": "Rwanda",
+      "timezone": "Africa/Kigali",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kigali International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Kigali International Airport is reserved for high-profile passengers and offers exclusive services."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kigali International Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.kigaliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KGL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:03.320940Z",
+    "generated_at": "2025-08-04T18:20:50.751028Z",
     "env": "development",
     "source": "justarrived-generator"
   }

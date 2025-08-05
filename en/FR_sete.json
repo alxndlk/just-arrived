@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Montpellier Méditerranée",
+      "iata_code": "MPL",
+      "icao_code": "LFMT",
+      "distance_km": 28.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MPL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beziers Vias",
+      "iata_code": "BZR",
+      "icao_code": "LFMU",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.beziers.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Beziers Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:42.210832Z",
+    "generated_at": "2025-08-04T18:31:47.726708Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 21.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orleans International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a satellite terminal connected to the main terminal, serving mainly domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a satellite terminal connected to the main terminal, serving mainly international flights."
+        }
+      ],
+      "website": "https://flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 22.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport offers domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lakefront Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:44.814599Z",
+    "generated_at": "2025-08-04T19:02:41.526211Z",
     "env": "development",
     "source": "justarrived-generator"
   }

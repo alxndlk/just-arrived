@@ -48,8 +48,147 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 2.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 10.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gary/Chicago International Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Gary/Chicago International Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.garychicagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GYY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 33.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic flights and is home to Southwest Airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves both domestic and international flights and is home to Delta Air Lines and Porter Airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights and is home to United Airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Porter County",
+      "iata_code": "VPZ",
+      "icao_code": "KVPZ",
+      "distance_km": 42.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Porter County Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.portercountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PorterCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lewis Lockport",
+      "iata_code": "LOT",
+      "icao_code": "KLOT",
+      "distance_km": 45.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lewis Lockport Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lewis Lockport Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.lewislockportairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LLA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "JOT",
+      "icao_code": "KJOT",
+      "distance_km": 48.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:35.638981Z",
+    "generated_at": "2025-08-04T20:12:31.727999Z",
     "env": "development",
     "source": "justarrived-generator"
   }

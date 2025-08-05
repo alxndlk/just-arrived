@@ -50,8 +50,56 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Joacaba",
+      "iata_code": "JCB",
+      "icao_code": "SSJA",
+      "distance_km": 3.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Joacaba Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.joacabaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Joacaba Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vienna",
+      "iata_code": "VIA",
+      "icao_code": "SSVI",
+      "distance_km": 41.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for international and domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated for low-cost carriers"
+        }
+      ],
+      "website": "https://www.viennaairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Vienna Airport WiFi",
+        "note": "Free for the first 3 hours, then available for purchase"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:06.034883Z",
+    "generated_at": "2025-08-04T18:52:43.580961Z",
     "env": "development",
     "source": "justarrived-generator"
   }

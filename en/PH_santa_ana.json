@@ -47,8 +47,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 7.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A modern terminal exclusively for Philippine Airlines flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Ninoy Aquino International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A small terminal for domestic flights operated by low-cost carriers."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "Limited to 2 hours per device"
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 47.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Baler Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.balerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:34.224045Z",
+    "generated_at": "2025-08-04T20:13:28.124375Z",
     "env": "development",
     "source": "justarrived-generator"
   }

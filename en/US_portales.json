@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "CVN",
+      "icao_code": "KCVN",
+      "distance_km": 37.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic flights and includes check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights and includes customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:39.296499Z",
+    "generated_at": "2025-08-04T19:17:39.155624Z",
     "env": "development",
     "source": "justarrived-generator"
   }

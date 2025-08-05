@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roxas City",
+      "iata_code": "RXS",
+      "icao_code": "RPVR",
+      "distance_km": 21.9,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roxas City Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Roxas City Airport is used for the transportation of goods and packages."
+        }
+      ],
+      "website": "https://roxasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RXS Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Kalibo",
+      "iata_code": "KLO",
+      "icao_code": "RPVK",
+      "distance_km": 42.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalibo Airport handles both domestic and international flights."
+        },
+        {
+          "name": "New International Terminal",
+          "description": "The new international terminal at Kalibo Airport was opened in 2012 to accommodate the growing number of international flights."
+        }
+      ],
+      "website": "https://www.kaliboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLO Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:19.786195Z",
+    "generated_at": "2025-08-04T18:40:43.113406Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cascavel",
+      "iata_code": "CAC",
+      "icao_code": "SBCA",
+      "distance_km": 44.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cascavel Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportocascavel.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:58.459908Z",
+    "generated_at": "2025-08-04T19:21:40.657355Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -47,8 +47,35 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toussaint Louverture International",
+      "iata_code": "PAP",
+      "icao_code": "MTPP",
+      "distance_km": 24.9,
+      "gmt": "-5",
+      "country": "Haiti",
+      "timezone": "America/Port-au-Prince",
+      "terminals": [
+        {
+          "name": "Terminal North",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal South",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportintlhaiti.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toussaint Louverture Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:06.317877Z",
+    "generated_at": "2025-08-04T18:23:45.974825Z",
     "env": "development",
     "source": "justarrived-generator"
   }

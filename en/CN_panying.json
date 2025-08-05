@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nanyang",
+      "iata_code": "NNY",
+      "icao_code": "ZHNY",
+      "distance_km": 8.2,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanyang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nanyang Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "http://www.nanyangairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanyang Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:07.951882Z",
+    "generated_at": "2025-08-04T19:39:40.238962Z",
     "env": "development",
     "source": "justarrived-generator"
   }

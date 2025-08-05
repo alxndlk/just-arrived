@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kumamoto",
+      "iata_code": "KMJ",
+      "icao_code": "RJFT",
+      "distance_km": 4.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kumamoto Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kumamoto Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.kmj-ab.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KMJ Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:35.305922Z",
+    "generated_at": "2025-08-04T18:32:40.406027Z",
     "env": "development",
     "source": "justarrived-generator"
   }

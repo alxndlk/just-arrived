@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hyvinkaa",
+      "iata_code": "HYV",
+      "icao_code": "EFHV",
+      "distance_km": 38.9,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hyvinkaa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hyvinkaa Airport, handling all cargo operations."
+        }
+      ],
+      "website": "https://www.hyvinkaaairport.fi/",
+      "wifi": {
+        "available": true,
+        "network_name": "HYV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Helsinki-vantaa",
+      "iata_code": "HEL",
+      "icao_code": "EFHK",
+      "distance_km": 47.6,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:16.710617Z",
+    "generated_at": "2025-08-04T20:33:38.234553Z",
     "env": "development",
     "source": "justarrived-generator"
   }

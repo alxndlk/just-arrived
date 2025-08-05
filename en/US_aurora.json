@@ -104,8 +104,97 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Denver International",
+      "iata_code": "DEN",
+      "icao_code": "KDEN",
+      "distance_km": 16.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Arapahoe Co",
+      "iata_code": "APA",
+      "icao_code": "KAPA",
+      "distance_km": 22.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arapahoe Co Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Arapahoe Co Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.arapahoecoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ArapahoeCoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jeffco",
+      "iata_code": "BJC",
+      "icao_code": "KBJC",
+      "distance_km": 38.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jeffco Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Jeffco Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.jeffco.us/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "JeffcoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Erie Municipal Airport",
+      "iata_code": "QQE",
+      "icao_code": "KEIK",
+      "distance_km": 43.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Erie Municipal Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Erie Municipal Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flyerieairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Erie Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:29.919955Z",
+    "generated_at": "2025-08-04T20:21:36.414867Z",
     "env": "development",
     "source": "justarrived-generator"
   }

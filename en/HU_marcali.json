@@ -51,8 +51,35 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sármellék/Balaton",
+      "iata_code": "SOB",
+      "icao_code": "LHSM",
+      "distance_km": 19.3,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.sarmellekairport.hu/en",
+      "wifi": {
+        "available": true,
+        "network_name": "SOB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:32.875735Z",
+    "generated_at": "2025-08-04T19:24:40.324797Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 11.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse serves Alaska Airlines and its partner airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse serves Delta Air Lines and its partner airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "This concourse serves Southwest Airlines and its partner airlines."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Troutdale",
+      "iata_code": "TTD",
+      "icao_code": "KTTD",
+      "distance_km": 24.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Troutdale Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Troutdale Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.troutdaleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Troutdale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 31.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for cargo and general aviation flights."
+        }
+      ],
+      "website": "https://www.portofportland.com/PDX_Airport_Home.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX_Free_Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:37.863529Z",
+    "generated_at": "2025-08-04T18:50:43.607891Z",
     "env": "development",
     "source": "justarrived-generator"
   }

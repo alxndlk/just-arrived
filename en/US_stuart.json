@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Witham Field",
+      "iata_code": "SUA",
+      "icao_code": "KSUA",
+      "distance_km": 0.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Witham Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.stlucieco.gov/departments-services/a-z/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "WithamFieldWifi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "St Lucie County",
+      "iata_code": "FPR",
+      "icao_code": "KFPR",
+      "distance_km": 29.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Lucie County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at St Lucie County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.stlucieco.gov/departments-services/a-z/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "FPR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:11.636140Z",
+    "generated_at": "2025-08-04T18:59:41.247582Z",
     "env": "development",
     "source": "justarrived-generator"
   }

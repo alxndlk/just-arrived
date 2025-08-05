@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional",
+      "iata_code": "ZIH",
+      "icao_code": "MMZH",
+      "distance_km": 10.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.iztapa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IZTAPA-AIRPORT-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:04.221879Z",
+    "generated_at": "2025-08-04T18:24:42.223982Z",
     "env": "development",
     "source": "justarrived-generator"
   }

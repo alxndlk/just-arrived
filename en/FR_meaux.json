@@ -51,8 +51,89 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 23.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal mainly used for low-cost airlines and regional flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-cdg",
+      "wifi": {
+        "available": true,
+        "network_name": "WIFI-AIRPORT",
+        "note": "Free wifi is available throughout the airport, but a premium option is also offered for faster connection."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 32.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Bourget Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroport.fr/les-aeroports-de-l-uaf/paris-le-bourget",
+      "wifi": {
+        "available": true,
+        "network_name": "LBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal Sud",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal Ouest",
+          "description": "A smaller terminal mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly",
+      "wifi": {
+        "available": true,
+        "network_name": "Orly Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:04.120994Z",
+    "generated_at": "2025-08-04T18:27:43.528840Z",
     "env": "development",
     "source": "justarrived-generator"
   }

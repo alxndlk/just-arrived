@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 22.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richmond International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Richmond International Airport serves mainly domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Richmond International Airport serves mainly international flights."
+        }
+      ],
+      "website": "https://flyrichmond.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIC Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dinwiddie County Airport",
+      "iata_code": "PTB",
+      "icao_code": "KPTB",
+      "distance_km": 31.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dinwiddie County Airport handles all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Dinwiddie County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.dinwiddieairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dinwiddie Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:07.147503Z",
+    "generated_at": "2025-08-04T19:34:43.857331Z",
     "env": "development",
     "source": "justarrived-generator"
   }

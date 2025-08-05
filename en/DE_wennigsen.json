@@ -49,8 +49,89 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 22.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal of Hanover Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal dedicated to handling increased traffic and larger aircrafts."
+        }
+      ],
+      "website": "https://www.hannover-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAJ Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection after a certain period of time."
+      }
+    },
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 27.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hildesheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.hildesheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hildesheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Finkenwerder",
+      "iata_code": "XFW",
+      "icao_code": "EDHI",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Finkenwerder Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Finkenwerder Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:07.203621Z",
+    "generated_at": "2025-08-04T20:21:30.451533Z",
     "env": "development",
     "source": "justarrived-generator"
   }

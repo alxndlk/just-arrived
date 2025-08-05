@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Laleu",
+      "iata_code": "LRH",
+      "icao_code": "LFBH",
+      "distance_km": 7.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Laleu Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Laleu Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.laleuairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Laleu Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be obtained at the information desk."
+      }
+    },
+    {
+      "airport_name": "Saint Agnant",
+      "iata_code": "RCO",
+      "icao_code": "LFDN",
+      "distance_km": 29.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:09.436696Z",
+    "generated_at": "2025-08-04T20:30:31.819659Z",
     "env": "development",
     "source": "justarrived-generator"
   }

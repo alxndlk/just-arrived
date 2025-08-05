@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Merritt Island",
+      "iata_code": "COI",
+      "icao_code": "KCOI",
+      "distance_km": 3.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Melbourne International Airport",
+      "iata_code": "MLB",
+      "icao_code": "KMLB",
+      "distance_km": 25.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Melbourne International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Melbourne International Airport serves domestic flights for low-cost carriers."
+        }
+      ],
+      "website": "https://www.mlbair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Space Coast Regional",
+      "iata_code": "TIX",
+      "icao_code": "KTIX",
+      "distance_km": 26.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:35.202447Z",
+    "generated_at": "2025-08-04T20:26:30.022999Z",
     "env": "development",
     "source": "justarrived-generator"
   }

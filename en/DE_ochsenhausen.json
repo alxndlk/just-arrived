@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memmingen-Allgäu",
+      "iata_code": "FMM",
+      "icao_code": "EDJA",
+      "distance_km": 23.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.allgaeu-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:21.257999Z",
+    "generated_at": "2025-08-04T19:31:42.222434Z",
     "env": "development",
     "source": "justarrived-generator"
   }

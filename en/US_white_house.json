@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nashville International",
+      "iata_code": "BNA",
+      "icao_code": "KBNA",
+      "distance_km": 37.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nashville International Airport serves all airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Nashville International Airport primarily serves Southwest Airlines and offers a variety of dining and shopping options."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Nashville International Airport primarily serves American Airlines and Delta Air Lines and offers a variety of dining and shopping options."
+        }
+      ],
+      "website": "https://www.flynashville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:29.940133Z",
+    "generated_at": "2025-08-04T19:10:46.792751Z",
     "env": "development",
     "source": "justarrived-generator"
   }

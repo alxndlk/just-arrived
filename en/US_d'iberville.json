@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gulfport-Biloxi International",
+      "iata_code": "GPT",
+      "icao_code": "KGPT",
+      "distance_km": 17.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gulfport-Biloxi International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Gulfport-Biloxi International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Gulfport-Biloxi International Airport serves primarily international flights."
+        }
+      ],
+      "website": "https://www.flygpt.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GPT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jackson County",
+      "iata_code": "PGL",
+      "icao_code": "KPQL",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jackson County Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.jacksoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JCAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:52.493928Z",
+    "generated_at": "2025-08-04T19:13:41.623351Z",
     "env": "development",
     "source": "justarrived-generator"
   }

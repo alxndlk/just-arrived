@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skien",
+      "iata_code": "SKE",
+      "icao_code": "ENSN",
+      "distance_km": 18.1,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skien Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skien Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.skienairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skien Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sandefjord",
+      "iata_code": "TRF",
+      "icao_code": "ENTO",
+      "distance_km": 43.2,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sandefjord Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.torp.no/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Torp Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:20.274091Z",
+    "generated_at": "2025-08-04T19:09:48.352699Z",
     "env": "development",
     "source": "justarrived-generator"
   }

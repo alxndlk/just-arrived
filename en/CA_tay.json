@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 30.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Muskoka",
+      "iata_code": "YQA",
+      "icao_code": "CYQA",
+      "distance_km": 46.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Muskoka Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Muskoka Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.muskokaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Muskoka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:50.055056Z",
+    "generated_at": "2025-08-04T20:29:33.868024Z",
     "env": "development",
     "source": "justarrived-generator"
   }

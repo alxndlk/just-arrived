@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Schiphol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for European flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal mainly used for long-haul flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "De Kooy/Den Helder Airport",
+      "iata_code": "DHR",
+      "icao_code": "EHKD",
+      "distance_km": 46.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at De Kooy/Den Helder Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.denhelderairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "DHR Free WiFi",
+        "note": "WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:30.841993Z",
+    "generated_at": "2025-08-04T19:11:42.542045Z",
     "env": "development",
     "source": "justarrived-generator"
   }

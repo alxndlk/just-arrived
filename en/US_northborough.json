@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Worcester Regional Airport",
+      "iata_code": "ORH",
+      "icao_code": "KORH",
+      "distance_km": 19.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hanscom Field",
+      "iata_code": "BED",
+      "icao_code": "KBED",
+      "distance_km": 33.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GDM",
+      "icao_code": "KGDM",
+      "distance_km": 38.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "North Central",
+      "iata_code": "SFZ",
+      "icao_code": "KSFZ",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "This terminal serves regional flights."
+        }
+      ],
+      "website": "https://www.ncairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NCAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:59.959172Z",
+    "generated_at": "2025-08-04T20:19:31.110455Z",
     "env": "development",
     "source": "justarrived-generator"
   }

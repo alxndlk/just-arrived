@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 35.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Itami Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Itami Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.osaka-airport.co.jp/en/itami/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be obtained at information desks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:18.947157Z",
+    "generated_at": "2025-08-04T18:07:01.214810Z",
     "env": "development",
     "source": "justarrived-generator"
   }

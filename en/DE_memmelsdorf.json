@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bindlacher-Berg",
+      "iata_code": "BYU",
+      "icao_code": "EDQD",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bindlacher-Berg Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bindlacher-berg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nürnberg",
+      "iata_code": "NUE",
+      "icao_code": "EDDN",
+      "distance_km": 49.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nürnberg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.airport-nuernberg.de/en",
+      "wifi": {
+        "available": true,
+        "network_name": "NUE_Free_WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:16.223064Z",
+    "generated_at": "2025-08-04T19:34:46.366704Z",
     "env": "development",
     "source": "justarrived-generator"
   }

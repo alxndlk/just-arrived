@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leesburg",
+      "iata_code": "LEE",
+      "icao_code": "KLEE",
+      "distance_km": 26.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orlando Executive",
+      "iata_code": "ORL",
+      "icao_code": "KORL",
+      "distance_km": 39.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kissimmee Gateway",
+      "iata_code": "ISM",
+      "icao_code": "KISM",
+      "distance_km": 42.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and is equipped with modern amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal caters to private and chartered flights, offering a more exclusive and luxurious experience."
+        }
+      ],
+      "website": "https://www.flykissimmee.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kissimmee Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orlando International",
+      "iata_code": "MCO",
+      "icao_code": "KMCO",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orlando International Airport serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Orlando International Airport serves primarily international flights."
+        }
+      ],
+      "website": "https://orlandoairports.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCO Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:58.355670Z",
+    "generated_at": "2025-08-04T20:19:35.605662Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malta International",
+      "iata_code": "MLA",
+      "icao_code": "LMML",
+      "distance_km": 30.8,
+      "gmt": "1",
+      "country": "Malta",
+      "timezone": "Europe/Malta",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Malta International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Air Malta Terminal",
+          "description": "This terminal is dedicated to flights operated by Air Malta."
+        }
+      ],
+      "website": "https://www.maltairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Malta Airport Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by selecting the network and following the instructions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:02.967857Z",
+    "generated_at": "2025-08-04T19:38:41.631509Z",
     "env": "development",
     "source": "justarrived-generator"
   }

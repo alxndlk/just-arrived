@@ -51,8 +51,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pakyong Airport",
+      "iata_code": "PYG",
+      "icao_code": "VEPY",
+      "distance_km": 33.3,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pakyong Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://pakyongairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pakyong Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bagdogra",
+      "iata_code": "IXB",
+      "icao_code": "VEBD",
+      "distance_km": 47.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights within India."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights."
+        }
+      ],
+      "website": "https://www.bagdograairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bagdogra Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:49.610126Z",
+    "generated_at": "2025-08-04T20:32:29.907423Z",
     "env": "development",
     "source": "justarrived-generator"
   }

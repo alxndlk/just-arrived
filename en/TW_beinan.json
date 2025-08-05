@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Taitung",
+      "iata_code": "TTT",
+      "icao_code": "RCQS",
+      "distance_km": 4.1,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Taitung Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Taitung Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.taitung-airport.com.tw/",
+      "wifi": {
+        "available": true,
+        "network_name": "Taitung Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but connection may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:38.517074Z",
+    "generated_at": "2025-08-04T19:02:40.207785Z",
     "env": "development",
     "source": "justarrived-generator"
   }

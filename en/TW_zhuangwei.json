@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Taipei Songshan (Sung Shan)",
+      "iata_code": "TSA",
+      "icao_code": "RCSS",
+      "distance_km": 41.2,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Taipei Songshan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.tsa.gov.tw/tsa/en/home.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "TPE-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the TPE-Free-WiFi network and follow the instructions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:25.664329Z",
+    "generated_at": "2025-08-04T18:48:42.937895Z",
     "env": "development",
     "source": "justarrived-generator"
   }

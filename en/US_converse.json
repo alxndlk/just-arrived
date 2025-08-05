@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Antonio International",
+      "iata_code": "SAT",
+      "icao_code": "KSAT",
+      "distance_km": 16.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Antonio International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at San Antonio International Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.sanantonio.gov/SAT",
+      "wifi": {
+        "available": true,
+        "network_name": "SAT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stinson Municipalcipal",
+      "iata_code": "SSF",
+      "icao_code": "KSSF",
+      "distance_km": 21.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stinson Municipal Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Stinson Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.stinsonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StinsonAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "New Braunfels Regional Airport",
+      "iata_code": "QQZ",
+      "icao_code": "KBAZ",
+      "distance_km": 33.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at New Braunfels Regional Airport offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "For those traveling by private jet, the private terminal at New Braunfels Regional Airport offers a luxurious and efficient experience."
+        }
+      ],
+      "website": "https://www.flykilleenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NBRAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:27.925677Z",
+    "generated_at": "2025-08-04T20:09:32.802921Z",
     "env": "development",
     "source": "justarrived-generator"
   }

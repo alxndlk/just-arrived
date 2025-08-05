@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGU",
+      "icao_code": "SBFI",
+      "distance_km": 37.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGR",
+      "icao_code": "SARI",
+      "distance_km": 48.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosarg.com.ar/aeropuerto-iguazu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cataratas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:02.718511Z",
+    "generated_at": "2025-08-04T20:09:30.972697Z",
     "env": "development",
     "source": "justarrived-generator"
   }

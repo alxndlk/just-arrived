@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 42.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Cologne/bonn Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 42.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dortmund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the network 'DTM Free WiFi'."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:00.497903Z",
+    "generated_at": "2025-08-04T19:03:43.434546Z",
     "env": "development",
     "source": "justarrived-generator"
   }

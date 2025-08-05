@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Saint Cloud Regional",
+      "iata_code": "STC",
+      "icao_code": "KSTC",
+      "distance_km": 8.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Saint Cloud Regional Airport, serving domestic flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Saint Cloud Regional Airport, handling freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.stcloudairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STC Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Princeton Municipal Airport",
+      "iata_code": "PNM",
+      "icao_code": "KPNM",
+      "distance_km": 48.1,
+      "gmt": "-5",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Princeton Municipal Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Princeton Municipal Airport caters to private and chartered flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.princetonmunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Princeton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:30.000426Z",
+    "generated_at": "2025-08-04T20:15:30.698219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

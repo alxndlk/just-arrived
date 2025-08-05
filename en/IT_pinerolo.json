@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sandro Pertini (caselle)",
+      "iata_code": "TRN",
+      "icao_code": "LIMF",
+      "distance_km": 41.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.aeroportoditorino.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Levaldigi",
+      "iata_code": "CUF",
+      "icao_code": "LIMZ",
+      "distance_km": 45.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Levaldigi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "http://www.aeroportodilevaldigi.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Levaldigi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:56.442303Z",
+    "generated_at": "2025-08-04T18:37:41.687873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

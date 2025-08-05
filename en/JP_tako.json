@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 8.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A modern terminal with a variety of shops and restaurants, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A low-cost carrier terminal, serving mainly domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport Free Wi-Fi",
+        "note": "Passengers can connect to the Wi-Fi network for up to 3 hours for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:46.265299Z",
+    "generated_at": "2025-08-04T19:10:53.380307Z",
     "env": "development",
     "source": "justarrived-generator"
   }

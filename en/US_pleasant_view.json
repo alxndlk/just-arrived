@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OGD",
+      "icao_code": "KOGD",
+      "distance_km": 14.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brigham City",
+      "iata_code": "BMC",
+      "icao_code": "KBMC",
+      "distance_km": 25.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brigham City Airport serves all domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Brigham City Airport serves all international flights."
+        }
+      ],
+      "website": "https://www.brighamcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BrighamCityAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:53.286632Z",
+    "generated_at": "2025-08-04T19:21:41.115075Z",
     "env": "development",
     "source": "justarrived-generator"
   }

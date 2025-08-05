@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Prince George",
+      "iata_code": "YXS",
+      "icao_code": "CYXS",
+      "distance_km": 6.2,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Prince George Airport, serving domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "A smaller terminal at Prince George Airport, used for general aviation and charter flights."
+        }
+      ],
+      "website": "https://www.pgairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YXS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:54.574751Z",
+    "generated_at": "2025-08-04T18:23:52.719133Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Douglas Municipal",
+      "iata_code": "DGL",
+      "icao_code": "KDGL",
+      "distance_km": 2.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Douglas Municipal Airport is a small and modern facility, with a single concourse and several gates for commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Douglas Municipal Airport offers luxurious amenities and services for private and charter flights."
+        }
+      ],
+      "website": "https://www.douglasmunicipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Douglas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bisbee-Douglas International",
+      "iata_code": "DUG",
+      "icao_code": "KDUG",
+      "distance_km": 13.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:59.550563Z",
+    "generated_at": "2025-08-04T20:32:30.749370Z",
     "env": "development",
     "source": "justarrived-generator"
   }

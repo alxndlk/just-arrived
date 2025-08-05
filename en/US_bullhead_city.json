@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Laughlin Bullhead International",
+      "iata_code": "IFP",
+      "icao_code": "KIFP",
+      "distance_km": 5.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Laughlin Bullhead International Airport serves all commercial flights and includes check-in counters, baggage claim, and passenger amenities."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Laughlin Bullhead International Airport serves private and charter flights and includes a lounge area and pilot services."
+        }
+      ],
+      "website": "https://www.flyifp.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IFP_Free_WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Needles",
+      "iata_code": "EED",
+      "icao_code": "KEED",
+      "distance_km": 30.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:12.255001Z",
+    "generated_at": "2025-08-04T20:05:26.890197Z",
     "env": "development",
     "source": "justarrived-generator"
   }

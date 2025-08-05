@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "CGZ",
+      "icao_code": "KCGZ",
+      "distance_km": 16.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves all domestic flights and includes a variety of amenities for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Municipal Airport serves all international flights and includes customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marana",
+      "iata_code": "MZJ",
+      "icao_code": "KMZJ",
+      "distance_km": 40.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marana Airport handles all commercial flights and includes amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Marana Airport is used for shipping and receiving freight and packages."
+        }
+      ],
+      "website": "https://www.flymarana.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:29.021563Z",
+    "generated_at": "2025-08-04T19:35:46.469293Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Belgorod",
+      "iata_code": "EGO",
+      "icao_code": "UUOB",
+      "distance_km": 43.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://belgorodairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Belgorod Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:48.489173Z",
+    "generated_at": "2025-08-04T19:00:50.241137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

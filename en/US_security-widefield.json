@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Colorado Springs",
+      "iata_code": "COS",
+      "icao_code": "KCOS",
+      "distance_km": 5.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Colorado Springs Airport, serving domestic and international flights."
+        },
+        {
+          "name": "West Terminal",
+          "description": "This is the smaller terminal at Colorado Springs Airport, primarily serving regional flights."
+        }
+      ],
+      "website": "https://coloradosprings.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "COS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "USAF Academy Airstrip",
+      "iata_code": "AFF",
+      "icao_code": "KAFF",
+      "distance_km": 9.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Butts AAF",
+      "iata_code": "FCS",
+      "icao_code": "KFCS",
+      "distance_km": 12.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:30.969992Z",
+    "generated_at": "2025-08-04T20:06:26.321878Z",
     "env": "development",
     "source": "justarrived-generator"
   }

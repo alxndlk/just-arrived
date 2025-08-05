@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Madison County",
+      "iata_code": "RXE",
+      "icao_code": "KRXE",
+      "distance_km": 5.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Madison County Airport handles all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Madison County Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.madisoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Madison County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fanning Field",
+      "iata_code": "IDA",
+      "icao_code": "KIDA",
+      "distance_km": 40.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fanning Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fanning Field Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://iflyida.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IDA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:53.903391Z",
+    "generated_at": "2025-08-04T18:34:44.896604Z",
     "env": "development",
     "source": "justarrived-generator"
   }

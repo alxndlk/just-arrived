@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Okayama",
+      "iata_code": "OKJ",
+      "icao_code": "RJOB",
+      "distance_km": 17.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Okayama Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Okayama Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.okayama-airport.org/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okayama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Takamatsu",
+      "iata_code": "TAK",
+      "icao_code": "RJOT",
+      "distance_km": 45.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:59.177139Z",
+    "generated_at": "2025-08-04T20:23:36.964665Z",
     "env": "development",
     "source": "justarrived-generator"
   }

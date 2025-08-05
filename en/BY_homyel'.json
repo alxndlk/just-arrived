@@ -50,8 +50,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gomel",
+      "iata_code": "GME",
+      "icao_code": "UMGG",
+      "distance_km": 3.4,
+      "gmt": "3",
+      "country": "Belarus",
+      "timezone": "Europe/Minsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.gomelairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gomel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:13.651897Z",
+    "generated_at": "2025-08-04T18:05:59.925417Z",
     "env": "development",
     "source": "justarrived-generator"
   }

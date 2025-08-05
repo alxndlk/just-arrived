@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lesquin",
+      "iata_code": "LIL",
+      "icao_code": "LFQQ",
+      "distance_km": 33.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lesquin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lesquin Airport, mainly serving low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.lille.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lille Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:03.326627Z",
+    "generated_at": "2025-08-04T19:16:52.696809Z",
     "env": "development",
     "source": "justarrived-generator"
   }

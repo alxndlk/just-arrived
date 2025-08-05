@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dupage County",
+      "iata_code": "DPA",
+      "icao_code": "KDPA",
+      "distance_km": 28.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pal-Waukee",
+      "iata_code": "PWK",
+      "icao_code": "KPWK",
+      "distance_km": 34.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Pal-Waukee Airport, where most domestic and international flights depart and arrive."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal is dedicated to private jet travel, with luxurious amenities and services for VIP passengers."
+        }
+      ],
+      "website": "https://www.pal-waukeeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PWK Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 39.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 45.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal Airport",
+      "iata_code": "AUZ",
+      "icao_code": "KARR",
+      "distance_km": 45.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:13.283240Z",
+    "generated_at": "2025-08-04T20:09:27.521240Z",
     "env": "development",
     "source": "justarrived-generator"
   }

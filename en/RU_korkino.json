@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chelyabinsk",
+      "iata_code": "CEK",
+      "icao_code": "USCC",
+      "distance_km": 44.6,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.airport-chel.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CEK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:58.171029Z",
+    "generated_at": "2025-08-04T18:36:40.815827Z",
     "env": "development",
     "source": "justarrived-generator"
   }

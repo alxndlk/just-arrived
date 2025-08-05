@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 25.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Indira Gandhi International Airport, serving mainly domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newly built terminal for low-cost carriers, with modern facilities and amenities."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and most modern terminal at Indira Gandhi International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGI Airport Free Wi-Fi",
+        "note": "Passengers can enjoy free Wi-Fi for up to 45 minutes after which they can purchase additional usage time."
+      }
+    },
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 31.8,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Delhi Hindon Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Delhi Hindon Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.hindonairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hindon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:26.442253Z",
+    "generated_at": "2025-08-04T19:56:27.698392Z",
     "env": "development",
     "source": "justarrived-generator"
   }

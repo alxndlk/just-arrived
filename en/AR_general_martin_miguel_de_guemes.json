@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Cadillal",
+      "iata_code": "JUJ",
+      "icao_code": "SASJ",
+      "distance_km": 29.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Jujuy",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertocadillal.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cadillal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gen Belgrano",
+      "iata_code": "SLA",
+      "icao_code": "SASA",
+      "distance_km": 47.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Domestic and international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "Domestic flights only"
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuertos/salta",
+      "wifi": {
+        "available": true,
+        "network_name": "GenBelgranoAirportWifi",
+        "note": "Free wifi available in all terminals"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:40.536673Z",
+    "generated_at": "2025-08-04T18:30:48.991034Z",
     "env": "development",
     "source": "justarrived-generator"
   }

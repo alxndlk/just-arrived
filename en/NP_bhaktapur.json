@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manang",
+      "iata_code": "NGX",
+      "icao_code": "VNMA",
+      "distance_km": 7.1,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Manang Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.manangairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Manang Airport Wifi",
+        "note": "Wifi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Tribhuvan International",
+      "iata_code": "KTM",
+      "icao_code": "VNKT",
+      "distance_km": 7.7,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "Serves all international flights to and from Tribhuvan International Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights within Nepal."
+        }
+      ],
+      "website": "https://www.tiairport.com.np/",
+      "wifi": {
+        "available": true,
+        "network_name": "TIA-Free-Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:55.797316Z",
+    "generated_at": "2025-08-04T18:21:48.310142Z",
     "env": "development",
     "source": "justarrived-generator"
   }

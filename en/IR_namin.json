@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ardabil",
+      "iata_code": "ADU",
+      "icao_code": "OITL",
+      "distance_km": 12.6,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.adu.ir/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ardabil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lankaran",
+      "iata_code": "LLK",
+      "icao_code": "UBBL",
+      "distance_km": 46.0,
+      "gmt": "4",
+      "country": "Azerbaijan",
+      "timezone": "Asia/Baku",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lankaran Airport serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lankaran Airport mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.lankaranairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lankaran Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:21.921296Z",
+    "generated_at": "2025-08-04T19:11:41.255335Z",
     "env": "development",
     "source": "justarrived-generator"
   }

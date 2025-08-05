@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Assiut",
+      "iata_code": "ATZ",
+      "icao_code": "HEAT",
+      "distance_km": 49.7,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Assiut Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.assiuairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Assiut Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:13.038676Z",
+    "generated_at": "2025-08-04T19:33:50.169161Z",
     "env": "development",
     "source": "justarrived-generator"
   }

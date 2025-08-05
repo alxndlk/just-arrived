@@ -49,8 +49,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portoroz",
+      "iata_code": "POW",
+      "icao_code": "LJPZ",
+      "distance_km": 6.8,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portoroz Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.portoroz-airport.si/",
+      "wifi": {
+        "available": true,
+        "network_name": "Portoroz Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Ronchi Dei Legionari",
+      "iata_code": "TRS",
+      "icao_code": "LIPQ",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:38.730251Z",
+    "generated_at": "2025-08-04T20:25:34.356243Z",
     "env": "development",
     "source": "justarrived-generator"
   }

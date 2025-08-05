@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 37.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ensheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ensheim Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.ensheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ensheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 49.1,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Findel Airport, primarily used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a login or registration."
+      }
+    },
+    {
+      "airport_name": "Ramstein",
+      "iata_code": "RMS",
+      "icao_code": "ETAR",
+      "distance_km": 49.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ramstein Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for military and charter flights."
+        }
+      ],
+      "website": "https://www.ramstein.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ramstein Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:30.483987Z",
+    "generated_at": "2025-08-04T19:04:52.798463Z",
     "env": "development",
     "source": "justarrived-generator"
   }

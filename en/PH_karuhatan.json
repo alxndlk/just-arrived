@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 20.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it is dedicated to Philippine Airlines and its partner airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at the airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Formerly known as the Domestic Terminal, it serves mostly domestic flights."
+        }
+      ],
+      "website": "https://www.manila-airport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 2 hours within the airport premises."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 36.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.balerairport.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:07.581745Z",
+    "generated_at": "2025-08-04T18:35:49.672133Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pardubice",
+      "iata_code": "PED",
+      "icao_code": "LKPD",
+      "distance_km": 30.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Pardubice Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.airport-pardubice.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "PED_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:23.462216Z",
+    "generated_at": "2025-08-04T19:29:54.733133Z",
     "env": "development",
     "source": "justarrived-generator"
   }

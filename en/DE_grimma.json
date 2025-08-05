@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Altenburg Nobitz",
+      "iata_code": "AOC",
+      "icao_code": "EDAC",
+      "distance_km": 34.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.altenburg-nobitz-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenburg-Nobitz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Halle",
+      "iata_code": "LEJ",
+      "icao_code": "EDDP",
+      "distance_km": 40.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Halle Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.leipzig-halle-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LEJ_Free_WiFi",
+        "note": "Free wifi is available throughout the airport, but may have limited speed and access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:02.738636Z",
+    "generated_at": "2025-08-04T18:43:49.914718Z",
     "env": "development",
     "source": "justarrived-generator"
   }

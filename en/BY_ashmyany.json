@@ -50,8 +50,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vilnius",
+      "iata_code": "VNO",
+      "icao_code": "EYVI",
+      "distance_km": 48.9,
+      "gmt": "2",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Vilnius Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Vilnius Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.vilnius-airport.lt/",
+      "wifi": {
+        "available": true,
+        "network_name": "VNO-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:40.940500Z",
+    "generated_at": "2025-08-04T19:02:39.801101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

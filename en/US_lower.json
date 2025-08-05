@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cape May County",
+      "iata_code": "WWD",
+      "icao_code": "KWWD",
+      "distance_km": 2.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights at Cape May County Airport."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.capemaycountynj.gov/223/Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CapeMayAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 47.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:27.969791Z",
+    "generated_at": "2025-08-04T20:13:32.127794Z",
     "env": "development",
     "source": "justarrived-generator"
   }

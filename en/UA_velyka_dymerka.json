@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Boryspil (Borispol)",
+      "iata_code": "KBP",
+      "icao_code": "UKBB",
+      "distance_km": 28.0,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal D",
+          "description": "The largest and newest terminal at Boryspil Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "A smaller terminal primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://kbp.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boryspil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 38.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://iev.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "IEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:51.489801Z",
+    "generated_at": "2025-08-04T19:33:43.134647Z",
     "env": "development",
     "source": "justarrived-generator"
   }

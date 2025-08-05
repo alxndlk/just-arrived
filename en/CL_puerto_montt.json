@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Tepual",
+      "iata_code": "PMC",
+      "icao_code": "SCTE",
+      "distance_km": 14.2,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Frutillar",
+      "iata_code": "FRT",
+      "icao_code": "SCEV",
+      "distance_km": 39.6,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Frutillar Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Frutillar Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.frutillarairport.cl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Frutillar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:26.372500Z",
+    "generated_at": "2025-08-04T19:57:35.479483Z",
     "env": "development",
     "source": "justarrived-generator"
   }

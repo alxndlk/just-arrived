@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fritzlar Airbase",
+      "iata_code": "FRZ",
+      "icao_code": "ETHF",
+      "distance_km": 33.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fritzlar Airbase Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Fritzlar Airbase Airport is used for military and government flights."
+        }
+      ],
+      "website": "https://www.fritzlar-airbase.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "FRZ Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:33.183919Z",
+    "generated_at": "2025-08-04T20:21:36.533449Z",
     "env": "development",
     "source": "justarrived-generator"
   }

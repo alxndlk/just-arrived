@@ -51,8 +51,47 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pyrzowice",
+      "iata_code": "KTW",
+      "icao_code": "EPKT",
+      "distance_km": 20.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Pyrzowice Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Pyrzowice Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.katowice-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pyrzowice Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 42.2,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:57.310121Z",
+    "generated_at": "2025-08-04T20:23:36.942259Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vasteras/Hasslo",
+      "iata_code": "VST",
+      "icao_code": "ESOW",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Vasteras/Hasslo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.vasterasairport.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eskilstuna",
+      "iata_code": "EKT",
+      "icao_code": "ESSU",
+      "distance_km": 42.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eskilstuna Airport offers a variety of amenities including shops, restaurants, and lounges."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Eskilstuna Airport handles all freight and cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.eskilstunaairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "EKT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Arlanda",
+      "iata_code": "ARN",
+      "icao_code": "ESSA",
+      "distance_km": 48.6,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main international terminal at Arlanda Airport, serving most major airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The largest terminal at Arlanda Airport, serving mainly low-cost and domestic flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/arlanda/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arlanda Airport Wifi",
+        "note": "Free wifi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:17.473272Z",
+    "generated_at": "2025-08-04T18:53:45.845471Z",
     "env": "development",
     "source": "justarrived-generator"
   }

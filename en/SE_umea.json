@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Umea",
+      "iata_code": "UME",
+      "icao_code": "ESNU",
+      "distance_km": 4.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Umea Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Umea Airport, used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/umea/",
+      "wifi": {
+        "available": true,
+        "network_name": "Umea Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:11.119508Z",
+    "generated_at": "2025-08-04T18:19:56.032994Z",
     "env": "development",
     "source": "justarrived-generator"
   }

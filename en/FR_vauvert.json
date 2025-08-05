@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Garons",
+      "iata_code": "FNI",
+      "icao_code": "LFTW",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Garons Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Garons Airport, used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.nimes-aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Garons Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for the first 30 minutes."
+      }
+    },
+    {
+      "airport_name": "Montpellier Méditerranée",
+      "iata_code": "MPL",
+      "icao_code": "LFMT",
+      "distance_km": 28.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Montpellier Méditerranée Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Montpellier Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:10.352286Z",
+    "generated_at": "2025-08-04T19:18:43.179043Z",
     "env": "development",
     "source": "justarrived-generator"
   }

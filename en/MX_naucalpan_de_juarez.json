@@ -50,8 +50,47 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional Benito Juarez",
+      "iata_code": "MEX",
+      "icao_code": "MMMX",
+      "distance_km": 17.9,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Licenciado Adolfo Lopez Mateos International",
+      "iata_code": "TLC",
+      "icao_code": "MMTO",
+      "distance_km": 49.8,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "http://www.aeropuertosgap.com.mx/en/toluca-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "TLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:59.258295Z",
+    "generated_at": "2025-08-04T19:56:29.299917Z",
     "env": "development",
     "source": "justarrived-generator"
   }

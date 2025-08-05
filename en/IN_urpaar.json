@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ludhiana Sahnewal Airport",
+      "iata_code": "LUH",
+      "icao_code": "VILD",
+      "distance_km": 20.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This is a smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.ludhianaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LUH Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:40.487349Z",
+    "generated_at": "2025-08-04T19:33:39.332092Z",
     "env": "development",
     "source": "justarrived-generator"
   }

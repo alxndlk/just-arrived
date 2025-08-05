@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hoeybuktmoen",
+      "iata_code": "KKN",
+      "icao_code": "ENKR",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hoeybuktmoen Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hoeybuktmoen Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/kirkenes-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Hoeybuktmoen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vadso",
+      "iata_code": "VDS",
+      "icao_code": "ENVD",
+      "distance_km": 38.3,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vadso Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/vadso-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Vadso Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:16.323325Z",
+    "generated_at": "2025-08-04T19:37:53.720510Z",
     "env": "development",
     "source": "justarrived-generator"
   }

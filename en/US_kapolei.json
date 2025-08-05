@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 15.2,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Honolulu International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Interisland Terminal",
+          "description": "The interisland terminal at Honolulu International Airport serves flights between the Hawaiian islands."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 33.4,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport, serving both civilian and military flights."
+        }
+      ],
+      "website": "https://www.mccshawaii.com/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kaneohe Bay MCAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:42.750396Z",
+    "generated_at": "2025-08-04T20:12:36.316008Z",
     "env": "development",
     "source": "justarrived-generator"
   }

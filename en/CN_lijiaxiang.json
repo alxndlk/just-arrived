@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beijing Daxing International Airport",
+      "iata_code": "PKX",
+      "icao_code": "ZBAD",
+      "distance_km": 5.4,
+      "gmt": null,
+      "country": "Beijing",
+      "timezone": "+8",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Nanyuan Airport",
+      "iata_code": "NAY",
+      "icao_code": "ZBBB",
+      "distance_km": 25.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanyuan Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nanyuan Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "http://nayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanyuan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:56.896790Z",
+    "generated_at": "2025-08-04T20:05:30.776017Z",
     "env": "development",
     "source": "justarrived-generator"
   }

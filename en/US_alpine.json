@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gillespie Field",
+      "iata_code": "SEE",
+      "icao_code": "KSEE",
+      "distance_km": 20.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brown Field Municipalcipal",
+      "iata_code": "SDM",
+      "icao_code": "KSDM",
+      "distance_km": 36.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "General A. L. Rodriguez International",
+      "iata_code": "TIJ",
+      "icao_code": "MMTJ",
+      "distance_km": 38.8,
+      "gmt": "-8",
+      "country": "Mexico",
+      "timezone": "America/Tijuana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "San Diego International Airport",
+      "iata_code": "SAN",
+      "icao_code": "KSAN",
+      "distance_km": 42.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.san.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAN_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "North Island NAS",
+      "iata_code": "NZY",
+      "icao_code": "KNZY",
+      "distance_km": 44.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at North Island NAS Airport is a small, single-story building with a few gates and basic amenities."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at North Island NAS Airport is reserved for military personnel and their families, providing access to various military flights and services."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrsw/installations/navbase_coronado.html",
+      "wifi": {
+        "available": true,
+        "network_name": "NorthIslandWiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password are displayed in the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:10.326618Z",
+    "generated_at": "2025-08-04T20:28:37.151185Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,63 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ohio State University",
+      "iata_code": "OSU",
+      "icao_code": "KOSU",
+      "distance_km": 4.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Port Columbus International",
+      "iata_code": "CMH",
+      "icao_code": "KCMH",
+      "distance_km": 15.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Columbus International Airport houses all major airlines and offers various amenities for travelers."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a satellite terminal at Port Columbus International Airport that primarily serves Delta Airlines and its partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a satellite terminal at Port Columbus International Airport that primarily serves American Airlines and its partners."
+        }
+      ],
+      "website": "https://flycolumbus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMH Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Rickenbacker",
+      "iata_code": "LCK",
+      "icao_code": "KLCK",
+      "distance_km": 31.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:50.413474Z",
+    "generated_at": "2025-08-04T20:21:37.253741Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Villa Gesell",
+      "iata_code": "VLG",
+      "icao_code": "SAZV",
+      "distance_km": 11.1,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mar Del Plata",
+      "iata_code": "MDQ",
+      "icao_code": "SAZM",
+      "distance_km": 14.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.mdpairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "MDQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:00.465902Z",
+    "generated_at": "2025-08-04T20:29:29.538567Z",
     "env": "development",
     "source": "justarrived-generator"
   }

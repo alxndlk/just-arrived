@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oktiabrskij",
+      "iata_code": "OKT",
+      "icao_code": "UWUK",
+      "distance_km": 8.5,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oktiabrskij Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.oktairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bugulma",
+      "iata_code": "UUA",
+      "icao_code": "UWKB",
+      "distance_km": 39.8,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bugulma Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bugulma Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.bugulmaairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bugulma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:18.195678Z",
+    "generated_at": "2025-08-04T18:52:51.096201Z",
     "env": "development",
     "source": "justarrived-generator"
   }

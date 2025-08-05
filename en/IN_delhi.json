@@ -107,8 +107,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 13.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for low-cost carriers such as IndiGo and SpiceJet."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles international flights for airlines such as Air India and Vistara."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles both domestic and international flights for major airlines such as Jet Airways and Emirates."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 15.3,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.delhihindonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Delhi Hindon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:31:21.427735Z",
+    "generated_at": "2025-08-04T19:56:24.106123Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Ratmalana",
+      "iata_code": "RML",
+      "icao_code": "VCCC",
+      "distance_km": 5.3,
+      "gmt": "5.30",
+      "country": "Sri Lanka",
+      "timezone": "Asia/Colombo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bandaranaike International",
+      "iata_code": "CMB",
+      "icao_code": "VCBI",
+      "distance_km": 36.5,
+      "gmt": "5.30",
+      "country": "Sri Lanka",
+      "timezone": "Asia/Colombo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.lk/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:38:32.078084Z",
+    "generated_at": "2025-08-04T19:57:32.415926Z",
     "env": "development",
     "source": "justarrived-generator"
   }

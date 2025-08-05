@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dublin International",
+      "iata_code": "DUB",
+      "icao_code": "EIDW",
+      "distance_km": 32.8,
+      "gmt": null,
+      "country": "Ireland",
+      "timezone": "Europe/Dublin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal, handling most international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal, primarily used for long-haul flights and some European destinations."
+        }
+      ],
+      "website": "https://www.dublinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dublin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:58.545458Z",
+    "generated_at": "2025-08-04T20:05:30.732643Z",
     "env": "development",
     "source": "justarrived-generator"
   }

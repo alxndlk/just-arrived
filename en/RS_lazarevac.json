@@ -51,8 +51,35 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Belgrade Nikola Tesla",
+      "iata_code": "BEG",
+      "icao_code": "LYBE",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "Serbia",
+      "timezone": "Europe/Belgrade",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Belgrade Nikola Tesla Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.beg.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slow during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:36.474968Z",
+    "generated_at": "2025-08-04T18:27:51.845336Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Innsbruck-kranebitten",
+      "iata_code": "INN",
+      "icao_code": "LOWI",
+      "distance_km": 28.2,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building with check-in counters, security, and boarding gates."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.innsbruck-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "INN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:43.434549Z",
+    "generated_at": "2025-08-04T19:10:52.086955Z",
     "env": "development",
     "source": "justarrived-generator"
   }

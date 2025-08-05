@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brockville",
+      "iata_code": "XBR",
+      "icao_code": "CNL3",
+      "distance_km": 20.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Smith Falls",
+      "iata_code": "YSH",
+      "icao_code": "CYSH",
+      "distance_km": 28.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smith Falls Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those traveling on private or chartered flights, the private terminal at Smith Falls Airport provides a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://www.smithfallsairport.ca",
+      "wifi": {
+        "available": true,
+        "network_name": "SmithFallsAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ogdensburg",
+      "iata_code": "OGS",
+      "icao_code": "KOGS",
+      "distance_km": 33.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ogdensburg Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ogdensburg Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flyogs.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OGS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:37.740739Z",
+    "generated_at": "2025-08-04T20:31:26.549104Z",
     "env": "development",
     "source": "justarrived-generator"
   }

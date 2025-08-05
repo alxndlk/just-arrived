@@ -51,8 +51,105 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 22.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The newest and largest terminal at Sheremetyevo International Airport, serving international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The oldest terminal at Sheremetyevo International Airport, serving domestic and some international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A modern terminal at Sheremetyevo International Airport, serving primarily Aeroflot and SkyTeam alliance flights."
+        },
+        {
+          "name": "Terminal D",
+          "description": "A modern and spacious terminal at Sheremetyevo International Airport, serving primarily international flights."
+        },
+        {
+          "name": "Terminal E",
+          "description": "A modern terminal at Sheremetyevo International Airport, serving primarily international flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "A new and modern terminal at Sheremetyevo International Airport, serving primarily international flights."
+        }
+      ],
+      "website": "https://www.svo.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sheremetyevo Free WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 3 hours per day."
+      }
+    },
+    {
+      "airport_name": "Vnukovo",
+      "iata_code": "VKO",
+      "icao_code": "UUWW",
+      "distance_km": 29.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles domestic and international flights"
+        },
+        {
+          "name": "Terminal C",
+          "description": "Handles domestic and international flights"
+        }
+      ],
+      "website": "https://vko.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vnukovo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Ostafyevo International Airport",
+      "iata_code": "OSF",
+      "icao_code": "UUMO",
+      "distance_km": 44.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.ostafyevo-airport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ostafyevo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:37.851234Z",
+    "generated_at": "2025-08-04T20:08:35.806592Z",
     "env": "development",
     "source": "justarrived-generator"
   }

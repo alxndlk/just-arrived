@@ -48,8 +48,105 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Plymouth",
+      "iata_code": "PYM",
+      "icao_code": "KPYM",
+      "distance_km": 16.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "OWD",
+      "icao_code": "KOWD",
+      "distance_km": 26.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Airport houses all domestic and international flights, as well as various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Memorial Airport is reserved for private and charter flights, providing a luxurious and exclusive travel experience."
+        }
+      ],
+      "website": "www.memorialairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Memorial Airport Wifi",
+        "note": "Free wifi is available throughout the airport for all travelers."
+      }
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 37.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic flights for American Airlines, Delta Air Lines, and JetBlue."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights for various airlines, including Air Canada, United Airlines, and Southwest Airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights for various airlines, including Aer Lingus, Alaska Airlines, and British Airways."
+        },
+        {
+          "name": "Terminal E",
+          "description": "This terminal primarily serves international flights for various airlines, including Emirates, Lufthansa, and Qatar Airways."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Provincetown",
+      "iata_code": "PVC",
+      "icao_code": "KPVC",
+      "distance_km": 41.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provincetown Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Provincetown Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.provincetownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Provincetown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:36.375204Z",
+    "generated_at": "2025-08-04T20:16:28.284577Z",
     "env": "development",
     "source": "justarrived-generator"
   }

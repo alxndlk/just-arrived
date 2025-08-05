@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frederic Chopin",
+      "iata_code": "WAW",
+      "icao_code": "EPWA",
+      "distance_km": 34.7,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Frederic Chopin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Frederic Chopin Airport, primarily serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.lotnisko-chopina.pl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Chopin Airport Free WiFi",
+        "note": "Passengers can access the free WiFi by selecting the network and entering their email address."
+      }
+    },
+    {
+      "airport_name": "Warsaw Babice Airport",
+      "iata_code": "QEB",
+      "icao_code": "EPBC",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for budget airlines and charter flights."
+        }
+      ],
+      "website": "https://www.lotnisko-chopina.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Warsaw Babice Airport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:55.870204Z",
+    "generated_at": "2025-08-04T20:17:35.616893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

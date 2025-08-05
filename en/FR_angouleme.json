@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brie-Champniers",
+      "iata_code": "ANG",
+      "icao_code": "LFBU",
+      "distance_km": 10.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brie-Champniers Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.angouleme.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANG_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Parvaud",
+      "iata_code": "CNG",
+      "icao_code": "LFBG",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Parvaud Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Parvaud Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.parvaudairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Parvaud Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:41.799847Z",
+    "generated_at": "2025-08-04T18:33:42.520151Z",
     "env": "development",
     "source": "justarrived-generator"
   }

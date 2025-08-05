@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fontanarossa",
+      "iata_code": "CTA",
+      "icao_code": "LICC",
+      "distance_km": 16.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fontanarossa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fontanarossa Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroporto.catania.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "CTA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "NAS Sigonella",
+      "iata_code": "NSY",
+      "icao_code": "LICZ",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at NAS Sigonella Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at NAS Sigonella Airport, primarily used for military and private flights."
+        }
+      ],
+      "website": "https://www.nassigonella.navy.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS Sigonella WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:53.670981Z",
+    "generated_at": "2025-08-04T19:20:45.853853Z",
     "env": "development",
     "source": "justarrived-generator"
   }

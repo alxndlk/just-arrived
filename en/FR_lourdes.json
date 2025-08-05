@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tarbes Ossun Lourdes",
+      "iata_code": "LDE",
+      "icao_code": "LFBT",
+      "distance_km": 11.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tarbes Ossun Lourdes Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights and low-cost airlines."
+        }
+      ],
+      "website": "https://www.tarbes-lourdes.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tarbes Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pau-Pyrénées",
+      "iata_code": "PUF",
+      "icao_code": "LFBP",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for Pau-Pyrénées Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.pau.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "PauAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:57.742675Z",
+    "generated_at": "2025-08-04T19:12:48.040148Z",
     "env": "development",
     "source": "justarrived-generator"
   }

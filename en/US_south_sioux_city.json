@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sioux Gateway",
+      "iata_code": "SUX",
+      "icao_code": "KSUX",
+      "distance_km": 7.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sioux Gateway Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Sioux Gateway Airport caters to private and charter flights, with its own dedicated facilities and services."
+        }
+      ],
+      "website": "https://www.flysux.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SUX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit or data usage restrictions."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LRJ",
+      "icao_code": "KLRJ",
+      "distance_km": 42.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport is a modern and spacious building that offers a variety of amenities for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Municipal Airport is primarily used for domestic flights, and features a variety of shops and restaurants for travelers to enjoy."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Municipal Airport is primarily used for international flights, and offers a range of services such as currency exchange and duty-free shopping."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:30.757111Z",
+    "generated_at": "2025-08-04T19:10:50.028507Z",
     "env": "development",
     "source": "justarrived-generator"
   }

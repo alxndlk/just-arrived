@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Weeze",
+      "iata_code": "NRN",
+      "icao_code": "EDLV",
+      "distance_km": 4.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Weeze Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.weeze-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Weeze Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Moenchen-gl. - Dus Exp",
+      "iata_code": "MGL",
+      "icao_code": "EDLN",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.moenchen-gl-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGL Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:19.034076Z",
+    "generated_at": "2025-08-04T19:19:02.996763Z",
     "env": "development",
     "source": "justarrived-generator"
   }

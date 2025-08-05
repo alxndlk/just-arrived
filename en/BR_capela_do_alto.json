@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sorocaba",
+      "iata_code": "SOD",
+      "icao_code": "SDCO",
+      "distance_km": 29.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.sorocaba-airport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "SOD Airport Wifi",
+        "note": "Passengers can access free wifi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:36.870429Z",
+    "generated_at": "2025-08-04T18:53:51.318715Z",
     "env": "development",
     "source": "justarrived-generator"
   }

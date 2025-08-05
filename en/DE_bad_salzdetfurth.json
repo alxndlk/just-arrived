@@ -49,8 +49,76 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 13.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Braunschweig",
+      "iata_code": "BWE",
+      "icao_code": "EDVE",
+      "distance_km": 42.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Braunschweig Airport, handling all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.braunschweig-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 48.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal mainly used for regional and low-cost airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly built terminal for long-haul flights and premium airlines."
+        }
+      ],
+      "website": "https://www.hannover-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:53.080080Z",
+    "generated_at": "2025-08-04T20:22:30.774320Z",
     "env": "development",
     "source": "justarrived-generator"
   }

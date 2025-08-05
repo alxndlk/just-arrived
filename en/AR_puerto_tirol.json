@@ -50,8 +50,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Resistencia",
+      "iata_code": "RES",
+      "icao_code": "SARE",
+      "distance_km": 9.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Camba Punta",
+      "iata_code": "CNQ",
+      "icao_code": "SARC",
+      "distance_km": 31.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.cambapuntaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "CambaPuntaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:08.398166Z",
+    "generated_at": "2025-08-04T20:30:31.761914Z",
     "env": "development",
     "source": "justarrived-generator"
   }

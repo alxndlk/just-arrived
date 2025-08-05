@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bacolod",
+      "iata_code": "BCD",
+      "icao_code": "RPVB",
+      "distance_km": 44.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Bacolod Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal of Bacolod Airport, handling flights within the Philippines."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal of Bacolod Airport, serving flights to and from other countries."
+        }
+      ],
+      "website": "https://www.bacolodairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bacolod Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:34.515125Z",
+    "generated_at": "2025-08-04T18:32:40.872629Z",
     "env": "development",
     "source": "justarrived-generator"
   }

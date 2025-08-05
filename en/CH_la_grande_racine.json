@@ -51,8 +51,35 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 41.9,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lausanne Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lausanne Airport caters to VIP and private charters."
+        }
+      ],
+      "website": "https://www.lausanne-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lausanne Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:33.535844Z",
+    "generated_at": "2025-08-04T19:34:52.197623Z",
     "env": "development",
     "source": "justarrived-generator"
   }

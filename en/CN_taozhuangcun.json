@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Suzhou",
+      "iata_code": "SZV",
+      "icao_code": "ZSSZ",
+      "distance_km": 40.4,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.szairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SZV Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:25.640952Z",
+    "generated_at": "2025-08-04T18:41:39.584105Z",
     "env": "development",
     "source": "justarrived-generator"
   }

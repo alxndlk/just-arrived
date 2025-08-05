@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciudad Bolivar",
+      "iata_code": "CBL",
+      "icao_code": "SVCB",
+      "distance_km": 1.5,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations at the airport."
+        }
+      ],
+      "website": "http://www.aeropuertodeciudadbolivar.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CBL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:42.098678Z",
+    "generated_at": "2025-08-04T18:06:46.566484Z",
     "env": "development",
     "source": "justarrived-generator"
   }

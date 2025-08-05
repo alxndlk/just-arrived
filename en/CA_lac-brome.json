@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bromont",
+      "iata_code": "ZBM",
+      "icao_code": "CZBM",
+      "distance_km": 27.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bromont Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.bromontairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bromont Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newport",
+      "iata_code": "EFK",
+      "icao_code": "KEFK",
+      "distance_km": 42.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Newport Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Newport Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.newportairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Newport Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:20.701911Z",
+    "generated_at": "2025-08-04T18:26:48.637663Z",
     "env": "development",
     "source": "justarrived-generator"
   }

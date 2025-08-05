@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin-Schoenefeld",
+      "iata_code": "SXF",
+      "icao_code": "EDDB",
+      "distance_km": 4.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Berlin-Schoenefeld Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Berlin-Schoenefeld Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/travellers-sxf/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "SXF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin Brandenburg Airport",
+      "iata_code": "BER",
+      "icao_code": "EDDB",
+      "distance_km": 5.5,
+      "gmt": "+1",
+      "country": "Berlin",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Berlin Brandenburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Berlin Brandenburg Airport, mainly used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BER_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 28.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Berlin-tegel / Otto Lilienthal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Berlin-tegel / Otto Lilienthal Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/travellers-txl/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "TXL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:54.503687Z",
+    "generated_at": "2025-08-04T19:29:44.916720Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fritzlar Airbase",
+      "iata_code": "FRZ",
+      "icao_code": "ETHF",
+      "distance_km": 10.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fritzlar Airbase Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "A separate terminal for military personnel and their families."
+        }
+      ],
+      "website": "https://www.fritzlar-airbase-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fritzlar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kassel-Calden",
+      "iata_code": "KSF",
+      "icao_code": "EDVK",
+      "distance_km": 31.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kassel-Calden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.kassel-calden-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kassel-Calden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:37.224941Z",
+    "generated_at": "2025-08-04T19:23:47.646905Z",
     "env": "development",
     "source": "justarrived-generator"
   }

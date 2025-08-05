@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akita",
+      "iata_code": "AXT",
+      "icao_code": "RJSK",
+      "distance_km": 36.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Akita Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Akita Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.akita-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Akita Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Odate Noshiro",
+      "iata_code": "ONJ",
+      "icao_code": "RJSR",
+      "distance_km": 47.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Odate Noshiro Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Odate Noshiro Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.odate-noshiro-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ONJ Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:28.227981Z",
+    "generated_at": "2025-08-04T18:40:43.998739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

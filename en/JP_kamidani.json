@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 30.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Kansai International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration and has a time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:31.207954Z",
+    "generated_at": "2025-08-04T18:30:42.980188Z",
     "env": "development",
     "source": "justarrived-generator"
   }

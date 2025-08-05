@@ -48,8 +48,197 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meacham Field",
+      "iata_code": "FTW",
+      "icao_code": "KFTW",
+      "distance_km": 11.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Meacham Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Meacham Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flyftw.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FTW Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Addison Airport",
+      "iata_code": "ADS",
+      "icao_code": "KADS",
+      "distance_km": 13.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Addison Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Addison Airport is exclusively for private flights and their passengers."
+        }
+      ],
+      "website": "https://www.addisonairport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Addison Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Arlington Municipal Airport",
+      "iata_code": "QQG",
+      "icao_code": "KGKY",
+      "distance_km": 16.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arlington Municipal Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Arlington Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.arlingtonmunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ArlingtonAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dallas/Fort Worth International",
+      "iata_code": "DFW",
+      "icao_code": "KDFW",
+      "distance_km": 33.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest terminal at DFW, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The second largest terminal at DFW, primarily serving domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The third largest terminal at DFW, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal D",
+          "description": "The international terminal at DFW, serving flights to and from various international destinations."
+        },
+        {
+          "name": "Terminal E",
+          "description": "The newest terminal at DFW, primarily serving American Airlines flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "The future terminal at DFW, currently under construction and set to open in 2025."
+        }
+      ],
+      "website": "https://www.dfwairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DFW Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout all terminals and concourses."
+      }
+    },
+    {
+      "airport_name": "Fort Worth Alliance",
+      "iata_code": "AFW",
+      "icao_code": "KAFW",
+      "distance_km": 36.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Worth Alliance Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fort Worth Alliance Airport handles shipments for various airlines and freight companies."
+        }
+      ],
+      "website": "https://www.flywichita.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AFW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Redbird",
+      "iata_code": "RBD",
+      "icao_code": "KRBD",
+      "distance_km": 37.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Redbird Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.redbirdairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Redbird Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Love Field",
+      "iata_code": "DAL",
+      "icao_code": "KDAL",
+      "distance_km": 43.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Love Field Airport serves all domestic flights."
+        },
+        {
+          "name": "Southwest Terminal",
+          "description": "The Southwest Terminal at Love Field Airport is dedicated to Southwest Airlines."
+        }
+      ],
+      "website": "https://www.dallas-lovefield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAL Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:21.258455Z",
+    "generated_at": "2025-08-04T20:21:35.779942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manas (Bishkek)",
+      "iata_code": "FRU",
+      "icao_code": "UAFM",
+      "distance_km": 22.4,
+      "gmt": "6",
+      "country": "Kyrgyzstan",
+      "timezone": "Asia/Bishkek",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "http://manas-airport.kg/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Manas Airport Wi-Fi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:08.683274Z",
+    "generated_at": "2025-08-04T19:18:41.176176Z",
     "env": "development",
     "source": "justarrived-generator"
   }

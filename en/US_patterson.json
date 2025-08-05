@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MOD",
+      "icao_code": "KMOD",
+      "distance_km": 24.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport is responsible for handling all freight and shipping services."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stockton Metropolitan Airport",
+      "iata_code": "SCK",
+      "icao_code": "KSCK",
+      "distance_km": 47.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stockton Metropolitan Airport offers a variety of services and amenities for travelers."
+        }
+      ],
+      "website": "https://www.flystockton.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stockton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:17.413041Z",
+    "generated_at": "2025-08-04T20:25:36.967244Z",
     "env": "development",
     "source": "justarrived-generator"
   }

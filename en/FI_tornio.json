@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kemi/Tornio",
+      "iata_code": "KEM",
+      "icao_code": "EFKE",
+      "distance_km": 20.9,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kemi/Tornio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kemi/Tornio Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/kemi-tornio",
+      "wifi": {
+        "available": true,
+        "network_name": "KemiTornioAirportWiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:27.429073Z",
+    "generated_at": "2025-08-04T18:53:47.576564Z",
     "env": "development",
     "source": "justarrived-generator"
   }

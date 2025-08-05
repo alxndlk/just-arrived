@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pontecagnano",
+      "iata_code": "QSR",
+      "icao_code": "LIRI",
+      "distance_km": 24.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Pontecagnano Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportodipontecagnano.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "PonteWiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Capodichino",
+      "iata_code": "NAP",
+      "icao_code": "LIRN",
+      "distance_km": 39.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Capodichino Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportodinapoli.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAP Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a login with an email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:17.752490Z",
+    "generated_at": "2025-08-04T18:52:48.792916Z",
     "env": "development",
     "source": "justarrived-generator"
   }

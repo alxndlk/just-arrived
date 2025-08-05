@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dutchess County",
+      "iata_code": "POU",
+      "icao_code": "KPOU",
+      "distance_km": 22.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Stewart",
+      "iata_code": "SWF",
+      "icao_code": "KSWF",
+      "distance_km": 28.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 30.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orange County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Orange County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.orangecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OC Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:58.395731Z",
+    "generated_at": "2025-08-04T20:20:28.456785Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Francisco Sá Carneiro",
+      "iata_code": "OPO",
+      "icao_code": "LPPR",
+      "distance_km": 19.9,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Braga",
+      "iata_code": "BGZ",
+      "icao_code": "LPBR",
+      "distance_km": 23.4,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.braga-airport.pt/",
+      "wifi": {
+        "available": true,
+        "network_name": "Braga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:02.108269Z",
+    "generated_at": "2025-08-04T20:01:27.633909Z",
     "env": "development",
     "source": "justarrived-generator"
   }

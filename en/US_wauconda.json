@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pal-Waukee",
+      "iata_code": "PWK",
+      "icao_code": "KPWK",
+      "distance_km": 26.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 26.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Memorial Airport caters to private and charter flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.memorialairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MemorialAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 38.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dupage County",
+      "iata_code": "DPA",
+      "icao_code": "KDPA",
+      "distance_km": 41.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kenosha Regional Airport",
+      "iata_code": "ENW",
+      "icao_code": "KENW",
+      "distance_km": 43.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kenosha Regional Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kenosha Regional Airport, handling freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.kenoshaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kenosha Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:56.098364Z",
+    "generated_at": "2025-08-04T20:21:33.738526Z",
     "env": "development",
     "source": "justarrived-generator"
   }

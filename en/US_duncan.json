@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Halliburton Field",
+      "iata_code": "DUC",
+      "icao_code": "KDUC",
+      "distance_km": 8.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Halliburton Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Halliburton Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.halliburtonfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Halliburton Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LAW",
+      "icao_code": "KLAW",
+      "distance_km": 45.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all commercial flights and provides a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Municipal Airport serves private and charter flights, with a lounge and facilities for pilots and crew members."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal buildings for all passengers."
+      }
+    },
+    {
+      "airport_name": "Henry Post AAF",
+      "iata_code": "FSI",
+      "icao_code": "KFSI",
+      "distance_km": 47.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Henry Post AAF Airport handles all commercial and military flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Henry Post AAF Airport is used for shipping and receiving goods via air."
+        }
+      ],
+      "website": "https://post.army.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "HenryPostAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:02.169521Z",
+    "generated_at": "2025-08-04T18:50:53.732576Z",
     "env": "development",
     "source": "justarrived-generator"
   }

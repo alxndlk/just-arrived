@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "County",
+      "iata_code": "WSG",
+      "icao_code": "KAFJ",
+      "distance_km": 5.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at County Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.countyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "County Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 29.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Allegheny County Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Allegheny County Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/allegheny-county-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AGC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pittsburgh International",
+      "iata_code": "PIT",
+      "icao_code": "KPIT",
+      "distance_km": 36.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pittsburgh International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A mainly serves domestic flights for airlines such as American, Delta, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves international flights for airlines such as Air Canada, British Airways, and WOW Air."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C serves domestic flights for airlines such as Southwest and JetBlue."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIT Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:03.544503Z",
+    "generated_at": "2025-08-04T19:29:50.597776Z",
     "env": "development",
     "source": "justarrived-generator"
   }

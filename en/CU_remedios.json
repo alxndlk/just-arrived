@@ -52,8 +52,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Abel Santa Maria",
+      "iata_code": "SNU",
+      "icao_code": "MUSC",
+      "distance_km": 40.7,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Serves domestic and international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Serves domestic and international flights"
+        }
+      ],
+      "website": "https://www.santiago.cu/transporte/transporte-aereo/aeropuerto-internacional-santa-maria",
+      "wifi": {
+        "available": true,
+        "network_name": "AbelSantaMariaAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Las Brujas",
+      "iata_code": "BWW",
+      "icao_code": "MUBR",
+      "distance_km": 43.4,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and regional flights."
+        }
+      ],
+      "website": "https://www.viajeros.cu/aeropuertos/brujas/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brujas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:27.825052Z",
+    "generated_at": "2025-08-04T18:31:41.450913Z",
     "env": "development",
     "source": "justarrived-generator"
   }

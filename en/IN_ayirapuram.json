@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cochin International",
+      "iata_code": "COK",
+      "icao_code": "VOCI",
+      "distance_km": 32.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A new terminal for international flights, opened in 2018."
+        }
+      ],
+      "website": "https://www.cochinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "COK Airport Wifi",
+        "note": "Free wifi for 2 hours, then chargeable."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:06.845428Z",
+    "generated_at": "2025-08-04T18:34:50.175884Z",
     "env": "development",
     "source": "justarrived-generator"
   }

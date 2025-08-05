@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Takamatsu",
+      "iata_code": "TAK",
+      "icao_code": "RJOT",
+      "distance_km": 20.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Takamatsu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Takamatsu Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.takamatsu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Takamatsu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Okayama",
+      "iata_code": "OKJ",
+      "icao_code": "RJOB",
+      "distance_km": 49.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.okayama-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okayama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:12.376425Z",
+    "generated_at": "2025-08-04T18:57:50.689977Z",
     "env": "development",
     "source": "justarrived-generator"
   }

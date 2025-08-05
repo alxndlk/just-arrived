@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malargue",
+      "iata_code": "LGS",
+      "icao_code": "SAMM",
+      "distance_km": 2.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Mendoza",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Malargue Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Malargue Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.argentina.gob.ar/transporte/aeropuertos/malargue",
+      "wifi": {
+        "available": true,
+        "network_name": "Malargue Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:46.597466Z",
+    "generated_at": "2025-08-04T18:44:41.368675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

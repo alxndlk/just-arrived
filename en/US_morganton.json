@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lenoir",
+      "iata_code": "MRN",
+      "icao_code": "KMRN",
+      "distance_km": 1.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lenoir Airport serves all commercial flights and houses all necessary amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lenoir Airport caters to private and chartered flights and offers exclusive services for its passengers."
+        }
+      ],
+      "website": "https://www.lenoirairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lenoir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Hickory",
+      "iata_code": "HKY",
+      "icao_code": "KHKY",
+      "distance_km": 27.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hickory Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.hickoryairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hickory Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:34.483000Z",
+    "generated_at": "2025-08-04T19:00:46.274836Z",
     "env": "development",
     "source": "justarrived-generator"
   }

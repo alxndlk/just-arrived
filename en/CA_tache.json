@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Winnipeg",
+      "iata_code": "YWG",
+      "icao_code": "CYWG",
+      "distance_km": 45.5,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Winnipeg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Winnipeg Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Richardson International Terminal",
+          "description": "The Richardson International Terminal is the newest terminal at Winnipeg Airport, serving international flights."
+        }
+      ],
+      "website": "https://www.waa.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Winnipeg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:20.954053Z",
+    "generated_at": "2025-08-04T19:17:52.850699Z",
     "env": "development",
     "source": "justarrived-generator"
   }

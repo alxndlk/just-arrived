@@ -50,8 +50,76 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Naha",
+      "iata_code": "OKA",
+      "icao_code": "ROAH",
+      "distance_km": 8.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Naha Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Naha Airport handles all domestic flights within Japan."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Naha Airport serves international flights to and from other countries."
+        }
+      ],
+      "website": "https://www.naha-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kadena AB",
+      "iata_code": "DNA",
+      "icao_code": "RODN",
+      "distance_km": 27.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kerama",
+      "iata_code": "KJP",
+      "icao_code": "ROKR",
+      "distance_km": 33.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kerama Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kerama Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.keramaairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kerama Airport Free WiFi",
+        "note": "Passengers can connect to the free WiFi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:45.991095Z",
+    "generated_at": "2025-08-04T20:02:27.186868Z",
     "env": "development",
     "source": "justarrived-generator"
   }

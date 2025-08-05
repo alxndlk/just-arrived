@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GCY",
+      "icao_code": "KGCY",
+      "distance_km": 6.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves all commercial flights and features a variety of shops and restaurants."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For private and charter flights, the private terminal offers a luxurious and exclusive experience for travelers."
+        }
+      ],
+      "website": "http://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Moore-Murrell",
+      "iata_code": "MOR",
+      "icao_code": "KMOR",
+      "distance_km": 43.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Moore-Murrell Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Moore-Murrell Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.mooremurrellairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MOR Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:30.191465Z",
+    "generated_at": "2025-08-04T19:05:46.542301Z",
     "env": "development",
     "source": "justarrived-generator"
   }

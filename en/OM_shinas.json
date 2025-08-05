@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sohar Airport",
+      "iata_code": "OHS",
+      "icao_code": "OOSH",
+      "distance_km": 42.8,
+      "gmt": "4",
+      "country": "Oman",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sohar Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sohar Airport is used for the shipment of goods and freight."
+        }
+      ],
+      "website": "https://www.soharairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sohar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Al-Fujairah International",
+      "iata_code": "FJR",
+      "icao_code": "OMFJ",
+      "distance_km": 43.0,
+      "gmt": "4",
+      "country": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Al-Fujairah International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.fujairah-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fujairah Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:38.445314Z",
+    "generated_at": "2025-08-04T20:04:35.444221Z",
     "env": "development",
     "source": "justarrived-generator"
   }

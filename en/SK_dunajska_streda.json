@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "M. R. Štefánika",
+      "iata_code": "BTS",
+      "icao_code": "LZIB",
+      "distance_km": 36.4,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.bts.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for 2 hours, after which a fee may apply."
+      }
+    },
+    {
+      "airport_name": "Gyor-Per",
+      "iata_code": "QGY",
+      "icao_code": "LHPR",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.qgyorairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "QGYorAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:41.360695Z",
+    "generated_at": "2025-08-04T18:50:42.570192Z",
     "env": "development",
     "source": "justarrived-generator"
   }

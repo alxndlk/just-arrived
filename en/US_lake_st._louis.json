@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Spirit Of St Louis",
+      "iata_code": "SUS",
+      "icao_code": "KSUS",
+      "distance_km": 36.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Spirit of St Louis Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Spirit of St Louis Airport is exclusively for private flights and charter services."
+        }
+      ],
+      "website": "https://www.spiritairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SpiritAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lambert-St. Louis International",
+      "iata_code": "STL",
+      "icao_code": "KSTL",
+      "distance_km": 37.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lambert-St. Louis International Airport serves as the hub for all domestic and international flights."
+        },
+        {
+          "name": "East Terminal",
+          "description": "The East Terminal at Lambert-St. Louis International Airport is primarily used for regional flights and low-cost carriers."
+        },
+        {
+          "name": "West Terminal",
+          "description": "The West Terminal at Lambert-St. Louis International Airport serves as a secondary terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.flystl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STL Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:35.533079Z",
+    "generated_at": "2025-08-04T19:00:46.704889Z",
     "env": "development",
     "source": "justarrived-generator"
   }

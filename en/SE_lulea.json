@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kallax",
+      "iata_code": "LLA",
+      "icao_code": "ESPA",
+      "distance_km": 4.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kallax Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kallax Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/lulea/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kallax Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:42.442150Z",
+    "generated_at": "2025-08-04T18:29:49.608025Z",
     "env": "development",
     "source": "justarrived-generator"
   }

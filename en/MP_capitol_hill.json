@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Saipan International",
+      "iata_code": "SPN",
+      "icao_code": "PGSN",
+      "distance_km": 10.7,
+      "gmt": "10",
+      "country": "Northern Mariana Islands",
+      "timezone": "Pacific/Saipan",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Saipan International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Saipan International Airport is used for shipping and receiving of goods and freight."
+        }
+      ],
+      "website": "https://www.saipanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tinian International",
+      "iata_code": "TIQ",
+      "icao_code": "PGWT",
+      "distance_km": 28.0,
+      "gmt": "10",
+      "country": "Northern Mariana Islands",
+      "timezone": "Pacific/Saipan",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tinian International Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tinianairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tinian Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:37.904353Z",
+    "generated_at": "2025-08-04T19:38:01.066309Z",
     "env": "development",
     "source": "justarrived-generator"
   }

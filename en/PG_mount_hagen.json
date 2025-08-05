@@ -49,8 +49,43 @@
     "police": "000"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kagamuga",
+      "iata_code": "HGU",
+      "icao_code": "AYMH",
+      "distance_km": 9.9,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Wapenamanda",
+      "iata_code": "WBM",
+      "icao_code": "AYWD",
+      "distance_km": 43.3,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wapenamanda Airport serves domestic flights within Papua New Guinea."
+        }
+      ],
+      "website": "https://www.pngairports.com.pg/airports/wapenamanda-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Wapenamanda Airport WiFi",
+        "note": "WiFi is available for free throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:21.994079Z",
+    "generated_at": "2025-08-04T20:09:28.468534Z",
     "env": "development",
     "source": "justarrived-generator"
   }

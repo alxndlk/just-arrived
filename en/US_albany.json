@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Albany International",
+      "iata_code": "ALB",
+      "icao_code": "KALB",
+      "distance_km": 8.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is a smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ALB_Free_WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schenectady County",
+      "iata_code": "SCH",
+      "icao_code": "KSCH",
+      "distance_km": 23.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Schenectady County Airport handles all commercial flights and includes amenities such as shops, restaurants, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Schenectady County Airport caters to private and charter flights, offering a VIP lounge and concierge services."
+        }
+      ],
+      "website": "https://www.schenectadycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:16.018688Z",
+    "generated_at": "2025-08-04T20:15:29.623057Z",
     "env": "development",
     "source": "justarrived-generator"
   }

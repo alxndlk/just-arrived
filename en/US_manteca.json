@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stockton Metropolitan Airport",
+      "iata_code": "SCK",
+      "icao_code": "KSCK",
+      "distance_km": 11.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stockton Metropolitan Airport houses all necessary facilities for travelers, including check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Stockton Metropolitan Airport handles all cargo operations, including loading and unloading of freight from aircraft."
+        }
+      ],
+      "website": "https://www.flystockton.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCK Free WiFi",
+        "note": "WiFi is available throughout the airport, but may experience slow speeds during peak travel times."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MOD",
+      "icao_code": "KMOD",
+      "distance_km": 30.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Municipal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights and private aircraft."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:01.902483Z",
+    "generated_at": "2025-08-04T18:19:54.044671Z",
     "env": "development",
     "source": "justarrived-generator"
   }

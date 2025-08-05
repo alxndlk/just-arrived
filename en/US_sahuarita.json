@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tucson International Airport",
+      "iata_code": "TUS",
+      "icao_code": "KTUS",
+      "distance_km": 21.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tucson International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is primarily used for regional flights and serves as a secondary terminal at Tucson International Airport."
+        }
+      ],
+      "website": "https://www.flytucson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TUS Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'TUS Free WiFi' from their device's network list."
+      }
+    },
+    {
+      "airport_name": "Davis Monthan AFB",
+      "iata_code": "DMA",
+      "icao_code": "KDMA",
+      "distance_km": 27.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Davis Monthan AFB Airport serves all commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Davis Monthan AFB Airport serves all military flights and personnel."
+        }
+      ],
+      "website": "https://www.dm.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMA Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:16.512636Z",
+    "generated_at": "2025-08-04T18:37:48.089003Z",
     "env": "development",
     "source": "justarrived-generator"
   }

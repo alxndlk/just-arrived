@@ -51,8 +51,64 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cairo International Airport",
+      "iata_code": "CAI",
+      "icao_code": "HECA",
+      "distance_km": 10.7,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights at Cairo International Airport"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights at Cairo International Airport"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Cairo International Airport, serving mainly international flights"
+        }
+      ],
+      "website": "https://www.cairo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cairo Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be limited in some areas"
+      }
+    },
+    {
+      "airport_name": "Sphinx International Airport",
+      "iata_code": "SPX",
+      "icao_code": "HESX",
+      "distance_km": 46.9,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.sphinxairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sphinx Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:37.496231Z",
+    "generated_at": "2025-08-04T20:00:33.616288Z",
     "env": "development",
     "source": "justarrived-generator"
   }

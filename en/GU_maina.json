@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Andersen AFB",
+      "iata_code": "UAM",
+      "icao_code": "PGUA",
+      "distance_km": 3.6,
+      "gmt": "10",
+      "country": "Guam",
+      "timezone": "Pacific/Guam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Andersen AFB Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Andersen AFB Airport is used for military personnel and their families."
+        }
+      ],
+      "website": "https://www.andersen.af.mil/Units/36th-Wing/",
+      "wifi": {
+        "available": true,
+        "network_name": "Andersen_AFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guam International",
+      "iata_code": "GUM",
+      "icao_code": "PGUM",
+      "distance_km": 8.2,
+      "gmt": "10",
+      "country": "Guam",
+      "timezone": "Pacific/Guam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Guam International Airport serves both international and domestic flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Guam International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.guamairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GUM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:08.786878Z",
+    "generated_at": "2025-08-04T18:13:39.352942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

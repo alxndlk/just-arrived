@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manchester-boston Regional Airport",
+      "iata_code": "MHT",
+      "icao_code": "KMHT",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pease International",
+      "iata_code": "PSM",
+      "icao_code": "KPSM",
+      "distance_km": 30.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lawrence",
+      "iata_code": "LWM",
+      "icao_code": "KLWM",
+      "distance_km": 35.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawrence Airport handles all commercial flights and includes a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lawrence Airport caters to private and chartered flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.lawrenceairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lawrence Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Boire Field",
+      "iata_code": "ASH",
+      "icao_code": "KASH",
+      "distance_km": 37.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boire Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Boire Field Airport is available for private jet and charter flights."
+        }
+      ],
+      "website": "https://www.boirefieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BoireFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:35.761147Z",
+    "generated_at": "2025-08-04T20:27:32.073235Z",
     "env": "development",
     "source": "justarrived-generator"
   }

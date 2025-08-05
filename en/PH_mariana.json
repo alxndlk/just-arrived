@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 12.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it is the newest terminal at the airport and serves a mix of international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Ninoy Aquino International Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Also known as the Domestic Terminal, it serves domestic flights for local airlines."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "WiFi is available for free for 2 hours per device. Additional hours can be purchased."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 42.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Baler Airport serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated for handling cargo and freight services."
+        }
+      ],
+      "website": "https://www.balerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:06.511423Z",
+    "generated_at": "2025-08-04T19:17:51.000776Z",
     "env": "development",
     "source": "justarrived-generator"
   }

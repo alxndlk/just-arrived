@@ -50,8 +50,43 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sidi Belabbes",
+      "iata_code": "BFW",
+      "icao_code": "DAOS",
+      "distance_km": 31.6,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mascara-Ghriss",
+      "iata_code": "MUW",
+      "icao_code": "DAOV",
+      "distance_km": 38.0,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mascara-Ghriss Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mascara-ghrissairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MG Airport Wifi",
+        "note": "Wifi is available throughout the airport, free for the first hour and then at a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:27.241874Z",
+    "generated_at": "2025-08-04T20:10:25.739382Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,187 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linden",
+      "iata_code": "LDJ",
+      "icao_code": "KLDJ",
+      "distance_km": 17.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights at Linden Airport."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal caters to private and chartered flights, providing exclusive services and amenities."
+        }
+      ],
+      "website": "https://www.lindenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LindenAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 27.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The oldest and smallest terminal at Newark Liberty International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal at Newark Liberty International Airport, serving mainly domestic flights with some international destinations."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest and most modern terminal at Newark Liberty International Airport, serving mainly international flights with some domestic destinations."
+        }
+      ],
+      "website": "https://www.newarkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EWR Free Wi-Fi",
+        "note": "Passengers can connect to the network for free for 30 minutes, after which they will need to pay for extended use."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MMU",
+      "icao_code": "KMMU",
+      "distance_km": 37.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Monmouth Executive Airport",
+      "iata_code": "BLM",
+      "icao_code": "KBLM",
+      "distance_km": 40.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Monmouth Executive Airport offers a comfortable and convenient experience for travelers."
+        }
+      ],
+      "website": "https://www.monmouthjetcenter.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Monmouth Executive Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Caldwell Wright",
+      "iata_code": "CDW",
+      "icao_code": "KCDW",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.caldwellairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CDW Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free."
+      }
+    },
+    {
+      "airport_name": "Trenton Mercer Airport",
+      "iata_code": "TTN",
+      "icao_code": "KTTN",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 48.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 49.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "International flights for various airlines"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Formerly used by Pan Am, now used for Delta Air Lines"
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Main international terminal for various airlines"
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Used by JetBlue Airways"
+        },
+        {
+          "name": "Terminal 7",
+          "description": "Main terminal for British Airways and other international airlines"
+        },
+        {
+          "name": "Terminal 8",
+          "description": "Used by American Airlines"
+        }
+      ],
+      "website": "https://www.jfkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JFK Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:38.078730Z",
+    "generated_at": "2025-08-04T20:04:31.040527Z",
     "env": "development",
     "source": "justarrived-generator"
   }

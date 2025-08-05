@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komaki AFB",
+      "iata_code": "NKM",
+      "icao_code": "RJNA",
+      "distance_km": 36.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Komaki AFB Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Komaki AFB Airport is used for military aircraft and personnel."
+        }
+      ],
+      "website": "https://www.komakiafbairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komaki AFB Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Chu-Bu Centrair International (Central Japan International)",
+      "iata_code": "NGO",
+      "icao_code": "RJGG",
+      "distance_km": 36.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal exclusively for low-cost carriers."
+        }
+      ],
+      "website": "https://www.centrair.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chu-Bu Centrair",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:45.012314Z",
+    "generated_at": "2025-08-04T18:32:46.527368Z",
     "env": "development",
     "source": "justarrived-generator"
   }

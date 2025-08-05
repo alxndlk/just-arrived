@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Corsicana",
+      "iata_code": "CRS",
+      "icao_code": "KCRS",
+      "distance_km": 29.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.corsicanaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Corsicana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Redbird",
+      "iata_code": "RBD",
+      "icao_code": "KRBD",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:27.927927Z",
+    "generated_at": "2025-08-04T20:13:36.379037Z",
     "env": "development",
     "source": "justarrived-generator"
   }

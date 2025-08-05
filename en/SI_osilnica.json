@@ -49,8 +49,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rijeka",
+      "iata_code": "RJK",
+      "icao_code": "LDRI",
+      "distance_km": 36.3,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rijeka Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.rijeka-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "RJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:55.514207Z",
+    "generated_at": "2025-08-04T19:39:00.914288Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,81 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nottingham Airport",
+      "iata_code": "NQT",
+      "icao_code": "EGBN",
+      "distance_km": 9.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nottingham Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.nottinghamairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nottingham Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "East Midlands",
+      "iata_code": "EMA",
+      "icao_code": "EGNX",
+      "distance_km": 11.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at East Midlands Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at East Midlands Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.eastmidlandsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EMA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cottesmor RAF",
+      "iata_code": "OKH",
+      "icao_code": "EGXJ",
+      "distance_km": 47.9,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cottesmor RAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Cottesmor RAF Airport serves exclusively military flights."
+        }
+      ],
+      "website": "https://www.raf.mod.uk/our-organisation/stations/raf-cottesmore/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cottesmor Airport WiFi",
+        "note": "WiFi is available throughout the airport, but a password is required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:46.859601Z",
+    "generated_at": "2025-08-04T20:32:29.590397Z",
     "env": "development",
     "source": "justarrived-generator"
   }

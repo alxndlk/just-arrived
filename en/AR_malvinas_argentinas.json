@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pajas Blancas",
+      "iata_code": "COR",
+      "icao_code": "SACO",
+      "distance_km": 16.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuertos/cordoba",
+      "wifi": {
+        "available": true,
+        "network_name": "COR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:51.822605Z",
+    "generated_at": "2025-08-04T19:16:47.856897Z",
     "env": "development",
     "source": "justarrived-generator"
   }

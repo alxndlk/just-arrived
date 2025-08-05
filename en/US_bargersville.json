@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indianapolis International",
+      "iata_code": "IND",
+      "icao_code": "KIND",
+      "distance_km": 21.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Indianapolis International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Indianapolis International Airport serves airlines such as Delta, Southwest, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Indianapolis International Airport serves airlines such as American, JetBlue, and Spirit."
+        }
+      ],
+      "website": "https://www.indianapolisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IND_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mount Comfort Airport",
+      "iata_code": "QQQ",
+      "icao_code": "KMQJ",
+      "distance_km": 42.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.mountcomfortairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mount Comfort Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Columbus Municipal",
+      "iata_code": "CLU",
+      "icao_code": "KBAK",
+      "distance_km": 43.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Columbus Municipal Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Columbus Municipal Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.columbusairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:55.723769Z",
+    "generated_at": "2025-08-04T20:29:29.239777Z",
     "env": "development",
     "source": "justarrived-generator"
   }

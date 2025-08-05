@@ -47,8 +47,35 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cap Haitien",
+      "iata_code": "CAP",
+      "icao_code": "MTCH",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "Haiti",
+      "timezone": "America/Port-au-Prince",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles cargo and freight services."
+        }
+      ],
+      "website": "https://www.aeroportcap.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAP Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:45.680476Z",
+    "generated_at": "2025-08-04T19:00:49.407865Z",
     "env": "development",
     "source": "justarrived-generator"
   }

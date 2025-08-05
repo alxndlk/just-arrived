@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thames",
+      "iata_code": "TMZ",
+      "icao_code": "NZTH",
+      "distance_km": 3.3,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thames Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Thames Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.thamesairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Thames Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Coromandel",
+      "iata_code": "CMV",
+      "icao_code": "NZCX",
+      "distance_km": 19.0,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:17.864780Z",
+    "generated_at": "2025-08-04T20:34:30.071971Z",
     "env": "development",
     "source": "justarrived-generator"
   }

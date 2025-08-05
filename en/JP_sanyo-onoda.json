@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ube",
+      "iata_code": "UBJ",
+      "icao_code": "RJDC",
+      "distance_km": 11.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ube Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ube Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.ube-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ube Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kita Kyushu",
+      "iata_code": "KKJ",
+      "icao_code": "RJFR",
+      "distance_km": 28.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kita Kyushu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kita Kyushu Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kita-kyushu-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KKJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:07.840295Z",
+    "generated_at": "2025-08-04T18:26:42.698781Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kullu Manali",
+      "iata_code": "KUU",
+      "icao_code": "VIBR",
+      "distance_km": 34.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.kullumanaliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KulluManaliAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bilaspur",
+      "iata_code": "PAB",
+      "icao_code": "VABI",
+      "distance_km": 44.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:20.194234Z",
+    "generated_at": "2025-08-04T20:10:34.652182Z",
     "env": "development",
     "source": "justarrived-generator"
   }

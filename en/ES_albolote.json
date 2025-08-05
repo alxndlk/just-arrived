@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Granada",
+      "iata_code": "GRX",
+      "icao_code": "LEGR",
+      "distance_km": 11.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/granada-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "GRX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:37.601698Z",
+    "generated_at": "2025-08-04T18:56:40.554060Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bindlacher-Berg",
+      "iata_code": "BYU",
+      "icao_code": "EDQD",
+      "distance_km": 30.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hof",
+      "iata_code": "HOQ",
+      "icao_code": "EDQM",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hof Airport"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights"
+        }
+      ],
+      "website": "https://www.hof-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hof Airport Wifi",
+        "note": "Free wifi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Marianske Lazne",
+      "iata_code": "MKA",
+      "icao_code": "LKMR",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:20.559191Z",
+    "generated_at": "2025-08-04T20:17:32.902230Z",
     "env": "development",
     "source": "justarrived-generator"
   }

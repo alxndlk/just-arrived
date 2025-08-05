@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stavropol",
+      "iata_code": "STW",
+      "icao_code": "URMT",
+      "distance_km": 23.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.stv.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stavropol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:48.228897Z",
+    "generated_at": "2025-08-04T18:35:38.906675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

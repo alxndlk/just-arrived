@@ -51,8 +51,59 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 39.4,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 44.8,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 44.8,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Euroairport France Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.euroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport_Free_WiFi",
+        "note": "The wifi is free for all passengers, but may have limited speed and data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:30.601108Z",
+    "generated_at": "2025-08-04T20:13:36.477480Z",
     "env": "development",
     "source": "justarrived-generator"
   }

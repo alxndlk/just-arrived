@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vernal",
+      "iata_code": "VEL",
+      "icao_code": "KVEL",
+      "distance_km": 2.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vernal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Vernal Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.vernalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vernal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:17.310644Z",
+    "generated_at": "2025-08-04T19:25:52.815829Z",
     "env": "development",
     "source": "justarrived-generator"
   }

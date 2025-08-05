@@ -48,8 +48,135 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minneapolis - St. Paul International",
+      "iata_code": "MSP",
+      "icao_code": "KMSP",
+      "distance_km": 8.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Minneapolis - St. Paul International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Minneapolis - St. Paul International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.mspairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Downtown",
+      "iata_code": "STP",
+      "icao_code": "KSTP",
+      "distance_km": 15.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Downtown Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Downtown Airport is exclusively for private and chartered flights."
+        }
+      ],
+      "website": "https://www.downtownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Downtown Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Flying Cloud",
+      "iata_code": "FCM",
+      "icao_code": "KFCM",
+      "distance_km": 20.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Flying Cloud Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Flying Cloud Airport is exclusively for private flights and offers luxurious amenities for passengers."
+        }
+      ],
+      "website": "https://www.flyfcm.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FlyingCloudAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Crystal",
+      "iata_code": "MIC",
+      "icao_code": "KMIC",
+      "distance_km": 31.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Crystal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Crystal Airport."
+        }
+      ],
+      "website": "https://www.crystalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Crystal Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Anoka County–Blaine Airport ",
+      "iata_code": "QQA",
+      "icao_code": "KANE",
+      "distance_km": 36.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Anoka County-Blaine Airport, serving all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Anoka County-Blaine Airport, handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.anokacountyblaineairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACB Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:52.021671Z",
+    "generated_at": "2025-08-04T20:01:30.799815Z",
     "env": "development",
     "source": "justarrived-generator"
   }

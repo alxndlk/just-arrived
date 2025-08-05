@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Craig Municipal",
+      "iata_code": "CRG",
+      "icao_code": "KCRG",
+      "distance_km": 27.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal serves private and charter flights and includes a lounge area and private check-in services."
+        }
+      ],
+      "website": "https://www.craigmunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Craig Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jacksonville,",
+      "iata_code": "JAX",
+      "icao_code": "KJAX",
+      "distance_km": 28.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jacksonville Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Jacksonville Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Jacksonville Airport serves primarily international flights."
+        }
+      ],
+      "website": "https://www.flyjax.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JAX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:05.200723Z",
+    "generated_at": "2025-08-04T19:12:50.937203Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Castellon",
+      "iata_code": "CDT",
+      "icao_code": "LECN",
+      "distance_km": 33.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Castellon Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.castellonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Castellon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:29.877875Z",
+    "generated_at": "2025-08-04T18:28:47.832799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 42.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orange County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Orange County Airport is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.mgjairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:13.148280Z",
+    "generated_at": "2025-08-04T19:22:40.885908Z",
     "env": "development",
     "source": "justarrived-generator"
   }

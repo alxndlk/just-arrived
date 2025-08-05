@@ -50,8 +50,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Piarco International",
+      "iata_code": "POS",
+      "icao_code": "TTPP",
+      "distance_km": 20.7,
+      "gmt": "-4",
+      "country": "Trinidad and Tobago",
+      "timezone": "America/Port_of_Spain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights, with modern facilities and amenities."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights, with basic amenities and services."
+        }
+      ],
+      "website": "https://www.piarcoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PiarcoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, with a limited time limit for usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:35.107362Z",
+    "generated_at": "2025-08-04T18:21:39.646493Z",
     "env": "development",
     "source": "justarrived-generator"
   }

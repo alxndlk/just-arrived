@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lappeenranta",
+      "iata_code": "LPP",
+      "icao_code": "EFLP",
+      "distance_km": 49.3,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Lappeenranta Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/lappeenranta",
+      "wifi": {
+        "available": true,
+        "network_name": "LPP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:06.596429Z",
+    "generated_at": "2025-08-04T18:23:46.129968Z",
     "env": "development",
     "source": "justarrived-generator"
   }

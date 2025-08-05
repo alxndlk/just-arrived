@@ -51,8 +51,55 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bhadrapur",
+      "iata_code": "BDP",
+      "icao_code": "VNCG",
+      "distance_km": 31.5,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Thakurgaon",
+      "iata_code": "TKR",
+      "icao_code": "VGSG",
+      "distance_km": 34.5,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thakurgaon Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.caab.gov.bd/airports/thakurgaon-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Thakurgaon Airport Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bagdogra",
+      "iata_code": "IXB",
+      "icao_code": "VEBD",
+      "distance_km": 47.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:03.995151Z",
+    "generated_at": "2025-08-04T20:20:28.881955Z",
     "env": "development",
     "source": "justarrived-generator"
   }

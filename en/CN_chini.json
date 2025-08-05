@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guangzhou Baiyun International",
+      "iata_code": "CAN",
+      "icao_code": "ZGGG",
+      "distance_km": 22.8,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal for international flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.baiyunairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:05.260042Z",
+    "generated_at": "2025-08-04T18:27:39.412837Z",
     "env": "development",
     "source": "justarrived-generator"
   }

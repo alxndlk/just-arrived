@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Milan",
+      "iata_code": "GNT",
+      "icao_code": "KGNT",
+      "distance_km": 3.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Milan Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Milan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.milanairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Milan Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:55.138011Z",
+    "generated_at": "2025-08-04T19:32:50.050401Z",
     "env": "development",
     "source": "justarrived-generator"
   }

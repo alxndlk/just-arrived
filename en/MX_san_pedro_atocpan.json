@@ -50,8 +50,64 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional Benito Juarez",
+      "iata_code": "MEX",
+      "icao_code": "MMMX",
+      "distance_km": 26.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights."
+        }
+      ],
+      "website": "https://www.aicm.com.mx/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "AICM Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "General Mariano Matamoros Airport",
+      "iata_code": "CVJ",
+      "icao_code": "MMCB",
+      "distance_km": 38.0,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at General Mariano Matamoros Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.oma.aero/en/airports/ciudad-victoria/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVJ Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:52.665480Z",
+    "generated_at": "2025-08-04T19:33:43.492974Z",
     "env": "development",
     "source": "justarrived-generator"
   }

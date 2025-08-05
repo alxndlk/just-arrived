@@ -51,8 +51,68 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 10.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ronchi Dei Legionari",
+      "iata_code": "TRS",
+      "icao_code": "LIPQ",
+      "distance_km": 39.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.triesteairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 48.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aviano Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aviano.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aviano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:14.592717Z",
+    "generated_at": "2025-08-04T20:21:26.338468Z",
     "env": "development",
     "source": "justarrived-generator"
   }

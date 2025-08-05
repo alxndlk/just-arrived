@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MLU",
+      "icao_code": "KMLU",
+      "distance_km": 10.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.monroeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ruston",
+      "iata_code": "RSN",
+      "icao_code": "KRSN",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:51.429092Z",
+    "generated_at": "2025-08-04T20:23:31.747183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

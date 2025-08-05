@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Iwami",
+      "iata_code": "IWJ",
+      "icao_code": "RJOW",
+      "distance_km": 37.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Iwami Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Iwami Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://iwami-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Iwami Airport WiFi",
+        "note": "Free WiFi service is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:25.924218Z",
+    "generated_at": "2025-08-04T18:29:42.925282Z",
     "env": "development",
     "source": "justarrived-generator"
   }

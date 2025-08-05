@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Neuquen",
+      "iata_code": "NQN",
+      "icao_code": "SAZN",
+      "distance_km": 24.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Neuquen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at Neuquen Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertoneuquen.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "NQN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:08.448565Z",
+    "generated_at": "2025-08-04T19:20:50.178182Z",
     "env": "development",
     "source": "justarrived-generator"
   }

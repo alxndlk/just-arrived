@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aeropuerto de las Américas",
+      "iata_code": "SDQ",
+      "icao_code": "MDSD",
+      "distance_km": 2.3,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dr.Joaquin Balaguer",
+      "iata_code": "JBQ",
+      "icao_code": "MDJB",
+      "distance_km": 34.4,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dr.Joaquin Balaguer Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.aerodom.com/airports/joaquin-balaguer-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "JBQ Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:58.230293Z",
+    "generated_at": "2025-08-04T20:04:28.477014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

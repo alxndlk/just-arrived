@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Uruapan",
+      "iata_code": "UPN",
+      "icao_code": "MMPN",
+      "distance_km": 9.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/uruapan-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "UPN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:49.010665Z",
+    "generated_at": "2025-08-04T19:02:40.468742Z",
     "env": "development",
     "source": "justarrived-generator"
   }

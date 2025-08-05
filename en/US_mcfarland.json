@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meadows Field",
+      "iata_code": "BFL",
+      "icao_code": "KBFL",
+      "distance_km": 32.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Meadows Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Meadows Field Airport serves smaller regional airlines."
+        }
+      ],
+      "website": "https://www.meadowsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MeadowsFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Porterville",
+      "iata_code": "PTV",
+      "icao_code": "KPTV",
+      "distance_km": 47.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:53.782825Z",
+    "generated_at": "2025-08-04T20:31:37.584062Z",
     "env": "development",
     "source": "justarrived-generator"
   }

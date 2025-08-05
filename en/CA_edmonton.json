@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Namao Field",
+      "iata_code": "YED",
+      "icao_code": "CYED",
+      "distance_km": 3.9,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Namao Field Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Namao Field Airport serves flights to and from nearby cities and towns."
+        }
+      ],
+      "website": "https://www.namaoairport.ca",
+      "wifi": {
+        "available": true,
+        "network_name": "Namao Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    },
+    {
+      "airport_name": "Edmonton International Airport",
+      "iata_code": "YEG",
+      "icao_code": "CYEG",
+      "distance_km": 26.0,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Edmonton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Edmonton International Airport is used for charter and regional flights."
+        }
+      ],
+      "website": "https://flyeia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:39.744579Z",
+    "generated_at": "2025-08-04T18:04:47.687142Z",
     "env": "development",
     "source": "justarrived-generator"
   }

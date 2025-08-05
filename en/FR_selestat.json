@@ -51,8 +51,81 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Colmar-houssen",
+      "iata_code": "CMR",
+      "icao_code": "LFGA",
+      "distance_km": 20.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Colmar-houssen Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Colmar-houssen Airport."
+        }
+      ],
+      "website": "https://www.colmar-houssen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ColmarAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 32.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Black Forest Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.blackforestairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlackForestAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Entzheim",
+      "iata_code": "SXB",
+      "icao_code": "LFST",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Entzheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers and seasonal flights."
+        }
+      ],
+      "website": "https://www.strasbourg.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Entzheim Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:47.470858Z",
+    "generated_at": "2025-08-04T18:56:44.958997Z",
     "env": "development",
     "source": "justarrived-generator"
   }

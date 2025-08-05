@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Rochester International",
+      "iata_code": "ROC",
+      "icao_code": "KROC",
+      "distance_km": 13.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rochester International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Greater Rochester International Airport serves domestic flights operated by Delta, American Airlines, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Greater Rochester International Airport serves domestic flights operated by JetBlue, Southwest, and Allegiant."
+        }
+      ],
+      "website": "https://www.rocairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ROC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:59.136319Z",
+    "generated_at": "2025-08-04T18:19:51.488526Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Industrial",
+      "iata_code": "OTM",
+      "icao_code": "KOTM",
+      "distance_km": 26.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Industrial Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Industrial Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.industrialairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "IndustrialAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:42.556537Z",
+    "generated_at": "2025-08-04T19:19:46.590789Z",
     "env": "development",
     "source": "justarrived-generator"
   }

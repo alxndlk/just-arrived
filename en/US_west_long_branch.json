@@ -48,8 +48,142 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Monmouth Executive Airport",
+      "iata_code": "BLM",
+      "icao_code": "KBLM",
+      "distance_km": 11.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Robert J. Miller",
+      "iata_code": "MJX",
+      "icao_code": "KMJX",
+      "distance_km": 39.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private flights and chartered planes."
+        }
+      ],
+      "website": "https://www.millerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miller Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Linden",
+      "iata_code": "LDJ",
+      "icao_code": "KLDJ",
+      "distance_km": 41.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Linden Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Linden Airport is exclusively for private and chartered flights."
+        }
+      ],
+      "website": "https://www.lindenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LindenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 43.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic flights for Delta Air Lines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "This terminal serves international and domestic flights for various airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "This terminal serves domestic flights for JetBlue."
+        },
+        {
+          "name": "Terminal 7",
+          "description": "This terminal serves international and domestic flights for various airlines."
+        },
+        {
+          "name": "Terminal 8",
+          "description": "This terminal serves domestic flights for American Airlines."
+        }
+      ],
+      "website": "https://www.jfkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JFK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 46.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic flights for airlines such as United, JetBlue, and Southwest."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves both domestic and international flights for airlines such as American, Delta, and Air Canada."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves primarily international flights for airlines such as United, Lufthansa, and British Airways."
+        }
+      ],
+      "website": "https://www.newarkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EWR Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a login and has limited free access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:21.819359Z",
+    "generated_at": "2025-08-04T20:33:38.431716Z",
     "env": "development",
     "source": "justarrived-generator"
   }

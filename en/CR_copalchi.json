@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tobias Bolaños International",
+      "iata_code": "SYQ",
+      "icao_code": "MRPV",
+      "distance_km": 12.7,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Juan Santamaría International",
+      "iata_code": "SJO",
+      "icao_code": "MROC",
+      "distance_km": 21.4,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Juan Santamaría International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Juan Santamaría International Airport serves flights to and from other Central American countries."
+        }
+      ],
+      "website": "https://sjoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Quepos",
+      "iata_code": "XQP",
+      "icao_code": "MRQP",
+      "distance_km": 45.7,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:17.978197Z",
+    "generated_at": "2025-08-04T20:22:27.592345Z",
     "env": "development",
     "source": "justarrived-generator"
   }

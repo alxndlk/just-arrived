@@ -50,8 +50,60 @@
     "police": "119"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ramon Villeda Morales International",
+      "iata_code": "SAP",
+      "icao_code": "MHLM",
+      "distance_km": 13.9,
+      "gmt": "-6",
+      "country": "Honduras",
+      "timezone": "America/Tegucigalpa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "This terminal serves regional flights to nearby countries."
+        }
+      ],
+      "website": "https://www.aeropuertosdehonduras.hn/ramon-villeda-morales-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Copan",
+      "iata_code": "RUY",
+      "icao_code": "MHRU",
+      "distance_km": 37.9,
+      "gmt": "-6",
+      "country": "Honduras",
+      "timezone": "America/Tegucigalpa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Copan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Copan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.copanairport.hn",
+      "wifi": {
+        "available": true,
+        "network_name": "Copan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:18.565094Z",
+    "generated_at": "2025-08-04T18:28:43.145077Z",
     "env": "development",
     "source": "justarrived-generator"
   }

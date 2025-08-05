@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Balikesir",
+      "iata_code": "BZI",
+      "icao_code": "LTBF",
+      "distance_km": 20.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Balikesir Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Balikesir Airport is used for transporting goods and freight."
+        }
+      ],
+      "website": "https://www.balikesir.dhmi.gov.tr/Sayfalar/AnaSayfa.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Balikesir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:53.503438Z",
+    "generated_at": "2025-08-04T18:52:40.782386Z",
     "env": "development",
     "source": "justarrived-generator"
   }

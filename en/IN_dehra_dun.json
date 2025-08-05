@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dehra Dun",
+      "iata_code": "DED",
+      "icao_code": "VIDN",
+      "distance_km": 3.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dehra Dun Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.airportsindia.org.in/allAirports/dehradun.jsp",
+      "wifi": {
+        "available": true,
+        "network_name": "DED Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:53.120742Z",
+    "generated_at": "2025-08-04T18:05:51.418207Z",
     "env": "development",
     "source": "justarrived-generator"
   }

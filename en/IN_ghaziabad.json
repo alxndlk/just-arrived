@@ -51,8 +51,51 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 8.6,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 33.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for low-cost carriers such as IndiGo and SpiceJet."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles all international flights and some domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles all international flights and some domestic flights for full-service carriers such as Air India and Vistara."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:03.184199Z",
+    "generated_at": "2025-08-04T19:56:26.630120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

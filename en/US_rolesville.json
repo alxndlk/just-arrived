@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franklin",
+      "iata_code": "LFN",
+      "icao_code": "KLHZ",
+      "distance_km": 24.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Raleigh-durham International Airport",
+      "iata_code": "RDU",
+      "icao_code": "KRDU",
+      "distance_km": 29.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "A modern and spacious terminal, serving domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newly renovated terminal, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.rdu.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RDU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:40.851105Z",
+    "generated_at": "2025-08-04T20:29:27.824254Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 38.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake Simcoe Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lake Simcoe Regional Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.lakesimcoeregionalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LSRA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:05.726581Z",
+    "generated_at": "2025-08-04T19:18:40.321750Z",
     "env": "development",
     "source": "justarrived-generator"
   }

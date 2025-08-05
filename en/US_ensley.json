@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pensacola International Airport",
+      "iata_code": "PNS",
+      "icao_code": "KPNS",
+      "distance_km": 9.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pensacola International Airport houses all major airlines and provides access to various amenities for travelers."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a smaller terminal at Pensacola International Airport, primarily used for regional flights and smaller airlines."
+        }
+      ],
+      "website": "https://flypensacola.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PNS Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Pensacola NAS",
+      "iata_code": "NPA",
+      "icao_code": "KNPA",
+      "distance_km": 13.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pensacola NAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Pensacola NAS Airport is used for military and government flights."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/nas_pensacola.html",
+      "wifi": {
+        "available": true,
+        "network_name": "PensacolaNAS_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Edwards",
+      "iata_code": "GUF",
+      "icao_code": "KJKA",
+      "distance_km": 49.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.edwardsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Edwards Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:40.365200Z",
+    "generated_at": "2025-08-04T18:50:44.296584Z",
     "env": "development",
     "source": "justarrived-generator"
   }

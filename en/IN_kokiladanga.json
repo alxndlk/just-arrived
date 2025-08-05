@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rupsi",
+      "iata_code": "RUP",
+      "icao_code": "VERU",
+      "distance_km": 25.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/rupsi",
+      "wifi": {
+        "available": true,
+        "network_name": "Rupsi Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cooch Behar",
+      "iata_code": "COH",
+      "icao_code": "VECO",
+      "distance_km": 36.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cooch Behar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.coochbeharairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "COH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:37.865661Z",
+    "generated_at": "2025-08-04T19:28:43.626824Z",
     "env": "development",
     "source": "justarrived-generator"
   }

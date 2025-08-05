@@ -51,8 +51,59 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kailashahar",
+      "iata_code": "IXH",
+      "icao_code": "VEKR",
+      "distance_km": 18.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Shamshernagar",
+      "iata_code": "ZHM",
+      "icao_code": "VGSH",
+      "distance_km": 26.1,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kamalpur",
+      "iata_code": "IXQ",
+      "icao_code": "VEKM",
+      "distance_km": 45.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kamalpurairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kamalpur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:21.022514Z",
+    "generated_at": "2025-08-04T20:04:29.960012Z",
     "env": "development",
     "source": "justarrived-generator"
   }

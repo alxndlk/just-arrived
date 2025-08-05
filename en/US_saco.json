@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "International Jetport",
+      "iata_code": "PWM",
+      "icao_code": "KPWM",
+      "distance_km": 17.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at International Jetport Airport is where all domestic and international flights are serviced."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at International Jetport Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.portlandjetport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PWM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sanford",
+      "iata_code": "SFM",
+      "icao_code": "KSFM",
+      "distance_km": 27.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sanford Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sanford Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://flysfb.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:17.462696Z",
+    "generated_at": "2025-08-04T18:54:42.144919Z",
     "env": "development",
     "source": "justarrived-generator"
   }

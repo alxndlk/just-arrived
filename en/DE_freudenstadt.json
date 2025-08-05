@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 41.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.black-forest-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlackForestAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Karlsruhe/Baden-Baden",
+      "iata_code": "FKB",
+      "icao_code": "EDSB",
+      "distance_km": 42.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for Karlsruhe/Baden-Baden Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.badenairpark.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FKB-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:29.802253Z",
+    "generated_at": "2025-08-04T18:48:47.439101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

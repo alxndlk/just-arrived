@@ -49,8 +49,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 44.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Airfield Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Airfield Airport, used for budget airlines and charter flights."
+        }
+      ],
+      "website": "https://www.airfieldairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:59.073715Z",
+    "generated_at": "2025-08-04T19:38:40.474166Z",
     "env": "development",
     "source": "justarrived-generator"
   }

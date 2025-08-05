@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tokat",
+      "iata_code": "TJK",
+      "icao_code": "LTAW",
+      "distance_km": 25.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from other countries."
+        }
+      ],
+      "website": "https://www.tokatairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TJK Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:25.640682Z",
+    "generated_at": "2025-08-04T18:25:50.877731Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 19.3,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Don Muang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Don Muang Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.donmueangairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Don Muang Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Users must register with a valid email address to access the network."
+      }
+    },
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 36.0,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Suvarnabhumi International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Suvarnabhumi International Airport, mainly serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.bangkokairportonline.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Suvarnabhumi Airport Free Wifi",
+        "note": "Passengers can enjoy 2 hours of free wifi access by registering with their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:21.669707Z",
+    "generated_at": "2025-08-04T18:26:49.136569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

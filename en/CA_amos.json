@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Amos",
+      "iata_code": "YEY",
+      "icao_code": "CYEY",
+      "distance_km": 9.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Amos Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Amos Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.amosairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "AmosAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:32.589270Z",
+    "generated_at": "2025-08-04T19:14:50.686235Z",
     "env": "development",
     "source": "justarrived-generator"
   }

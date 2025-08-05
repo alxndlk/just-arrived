@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibague",
+      "iata_code": "IBE",
+      "icao_code": "SKIB",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ibague Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/ibague",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibague Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:38.123912Z",
+    "generated_at": "2025-08-04T18:56:39.892193Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tri County",
+      "iata_code": "LNR",
+      "icao_code": "KLNR",
+      "distance_km": 42.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tri County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "This terminal is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.tricountyairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tri County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Volk Field",
+      "iata_code": "VOK",
+      "icao_code": "KVOK",
+      "distance_km": 49.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:39.207014Z",
+    "generated_at": "2025-08-04T20:29:32.838102Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malatya",
+      "iata_code": "MLX",
+      "icao_code": "LTAT",
+      "distance_km": 27.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Malatya Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Malatya Airport."
+        }
+      ],
+      "website": "https://www.malatyaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLX Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:57.162836Z",
+    "generated_at": "2025-08-04T19:17:45.900301Z",
     "env": "development",
     "source": "justarrived-generator"
   }

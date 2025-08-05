@@ -51,8 +51,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kalamata",
+      "iata_code": "KLX",
+      "icao_code": "LGKL",
+      "distance_km": 3.3,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalamata Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Kalamata Airport offers exclusive services for premium passengers."
+        }
+      ],
+      "website": "https://www.kalamata-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalamata Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eleftherios Venizelos",
+      "iata_code": "SPJ",
+      "icao_code": "LGSP",
+      "distance_km": 47.9,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "This terminal is dedicated to international flights."
+        }
+      ],
+      "website": "https://www.aia.gr/en/our-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eleftherios Venizelos Airport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:23.992500Z",
+    "generated_at": "2025-08-04T19:33:56.386666Z",
     "env": "development",
     "source": "justarrived-generator"
   }

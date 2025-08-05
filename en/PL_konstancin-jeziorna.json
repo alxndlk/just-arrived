@@ -51,8 +51,89 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frederic Chopin",
+      "iata_code": "WAW",
+      "icao_code": "EPWA",
+      "distance_km": 13.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.lotnisko-chopina.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chopin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Warsaw Babice Airport",
+      "iata_code": "QEB",
+      "icao_code": "EPBC",
+      "distance_km": 24.9,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warsaw Babice Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for handling cargo shipments at Warsaw Babice Airport."
+        }
+      ],
+      "website": "https://www.warsawbabiceairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "WarsawBabiceAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mazury",
+      "iata_code": "SZY",
+      "icao_code": "EPSY",
+      "distance_km": 41.1,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.mazuryairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mazury Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:35.656929Z",
+    "generated_at": "2025-08-04T20:17:34.154184Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arauca",
+      "iata_code": "AUC",
+      "icao_code": "SKUC",
+      "distance_km": 3.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arauca Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arauca Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/aeropuertos/Paginas/Aeropuerto-de-Arauca.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "AUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vare Maria",
+      "iata_code": "GDO",
+      "icao_code": "SVGD",
+      "distance_km": 16.5,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vare Maria Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vare Maria Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.varemariaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "VareMariaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:52.039271Z",
+    "generated_at": "2025-08-04T18:19:50.469137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

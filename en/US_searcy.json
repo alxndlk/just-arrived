@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Searcy",
+      "iata_code": "SRC",
+      "icao_code": "KSRC",
+      "distance_km": 0.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Searcy Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Searcy Airport is used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.searcyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Searcy Airport WiFi",
+        "note": "Passengers can connect to the airport's complimentary WiFi network for internet access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:34.682811Z",
+    "generated_at": "2025-08-04T18:50:39.622090Z",
     "env": "development",
     "source": "justarrived-generator"
   }

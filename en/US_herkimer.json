@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Griffiss AFB",
+      "iata_code": "RME",
+      "icao_code": "KRME",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Griffiss AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Griffiss AFB Airport handles all military operations and flights."
+        }
+      ],
+      "website": "https://www.griffissafbjc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Griffiss AFB WiFi",
+        "note": "Passengers can connect to this WiFi network for free while waiting for their flights."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:33.643488Z",
+    "generated_at": "2025-08-04T19:29:58.819304Z",
     "env": "development",
     "source": "justarrived-generator"
   }

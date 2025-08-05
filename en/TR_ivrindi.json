@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Balikesir",
+      "iata_code": "BZI",
+      "icao_code": "LTBF",
+      "distance_km": 38.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from various destinations."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within Turkey."
+        }
+      ],
+      "website": "https://www.balikesirairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Balikesir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Edremit/korfez",
+      "iata_code": "EDO",
+      "icao_code": "LTFD",
+      "distance_km": 38.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.edremitairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Edremit Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:28.989863Z",
+    "generated_at": "2025-08-04T18:40:44.386942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

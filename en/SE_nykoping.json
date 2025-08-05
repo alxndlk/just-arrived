@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skavsta",
+      "iata_code": "NYO",
+      "icao_code": "ESKN",
+      "distance_km": 6.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Skavsta Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.skavsta.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skavsta Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kungsangen",
+      "iata_code": "NRK",
+      "icao_code": "ESSP",
+      "distance_km": 49.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kungsangen Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kungsangen Airport is used for transporting goods and freight."
+        }
+      ],
+      "website": "https://www.swedavia.com/norrkoping/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kungsangen Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:46.354116Z",
+    "generated_at": "2025-08-04T18:34:42.390904Z",
     "env": "development",
     "source": "justarrived-generator"
   }

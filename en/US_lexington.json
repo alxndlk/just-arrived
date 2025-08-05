@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Blue Grass",
+      "iata_code": "LEX",
+      "icao_code": "KLEX",
+      "distance_km": 12.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Blue Grass Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Commuter Terminal",
+          "description": "The commuter terminal handles regional flights for smaller airlines."
+        }
+      ],
+      "website": "https://www.bluegrassairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlueGrassAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Capital City",
+      "iata_code": "FFT",
+      "icao_code": "KFFT",
+      "distance_km": 42.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal where all domestic and international flights depart and arrive."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:23.453615Z",
+    "generated_at": "2025-08-04T20:27:36.969832Z",
     "env": "development",
     "source": "justarrived-generator"
   }

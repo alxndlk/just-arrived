@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Austin-bergstrom International",
+      "iata_code": "AUS",
+      "icao_code": "KAUS",
+      "distance_km": 30.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin-bergstrom International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Austin-bergstrom International Airport is a smaller terminal used by low-cost carriers."
+        }
+      ],
+      "website": "https://www.austintexas.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AUS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Austin Executive Airport ",
+      "iata_code": "EDC",
+      "icao_code": "KEDC",
+      "distance_km": 39.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin Executive Airport offers a variety of amenities for travelers, including dining options and retail stores."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at Austin Executive Airport provides exclusive services for private jet travelers, including luxurious lounges and concierge services."
+        }
+      ],
+      "website": "https://www.austinexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AustinExecutiveAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Marcos Regional Airport",
+      "iata_code": "HYI",
+      "icao_code": "KHYI",
+      "distance_km": 47.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Marcos Regional Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at San Marcos Regional Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.sanmarcosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanMarcosAirportWiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:59.736430Z",
+    "generated_at": "2025-08-04T20:33:27.287320Z",
     "env": "development",
     "source": "justarrived-generator"
   }

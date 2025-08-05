@@ -52,8 +52,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sierra Maestra",
+      "iata_code": "MZO",
+      "icao_code": "MUMZ",
+      "distance_km": 26.1,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.sierramaestraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SierraMaestraAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "C.M. de Cespedes",
+      "iata_code": "BYM",
+      "icao_code": "MUBY",
+      "distance_km": 38.8,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.bymairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BYM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:08.835954Z",
+    "generated_at": "2025-08-04T18:27:40.829389Z",
     "env": "development",
     "source": "justarrived-generator"
   }

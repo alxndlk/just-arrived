@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tallahassee Regional Airport",
+      "iata_code": "TLH",
+      "icao_code": "KTLH",
+      "distance_km": 23.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tallahassee Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is the primary concourse for domestic flights at Tallahassee Regional Airport."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is the secondary concourse for domestic flights at Tallahassee Regional Airport."
+        }
+      ],
+      "website": "https://www.flytallahassee.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TLH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Thomasville Municipal Airport",
+      "iata_code": "TVI",
+      "icao_code": "KTVI",
+      "distance_km": 48.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.thomasvillemunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TVI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:43.065729Z",
+    "generated_at": "2025-08-04T18:56:42.290132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

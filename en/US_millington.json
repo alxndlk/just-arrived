@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Millington Regional Jetport",
+      "iata_code": "NQA",
+      "icao_code": "KNQA",
+      "distance_km": 26.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Memphis International",
+      "iata_code": "MEM",
+      "icao_code": "KMEM",
+      "distance_km": 33.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Memphis International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Memphis International Airport, primarily serving regional flights."
+        }
+      ],
+      "website": "https://www.flymemphis.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MEM_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "AWM",
+      "icao_code": "KAWM",
+      "distance_km": 34.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Olive Branch Airport",
+      "iata_code": "OLV",
+      "icao_code": "KOLV",
+      "distance_km": 41.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Olive Branch Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Olive Branch Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.olivebranchairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OliveBranchAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:48.958612Z",
+    "generated_at": "2025-08-04T20:26:36.285068Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 12.3,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bahrain International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Bahrain International Airport, primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a password provided by the airport staff."
+      }
+    },
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 21.8,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sakhir Air Base Airport serves all commercial flights and is equipped with modern amenities for travelers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Sakhir Air Base Airport is used by the Bahraini Air Force and other military operations."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Sakhir Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free by selecting the 'Sakhir Airport WiFi' network and following the instructions."
+      }
+    },
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 38.0,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at King Abdulaziz AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at King Abdulaziz AB Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.dhahranairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DHA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be obtained from information desks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:43.765238Z",
+    "generated_at": "2025-08-04T20:25:24.580338Z",
     "env": "development",
     "source": "justarrived-generator"
   }

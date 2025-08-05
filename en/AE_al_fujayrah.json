@@ -51,8 +51,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Al-Fujairah International",
+      "iata_code": "FJR",
+      "icao_code": "OMFJ",
+      "distance_km": 1.5,
+      "gmt": "4",
+      "country": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.fujairah-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FJR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:16.994325Z",
+    "generated_at": "2025-08-04T18:19:57.498228Z",
     "env": "development",
     "source": "justarrived-generator"
   }

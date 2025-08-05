@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oshawa",
+      "iata_code": "YOO",
+      "icao_code": "CYOO",
+      "distance_km": 29.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buttonville Municipalcipal",
+      "iata_code": "YKZ",
+      "icao_code": "CYKZ",
+      "distance_km": 33.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buttonville Municipal Airport offers a variety of amenities for travelers, including restaurants, shops, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Buttonville Municipal Airport caters to private and corporate flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.buttonvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buttonville Airport WiFi",
+        "note": "WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:24.767605Z",
+    "generated_at": "2025-08-04T20:13:36.324354Z",
     "env": "development",
     "source": "justarrived-generator"
   }

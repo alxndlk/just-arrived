@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vigo",
+      "iata_code": "VGO",
+      "icao_code": "LEVX",
+      "distance_km": 12.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal de Pasajeros",
+          "description": "The main terminal for passenger flights at Vigo Airport."
+        },
+        {
+          "name": "Terminal de Carga",
+          "description": "The cargo terminal at Vigo Airport for shipping and freight services."
+        }
+      ],
+      "website": "https://www.aena.es/en/vigo-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "VGO_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:59.178921Z",
+    "generated_at": "2025-08-04T18:45:40.827237Z",
     "env": "development",
     "source": "justarrived-generator"
   }

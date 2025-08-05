@@ -50,8 +50,47 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melchor De Menco",
+      "iata_code": "MCR",
+      "icao_code": "MGMM",
+      "distance_km": 25.0,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palenque",
+      "iata_code": "PQM",
+      "icao_code": "MMPQ",
+      "distance_km": 40.7,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palenque Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Palenque Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.palenqueairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Palenque Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:42.673011Z",
+    "generated_at": "2025-08-04T20:15:36.260643Z",
     "env": "development",
     "source": "justarrived-generator"
   }

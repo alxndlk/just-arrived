@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Henry Tift Myers",
+      "iata_code": "TMA",
+      "icao_code": "KTMA",
+      "distance_km": 38.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for various airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights for select airlines."
+        }
+      ],
+      "website": "https://www.tiftmyersairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TMA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:12.563766Z",
+    "generated_at": "2025-08-04T19:33:48.683933Z",
     "env": "development",
     "source": "justarrived-generator"
   }

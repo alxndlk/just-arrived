@@ -51,8 +51,47 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gostomel Airport",
+      "iata_code": "GML",
+      "icao_code": "UKKM",
+      "distance_km": 31.1,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gostomel Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gostomel Airport, mainly used for cargo and private flights."
+        }
+      ],
+      "website": "https://gostomelairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gostomel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 45.5,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:44.366796Z",
+    "generated_at": "2025-08-04T20:31:31.760750Z",
     "env": "development",
     "source": "justarrived-generator"
   }

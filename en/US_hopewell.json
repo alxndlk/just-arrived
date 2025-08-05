@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dinwiddie County Airport",
+      "iata_code": "PTB",
+      "icao_code": "KPTB",
+      "distance_km": 12.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dinwiddie County Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Dinwiddie County Airport is used for shipping and receiving goods via air."
+        }
+      ],
+      "website": "http://www.dinwiddieairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Dinwiddie Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 24.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richmond International Airport houses the check-in counters, security checkpoints, and most of the airport's amenities."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is home to gates A1-A12, and primarily serves domestic flights operated by American Airlines and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is home to gates B1-B14, and primarily serves domestic flights operated by United Airlines and Southwest Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is home to gates C1-C18, and primarily serves domestic and international flights operated by JetBlue, Allegiant, and other airlines."
+        }
+      ],
+      "website": "https://flyrichmond.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIC Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport. Simply connect to the 'RIC Free WiFi' network and accept the terms and conditions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:18.993085Z",
+    "generated_at": "2025-08-04T20:22:32.435250Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 38998,
   "welcome_message_title": "Welcome to Ramallah",
-  "welcome_message_body": null,
+  "welcome_message_body": "\"Welcome to Ramallah, a vibrant city known for its rich history and warm hospitality. We invite you to explore our charming streets, immerse yourself in our culture, and make unforgettable memories during your stay.\"",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "ramallah",
@@ -39,8 +39,47 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 32.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion Airport, mainly used for domestic flights and low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main terminal at Ben Gurion Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/ben-gurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "BenGurionAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration or a code after a certain amount of time."
+      }
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 44.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:13.500835Z",
+    "generated_at": "2025-08-04T20:06:27.381192Z",
     "env": "development",
     "source": "justarrived-generator"
   }

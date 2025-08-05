@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akron/canton Regional",
+      "iata_code": "CAK",
+      "icao_code": "KCAK",
+      "distance_km": 26.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Akron/canton Regional Airport serves all commercial flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Akron/canton Regional Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.akroncantonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 32.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.fultonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:24.159878Z",
+    "generated_at": "2025-08-04T18:52:51.638714Z",
     "env": "development",
     "source": "justarrived-generator"
   }

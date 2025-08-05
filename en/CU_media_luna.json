@@ -52,8 +52,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sierra Maestra",
+      "iata_code": "MZO",
+      "icao_code": "MUMZ",
+      "distance_km": 37.8,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.sierramaestraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SierraMaestraAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:25.280804Z",
+    "generated_at": "2025-08-04T18:40:40.998170Z",
     "env": "development",
     "source": "justarrived-generator"
   }

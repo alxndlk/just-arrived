@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "An Shun/Huang Guo Shu",
+      "iata_code": "AVA",
+      "icao_code": "ZUAS",
+      "distance_km": 41.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.anshunairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "AnShunAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:25.728281Z",
+    "generated_at": "2025-08-04T20:19:33.126180Z",
     "env": "development",
     "source": "justarrived-generator"
   }

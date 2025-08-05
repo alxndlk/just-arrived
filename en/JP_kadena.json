@@ -50,8 +50,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kadena AB",
+      "iata_code": "DNA",
+      "icao_code": "RODN",
+      "distance_km": 1.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kadena AB Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kadena AB Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kadena.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kadena Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after completing a brief registration process."
+      }
+    },
+    {
+      "airport_name": "Naha",
+      "iata_code": "OKA",
+      "icao_code": "ROAH",
+      "distance_km": 21.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Naha Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.naha-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKA_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Iejima",
+      "iata_code": "IEJ",
+      "icao_code": "RORE",
+      "distance_km": 41.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Iejima Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Iejima Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.iejimaairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Iejima Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:46.981333Z",
+    "generated_at": "2025-08-04T19:12:45.941145Z",
     "env": "development",
     "source": "justarrived-generator"
   }

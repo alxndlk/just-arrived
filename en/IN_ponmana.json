@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thiruvananthapuram International",
+      "iata_code": "TRV",
+      "icao_code": "VOTV",
+      "distance_km": 47.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.trivandrumairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRV Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:57.006867Z",
+    "generated_at": "2025-08-04T20:17:26.060297Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tinker AFB",
+      "iata_code": "TIK",
+      "icao_code": "KTIK",
+      "distance_km": 12.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tinker AFB Airport serves all commercial flights and houses various amenities for passengers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tinker AFB Airport serves all military flights and personnel."
+        }
+      ],
+      "website": "https://www.tinker.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TinkerAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Will Rogers World Airport",
+      "iata_code": "OKC",
+      "icao_code": "KOKC",
+      "distance_km": 13.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://flyokc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wiley Post",
+      "iata_code": "PWA",
+      "icao_code": "KPWA",
+      "distance_km": 16.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wiley Post Airport serves commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Wiley Post Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://wileypostairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WileyPostAirportWifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:07.679987Z",
+    "generated_at": "2025-08-04T20:31:34.219964Z",
     "env": "development",
     "source": "justarrived-generator"
   }

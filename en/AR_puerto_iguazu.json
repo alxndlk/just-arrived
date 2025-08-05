@@ -50,8 +50,85 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGU",
+      "icao_code": "SBFI",
+      "distance_km": 7.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cataratas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.infraero.gov.br/en/airports/igu",
+      "wifi": {
+        "available": true,
+        "network_name": "IGU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGR",
+      "icao_code": "SARI",
+      "distance_km": 17.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Cataratas Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.cataratasairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cataratas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Alejo Garcia",
+      "iata_code": "AGT",
+      "icao_code": "SGES",
+      "distance_km": 29.0,
+      "gmt": "-4",
+      "country": "Paraguay",
+      "timezone": "America/Asuncion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Alejo Garcia Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Alejo Garcia Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aeropuertoalejogarcia.com.py/",
+      "wifi": {
+        "available": true,
+        "network_name": "AGT Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport with a simple registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:51.708240Z",
+    "generated_at": "2025-08-04T18:21:48.765302Z",
     "env": "development",
     "source": "justarrived-generator"
   }

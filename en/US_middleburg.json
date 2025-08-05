@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jacksonville NAS",
+      "iata_code": "NIP",
+      "icao_code": "KNIP",
+      "distance_km": 30.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jacksonville NAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Jacksonville NAS Airport is used for military personnel and their families."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/nas_jacksonville.html",
+      "wifi": {
+        "available": true,
+        "network_name": "JAXNASWIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:22.574706Z",
+    "generated_at": "2025-08-04T19:17:53.381725Z",
     "env": "development",
     "source": "justarrived-generator"
   }

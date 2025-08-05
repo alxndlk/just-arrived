@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tucson International Airport",
+      "iata_code": "TUS",
+      "icao_code": "KTUS",
+      "distance_km": 16.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Davis Monthan AFB",
+      "iata_code": "DMA",
+      "icao_code": "KDMA",
+      "distance_km": 21.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Davis Monthan AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Davis Monthan AFB Airport is exclusively for military personnel and their families."
+        }
+      ],
+      "website": "https://www.dm.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Avra Valley",
+      "iata_code": "AVW",
+      "icao_code": "KAVQ",
+      "distance_km": 32.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Avra Valley Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Avra Valley Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.avravalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AVW Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marana",
+      "iata_code": "MZJ",
+      "icao_code": "KMZJ",
+      "distance_km": 47.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:39.817798Z",
+    "generated_at": "2025-08-04T20:21:36.857436Z",
     "env": "development",
     "source": "justarrived-generator"
   }

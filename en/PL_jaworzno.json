@@ -51,8 +51,72 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pyrzowice",
+      "iata_code": "KTW",
+      "icao_code": "EPKT",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Pyrzowice Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Pyrzowice Airport, primarily used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.katowice-airport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "KTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password are displayed on screens throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 34.3,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John Paul II Balice International",
+      "iata_code": "KRK",
+      "icao_code": "EPKK",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of John Paul II Balice International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.krakowairport.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:49.953231Z",
+    "generated_at": "2025-08-04T20:00:26.175719Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lime Acres",
+      "iata_code": "LMR",
+      "icao_code": "FALC",
+      "distance_km": 37.4,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.limeacresairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lime Acres Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sishen",
+      "iata_code": "SIS",
+      "icao_code": "FASS",
+      "distance_km": 46.5,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:55.306066Z",
+    "generated_at": "2025-08-04T20:09:25.903976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

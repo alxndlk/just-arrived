@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hiroshima Airport",
+      "iata_code": "HIJ",
+      "icao_code": "RJOA",
+      "distance_km": 21.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hiroshima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Hiroshima Airport offers services for passengers traveling to and from other countries."
+        }
+      ],
+      "website": "https://www.hij.airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hiroshima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:44.390190Z",
+    "generated_at": "2025-08-04T19:07:41.477137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

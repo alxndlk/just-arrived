@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Changzhoudao",
+      "iata_code": "WUZ",
+      "icao_code": "ZGWZ",
+      "distance_km": 50.0,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.changzhoudaoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Changzhoudao Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:32.984212Z",
+    "generated_at": "2025-08-04T19:33:56.909712Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,56 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mosnov",
+      "iata_code": "OSR",
+      "icao_code": "LKMT",
+      "distance_km": 35.0,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.airport-mosnov.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 35.6,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bielsko-Bialo Kaniow Airfield serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bielsko-bialo-airport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bielsko-Bialo Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport. No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:40.069394Z",
+    "generated_at": "2025-08-04T20:03:34.317195Z",
     "env": "development",
     "source": "justarrived-generator"
   }

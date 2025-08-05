@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kolhapur",
+      "iata_code": "KLH",
+      "icao_code": "VAKP",
+      "distance_km": 46.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kolhapurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kolhapur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sambre",
+      "iata_code": "IXG",
+      "icao_code": "VABM",
+      "distance_km": 48.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Sambre Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.sambreairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sambre Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:45.018378Z",
+    "generated_at": "2025-08-04T18:20:45.735010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "police": "865513"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zia International",
+      "iata_code": "DAC",
+      "icao_code": "VGZR",
+      "distance_km": 45.4,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Comilla",
+      "iata_code": "CLA",
+      "icao_code": "VGCM",
+      "distance_km": 47.4,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The primary terminal for all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "Used for handling and storage of cargo shipments."
+        }
+      ],
+      "website": "https://www.comillaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Comilla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:08.518276Z",
+    "generated_at": "2025-08-04T20:15:29.118522Z",
     "env": "development",
     "source": "justarrived-generator"
   }

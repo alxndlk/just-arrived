@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Austin Executive Airport ",
+      "iata_code": "EDC",
+      "icao_code": "KEDC",
+      "distance_km": 15.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin Executive Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Austin Executive Airport caters to private and charter flights, offering a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.austinexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Austin Executive Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Austin-bergstrom International",
+      "iata_code": "AUS",
+      "icao_code": "KAUS",
+      "distance_km": 39.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin-bergstrom International Airport houses all the major airlines and provides a variety of services and amenities for travelers."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Austin-bergstrom International Airport serves low-cost carriers and offers a more relaxed and intimate atmosphere for travelers."
+        }
+      ],
+      "website": "https://www.austintexas.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AUS Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:47.491725Z",
+    "generated_at": "2025-08-04T20:08:28.689676Z",
     "env": "development",
     "source": "justarrived-generator"
   }

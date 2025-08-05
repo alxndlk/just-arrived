@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tri-state/Milton",
+      "iata_code": "HTS",
+      "icao_code": "KHTS",
+      "distance_km": 21.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.tristateairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tri-state Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Greater Portsmouth Regional",
+      "iata_code": "PMH",
+      "icao_code": "KPMH",
+      "distance_km": 35.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:01.709762Z",
+    "generated_at": "2025-08-04T20:28:26.828432Z",
     "env": "development",
     "source": "justarrived-generator"
   }

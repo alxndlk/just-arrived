@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zephyrhills",
+      "iata_code": "ZPH",
+      "icao_code": "KZPH",
+      "distance_km": 40.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Zephyrhills Airport, serving domestic flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations at Zephyrhills Airport."
+        }
+      ],
+      "website": "https://www.flyzephyrhills.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZPH Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tampa International",
+      "iata_code": "TPA",
+      "icao_code": "KTPA",
+      "distance_km": 47.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tampa International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Airside A",
+          "description": "Airside A at Tampa International Airport serves primarily domestic flights for airlines such as Delta, United, and JetBlue."
+        },
+        {
+          "name": "Airside C",
+          "description": "Airside C at Tampa International Airport serves primarily international flights for airlines such as Lufthansa, British Airways, and Air Canada."
+        },
+        {
+          "name": "Airside E",
+          "description": "Airside E at Tampa International Airport serves primarily domestic flights for airlines such as Southwest, American, and Alaska."
+        }
+      ],
+      "website": "https://www.tampaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TPA-FreeWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:42.213814Z",
+    "generated_at": "2025-08-04T19:17:41.864538Z",
     "env": "development",
     "source": "justarrived-generator"
   }

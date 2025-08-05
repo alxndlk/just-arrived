@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kauhava",
+      "iata_code": "KAU",
+      "icao_code": "EFKA",
+      "distance_km": 0.8,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kauhava Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kauhava Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/kauhava-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Kauhava Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ilmajoki",
+      "iata_code": "SJY",
+      "icao_code": "EFIL",
+      "distance_km": 46.7,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ilmajoki Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.ilmajoki-airport.fi/",
+      "wifi": {
+        "available": true,
+        "network_name": "IlmajokiAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:37.018108Z",
+    "generated_at": "2025-08-04T19:06:44.859344Z",
     "env": "development",
     "source": "justarrived-generator"
   }

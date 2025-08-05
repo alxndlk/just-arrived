@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oshima",
+      "iata_code": "OIM",
+      "icao_code": "RJTO",
+      "distance_km": 44.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Oshima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Oshima Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.oshima-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Oshima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:43.473681Z",
+    "generated_at": "2025-08-04T18:43:41.371076Z",
     "env": "development",
     "source": "justarrived-generator"
   }

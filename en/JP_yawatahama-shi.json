@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matsuyama",
+      "iata_code": "MYJ",
+      "icao_code": "RJOM",
+      "distance_km": 47.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Matsuyama Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Matsuyama Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.matsuyama-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MYJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:38.321618Z",
+    "generated_at": "2025-08-04T18:40:46.278870Z",
     "env": "development",
     "source": "justarrived-generator"
   }

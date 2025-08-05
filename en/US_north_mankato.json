@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MKT",
+      "icao_code": "KMKT",
+      "distance_km": 10.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.mankatomn.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "MKT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "New Ulm",
+      "iata_code": "ULM",
+      "icao_code": "KULM",
+      "distance_km": 39.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at New Ulm Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.newulmairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NewUlmAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:11.677956Z",
+    "generated_at": "2025-08-04T19:09:44.954426Z",
     "env": "development",
     "source": "justarrived-generator"
   }

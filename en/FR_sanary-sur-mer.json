@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Castellet",
+      "iata_code": "CTT",
+      "icao_code": "LFMQ",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroport.fr/les-aeroports-de-l-uaf/le-castellet",
+      "wifi": {
+        "available": true,
+        "network_name": "Le Castellet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Le Palyvestre",
+      "iata_code": "TLN",
+      "icao_code": "LFTH",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Palyvestre Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Le Palyvestre Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.toulon-hyeres.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TLN Free WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:34.980424Z",
+    "generated_at": "2025-08-04T18:59:51.183123Z",
     "env": "development",
     "source": "justarrived-generator"
   }

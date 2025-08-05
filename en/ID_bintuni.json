@@ -50,8 +50,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bokondini",
+      "iata_code": "BUI",
+      "icao_code": "WAJB",
+      "distance_km": 14.1,
+      "gmt": "9",
+      "country": "Indonesia",
+      "timezone": "Asia/Jayapura",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bintuni",
+      "iata_code": "NTI",
+      "icao_code": "WASB",
+      "distance_km": 39.6,
+      "gmt": "9",
+      "country": "Indonesia",
+      "timezone": "Asia/Jayapura",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.bintuniairport.co.id/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bintuni Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Babo",
+      "iata_code": "BXB",
+      "icao_code": "WASO",
+      "distance_km": 49.9,
+      "gmt": "9",
+      "country": "Indonesia",
+      "timezone": "Asia/Jayapura",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:01.250335Z",
+    "generated_at": "2025-08-04T20:07:30.887575Z",
     "env": "development",
     "source": "justarrived-generator"
   }

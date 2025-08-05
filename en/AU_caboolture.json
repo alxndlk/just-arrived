@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Redcliffe",
+      "iata_code": "RCL",
+      "icao_code": "NVSR",
+      "distance_km": 18.2,
+      "gmt": "11",
+      "country": "Vanuatu",
+      "timezone": "Pacific/Efate",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Caloundra",
+      "iata_code": "CUD",
+      "icao_code": "YCDR",
+      "distance_km": 37.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brisbane International",
+      "iata_code": "BNE",
+      "icao_code": "YBBN",
+      "distance_km": 38.6,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Brisbane Airport serves as the main gateway for travelers arriving in Australia."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Brisbane Airport handles flights within Australia and to nearby destinations."
+        }
+      ],
+      "website": "https://www.bne.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNE Free Wi-Fi",
+        "note": "Complimentary Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:19.801038Z",
+    "generated_at": "2025-08-04T20:10:34.605898Z",
     "env": "development",
     "source": "justarrived-generator"
   }

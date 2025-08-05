@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Xingning",
+      "iata_code": "XIN",
+      "icao_code": "ZGXN",
+      "distance_km": 47.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal."
+        }
+      ],
+      "website": "http://www.xingningairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Xingning Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:51.483921Z",
+    "generated_at": "2025-08-04T18:33:45.407297Z",
     "env": "development",
     "source": "justarrived-generator"
   }

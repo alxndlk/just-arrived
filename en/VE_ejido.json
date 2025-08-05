@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "A Carnevalli",
+      "iata_code": "MRD",
+      "icao_code": "SVMD",
+      "distance_km": 38.5,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertomrd.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Carnevalli Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Vigia",
+      "iata_code": "VIG",
+      "icao_code": "SVVG",
+      "distance_km": 43.2,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.vigiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VIG Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:32.358191Z",
+    "generated_at": "2025-08-04T18:19:43.486226Z",
     "env": "development",
     "source": "justarrived-generator"
   }

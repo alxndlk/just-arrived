@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Quepos",
+      "iata_code": "XQP",
+      "icao_code": "MRQP",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Quepos Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.queposairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Quepos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Buenos Aires",
+      "iata_code": "BAI",
+      "icao_code": "MRBA",
+      "distance_km": 48.0,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.buenosairesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buenos Aires Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:07.897560Z",
+    "generated_at": "2025-08-04T20:18:29.625575Z",
     "env": "development",
     "source": "justarrived-generator"
   }

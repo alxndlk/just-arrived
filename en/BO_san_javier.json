@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Javier",
+      "iata_code": "SJV",
+      "icao_code": "SLJV",
+      "distance_km": 10.7,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Javier Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Javier Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.sanjavierairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Concepcion",
+      "iata_code": "CEP",
+      "icao_code": "SLCP",
+      "distance_km": 45.5,
+      "gmt": "-4",
+      "country": "Bolivia",
+      "timezone": "America/La_Paz",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Concepcion Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "http://www.concepcionairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "CEP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:35.272075Z",
+    "generated_at": "2025-08-04T19:37:02.917552Z",
     "env": "development",
     "source": "justarrived-generator"
   }

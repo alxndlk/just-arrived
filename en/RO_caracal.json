@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Craiova",
+      "iata_code": "CRA",
+      "icao_code": "LRCV",
+      "distance_km": 43.3,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.craiova-airport.ro",
+      "wifi": {
+        "available": true,
+        "network_name": "CRA Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:03.438916Z",
+    "generated_at": "2025-08-04T18:44:47.023004Z",
     "env": "development",
     "source": "justarrived-generator"
   }

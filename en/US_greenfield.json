@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "General Mitchell International",
+      "iata_code": "MKE",
+      "icao_code": "KMKE",
+      "distance_km": 8.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lawrence J Timmerman",
+      "iata_code": "MWC",
+      "icao_code": "KMWC",
+      "distance_km": 10.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.milwaukeecountywi.gov/EN/Courthouse/Transportation/Airport.html",
+      "wifi": {
+        "available": true,
+        "network_name": "MWC Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Kenosha Regional Airport",
+      "iata_code": "ENW",
+      "icao_code": "KENW",
+      "distance_km": 44.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:17.310943Z",
+    "generated_at": "2025-08-04T20:15:29.725896Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cagayan De Oro Domestic Airport",
+      "iata_code": "CGY",
+      "icao_code": "RPML",
+      "distance_km": 38.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.cagayandeoroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGY Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:07.249672Z",
+    "generated_at": "2025-08-04T20:08:30.055323Z",
     "env": "development",
     "source": "justarrived-generator"
   }

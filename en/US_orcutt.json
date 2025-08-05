@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Public",
+      "iata_code": "SMX",
+      "icao_code": "KSMX",
+      "distance_km": 5.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lompoc Airport",
+      "iata_code": "LPC",
+      "icao_code": "KLPC",
+      "distance_km": 26.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.cityoflompoc.com/government/departments/public-safety/police-department/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Lompoc Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Luis County Regional Airport",
+      "iata_code": "SBP",
+      "icao_code": "KSBP",
+      "distance_km": 45.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis County Regional Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at San Luis County Regional Airport provides facilities and services for private and corporate aircraft."
+        }
+      ],
+      "website": "https://www.sloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:43.711095Z",
+    "generated_at": "2025-08-04T20:08:32.108843Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pinehurst-S. Pines",
+      "iata_code": "SOP",
+      "icao_code": "KSOP",
+      "distance_km": 8.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pinehurst-S. Pines Airport serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.pinehurstairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pinehurst Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Simmons AAF",
+      "iata_code": "FBG",
+      "icao_code": "KFBG",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial and military flights at Simmons AAF Airport."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights at Simmons AAF Airport."
+        }
+      ],
+      "website": "https://www.simmonsaafr.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SimmonsAAFWifi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:27.322358Z",
+    "generated_at": "2025-08-04T18:59:47.824612Z",
     "env": "development",
     "source": "justarrived-generator"
   }

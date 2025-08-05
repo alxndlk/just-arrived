@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 18.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal, primarily used by low-cost airlines."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 31.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Rotterdam Zestienhoven Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:42.288468Z",
+    "generated_at": "2025-08-04T19:07:42.989391Z",
     "env": "development",
     "source": "justarrived-generator"
   }

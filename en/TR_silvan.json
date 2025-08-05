@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Batman",
+      "iata_code": "BAL",
+      "icao_code": "LTCJ",
+      "distance_km": 26.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Batman Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.batmanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BatmanAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:15.405045Z",
+    "generated_at": "2025-08-04T18:20:55.850853Z",
     "env": "development",
     "source": "justarrived-generator"
   }

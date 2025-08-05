@@ -51,8 +51,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Satwari",
+      "iata_code": "IXJ",
+      "icao_code": "VIJU",
+      "distance_km": 12.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/jammu",
+      "wifi": {
+        "available": true,
+        "network_name": "Satwari Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sialkot International",
+      "iata_code": "SKT",
+      "icao_code": "OPST",
+      "distance_km": 33.6,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:23.048551Z",
+    "generated_at": "2025-08-04T20:25:28.447075Z",
     "env": "development",
     "source": "justarrived-generator"
   }

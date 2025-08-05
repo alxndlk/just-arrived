@@ -51,8 +51,126 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 14.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Bourget Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Le Bourget Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroport.fr/les-aeroports-de-l-uaf/le-bourget",
+      "wifi": {
+        "available": true,
+        "network_name": "LBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paris Cergy Pontoise",
+      "iata_code": "POX",
+      "icao_code": "LFPT",
+      "distance_km": 17.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-cergy-pontoise-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "POX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 21.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal Sud",
+          "description": "The main terminal at Orly Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal Ouest",
+          "description": "A smaller terminal at Orly Airport, mostly serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Orly Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 24.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest terminal at Charles De Gaulle Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The largest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals (2A to 2G) serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Charles De Gaulle Airport, primarily serving low-cost airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/airport/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "Airport_Free_Wifi",
+        "note": "Passengers can connect to the wifi network for free for up to 4 hours. After that, a fee may apply."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:35.573079Z",
+    "generated_at": "2025-08-04T20:00:25.107377Z",
     "env": "development",
     "source": "justarrived-generator"
   }

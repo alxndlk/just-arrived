@@ -50,8 +50,85 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Luis Rio Colorado",
+      "iata_code": "UAC",
+      "icao_code": "MM76",
+      "distance_km": 4.6,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Hermosillo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/es/san-luis-rio-colorado.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SLRC Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Yuma International Airport",
+      "iata_code": "YUM",
+      "icao_code": "KNYL",
+      "distance_km": 26.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yuma International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Yuma International Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.yumaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YumaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mexicali",
+      "iata_code": "MXL",
+      "icao_code": "MMML",
+      "distance_km": 48.5,
+      "gmt": "-8",
+      "country": "Mexico",
+      "timezone": "America/Tijuana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/mexicali-airport.php",
+      "wifi": {
+        "available": true,
+        "network_name": "MXL Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:07.968952Z",
+    "generated_at": "2025-08-04T18:10:47.825726Z",
     "env": "development",
     "source": "justarrived-generator"
   }

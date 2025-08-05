@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tolu",
+      "iata_code": "TLU",
+      "icao_code": "SKTL",
+      "distance_km": 39.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tolu Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tolu Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.toluairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tolu Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    },
+    {
+      "airport_name": "S. Jeronimo",
+      "iata_code": "MTR",
+      "icao_code": "SKMR",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at S. Jeronimo Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at S. Jeronimo Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sjeronimoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "S. Jeronimo Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:24.031473Z",
+    "generated_at": "2025-08-04T18:28:45.382126Z",
     "env": "development",
     "source": "justarrived-generator"
   }

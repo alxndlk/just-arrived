@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hermanos Serdan International",
+      "iata_code": "PBC",
+      "icao_code": "MMPB",
+      "distance_km": 14.3,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "http://www.aeropuertopuebla.mx/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:21.786454Z",
+    "generated_at": "2025-08-04T19:18:46.501868Z",
     "env": "development",
     "source": "justarrived-generator"
   }

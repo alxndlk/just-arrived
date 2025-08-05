@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Raja Sansi International Airport",
+      "iata_code": "ATQ",
+      "icao_code": "VIAR",
+      "distance_km": 15.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles only domestic flights."
+        }
+      ],
+      "website": "https://www.sriaai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATQ Airport Wifi",
+        "note": "Free wifi available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:38.037611Z",
+    "generated_at": "2025-08-04T19:01:41.084917Z",
     "env": "development",
     "source": "justarrived-generator"
   }

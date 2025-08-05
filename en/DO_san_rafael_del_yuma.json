@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Casa de Campo International",
+      "iata_code": "LRM",
+      "icao_code": "MDLR",
+      "distance_km": 24.7,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Casa de Campo International Airport handles all international and domestic flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Casa de Campo International Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.casadecampo.com.do/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "CDCAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Punta Cana International",
+      "iata_code": "PUJ",
+      "icao_code": "MDPC",
+      "distance_km": 35.0,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:39.960640Z",
+    "generated_at": "2025-08-04T20:13:33.401661Z",
     "env": "development",
     "source": "justarrived-generator"
   }

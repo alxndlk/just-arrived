@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yakutsk",
+      "iata_code": "YKS",
+      "icao_code": "UEEE",
+      "distance_km": 8.0,
+      "gmt": "9",
+      "country": "Russia",
+      "timezone": "Asia/Yakutsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://yakutskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yakutsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:10.327465Z",
+    "generated_at": "2025-08-04T19:18:41.275619Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nürnberg",
+      "iata_code": "NUE",
+      "icao_code": "EDDN",
+      "distance_km": 6.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.airport-nuernberg.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NUE Free WiFi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:17.128738Z",
+    "generated_at": "2025-08-04T20:27:30.640498Z",
     "env": "development",
     "source": "justarrived-generator"
   }

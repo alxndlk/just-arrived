@@ -48,8 +48,63 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "New Smyrna Beach Municipal Airport",
+      "iata_code": "QQB",
+      "icao_code": "KEVB",
+      "distance_km": 3.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Daytona Beach International Airport",
+      "iata_code": "DAB",
+      "icao_code": "KDAB",
+      "distance_km": 20.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Daytona Beach International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Daytona Beach International Airport serves primarily Delta Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Daytona Beach International Airport serves primarily American Airlines and United Airlines flights."
+        }
+      ],
+      "website": "https://www.flydaytonafirst.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orlando Sanford International",
+      "iata_code": "SFB",
+      "icao_code": "KSFB",
+      "distance_km": 38.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:49.663352Z",
+    "generated_at": "2025-08-04T20:08:32.397522Z",
     "env": "development",
     "source": "justarrived-generator"
   }

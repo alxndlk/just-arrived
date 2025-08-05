@@ -52,8 +52,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jose Marti International",
+      "iata_code": "HAV",
+      "icao_code": "MUHA",
+      "distance_km": 15.3,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jose Marti International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Jose Marti International Airport, mainly used for charter and cargo flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Jose Marti International Airport, dedicated to international flights."
+        }
+      ],
+      "website": "https://www.havana-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAV-WIFI",
+        "note": "Free wifi is available throughout the airport, but the connection may be slow and unreliable."
+      }
+    },
+    {
+      "airport_name": "Playa Baracoa",
+      "iata_code": "UPB",
+      "icao_code": "MUPB",
+      "distance_km": 18.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "http://www.aeropuertosantiago.cu/aeropuerto-playa-baracoa/",
+      "wifi": {
+        "available": true,
+        "network_name": "Playa Baracoa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:23.300059Z",
+    "generated_at": "2025-08-04T18:38:48.147375Z",
     "env": "development",
     "source": "justarrived-generator"
   }

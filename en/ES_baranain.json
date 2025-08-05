@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pamplona",
+      "iata_code": "PNA",
+      "icao_code": "LEPP",
+      "distance_km": 4.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pamplona Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pamplona Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aena.es/en/pamplona-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "PNA Free Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:33.118264Z",
+    "generated_at": "2025-08-04T18:56:01.468070Z",
     "env": "development",
     "source": "justarrived-generator"
   }

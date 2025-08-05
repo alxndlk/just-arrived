@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Branson",
+      "iata_code": "BKG",
+      "icao_code": "KBBG",
+      "distance_km": 14.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Branson Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Branson Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://flybranson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Branson Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boone County",
+      "iata_code": "HRO",
+      "icao_code": "KHRO",
+      "distance_km": 44.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.boonecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boone County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:10.245723Z",
+    "generated_at": "2025-08-04T19:14:45.800013Z",
     "env": "development",
     "source": "justarrived-generator"
   }

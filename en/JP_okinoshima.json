@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oki Island",
+      "iata_code": "OKI",
+      "icao_code": "RJNO",
+      "distance_km": 3.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Oki Island Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Oki Island Airport."
+        }
+      ],
+      "website": "https://www.oki-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "OkiAirportWifi",
+        "note": "Free wifi is available throughout the airport terminals."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:35.780678Z",
+    "generated_at": "2025-08-04T19:11:44.637921Z",
     "env": "development",
     "source": "justarrived-generator"
   }

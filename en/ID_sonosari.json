@@ -50,8 +50,51 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adisutjipto",
+      "iata_code": "JOG",
+      "icao_code": "WIIJ",
+      "distance_km": 8.2,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Yogyakarta International Airport",
+      "iata_code": "YIA",
+      "icao_code": "WAHI",
+      "distance_km": 36.1,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal for international flights, currently under construction."
+        }
+      ],
+      "website": "https://www.yia.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "YIA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:57.972810Z",
+    "generated_at": "2025-08-04T20:25:30.909578Z",
     "env": "development",
     "source": "justarrived-generator"
   }

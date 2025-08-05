@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sargodha Airport",
+      "iata_code": "SGI",
+      "icao_code": "OPSR",
+      "distance_km": 7.5,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sargodha Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.sargodhaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sargodha Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:33.304575Z",
+    "generated_at": "2025-08-04T18:29:45.490214Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hirara",
+      "iata_code": "MMY",
+      "icao_code": "ROMY",
+      "distance_km": 3.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hirara Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hirara Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.okinawatimes.co.jp/articles/-/71561",
+      "wifi": {
+        "available": true,
+        "network_name": "Hirara Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited during peak hours."
+      }
+    },
+    {
+      "airport_name": "Shimojishima",
+      "iata_code": "SHI",
+      "icao_code": "RORS",
+      "distance_km": 13.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shimojishima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Shimojishima Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.shimojishima-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Shimojishima Airport Free WiFi",
+        "note": "WiFi is available throughout the airport. Please connect to the designated network and follow the instructions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:33.248555Z",
+    "generated_at": "2025-08-04T18:28:50.031014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

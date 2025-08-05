@@ -51,8 +51,43 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Civil",
+      "iata_code": "TRZ",
+      "icao_code": "VOTR",
+      "distance_km": 7.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Thanjavur",
+      "iata_code": "TJV",
+      "icao_code": "VOTJ",
+      "distance_km": 47.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Thanjavur Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/thanjavur",
+      "wifi": {
+        "available": true,
+        "network_name": "TJV Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:11.074385Z",
+    "generated_at": "2025-08-04T20:13:30.687131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,113 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pittsburgh International",
+      "iata_code": "PIT",
+      "icao_code": "KPIT",
+      "distance_km": 13.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pittsburgh International Airport serves as the hub for all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves domestic flights for airlines such as American, Delta, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves domestic flights for airlines such as Southwest, JetBlue, and Spirit."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C primarily serves international flights for airlines such as Air Canada, British Airways, and Condor."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a code from your airline or a purchase at a participating shop or restaurant."
+      }
+    },
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 20.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "County",
+      "iata_code": "WSG",
+      "icao_code": "KAFJ",
+      "distance_km": 36.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.countyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beaver Falls",
+      "iata_code": "BFP",
+      "icao_code": "KBVI",
+      "distance_km": 40.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Butler County - Kenny Scholter Field",
+      "iata_code": "BTP",
+      "icao_code": "KBTP",
+      "distance_km": 44.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Butler County - Kenny Scholter Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.co.butler.pa.us/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BTP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:21.358689Z",
+    "generated_at": "2025-08-04T20:33:38.444356Z",
     "env": "development",
     "source": "justarrived-generator"
   }

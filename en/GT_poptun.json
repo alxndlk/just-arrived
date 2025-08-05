@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Poptun",
+      "iata_code": "PON",
+      "icao_code": "MGPP",
+      "distance_km": 3.3,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.poptunairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Poptun Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:33.601093Z",
+    "generated_at": "2025-08-04T18:23:55.360901Z",
     "env": "development",
     "source": "justarrived-generator"
   }

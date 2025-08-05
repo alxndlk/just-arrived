@@ -52,8 +52,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sierra Maestra",
+      "iata_code": "MZO",
+      "icao_code": "MUMZ",
+      "distance_km": 19.7,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.mzoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MZO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "C.M. de Cespedes",
+      "iata_code": "BYM",
+      "icao_code": "MUBY",
+      "distance_km": 33.2,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at C.M. de Cespedes Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at C.M. de Cespedes Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.cuba-airports.com/camaguey-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "C.M. de Cespedes Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:12.192391Z",
+    "generated_at": "2025-08-04T18:26:44.665453Z",
     "env": "development",
     "source": "justarrived-generator"
   }

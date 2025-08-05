@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Luis Munoz Marin International",
+      "iata_code": "SJU",
+      "icao_code": "TJSJ",
+      "distance_km": 13.3,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Isla Grande",
+      "iata_code": "SIG",
+      "icao_code": "TJIG",
+      "distance_km": 23.5,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Roosevelt NAS",
+      "iata_code": "NRR",
+      "icao_code": "TJNR",
+      "distance_km": 30.7,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roosevelt NAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Roosevelt NAS Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.rooseveltnasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Roosevelt NAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Diego Jimenez Torres",
+      "iata_code": "FAJ",
+      "icao_code": "TJFA",
+      "distance_km": 42.2,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Diego Jimenez Torres Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Diego Jimenez Torres Airport handles all freight and cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.fajairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:31.517104Z",
+    "generated_at": "2025-08-04T20:23:35.595545Z",
     "env": "development",
     "source": "justarrived-generator"
   }

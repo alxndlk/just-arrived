@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Weld County",
+      "iata_code": "GXY",
+      "icao_code": "KGXY",
+      "distance_km": 18.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Weld County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and charter flights, providing a more exclusive and personalized experience."
+        }
+      ],
+      "website": "http://www.weldcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WeldCountyAirportWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipalcipal Airport",
+      "iata_code": "FNL",
+      "icao_code": "KFNL",
+      "distance_km": 19.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipalcipal Airport offers a variety of amenities and services for travelers."
+        }
+      ],
+      "website": "https://www.municipalcipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipalcipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:21.261095Z",
+    "generated_at": "2025-08-04T19:31:44.230019Z",
     "env": "development",
     "source": "justarrived-generator"
   }

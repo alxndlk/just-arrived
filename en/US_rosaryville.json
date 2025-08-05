@@ -48,8 +48,138 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 11.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 21.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Ronald Reagan Washington National Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Ronald Reagan Washington National Airport, mainly serving regional and commuter flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal at Ronald Reagan Washington National Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.flyreagan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lee",
+      "iata_code": "ANP",
+      "icao_code": "KANP",
+      "distance_km": 37.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lee Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lee Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.leeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lee Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 37.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tipton AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.tiptonaafairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Tipton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 47.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at BWI airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at BWI airport serves domestic flights for Southwest Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at BWI airport serves domestic flights for American Airlines and Spirit Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at BWI airport serves domestic flights for Delta Air Lines, United Airlines, and JetBlue."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D at BWI airport serves international flights for Air Canada, British Airways, and Condor."
+        }
+      ],
+      "website": "https://www.bwiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:45.359148Z",
+    "generated_at": "2025-08-04T20:24:33.745199Z",
     "env": "development",
     "source": "justarrived-generator"
   }

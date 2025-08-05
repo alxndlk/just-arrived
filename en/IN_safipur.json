@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kanpur",
+      "iata_code": "KNU",
+      "icao_code": "VIKA",
+      "distance_km": 36.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kanpur Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kanpurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KNU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:27.061863Z",
+    "generated_at": "2025-08-04T18:46:50.822855Z",
     "env": "development",
     "source": "justarrived-generator"
   }

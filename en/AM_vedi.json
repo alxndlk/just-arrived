@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zvartnots International",
+      "iata_code": "EVN",
+      "icao_code": "UGEE",
+      "distance_km": 39.1,
+      "gmt": "4",
+      "country": "Armenia",
+      "timezone": "Asia/Yerevan",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.zvartnots.am/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "EVN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:36.997898Z",
+    "generated_at": "2025-08-04T19:11:43.570744Z",
     "env": "development",
     "source": "justarrived-generator"
   }

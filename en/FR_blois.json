@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arnage",
+      "iata_code": "LME",
+      "icao_code": "LFRM",
+      "distance_km": 45.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arnage Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arnage Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.arnageairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Arnage Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Symphorien",
+      "iata_code": "TUF",
+      "icao_code": "LFOT",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:46.570010Z",
+    "generated_at": "2025-08-04T20:04:27.245751Z",
     "env": "development",
     "source": "justarrived-generator"
   }

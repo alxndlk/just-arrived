@@ -50,8 +50,43 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Aurora",
+      "iata_code": "GUA",
+      "icao_code": "MGGT",
+      "distance_km": 42.9,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Quiche Airport",
+      "iata_code": "AQB",
+      "icao_code": "MGQC",
+      "distance_km": 44.1,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Quiche Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.quicheairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Quiche Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:46.012725Z",
+    "generated_at": "2025-08-04T20:27:27.850051Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bagdogra",
+      "iata_code": "IXB",
+      "icao_code": "VEBD",
+      "distance_km": 26.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bagdogra Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights to and from nearby cities."
+        }
+      ],
+      "website": "https://www.bagdograairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bagdogra Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Bhadrapur",
+      "iata_code": "BDP",
+      "icao_code": "VNCG",
+      "distance_km": 40.7,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bhadrapur Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bhadrapurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bhadrapur Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:35.385553Z",
+    "generated_at": "2025-08-04T19:19:44.581087Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Radom Airport\r\n",
+      "iata_code": "RDO",
+      "icao_code": "EPRA",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Radom Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated to handling cargo shipments at Radom Airport."
+        }
+      ],
+      "website": "https://www.radomairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Radom Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frederic Chopin",
+      "iata_code": "WAW",
+      "icao_code": "EPWA",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Frederic Chopin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.lotnisko-chopina.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chopin Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:42.608047Z",
+    "generated_at": "2025-08-04T20:24:37.528403Z",
     "env": "development",
     "source": "justarrived-generator"
   }

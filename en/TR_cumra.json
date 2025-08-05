@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Konya",
+      "iata_code": "KYA",
+      "icao_code": "LTAN",
+      "distance_km": 48.7,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Konya Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Konya Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.konya.dhmi.gov.tr/havaalanlari/home.aspx?hv=11",
+      "wifi": {
+        "available": true,
+        "network_name": "KonyaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:58.596398Z",
+    "generated_at": "2025-08-04T18:24:41.078782Z",
     "env": "development",
     "source": "justarrived-generator"
   }

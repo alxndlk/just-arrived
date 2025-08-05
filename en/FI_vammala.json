@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tampere-pirkkala",
+      "iata_code": "TMP",
+      "icao_code": "EFTP",
+      "distance_km": 38.8,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tampere-pirkkala Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/tampere-pirkkala-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TMP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:56.073030Z",
+    "generated_at": "2025-08-04T19:02:44.840204Z",
     "env": "development",
     "source": "justarrived-generator"
   }

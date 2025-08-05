@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Octeville",
+      "iata_code": "LEH",
+      "icao_code": "LFOH",
+      "distance_km": 11.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.caen.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Octeville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Gatien",
+      "iata_code": "DOL",
+      "icao_code": "LFRG",
+      "distance_km": 16.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St Gatien Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at St Gatien Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://www.deauville.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "St Gatien Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:21.514595Z",
+    "generated_at": "2025-08-04T19:33:55.867307Z",
     "env": "development",
     "source": "justarrived-generator"
   }

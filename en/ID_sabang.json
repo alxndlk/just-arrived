@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maimun Saleh",
+      "iata_code": "SBG",
+      "icao_code": "WITB",
+      "distance_km": 38.3,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maimun Saleh Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers exclusive services for high-profile passengers."
+        }
+      ],
+      "website": "https://www.maimunsalehairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Maimun Saleh Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sultan Iskandarmuda Airport",
+      "iata_code": "BTJ",
+      "icao_code": "WITT",
+      "distance_km": 43.2,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.iskandarmuda-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:50.839799Z",
+    "generated_at": "2025-08-04T18:35:43.472173Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Velikiye Luki",
+      "iata_code": "VLU",
+      "icao_code": "ULOL",
+      "distance_km": 7.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.velikiyeluki-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VelikiyeLukiAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:18.662404Z",
+    "generated_at": "2025-08-04T18:20:56.002512Z",
     "env": "development",
     "source": "justarrived-generator"
   }

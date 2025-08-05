@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manchester Airport",
+      "iata_code": "MAN",
+      "icao_code": "EGCC",
+      "distance_km": 7.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Manchester Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Manchester Airport, primarily serving low-cost airlines and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Manchester Airport, primarily used for domestic flights and some international flights."
+        }
+      ],
+      "website": "https://www.manchesterairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Liverpool John Lennon",
+      "iata_code": "LPL",
+      "icao_code": "EGGP",
+      "distance_km": 45.9,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Liverpool John Lennon Airport houses all check-in, security, and boarding facilities."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Liverpool John Lennon Airport is primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.liverpoolairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LPL Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with a limited free connection time. Additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:30.255450Z",
+    "generated_at": "2025-08-04T20:17:33.715666Z",
     "env": "development",
     "source": "justarrived-generator"
   }

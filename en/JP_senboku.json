@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akita",
+      "iata_code": "AXT",
+      "icao_code": "RJSK",
+      "distance_km": 44.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hanamaki",
+      "iata_code": "HNA",
+      "icao_code": "RJSI",
+      "distance_km": 45.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal for international flights."
+        }
+      ],
+      "website": "https://www.hanamakiairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hanamaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:59.616048Z",
+    "generated_at": "2025-08-04T20:12:28.961440Z",
     "env": "development",
     "source": "justarrived-generator"
   }

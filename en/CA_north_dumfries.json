@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kitchener-Waterloo Regional",
+      "iata_code": "YKF",
+      "icao_code": "CYKF",
+      "distance_km": 15.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 40.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at John C. Munroe Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at John C. Munroe Airport serves smaller regional airlines and charter flights."
+        }
+      ],
+      "website": "https://www.yhm.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YHM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:48.113051Z",
+    "generated_at": "2025-08-04T20:28:25.901665Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jeonju",
+      "iata_code": "CHN",
+      "icao_code": "RKJU",
+      "distance_km": 23.5,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jeonju Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jeonju Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.airport.kr/jeonju",
+      "wifi": {
+        "available": true,
+        "network_name": "Jeonju Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cheongju",
+      "iata_code": "CJJ",
+      "icao_code": "RKTU",
+      "distance_km": 29.3,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/cjairport",
+      "wifi": {
+        "available": true,
+        "network_name": "CJJ_Free_WiFi",
+        "note": "Passengers can connect to the free WiFi network for up to 3 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:34.351228Z",
+    "generated_at": "2025-08-04T19:26:54.001575Z",
     "env": "development",
     "source": "justarrived-generator"
   }

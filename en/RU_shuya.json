@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ivanova",
+      "iata_code": "IWA",
+      "icao_code": "UUBI",
+      "distance_km": 27.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.ivanovaairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ivanova Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:19.415936Z",
+    "generated_at": "2025-08-04T18:25:47.793310Z",
     "env": "development",
     "source": "justarrived-generator"
   }

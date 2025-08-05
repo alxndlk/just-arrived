@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 26.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, with modern facilities and a variety of shops and restaurants."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The original terminal at Barajas Airport, currently undergoing renovations to update its facilities."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal primarily used by low-cost carriers and domestic flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main international terminal at Barajas Airport, known for its striking architecture and efficient design."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, primarily used for long-haul flights and serving as the hub for Iberia Airlines."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airport_Free_Wifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 30 minutes per day. Unlimited access is available for a fee."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 26.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Torrejon AFB Airport is used for military operations and personnel."
+        }
+      ],
+      "website": "https://www.europeaeromedical.com/torrejon-afb-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:18.080255Z",
+    "generated_at": "2025-08-04T18:27:45.962537Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Harrisburg International",
+      "iata_code": "MDT",
+      "icao_code": "KMDT",
+      "distance_km": 18.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lancaster",
+      "iata_code": "LNS",
+      "icao_code": "KLNS",
+      "distance_km": 24.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lancaster Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lancasterairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lancaster Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Capital City",
+      "iata_code": "HAR",
+      "icao_code": "KCXY",
+      "distance_km": 26.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Capital City Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Capital City Airport is home to several airlines offering flights to destinations around the world."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "York Airport",
+      "iata_code": "THV",
+      "icao_code": "KTHV",
+      "distance_km": 35.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:44.395128Z",
+    "generated_at": "2025-08-04T20:33:30.862367Z",
     "env": "development",
     "source": "justarrived-generator"
   }

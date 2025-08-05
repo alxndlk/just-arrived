@@ -51,8 +51,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jindal",
+      "iata_code": "VDY",
+      "icao_code": "VOJV",
+      "distance_km": 14.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bellary",
+      "iata_code": "BEP",
+      "icao_code": "VOBI",
+      "distance_km": 39.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Bellary Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal building used for domestic flights only."
+        }
+      ],
+      "website": "https://www.bellaryairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bellary Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:41.690390Z",
+    "generated_at": "2025-08-04T20:27:32.988610Z",
     "env": "development",
     "source": "justarrived-generator"
   }

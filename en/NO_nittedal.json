@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gardermoen",
+      "iata_code": "OSL",
+      "icao_code": "ENGM",
+      "distance_km": 18.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gardermoen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gardermoen Airport, primarily serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/oslo-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "OSL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a login and have limited speed."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:48.153350Z",
+    "generated_at": "2025-08-04T18:46:57.462986Z",
     "env": "development",
     "source": "justarrived-generator"
   }

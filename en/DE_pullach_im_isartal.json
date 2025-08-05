@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 17.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.obf-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fuerstenfeldbruck Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fuerstenfeldbruck Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.munich-airport.de/en/fuerstenfeldbruck-airport-320593",
+      "wifi": {
+        "available": true,
+        "network_name": "Fuerstenfeldbruck Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 39.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Franz Josef Strauss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Franz Josef Strauss Airport, primarily serving low-cost and charter airlines."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration and have time limits."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:56.556735Z",
+    "generated_at": "2025-08-04T19:33:46.932766Z",
     "env": "development",
     "source": "justarrived-generator"
   }

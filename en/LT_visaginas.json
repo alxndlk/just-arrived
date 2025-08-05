@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Daugavpils",
+      "iata_code": "DGP",
+      "icao_code": "EVDA",
+      "distance_km": 32.1,
+      "gmt": "2",
+      "country": "Latvia",
+      "timezone": "Europe/Riga",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Daugavpils Airport serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Daugavpils Airport handling freight and logistics operations."
+        }
+      ],
+      "website": "https://www.daugavpilsairport.lv/",
+      "wifi": {
+        "available": true,
+        "network_name": "DGP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:38.487848Z",
+    "generated_at": "2025-08-04T18:56:40.234338Z",
     "env": "development",
     "source": "justarrived-generator"
   }

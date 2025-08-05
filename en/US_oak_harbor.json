@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skagit Regional",
+      "iata_code": "MVW",
+      "icao_code": "KBVS",
+      "distance_km": 25.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skagit Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skagit Regional Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.portofskagit.com/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Skagit Regional Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Friday Harbor",
+      "iata_code": "FRD",
+      "icao_code": "KFHR",
+      "distance_km": 38.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Friday Harbor Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights at Friday Harbor Airport."
+        }
+      ],
+      "website": "https://www.portfridayharbor.org/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "FRD Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:26.830296Z",
+    "generated_at": "2025-08-04T18:48:45.506715Z",
     "env": "development",
     "source": "justarrived-generator"
   }

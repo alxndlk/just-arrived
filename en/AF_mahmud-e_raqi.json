@@ -47,8 +47,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bagram",
+      "iata_code": "OAI",
+      "icao_code": "OAIX",
+      "distance_km": 8.7,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bagram Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for military and cargo operations."
+        }
+      ],
+      "website": "https://www.bagramairport.af/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bagram Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:19.705007Z",
+    "generated_at": "2025-08-04T18:29:39.755272Z",
     "env": "development",
     "source": "justarrived-generator"
   }

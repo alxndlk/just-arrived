@@ -51,8 +51,35 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lodz Lublinek",
+      "iata_code": "LCJ",
+      "icao_code": "EPLL",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal of Lodz Lublinek Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.lcja.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "LCJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:57.306628Z",
+    "generated_at": "2025-08-04T18:50:47.694130Z",
     "env": "development",
     "source": "justarrived-generator"
   }

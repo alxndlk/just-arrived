@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Spangdahlem",
+      "iata_code": "SPM",
+      "icao_code": "ETAD",
+      "distance_km": 46.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Spangdahlem Airport is a modern and efficient facility, offering a variety of amenities for travelers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Spangdahlem Airport serves as a hub for military personnel and their families, providing convenient access to bases and installations in the area."
+        }
+      ],
+      "website": "https://www.spangdahlem.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Spangdahlem Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Hahn",
+      "iata_code": "HHN",
+      "icao_code": "EDFH",
+      "distance_km": 47.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Hahn Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Frankfurt-Hahn Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.hahn-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hahn Airport Free WiFi",
+        "note": "Limited to 60 minutes per user, additional time can be purchased."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:54.131632Z",
+    "generated_at": "2025-08-04T19:32:51.736106Z",
     "env": "development",
     "source": "justarrived-generator"
   }

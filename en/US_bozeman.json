@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bozeman Yellowstone International Airport",
+      "iata_code": "BZN",
+      "icao_code": "KBZN",
+      "distance_km": 13.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bozeman Yellowstone International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights operated by major airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is primarily used for regional flights operated by smaller airlines."
+        }
+      ],
+      "website": "https://bozemanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BZN Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mission Field",
+      "iata_code": "LVM",
+      "icao_code": "KLVM",
+      "distance_km": 38.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mission Field Airport handles all commercial flights and has various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Mission Field Airport caters to private and chartered flights, providing a more personalized and exclusive experience for travelers."
+        }
+      ],
+      "website": "https://www.missionfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MissionFieldAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:56.923570Z",
+    "generated_at": "2025-08-04T18:25:42.148393Z",
     "env": "development",
     "source": "justarrived-generator"
   }

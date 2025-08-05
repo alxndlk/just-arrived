@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fairchild International",
+      "iata_code": "CLM",
+      "icao_code": "KCLM",
+      "distance_km": 3.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fairchild International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fairchild International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.portofpa.com/fairchild-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Fairchild Airport WiFi",
+        "note": "Passengers can access the airport's free WiFi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Victoria Inner Harbor",
+      "iata_code": "YWH",
+      "icao_code": "CYWH",
+      "distance_km": 34.3,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Victoria Inner Harbor Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Floatplane Terminal",
+          "description": "This terminal is used for floatplane flights to and from nearby destinations."
+        }
+      ],
+      "website": "https://www.victoriaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Victoria Inner Harbor Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:26.968795Z",
+    "generated_at": "2025-08-04T18:55:40.648073Z",
     "env": "development",
     "source": "justarrived-generator"
   }

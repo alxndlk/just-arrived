@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Searcy",
+      "iata_code": "SRC",
+      "icao_code": "KSRC",
+      "distance_km": 25.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Little Rock AFB",
+      "iata_code": "LRF",
+      "icao_code": "KLRF",
+      "distance_km": 28.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Little Rock AFB Airport serves all commercial and military flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Little Rock AFB Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.littlerock.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Adams Field Airport",
+      "iata_code": "LIT",
+      "icao_code": "KLIT",
+      "distance_km": 48.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:21.415071Z",
+    "generated_at": "2025-08-04T20:33:38.284032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

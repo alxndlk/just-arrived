@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Southport",
+      "iata_code": "SHQ",
+      "icao_code": "YSPT",
+      "distance_km": 10.0,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gold Coast (coolangatta)",
+      "iata_code": "OOL",
+      "icao_code": "YBCG",
+      "distance_km": 26.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from various destinations."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights to and from various cities within Australia."
+        }
+      ],
+      "website": "https://www.goldcoastairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gold Coast Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:28.807125Z",
+    "generated_at": "2025-08-04T20:18:26.101763Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pontiac",
+      "iata_code": "PTK",
+      "icao_code": "KPTK",
+      "distance_km": 13.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 31.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 34.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport is the hub for all domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Detroit City Airport is primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DC Airport WiFi",
+        "note": "WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:38.287904Z",
+    "generated_at": "2025-08-04T20:11:35.089711Z",
     "env": "development",
     "source": "justarrived-generator"
   }

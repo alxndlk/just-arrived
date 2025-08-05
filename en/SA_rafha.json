@@ -51,8 +51,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rafha",
+      "iata_code": "RAH",
+      "icao_code": "OERF",
+      "distance_km": 0.7,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.gaca.gov.sa/web/en-gb/airport/rafha-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:30.741452Z",
+    "generated_at": "2025-08-04T18:21:39.008320Z",
     "env": "development",
     "source": "justarrived-generator"
   }

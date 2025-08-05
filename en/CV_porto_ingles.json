@@ -50,8 +50,56 @@
     "police": "132"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vila Do Maio",
+      "iata_code": "MMO",
+      "icao_code": "GVMA",
+      "distance_km": 13.3,
+      "gmt": "-1",
+      "country": "Cape Verde",
+      "timezone": "Atlantic/Cape_Verde",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vila Do Maio Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.viladomaioairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "VilaDoMaioAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Francisco Mendes",
+      "iata_code": "RAI",
+      "icao_code": "GVFM",
+      "distance_km": 36.7,
+      "gmt": "-1",
+      "country": "Cape Verde",
+      "timezone": "Atlantic/Cape_Verde",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Francisco Mendes Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Francisco Mendes Airport handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.aeroportocv.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Francisco Mendes Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:27.412116Z",
+    "generated_at": "2025-08-04T19:37:57.949661Z",
     "env": "development",
     "source": "justarrived-generator"
   }

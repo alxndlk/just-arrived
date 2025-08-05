@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Westmoreland County",
+      "iata_code": "LBE",
+      "icao_code": "KLBE",
+      "distance_km": 1.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 43.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Allegheny County Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.alleghenycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AGC_WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "ndiana County Airport (Jimmy Stewart Field)",
+      "iata_code": "IDI",
+      "icao_code": "KIDI",
+      "distance_km": 43.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:28.663474Z",
+    "generated_at": "2025-08-04T20:13:36.474476Z",
     "env": "development",
     "source": "justarrived-generator"
   }

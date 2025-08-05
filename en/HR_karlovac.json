@@ -51,8 +51,35 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franjo Tudman International Airport",
+      "iata_code": "ZAG",
+      "icao_code": "LDZA",
+      "distance_km": 47.5,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.zagreb-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zagreb Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:49.730548Z",
+    "generated_at": "2025-08-04T18:29:53.006187Z",
     "env": "development",
     "source": "justarrived-generator"
   }

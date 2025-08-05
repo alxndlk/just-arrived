@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "A terminal dedicated to military personnel and their families, providing access to base facilities and services."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Torrejon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit or data cap."
+      }
+    },
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 28.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The oldest terminal at Barajas Airport, currently undergoing renovations."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal at Barajas Airport, connected to Terminal 4S for long-haul flights."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, used for long-haul flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 30-minute time limit per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:55.883215Z",
+    "generated_at": "2025-08-04T18:55:53.440010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

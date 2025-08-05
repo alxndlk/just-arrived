@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Darwin",
+      "iata_code": "DRW",
+      "icao_code": "YPDN",
+      "distance_km": 23.3,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Darwin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for regional flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.darwinairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Darwin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Delissaville",
+      "iata_code": "DLV",
+      "icao_code": "YDLV",
+      "distance_km": 45.4,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Darwin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Delissaville Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Delissaville Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.delissavilleairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Delissaville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:52.286016Z",
+    "generated_at": "2025-08-04T19:37:43.639652Z",
     "env": "development",
     "source": "justarrived-generator"
   }

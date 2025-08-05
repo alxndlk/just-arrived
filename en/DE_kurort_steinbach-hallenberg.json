@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Erfurt",
+      "iata_code": "ERF",
+      "icao_code": "EDDE",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Erfurt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://erfurt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Erfurt Airport Free WiFi",
+        "note": "Passengers can connect for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:33.838071Z",
+    "generated_at": "2025-08-04T19:31:49.808183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

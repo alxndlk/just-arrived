@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Port Alberni",
+      "iata_code": "YPB",
+      "icao_code": "EHYP",
+      "distance_km": 0.4,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Alberni Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Port Alberni Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.portalberni.ca/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "PortAlberniAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:07.154319Z",
+    "generated_at": "2025-08-04T18:52:43.758515Z",
     "env": "development",
     "source": "justarrived-generator"
   }

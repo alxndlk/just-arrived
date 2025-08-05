@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melbourne - Tullamarine Airport",
+      "iata_code": "MEL",
+      "icao_code": "YMML",
+      "distance_km": 15.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Essendon",
+      "iata_code": "MEB",
+      "icao_code": "YMEN",
+      "distance_km": 23.7,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Essendon Airport serves domestic flights within Australia."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Essendon Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.essendonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essendon Airport Wifi",
+        "note": "Wifi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:22.938757Z",
+    "generated_at": "2025-08-04T20:06:34.838032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

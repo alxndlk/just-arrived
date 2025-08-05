@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Quad-City",
+      "iata_code": "MLI",
+      "icao_code": "KMLI",
+      "distance_km": 12.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Davenport",
+      "iata_code": "DVN",
+      "icao_code": "KDVN",
+      "distance_km": 19.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Clinton",
+      "iata_code": "CWI",
+      "icao_code": "KCWI",
+      "distance_km": 34.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Clinton Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Clinton Airport handles all shipments and freight services."
+        }
+      ],
+      "website": "https://www.clintonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "CWI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:55.540623Z",
+    "generated_at": "2025-08-04T20:14:30.545062Z",
     "env": "development",
     "source": "justarrived-generator"
   }

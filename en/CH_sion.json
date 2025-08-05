@@ -51,8 +51,35 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sion",
+      "iata_code": "SIR",
+      "icao_code": "LSGS",
+      "distance_km": 3.3,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sion Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sion Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://sionairport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sion Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:34.877984Z",
+    "generated_at": "2025-08-04T18:37:53.475919Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Inverness",
+      "iata_code": "INV",
+      "icao_code": "EGPE",
+      "distance_km": 11.8,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Inverness Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.invernessairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "INV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kinloss",
+      "iata_code": "FSS",
+      "icao_code": "EGQK",
+      "distance_km": 43.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kinloss Airport is the primary hub for all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kinloss Airport handles all freight and cargo operations, serving as an important hub for transporting goods to and from the United Kingdom."
+        }
+      ],
+      "website": "https://www.kinlossairport.co.uk",
+      "wifi": {
+        "available": true,
+        "network_name": "Kinloss Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:38.754291Z",
+    "generated_at": "2025-08-04T20:04:26.769029Z",
     "env": "development",
     "source": "justarrived-generator"
   }

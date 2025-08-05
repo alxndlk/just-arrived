@@ -48,8 +48,108 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Renton",
+      "iata_code": "RNT",
+      "icao_code": "KRNT",
+      "distance_km": 20.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 21.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boeing Field/King County International Airport",
+      "iata_code": "BFI",
+      "icao_code": "KBFI",
+      "distance_km": 27.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boeing Field/King County International Airport handles all commercial flights and is equipped with various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Boeing Field/King County International Airport caters to private and corporate aircrafts and offers a range of services for pilots and passengers."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BFI Airport WiFi",
+        "note": "WiFi is available throughout the airport and can be accessed for free after watching a short advertisement."
+      }
+    },
+    {
+      "airport_name": "Kenmore Air Harbor SPB",
+      "iata_code": "LKE",
+      "icao_code": "KW55",
+      "distance_km": 36.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 41.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 45.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at McChord AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at McChord AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.mcchord.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "McChord WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:13.694548Z",
+    "generated_at": "2025-08-04T20:09:35.910068Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bishop International Airport",
+      "iata_code": "FNT",
+      "icao_code": "KFNT",
+      "distance_km": 19.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bishop International Airport houses all check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is the only concourse at Bishop International Airport and is home to gates A1-A6."
+        }
+      ],
+      "website": "https://www.bishopairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bishop Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Pontiac",
+      "iata_code": "PTK",
+      "icao_code": "KPTK",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pontiac Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Pontiac Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.pontiacairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pontiac Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:12.963535Z",
+    "generated_at": "2025-08-04T19:17:52.130303Z",
     "env": "development",
     "source": "justarrived-generator"
   }

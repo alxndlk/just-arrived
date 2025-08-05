@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Banja Luka",
+      "iata_code": "BNX",
+      "icao_code": "LQBK",
+      "distance_km": 48.3,
+      "gmt": "1",
+      "country": "Bosnia and Herzegovina",
+      "timezone": "Europe/Sarajevo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Banja Luka Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.banjaluka-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BanjaLukaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:32.315056Z",
+    "generated_at": "2025-08-04T19:14:50.292832Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Québec",
+      "iata_code": "YQB",
+      "icao_code": "CYQB",
+      "distance_km": 9.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Québec Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Québec Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportdequebec.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "QuebecAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:57.827060Z",
+    "generated_at": "2025-08-04T18:55:51.407967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

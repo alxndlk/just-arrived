@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Venice Municipalcipal",
+      "iata_code": "VNC",
+      "icao_code": "KVNC",
+      "distance_km": 25.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Venice Municipal Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Venice Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.veniceairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Venice Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charlotte County",
+      "iata_code": "PGD",
+      "icao_code": "KPGD",
+      "distance_km": 28.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Charlotte County Airport handles all commercial flights and is equipped with modern amenities for passengers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The General Aviation Terminal at Charlotte County Airport serves private and charter flights, offering a comfortable and convenient experience for passengers."
+        }
+      ],
+      "website": "https://www.flypgd.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PGD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:50.442290Z",
+    "generated_at": "2025-08-04T19:25:43.653327Z",
     "env": "development",
     "source": "justarrived-generator"
   }

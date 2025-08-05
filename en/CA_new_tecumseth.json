@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buttonville Municipalcipal",
+      "iata_code": "YKZ",
+      "icao_code": "CYKZ",
+      "distance_km": 39.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lester B. Pearson International",
+      "iata_code": "YYZ",
+      "icao_code": "CYYZ",
+      "distance_km": 46.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Lester B. Pearson International Airport, serving primarily international and transborder flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Lester B. Pearson International Airport, serving a mix of domestic, international, and transborder flights."
+        }
+      ],
+      "website": "https://www.torontopearson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toronto Pearson Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 47.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:20.821702Z",
+    "generated_at": "2025-08-04T20:04:34.485893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

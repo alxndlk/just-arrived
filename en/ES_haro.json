@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vitoria",
+      "iata_code": "VIT",
+      "icao_code": "LEVT",
+      "distance_km": 39.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vitoria Airport handles both domestic and international flights, with a variety of amenities and services available for passengers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vitoria Airport is a major hub for air freight, serving a variety of industries and offering efficient and secure handling of goods."
+        }
+      ],
+      "website": "https://www.aena.es/en/vitoria-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vitoria Airport WiFi",
+        "note": "WiFi is available throughout the airport, with free access provided for a limited time and paid options for longer use."
+      }
+    },
+    {
+      "airport_name": "Agoncillo",
+      "iata_code": "RJL",
+      "icao_code": "LELO",
+      "distance_km": 45.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aena.es/en/agoncillo-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Agoncillo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:02.611150Z",
+    "generated_at": "2025-08-04T19:17:48.656380Z",
     "env": "development",
     "source": "justarrived-generator"
   }

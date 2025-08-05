@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orel",
+      "iata_code": "OEL",
+      "icao_code": "UUOR",
+      "distance_km": 2.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Orel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.orl.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Orel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:00.990388Z",
+    "generated_at": "2025-08-04T18:07:50.580579Z",
     "env": "development",
     "source": "justarrived-generator"
   }

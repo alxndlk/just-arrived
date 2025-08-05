@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bathurst",
+      "iata_code": "ZBF",
+      "icao_code": "CZBF",
+      "distance_km": 6.8,
+      "gmt": "-4",
+      "country": "Canada",
+      "timezone": "America/Moncton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bathurst Airport serves domestic flights within Canada."
+        }
+      ],
+      "website": "https://www.bathurstairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bathurst Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bonaventure",
+      "iata_code": "YVB",
+      "icao_code": "CYVB",
+      "distance_km": 49.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bonaventure Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bonaventure Airport handles all air freight operations."
+        }
+      ],
+      "website": "https://www.bonaventureairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bonaventure Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:10.836138Z",
+    "generated_at": "2025-08-04T19:04:42.580122Z",
     "env": "development",
     "source": "justarrived-generator"
   }

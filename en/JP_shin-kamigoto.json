@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fukue",
+      "iata_code": "FUJ",
+      "icao_code": "RJFE",
+      "distance_km": 41.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fukue Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.fukue-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fukue Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:45.952709Z",
+    "generated_at": "2025-08-04T19:00:49.034184Z",
     "env": "development",
     "source": "justarrived-generator"
   }

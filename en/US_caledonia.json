@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "General Mitchell International",
+      "iata_code": "MKE",
+      "icao_code": "KMKE",
+      "distance_km": 16.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kenosha Regional Airport",
+      "iata_code": "ENW",
+      "icao_code": "KENW",
+      "distance_km": 24.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kenosha Regional Airport, serving all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights at Kenosha Regional Airport."
+        }
+      ],
+      "website": "https://www.kenoshaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kenosha Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lawrence J Timmerman",
+      "iata_code": "MWC",
+      "icao_code": "KMWC",
+      "distance_km": 26.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawrence J Timmerman Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lawrence J Timmerman Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.mitchellairport.com/lawrence-j-timmerman-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "MWC Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 48.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Memorial Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.memorialairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Memorial Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:58.307055Z",
+    "generated_at": "2025-08-04T20:11:32.712799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

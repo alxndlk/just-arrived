@@ -47,8 +47,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 26.6,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Bitburg Air Base",
+      "iata_code": "BBJ",
+      "icao_code": "EDAB",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:20.992201Z",
+    "generated_at": "2025-08-04T20:34:30.384379Z",
     "env": "development",
     "source": "justarrived-generator"
   }

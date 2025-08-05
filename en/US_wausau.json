@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Central Wisconsin",
+      "iata_code": "CWA",
+      "icao_code": "KCWA",
+      "distance_km": 19.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Central Wisconsin Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Central Wisconsin Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.fly-cwa.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "CWA Free Wifi",
+        "note": "Passengers can connect to the airport's free wifi network while waiting for their flight."
+      }
+    },
+    {
+      "airport_name": "Stevens Point",
+      "iata_code": "STE",
+      "icao_code": "KSTE",
+      "distance_km": 47.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stevens Point Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Stevens Point Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.stevenspointairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StevensPointAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:58.710675Z",
+    "generated_at": "2025-08-04T18:22:48.747270Z",
     "env": "development",
     "source": "justarrived-generator"
   }

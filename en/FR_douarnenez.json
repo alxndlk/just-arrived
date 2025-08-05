@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pluguffan",
+      "iata_code": "UIP",
+      "icao_code": "LFRQ",
+      "distance_km": 17.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pluguffan Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.pluguffan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pluguffan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brest Lesquin",
+      "iata_code": "BES",
+      "icao_code": "LFRB",
+      "distance_km": 39.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.brest.aeroport.bzh/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Brest Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:16.598125Z",
+    "generated_at": "2025-08-04T19:09:47.102295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

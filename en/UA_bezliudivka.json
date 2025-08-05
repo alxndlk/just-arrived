@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kharkov",
+      "iata_code": "HRK",
+      "icao_code": "UKHH",
+      "distance_km": 5.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Kharkov Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Kharkov Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://hrk.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "HRK Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:41.321743Z",
+    "generated_at": "2025-08-04T19:32:44.004626Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barnstable",
+      "iata_code": "HYA",
+      "icao_code": "KHYA",
+      "distance_km": 17.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Barnstable Airport serves all domestic flights and offers a variety of amenities for travelers."
+        }
+      ],
+      "website": "https://www.town.barnstable.ma.us/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Barnstable Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Provincetown",
+      "iata_code": "PVC",
+      "icao_code": "KPVC",
+      "distance_km": 43.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Nantucket Memorial",
+      "iata_code": "ACK",
+      "icao_code": "KACK",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nantucket Memorial Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Nantucket Memorial Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.nantucketairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nantucket Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:56.851745Z",
+    "generated_at": "2025-08-04T20:22:30.975452Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sania Ramel",
+      "iata_code": "TTU",
+      "icao_code": "GMTN",
+      "distance_km": 29.8,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.saniaramelairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SaniaRamelAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "North Front",
+      "iata_code": "GIB",
+      "icao_code": "LXGB",
+      "distance_km": 33.8,
+      "gmt": "1",
+      "country": "Gibraltar",
+      "timezone": "Europe/Gibraltar",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at North Front Airport handles all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at North Front Airport caters to private and chartered flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.gibraltarairport.gi/",
+      "wifi": {
+        "available": true,
+        "network_name": "GIB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:47.706380Z",
+    "generated_at": "2025-08-04T20:00:34.440907Z",
     "env": "development",
     "source": "justarrived-generator"
   }

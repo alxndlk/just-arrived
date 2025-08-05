@@ -51,8 +51,84 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 5.1,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QNJ",
+      "icao_code": "LFLI",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QYA",
+      "icao_code": "LFLI",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Annemasse Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.annemasse-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Annemasse Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Geneve-cointrin",
+      "iata_code": "GVA",
+      "icao_code": "LSGG",
+      "distance_km": 49.3,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Geneve-cointrin Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Terminal T1",
+          "description": "Terminal T1 is the main hub for Swiss International Airlines and other Star Alliance members."
+        },
+        {
+          "name": "Terminal T2",
+          "description": "Terminal T2 services flights for other major airlines such as Lufthansa, British Airways, and Air France."
+        }
+      ],
+      "website": "https://www.gva.ch/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Geneve-cointrin Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:00.257546Z",
+    "generated_at": "2025-08-04T20:33:32.018071Z",
     "env": "development",
     "source": "justarrived-generator"
   }

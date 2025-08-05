@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ulsan",
+      "iata_code": "USN",
+      "icao_code": "RKPU",
+      "distance_km": 21.8,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ulsan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ulsan Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.airport.co.kr/ulsan/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Ulsan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gimhae",
+      "iata_code": "PUS",
+      "icao_code": "RKPK",
+      "distance_km": 45.7,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Gimhae Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Gimhae Airport."
+        }
+      ],
+      "website": "https://www.airport.co.kr/gimhaeeng/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Gimhae Airport Free WiFi",
+        "note": "Passengers can connect to the free WiFi network by selecting 'Gimhae Airport Free WiFi' and entering their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:06.082778Z",
+    "generated_at": "2025-08-04T18:43:53.026223Z",
     "env": "development",
     "source": "justarrived-generator"
   }

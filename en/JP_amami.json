@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Amami",
+      "iata_code": "ASJ",
+      "icao_code": "RJKA",
+      "distance_km": 21.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Amami Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Amami Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.amami-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Amami Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kikaiga Shima",
+      "iata_code": "KKX",
+      "icao_code": "RJKI",
+      "distance_km": 42.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kikaiga Shima Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kikaiga Shima Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.kikaigashimaairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kikaiga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:55.364433Z",
+    "generated_at": "2025-08-04T18:33:49.873987Z",
     "env": "development",
     "source": "justarrived-generator"
   }

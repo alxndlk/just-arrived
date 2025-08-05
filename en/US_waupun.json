@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fond Du Lac",
+      "iata_code": "FLD",
+      "icao_code": "KFLD",
+      "distance_km": 25.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fond Du Lac Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Fond Du Lac Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flyfdl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FLD Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Wittman Field",
+      "iata_code": "OSH",
+      "icao_code": "KOSH",
+      "distance_km": 41.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wittman Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.oshkoshairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSH Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:02.587241Z",
+    "generated_at": "2025-08-04T19:20:49.163702Z",
     "env": "development",
     "source": "justarrived-generator"
   }

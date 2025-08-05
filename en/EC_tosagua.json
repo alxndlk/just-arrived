@@ -49,8 +49,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bahia De Caraquez",
+      "iata_code": "BHA",
+      "icao_code": "SEBC",
+      "distance_km": 26.5,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bahia De Caraquez Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bahiadecaraquezairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BahiaAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Reales Tamarindos",
+      "iata_code": "PVO",
+      "icao_code": "SEPV",
+      "distance_km": 36.4,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Reales Tamarindos Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Reales Tamarindos Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tame.com.ec/",
+      "wifi": {
+        "available": true,
+        "network_name": "Reales Tamarindos Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:41.138521Z",
+    "generated_at": "2025-08-04T19:20:41.832817Z",
     "env": "development",
     "source": "justarrived-generator"
   }

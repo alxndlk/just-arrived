@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Monmouth Executive Airport",
+      "iata_code": "BLM",
+      "icao_code": "KBLM",
+      "distance_km": 7.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Monmouth Executive Airport offers a variety of amenities for travelers, including dining options, rental car services, and a gift shop."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Monmouth Executive Airport caters to executive and luxury travelers, providing exclusive services and amenities such as private lounges and concierge services."
+        }
+      ],
+      "website": "https://www.monmouthairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MonmouthAirportWifi",
+        "note": "Free wifi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Robert J. Miller",
+      "iata_code": "MJX",
+      "icao_code": "KMJX",
+      "distance_km": 24.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:17.213522Z",
+    "generated_at": "2025-08-04T20:10:34.492576Z",
     "env": "development",
     "source": "justarrived-generator"
   }

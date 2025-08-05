@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Saga",
+      "iata_code": "HSG",
+      "icao_code": "RJFS",
+      "distance_km": 26.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Saga Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.saga-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Saga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nagasaki",
+      "iata_code": "NGS",
+      "icao_code": "RJFU",
+      "distance_km": 32.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nagasaki Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Nagasaki Airport handles flights to and from other cities within Japan."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Nagasaki Airport serves flights to and from other countries."
+        }
+      ],
+      "website": "https://www.nagasaki-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nagasaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:44.549448Z",
+    "generated_at": "2025-08-04T18:30:50.585968Z",
     "env": "development",
     "source": "justarrived-generator"
   }

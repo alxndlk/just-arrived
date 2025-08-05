@@ -51,8 +51,43 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Simla",
+      "iata_code": "SLV",
+      "icao_code": "VISM",
+      "distance_km": 5.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bilaspur",
+      "iata_code": "PAB",
+      "icao_code": "VABI",
+      "distance_km": 42.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The only terminal at Bilaspur Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bilaspurairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Bilaspur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:50.991103Z",
+    "generated_at": "2025-08-04T20:14:25.823094Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kita Kyushu",
+      "iata_code": "KKJ",
+      "icao_code": "RJFR",
+      "distance_km": 20.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kita Kyushu Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kita Kyushu Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.kitakyushu-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KKJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fukuoka",
+      "iata_code": "FUK",
+      "icao_code": "RJFF",
+      "distance_km": 38.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fukuoka Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fukuoka Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.fuk-ab.co.jp/english/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fukuoka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration or login."
+      }
+    },
+    {
+      "airport_name": "Ube",
+      "iata_code": "UBJ",
+      "icao_code": "RJDC",
+      "distance_km": 49.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ube Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ube Airport is used for transporting goods and freight."
+        }
+      ],
+      "website": "https://www.ube-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ube Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'Ube Airport WiFi' from their device's WiFi settings."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:47.363853Z",
+    "generated_at": "2025-08-04T19:27:54.960142Z",
     "env": "development",
     "source": "justarrived-generator"
   }

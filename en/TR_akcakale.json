@@ -50,8 +50,47 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sanliurfa",
+      "iata_code": "SFQ",
+      "icao_code": "LTCH",
+      "distance_km": 42.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Guney Anadolu Projesi",
+      "iata_code": "GNY",
+      "icao_code": "LTCH",
+      "distance_km": 43.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.gapairport.com.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "GAP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:03.081618Z",
+    "generated_at": "2025-08-04T19:58:34.462372Z",
     "env": "development",
     "source": "justarrived-generator"
   }

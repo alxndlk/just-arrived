@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Columbus Metropolitan Airport\r\n",
+      "iata_code": "CSG",
+      "icao_code": "KCSG",
+      "distance_km": 10.3,
+      "gmt": "-5",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lawson AAF",
+      "iata_code": "LSF",
+      "icao_code": "KLSF",
+      "distance_km": 13.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawson AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Lawson AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.lawsonaafairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Lawson AAF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Auburn-Opelika",
+      "iata_code": "AUO",
+      "icao_code": "KAUO",
+      "distance_km": 48.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Garden Harris County",
+      "iata_code": "PIM",
+      "icao_code": "KPIM",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Garden Harris County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Garden Harris County Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.gardenharriscountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GHCAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:35.961868Z",
+    "generated_at": "2025-08-04T20:06:26.814668Z",
     "env": "development",
     "source": "justarrived-generator"
   }

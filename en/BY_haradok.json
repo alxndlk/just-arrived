@@ -50,8 +50,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vitebsk",
+      "iata_code": "VTB",
+      "icao_code": "UMII",
+      "distance_km": 43.7,
+      "gmt": "3",
+      "country": "Belarus",
+      "timezone": "Europe/Minsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.vitebskairport.by/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vitebsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:28.351993Z",
+    "generated_at": "2025-08-04T19:19:40.565857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Farmington Regional Airport",
+      "iata_code": "FAM",
+      "icao_code": "KFAM",
+      "distance_km": 8.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Farmington Regional Airport handles all commercial flights and amenities for passengers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Farmington Regional Airport caters to private and charter flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.farmingtonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:37.640999Z",
+    "generated_at": "2025-08-04T19:35:47.928569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

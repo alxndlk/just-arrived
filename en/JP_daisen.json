@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akita",
+      "iata_code": "AXT",
+      "icao_code": "RJSK",
+      "distance_km": 28.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Akita Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.akita-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Akita Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:06.406998Z",
+    "generated_at": "2025-08-04T20:19:35.956211Z",
     "env": "development",
     "source": "justarrived-generator"
   }

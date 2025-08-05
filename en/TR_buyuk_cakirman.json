@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Erzincan",
+      "iata_code": "ERC",
+      "icao_code": "LTCD",
+      "distance_km": 4.4,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Erzincan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.erzincan.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Erzincan Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting the network and entering their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:19.789144Z",
+    "generated_at": "2025-08-04T18:11:47.404538Z",
     "env": "development",
     "source": "justarrived-generator"
   }

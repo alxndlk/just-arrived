@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Trabzon",
+      "iata_code": "TZX",
+      "icao_code": "LTCG",
+      "distance_km": 29.2,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Trabzon Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.trabzon.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "TZX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:03.060795Z",
+    "generated_at": "2025-08-04T18:46:40.410186Z",
     "env": "development",
     "source": "justarrived-generator"
   }

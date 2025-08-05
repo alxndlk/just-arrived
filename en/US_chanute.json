@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Martin Johnson",
+      "iata_code": "CNU",
+      "icao_code": "KCNU",
+      "distance_km": 1.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tri-City",
+      "iata_code": "PPF",
+      "icao_code": "KPPF",
+      "distance_km": 37.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tri-City Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tri-City Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tricityairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "TriCityAirportWiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:55.137402Z",
+    "generated_at": "2025-08-04T20:33:36.829269Z",
     "env": "development",
     "source": "justarrived-generator"
   }

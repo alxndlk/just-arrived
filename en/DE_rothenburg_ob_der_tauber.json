@@ -49,8 +49,43 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Giebelstadt Army Air Field",
+      "iata_code": "GHF",
+      "icao_code": "ETEU",
+      "distance_km": 33.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kitzingen",
+      "iata_code": "KZG",
+      "icao_code": "ETIN",
+      "distance_km": 39.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitzingen Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.kitzingenairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kitzingen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:20.480509Z",
+    "generated_at": "2025-08-04T20:26:29.090857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

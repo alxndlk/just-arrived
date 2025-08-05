@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vero Beach Municipal",
+      "iata_code": "VRB",
+      "icao_code": "KVRB",
+      "distance_km": 2.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vero Beach Municipal Airport serves commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Vero Beach Municipal Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.verobeachairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "VRB Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Lucie County",
+      "iata_code": "FPR",
+      "icao_code": "KFPR",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Lucie County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at St Lucie County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.stlucieco.gov/departments-services/a-z/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "FPR Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:41.733466Z",
+    "generated_at": "2025-08-04T19:02:41.050198Z",
     "env": "development",
     "source": "justarrived-generator"
   }

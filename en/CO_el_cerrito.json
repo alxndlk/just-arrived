@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alfonso B. Aragon",
+      "iata_code": "CLO",
+      "icao_code": "SKCL",
+      "distance_km": 27.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aerocali.com.co/en/alfonso-bonilla-aragon-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CLO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Farfan",
+      "iata_code": "ULQ",
+      "icao_code": "SKUL",
+      "distance_km": 48.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.farfanairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Farfan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:08.900839Z",
+    "generated_at": "2025-08-04T18:27:40.781011Z",
     "env": "development",
     "source": "justarrived-generator"
   }

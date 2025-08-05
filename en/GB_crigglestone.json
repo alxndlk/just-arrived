@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leeds/bradford",
+      "iata_code": "LBA",
+      "icao_code": "EGNM",
+      "distance_km": 26.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Robin Hood",
+      "iata_code": "DSA",
+      "icao_code": "EGCN",
+      "distance_km": 38.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Robin Hood Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Robin Hood Airport, handling freight and logistics operations."
+        }
+      ],
+      "website": "https://www.robinhoodairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Robin Hood Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Linton-On-Ouse",
+      "iata_code": "HRT",
+      "icao_code": "KHRT",
+      "distance_km": 39.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Linton-On-Ouse Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lintononouseairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linton-On-Ouse Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:06.479611Z",
+    "generated_at": "2025-08-04T20:30:26.924919Z",
     "env": "development",
     "source": "justarrived-generator"
   }

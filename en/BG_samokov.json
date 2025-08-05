@@ -51,8 +51,35 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sofia",
+      "iata_code": "SOF",
+      "icao_code": "LBSF",
+      "distance_km": 41.4,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The smaller and older terminal at Sofia Airport, primarily used for low-cost and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The larger and more modern terminal at Sofia Airport, used for international and some domestic flights."
+        }
+      ],
+      "website": "http://www.sofia-airport.bg/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sofia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require re-logging in after a certain amount of time."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:58.459550Z",
+    "generated_at": "2025-08-04T18:37:39.810625Z",
     "env": "development",
     "source": "justarrived-generator"
   }

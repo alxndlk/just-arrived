@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Morgantown",
+      "iata_code": "MGW",
+      "icao_code": "KMGW",
+      "distance_km": 36.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Morgantown Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Morgantown Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.morgantownairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MGW-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Westmoreland County",
+      "iata_code": "LBE",
+      "icao_code": "KLBE",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights and includes a lounge area and private jet services."
+        }
+      ],
+      "website": "https://www.flylbe.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:35.543532Z",
+    "generated_at": "2025-08-04T19:18:52.720421Z",
     "env": "development",
     "source": "justarrived-generator"
   }

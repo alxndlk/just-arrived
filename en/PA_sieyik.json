@@ -54,8 +54,56 @@
     "police": "104"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Changuinola",
+      "iata_code": "CHX",
+      "icao_code": "MPCH",
+      "distance_km": 23.4,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Changuinola Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/changuinola-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "CHX Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Bocas Del Toro",
+      "iata_code": "BOC",
+      "icao_code": "MPBO",
+      "distance_km": 44.2,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bocas Del Toro Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "There is also a private terminal at Bocas Del Toro Airport for private and chartered flights."
+        }
+      ],
+      "website": "https://www.bocasdeltoroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BocasAirportWifi",
+        "note": "Wifi is available throughout the airport, but may have limited bandwidth and speed."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:21.200140Z",
+    "generated_at": "2025-08-04T19:39:47.073912Z",
     "env": "development",
     "source": "justarrived-generator"
   }

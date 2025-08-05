@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Edmonton International Airport",
+      "iata_code": "YEG",
+      "icao_code": "CYEG",
+      "distance_km": 40.0,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Edmonton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Edmonton International Airport is primarily used for charter and regional flights."
+        }
+      ],
+      "website": "https://flyeia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EIA-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:55.288986Z",
+    "generated_at": "2025-08-04T19:14:57.672564Z",
     "env": "development",
     "source": "justarrived-generator"
   }

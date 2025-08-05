@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tehuacan",
+      "iata_code": "TCN",
+      "icao_code": "MMHC",
+      "distance_km": 19.8,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tehuacan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tehuacan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.tehuacanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TehuacanAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:20.876073Z",
+    "generated_at": "2025-08-04T18:53:43.988968Z",
     "env": "development",
     "source": "justarrived-generator"
   }

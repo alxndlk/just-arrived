@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Palyvestre",
+      "iata_code": "TLN",
+      "icao_code": "LFTH",
+      "distance_km": 3.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Castellet",
+      "iata_code": "CTT",
+      "icao_code": "LFMQ",
+      "distance_km": 31.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Castellet Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Le Castellet Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.lecastellet-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeCastelletAirportWifi",
+        "note": "Free wifi is available throughout the airport. Network name and password can be found on signs throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "La Mole",
+      "iata_code": "LTT",
+      "icao_code": "LFTZ",
+      "distance_km": 44.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at La Mole Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at La Mole Airport, dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.lamole-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaMoleAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:31.646384Z",
+    "generated_at": "2025-08-04T20:02:35.264438Z",
     "env": "development",
     "source": "justarrived-generator"
   }

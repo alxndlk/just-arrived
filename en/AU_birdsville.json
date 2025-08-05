@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Birdsville",
+      "iata_code": "BVI",
+      "icao_code": "YBDV",
+      "distance_km": 0.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Birdsville Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.birdsvilleairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Birdsville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Roseberth",
+      "iata_code": "RSB",
+      "icao_code": "YRSB",
+      "distance_km": 29.1,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roseberth Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "A smaller terminal at Roseberth Airport, primarily serving regional flights within Australia."
+        }
+      ],
+      "website": "https://www.roseberthairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Roseberth Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:53.774117Z",
+    "generated_at": "2025-08-04T19:39:01.505471Z",
     "env": "development",
     "source": "justarrived-generator"
   }

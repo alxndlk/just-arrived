@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pori",
+      "iata_code": "POR",
+      "icao_code": "EFPO",
+      "distance_km": 1.7,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pori Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pori Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/pori-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Pori Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:33.799039Z",
+    "generated_at": "2025-08-04T18:21:39.392289Z",
     "env": "development",
     "source": "justarrived-generator"
   }

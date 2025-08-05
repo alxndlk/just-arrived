@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paysandu",
+      "iata_code": "PDU",
+      "icao_code": "SUPU",
+      "distance_km": 23.4,
+      "gmt": "-3",
+      "country": "Uruguay",
+      "timezone": "America/Montevideo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paysandu Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Paysandu Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.paysanduairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "PDU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:57.776778Z",
+    "generated_at": "2025-08-04T19:03:41.047696Z",
     "env": "development",
     "source": "justarrived-generator"
   }

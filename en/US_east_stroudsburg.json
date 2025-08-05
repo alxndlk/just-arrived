@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mt Pocono",
+      "iata_code": "MPO",
+      "icao_code": "KMPO",
+      "distance_km": 21.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mt Pocono Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Mt Pocono Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.mtpoconoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MPO Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lehigh Valley International",
+      "iata_code": "ABE",
+      "icao_code": "KABE",
+      "distance_km": 44.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lehigh Valley International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lehigh Valley International Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.flylvia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LVIAGuest",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:32.721325Z",
+    "generated_at": "2025-08-04T19:31:48.824732Z",
     "env": "development",
     "source": "justarrived-generator"
   }

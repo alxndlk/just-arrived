@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manchester Airport",
+      "iata_code": "MAN",
+      "icao_code": "EGCC",
+      "distance_km": 17.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights at Manchester Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and some international flights at Manchester Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Manchester Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.manchesterairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:13.821327Z",
+    "generated_at": "2025-08-04T20:14:27.427739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

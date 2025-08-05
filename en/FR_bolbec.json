@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Octeville",
+      "iata_code": "LEH",
+      "icao_code": "LFOH",
+      "distance_km": 27.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Gatien",
+      "iata_code": "DOL",
+      "icao_code": "LFRG",
+      "distance_km": 31.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of St Gatien Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to private and chartered flights."
+        }
+      ],
+      "website": "https://www.deauville.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "St Gatien Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:01.169891Z",
+    "generated_at": "2025-08-04T20:25:35.894950Z",
     "env": "development",
     "source": "justarrived-generator"
   }

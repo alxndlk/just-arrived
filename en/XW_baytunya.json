@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 26604,
   "welcome_message_title": "Welcome to Baytunya",
-  "welcome_message_body": null,
+  "welcome_message_body": "\"Welcome to Baytunya, where the blend of ancient history and modern culture creates a truly unique charm. Get ready to immerse yourself in our vibrant markets, rich cuisine, and breathtaking landscapes. Enjoy your stay and make unforgettable memories exploring our beautiful city.\"",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "baytunya",
@@ -39,8 +39,60 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 30.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main and largest terminal at Ben Gurion International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "TLV Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration and have time limits."
+      }
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 42.9,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sde Dov Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Sde Dov Airport provides exclusive services for high-profile travelers."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sde-dov-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:07.499377Z",
+    "generated_at": "2025-08-04T18:45:47.912295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

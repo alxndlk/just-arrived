@@ -48,8 +48,114 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 14.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland Airport houses all domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The south terminal at Portland Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.hillsboroairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "WiFi is available throughout the airport with no time or data limit."
+      }
+    },
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 17.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland International Airport houses the ticketing counters, baggage claim, and a variety of shops and restaurants."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves domestic flights and includes a variety of shops, restaurants, and a Delta Sky Club lounge."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves both domestic and international flights and includes a variety of shops, restaurants, and a United Club lounge."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C primarily serves domestic flights and includes a variety of shops, restaurants, and a Alaska Airlines Board Room lounge."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 4 hours per day."
+      }
+    },
+    {
+      "airport_name": "Troutdale",
+      "iata_code": "TTD",
+      "icao_code": "KTTD",
+      "distance_km": 42.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Troutdale Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Troutdale Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.troutdaleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Troutdale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Mal",
+      "iata_code": "MMV",
+      "icao_code": "KMMV",
+      "distance_km": 46.7,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mal Airport serves domestic flights within Papua New Guinea."
+        }
+      ],
+      "website": "https://www.papuanewguinea.travel/airports/mal",
+      "wifi": {
+        "available": true,
+        "network_name": "Mal Airport WiFi",
+        "note": "WiFi is available throughout the airport, but the signal may be weak in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:51.876615Z",
+    "generated_at": "2025-08-04T18:56:50.118351Z",
     "env": "development",
     "source": "justarrived-generator"
   }

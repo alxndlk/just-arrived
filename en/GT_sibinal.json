@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tapachula International",
+      "iata_code": "TAP",
+      "icao_code": "MMTP",
+      "distance_km": 33.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/tapachula.html",
+      "wifi": {
+        "available": true,
+        "network_name": "TAP Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Coatepeque Airport",
+      "iata_code": "CTF",
+      "icao_code": "MGCT",
+      "distance_km": 43.3,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Coatepeque Airport is a small but modern building with basic amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Coatepeque Airport is a separate building dedicated to handling cargo shipments."
+        }
+      ],
+      "website": "https://www.coatepequeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Coatepeque Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. Network name and password can be found on signs throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:50.442713Z",
+    "generated_at": "2025-08-04T19:01:48.615900Z",
     "env": "development",
     "source": "justarrived-generator"
   }

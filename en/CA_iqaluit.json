@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Al Asad Air Base",
+      "iata_code": "IQA",
+      "icao_code": "CYFB",
+      "distance_km": 1.6,
+      "gmt": "3",
+      "country": "Iraq",
+      "timezone": "Asia/Baghdad",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Iqaluit",
+      "iata_code": "YFB",
+      "icao_code": "CYFB",
+      "distance_km": 1.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Iqaluit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Iqaluit Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Iqaluit Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.iqaluitairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YFB Airport Wi-Fi",
+        "note": "Complimentary Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:11.136519Z",
+    "generated_at": "2025-08-04T20:34:29.379323Z",
     "env": "development",
     "source": "justarrived-generator"
   }

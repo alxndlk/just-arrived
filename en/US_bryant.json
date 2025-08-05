@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adams Field Airport",
+      "iata_code": "LIT",
+      "icao_code": "KLIT",
+      "distance_km": 27.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Adams Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Adams Field Airport serves smaller airlines and commuter flights."
+        }
+      ],
+      "website": "https://www.clintonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LIT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Little Rock AFB",
+      "iata_code": "LRF",
+      "icao_code": "KLRF",
+      "distance_km": 45.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Little Rock AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Little Rock AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.littlerock.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRAFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:17.168343Z",
+    "generated_at": "2025-08-04T18:53:44.564100Z",
     "env": "development",
     "source": "justarrived-generator"
   }

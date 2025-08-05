@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sant Egidio",
+      "iata_code": "PEG",
+      "icao_code": "LIRZ",
+      "distance_km": 35.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosantegidio.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantEgidioAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:57.102153Z",
+    "generated_at": "2025-08-04T19:09:39.191077Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shirahama",
+      "iata_code": "SHM",
+      "icao_code": "RJBD",
+      "distance_km": 44.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shirahama Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.shirahamaairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "SHM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 45.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for international flights."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi for up to 3 hours by registering with their email address or social media account."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:17.535581Z",
+    "generated_at": "2025-08-04T19:21:49.107794Z",
     "env": "development",
     "source": "justarrived-generator"
   }

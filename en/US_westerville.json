@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ohio State University",
+      "iata_code": "OSU",
+      "icao_code": "KOSU",
+      "distance_km": 13.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Port Columbus International",
+      "iata_code": "CMH",
+      "icao_code": "KCMH",
+      "distance_km": 14.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Rickenbacker",
+      "iata_code": "LCK",
+      "icao_code": "KLCK",
+      "distance_km": 34.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rickenbacker Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rickenbacker Airport handles a large volume of freight and logistics operations."
+        }
+      ],
+      "website": "https://flycolumbus.com/rickenbacker-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Rickenbacker Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:29.867785Z",
+    "generated_at": "2025-08-04T20:06:26.622375Z",
     "env": "development",
     "source": "justarrived-generator"
   }

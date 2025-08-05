@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhuhai Airport",
+      "iata_code": "ZUH",
+      "icao_code": "ZGUH",
+      "distance_km": 14.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.zhuhai-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZHUHAI-AIRPORT-WIFI",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Macau International",
+      "iata_code": "MFM",
+      "icao_code": "VMMC",
+      "distance_km": 37.4,
+      "gmt": "8",
+      "country": "Macao",
+      "timezone": "Asia/Macau",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:40.424413Z",
+    "generated_at": "2025-08-04T20:06:32.031051Z",
     "env": "development",
     "source": "justarrived-generator"
   }

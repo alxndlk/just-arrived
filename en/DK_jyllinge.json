@@ -49,8 +49,60 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roskilde Airport",
+      "iata_code": "RKE",
+      "icao_code": "EKRK",
+      "distance_km": 19.5,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RKE Airport Wifi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 36.5,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal building for domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:20.756712Z",
+    "generated_at": "2025-08-04T19:23:41.427823Z",
     "env": "development",
     "source": "justarrived-generator"
   }

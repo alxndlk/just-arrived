@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Govardhanpur",
+      "iata_code": "JGA",
+      "icao_code": "VAJM",
+      "distance_km": 43.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.govardhanpurairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Govardhanpur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Civil",
+      "iata_code": "RAJ",
+      "icao_code": "VARK",
+      "distance_km": 47.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.airportauthorityofindia.com/airports/rajasthan/rajasthan-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RAJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:10.483795Z",
+    "generated_at": "2025-08-04T18:46:46.596942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

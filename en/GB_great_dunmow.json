@@ -48,8 +48,109 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stansted",
+      "iata_code": "STN",
+      "icao_code": "EGSS",
+      "distance_km": 7.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Wethersfield Airport",
+      "iata_code": "WXF",
+      "icao_code": "EGVT",
+      "distance_km": 15.0,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cambridge",
+      "iata_code": "CBG",
+      "icao_code": "EGSC",
+      "distance_km": 38.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cambridge Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://cambridgeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cambridge Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Southend",
+      "iata_code": "SEN",
+      "icao_code": "EGMC",
+      "distance_km": 40.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Southend Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal caters to private and executive jets, offering a more exclusive and personalized experience."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Southend Airport."
+        }
+      ],
+      "website": "https://www.southendairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Southend Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, simply connect to the designated network and follow the prompts to access."
+      }
+    },
+    {
+      "airport_name": "London City Airport",
+      "iata_code": "LCY",
+      "icao_code": "EGLC",
+      "distance_km": 46.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at London City Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "A separate terminal for private jet passengers, offering luxury amenities and services."
+        }
+      ],
+      "website": "https://www.londoncityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LCY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:47.388443Z",
+    "generated_at": "2025-08-04T20:28:25.538696Z",
     "env": "development",
     "source": "justarrived-generator"
   }

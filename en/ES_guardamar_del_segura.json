@@ -51,8 +51,47 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alicante El Altet",
+      "iata_code": "ALC",
+      "icao_code": "LEAL",
+      "distance_km": 23.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "San Javier",
+      "iata_code": "MJV",
+      "icao_code": "LELC",
+      "distance_km": 37.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for budget airlines and regional flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/san-javier-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SanJavierAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:02.261410Z",
+    "generated_at": "2025-08-04T20:16:34.283294Z",
     "env": "development",
     "source": "justarrived-generator"
   }

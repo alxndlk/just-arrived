@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tajima",
+      "iata_code": "TJH",
+      "icao_code": "RJBT",
+      "distance_km": 19.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tajima Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tajima Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tajima-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tajima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Tottori",
+      "iata_code": "TTJ",
+      "icao_code": "RJOR",
+      "distance_km": 43.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tottori Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tottori-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tottori Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:14.779223Z",
+    "generated_at": "2025-08-04T19:03:47.491196Z",
     "env": "development",
     "source": "justarrived-generator"
   }

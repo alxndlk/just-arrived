@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nizhniy Novgorod",
+      "iata_code": "GOJ",
+      "icao_code": "UWGG",
+      "distance_km": 32.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.nnairport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NNAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:09.015282Z",
+    "generated_at": "2025-08-04T18:25:42.540911Z",
     "env": "development",
     "source": "justarrived-generator"
   }

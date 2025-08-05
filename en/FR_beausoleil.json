@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 1.2,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fontvieille Heliport Airport serves as the primary hub for all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fontvieille Heliport Airport caters to private and chartered flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.monaco-helicopters.com/en/our-services/heliport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fontvieille Heliport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Cote D'azur International Airport",
+      "iata_code": "NCE",
+      "icao_code": "LFMN",
+      "distance_km": 19.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.nice.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "NCE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mandelieu Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mandelieu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:41.694767Z",
+    "generated_at": "2025-08-04T19:15:52.483818Z",
     "env": "development",
     "source": "justarrived-generator"
   }

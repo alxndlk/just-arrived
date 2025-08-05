@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mosnov",
+      "iata_code": "OSR",
+      "icao_code": "LKMT",
+      "distance_km": 40.7,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mosnov Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.airport-ostrava.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSR-Free-WiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kunovice",
+      "iata_code": "UHE",
+      "icao_code": "LKKU",
+      "distance_km": 49.9,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kunovice-airport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kunovice Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:01.451901Z",
+    "generated_at": "2025-08-04T18:47:41.018581Z",
     "env": "development",
     "source": "justarrived-generator"
   }

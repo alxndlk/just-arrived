@@ -50,8 +50,60 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Douglas Municipal",
+      "iata_code": "DGL",
+      "icao_code": "KDGL",
+      "distance_km": 3.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Douglas Municipal Airport serves all domestic flights and provides various amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Douglas Municipal Airport handles all freight and cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.douglasmunicipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Douglas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Bisbee-Douglas International",
+      "iata_code": "DUG",
+      "icao_code": "KDUG",
+      "distance_km": 16.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bisbee-Douglas International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bisbee-Douglas International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.bisbeedouglasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bisbee-Douglas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:34.045886Z",
+    "generated_at": "2025-08-04T18:20:42.934591Z",
     "env": "development",
     "source": "justarrived-generator"
   }

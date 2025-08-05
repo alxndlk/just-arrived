@@ -49,8 +49,56 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sindal",
+      "iata_code": "CNL",
+      "icao_code": "EKSN",
+      "distance_km": 13.7,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sindal Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.sindalairport.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sindal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aalborg",
+      "iata_code": "AAL",
+      "icao_code": "EKYT",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for mainly domestic flights."
+        }
+      ],
+      "website": "https://www.aal.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:06.918408Z",
+    "generated_at": "2025-08-04T18:46:43.119260Z",
     "env": "development",
     "source": "justarrived-generator"
   }

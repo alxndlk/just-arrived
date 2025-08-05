@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "San Luis",
+      "iata_code": "IPI",
+      "icao_code": "SKIP",
+      "distance_km": 8.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at San Luis Airport, where all domestic and international flights are serviced."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo shipments at San Luis Airport."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/servicios-a-la-navegacion-aerea/ais/Paginas/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "SanLuisAirportWifi",
+        "note": "Passengers can connect to the WiFi network for free by requesting a code at the information desk."
+      }
+    },
+    {
+      "airport_name": "Tulcan",
+      "iata_code": "TUA",
+      "icao_code": "SETU",
+      "distance_km": 8.7,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:26.500598Z",
+    "generated_at": "2025-08-04T19:57:35.493640Z",
     "env": "development",
     "source": "justarrived-generator"
   }

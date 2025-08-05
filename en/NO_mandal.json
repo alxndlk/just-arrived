@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kjevik",
+      "iata_code": "KRS",
+      "icao_code": "ENCN",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kjevik Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kjevik Airport is responsible for handling all air freight operations."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/kristiansand-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Kjevik Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:09.952137Z",
+    "generated_at": "2025-08-04T19:21:45.346770Z",
     "env": "development",
     "source": "justarrived-generator"
   }

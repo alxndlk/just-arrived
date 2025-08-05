@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Clermont/Ferrand Auvergne International (Aulnat)",
+      "iata_code": "CFE",
+      "icao_code": "LFLC",
+      "distance_km": 31.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.clermont-aeroport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CFE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charmeil",
+      "iata_code": "VHY",
+      "icao_code": "LFLV",
+      "distance_km": 35.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Renaison",
+      "iata_code": "RNE",
+      "icao_code": "LFLO",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Renaison Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Renaison Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.renaisonairport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Renaison Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:36.340918Z",
+    "generated_at": "2025-08-04T20:25:34.209350Z",
     "env": "development",
     "source": "justarrived-generator"
   }

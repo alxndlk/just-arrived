@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Macedonia International",
+      "iata_code": "SKG",
+      "icao_code": "LGTS",
+      "distance_km": 5.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.skg-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "SKG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:31.908611Z",
+    "generated_at": "2025-08-04T18:27:49.831943Z",
     "env": "development",
     "source": "justarrived-generator"
   }

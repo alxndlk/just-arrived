@@ -48,8 +48,92 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 3.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kenosha Regional Airport",
+      "iata_code": "ENW",
+      "icao_code": "KENW",
+      "distance_km": 24.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kenosha Regional Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kenosha Regional Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.kenoshaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kenosha Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pal-Waukee",
+      "iata_code": "PWK",
+      "icao_code": "KPWK",
+      "distance_km": 28.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 43.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at O'hare International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at O'hare International Airport, primarily serving domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The second largest terminal at O'hare International Airport, serving primarily international flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The international terminal at O'hare International Airport, serving flights from over 60 international airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/ohare/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "ORD-WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:50.205535Z",
+    "generated_at": "2025-08-04T20:00:26.182966Z",
     "env": "development",
     "source": "justarrived-generator"
   }

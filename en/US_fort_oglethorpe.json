@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lovell Field",
+      "iata_code": "CHA",
+      "icao_code": "KCHA",
+      "distance_km": 12.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lovell Field Airport houses all check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A serves as the departure and arrival gates for domestic flights at Lovell Field Airport."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves as the departure and arrival gates for international flights at Lovell Field Airport."
+        }
+      ],
+      "website": "https://www.chattairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CHA Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the network CHA Airport WiFi."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "DNN",
+      "icao_code": "KDNN",
+      "distance_km": 31.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo shipments at Municipal Airport."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:41.836867Z",
+    "generated_at": "2025-08-04T19:25:41.528202Z",
     "env": "development",
     "source": "justarrived-generator"
   }

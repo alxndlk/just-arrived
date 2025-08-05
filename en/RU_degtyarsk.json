@@ -51,8 +51,39 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Koltsovo International",
+      "iata_code": "SVX",
+      "icao_code": "USSS",
+      "distance_km": 42.3,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Primarily used for domestic flights by Aeroflot and S7 Airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Dedicated to international flights for major airlines such as Lufthansa and Turkish Airlines."
+        }
+      ],
+      "website": "https://www.koltsovo.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Koltsovo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:56.189661Z",
+    "generated_at": "2025-08-04T19:07:00.282078Z",
     "env": "development",
     "source": "justarrived-generator"
   }

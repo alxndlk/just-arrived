@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Laoag International Airport",
+      "iata_code": "LAO",
+      "icao_code": "RPLI",
+      "distance_km": 14.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal used exclusively for international flights."
+        }
+      ],
+      "website": "https://www.laoagairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Laoag Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:29.951952Z",
+    "generated_at": "2025-08-04T18:27:48.802859Z",
     "env": "development",
     "source": "justarrived-generator"
   }

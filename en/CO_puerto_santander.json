@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Fria",
+      "iata_code": "LFR",
+      "icao_code": "SVLF",
+      "distance_km": 20.2,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Fria Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at La Fria Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.lafriaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LFR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Camilo Dazo",
+      "iata_code": "CUC",
+      "icao_code": "SKCC",
+      "distance_km": 49.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Camilo Dazo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.aeropuertocucuta.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CamiloDazoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:20.862401Z",
+    "generated_at": "2025-08-04T19:25:54.921876Z",
     "env": "development",
     "source": "justarrived-generator"
   }

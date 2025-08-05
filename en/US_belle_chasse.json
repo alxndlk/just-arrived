@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 20.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport serves domestic and international flights, with a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For private and charter flights, the private terminal at Lakefront Airport offers a luxurious and exclusive experience for travelers."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 28.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights operated by Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves domestic flights operated by Southwest Airlines and Alaska Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is dedicated to international flights and is used by various airlines."
+        }
+      ],
+      "website": "https://flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:15.639465Z",
+    "generated_at": "2025-08-04T19:21:48.834600Z",
     "env": "development",
     "source": "justarrived-generator"
   }

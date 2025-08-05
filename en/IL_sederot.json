@@ -50,8 +50,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beer Sheba",
+      "iata_code": "BEV",
+      "icao_code": "LLBS",
+      "distance_km": 36.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/beer-sheva-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:37.818616Z",
+    "generated_at": "2025-08-04T18:50:39.452394Z",
     "env": "development",
     "source": "justarrived-generator"
   }

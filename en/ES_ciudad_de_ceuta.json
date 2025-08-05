@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "North Front",
+      "iata_code": "GIB",
+      "icao_code": "LXGB",
+      "distance_km": 29.7,
+      "gmt": "1",
+      "country": "Gibraltar",
+      "timezone": "Europe/Gibraltar",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at North Front Airport serves both international and domestic flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers exclusive services for private and business jet passengers."
+        }
+      ],
+      "website": "https://www.gibraltarairport.gi/",
+      "wifi": {
+        "available": true,
+        "network_name": "GIB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sania Ramel",
+      "iata_code": "TTU",
+      "icao_code": "GMTN",
+      "distance_km": 33.9,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Airports/Tangier-Ibn-Battouta-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Sania Ramel Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:41.080219Z",
+    "generated_at": "2025-08-04T20:00:30.149889Z",
     "env": "development",
     "source": "justarrived-generator"
   }

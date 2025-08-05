@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "AVO",
+      "icao_code": "KAVO",
+      "distance_km": 1.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sebring Regional Airport",
+      "iata_code": "SEF",
+      "icao_code": "KSEF",
+      "distance_km": 13.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sebring Regional Airport offers services for both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sebring Regional Airport caters to private and charter flights, providing a more personalized and exclusive experience."
+        }
+      ],
+      "website": "https://www.flysebring.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SEF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bartow",
+      "iata_code": "BOW",
+      "icao_code": "KBOW",
+      "distance_km": 47.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bartow Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private flights and offers a more luxurious and personalized experience."
+        }
+      ],
+      "website": "https://www.bartowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bartow Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free by selecting 'Bartow Airport WiFi' from the available networks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:19.825937Z",
+    "generated_at": "2025-08-04T20:30:27.982228Z",
     "env": "development",
     "source": "justarrived-generator"
   }

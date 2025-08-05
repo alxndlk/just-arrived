@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rechlin",
+      "iata_code": "REB",
+      "icao_code": "EDAX",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Neubrandenburg",
+      "iata_code": "FNB",
+      "icao_code": "ETNU",
+      "distance_km": 31.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Neubrandenburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.neubrandenburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Neubrandenburg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:50.083399Z",
+    "generated_at": "2025-08-04T20:14:35.049133Z",
     "env": "development",
     "source": "justarrived-generator"
   }

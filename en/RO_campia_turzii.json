@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cluj Napoca International Airport",
+      "iata_code": "CLJ",
+      "icao_code": "LRCL",
+      "distance_km": 29.8,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cluj Napoca International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.clujairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Transilvania",
+      "iata_code": "TGM",
+      "icao_code": "LRTM",
+      "distance_km": 50.0,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Transilvania Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Transilvania Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.transilvaniaairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Transilvania Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport. A password is required, which can be obtained from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:25.411188Z",
+    "generated_at": "2025-08-04T18:54:42.937609Z",
     "env": "development",
     "source": "justarrived-generator"
   }

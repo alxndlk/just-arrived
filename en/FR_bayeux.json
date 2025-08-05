@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Carpiquet",
+      "iata_code": "CFR",
+      "icao_code": "LFRK",
+      "distance_km": 20.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.caen.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Carpiquet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:11.752947Z",
+    "generated_at": "2025-08-04T19:14:42.174992Z",
     "env": "development",
     "source": "justarrived-generator"
   }

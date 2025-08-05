@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Giebelstadt Army Air Field",
+      "iata_code": "GHF",
+      "icao_code": "ETEU",
+      "distance_km": 34.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Giebelstadt Army Air Field Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for military and private flights."
+        }
+      ],
+      "website": "https://www.bundeswehr.de/de/organisation/streitkraeftebasis/organisation/streitkraeftebasis/luftwaffe/luftwaffentruppenkommando/luftwaffenfliegerregiment-51/standorte/giebelstadt",
+      "wifi": {
+        "available": true,
+        "network_name": "GHF Airport WiFi",
+        "note": "Free WiFi is available throughout the terminals."
+      }
+    },
+    {
+      "airport_name": "Kitzingen",
+      "iata_code": "KZG",
+      "icao_code": "ETIN",
+      "distance_km": 41.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitzingen Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kitzingen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "KZG Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:26.223339Z",
+    "generated_at": "2025-08-04T20:25:33.388892Z",
     "env": "development",
     "source": "justarrived-generator"
   }

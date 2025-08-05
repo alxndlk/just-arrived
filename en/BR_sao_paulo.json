@@ -50,8 +50,64 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Congonhas International Airport",
+      "iata_code": "CGH",
+      "icao_code": "SBSP",
+      "distance_km": 8.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Congonhas International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Congonhas International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportoguarulhos.net/en/congonhas-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Congonhas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroporto Internacional Guarulhos",
+      "iata_code": "GRU",
+      "icao_code": "SBGR",
+      "distance_km": 20.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The largest and busiest terminal, used for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and most modern terminal, used for international flights."
+        }
+      ],
+      "website": "https://www.gru.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRU Airport Free Wifi",
+        "note": "The wifi is free for the first 1 hour, after which a fee may apply."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:31:21.107366Z",
+    "generated_at": "2025-08-04T18:03:42.633003Z",
     "env": "development",
     "source": "justarrived-generator"
   }

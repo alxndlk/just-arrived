@@ -51,8 +51,59 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gostomel Airport",
+      "iata_code": "GML",
+      "icao_code": "UKKM",
+      "distance_km": 10.5,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 19.1,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boryspil (Borispol)",
+      "iata_code": "KBP",
+      "icao_code": "UKBB",
+      "distance_km": 49.7,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal D",
+          "description": "The main terminal at Boryspil Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "A smaller terminal mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://kbp.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boryspil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:36.723235Z",
+    "generated_at": "2025-08-04T20:01:33.912805Z",
     "env": "development",
     "source": "justarrived-generator"
   }

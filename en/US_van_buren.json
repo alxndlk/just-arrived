@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fort Smith Regional Airport",
+      "iata_code": "FSM",
+      "icao_code": "KFSM",
+      "distance_km": 11.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Smith Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fort Smith Regional Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.fortsmithairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FSM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:05.532808Z",
+    "generated_at": "2025-08-04T20:21:30.211844Z",
     "env": "development",
     "source": "justarrived-generator"
   }

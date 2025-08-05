@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Goa International",
+      "iata_code": "GOI",
+      "icao_code": "VAGO",
+      "distance_km": 23.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves only domestic flights."
+        }
+      ],
+      "website": "https://www.goaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Goa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:04.748989Z",
+    "generated_at": "2025-08-04T19:07:50.206858Z",
     "env": "development",
     "source": "justarrived-generator"
   }

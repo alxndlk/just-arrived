@@ -49,8 +49,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maribor International Airport",
+      "iata_code": "MBX",
+      "icao_code": "LJMB",
+      "distance_km": 33.2,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Maribor International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations at Maribor International Airport."
+        }
+      ],
+      "website": "https://www.maribor-airport.si/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maribor Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for 2 hours with a valid email address."
+      }
+    },
+    {
+      "airport_name": "Thalerhof",
+      "iata_code": "GRZ",
+      "icao_code": "LOWG",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Thalerhof Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and chartered flights."
+        }
+      ],
+      "website": "https://www.flughafen-graz.at/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Thalerhof Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require a login."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:31.460677Z",
+    "generated_at": "2025-08-04T19:37:58.964528Z",
     "env": "development",
     "source": "justarrived-generator"
   }

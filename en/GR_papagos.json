@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Athens International Airport \"Eleftherios Venizelos\"",
+      "iata_code": "ATH",
+      "icao_code": "LGAV",
+      "distance_km": 14.7,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Athens International Airport is the primary hub for all domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Athens International Airport serves as an extension to the main terminal, providing additional gates and services for passengers."
+        }
+      ],
+      "website": "https://www.aia.gr/en/passenger-guide",
+      "wifi": {
+        "available": true,
+        "network_name": "ATH Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network by selecting 'ATH Free Wi-Fi' from the list of available networks and following the prompts to connect."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:10.856753Z",
+    "generated_at": "2025-08-04T19:10:39.635093Z",
     "env": "development",
     "source": "justarrived-generator"
   }

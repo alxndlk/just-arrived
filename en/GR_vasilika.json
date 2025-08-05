@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Macedonia International",
+      "iata_code": "SKG",
+      "icao_code": "LGTS",
+      "distance_km": 14.6,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Macedonia International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Macedonia International Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.skg-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "SKG Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the 'SKG Airport WiFi' network and following the prompts."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:22.826573Z",
+    "generated_at": "2025-08-04T19:29:54.980185Z",
     "env": "development",
     "source": "justarrived-generator"
   }

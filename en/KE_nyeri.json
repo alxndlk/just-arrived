@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nyeri",
+      "iata_code": "NYE",
+      "icao_code": "HKNI",
+      "distance_km": 0.0,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nyeri Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.kenya-airports.com/airports/nyeri-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "NyeriAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nanyuki",
+      "iata_code": "NYK",
+      "icao_code": "HKNY",
+      "distance_km": 49.9,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nanyuki Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Nanyuki Airport is responsible for handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.nanyukiairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanyuki Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:38.986877Z",
+    "generated_at": "2025-08-04T18:19:45.456754Z",
     "env": "development",
     "source": "justarrived-generator"
   }

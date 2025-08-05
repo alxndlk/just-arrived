@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cibao International Airport",
+      "iata_code": "STI",
+      "icao_code": "MDST",
+      "distance_km": 33.1,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "La Union",
+      "iata_code": "POP",
+      "icao_code": "MDPP",
+      "distance_km": 38.8,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Union Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "A separate terminal for VIP and private flights, offering exclusive services and amenities."
+        }
+      ],
+      "website": "https://www.aeropuertopop.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "La Union Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:15.102550Z",
+    "generated_at": "2025-08-04T20:05:27.117425Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 28591,
   "welcome_message_title": "Welcome to Bethlehem",
-  "welcome_message_body": null,
+  "welcome_message_body": "\"Welcome to Bethlehem, a charming city known for its rich history and vibrant culture. We invite you to explore and immerse yourself in its beauty and warmth while enjoying your stay here in the West Bank.\"",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "bethlehem",
@@ -39,8 +39,35 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 45.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic and low-cost flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main and largest terminal at Ben Gurion International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "BGIA-WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be found on signs throughout the terminals."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:38.639269Z",
+    "generated_at": "2025-08-04T18:43:42.227441Z",
     "env": "development",
     "source": "justarrived-generator"
   }

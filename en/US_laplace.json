@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 23.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a domestic terminal at Louis Armstrong New Orléans International Airport, serving airlines such as American, Delta, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a domestic terminal at Louis Armstrong New Orléans International Airport, serving airlines such as Southwest and JetBlue."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is an international terminal at Louis Armstrong New Orléans International Airport, serving airlines such as Air Canada, British Airways, and Lufthansa."
+        }
+      ],
+      "website": "https://www.flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free to use."
+      }
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 43.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lakefront Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:48.421638Z",
+    "generated_at": "2025-08-04T18:43:44.059301Z",
     "env": "development",
     "source": "justarrived-generator"
   }

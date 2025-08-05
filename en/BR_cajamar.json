@@ -50,8 +50,101 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Comte. Rolim Adolfo Amaro State Airport",
+      "iata_code": "QDV",
+      "icao_code": "SBJD",
+      "distance_km": 20.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Congonhas International Airport",
+      "iata_code": "CGH",
+      "icao_code": "SBSP",
+      "distance_km": 37.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportodecongonhas.net.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Congonhas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroporto Internacional Guarulhos",
+      "iata_code": "GRU",
+      "icao_code": "SBGR",
+      "distance_km": 41.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Aeroporto Internacional Guarulhos, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and most modern terminal, exclusively used for international flights."
+        }
+      ],
+      "website": "https://www.gru.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRU Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Viracopos (Campinas International)",
+      "iata_code": "VCP",
+      "icao_code": "SBKP",
+      "distance_km": 47.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Viracopos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Viracopos Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.viracopos.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCP Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:57.767888Z",
+    "generated_at": "2025-08-04T20:01:27.296348Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beijing Capital International",
+      "iata_code": "PEK",
+      "icao_code": "ZBAA",
+      "distance_km": 28.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Beijing Capital International Airport, serving most domestic and some international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Beijing Capital International Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Beijing Capital International Airport, serving mostly international flights."
+        }
+      ],
+      "website": "https://www.bcia.com.cn/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BCIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:38.400361Z",
+    "generated_at": "2025-08-04T18:49:43.929992Z",
     "env": "development",
     "source": "justarrived-generator"
   }

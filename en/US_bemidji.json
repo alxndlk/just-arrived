@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bemidji",
+      "iata_code": "BJI",
+      "icao_code": "KBJI",
+      "distance_km": 5.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bemidji Airport serves all domestic flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Bemidji Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.bemidjiairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "BJI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:37.346136Z",
+    "generated_at": "2025-08-04T19:05:47.870924Z",
     "env": "development",
     "source": "justarrived-generator"
   }

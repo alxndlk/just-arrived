@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Son Sant Joan Airport",
+      "iata_code": "PMI",
+      "icao_code": "LEPA",
+      "distance_km": 44.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/palma-mallorca-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "PMI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:25.116146Z",
+    "generated_at": "2025-08-04T19:00:41.560118Z",
     "env": "development",
     "source": "justarrived-generator"
   }

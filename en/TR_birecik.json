@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gaziantep",
+      "iata_code": "GZT",
+      "icao_code": "LTAJ",
+      "distance_km": 45.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Gaziantep Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Gaziantep Airport."
+        }
+      ],
+      "website": "https://www.gaziantepairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GZT Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting 'GZT Airport WiFi' and accepting the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:14.844516Z",
+    "generated_at": "2025-08-04T18:19:57.144519Z",
     "env": "development",
     "source": "justarrived-generator"
   }

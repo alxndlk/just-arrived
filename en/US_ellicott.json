@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jamestown",
+      "iata_code": "JHW",
+      "icao_code": "KJHW",
+      "distance_km": 2.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jamestown Airport serves all domestic flights and houses various amenities for travelers."
+        }
+      ],
+      "website": "https://www.jamestownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jamestown Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Dunkirk",
+      "iata_code": "DKK",
+      "icao_code": "KDKK",
+      "distance_km": 39.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dunkirk Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Dunkirk Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.dunkirkairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Dunkirk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:25.286013Z",
+    "generated_at": "2025-08-04T19:35:44.274856Z",
     "env": "development",
     "source": "justarrived-generator"
   }

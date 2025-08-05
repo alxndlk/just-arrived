@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Manchester Airport",
+      "iata_code": "MAN",
+      "icao_code": "EGCC",
+      "distance_km": 6.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Liverpool John Lennon",
+      "iata_code": "LPL",
+      "icao_code": "EGGP",
+      "distance_km": 32.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chester",
+      "iata_code": "CEG",
+      "icao_code": "EGNR",
+      "distance_km": 43.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chester Airport offers a variety of amenities for travelers, including shops, restaurants, and lounges."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Chester Airport primarily serves international flights and offers duty-free shopping and currency exchange services."
+        }
+      ],
+      "website": "https://www.chesterairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chester Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:54.873900Z",
+    "generated_at": "2025-08-04T20:31:37.625433Z",
     "env": "development",
     "source": "justarrived-generator"
   }

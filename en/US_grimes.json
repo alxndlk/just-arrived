@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Des Moines International",
+      "iata_code": "DSM",
+      "icao_code": "KDSM",
+      "distance_km": 20.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Perry Municipal",
+      "iata_code": "PRO",
+      "icao_code": "KPRO",
+      "distance_km": 31.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ames",
+      "iata_code": "AMW",
+      "icao_code": "KAMW",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ames Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Ames Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.flyames.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ames Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boone",
+      "iata_code": "BNW",
+      "icao_code": "KBNW",
+      "distance_km": 43.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:38.297369Z",
+    "generated_at": "2025-08-04T20:19:29.567309Z",
     "env": "development",
     "source": "justarrived-generator"
   }

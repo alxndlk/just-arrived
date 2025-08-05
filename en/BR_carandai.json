@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sao Joao Del Rei",
+      "iata_code": "JDR",
+      "icao_code": "SNJR",
+      "distance_km": 46.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosantosdumont.net/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "JDR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:27.719814Z",
+    "generated_at": "2025-08-04T18:49:42.030042Z",
     "env": "development",
     "source": "justarrived-generator"
   }

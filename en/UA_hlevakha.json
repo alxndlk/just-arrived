@@ -51,8 +51,80 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 19.3,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://iev.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zhulyany Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gostomel Airport",
+      "iata_code": "GML",
+      "icao_code": "UKKM",
+      "distance_km": 38.6,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boryspil (Borispol)",
+      "iata_code": "KBP",
+      "icao_code": "UKBB",
+      "distance_km": 43.9,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal D",
+          "description": "The largest and newest terminal, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal F",
+          "description": "The newest terminal, primarily serving low-cost and regional flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The oldest terminal, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The main terminal for international flights, with a mix of airlines and destinations."
+        }
+      ],
+      "website": "https://kbp.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boryspil Airport WiFi",
+        "note": "Free and unlimited access throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:29.713961Z",
+    "generated_at": "2025-08-04T20:33:29.601976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

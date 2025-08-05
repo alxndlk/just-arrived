@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "New River Valley",
+      "iata_code": "PSK",
+      "icao_code": "KPSK",
+      "distance_km": 49.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at New River Valley Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at New River Valley Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.flypsk.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PSK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:55.040438Z",
+    "generated_at": "2025-08-04T19:30:39.887532Z",
     "env": "development",
     "source": "justarrived-generator"
   }

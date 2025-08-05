@@ -48,8 +48,104 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 9.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pal-Waukee",
+      "iata_code": "PWK",
+      "icao_code": "KPWK",
+      "distance_km": 12.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 27.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights operated by Southwest Airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights operated by Volaris and domestic flights operated by Delta Air Lines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves domestic flights operated by Frontier Airlines and Spirit Airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "This terminal serves domestic flights operated by American Airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by selecting the 'MDW Free WiFi' network."
+      }
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 37.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dupage County",
+      "iata_code": "DPA",
+      "icao_code": "KDPA",
+      "distance_km": 38.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dupage County Airport houses all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Dupage County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.dupageairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DPA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:47.877436Z",
+    "generated_at": "2025-08-04T20:25:30.116577Z",
     "env": "development",
     "source": "justarrived-generator"
   }

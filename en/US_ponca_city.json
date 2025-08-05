@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ponca City",
+      "iata_code": "PNC",
+      "icao_code": "KPNC",
+      "distance_km": 2.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ponca City Airport serves domestic flights and provides basic amenities for passengers."
+        }
+      ],
+      "website": "https://www.poncacityok.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "PoncaCityAirportWiFi",
+        "note": "Passengers can connect to the airport's complimentary WiFi network while waiting for their flight."
+      }
+    },
+    {
+      "airport_name": "Arkansas City",
+      "iata_code": "WLD",
+      "icao_code": "KWLD",
+      "distance_km": 49.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arkansas City Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Arkansas City Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.arkansascityairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "ACAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:28.419056Z",
+    "generated_at": "2025-08-04T18:48:45.661173Z",
     "env": "development",
     "source": "justarrived-generator"
   }

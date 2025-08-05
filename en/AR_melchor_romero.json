@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Plata",
+      "iata_code": "LPG",
+      "icao_code": "SADL",
+      "distance_km": 9.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/la-plata",
+      "wifi": {
+        "available": true,
+        "network_name": "LPG Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 47.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal is primarily used for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.com.ar/aeropuerto-ezeiza.php",
+      "wifi": {
+        "available": true,
+        "network_name": "EZE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:42.116962Z",
+    "generated_at": "2025-08-04T18:51:02.309272Z",
     "env": "development",
     "source": "justarrived-generator"
   }

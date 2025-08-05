@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mt Pocono",
+      "iata_code": "MPO",
+      "icao_code": "KMPO",
+      "distance_km": 42.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mt Pocono Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mtpoconoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MPO Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sullivan County International",
+      "iata_code": "MSV",
+      "icao_code": "KMSV",
+      "distance_km": 43.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sullivan County International Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sullivan County International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sullivancountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sullivan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:18.144453Z",
+    "generated_at": "2025-08-04T19:14:47.505292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

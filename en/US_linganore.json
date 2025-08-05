@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frederick Municipal",
+      "iata_code": "FDK",
+      "icao_code": "KFDK",
+      "distance_km": 9.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Frederick Municipal Airport serves as the primary hub for all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Frederick Municipal Airport caters to private and corporate flights, providing a range of amenities and services for passengers."
+        }
+      ],
+      "website": "https://www.cityoffrederick.com/241/Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "FDK Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 30.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes check-in counters, security, and departure gates."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and chartered flights, providing exclusive services and amenities for passengers."
+        }
+      ],
+      "website": "https://www.montgomerycountymd.gov/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "GAI Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Wash. County Regional",
+      "iata_code": "HGR",
+      "icao_code": "KHGR",
+      "distance_km": 49.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wash. County Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wash. County Regional Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://washcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WashCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:50.020629Z",
+    "generated_at": "2025-08-04T19:13:43.089120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

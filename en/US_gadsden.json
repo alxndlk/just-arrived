@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GAD",
+      "icao_code": "KGAD",
+      "distance_km": 7.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Anniston Metropolitan",
+      "iata_code": "ANB",
+      "icao_code": "KANB",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Anniston Metropolitan Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flyanniston.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANB Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:33.994488Z",
+    "generated_at": "2025-08-04T20:07:33.266842Z",
     "env": "development",
     "source": "justarrived-generator"
   }

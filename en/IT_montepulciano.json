@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Siena",
+      "iata_code": "SAY",
+      "icao_code": "LIQS",
+      "distance_km": 46.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Siena Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Siena Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.sienaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Siena Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sant Egidio",
+      "iata_code": "PEG",
+      "icao_code": "LIRZ",
+      "distance_km": 47.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sant Egidio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private aircraft."
+        }
+      ],
+      "website": "https://www.airport.umbria.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantEgidioAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:54.553164Z",
+    "generated_at": "2025-08-04T19:12:46.896673Z",
     "env": "development",
     "source": "justarrived-generator"
   }

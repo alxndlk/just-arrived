@@ -49,8 +49,85 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Angelholm",
+      "iata_code": "AGH",
+      "icao_code": "ESDB",
+      "distance_km": 33.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Angelholm Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Angelholm Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.angelholmairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Angelholm Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ljungbyhed Airport",
+      "iata_code": "QEL",
+      "icao_code": "ESTL",
+      "distance_km": 39.3,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ljungbyhed Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.ljungbyhedairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ljungbyhed Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 44.7,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The largest and busiest terminal at Kastrup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal mainly used for low-cost and regional flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "A modern terminal serving primarily international flights, with a focus on sustainability and eco-friendliness."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH_Free_WiFi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:34.105422Z",
+    "generated_at": "2025-08-04T20:04:26.418644Z",
     "env": "development",
     "source": "justarrived-generator"
   }

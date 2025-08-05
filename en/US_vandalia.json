@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "James Cox Dayton International",
+      "iata_code": "DAY",
+      "icao_code": "KDAY",
+      "distance_km": 3.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at James Cox Dayton International Airport houses all airline check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at James Cox Dayton International Airport serves as the hub for domestic flights, with gates A1-A10."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at James Cox Dayton International Airport serves as the hub for international flights, with gates B1-B5."
+        }
+      ],
+      "website": "https://www.daytonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Dayton-Wright Brothers Airport",
+      "iata_code": "MGY",
+      "icao_code": "KMGY",
+      "distance_km": 8.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dayton-Wright Brothers Airport offers a variety of amenities and services for travelers."
+        }
+      ],
+      "website": "https://www.daytonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:48.010364Z",
+    "generated_at": "2025-08-04T19:06:50.492269Z",
     "env": "development",
     "source": "justarrived-generator"
   }

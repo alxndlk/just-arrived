@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "General Santos International",
+      "iata_code": "GES",
+      "icao_code": "RPWB",
+      "distance_km": 40.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of General Santos International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://gensantosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GES Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:37.060167Z",
+    "generated_at": "2025-08-04T18:22:58.898722Z",
     "env": "development",
     "source": "justarrived-generator"
   }

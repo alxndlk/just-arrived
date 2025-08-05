@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "NAS",
+      "iata_code": "NFL",
+      "icao_code": "KNFL",
+      "distance_km": 36.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at NAS Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at NAS Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.nasairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:45.177670Z",
+    "generated_at": "2025-08-04T18:49:46.994493Z",
     "env": "development",
     "source": "justarrived-generator"
   }

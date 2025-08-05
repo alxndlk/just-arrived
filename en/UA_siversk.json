@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Severodoneck",
+      "iata_code": "SEV",
+      "icao_code": "UKCS",
+      "distance_km": 33.4,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "http://www.severodoneckairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kramatorsk",
+      "iata_code": "KRQ",
+      "icao_code": "UKCK",
+      "distance_km": 38.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kramatorsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "http://www.kramatorskairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:21.238813Z",
+    "generated_at": "2025-08-04T19:22:45.890556Z",
     "env": "development",
     "source": "justarrived-generator"
   }

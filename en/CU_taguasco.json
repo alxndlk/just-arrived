@@ -52,8 +52,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maximo Gomez",
+      "iata_code": "AVI",
+      "icao_code": "MUCA",
+      "distance_km": 48.9,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Cuba."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.cuba-airports.com/airport/maximo-gomez-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "MaximoGomezAirportWiFi",
+        "note": "WiFi is available throughout the airport, but may have limited bandwidth."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:09.094275Z",
+    "generated_at": "2025-08-04T18:39:00.736053Z",
     "env": "development",
     "source": "justarrived-generator"
   }

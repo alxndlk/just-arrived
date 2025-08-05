@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Des Moines International",
+      "iata_code": "DSM",
+      "icao_code": "KDSM",
+      "distance_km": 20.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Des Moines International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Des Moines International Airport serves regional and commuter flights."
+        }
+      ],
+      "website": "https://www.dsmairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DSM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:55.775793Z",
+    "generated_at": "2025-08-04T20:31:33.319050Z",
     "env": "development",
     "source": "justarrived-generator"
   }

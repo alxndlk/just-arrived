@@ -48,8 +48,81 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Joplin Regional",
+      "iata_code": "JLN",
+      "icao_code": "KJLN",
+      "distance_km": 15.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Joplin Regional Airport serves all domestic flights."
+        }
+      ],
+      "website": "https://www.flyjln.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JLN Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Neosho",
+      "iata_code": "EOS",
+      "icao_code": "KEOS",
+      "distance_km": 31.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Neosho Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Neosho Airport is responsible for handling all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.neoshoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NeoshoAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network while waiting for their flights."
+      }
+    },
+    {
+      "airport_name": "Atkinson Municipal Airport",
+      "iata_code": "PTS",
+      "icao_code": "KPTS",
+      "distance_km": 48.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Atkinson Municipal Airport offers a variety of services for travelers, including check-in, baggage claim, and dining options."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For private and charter flights, the private terminal at Atkinson Municipal Airport provides a luxurious and exclusive experience for travelers."
+        }
+      ],
+      "website": "https://www.atkinsonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Atkinson Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:33.058458Z",
+    "generated_at": "2025-08-04T19:05:49.985055Z",
     "env": "development",
     "source": "justarrived-generator"
   }

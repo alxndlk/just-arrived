@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Luis Munoz Marin International",
+      "iata_code": "SJU",
+      "icao_code": "TJSJ",
+      "distance_km": 23.1,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://sju-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Isla Grande",
+      "iata_code": "SIG",
+      "icao_code": "TJIG",
+      "distance_km": 26.1,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.islagrandeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IslaGrandeAirportWiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Roosevelt NAS",
+      "iata_code": "NRR",
+      "icao_code": "TJNR",
+      "distance_km": 42.3,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and charter flights, providing exclusive services for passengers."
+        }
+      ],
+      "website": "https://www.rooseveltnasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RooseveltNAS",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:43.768785Z",
+    "generated_at": "2025-08-04T18:23:41.777698Z",
     "env": "development",
     "source": "justarrived-generator"
   }

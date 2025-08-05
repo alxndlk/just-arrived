@@ -104,8 +104,59 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Lafayette Regional",
+      "iata_code": "LFT",
+      "icao_code": "KLFT",
+      "distance_km": 3.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Acadiana Regional",
+      "iata_code": "ARA",
+      "icao_code": "KARA",
+      "distance_km": 23.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Acadiana Regional Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Acadiana Regional Airport handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://flyara.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "St Landry Parish",
+      "iata_code": "OPL",
+      "icao_code": "KOPL",
+      "distance_km": 36.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:57.448886Z",
+    "generated_at": "2025-08-04T20:11:32.788461Z",
     "env": "development",
     "source": "justarrived-generator"
   }

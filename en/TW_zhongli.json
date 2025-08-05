@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Taiwan Taoyuan International (Chiang Kai Shek International)",
+      "iata_code": "TPE",
+      "icao_code": "RCTP",
+      "distance_km": 12.4,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Taiwan Taoyuan International Airport, serving a wide range of airlines and destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal at Taiwan Taoyuan International Airport, primarily serving China Airlines and other SkyTeam alliance airlines."
+        }
+      ],
+      "website": "https://www.taoyuan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TPE-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but users must register with a valid email address to access the network."
+      }
+    },
+    {
+      "airport_name": "Taipei Songshan (Sung Shan)",
+      "iata_code": "TSA",
+      "icao_code": "RCSS",
+      "distance_km": 35.5,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.tsa.gov.tw/tsa_en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TPE-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:31.529187Z",
+    "generated_at": "2025-08-04T19:39:50.641547Z",
     "env": "development",
     "source": "justarrived-generator"
   }

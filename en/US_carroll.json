@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Carroll",
+      "iata_code": "CIN",
+      "icao_code": "KCIN",
+      "distance_km": 0.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Carroll Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Carroll Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.carrollairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Carroll Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "DNS",
+      "icao_code": "KDNS",
+      "distance_km": 40.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport is the hub for all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:08.568372Z",
+    "generated_at": "2025-08-04T19:25:52.138844Z",
     "env": "development",
     "source": "justarrived-generator"
   }

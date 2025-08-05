@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 11.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it serves international and domestic flights for Philippine Airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Ninoy Aquino International Airport, serving international and domestic flights for Cebu Pacific, PAL Express, and other airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Also known as the Domestic Terminal, it serves domestic flights for small regional airlines."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA FREE WIFI",
+        "note": "Passengers can connect to the wifi network for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 46.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baler Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Baler Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.balerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Password can be obtained at the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:40.662833Z",
+    "generated_at": "2025-08-04T18:54:51.897346Z",
     "env": "development",
     "source": "justarrived-generator"
   }

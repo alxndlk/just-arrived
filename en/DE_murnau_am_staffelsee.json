@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.oberpfaffenhofen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Innsbruck-kranebitten",
+      "iata_code": "INN",
+      "icao_code": "LOWI",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Innsbruck-kranebitten Airport handles all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Innsbruck-kranebitten Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.innsbruck-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "INN Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal, no password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:19.850264Z",
+    "generated_at": "2025-08-04T19:18:03.001449Z",
     "env": "development",
     "source": "justarrived-generator"
   }

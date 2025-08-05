@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chisholm",
+      "iata_code": "HIB",
+      "icao_code": "KHIB",
+      "distance_km": 8.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Eveleth",
+      "iata_code": "EVM",
+      "icao_code": "KEVM",
+      "distance_km": 34.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eveleth Airport handles all commercial flights and provides a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Eveleth Airport caters to private and charter flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.evelethairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eveleth Airport Wifi",
+        "note": "Free wifi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Grand Rapids",
+      "iata_code": "GPZ",
+      "icao_code": "KGPZ",
+      "distance_km": 47.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:43.091780Z",
+    "generated_at": "2025-08-04T20:18:36.854812Z",
     "env": "development",
     "source": "justarrived-generator"
   }

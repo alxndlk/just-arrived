@@ -106,8 +106,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 14.4,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sde Dov Airport, serving domestic flights within Israel."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sde Dov Airport, used for private and charter flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sdedov/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 20.9,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main international terminal at Ben Gurion International Airport, serving most airlines and destinations."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "TLV Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:21.993278Z",
+    "generated_at": "2025-08-04T18:19:45.023883Z",
     "env": "development",
     "source": "justarrived-generator"
   }

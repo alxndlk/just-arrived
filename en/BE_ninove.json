@@ -51,8 +51,64 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 33.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Brussels Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Brussels Airport, primarily used for low-cost airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal at Brussels Airport, used for international flights and equipped with modern amenities."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BRU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 2-hour time limit per session."
+      }
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 49.9,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport houses all necessary facilities for passengers, including check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Executive Terminal",
+          "description": "The executive terminal at Deurne/ Antwerp Airport caters to private and business aviation, providing luxurious amenities and services for a seamless travel experience."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the designated network and follow the prompts to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:51.509794Z",
+    "generated_at": "2025-08-04T18:34:45.749060Z",
     "env": "development",
     "source": "justarrived-generator"
   }

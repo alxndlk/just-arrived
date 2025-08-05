@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leopoldina",
+      "iata_code": "LEP",
+      "icao_code": "SNDN",
+      "distance_km": 36.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leopoldina Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Leopoldina Airport, used for domestic flights only."
+        }
+      ],
+      "website": "https://www.leopoldinaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Leopoldina Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password for access."
+      }
+    },
+    {
+      "airport_name": "Reg. da Zona da Mata",
+      "iata_code": "IZA",
+      "icao_code": "SDZY",
+      "distance_km": 47.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.izaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "IZA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:38.422973Z",
+    "generated_at": "2025-08-04T19:35:49.360089Z",
     "env": "development",
     "source": "justarrived-generator"
   }

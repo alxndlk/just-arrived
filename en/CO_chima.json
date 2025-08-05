@@ -50,8 +50,55 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tolu",
+      "iata_code": "TLU",
+      "icao_code": "SKTL",
+      "distance_km": 41.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "S. Jeronimo",
+      "iata_code": "MTR",
+      "icao_code": "SKMR",
+      "distance_km": 41.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Corozal",
+      "iata_code": "CZU",
+      "icao_code": "SKCZ",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Corozal Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/en-us/airports/corozal",
+      "wifi": {
+        "available": true,
+        "network_name": "CZU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:58.721793Z",
+    "generated_at": "2025-08-04T20:22:31.099540Z",
     "env": "development",
     "source": "justarrived-generator"
   }

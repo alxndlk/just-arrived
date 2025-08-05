@@ -49,8 +49,47 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roskilde Airport",
+      "iata_code": "RKE",
+      "icao_code": "EKRK",
+      "distance_km": 14.1,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 34.7,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The largest and busiest terminal at Kastrup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal primarily used for international flights, with a large shopping area and several restaurants."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "No password required, but users must accept terms and conditions before connecting."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:32.684899Z",
+    "generated_at": "2025-08-04T20:06:26.519597Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,89 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 5.0,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights within Argentina."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights to and from Argentina."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/en/palomar-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroparque Jorge Newbery",
+      "iata_code": "AEP",
+      "icao_code": "SABE",
+      "distance_km": 16.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Aeroparque Jorge Newbery Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Aeroparque Jorge Newbery Airport, mainly serving domestic flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeroparque-jorge-newbery",
+      "wifi": {
+        "available": true,
+        "network_name": "Aeropuertos AA2000",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 20.1,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main international terminal, handling most international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Domestic terminal, handling domestic flights within Argentina."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Secondary international terminal, handling overflow flights and some low-cost carriers."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/en/ezeiza",
+      "wifi": {
+        "available": true,
+        "network_name": "EZE Free WiFi",
+        "note": "Limited to 30 minutes per device, additional time can be purchased."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:45.375407Z",
+    "generated_at": "2025-08-04T19:00:52.692009Z",
     "env": "development",
     "source": "justarrived-generator"
   }

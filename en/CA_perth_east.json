@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kitchener-Waterloo Regional",
+      "iata_code": "YKF",
+      "icao_code": "CYKF",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitchener-Waterloo Regional Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.waterlooairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YKF_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Centralia",
+      "iata_code": "YCE",
+      "icao_code": "CYCE",
+      "distance_km": 47.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Centralia Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Centralia Airport, handling all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.centraliaairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Centralia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:29.759580Z",
+    "generated_at": "2025-08-04T19:16:41.329503Z",
     "env": "development",
     "source": "justarrived-generator"
   }

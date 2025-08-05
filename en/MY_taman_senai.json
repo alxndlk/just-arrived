@@ -50,8 +50,118 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sultan Ismail International",
+      "iata_code": "JHB",
+      "icao_code": "WMKJ",
+      "distance_km": 5.3,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Senai Airport Terminal",
+          "description": "This terminal serves mainly low-cost carrier flights."
+        }
+      ],
+      "website": "https://www.senaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JHB Free WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    },
+    {
+      "airport_name": "Paya Lebar",
+      "iata_code": "QPG",
+      "icao_code": "WSAP",
+      "distance_km": 40.0,
+      "gmt": "8",
+      "country": "Singapore",
+      "timezone": "Asia/Singapore",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Paya Lebar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Paya Lebar Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.changiairport.com/en/airport-guide/Paya-Lebar-Airport.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Paya Lebar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Seletar",
+      "iata_code": "XSP",
+      "icao_code": "WSSL",
+      "distance_km": 44.5,
+      "gmt": "8",
+      "country": "Singapore",
+      "timezone": "Asia/Singapore",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seletar Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal is dedicated for private jet operations and offers exclusive services for private jet passengers."
+        }
+      ],
+      "website": "https://www.seletarairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Seletar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Singapore Changi",
+      "iata_code": "SIN",
+      "icao_code": "WSSS",
+      "distance_km": 47.0,
+      "gmt": "8",
+      "country": "Singapore",
+      "timezone": "Asia/Singapore",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The first and oldest terminal at Singapore Changi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Singapore Changi Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Singapore Changi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The newest and smallest terminal at Singapore Changi Airport, serving mainly budget airlines."
+        }
+      ],
+      "website": "https://www.changiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ChangiWiFi",
+        "note": "Free WiFi is available throughout the airport for up to 3 hours. Unlimited access is available for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:04.233540Z",
+    "generated_at": "2025-08-04T18:24:48.048045Z",
     "env": "development",
     "source": "justarrived-generator"
   }

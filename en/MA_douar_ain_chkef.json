@@ -50,8 +50,47 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meknes",
+      "iata_code": "MEK",
+      "icao_code": "GMFM",
+      "distance_km": 24.4,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Meknes Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Meknes-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Meknes Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sais",
+      "iata_code": "FEZ",
+      "icao_code": "GMFF",
+      "distance_km": 28.5,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:49.853208Z",
+    "generated_at": "2025-08-04T20:03:25.375066Z",
     "env": "development",
     "source": "justarrived-generator"
   }

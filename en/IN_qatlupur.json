@@ -51,8 +51,51 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 19.3,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 24.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights and is the oldest terminal at Indira Gandhi International Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights and was recently renovated to handle increased passenger traffic."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves both domestic and international flights and is the newest and largest terminal at Indira Gandhi International Airport."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but limited to 45 minutes per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:25.072808Z",
+    "generated_at": "2025-08-04T20:16:31.386653Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -106,8 +106,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Del Bajío International",
+      "iata_code": "BJX",
+      "icao_code": "MMLO",
+      "distance_km": 37.9,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/leon-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BJX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Celaya",
+      "iata_code": "CYW",
+      "icao_code": "MMCY",
+      "distance_km": 48.6,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Celaya Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Celaya Airport is responsible for handling all air freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.celayaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Celaya Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:49.605540Z",
+    "generated_at": "2025-08-04T18:05:53.444500Z",
     "env": "development",
     "source": "justarrived-generator"
   }

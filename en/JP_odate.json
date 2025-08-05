@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Odate Noshiro",
+      "iata_code": "ONJ",
+      "icao_code": "RJSR",
+      "distance_km": 18.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.ondate-noshiro-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "ONJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:56.386214Z",
+    "generated_at": "2025-08-04T18:24:40.094571Z",
     "env": "development",
     "source": "justarrived-generator"
   }

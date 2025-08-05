@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Okadama",
+      "iata_code": "OKD",
+      "icao_code": "RJCO",
+      "distance_km": 34.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Okadama Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Okadama Airport handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.okadama-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okadama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chitose",
+      "iata_code": "CTS",
+      "icao_code": "RJCC",
+      "distance_km": 46.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:22.412696Z",
+    "generated_at": "2025-08-04T20:00:32.638433Z",
     "env": "development",
     "source": "justarrived-generator"
   }

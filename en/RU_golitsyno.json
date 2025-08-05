@@ -51,8 +51,80 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vnukovo",
+      "iata_code": "VKO",
+      "icao_code": "UUWW",
+      "distance_km": 19.2,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Vnukovo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights operated by low-cost carriers."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A recently built terminal dedicated to international flights and serving as the hub for several airlines."
+        }
+      ],
+      "website": "https://www.vnukovo.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VKO Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'VKO Free WiFi' from the available networks and following the prompts."
+      }
+    },
+    {
+      "airport_name": "Ostafyevo International Airport",
+      "iata_code": "OSF",
+      "icao_code": "UUMO",
+      "distance_km": 34.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 47.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Sheremetyevo's newest terminal, serving primarily domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Sheremetyevo's oldest terminal, serving mainly international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Sheremetyevo's largest terminal, serving a mix of domestic and international flights."
+        }
+      ],
+      "website": "https://www.svo.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sheremetyevo Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi for up to 3 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:03.446976Z",
+    "generated_at": "2025-08-04T20:13:25.791729Z",
     "env": "development",
     "source": "justarrived-generator"
   }

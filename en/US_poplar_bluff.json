@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malden",
+      "iata_code": "MAW",
+      "icao_code": "KMAW",
+      "distance_km": 41.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Malden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations at Malden Airport, including shipping and receiving of goods."
+        }
+      ],
+      "website": "https://www.maldenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAW Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:15.701777Z",
+    "generated_at": "2025-08-04T19:03:47.670037Z",
     "env": "development",
     "source": "justarrived-generator"
   }

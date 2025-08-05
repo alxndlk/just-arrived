@@ -51,8 +51,35 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Varna",
+      "iata_code": "VAR",
+      "icao_code": "LBWN",
+      "distance_km": 32.7,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://varna-airport.bg/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VARNA-AIRPORT-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:42.201908Z",
+    "generated_at": "2025-08-04T19:15:49.015287Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Billy Bishop Regional",
+      "iata_code": "YOS",
+      "icao_code": "CYOS",
+      "distance_km": 8.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Billy Bishop Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Billy Bishop Regional Airport serves flights to and from smaller cities in the surrounding area."
+        }
+      ],
+      "website": "https://www.billybishopairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BillyBishopWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wiarton/Keppel Airport",
+      "iata_code": "YVV",
+      "icao_code": "CYVV",
+      "distance_km": 21.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wiarton/Keppel Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://wiartonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wiarton Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:57.212589Z",
+    "generated_at": "2025-08-04T18:51:45.260873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

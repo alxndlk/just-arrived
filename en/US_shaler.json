@@ -48,8 +48,104 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 18.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pittsburgh International",
+      "iata_code": "PIT",
+      "icao_code": "KPIT",
+      "distance_km": 25.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pittsburgh International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Pittsburgh International Airport serves mainly American Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Pittsburgh International Airport serves mainly Delta and Southwest Airlines flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Pittsburgh International Airport serves mainly United Airlines flights."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Butler County - Kenny Scholter Field",
+      "iata_code": "BTP",
+      "icao_code": "KBTP",
+      "distance_km": 36.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Beaver Falls",
+      "iata_code": "BFP",
+      "icao_code": "KBVI",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "County",
+      "iata_code": "WSG",
+      "icao_code": "KAFJ",
+      "distance_km": 46.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at County Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at County Airport provides customs and immigration services for international flights."
+        }
+      ],
+      "website": "https://www.countyairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:41.537676Z",
+    "generated_at": "2025-08-04T20:10:26.882687Z",
     "env": "development",
     "source": "justarrived-generator"
   }

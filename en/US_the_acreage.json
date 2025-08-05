@@ -48,8 +48,76 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 20.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palm Beach International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Palm Beach International Airport primarily serves domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Palm Beach International Airport primarily serves international flights."
+        }
+      ],
+      "website": "https://www.pbia.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 23.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Witham Field",
+      "iata_code": "SUA",
+      "icao_code": "KSUA",
+      "distance_km": 47.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Witham Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Witham Field Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.pbia.org/airports/witham-field-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "WithamFieldWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:25.709174Z",
+    "generated_at": "2025-08-04T20:05:32.743407Z",
     "env": "development",
     "source": "justarrived-generator"
   }

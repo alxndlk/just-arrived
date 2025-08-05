@@ -104,8 +104,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Thomasville Municipal Airport",
+      "iata_code": "TVI",
+      "icao_code": "KTVI",
+      "distance_km": 31.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Decatur County",
+      "iata_code": "BGE",
+      "icao_code": "KBGE",
+      "distance_km": 36.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Decatur County Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Decatur County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.decaturcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DecaturAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:36.680690Z",
+    "generated_at": "2025-08-04T20:29:32.521294Z",
     "env": "development",
     "source": "justarrived-generator"
   }

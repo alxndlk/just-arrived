@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palmar Sur",
+      "iata_code": "PMZ",
+      "icao_code": "MRPM",
+      "distance_km": 14.4,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buenos Aires",
+      "iata_code": "BAI",
+      "icao_code": "MRBA",
+      "distance_km": 31.0,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves mainly domestic flights."
+        }
+      ],
+      "website": "https://www.buenosairesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buenos Aires Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Drake Bay",
+      "iata_code": "DRK",
+      "icao_code": "MRDK",
+      "distance_km": 34.5,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:07.549050Z",
+    "generated_at": "2025-08-04T20:34:29.111935Z",
     "env": "development",
     "source": "justarrived-generator"
   }

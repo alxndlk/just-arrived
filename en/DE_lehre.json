@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braunschweig",
+      "iata_code": "BWE",
+      "icao_code": "EDVE",
+      "distance_km": 10.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.braunschweig-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rhein-Main AFB airport\r\n",
+      "iata_code": "FRF",
+      "icao_code": "EDOL",
+      "distance_km": 47.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:36.532638Z",
+    "generated_at": "2025-08-04T20:24:37.222856Z",
     "env": "development",
     "source": "justarrived-generator"
   }

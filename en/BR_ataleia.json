@@ -50,8 +50,43 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Itambacuri",
+      "iata_code": "ITI",
+      "icao_code": "SNYH",
+      "distance_km": 41.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teofilo Otoni",
+      "iata_code": "TFL",
+      "icao_code": "SNTO",
+      "distance_km": 46.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeroportoteofilootoni.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "TFL Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:03.492802Z",
+    "generated_at": "2025-08-04T20:22:26.214780Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,64 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 36.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Barajas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Barajas Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Barajas Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/madrid-barajas-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require registration."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 38.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "A separate terminal for military personnel and their families."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:32.745890Z",
+    "generated_at": "2025-08-04T19:22:51.509420Z",
     "env": "development",
     "source": "justarrived-generator"
   }

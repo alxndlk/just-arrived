@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Timaru",
+      "iata_code": "TIU",
+      "icao_code": "NZTU",
+      "distance_km": 10.2,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Timaru Airport serves domestic flights to and from various destinations in New Zealand."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Timaru Airport handles the transportation of goods and freight to and from the region."
+        }
+      ],
+      "website": "https://www.timaruairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "TIU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:00.372743Z",
+    "generated_at": "2025-08-04T18:44:44.168144Z",
     "env": "development",
     "source": "justarrived-generator"
   }

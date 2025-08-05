@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lucca",
+      "iata_code": "LCV",
+      "icao_code": "LIQL",
+      "distance_km": 39.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Galileo Galilei",
+      "iata_code": "PSA",
+      "icao_code": "LIRP",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Galileo Galilei Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Galileo Galilei Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.pisa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Galileo Galilei Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:56.882086Z",
+    "generated_at": "2025-08-04T20:29:34.427632Z",
     "env": "development",
     "source": "justarrived-generator"
   }

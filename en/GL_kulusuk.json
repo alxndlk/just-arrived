@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kulusuk",
+      "iata_code": "KUS",
+      "icao_code": "BGKK",
+      "distance_km": 3.2,
+      "gmt": "-3",
+      "country": "Greenland",
+      "timezone": "America/Godthab",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kulusuk Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.airgreenland.com/destinations/kulusuk",
+      "wifi": {
+        "available": true,
+        "network_name": "Kulusuk Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Tasiilaq",
+      "iata_code": "AGM",
+      "icao_code": "BGAM",
+      "distance_km": 23.1,
+      "gmt": "-3",
+      "country": "Greenland",
+      "timezone": "America/Godthab",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tasiilaq Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tasiilaq Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.greenland.com/explore/destinations/tasiilaq/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tasiilaq Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:47.694898Z",
+    "generated_at": "2025-08-04T19:39:00.150982Z",
     "env": "development",
     "source": "justarrived-generator"
   }

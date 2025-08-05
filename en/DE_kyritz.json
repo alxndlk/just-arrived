@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rechlin",
+      "iata_code": "REB",
+      "icao_code": "EDAX",
+      "distance_km": 49.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rechlin Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.rechlin-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "REB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:50.445972Z",
+    "generated_at": "2025-08-04T19:32:47.998251Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Joensuu",
+      "iata_code": "JOE",
+      "icao_code": "EFJO",
+      "distance_km": 17.2,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Joensuu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/joensuu",
+      "wifi": {
+        "available": true,
+        "network_name": "JOE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:41.553002Z",
+    "generated_at": "2025-08-04T19:06:45.415232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhambyl",
+      "iata_code": "DMB",
+      "icao_code": "UADD",
+      "distance_km": 25.3,
+      "gmt": "6",
+      "country": "Kazakhstan",
+      "timezone": "Asia/Almaty",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Zhambyl Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport-dmb.kz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zhambyl Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:47.436481Z",
+    "generated_at": "2025-08-04T19:36:47.818133Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Rockford Airport",
+      "iata_code": "RFD",
+      "icao_code": "KRFD",
+      "distance_km": 22.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rockford Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Greater Rockford Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.flyrfd.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RFD Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rock County",
+      "iata_code": "JVL",
+      "icao_code": "KJVL",
+      "distance_km": 28.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rock County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Rock County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.rockcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RockCountyAirportWiFi",
+        "note": "Password required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:18.132217Z",
+    "generated_at": "2025-08-04T19:22:44.192414Z",
     "env": "development",
     "source": "justarrived-generator"
   }

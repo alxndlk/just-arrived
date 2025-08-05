@@ -54,8 +54,64 @@
     "police": "104"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tocumen International",
+      "iata_code": "PTY",
+      "icao_code": "MPTO",
+      "distance_km": 19.6,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Tocumen International Airport serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Tocumen International Airport serves international flights."
+        }
+      ],
+      "website": "https://www.tocumenpanama.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tocumen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paitilla-Marcos A. Gelabert",
+      "iata_code": "PAC",
+      "icao_code": "MPMG",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paitilla-Marcos A. Gelabert Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Paitilla-Marcos A. Gelabert Airport is used for private and charter flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Paitilla-Marcos A. Gelabert Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.pac-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:45.743394Z",
+    "generated_at": "2025-08-04T18:33:45.475735Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braunschweig",
+      "iata_code": "BWE",
+      "icao_code": "EDVE",
+      "distance_km": 19.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Braunschweig Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Braunschweig Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.braunschweig-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWE-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rhein-Main AFB airport\r\n",
+      "iata_code": "FRF",
+      "icao_code": "EDOL",
+      "distance_km": 35.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main and largest terminal at Rhein-Main AFB, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used primarily for military and cargo flights."
+        }
+      ],
+      "website": "https://www.rheinmain.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "RM_AFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:30.999218Z",
+    "generated_at": "2025-08-04T20:19:29.172371Z",
     "env": "development",
     "source": "justarrived-generator"
   }

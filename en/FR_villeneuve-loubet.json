@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cote D'azur International Airport",
+      "iata_code": "NCE",
+      "icao_code": "LFMN",
+      "distance_km": 6.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cote D'azur International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Cote D'azur International Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.nice.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "NCE Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 18.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mandelieu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Mandelieu Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mandelieu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fontvieille Heliport Airport serves as the primary hub for all flights and services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fontvieille Heliport Airport caters to private and chartered flights, offering a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.monaco-helicopter.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FontvieilleHeliport",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:50.397634Z",
+    "generated_at": "2025-08-04T19:02:45.211934Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nossa Senhora de Fátima Aerodrome\n",
+      "iata_code": "QNS",
+      "icao_code": "SBCO",
+      "distance_km": 10.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Salgado Filho",
+      "iata_code": "POA",
+      "icao_code": "SBPA",
+      "distance_km": 14.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosdobrasil.com.br/aeroporto-de-porto-alegre/",
+      "wifi": {
+        "available": true,
+        "network_name": "Salgado Filho Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:03.409877Z",
+    "generated_at": "2025-08-04T20:00:35.195853Z",
     "env": "development",
     "source": "justarrived-generator"
   }

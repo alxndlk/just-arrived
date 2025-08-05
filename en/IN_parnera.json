@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Daman",
+      "iata_code": "NMB",
+      "icao_code": "VADN",
+      "distance_km": 14.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for international flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/daman",
+      "wifi": {
+        "available": true,
+        "network_name": "Daman Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:16.780310Z",
+    "generated_at": "2025-08-04T19:23:01.886551Z",
     "env": "development",
     "source": "justarrived-generator"
   }

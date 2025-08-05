@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sandviken",
+      "iata_code": "GVX",
+      "icao_code": "ESSK",
+      "distance_km": 10.6,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sandviken Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sandviken Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sandvikenairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sandviken Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:50.759887Z",
+    "generated_at": "2025-08-04T18:50:45.661116Z",
     "env": "development",
     "source": "justarrived-generator"
   }

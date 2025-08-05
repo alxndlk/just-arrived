@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Outlaw Field",
+      "iata_code": "CKV",
+      "icao_code": "KCKV",
+      "distance_km": 8.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic flights and houses the airport's main amenities."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.outlawfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Outlaw Field WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Campbell AAF",
+      "iata_code": "HOP",
+      "icao_code": "KHOP",
+      "distance_km": 35.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Campbell AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Campbell AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.campbell.army.mil/tenant/AAF",
+      "wifi": {
+        "available": true,
+        "network_name": "Campbell_AAF_WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:57.493558Z",
+    "generated_at": "2025-08-04T20:31:28.241114Z",
     "env": "development",
     "source": "justarrived-generator"
   }

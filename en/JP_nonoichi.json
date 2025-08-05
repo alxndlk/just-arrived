@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komatsu",
+      "iata_code": "KMQ",
+      "icao_code": "RJNK",
+      "distance_km": 21.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.komatsuairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komatsu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:56.616160Z",
+    "generated_at": "2025-08-04T18:26:58.440961Z",
     "env": "development",
     "source": "justarrived-generator"
   }

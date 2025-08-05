@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eldorado",
+      "iata_code": "ELO",
+      "icao_code": "SATD",
+      "distance_km": 43.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.eldoradoairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eldorado Airport WiFi",
+        "note": "Passengers can connect for free with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:42.945723Z",
+    "generated_at": "2025-08-04T19:00:48.269126Z",
     "env": "development",
     "source": "justarrived-generator"
   }

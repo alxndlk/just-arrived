@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paranagua",
+      "iata_code": "PNG",
+      "icao_code": "SSPG",
+      "distance_km": 41.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lauro Carneiro De Loyola",
+      "iata_code": "JOI",
+      "icao_code": "SBJV",
+      "distance_km": 44.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lauro Carneiro De Loyola Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.infraero.gov.br/en/airports/lauro-carneiro-de-loyola-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "JOI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:16.308536Z",
+    "generated_at": "2025-08-04T20:05:27.202895Z",
     "env": "development",
     "source": "justarrived-generator"
   }

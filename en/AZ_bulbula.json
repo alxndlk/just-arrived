@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Heydar Aliyev International (Bina International)",
+      "iata_code": "GYD",
+      "icao_code": "UBBB",
+      "distance_km": 7.2,
+      "gmt": "4",
+      "country": "Azerbaijan",
+      "timezone": "Asia/Baku",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.bakuairport.az/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heydar Aliyev Airport",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:45.214015Z",
+    "generated_at": "2025-08-04T19:01:45.142120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

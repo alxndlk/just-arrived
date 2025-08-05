@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Outlaw Field",
+      "iata_code": "CKV",
+      "icao_code": "KCKV",
+      "distance_km": 7.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Outlaw Field Airport serves all commercial flights and includes a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Outlaw Field Airport is used for private and charter flights, offering a more personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.outlawfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Outlaw Field Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network while waiting for their flight."
+      }
+    },
+    {
+      "airport_name": "Campbell AAF",
+      "iata_code": "HOP",
+      "icao_code": "KHOP",
+      "distance_km": 22.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Campbell AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Campbell AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.campbellaafairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Campbell_AAF_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:46.887865Z",
+    "generated_at": "2025-08-04T19:19:49.482214Z",
     "env": "development",
     "source": "justarrived-generator"
   }

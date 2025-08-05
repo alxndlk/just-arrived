@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Calafate",
+      "iata_code": "FTE",
+      "icao_code": "SAWC",
+      "distance_km": 15.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Rio_Gallegos",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertoelcalafate.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ElCalafateAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lago Argentino",
+      "iata_code": "ING",
+      "icao_code": "SAWA",
+      "distance_km": 39.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Rio_Gallegos",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles regional flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuerto-ingeniero-c-aramburu",
+      "wifi": {
+        "available": true,
+        "network_name": "Lago Argentino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:07.421548Z",
+    "generated_at": "2025-08-04T18:50:52.688650Z",
     "env": "development",
     "source": "justarrived-generator"
   }

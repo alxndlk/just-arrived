@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niigata",
+      "iata_code": "KIJ",
+      "icao_code": "RJSN",
+      "distance_km": 29.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Niigata Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Niigata Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.niigata-airport.gr.jp/english/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niigata Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the 'Niigata Airport Free WiFi' network and accepting the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Sado Shima",
+      "iata_code": "SDS",
+      "icao_code": "RJSD",
+      "distance_km": 49.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:30.055662Z",
+    "generated_at": "2025-08-04T20:09:32.908786Z",
     "env": "development",
     "source": "justarrived-generator"
   }

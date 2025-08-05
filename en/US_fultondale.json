@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Birmingham-Shuttlesworth International Airport",
+      "iata_code": "BHM",
+      "icao_code": "KBHM",
+      "distance_km": 7.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Clair County",
+      "iata_code": "PLR",
+      "icao_code": "KPLR",
+      "distance_km": 48.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Clair County Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.stclaircountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCCAirportWifi",
+        "note": "Free wifi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:09.749669Z",
+    "generated_at": "2025-08-04T20:30:32.167976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

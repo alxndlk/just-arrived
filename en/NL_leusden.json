@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 10.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base Airport offers a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Soesterberg Air Base Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.soesterberg-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Soesterberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 49.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's main terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to European flights, with a focus on low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Serving mainly long-haul flights, with a focus on non-European destinations."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Dedicated to SkyTeam airlines, with a focus on connecting flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Serving mainly low-cost and charter flights, with a focus on leisure destinations."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Free WiFi",
+        "note": "No password required, but a login is needed every 30 minutes."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:29.362570Z",
+    "generated_at": "2025-08-04T20:08:35.314055Z",
     "env": "development",
     "source": "justarrived-generator"
   }

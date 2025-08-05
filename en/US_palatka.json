@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Augustine",
+      "iata_code": "UST",
+      "icao_code": "KSGJ",
+      "distance_km": 46.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Augustine Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at St Augustine Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://flyust.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "UST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bunnell Flagler County Airport",
+      "iata_code": "QQF",
+      "icao_code": "KFIN",
+      "distance_km": 49.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses the airport's amenities."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private and chartered flights."
+        }
+      ],
+      "website": "https://www.bunnellflaglercountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BunnellFlaglerWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:12.743582Z",
+    "generated_at": "2025-08-04T20:28:27.666939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

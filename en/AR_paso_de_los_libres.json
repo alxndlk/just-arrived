@@ -50,8 +50,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paso De Los Libres",
+      "iata_code": "AOL",
+      "icao_code": "SARL",
+      "distance_km": 7.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paso De Los Libres Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertopasodeloslibres.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDL Airport Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Ruben Berta",
+      "iata_code": "URG",
+      "icao_code": "SBUG",
+      "distance_km": 8.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ruben Berta Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ruben Berta Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportouruguaiana.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ruben Berta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:40.899973Z",
+    "generated_at": "2025-08-04T18:32:43.942578Z",
     "env": "development",
     "source": "justarrived-generator"
   }

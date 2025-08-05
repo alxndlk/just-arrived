@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alguaire",
+      "iata_code": "ILD",
+      "icao_code": "LEDA",
+      "distance_km": 18.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "http://www.aena.es/en/alguaire-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Alguaire Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:56.497306Z",
+    "generated_at": "2025-08-04T19:27:01.075248Z",
     "env": "development",
     "source": "justarrived-generator"
   }

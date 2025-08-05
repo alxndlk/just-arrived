@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Carpiquet",
+      "iata_code": "CFR",
+      "icao_code": "LFRK",
+      "distance_km": 10.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Carpiquet Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Carpiquet Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.caen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Carpiquet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Gatien",
+      "iata_code": "DOL",
+      "icao_code": "LFRG",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St Gatien Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.deauville.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "StGatienAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:02.079228Z",
+    "generated_at": "2025-08-04T19:25:47.899789Z",
     "env": "development",
     "source": "justarrived-generator"
   }

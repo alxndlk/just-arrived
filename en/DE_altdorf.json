@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 33.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Franz Josef Strauss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Franz Josef Strauss Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC_Free_Wifi",
+        "note": "Free WiFi is available throughout the airport, but users must re-login every 30 minutes."
+      }
+    },
+    {
+      "airport_name": "Ingolstadt-manching",
+      "iata_code": "IGS",
+      "icao_code": "INGS",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ingolstadt-manching Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.ingolstadt-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ingolstadt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wallmuhle",
+      "iata_code": "RBM",
+      "icao_code": "KRBM",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Wallmuhle Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.wallmuhleairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wallmuhle Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:46.796967Z",
+    "generated_at": "2025-08-04T19:19:51.019592Z",
     "env": "development",
     "source": "justarrived-generator"
   }

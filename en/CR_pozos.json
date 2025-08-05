@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Juan Santamaría International",
+      "iata_code": "SJO",
+      "icao_code": "MROC",
+      "distance_km": 5.1,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Juan Santamaría International Airport serves both international and domestic flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Juan Santamaría International Airport serves flights to other destinations within Costa Rica."
+        }
+      ],
+      "website": "https://www.sjo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJO Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for the first 30 minutes."
+      }
+    },
+    {
+      "airport_name": "Tobias Bolaños International",
+      "iata_code": "SYQ",
+      "icao_code": "MRPV",
+      "distance_km": 6.5,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tobias Bolaños International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tobias Bolaños International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.tobiasbolanosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TobiasBolanosAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:19.538254Z",
+    "generated_at": "2025-08-04T19:05:42.184764Z",
     "env": "development",
     "source": "justarrived-generator"
   }

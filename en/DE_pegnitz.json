@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bindlacher-Berg",
+      "iata_code": "BYU",
+      "icao_code": "EDQD",
+      "distance_km": 26.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bindlacher-Berg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bindlacher-Berg Airport, mostly used for regional flights."
+        }
+      ],
+      "website": "https://www.bindlacher-berg-airport.de",
+      "wifi": {
+        "available": true,
+        "network_name": "BindlacherBergAirportWifi",
+        "note": "Free wifi available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nürnberg",
+      "iata_code": "NUE",
+      "icao_code": "EDDN",
+      "distance_km": 44.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:00.580444Z",
+    "generated_at": "2025-08-04T20:22:26.072165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

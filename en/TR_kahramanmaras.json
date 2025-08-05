@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kahramanmaras",
+      "iata_code": "KCM",
+      "icao_code": "LTCN",
+      "distance_km": 5.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kahramanmaras Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kahramanmaras Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kahramanmarasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KCM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:55.376582Z",
+    "generated_at": "2025-08-04T18:05:52.319321Z",
     "env": "development",
     "source": "justarrived-generator"
   }

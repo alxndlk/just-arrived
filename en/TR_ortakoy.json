@@ -50,8 +50,47 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mardin",
+      "iata_code": "MQM",
+      "icao_code": "LTCR",
+      "distance_km": 13.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Mardin Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Mardin Airport."
+        }
+      ],
+      "website": "https://www.mardinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mardin Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network by entering their email address."
+      }
+    },
+    {
+      "airport_name": "Kameshli",
+      "iata_code": "KAC",
+      "icao_code": "OSKL",
+      "distance_km": 42.9,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:30.364503Z",
+    "generated_at": "2025-08-04T20:28:34.460866Z",
     "env": "development",
     "source": "justarrived-generator"
   }

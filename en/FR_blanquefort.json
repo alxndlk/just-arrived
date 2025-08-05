@@ -51,8 +51,39 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mérignac",
+      "iata_code": "BOD",
+      "icao_code": "LFBD",
+      "distance_km": 10.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles low-cost and regional flights."
+        },
+        {
+          "name": "Terminal Billi",
+          "description": "Handles mainly international flights."
+        }
+      ],
+      "website": "https://www.bordeaux.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "BOD Airport WiFi",
+        "note": "Complimentary for the first 2 hours, then a fee may apply."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:40.815813Z",
+    "generated_at": "2025-08-04T19:02:39.599951Z",
     "env": "development",
     "source": "justarrived-generator"
   }

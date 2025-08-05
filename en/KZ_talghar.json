@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Almaty",
+      "iata_code": "ALA",
+      "icao_code": "UAAA",
+      "distance_km": 18.7,
+      "gmt": "6",
+      "country": "Kazakhstan",
+      "timezone": "Asia/Almaty",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Almaty Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Almaty Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.almatyairport.kz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Almaty Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Burundai",
+      "iata_code": "BXJ",
+      "icao_code": "UAAR",
+      "distance_km": 31.9,
+      "gmt": "6",
+      "country": "Kazakhstan",
+      "timezone": "Asia/Almaty",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.bxjairport.kz/",
+      "wifi": {
+        "available": true,
+        "network_name": "BXJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:42.388987Z",
+    "generated_at": "2025-08-04T18:30:49.185181Z",
     "env": "development",
     "source": "justarrived-generator"
   }

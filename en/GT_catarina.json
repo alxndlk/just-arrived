@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tapachula International",
+      "iata_code": "TAP",
+      "icao_code": "MMTP",
+      "distance_km": 19.4,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tapachula International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tapachula International Airport handles the transportation of goods and products."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/tapachula.html",
+      "wifi": {
+        "available": true,
+        "network_name": "TAP Airport WiFi",
+        "note": "Complimentary WiFi access is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Coatepeque Airport",
+      "iata_code": "CTF",
+      "icao_code": "MGCT",
+      "distance_km": 20.2,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:48.915709Z",
+    "generated_at": "2025-08-04T20:07:25.469161Z",
     "env": "development",
     "source": "justarrived-generator"
   }

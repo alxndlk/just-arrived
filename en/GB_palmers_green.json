@@ -48,8 +48,192 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "London Elstree Aerodrome",
+      "iata_code": "QEE",
+      "icao_code": "EGTR",
+      "distance_km": 15.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "London City Airport",
+      "iata_code": "LCY",
+      "icao_code": "EGLC",
+      "distance_km": 17.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at London City Airport offers a modern and efficient travel experience for passengers."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at London City Airport provides a luxurious and exclusive experience for private jet travelers."
+        }
+      ],
+      "website": "https://www.londoncityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LCY Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Northolt",
+      "iata_code": "NHT",
+      "icao_code": "EGWU",
+      "distance_km": 20.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Northolt Airport handles all commercial flights and is equipped with modern facilities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Northolt Airport caters to private and charter flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.northoltairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Northolt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Heathrow",
+      "iata_code": "LHR",
+      "icao_code": "EGLL",
+      "distance_km": 29.0,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Heathrow Airport, serving primarily Star Alliance airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "One of the busiest terminals at Heathrow, with a wide range of airlines and destinations."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Home to many SkyTeam airlines, including Air France and KLM."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The main terminal at Heathrow, serving British Airways and its partner airlines."
+        }
+      ],
+      "website": "https://www.heathrow.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heathrow Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport. Premium options are also available for purchase."
+      }
+    },
+    {
+      "airport_name": "Biggin Hill",
+      "iata_code": "BQH",
+      "icao_code": "EGKB",
+      "distance_km": 33.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biggin Hill Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Biggin Hill Airport caters to the needs of private jet travelers."
+        }
+      ],
+      "website": "https://www.bigginhillairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BigginHillAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Luton Airport",
+      "iata_code": "LTN",
+      "icao_code": "EGGW",
+      "distance_km": 34.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Luton Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal that serves mainly low-cost airlines."
+        }
+      ],
+      "website": "https://www.london-luton.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "LTN Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stansted",
+      "iata_code": "STN",
+      "icao_code": "EGSS",
+      "distance_km": 39.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stansted Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Stansted Airport serves mainly low-cost airlines."
+        }
+      ],
+      "website": "https://www.stanstedairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stansted Airport WiFi",
+        "note": "WiFi is available throughout the airport. Free for 4 hours, then a fee applies."
+      }
+    },
+    {
+      "airport_name": "Redhill Aerodrome\r\n",
+      "iata_code": "KRH",
+      "icao_code": "EGKR",
+      "distance_km": 48.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:38.537374Z",
+    "generated_at": "2025-08-04T20:20:26.540395Z",
     "env": "development",
     "source": "justarrived-generator"
   }

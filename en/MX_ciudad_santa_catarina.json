@@ -106,8 +106,76 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Aeropuerto del Norte International Airport",
+      "iata_code": "NTR",
+      "icao_code": "MMAN",
+      "distance_km": 13.5,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertodelnorte.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NTR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gen Mariano Escobedo",
+      "iata_code": "MTY",
+      "icao_code": "MMMY",
+      "distance_km": 35.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly built terminal for international flights."
+        }
+      ],
+      "website": "https://www.oma.aero/en/airports/monterrey/",
+      "wifi": {
+        "available": true,
+        "network_name": "MTY Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Saltillo",
+      "iata_code": "SLW",
+      "icao_code": "MMIO",
+      "distance_km": 49.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:02.625359Z",
+    "generated_at": "2025-08-04T19:56:37.046572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

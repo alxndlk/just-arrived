@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Garenne",
+      "iata_code": "AGF",
+      "icao_code": "LFBA",
+      "distance_km": 3.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at La Garenne Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.lagarenne-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaGarenneAirport",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:56.999408Z",
+    "generated_at": "2025-08-04T19:31:00.053832Z",
     "env": "development",
     "source": "justarrived-generator"
   }

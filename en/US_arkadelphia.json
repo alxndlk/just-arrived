@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial Field",
+      "iata_code": "HOT",
+      "icao_code": "KHOT",
+      "distance_km": 39.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Memorial Field Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.memorialfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MemorialFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:48.187249Z",
+    "generated_at": "2025-08-04T19:25:41.329272Z",
     "env": "development",
     "source": "justarrived-generator"
   }

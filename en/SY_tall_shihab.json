@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "King Hussein",
+      "iata_code": "OMF",
+      "icao_code": "OJMF",
+      "distance_km": 46.0,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at King Hussein Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers exclusive services for high-end travelers and government officials."
+        }
+      ],
+      "website": "https://www.omairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OMF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rosh Pina",
+      "iata_code": "RPN",
+      "icao_code": "LLIB",
+      "distance_km": 49.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/rosh-pina-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RoshPinaAirportWiFi",
+        "note": "Passengers can connect for free with a one-time registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:30.757711Z",
+    "generated_at": "2025-08-04T18:47:50.953857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

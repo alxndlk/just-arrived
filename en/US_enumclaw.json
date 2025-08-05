@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 35.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Renton",
+      "iata_code": "RNT",
+      "icao_code": "KRNT",
+      "distance_km": 37.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal is the main hub for all flight operations at Renton Airport."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights at Renton Airport."
+        }
+      ],
+      "website": "https://rentonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Renton Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    },
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 43.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boeing Field/King County International Airport",
+      "iata_code": "BFI",
+      "icao_code": "KBFI",
+      "distance_km": 44.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boeing Field/King County International Airport serves all commercial flights and features a variety of amenities for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Boeing Field/King County International Airport is primarily used for general aviation and private charter flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BFI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 44.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:34.748300Z",
+    "generated_at": "2025-08-04T20:23:35.617740Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Calera",
+      "iata_code": "ZCL",
+      "icao_code": "MMZC",
+      "distance_km": 47.6,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/zacatecas-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "ZCL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:54.689007Z",
+    "generated_at": "2025-08-04T18:49:50.817219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

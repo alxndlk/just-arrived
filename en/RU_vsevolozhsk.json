@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pulkovo",
+      "iata_code": "LED",
+      "icao_code": "ULLI",
+      "distance_km": 32.2,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.pulkovoairport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pulkovo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:39.491082Z",
+    "generated_at": "2025-08-04T18:22:39.283781Z",
     "env": "development",
     "source": "justarrived-generator"
   }

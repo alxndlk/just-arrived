@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barnes",
+      "iata_code": "BAF",
+      "icao_code": "KBAF",
+      "distance_km": 8.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Westover ARB/Metropolitan",
+      "iata_code": "CEF",
+      "icao_code": "KCEF",
+      "distance_km": 10.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and provides various amenities for passengers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is dedicated to serving military personnel and their families."
+        }
+      ],
+      "website": "https://www.westover.afrc.af.mil/Units/439th-Airlift-Wing/",
+      "wifi": {
+        "available": true,
+        "network_name": "Westover Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bradley International",
+      "iata_code": "BDL",
+      "icao_code": "KBDL",
+      "distance_km": 22.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Bradley International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at Bradley International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.bradleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bradley Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brainard",
+      "iata_code": "HFD",
+      "icao_code": "KHFD",
+      "distance_km": 43.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brainard Airport houses all check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "The private aviation terminal at Brainard Airport caters to private and charter flights, with exclusive lounges and facilities."
+        }
+      ],
+      "website": "https://brainardairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brainard Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:56.809850Z",
+    "generated_at": "2025-08-04T20:13:25.264940Z",
     "env": "development",
     "source": "justarrived-generator"
   }

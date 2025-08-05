@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schleswig-jagel",
+      "iata_code": "WBG",
+      "icao_code": "ETNS",
+      "distance_km": 30.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for Schleswig-jagel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flughafen-schleswig-jagel.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJ-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schaferhaus",
+      "iata_code": "FLF",
+      "icao_code": "EDXF",
+      "distance_km": 40.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Schaferhaus Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.schaferhaus-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schaferhaus Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 45.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rendsburg Schachtholm Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rendsburg Schachtholm Airport, handling freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.rendsburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rendsburg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:27.569229Z",
+    "generated_at": "2025-08-04T20:12:30.888632Z",
     "env": "development",
     "source": "justarrived-generator"
   }

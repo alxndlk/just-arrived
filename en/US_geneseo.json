@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dansville",
+      "iata_code": "DSV",
+      "icao_code": "KDSV",
+      "distance_km": 27.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dansville Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.dansvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dansville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Greater Rochester International",
+      "iata_code": "ROC",
+      "icao_code": "KROC",
+      "distance_km": 37.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rochester International Airport is the primary hub for all commercial flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.monroecounty.gov/airport-index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "ROC Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:41.151197Z",
+    "generated_at": "2025-08-04T19:25:40.709107Z",
     "env": "development",
     "source": "justarrived-generator"
   }

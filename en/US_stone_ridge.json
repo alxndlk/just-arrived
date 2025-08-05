@@ -48,8 +48,122 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 9.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves most domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse serves mainly international flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse serves mainly domestic flights."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IAD Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Montgomery County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private flights and offers a more luxurious and private experience for passengers."
+        }
+      ],
+      "website": "https://www.montgomerycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Warrenton–Fauquier Airport",
+      "iata_code": "HWY",
+      "icao_code": "KHWY",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warrenton-Fauquier Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Warrenton-Fauquier Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.fauquierairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HWY Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 45.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ronald Reagan Washington National Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Ronald Reagan Washington National Airport serves domestic flights for American Airlines, Delta, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Ronald Reagan Washington National Airport serves domestic flights for Alaska Airlines, JetBlue, Southwest, and Spirit."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Ronald Reagan Washington National Airport serves domestic flights for Frontier and Sun Country."
+        }
+      ],
+      "website": "https://www.flyreagan.com/dca",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:58.828764Z",
+    "generated_at": "2025-08-04T20:18:34.047015Z",
     "env": "development",
     "source": "justarrived-generator"
   }

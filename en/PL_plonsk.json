@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Modlin",
+      "iata_code": "WMI",
+      "icao_code": "EPMO",
+      "distance_km": 27.0,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.modlinairport.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Modlin Airport Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mazury",
+      "iata_code": "SZY",
+      "icao_code": "EPSY",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mazury Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Mazury Airport is used for shipping and receiving of goods."
+        }
+      ],
+      "website": "https://www.mazuryairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mazury Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:57.912373Z",
+    "generated_at": "2025-08-04T18:52:40.819182Z",
     "env": "development",
     "source": "justarrived-generator"
   }

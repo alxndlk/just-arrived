@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Krasnojarsk",
+      "iata_code": "KJA",
+      "icao_code": "UNKL",
+      "distance_km": 25.8,
+      "gmt": "7",
+      "country": "Russia",
+      "timezone": "Asia/Krasnoyarsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Krasnojarsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kjaairport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KJA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:02.200930Z",
+    "generated_at": "2025-08-04T18:44:45.005058Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,89 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nanyuan Airport",
+      "iata_code": "NAY",
+      "icao_code": "ZBBB",
+      "distance_km": 13.2,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanyuan Airport, serving domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal at Nanyuan Airport, serving international flights."
+        }
+      ],
+      "website": "http://www.bcia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanyuan Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for a limited amount of time."
+      }
+    },
+    {
+      "airport_name": "Beijing Daxing International Airport",
+      "iata_code": "PKX",
+      "icao_code": "ZBAD",
+      "distance_km": 18.1,
+      "gmt": null,
+      "country": "Beijing",
+      "timezone": "+8",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.bdia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "PKX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beijing Capital International",
+      "iata_code": "PEK",
+      "icao_code": "ZBAA",
+      "distance_km": 47.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Beijing Capital International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Beijing Capital International Airport, primarily serving domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Beijing Capital International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bcia.com.cn/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "PEK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and enter your phone number to receive a verification code."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:08.128941Z",
+    "generated_at": "2025-08-04T20:01:31.880956Z",
     "env": "development",
     "source": "justarrived-generator"
   }

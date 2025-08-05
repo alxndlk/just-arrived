@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bagotville",
+      "iata_code": "YBG",
+      "icao_code": "CYBG",
+      "distance_km": 7.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bagotville Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bagotville Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.bagotvilleairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Refuge Cove SPB",
+      "iata_code": "YRC",
+      "icao_code": "CYRC",
+      "distance_km": 25.1,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Refuge Cove SPB Airport serves as the hub for all domestic and international flights."
+        },
+        {
+          "name": "Floatplane Terminal",
+          "description": "The floatplane terminal at Refuge Cove SPB Airport is used for smaller planes and offers scenic flights over the surrounding islands."
+        }
+      ],
+      "website": "https://www.refugecoveairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RefugeCoveAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited connectivity due to the remote location."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:34.983338Z",
+    "generated_at": "2025-08-04T19:12:39.600050Z",
     "env": "development",
     "source": "justarrived-generator"
   }

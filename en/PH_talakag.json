@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cagayan De Oro Domestic Airport",
+      "iata_code": "CGY",
+      "icao_code": "RPML",
+      "distance_km": 19.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.laguindingan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGY Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited coverage in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:50.611628Z",
+    "generated_at": "2025-08-04T18:22:43.024578Z",
     "env": "development",
     "source": "justarrived-generator"
   }

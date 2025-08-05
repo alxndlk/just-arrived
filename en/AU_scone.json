@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Scone",
+      "iata_code": "NSO",
+      "icao_code": "YSCO",
+      "distance_km": 5.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Scone Airport handles all domestic flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Scone Airport serves smaller aircraft and regional flights."
+        }
+      ],
+      "website": "https://www.sconeairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Scone Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cudal",
+      "iata_code": "CUG",
+      "icao_code": "YCUA",
+      "distance_km": 16.9,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cudal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cudal Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.cudalairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cudal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:51.982460Z",
+    "generated_at": "2025-08-04T19:37:44.055208Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Merzifon",
+      "iata_code": "MZH",
+      "icao_code": "LTAP",
+      "distance_km": 11.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.merzifon.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Merzifon Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:03.995785Z",
+    "generated_at": "2025-08-04T18:34:48.771183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

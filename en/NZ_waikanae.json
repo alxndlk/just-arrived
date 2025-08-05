@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paraparaumu",
+      "iata_code": "PPQ",
+      "icao_code": "NZPP",
+      "distance_km": 7.3,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Masterton/Hood Aerodrome",
+      "iata_code": "MRO",
+      "icao_code": "NZMS",
+      "distance_km": 49.1,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Masterton/Hood Aerodrome Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.airportguide.com/airport/info/MRO",
+      "wifi": {
+        "available": true,
+        "network_name": "MRO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:15.111522Z",
+    "generated_at": "2025-08-04T20:24:36.030289Z",
     "env": "development",
     "source": "justarrived-generator"
   }

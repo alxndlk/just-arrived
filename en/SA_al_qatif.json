@@ -51,8 +51,60 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 21.5,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at King Abdulaziz AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at King Abdulaziz AB Airport, mainly serving domestic flights."
+        }
+      ],
+      "website": "https://www.kaia.com.sa/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "King Fahd International Airport",
+      "iata_code": "DMM",
+      "icao_code": "OEDF",
+      "distance_km": 21.9,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.dammam-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KFIA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:41.102530Z",
+    "generated_at": "2025-08-04T18:05:48.239116Z",
     "env": "development",
     "source": "justarrived-generator"
   }

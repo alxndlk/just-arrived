@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soroti",
+      "iata_code": "SRT",
+      "icao_code": "HUSO",
+      "distance_km": 44.6,
+      "gmt": "3",
+      "country": "Uganda",
+      "timezone": "Africa/Kampala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soroti Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Soroti Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sorotiairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SRT Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:56.288648Z",
+    "generated_at": "2025-08-04T19:32:50.955415Z",
     "env": "development",
     "source": "justarrived-generator"
   }

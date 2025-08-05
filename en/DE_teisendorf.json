@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "W. A. Mozart",
+      "iata_code": "SZG",
+      "icao_code": "LOWS",
+      "distance_km": 15.0,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at W. A. Mozart Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.salzburg-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SZG Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:25.680338Z",
+    "generated_at": "2025-08-04T19:30:50.725090Z",
     "env": "development",
     "source": "justarrived-generator"
   }

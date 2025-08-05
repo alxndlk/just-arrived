@@ -50,8 +50,72 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buzios",
+      "iata_code": "BZC",
+      "icao_code": "SBBZ",
+      "distance_km": 8.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cabo Frio",
+      "iata_code": "CFB",
+      "icao_code": "SBCB",
+      "distance_km": 28.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cabo Frio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.aeroportodecabofrio.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CaboFrioAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Macae",
+      "iata_code": "MEA",
+      "icao_code": "SBME",
+      "distance_km": 44.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Macae Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Macae Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.macaeairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Macae Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:33.732341Z",
+    "generated_at": "2025-08-04T20:05:33.355450Z",
     "env": "development",
     "source": "justarrived-generator"
   }

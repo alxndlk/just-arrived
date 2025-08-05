@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mc Ghee Tyson",
+      "iata_code": "TYS",
+      "icao_code": "KTYS",
+      "distance_km": 18.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mc Ghee Tyson Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a satellite terminal connected to the main terminal, serving domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a satellite terminal connected to the main terminal, serving domestic and international flights."
+        }
+      ],
+      "website": "https://flyknoxville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TYS Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi throughout the airport by connecting to the TYS Free Wi-Fi network."
+      }
+    },
+    {
+      "airport_name": "Rockwood Municipal Airport",
+      "iata_code": "RKW",
+      "icao_code": "KRKW",
+      "distance_km": 45.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rockwood Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Rockwood Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.rockwoodmunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RKW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:34.130898Z",
+    "generated_at": "2025-08-04T18:48:51.273410Z",
     "env": "development",
     "source": "justarrived-generator"
   }

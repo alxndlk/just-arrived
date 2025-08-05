@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bristol",
+      "iata_code": "BRS",
+      "icao_code": "EGGD",
+      "distance_km": 20.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bristol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.bristolairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bristol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Yeovilton",
+      "iata_code": "YEO",
+      "icao_code": "EGDY",
+      "distance_km": 22.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yeovilton Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Yeovilton Airport caters to VIP and private charter flights."
+        }
+      ],
+      "website": "https://www.yeoviltonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yeovilton Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:47.500250Z",
+    "generated_at": "2025-08-04T20:25:24.619820Z",
     "env": "development",
     "source": "justarrived-generator"
   }

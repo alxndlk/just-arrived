@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "CSV",
+      "icao_code": "KCSV",
+      "distance_km": 5.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Memorial Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.memorialairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Memorial Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rockwood Municipal Airport",
+      "iata_code": "RKW",
+      "icao_code": "KRKW",
+      "distance_km": 32.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rockwood Municipal Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Rockwood Municipal Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.rockwoodairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rockwood Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:27.937607Z",
+    "generated_at": "2025-08-04T19:16:40.669946Z",
     "env": "development",
     "source": "justarrived-generator"
   }

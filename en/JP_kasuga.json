@@ -106,8 +106,43 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Fukuoka",
+      "iata_code": "FUK",
+      "icao_code": "RJFF",
+      "distance_km": 6.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Saga",
+      "iata_code": "HSG",
+      "icao_code": "RJFS",
+      "distance_km": 44.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Saga Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.saga-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Saga Airport Wifi",
+        "note": "Free wifi is available throughout the terminal, but may have limited coverage in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:12.625634Z",
+    "generated_at": "2025-08-04T19:59:27.655698Z",
     "env": "development",
     "source": "justarrived-generator"
   }

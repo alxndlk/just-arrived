@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Parana",
+      "iata_code": "PRA",
+      "icao_code": "SAAP",
+      "distance_km": 44.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/parana",
+      "wifi": {
+        "available": true,
+        "network_name": "Parana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:21.182604Z",
+    "generated_at": "2025-08-04T19:33:53.417857Z",
     "env": "development",
     "source": "justarrived-generator"
   }

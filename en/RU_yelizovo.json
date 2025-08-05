@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Petropavlovsk-Kamchatsky",
+      "iata_code": "PKC",
+      "icao_code": "UHPP",
+      "distance_km": 25.7,
+      "gmt": "12",
+      "country": "Russia",
+      "timezone": "Asia/Kamchatka",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.kamchatka.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "PKC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:16.368922Z",
+    "generated_at": "2025-08-04T18:36:49.488616Z",
     "env": "development",
     "source": "justarrived-generator"
   }

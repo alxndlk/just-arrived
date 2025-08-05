@@ -51,8 +51,56 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kalymnos Island",
+      "iata_code": "JKL",
+      "icao_code": "LGKY",
+      "distance_km": 4.9,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalymnos Island Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kalymnosairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalymnos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kos Island International Airport",
+      "iata_code": "KGS",
+      "icao_code": "LGKO",
+      "distance_km": 24.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kos Island International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal provides exclusive services for high-end travelers and private jets."
+        }
+      ],
+      "website": "https://www.kgs-airport.gr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kos Airport Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:41.095951Z",
+    "generated_at": "2025-08-04T19:29:41.218509Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akron/canton Regional",
+      "iata_code": "CAK",
+      "icao_code": "KCAK",
+      "distance_km": 13.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 13.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.fultonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wayne County",
+      "iata_code": "BJJ",
+      "icao_code": "KBJJ",
+      "distance_km": 33.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wayne County Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wayne County Airport, handling freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.waynecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WayneCountyAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:41.313621Z",
+    "generated_at": "2025-08-04T20:21:36.887560Z",
     "env": "development",
     "source": "justarrived-generator"
   }

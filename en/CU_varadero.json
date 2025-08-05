@@ -52,8 +52,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Juan Gualberto Gomez",
+      "iata_code": "VRA",
+      "icao_code": "MUVR",
+      "distance_km": 19.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Cuba."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.vra-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VRA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:12.046635Z",
+    "generated_at": "2025-08-04T18:53:40.593796Z",
     "env": "development",
     "source": "justarrived-generator"
   }

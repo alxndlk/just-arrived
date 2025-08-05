@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kochi",
+      "iata_code": "KCZ",
+      "icao_code": "RJOK",
+      "distance_km": 23.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kochi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kochiairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kochi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:30.943456Z",
+    "generated_at": "2025-08-04T18:46:51.541215Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 29.6,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.delhiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Delhi Hindon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 45.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for low-cost carriers such as IndiGo, SpiceJet, and GoAir."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles all international flights and some domestic flights for full-service carriers such as Air India and Vistara."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles all international flights and some domestic flights for full-service carriers such as Air India and Vistara."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but users need to register with a valid Indian phone number to access it."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:21.478747Z",
+    "generated_at": "2025-08-04T20:03:32.717965Z",
     "env": "development",
     "source": "justarrived-generator"
   }

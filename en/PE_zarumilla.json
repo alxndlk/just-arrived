@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tumbes",
+      "iata_code": "TBP",
+      "icao_code": "SPME",
+      "distance_km": 17.6,
+      "gmt": "-5",
+      "country": "Peru",
+      "timezone": "America/Lima",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Santa Rosa Regional",
+      "iata_code": "ETR",
+      "icao_code": "LFFY",
+      "distance_km": 34.9,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Machala",
+      "iata_code": "MCH",
+      "icao_code": "SEMH",
+      "distance_km": 41.3,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Machala Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Machala Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.machalaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Machala Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:09.895708Z",
+    "generated_at": "2025-08-04T20:17:36.432700Z",
     "env": "development",
     "source": "justarrived-generator"
   }

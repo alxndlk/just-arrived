@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peterborough",
+      "iata_code": "YPQ",
+      "icao_code": "CYPQ",
+      "distance_km": 38.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Peterborough Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and logistics operations at Peterborough Airport."
+        }
+      ],
+      "website": "https://www.peterboroughairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Peterborough Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Oshawa",
+      "iata_code": "YOO",
+      "icao_code": "CYOO",
+      "distance_km": 48.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Oshawa Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Oshawa Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.oshawaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Oshawa Airport WiFi",
+        "note": "WiFi is available for free throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:12.536802Z",
+    "generated_at": "2025-08-04T19:01:00.677885Z",
     "env": "development",
     "source": "justarrived-generator"
   }

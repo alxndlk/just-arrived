@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kolhapur",
+      "iata_code": "KLH",
+      "icao_code": "VAKP",
+      "distance_km": 9.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kolhapurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:32.686134Z",
+    "generated_at": "2025-08-04T18:49:41.300189Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "M. A. Grottag",
+      "iata_code": "TAR",
+      "icao_code": "LIBG",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at M. A. Grottag Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at M. A. Grottag Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.magrottagairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAGrottagAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Papola Casale",
+      "iata_code": "BDS",
+      "icao_code": "LIBR",
+      "distance_km": 33.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles low-cost flights."
+        }
+      ],
+      "website": "https://www.aeroportidipuglia.it/papola-casale",
+      "wifi": {
+        "available": true,
+        "network_name": "PapolaCasaleAirportWiFi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:23.128689Z",
+    "generated_at": "2025-08-04T18:37:50.358408Z",
     "env": "development",
     "source": "justarrived-generator"
   }

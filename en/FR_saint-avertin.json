@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Symphorien",
+      "iata_code": "TUF",
+      "icao_code": "LFOT",
+      "distance_km": 6.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St Symphorien Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.tours.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tours Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:53.918095Z",
+    "generated_at": "2025-08-04T19:06:50.567120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

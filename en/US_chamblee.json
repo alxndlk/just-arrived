@@ -48,8 +48,134 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dekalb-Peachtree",
+      "iata_code": "PDK",
+      "icao_code": "KPDK",
+      "distance_km": 4.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton County",
+      "iata_code": "FTY",
+      "icao_code": "KFTY",
+      "distance_km": 22.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fulton County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.fultoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FTY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "College Park",
+      "iata_code": "CGS",
+      "icao_code": "KCGS",
+      "distance_km": 27.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at College Park Airport serves as the hub for all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at College Park Airport caters to private and charter flights, providing a comfortable and convenient experience for passengers."
+        }
+      ],
+      "website": "https://www.collegeparkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPA_WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Hartsfield-jackson Atlanta International",
+      "iata_code": "ATL",
+      "icao_code": "KATL",
+      "distance_km": 30.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hartsfield-Jackson Atlanta International Airport serves domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Hartsfield-Jackson Atlanta International Airport serves all international flights."
+        }
+      ],
+      "website": "https://www.atl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATL Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network by selecting 'ATL Free Wi-Fi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Gwinnett County Airport",
+      "iata_code": "LZU",
+      "icao_code": "KLZU",
+      "distance_km": 30.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses various amenities for passengers."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "This terminal caters to private and corporate aircraft and offers exclusive services for its passengers."
+        }
+      ],
+      "website": "https://www.gwinnettcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gwinnett County Airport WiFi",
+        "note": "Passengers can access the WiFi network for free by connecting to the designated network name."
+      }
+    },
+    {
+      "airport_name": "Canton Cherokee County Regional Airport",
+      "iata_code": "QQC",
+      "icao_code": "KCNI",
+      "distance_km": 48.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:38.110041Z",
+    "generated_at": "2025-08-04T20:08:35.808602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

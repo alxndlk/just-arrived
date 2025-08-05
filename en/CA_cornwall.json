@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richards Field",
+      "iata_code": "MSS",
+      "icao_code": "KMSS",
+      "distance_km": 13.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richards Field Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Richards Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.richardsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RichardsFieldAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cornwall Regional Airport",
+      "iata_code": "YCC",
+      "icao_code": "CYCC",
+      "distance_km": 15.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cornwall Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cornwall Regional Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.cornwallairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Cornwall Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:27.295720Z",
+    "generated_at": "2025-08-04T18:30:42.693732Z",
     "env": "development",
     "source": "justarrived-generator"
   }

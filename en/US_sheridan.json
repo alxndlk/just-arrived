@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sheridan",
+      "iata_code": "SHR",
+      "icao_code": "KSHR",
+      "distance_km": 2.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sheridan Airport serves all commercial flights and houses various amenities for passengers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Sheridan Airport caters to private and charter flights, providing services such as fueling and hangar rentals."
+        }
+      ],
+      "website": "https://www.sheridanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sheridan Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:51.270258Z",
+    "generated_at": "2025-08-04T18:57:39.702960Z",
     "env": "development",
     "source": "justarrived-generator"
   }

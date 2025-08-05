@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ruston",
+      "iata_code": "RSN",
+      "icao_code": "KRSN",
+      "distance_km": 1.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ruston Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ruston Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.rustonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RSN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:09.664325Z",
+    "generated_at": "2025-08-04T18:51:48.158719Z",
     "env": "development",
     "source": "justarrived-generator"
   }

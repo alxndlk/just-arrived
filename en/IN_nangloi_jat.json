@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 14.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for low-cost carriers such as IndiGo, SpiceJet, and GoAir."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles international flights for full-service carriers such as Air India, Vistara, and Emirates."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles both domestic and international flights for full-service carriers such as Jet Airways, Lufthansa, and Singapore Airlines."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGI Airport Free Wi-Fi",
+        "note": "Unlimited free Wi-Fi access is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 27.0,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal for international flights."
+        }
+      ],
+      "website": "https://delhihindonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Delhi Hindon Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:21.447598Z",
+    "generated_at": "2025-08-04T19:58:28.249376Z",
     "env": "development",
     "source": "justarrived-generator"
   }

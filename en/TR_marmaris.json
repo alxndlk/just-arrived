@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dalaman",
+      "iata_code": "DLM",
+      "icao_code": "LTBS",
+      "distance_km": 48.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights."
+        }
+      ],
+      "website": "https://www.dalamanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DLM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:46.050205Z",
+    "generated_at": "2025-08-04T18:19:45.848081Z",
     "env": "development",
     "source": "justarrived-generator"
   }

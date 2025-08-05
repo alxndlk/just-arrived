@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Namao Field",
+      "iata_code": "YED",
+      "icao_code": "CYED",
+      "distance_km": 16.7,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Namao Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Namao Field Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.namoafieldairport.ca",
+      "wifi": {
+        "available": true,
+        "network_name": "Namao Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    },
+    {
+      "airport_name": "Edmonton International Airport",
+      "iata_code": "YEG",
+      "icao_code": "CYEG",
+      "distance_km": 36.0,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal for Edmonton International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal is a smaller terminal used for charter and regional flights."
+        }
+      ],
+      "website": "https://flyeia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EIA-WiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:52.621045Z",
+    "generated_at": "2025-08-04T18:24:40.168438Z",
     "env": "development",
     "source": "justarrived-generator"
   }

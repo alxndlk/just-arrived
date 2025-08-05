@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Old Town",
+      "iata_code": "OLD",
+      "icao_code": "KOLD",
+      "distance_km": 7.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bangor International Airport",
+      "iata_code": "BGR",
+      "icao_code": "KBGR",
+      "distance_km": 11.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bangor International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bangor International Airport handles freight and mail shipments."
+        }
+      ],
+      "website": "https://www.flybangor.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:35.126531Z",
+    "generated_at": "2025-08-04T20:25:34.029872Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Celaya",
+      "iata_code": "CYW",
+      "icao_code": "MMCY",
+      "distance_km": 23.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Celaya Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Celaya Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/celaya-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CYW-Free-WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ingeniero Fernando Espinoza Gutiérrez International",
+      "iata_code": "QRO",
+      "icao_code": "MMQT",
+      "distance_km": 41.9,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Newly built terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertoqueretaro.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "QRO Airport Wifi",
+        "note": "Free wifi available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:52.373169Z",
+    "generated_at": "2025-08-04T18:21:47.549223Z",
     "env": "development",
     "source": "justarrived-generator"
   }

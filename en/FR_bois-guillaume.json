@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Boos",
+      "iata_code": "URO",
+      "icao_code": "LFOP",
+      "distance_km": 9.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Boos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.rouen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "URO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:04.527174Z",
+    "generated_at": "2025-08-04T19:08:46.029236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

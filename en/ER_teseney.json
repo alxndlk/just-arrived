@@ -45,8 +45,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tessenei",
+      "iata_code": "TES",
+      "icao_code": "HHTS",
+      "distance_km": 2.9,
+      "gmt": "3",
+      "country": "Eritrea",
+      "timezone": "Africa/Asmara",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tessenei Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.tesseneiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tessenei Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kassala",
+      "iata_code": "KSL",
+      "icao_code": "HSKA",
+      "distance_km": 46.0,
+      "gmt": "3",
+      "country": "Sudan",
+      "timezone": "Africa/Khartoum",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated for cargo and freight operations."
+        }
+      ],
+      "website": "https://www.sudanairports.com/kassala-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "KSL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:11.457083Z",
+    "generated_at": "2025-08-04T19:37:52.811084Z",
     "env": "development",
     "source": "justarrived-generator"
   }

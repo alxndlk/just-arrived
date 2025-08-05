@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Falconara",
+      "iata_code": "AOI",
+      "icao_code": "LIPY",
+      "distance_km": 26.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Falconara Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Falconara Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aeroportomarche.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Falconara Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Miramare",
+      "iata_code": "RMI",
+      "icao_code": "LIPR",
+      "distance_km": 48.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Miramare Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Miramare Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.miramareairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miramare Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:02.651575Z",
+    "generated_at": "2025-08-04T19:09:41.997922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pyor",
+      "iata_code": "DCU",
+      "icao_code": "KDCU",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pyor Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pyor Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.pyorairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "PyorAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:11.865053Z",
+    "generated_at": "2025-08-04T18:57:48.732375Z",
     "env": "development",
     "source": "justarrived-generator"
   }

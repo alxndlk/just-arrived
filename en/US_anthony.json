@@ -48,8 +48,106 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Paso International Airport",
+      "iata_code": "ELP",
+      "icao_code": "KELP",
+      "distance_km": 30.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Paso International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is primarily used for regional flights and is connected to the main terminal via a covered walkway."
+        }
+      ],
+      "website": "https://www.elpasointernationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ELP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Biggs AAF",
+      "iata_code": "BIF",
+      "icao_code": "KBIF",
+      "distance_km": 31.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biggs AAF Airport serves both commercial and military flights."
+        }
+      ],
+      "website": "https://www.biggsaafairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BiggsWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LRU",
+      "icao_code": "KLRU",
+      "distance_km": 43.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Abraham Gonzalez International",
+      "iata_code": "CJS",
+      "icao_code": "MMCS",
+      "distance_km": 44.7,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Ojinaga",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Abraham Gonzalez International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/ciudad-juarez.html",
+      "wifi": {
+        "available": true,
+        "network_name": "CJS Airport Wifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:16.475931Z",
+    "generated_at": "2025-08-04T19:35:44.991808Z",
     "env": "development",
     "source": "justarrived-generator"
   }

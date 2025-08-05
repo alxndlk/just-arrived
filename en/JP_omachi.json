@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matsumoto",
+      "iata_code": "MMJ",
+      "icao_code": "RJAF",
+      "distance_km": 31.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Matsumoto Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Matsumoto Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.matsumoto-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Matsumoto Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:09.355845Z",
+    "generated_at": "2025-08-04T18:46:43.676130Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sarasota/Bradenton International",
+      "iata_code": "SRQ",
+      "icao_code": "KSRQ",
+      "distance_km": 13.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sarasota/Bradenton International Airport houses both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Sarasota/Bradenton International Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://srq-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SRQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Venice Municipalcipal",
+      "iata_code": "VNC",
+      "icao_code": "KVNC",
+      "distance_km": 24.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Venice Municipal Airport serves commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Venice Municipal Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.veniceairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VNC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:04.602656Z",
+    "generated_at": "2025-08-04T19:27:58.455232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

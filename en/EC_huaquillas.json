@@ -49,8 +49,81 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tumbes",
+      "iata_code": "TBP",
+      "icao_code": "SPME",
+      "distance_km": 21.5,
+      "gmt": "-5",
+      "country": "Peru",
+      "timezone": "America/Lima",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Tumbes Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Tumbes Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.corpac.gob.pe/aeropuerto-de-tumbes/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tumbes Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Santa Rosa Regional",
+      "iata_code": "ETR",
+      "icao_code": "LFFY",
+      "distance_km": 31.4,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Rosa Regional Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.santarosaregionalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantaRosaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Machala",
+      "iata_code": "MCH",
+      "icao_code": "SEMH",
+      "distance_km": 37.4,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Machala Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Machala Airport is used for transporting goods and packages."
+        }
+      ],
+      "website": "https://www.machalaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCH Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:18.070136Z",
+    "generated_at": "2025-08-04T18:27:46.082638Z",
     "env": "development",
     "source": "justarrived-generator"
   }

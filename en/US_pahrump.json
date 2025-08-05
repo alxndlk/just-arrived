@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nellis AFB",
+      "iata_code": "LSV",
+      "icao_code": "KLSV",
+      "distance_km": 19.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nellis AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is reserved for military personnel and their families traveling through Nellis AFB Airport."
+        }
+      ],
+      "website": "https://www.nellis.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nellis_AFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Desert Rock",
+      "iata_code": "DRA",
+      "icao_code": "KDRA",
+      "distance_km": 49.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Desert Rock Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Desert Rock Airport provides exclusive services for private and charter flights."
+        }
+      ],
+      "website": "https://www.desertrockairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DesertRockWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:23.348652Z",
+    "generated_at": "2025-08-04T18:31:41.841135Z",
     "env": "development",
     "source": "justarrived-generator"
   }

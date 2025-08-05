@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Satna",
+      "iata_code": "TNI",
+      "icao_code": "VIST",
+      "distance_km": 26.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for domestic flights operated by low-cost airlines."
+        }
+      ],
+      "website": "https://www.satnaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Satna Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:50.822608Z",
+    "generated_at": "2025-08-04T20:33:36.408773Z",
     "env": "development",
     "source": "justarrived-generator"
   }

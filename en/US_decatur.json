@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Decatur Airport",
+      "iata_code": "DEC",
+      "icao_code": "KDEC",
+      "distance_km": 6.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.decaturairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Decatur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:06.445642Z",
+    "generated_at": "2025-08-04T20:30:31.597548Z",
     "env": "development",
     "source": "justarrived-generator"
   }

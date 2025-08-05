@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chitose",
+      "iata_code": "CTS",
+      "icao_code": "RJCC",
+      "distance_km": 4.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.new-chitose-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NewChitoseAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Okadama",
+      "iata_code": "OKD",
+      "icao_code": "RJCO",
+      "distance_km": 39.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.okadama-airport.co.jp/english/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:47.617942Z",
+    "generated_at": "2025-08-04T18:19:47.141690Z",
     "env": "development",
     "source": "justarrived-generator"
   }

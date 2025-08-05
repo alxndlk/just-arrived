@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Riga International",
+      "iata_code": "RIX",
+      "icao_code": "EVRA",
+      "distance_km": 16.4,
+      "gmt": "2",
+      "country": "Latvia",
+      "timezone": "Europe/Riga",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.riga-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:39.794834Z",
+    "generated_at": "2025-08-04T18:28:50.201219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

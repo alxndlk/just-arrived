@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Valladolid",
+      "iata_code": "VLL",
+      "icao_code": "LEVD",
+      "distance_km": 43.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/valladolid-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "VLL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:53.762781Z",
+    "generated_at": "2025-08-04T18:22:44.388014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

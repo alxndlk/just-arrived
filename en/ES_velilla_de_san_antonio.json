@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 11.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for military and private flights."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 13.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Formerly known as the 'old terminal,' it now serves as a domestic and Schengen area terminal."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main hub for Iberia Airlines, with a modern design and advanced technology."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, used for non-Schengen international flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport, but it may require a login or registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:05.719499Z",
+    "generated_at": "2025-08-04T19:14:43.230266Z",
     "env": "development",
     "source": "justarrived-generator"
   }

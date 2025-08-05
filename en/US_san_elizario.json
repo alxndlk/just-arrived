@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Abraham Gonzalez International",
+      "iata_code": "CJS",
+      "icao_code": "MMCS",
+      "distance_km": 17.5,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Ojinaga",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Abraham Gonzalez International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Abraham Gonzalez International Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/ciudad-juarez.html",
+      "wifi": {
+        "available": true,
+        "network_name": "CJS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Paso International Airport",
+      "iata_code": "ELP",
+      "icao_code": "KELP",
+      "distance_km": 27.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Paso International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at El Paso International Airport serves all domestic flights for Southwest Airlines."
+        }
+      ],
+      "website": "https://www.elpasointernationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ELP Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Biggs AAF",
+      "iata_code": "BIF",
+      "icao_code": "KBIF",
+      "distance_km": 28.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biggs AAF Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Biggs AAF Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.biggsaafairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BiggsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:11.241325Z",
+    "generated_at": "2025-08-04T19:26:47.468094Z",
     "env": "development",
     "source": "justarrived-generator"
   }

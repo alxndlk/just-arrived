@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "El Eden",
+      "iata_code": "AXM",
+      "icao_code": "SKAR",
+      "distance_km": 30.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ibague",
+      "iata_code": "IBE",
+      "icao_code": "SKIB",
+      "distance_km": 40.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibague Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibague Airport is used for the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.aeropuertodeibague.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibague Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:12.921744Z",
+    "generated_at": "2025-08-04T20:17:31.714896Z",
     "env": "development",
     "source": "justarrived-generator"
   }

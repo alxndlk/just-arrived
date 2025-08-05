@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 35.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights operated by various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights operated by select airlines."
+        }
+      ],
+      "website": "https://www.itami-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM-Free-WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:39.482146Z",
+    "generated_at": "2025-08-04T18:22:38.367165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

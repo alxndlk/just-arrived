@@ -48,8 +48,117 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beverly Municipal Airport",
+      "iata_code": "BVY",
+      "icao_code": "KBVY",
+      "distance_km": 12.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 18.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The original terminal at Logan International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal at Logan International Airport, serving mostly domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal at Logan International Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal E",
+          "description": "The international terminal at Logan International Airport, serving international flights from non-US airlines."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Logan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a new login every 45 minutes."
+      }
+    },
+    {
+      "airport_name": "Lawrence",
+      "iata_code": "LWM",
+      "icao_code": "KLWM",
+      "distance_km": 21.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hanscom Field",
+      "iata_code": "BED",
+      "icao_code": "KBED",
+      "distance_km": 21.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes check-in counters, security checkpoints, and departure gates."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights, providing services such as customs and immigration clearance, aircraft maintenance, and fueling."
+        }
+      ],
+      "website": "https://www.massport.com/hanscom-field/",
+      "wifi": {
+        "available": true,
+        "network_name": "HanscomFieldWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boire Field",
+      "iata_code": "ASH",
+      "icao_code": "KASH",
+      "distance_km": 47.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boire Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Boire Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.boirefieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boire Field Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:17.769275Z",
+    "generated_at": "2025-08-04T20:23:29.331072Z",
     "env": "development",
     "source": "justarrived-generator"
   }

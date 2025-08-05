@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Alamos",
+      "iata_code": "LAM",
+      "icao_code": "KLAM",
+      "distance_km": 26.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Los Alamos Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Los Alamos Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flylosalamos.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LAM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Santa Fe",
+      "iata_code": "SAF",
+      "icao_code": "KSAF",
+      "distance_km": 43.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Fe Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.santafeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantaFeAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:45.033069Z",
+    "generated_at": "2025-08-04T19:24:45.491680Z",
     "env": "development",
     "source": "justarrived-generator"
   }

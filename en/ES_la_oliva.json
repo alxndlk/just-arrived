@@ -51,8 +51,47 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fuerteventura",
+      "iata_code": "FUE",
+      "icao_code": "GCFV",
+      "distance_km": 18.7,
+      "gmt": null,
+      "country": "Spain",
+      "timezone": "Atlantic/Canary",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lanzarote",
+      "iata_code": "ACE",
+      "icao_code": "GCRR",
+      "distance_km": 48.9,
+      "gmt": null,
+      "country": "Spain",
+      "timezone": "Atlantic/Canary",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lanzarote Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lanzarote Airport, mainly used for charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/lanzarote-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Lanzarote Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:28.482055Z",
+    "generated_at": "2025-08-04T20:09:28.825131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

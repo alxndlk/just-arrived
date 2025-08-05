@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 19.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A separate terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.oberpfaffenhofen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 32.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fuerstenfeldbruck Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fuerstenfeldbruck Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.fuerstenfeldbruck-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fuerstenfeldbruck Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:44.190283Z",
+    "generated_at": "2025-08-04T19:27:54.692888Z",
     "env": "development",
     "source": "justarrived-generator"
   }

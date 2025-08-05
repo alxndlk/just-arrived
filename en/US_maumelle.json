@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adams Field Airport",
+      "iata_code": "LIT",
+      "icao_code": "KLIT",
+      "distance_km": 21.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Little Rock AFB",
+      "iata_code": "LRF",
+      "icao_code": "KLRF",
+      "distance_km": 23.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Little Rock AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Little Rock AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.littlerock.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRF Free WiFi",
+        "note": "WiFi is available throughout the airport, with no password required."
+      }
+    },
+    {
+      "airport_name": "Petit Jean Park",
+      "iata_code": "MPJ",
+      "icao_code": "KMPJ",
+      "distance_km": 44.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:17.494784Z",
+    "generated_at": "2025-08-04T20:15:34.606258Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "New River Valley",
+      "iata_code": "PSK",
+      "icao_code": "KPSK",
+      "distance_km": 10.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at New River Valley Airport serves all commercial flights and is equipped with modern amenities for passengers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at New River Valley Airport caters to private and charter flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.flypsk.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NewRiverValleyAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Virginia Tech",
+      "iata_code": "BCB",
+      "icao_code": "KBCB",
+      "distance_km": 17.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:26.960320Z",
+    "generated_at": "2025-08-04T20:18:31.128825Z",
     "env": "development",
     "source": "justarrived-generator"
   }

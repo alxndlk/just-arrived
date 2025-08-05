@@ -51,8 +51,60 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bourgas",
+      "iata_code": "BOJ",
+      "icao_code": "LBBG",
+      "distance_km": 35.8,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.bourgas-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jambol",
+      "iata_code": "JAM",
+      "icao_code": "LBIA",
+      "distance_km": 43.5,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jambol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.jambolairport.bg/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jambol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:42.278952Z",
+    "generated_at": "2025-08-04T18:51:41.109978Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bilbao",
+      "iata_code": "BIO",
+      "icao_code": "LEBB",
+      "distance_km": 16.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bilbao Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/bilbao-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Bilbao Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vitoria",
+      "iata_code": "VIT",
+      "icao_code": "LEVT",
+      "distance_km": 46.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vitoria Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vitoria Airport handles a large volume of freight and is equipped with state-of-the-art facilities."
+        }
+      ],
+      "website": "https://www.aena.es/en/vitoria-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vitoria Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:40.364686Z",
+    "generated_at": "2025-08-04T18:56:40.602115Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,85 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adnan Menderes Airport",
+      "iata_code": "ADB",
+      "icao_code": "LTBJ",
+      "distance_km": 42.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The main terminal for all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The terminal for all domestic flights within Turkey."
+        }
+      ],
+      "website": "http://www.adnanmenderesairport.com/en-EN/Pages/Main.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "ADB Airport Free Wifi",
+        "note": "Passengers can connect to the wifi network for free by providing their email address."
+      }
+    },
+    {
+      "airport_name": "Cigli AB",
+      "iata_code": "IGL",
+      "icao_code": "LTBL",
+      "distance_km": 44.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Cigli AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.cigliabairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CigliABAirportWiFi",
+        "note": "The WiFi network is free for all passengers and has good coverage throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Samos",
+      "iata_code": "SMI",
+      "icao_code": "LGSM",
+      "distance_km": 49.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Samos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.samos-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Samos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:49.394888Z",
+    "generated_at": "2025-08-04T18:35:47.137410Z",
     "env": "development",
     "source": "justarrived-generator"
   }

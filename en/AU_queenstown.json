@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Queenstown",
+      "iata_code": "UEE",
+      "icao_code": "YQNS",
+      "distance_km": 0.6,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Hobart",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Queenstown Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Queenstown Airport serves flights to and from smaller cities within Australia."
+        }
+      ],
+      "website": "https://www.queenstownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Queenstown Airport Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    },
+    {
+      "airport_name": "Strahan",
+      "iata_code": "SRN",
+      "icao_code": "YSRN",
+      "distance_km": 21.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Hobart",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Strahan Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.strahanairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Strahan Airport Wifi",
+        "note": "Wifi is available throughout the airport, free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:54.105355Z",
+    "generated_at": "2025-08-04T19:38:40.845848Z",
     "env": "development",
     "source": "justarrived-generator"
   }

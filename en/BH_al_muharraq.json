@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 2.3,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bahrain International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 25.6,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sakhir Air Base Airport offers a range of amenities and services for travelers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Sakhir Air Base Airport is used for military operations and personnel."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SakhirAirBaseWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 46.8,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at King Abdulaziz AB Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at King Abdulaziz AB Airport, primarily serving regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.jed-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:07.959905Z",
+    "generated_at": "2025-08-04T19:57:34.517395Z",
     "env": "development",
     "source": "justarrived-generator"
   }

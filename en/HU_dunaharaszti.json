@@ -51,8 +51,39 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Liszt Ferenc International",
+      "iata_code": "BUD",
+      "icao_code": "LHBP",
+      "distance_km": 15.9,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 2A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2B",
+          "description": "The secondary terminal for international flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "The terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.bud.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUD Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:46.232722Z",
+    "generated_at": "2025-08-04T18:49:47.647733Z",
     "env": "development",
     "source": "justarrived-generator"
   }

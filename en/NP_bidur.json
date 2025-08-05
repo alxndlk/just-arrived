@@ -50,8 +50,77 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tribhuvan International",
+      "iata_code": "KTM",
+      "icao_code": "VNKT",
+      "distance_km": 30.1,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Tribhuvan International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights within Nepal."
+        }
+      ],
+      "website": "https://www.tiairport.com.np/",
+      "wifi": {
+        "available": true,
+        "network_name": "TIA_WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited connection speeds."
+      }
+    },
+    {
+      "airport_name": "Manang",
+      "iata_code": "NGX",
+      "icao_code": "VNMA",
+      "distance_km": 30.5,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Manang Airport serves all domestic flights within Nepal."
+        }
+      ],
+      "website": "https://www.nepalairports.com.np/manang-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Manang Airport WiFi",
+        "note": "WiFi is available in the main terminal area."
+      }
+    },
+    {
+      "airport_name": "Gorkha",
+      "iata_code": "GKH",
+      "icao_code": "VNGK",
+      "distance_km": 47.6,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gorkha Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.gorkhaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gorkha Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:55.421115Z",
+    "generated_at": "2025-08-04T18:45:42.331893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

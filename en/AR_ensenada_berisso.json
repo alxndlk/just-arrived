@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Plata",
+      "iata_code": "LPG",
+      "icao_code": "SADL",
+      "distance_km": 7.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.aeropuertolaplata.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LPG Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:55.441087Z",
+    "generated_at": "2025-08-04T18:25:39.282916Z",
     "env": "development",
     "source": "justarrived-generator"
   }

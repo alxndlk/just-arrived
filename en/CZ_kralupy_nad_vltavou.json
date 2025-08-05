@@ -51,8 +51,35 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Prague Vaclav Havel Airport",
+      "iata_code": "PRG",
+      "icao_code": "LKPR",
+      "distance_km": 15.2,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and Schengen flights."
+        }
+      ],
+      "website": "https://www.prg.aero/en",
+      "wifi": {
+        "available": true,
+        "network_name": "PRG Free WiFi",
+        "note": "No registration required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:29.798695Z",
+    "generated_at": "2025-08-04T18:57:55.070739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

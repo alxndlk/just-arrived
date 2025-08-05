@@ -51,8 +51,47 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sarajevo",
+      "iata_code": "SJJ",
+      "icao_code": "LQSA",
+      "distance_km": 37.6,
+      "gmt": "1",
+      "country": "Bosnia and Herzegovina",
+      "timezone": "Europe/Sarajevo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tuzla International",
+      "iata_code": "TZL",
+      "icao_code": "LQTZ",
+      "distance_km": 40.8,
+      "gmt": "1",
+      "country": "Bosnia and Herzegovina",
+      "timezone": "Europe/Sarajevo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tuzla International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tuzla International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tuzla-airport.ba/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tuzla Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:32.503012Z",
+    "generated_at": "2025-08-04T20:31:26.047222Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 25.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Allegheny County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Allegheny County Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/allegheny-county-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "AGC_Free_WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Westmoreland County",
+      "iata_code": "LBE",
+      "icao_code": "KLBE",
+      "distance_km": 28.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Westmoreland County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Westmoreland County Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.flylbe.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "ndiana County Airport (Jimmy Stewart Field)",
+      "iata_code": "IDI",
+      "icao_code": "KIDI",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:54.580068Z",
+    "generated_at": "2025-08-04T20:14:30.512917Z",
     "env": "development",
     "source": "justarrived-generator"
   }

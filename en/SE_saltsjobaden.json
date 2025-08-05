@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bromma",
+      "iata_code": "BMA",
+      "icao_code": "ESSB",
+      "distance_km": 21.6,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bromma Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/bromma/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bromma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Arlanda",
+      "iata_code": "ARN",
+      "icao_code": "ESSA",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The newest and largest terminal for international flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/arlanda/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arlanda WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:04.521780Z",
+    "generated_at": "2025-08-04T19:30:43.307178Z",
     "env": "development",
     "source": "justarrived-generator"
   }

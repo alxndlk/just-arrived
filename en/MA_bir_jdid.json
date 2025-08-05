@@ -50,8 +50,60 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Anfa",
+      "iata_code": "CAS",
+      "icao_code": "GMMC",
+      "distance_km": 37.5,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Anfa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.anfaairport.ma/",
+      "wifi": {
+        "available": true,
+        "network_name": "Anfa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mohamed V",
+      "iata_code": "CMN",
+      "icao_code": "GMMN",
+      "distance_km": 38.4,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Mohamed V Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "http://www.onda.ma/en/Mohammed-V-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CMN Airport Wifi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:46.344258Z",
+    "generated_at": "2025-08-04T20:09:25.344720Z",
     "env": "development",
     "source": "justarrived-generator"
   }

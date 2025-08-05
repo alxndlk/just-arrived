@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Spangdahlem",
+      "iata_code": "SPM",
+      "icao_code": "ETAD",
+      "distance_km": 40.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Spangdahlem Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for military and cargo flights."
+        }
+      ],
+      "website": "https://www.spangdahlem.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Hahn",
+      "iata_code": "HHN",
+      "icao_code": "EDFH",
+      "distance_km": 42.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Hahn Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Frankfurt-Hahn Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.hahn-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hahn Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:03.109640Z",
+    "generated_at": "2025-08-04T18:55:55.174915Z",
     "env": "development",
     "source": "justarrived-generator"
   }

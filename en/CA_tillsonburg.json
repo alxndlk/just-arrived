@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "London International",
+      "iata_code": "YXU",
+      "icao_code": "CYXU",
+      "distance_km": 38.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at London International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at London International Airport handles freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.londonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "London Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pembroke Area Municipalcipal",
+      "iata_code": "YQS",
+      "icao_code": "CYQS",
+      "distance_km": 39.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:50.352593Z",
+    "generated_at": "2025-08-04T20:16:29.314313Z",
     "env": "development",
     "source": "justarrived-generator"
   }

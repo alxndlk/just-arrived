@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sonoma County",
+      "iata_code": "STS",
+      "icao_code": "KSTS",
+      "distance_km": 36.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sonoma County Airport serves all domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Sonoma County Airport serves all international flights."
+        }
+      ],
+      "website": "https://sonomacountyairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "STS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ukiah",
+      "iata_code": "UKI",
+      "icao_code": "KUKI",
+      "distance_km": 40.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ukiah Airport offers a small waiting area and a few amenities for travelers."
+        }
+      ],
+      "website": "https://www.ukiahairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ukiah Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited connectivity in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:25.714639Z",
+    "generated_at": "2025-08-04T19:33:56.290107Z",
     "env": "development",
     "source": "justarrived-generator"
   }

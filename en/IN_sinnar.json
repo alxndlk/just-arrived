@@ -51,8 +51,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gandhinagar Airport",
+      "iata_code": "ISK",
+      "icao_code": "VANR",
+      "distance_km": 23.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Shirdi Airport",
+      "iata_code": "SAG",
+      "icao_code": "VASD",
+      "distance_km": 43.5,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.shirdiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Shirdi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:34.144860Z",
+    "generated_at": "2025-08-04T20:01:33.633592Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ube",
+      "iata_code": "UBJ",
+      "icao_code": "RJDC",
+      "distance_km": 49.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ube Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ube Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ube-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ube Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:48.968029Z",
+    "generated_at": "2025-08-04T18:39:53.722335Z",
     "env": "development",
     "source": "justarrived-generator"
   }

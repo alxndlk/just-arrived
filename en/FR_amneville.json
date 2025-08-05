@@ -51,8 +51,64 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Metz-nancy-lorraine",
+      "iata_code": "ETZ",
+      "icao_code": "LFJL",
+      "distance_km": 32.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Metz-nancy-lorraine Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Metz-nancy-lorraine Airport, mainly used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.metz-nancy-lorraine-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MetzNancyLorraineAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 41.4,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Findel Airport, primarily used for low-cost airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A new terminal at Findel Airport, currently under construction and expected to open in 2023."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:30.265140Z",
+    "generated_at": "2025-08-04T19:22:49.739381Z",
     "env": "development",
     "source": "justarrived-generator"
   }

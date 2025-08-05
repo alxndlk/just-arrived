@@ -47,8 +47,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "E. T. Joshua",
+      "iata_code": "SVD",
+      "icao_code": "TVSV",
+      "distance_km": 2.1,
+      "gmt": "-4",
+      "country": "Saint Vincent and the Grenadines",
+      "timezone": "America/St_Vincent",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "J. F. Mitchell",
+      "iata_code": "BQU",
+      "icao_code": "TVSB",
+      "distance_km": 19.5,
+      "gmt": "-4",
+      "country": "Saint Vincent and the Grenadines",
+      "timezone": "America/St_Vincent",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at J. F. Mitchell Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at J. F. Mitchell Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.svg-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JFM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mustique",
+      "iata_code": "MQS",
+      "icao_code": "TVSM",
+      "distance_km": 30.3,
+      "gmt": "-4",
+      "country": "Saint Vincent and the Grenadines",
+      "timezone": "America/St_Vincent",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:30.383057Z",
+    "generated_at": "2025-08-04T20:23:30.599202Z",
     "env": "development",
     "source": "justarrived-generator"
   }

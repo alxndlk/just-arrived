@@ -51,8 +51,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Andravida",
+      "iata_code": "PYR",
+      "icao_code": "LGAD",
+      "distance_km": 3.5,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Andravida Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Andravida Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.andravida-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Andravida Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zakinthos International Airport",
+      "iata_code": "ZTH",
+      "icao_code": "LGZA",
+      "distance_km": 49.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zakinthos International Airport offers a variety of services and facilities for travelers."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Zakinthos International Airport provides exclusive services for VIP travelers."
+        }
+      ],
+      "website": "https://www.zth-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZTH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:34.923094Z",
+    "generated_at": "2025-08-04T18:31:43.982327Z",
     "env": "development",
     "source": "justarrived-generator"
   }

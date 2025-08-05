@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Daviess County",
+      "iata_code": "OWB",
+      "icao_code": "KOWB",
+      "distance_km": 4.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Daviess County Airport houses all the necessary facilities for passengers including check-in counters, baggage claim, and boarding gates."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.owb.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "OWB_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport with no time limit."
+      }
+    },
+    {
+      "airport_name": "Evansville Regional Airport",
+      "iata_code": "EVV",
+      "icao_code": "KEVV",
+      "distance_km": 48.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Evansville Regional Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Evansville Regional Airport serves all private and charter flights and offers a variety of services for pilots and passengers."
+        }
+      ],
+      "website": "https://flyevv.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EVV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:56.056899Z",
+    "generated_at": "2025-08-04T18:21:48.722401Z",
     "env": "development",
     "source": "justarrived-generator"
   }

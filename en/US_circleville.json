@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rickenbacker",
+      "iata_code": "LCK",
+      "icao_code": "KLCK",
+      "distance_km": 23.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Port Columbus International",
+      "iata_code": "CMH",
+      "icao_code": "KCMH",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Columbus International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Port Columbus International Airport serves primarily Delta and Southwest Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Port Columbus International Airport serves primarily American Airlines and United Airlines."
+        }
+      ],
+      "website": "https://flycolumbus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:27.994395Z",
+    "generated_at": "2025-08-04T20:21:31.652122Z",
     "env": "development",
     "source": "justarrived-generator"
   }

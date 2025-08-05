@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 11.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 19.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gary/Chicago International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gary/Chicago International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.garychicagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GYY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Porter County",
+      "iata_code": "VPZ",
+      "icao_code": "KVPZ",
+      "distance_km": 38.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Porter County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Porter County Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flyvpz.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PorterCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 44.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Used for international flights."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:16.530682Z",
+    "generated_at": "2025-08-04T20:13:35.742367Z",
     "env": "development",
     "source": "justarrived-generator"
   }

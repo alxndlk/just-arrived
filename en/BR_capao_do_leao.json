@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Federal",
+      "iata_code": "PET",
+      "icao_code": "SBPK",
+      "distance_km": 15.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.federalairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "Federal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rio Grande",
+      "iata_code": "RIG",
+      "icao_code": "SBRG",
+      "distance_km": 46.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.riograndeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:16.724163Z",
+    "generated_at": "2025-08-04T18:45:50.872892Z",
     "env": "development",
     "source": "justarrived-generator"
   }

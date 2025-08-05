@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal of Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal primarily used for low-cost airlines and charter flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly built terminal dedicated to cargo and freight operations."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Bitburg Air Base",
+      "iata_code": "BBJ",
+      "icao_code": "EDAB",
+      "distance_km": 30.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bitburg Air Base Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bitburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bitburg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Spangdahlem",
+      "iata_code": "SPM",
+      "icao_code": "ETAD",
+      "distance_km": 44.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.spangdahlem.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:01.205262Z",
+    "generated_at": "2025-08-04T18:58:42.692640Z",
     "env": "development",
     "source": "justarrived-generator"
   }

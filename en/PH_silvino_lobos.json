@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "National",
+      "iata_code": "CRM",
+      "icao_code": "RPVF",
+      "distance_km": 33.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for international flights."
+        }
+      ],
+      "website": "https://www.clarkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Clark Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Calbayog",
+      "iata_code": "CYP",
+      "icao_code": "RPVC",
+      "distance_km": 43.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Calbayog Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.caap.gov.ph/calbayog-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Calbayog Airport Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:46.779378Z",
+    "generated_at": "2025-08-04T19:06:49.216118Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pinheiro",
+      "iata_code": "PHI",
+      "icao_code": "SNYE",
+      "distance_km": 34.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Fortaleza",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Pinheiro Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights within Brazil."
+        }
+      ],
+      "website": "https://www.pinheiroairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "Pinheiro Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guimaraes",
+      "iata_code": "GMS",
+      "icao_code": "SNGM",
+      "distance_km": 34.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Fortaleza",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://guimaraesairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Guimaraes Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:38.476225Z",
+    "generated_at": "2025-08-04T18:56:40.278653Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dnepropetrovsk",
+      "iata_code": "DNK",
+      "icao_code": "UKDD",
+      "distance_km": 25.2,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://dnk.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "DNK Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:37.329872Z",
+    "generated_at": "2025-08-04T19:05:47.358159Z",
     "env": "development",
     "source": "justarrived-generator"
   }

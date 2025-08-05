@@ -50,8 +50,47 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hat Yai",
+      "iata_code": "HDY",
+      "icao_code": "VTSS",
+      "distance_km": 8.8,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.hatyaiairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hat Yai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Songkhla",
+      "iata_code": "SGZ",
+      "icao_code": "VTSH",
+      "distance_km": 30.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:55.394269Z",
+    "generated_at": "2025-08-04T20:12:33.464963Z",
     "env": "development",
     "source": "justarrived-generator"
   }

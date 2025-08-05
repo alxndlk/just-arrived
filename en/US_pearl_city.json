@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 9.3,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Honolulu International Airport serves both international and domestic flights."
+        },
+        {
+          "name": "Inter-Island Terminal",
+          "description": "The inter-island terminal at Honolulu International Airport serves flights to other islands in Hawaii."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 20.2,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Kaneohe Bay MCAS Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.mcbbutler.marines.mil/Base-Information/Passenger-Terminal/",
+      "wifi": {
+        "available": true,
+        "network_name": "KaneoheBayMCASWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:43.215059Z",
+    "generated_at": "2025-08-04T20:04:31.636942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

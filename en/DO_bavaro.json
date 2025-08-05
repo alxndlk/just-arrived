@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Punta Cana International",
+      "iata_code": "PUJ",
+      "icao_code": "MDPC",
+      "distance_km": 19.4,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.puntacanainternationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PUJ Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:23.899093Z",
+    "generated_at": "2025-08-04T18:11:48.896779Z",
     "env": "development",
     "source": "justarrived-generator"
   }

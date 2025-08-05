@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Base Aerea De Santa Maria",
+      "iata_code": "RIA",
+      "icao_code": "SBSM",
+      "distance_km": 48.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.riaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIA Airport WiFi",
+        "note": "Free public WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:20.093237Z",
+    "generated_at": "2025-08-04T19:05:41.000177Z",
     "env": "development",
     "source": "justarrived-generator"
   }

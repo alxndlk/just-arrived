@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional",
+      "iata_code": "MCP",
+      "icao_code": "SBMQ",
+      "distance_km": 30.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Belem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.infraero.gov.br/en/aeroportos/aeroporto-de-macapa-internacional",
+      "wifi": {
+        "available": true,
+        "network_name": "MCP Free WiFi",
+        "note": "Limited to 1 hour per device per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:59.696154Z",
+    "generated_at": "2025-08-04T19:17:45.306620Z",
     "env": "development",
     "source": "justarrived-generator"
   }

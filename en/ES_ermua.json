@@ -51,8 +51,43 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bilbao",
+      "iata_code": "BIO",
+      "icao_code": "LEBB",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Vitoria",
+      "iata_code": "VIT",
+      "icao_code": "LEVT",
+      "distance_km": 39.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vitoria Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/vitoria-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vitoria Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:09.414093Z",
+    "generated_at": "2025-08-04T20:19:31.638001Z",
     "env": "development",
     "source": "justarrived-generator"
   }

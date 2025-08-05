@@ -48,8 +48,63 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moorabbin",
+      "iata_code": "MBW",
+      "icao_code": "YMMB",
+      "distance_km": 32.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Essendon",
+      "iata_code": "MEB",
+      "icao_code": "YMEN",
+      "distance_km": 43.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Melbourne - Tullamarine Airport",
+      "iata_code": "MEL",
+      "icao_code": "YMML",
+      "distance_km": 48.7,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for international flights."
+        }
+      ],
+      "website": "https://melbourneairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "MEL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:33.650562Z",
+    "generated_at": "2025-08-04T20:30:34.574733Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 24.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibaraki Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibaraki Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "https://ibaraki-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 32.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita International Airport, serving a variety of international airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A modern terminal with a spacious design, mainly used by Japan Airlines and its partners."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network for up to 3 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:20.692645Z",
+    "generated_at": "2025-08-04T18:30:42.358674Z",
     "env": "development",
     "source": "justarrived-generator"
   }

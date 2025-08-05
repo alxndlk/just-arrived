@@ -50,8 +50,64 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 13.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main and largest terminal at Ben Gurion International Airport, used for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A new terminal currently under construction, expected to open in 2022 and serve as the main terminal for low-cost carriers."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "BGIAirport",
+        "note": "Free wifi is available throughout the airport, but may require a code from the information desk."
+      }
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 23.8,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sde Dov Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Sde Dov Airport caters to high-profile and business travelers."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sdedov/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:25.684590Z",
+    "generated_at": "2025-08-04T18:12:50.375788Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tulsa International",
+      "iata_code": "TUL",
+      "icao_code": "KTUL",
+      "distance_km": 21.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tulsa International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Tulsa International Airport primarily serves domestic flights operated by American Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Tulsa International Airport primarily serves domestic flights operated by Delta Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Tulsa International Airport serves domestic flights operated by Southwest Airlines."
+        }
+      ],
+      "website": "https://www.tulsaairports.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TUL Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name may vary."
+      }
+    },
+    {
+      "airport_name": "R.Lloyd Jones",
+      "iata_code": "RVS",
+      "icao_code": "KRVS",
+      "distance_km": 24.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at R.Lloyd Jones Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at R.Lloyd Jones Airport caters to private and chartered flights, providing exclusive services and facilities for a luxurious travel experience."
+        }
+      ],
+      "website": "https://www.rljairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RLJ Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bartlesville",
+      "iata_code": "BVO",
+      "icao_code": "KBVO",
+      "distance_km": 43.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bartlesville Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.flybvo.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BVO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:34.551568Z",
+    "generated_at": "2025-08-04T19:36:44.862321Z",
     "env": "development",
     "source": "justarrived-generator"
   }

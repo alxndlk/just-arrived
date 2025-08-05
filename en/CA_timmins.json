@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Timmins",
+      "iata_code": "YTS",
+      "icao_code": "CYTS",
+      "distance_km": 11.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Timmins Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Timmins Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.timmins.ca/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Timmins Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:50.265763Z",
+    "generated_at": "2025-08-04T18:33:45.642362Z",
     "env": "development",
     "source": "justarrived-generator"
   }

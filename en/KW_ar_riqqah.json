@@ -49,8 +49,35 @@
     "ambulance": "777"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kuwait International",
+      "iata_code": "KWI",
+      "icao_code": "OKBK",
+      "distance_km": 16.5,
+      "gmt": "3",
+      "country": "Kuwait",
+      "timezone": "Asia/Kuwait",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic and regional flights."
+        }
+      ],
+      "website": "https://kuwaitairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kuwait Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:06.379643Z",
+    "generated_at": "2025-08-04T18:27:39.899991Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -106,8 +106,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Beijing Daxing International Airport",
+      "iata_code": "PKX",
+      "icao_code": "ZBAD",
+      "distance_km": 23.6,
+      "gmt": null,
+      "country": "Beijing",
+      "timezone": "+8",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beijing Daxing International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Beijing Daxing International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.bdia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "BDIA-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nanyuan Airport",
+      "iata_code": "NAY",
+      "icao_code": "ZBBB",
+      "distance_km": 37.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanyuan Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nanyuan Airport, used for domestic flights only."
+        }
+      ],
+      "website": "https://www.bcia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:31:39.654662Z",
+    "generated_at": "2025-08-04T19:56:25.568296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eglin AFB",
+      "iata_code": "VPS",
+      "icao_code": "KVPS",
+      "distance_km": 13.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eglin AFB Airport offers domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Eglin AFB Airport serves military personnel and their families."
+        }
+      ],
+      "website": "https://www.eglin.af.mil/Home/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eglin_AFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bob Sikes",
+      "iata_code": "CEW",
+      "icao_code": "KCEW",
+      "distance_km": 42.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:54.868360Z",
+    "generated_at": "2025-08-04T20:21:33.590186Z",
     "env": "development",
     "source": "justarrived-generator"
   }

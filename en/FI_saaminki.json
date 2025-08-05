@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Savonlinna",
+      "iata_code": "SVL",
+      "icao_code": "EFSA",
+      "distance_km": 9.9,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Savonlinna Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Savonlinna Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/savonlinna-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Savonlinna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:31.494164Z",
+    "generated_at": "2025-08-04T19:18:48.691790Z",
     "env": "development",
     "source": "justarrived-generator"
   }

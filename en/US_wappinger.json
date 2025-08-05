@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dutchess County",
+      "iata_code": "POU",
+      "icao_code": "KPOU",
+      "distance_km": 4.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Stewart",
+      "iata_code": "SWF",
+      "icao_code": "KSWF",
+      "distance_km": 20.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 32.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orange County Airport provides access to domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Orange County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.ocairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Danbury Municipal Airport",
+      "iata_code": "DXR",
+      "icao_code": "KDXR",
+      "distance_km": 43.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Danbury Municipal Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.danburyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DXR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:07.831013Z",
+    "generated_at": "2025-08-04T20:09:35.576248Z",
     "env": "development",
     "source": "justarrived-generator"
   }

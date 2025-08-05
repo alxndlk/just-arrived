@@ -51,8 +51,35 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bourgas",
+      "iata_code": "BOJ",
+      "icao_code": "LBBG",
+      "distance_km": 31.6,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.bourgas-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bourgas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:12.103910Z",
+    "generated_at": "2025-08-04T18:44:49.078014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

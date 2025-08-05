@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vilnius",
+      "iata_code": "VNO",
+      "icao_code": "EYVI",
+      "distance_km": 42.9,
+      "gmt": "2",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.vilnius-airport.lt/",
+      "wifi": {
+        "available": true,
+        "network_name": "VNO-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kaunas",
+      "iata_code": "KUN",
+      "icao_code": "EYKA",
+      "distance_km": 49.3,
+      "gmt": "2",
+      "country": "Lithuania",
+      "timezone": "Europe/Vilnius",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaunas Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kaunas Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kaunas-airport.lt/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kaunas Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:16.088297Z",
+    "generated_at": "2025-08-04T19:18:45.220443Z",
     "env": "development",
     "source": "justarrived-generator"
   }

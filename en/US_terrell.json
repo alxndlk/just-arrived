@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Terrell Field",
+      "iata_code": "TRL",
+      "icao_code": "KTRL",
+      "distance_km": 1.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Terrell Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Terrell Field Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.terrellfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TerrellFieldWifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Majors Field",
+      "iata_code": "GVT",
+      "icao_code": "KGVT",
+      "distance_km": 42.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Majors Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights at Majors Field Airport."
+        }
+      ],
+      "website": "https://www.greenville-tx.org/217/Majors-Field-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Majors Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:53.810450Z",
+    "generated_at": "2025-08-04T18:57:43.251996Z",
     "env": "development",
     "source": "justarrived-generator"
   }

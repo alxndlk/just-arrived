@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mariquita",
+      "iata_code": "MQU",
+      "icao_code": "SKQU",
+      "distance_km": 35.6,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mariquita Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Mariquita Airport, used for domestic flights only."
+        }
+      ],
+      "website": "https://www.mariquitaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Mariquita Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting 'MQUWiFi' and entering the password provided by the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:52.114858Z",
+    "generated_at": "2025-08-04T18:33:45.604069Z",
     "env": "development",
     "source": "justarrived-generator"
   }

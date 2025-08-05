@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Landvetter",
+      "iata_code": "GOT",
+      "icao_code": "ESGG",
+      "distance_km": 9.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Landvetter Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/landvetter/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airport_Free_WiFi",
+        "note": "Limited to 3 hours per device, additional time can be purchased."
+      }
+    },
+    {
+      "airport_name": "Gothenburg City Airport",
+      "iata_code": "GSE",
+      "icao_code": "ESGP",
+      "distance_km": 21.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gothenburg City Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.goteborgcityairport.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "GSE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:15.398954Z",
+    "generated_at": "2025-08-04T19:05:40.670269Z",
     "env": "development",
     "source": "justarrived-generator"
   }

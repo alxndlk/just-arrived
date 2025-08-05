@@ -51,8 +51,60 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nyiregyhaza Airport",
+      "iata_code": "QEY",
+      "icao_code": "LHNY",
+      "distance_km": 39.7,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://nyiregyhazaairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nyiregyhaza Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Uzhgorod",
+      "iata_code": "UDJ",
+      "icao_code": "UKLU",
+      "distance_km": 47.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Uzhgorod",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://uzhgorod-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Uzhgorod Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:42.354340Z",
+    "generated_at": "2025-08-04T20:20:32.058743Z",
     "env": "development",
     "source": "justarrived-generator"
   }

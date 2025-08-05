@@ -51,8 +51,43 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Albenga",
+      "iata_code": "ALL",
+      "icao_code": "LIMG",
+      "distance_km": 37.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albenga Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.albengaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Albenga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:57.199616Z",
+    "generated_at": "2025-08-04T20:22:25.678244Z",
     "env": "development",
     "source": "justarrived-generator"
   }

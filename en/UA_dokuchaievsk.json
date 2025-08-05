@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Donetsk International Airport",
+      "iata_code": "DOK",
+      "icao_code": "UKCC",
+      "distance_km": 37.2,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Donetsk International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to handling low-cost and charter flights."
+        }
+      ],
+      "website": "https://dok.gov.ua/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DOK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:07.440303Z",
+    "generated_at": "2025-08-04T18:50:51.368081Z",
     "env": "development",
     "source": "justarrived-generator"
   }

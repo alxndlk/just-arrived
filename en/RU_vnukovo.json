@@ -51,8 +51,88 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vnukovo",
+      "iata_code": "VKO",
+      "icao_code": "UUWW",
+      "distance_km": 0.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal used for low-cost and charter flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal used for domestic and international flights."
+        }
+      ],
+      "website": "https://www.vnukovo.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VKO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ostafyevo International Airport",
+      "iata_code": "OSF",
+      "icao_code": "UUMO",
+      "distance_km": 17.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 41.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Domodedovo",
+      "iata_code": "DME",
+      "icao_code": "UUDD",
+      "distance_km": 44.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Domodedovo Terminal 1",
+          "description": "The main terminal at Domodedovo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Domodedovo Terminal 2",
+          "description": "A secondary terminal at Domodedovo Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.dme.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Domodedovo Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'DME-Free-WiFi' and following the instructions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:06.965766Z",
+    "generated_at": "2025-08-04T20:30:31.692653Z",
     "env": "development",
     "source": "justarrived-generator"
   }

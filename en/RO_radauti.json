@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salcea",
+      "iata_code": "SCV",
+      "icao_code": "LRSV",
+      "distance_km": 36.8,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Salcea Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Salcea Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.salceaairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Salcea Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chernovtsy",
+      "iata_code": "CWC",
+      "icao_code": "UKLN",
+      "distance_km": 47.3,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chernovtsy Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.chernovtsyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CWC Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:36.117760Z",
+    "generated_at": "2025-08-04T18:48:49.433052Z",
     "env": "development",
     "source": "justarrived-generator"
   }

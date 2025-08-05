@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Luxor",
+      "iata_code": "LXR",
+      "icao_code": "HELX",
+      "distance_km": 6.4,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.luxorairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Luxor Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:16.249562Z",
+    "generated_at": "2025-08-04T18:45:49.004707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

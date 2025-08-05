@@ -50,8 +50,60 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Slimane",
+      "iata_code": "GMD",
+      "icao_code": "GMMB",
+      "distance_km": 19.9,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Ben-Slimane-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BenSlimaneAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sale",
+      "iata_code": "RBA",
+      "icao_code": "GMME",
+      "distance_km": 46.6,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sale Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sale Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Rabat-Sale-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RBA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be obtained from information desks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:18.992131Z",
+    "generated_at": "2025-08-04T20:14:32.863718Z",
     "env": "development",
     "source": "justarrived-generator"
   }

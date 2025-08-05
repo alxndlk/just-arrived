@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sun Valley",
+      "iata_code": "SUN",
+      "icao_code": "KSUN",
+      "distance_km": 0.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sun Valley Airport serves all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sun Valley Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.sunvalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SunValleyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:23.722655Z",
+    "generated_at": "2025-08-04T19:30:49.207283Z",
     "env": "development",
     "source": "justarrived-generator"
   }

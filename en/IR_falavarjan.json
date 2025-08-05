@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Isfahan International",
+      "iata_code": "IFN",
+      "icao_code": "OIFM",
+      "distance_km": 40.2,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Isfahan International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Isfahan International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.isfahan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Isfahan Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "Hesa",
+      "iata_code": "IFH",
+      "icao_code": "OIFE",
+      "distance_km": 40.3,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hesa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "https://hesaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HesaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:09.803341Z",
+    "generated_at": "2025-08-04T18:35:50.760889Z",
     "env": "development",
     "source": "justarrived-generator"
   }

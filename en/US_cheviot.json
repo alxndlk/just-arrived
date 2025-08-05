@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cincinnati/Northern Kentucky",
+      "iata_code": "CVG",
+      "icao_code": "KCVG",
+      "distance_km": 12.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cincinnati/Northern Kentucky Airport houses all major airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Cincinnati/Northern Kentucky Airport is home to several regional airlines and offers a smaller, more intimate setting for travelers."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Cincinnati/Northern Kentucky Airport serves as the international terminal and offers a variety of international carriers for travelers."
+        }
+      ],
+      "website": "https://www.cvgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cincinnati Municipal-Lunken Field",
+      "iata_code": "LUK",
+      "icao_code": "KLUK",
+      "distance_km": 14.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:42.065455Z",
+    "generated_at": "2025-08-04T20:33:35.972466Z",
     "env": "development",
     "source": "justarrived-generator"
   }

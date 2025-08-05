@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Girardot",
+      "iata_code": "GIR",
+      "icao_code": "SKGI",
+      "distance_km": 1.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "http://www.aeropuertogirardot.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Girardot Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ibague",
+      "iata_code": "IBE",
+      "icao_code": "SKIB",
+      "distance_km": 40.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibague Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibague Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ibagueairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibague Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:43.498638Z",
+    "generated_at": "2025-08-04T18:42:44.295522Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Osh International Airport",
+      "iata_code": "OSS",
+      "icao_code": "UAFO",
+      "distance_km": 1.4,
+      "gmt": "6",
+      "country": "Kyrgyzstan",
+      "timezone": "Asia/Bishkek",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.oshairport.kg/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osh Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Andizhan",
+      "iata_code": "AZN",
+      "icao_code": "UTKA",
+      "distance_km": 44.4,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Andizhan Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.uzairways.com/en/flights/airports/andizhan-azn",
+      "wifi": {
+        "available": true,
+        "network_name": "Andizhan Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free after completing a short registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:38.820504Z",
+    "generated_at": "2025-08-04T19:17:40.772524Z",
     "env": "development",
     "source": "justarrived-generator"
   }

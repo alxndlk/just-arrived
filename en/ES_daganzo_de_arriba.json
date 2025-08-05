@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 12.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "A separate terminal for military flights and personnel."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 12.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and newest terminal at Barajas Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Barajas Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal at Barajas Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal at Barajas Airport, serving a large number of international and domestic flights."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, mainly used for long-haul international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/madrid-barajas-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited to certain areas and have a time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:39.108896Z",
+    "generated_at": "2025-08-04T19:23:50.416999Z",
     "env": "development",
     "source": "justarrived-generator"
   }

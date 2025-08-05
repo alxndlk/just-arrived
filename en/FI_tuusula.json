@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Helsinki-vantaa",
+      "iata_code": "HEL",
+      "icao_code": "EFHK",
+      "distance_km": 13.6,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Helsinki-vantaa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Helsinki-vantaa Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/helsinki-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Helsinki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration or a code after a certain amount of time."
+      }
+    },
+    {
+      "airport_name": "Helsinki-malmi",
+      "iata_code": "HEM",
+      "icao_code": "EFHF",
+      "distance_km": 20.4,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Helsinki-malmi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/airports/helsinki-malmi",
+      "wifi": {
+        "available": true,
+        "network_name": "Helsinki-malmi Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hyvinkaa",
+      "iata_code": "HYV",
+      "icao_code": "EFHV",
+      "distance_km": 26.2,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.hyvinkaaairport.fi/",
+      "wifi": {
+        "available": true,
+        "network_name": "HYV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:42.552268Z",
+    "generated_at": "2025-08-04T18:33:44.160967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

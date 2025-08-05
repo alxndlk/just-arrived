@@ -48,8 +48,113 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 18.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Washington Dulles International Airport serves as the primary hub for domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Washington Dulles International Airport is primarily used for domestic flights operated by United Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Washington Dulles International Airport serves as the primary hub for international flights, with airlines such as British Airways, Lufthansa, and Emirates operating out of this terminal."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dulles Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may require reconnection every 45 minutes."
+      }
+    },
+    {
+      "airport_name": "Warrenton–Fauquier Airport",
+      "iata_code": "HWY",
+      "icao_code": "KHWY",
+      "distance_km": 29.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 39.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ronald Reagan Washington National Airport handles all domestic flights and some international flights."
+        },
+        {
+          "name": "Terminal A",
+          "description": "Terminal A at Ronald Reagan Washington National Airport serves as the base for American Airlines and its regional partners."
+        },
+        {
+          "name": "Terminal B/C",
+          "description": "Terminal B/C at Ronald Reagan Washington National Airport is the largest terminal and serves a variety of airlines, including Delta, United, and JetBlue."
+        }
+      ],
+      "website": "https://www.flyreagan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'DCA Free WiFi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 47.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 47.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Montgomery County Airport handles all commercial and private flights."
+        }
+      ],
+      "website": "https://www.montgomerycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:18.428045Z",
+    "generated_at": "2025-08-04T20:16:31.105606Z",
     "env": "development",
     "source": "justarrived-generator"
   }

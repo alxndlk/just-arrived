@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Warrnambool",
+      "iata_code": "WMB",
+      "icao_code": "YWBL",
+      "distance_km": 10.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warrnambool Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.warrnamboolairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Warrnambool Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Spring Creek",
+      "iata_code": "SCG",
+      "icao_code": "YSPK",
+      "distance_km": 41.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Spring Creek Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Spring Creek Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.springcreekairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Spring Creek Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:31.288808Z",
+    "generated_at": "2025-08-04T18:42:41.087137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

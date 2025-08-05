@@ -50,8 +50,47 @@
     "police": "902"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "International Airport Chisinau",
+      "iata_code": "KIV",
+      "icao_code": "LUKK",
+      "distance_km": 24.4,
+      "gmt": "2",
+      "country": "Moldova",
+      "timezone": "Europe/Chisinau",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "International Airport Chisinau",
+      "iata_code": "RMO",
+      "icao_code": "LUKK",
+      "distance_km": 24.4,
+      "gmt": "2",
+      "country": "Moldova",
+      "timezone": "Europe/Chisinau",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights at Chisinau Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.airport.md/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chisinau Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:22.033869Z",
+    "generated_at": "2025-08-04T20:28:33.635418Z",
     "env": "development",
     "source": "justarrived-generator"
   }

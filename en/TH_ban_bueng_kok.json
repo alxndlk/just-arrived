@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Phitsanulok",
+      "iata_code": "PHS",
+      "icao_code": "VTPP",
+      "distance_km": 28.2,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.phitsanulokairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Phitsanulok Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:39.239182Z",
+    "generated_at": "2025-08-04T19:29:38.967578Z",
     "env": "development",
     "source": "justarrived-generator"
   }

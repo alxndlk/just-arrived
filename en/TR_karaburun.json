@@ -50,8 +50,56 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chios",
+      "iata_code": "JKH",
+      "icao_code": "LGHI",
+      "distance_km": 45.6,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chios Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.chiosairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chios Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mytilene International Airport",
+      "iata_code": "MJT",
+      "icao_code": "LGMT",
+      "distance_km": 47.6,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mytilene International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "A separate terminal for VIP passengers and private flights."
+        }
+      ],
+      "website": "https://www.mjt-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "MJTAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:48.237708Z",
+    "generated_at": "2025-08-04T19:16:47.214820Z",
     "env": "development",
     "source": "justarrived-generator"
   }

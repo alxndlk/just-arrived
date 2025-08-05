@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leon",
+      "iata_code": "LEN",
+      "icao_code": "LELN",
+      "distance_km": 6.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leon Airport handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/leon-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Leon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:09.354936Z",
+    "generated_at": "2025-08-04T18:13:36.993356Z",
     "env": "development",
     "source": "justarrived-generator"
   }

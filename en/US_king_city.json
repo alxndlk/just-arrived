@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mesa Del Rey",
+      "iata_code": "KIC",
+      "icao_code": "KKIC",
+      "distance_km": 0.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mesa Del Rey Airport"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights"
+        }
+      ],
+      "website": "https://www.mesadelreyairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MesaDelReyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:53.819427Z",
+    "generated_at": "2025-08-04T19:11:50.762811Z",
     "env": "development",
     "source": "justarrived-generator"
   }

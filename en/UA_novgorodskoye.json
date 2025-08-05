@@ -51,8 +51,47 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Donetsk International Airport",
+      "iata_code": "DOK",
+      "icao_code": "UKCC",
+      "distance_km": 28.4,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kramatorsk",
+      "iata_code": "KRQ",
+      "icao_code": "UKCK",
+      "distance_km": 45.7,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://kramatorskairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:19.605960Z",
+    "generated_at": "2025-08-04T20:30:33.220452Z",
     "env": "development",
     "source": "justarrived-generator"
   }

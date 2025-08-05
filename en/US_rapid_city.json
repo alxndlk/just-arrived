@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rapid City Regional Airport",
+      "iata_code": "RAP",
+      "icao_code": "KRAP",
+      "distance_km": 13.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rapid City Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Rapid City Regional Airport primarily serves domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Rapid City Regional Airport serves international flights."
+        }
+      ],
+      "website": "https://www.rapairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RAP-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:37.619489Z",
+    "generated_at": "2025-08-04T18:20:42.256427Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "National",
+      "iata_code": "CRM",
+      "icao_code": "RPVF",
+      "distance_km": 5.7,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.mactan-cebuairport.com.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mactan-Cebu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Calbayog",
+      "iata_code": "CYP",
+      "icao_code": "RPVC",
+      "distance_km": 48.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Calbayog Airport handles both domestic and international flights."
+        }
+      ],
+      "website": "https://calbayogairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Calbayog Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:30.217168Z",
+    "generated_at": "2025-08-04T20:17:28.742953Z",
     "env": "development",
     "source": "justarrived-generator"
   }

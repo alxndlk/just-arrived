@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 44.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at El Palomar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at El Palomar Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.elpalomarairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:38.859502Z",
+    "generated_at": "2025-08-04T18:14:52.748799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

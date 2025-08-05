@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "M. A. Grottag",
+      "iata_code": "TAR",
+      "icao_code": "LIBG",
+      "distance_km": 17.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight operations."
+        }
+      ],
+      "website": "https://www.magrottagairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAGrottagAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:28.928463Z",
+    "generated_at": "2025-08-04T19:13:53.642259Z",
     "env": "development",
     "source": "justarrived-generator"
   }

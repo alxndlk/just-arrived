@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biarritz Parme",
+      "iata_code": "BIQ",
+      "icao_code": "LFBZ",
+      "distance_km": 4.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biarritz Parme Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Biarritz Parme Airport offers exclusive services and amenities for premium travelers."
+        }
+      ],
+      "website": "https://www.biarritz.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Biarritz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Donostia - San Sebastian",
+      "iata_code": "EAS",
+      "icao_code": "LESO",
+      "distance_km": 29.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Donostia - San Sebastian Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/donostia-san-sebastian-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "EAS Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:13.909530Z",
+    "generated_at": "2025-08-04T18:28:41.787645Z",
     "env": "development",
     "source": "justarrived-generator"
   }

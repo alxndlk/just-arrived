@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jalapa",
+      "iata_code": "JAL",
+      "icao_code": "MMJA",
+      "distance_km": 21.3,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jalapa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Jalapa Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://jalapaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jalapa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:37.434914Z",
+    "generated_at": "2025-08-04T19:04:52.727802Z",
     "env": "development",
     "source": "justarrived-generator"
   }

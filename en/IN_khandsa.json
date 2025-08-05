@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 18.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Indira Gandhi International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Indira Gandhi International Airport, mainly used for international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The largest and busiest terminal at Indira Gandhi International Airport, used for both domestic and international flights."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGI Airport Free Wi-Fi",
+        "note": "Free Wi-Fi is available for up to 45 minutes per device."
+      }
+    },
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 46.7,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.hindonairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hindon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:46.347903Z",
+    "generated_at": "2025-08-04T20:29:37.508309Z",
     "env": "development",
     "source": "justarrived-generator"
   }

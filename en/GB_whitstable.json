@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Southend",
+      "iata_code": "SEN",
+      "icao_code": "EGMC",
+      "distance_km": 32.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Rochester",
+      "iata_code": "RCS",
+      "icao_code": "EGTO",
+      "distance_km": 36.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Rochester Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Rochester Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.rochesterairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Rochester Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "London Ashford International (Ferryfield)",
+      "iata_code": "LYX",
+      "icao_code": "EGMD",
+      "distance_km": 46.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at London Ashford International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lyx-airport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "LYX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:49.231016Z",
+    "generated_at": "2025-08-04T20:09:25.494126Z",
     "env": "development",
     "source": "justarrived-generator"
   }

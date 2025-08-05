@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 4.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 20.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport offers a variety of services and amenities for travelers, including restaurants, shops, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those flying in on private jets, Lakefront Airport also has a private terminal with luxurious lounges and concierge services."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, simply connect to the network and accept the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:19.810904Z",
+    "generated_at": "2025-08-04T20:22:37.070045Z",
     "env": "development",
     "source": "justarrived-generator"
   }

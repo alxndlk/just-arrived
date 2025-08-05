@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hokitika Airport",
+      "iata_code": "HKK",
+      "icao_code": "NZHK",
+      "distance_km": 1.4,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hokitika Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Hokitika Airport serves flights to and from smaller cities in New Zealand."
+        }
+      ],
+      "website": "https://www.hokitikaairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hokitika Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Greymouth",
+      "iata_code": "GMN",
+      "icao_code": "NZGM",
+      "distance_km": 35.3,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greymouth Airport serves domestic flights to and from various cities in New Zealand."
+        }
+      ],
+      "website": "https://www.westcoastairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Greymouth Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:30.382021Z",
+    "generated_at": "2025-08-04T19:37:57.893459Z",
     "env": "development",
     "source": "justarrived-generator"
   }

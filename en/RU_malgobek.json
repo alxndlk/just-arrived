@@ -51,8 +51,56 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sleptsovskaya",
+      "iata_code": "IGT",
+      "icao_code": "URMS",
+      "distance_km": 28.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sleptsovskaya Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sleptsovskaya Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://sleptsovskayaairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sleptsovskaya Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vladikavkaz",
+      "iata_code": "OGZ",
+      "icao_code": "URMO",
+      "distance_km": 35.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main and only terminal at Vladikavkaz Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.vladikavkazairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vladikavkaz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:55.218703Z",
+    "generated_at": "2025-08-04T18:35:43.235830Z",
     "env": "development",
     "source": "justarrived-generator"
   }

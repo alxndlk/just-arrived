@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Grenoble-isere Airport (St Geoirs)",
+      "iata_code": "GNB",
+      "icao_code": "LFLS",
+      "distance_km": 20.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chambery",
+      "iata_code": "CMF",
+      "icao_code": "LFLB",
+      "distance_km": 38.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.chambery-airport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Chambery Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Alpe D Huez",
+      "iata_code": "AHZ",
+      "icao_code": "LFHU",
+      "distance_km": 49.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Alpe D Huez Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Alpe D Huez Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.alpedhuezairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Alpe D Huez Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:20.510576Z",
+    "generated_at": "2025-08-04T20:13:36.089805Z",
     "env": "development",
     "source": "justarrived-generator"
   }

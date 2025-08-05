@@ -51,8 +51,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Philippos Airport",
+      "iata_code": "KZI",
+      "icao_code": "LGKZ",
+      "distance_km": 5.1,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Philippos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This is the secondary terminal of Philippos Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.philipposairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Philippos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aristoteles Airport",
+      "iata_code": "KSO",
+      "icao_code": "LGKA",
+      "distance_km": 46.3,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aristoteles Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Aristoteles Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aristotelesairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aristoteles Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:04.276241Z",
+    "generated_at": "2025-08-04T18:38:40.968490Z",
     "env": "development",
     "source": "justarrived-generator"
   }

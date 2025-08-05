@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Tancredo Neves International Airport",
+      "iata_code": "CNF",
+      "icao_code": "SBCF",
+      "distance_km": 34.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pampulha",
+      "iata_code": "PLU",
+      "icao_code": "SBBH",
+      "distance_km": 37.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Pampulha Airport, serving domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Pampulha Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "http://www.bh-airport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pampulha Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:04.764197Z",
+    "generated_at": "2025-08-04T19:56:32.260947Z",
     "env": "development",
     "source": "justarrived-generator"
   }

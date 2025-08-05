@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Luis",
+      "iata_code": "IPI",
+      "icao_code": "SKIP",
+      "distance_km": 26.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Luis Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.sanluisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanLuisAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tulcan",
+      "iata_code": "TUA",
+      "icao_code": "SETU",
+      "distance_km": 33.4,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tulcan Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.ecuador.com/airports/tulcan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tulcan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:49.433681Z",
+    "generated_at": "2025-08-04T18:33:45.899170Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hakodate",
+      "iata_code": "HKD",
+      "icao_code": "RJCH",
+      "distance_km": 14.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.hakodate-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hakodate Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:35.046904Z",
+    "generated_at": "2025-08-04T20:04:35.232166Z",
     "env": "development",
     "source": "justarrived-generator"
   }

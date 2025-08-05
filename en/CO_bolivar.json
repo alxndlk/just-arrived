@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Farfan",
+      "iata_code": "ULQ",
+      "icao_code": "SKUL",
+      "distance_km": 27.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Farfan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Farfan Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.farfanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Farfan Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Eden",
+      "iata_code": "AXM",
+      "icao_code": "SKAR",
+      "distance_km": 47.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at El Eden Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at El Eden Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "http://www.aeropuertopereira.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ElEdenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:08.280795Z",
+    "generated_at": "2025-08-04T20:25:31.503222Z",
     "env": "development",
     "source": "justarrived-generator"
   }

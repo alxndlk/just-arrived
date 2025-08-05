@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional",
+      "iata_code": "TBT",
+      "icao_code": "SBTT",
+      "distance_km": 19.2,
+      "gmt": "-4",
+      "country": "Brazil",
+      "timezone": "America/Manaus",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Internacional Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.internacionalairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Internacional Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gen. A.V. Cobo",
+      "iata_code": "LET",
+      "icao_code": "SKLT",
+      "distance_km": 22.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertoleticia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LET Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:12.755156Z",
+    "generated_at": "2025-08-04T18:35:51.055956Z",
     "env": "development",
     "source": "justarrived-generator"
   }

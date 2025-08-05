@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Osan AB",
+      "iata_code": "OSN",
+      "icao_code": "RKSO",
+      "distance_km": 32.0,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for military and cargo flights."
+        }
+      ],
+      "website": "https://www.osan.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osan Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free."
+      }
+    },
+    {
+      "airport_name": "Cheongju",
+      "iata_code": "CJJ",
+      "icao_code": "RKTU",
+      "distance_km": 32.5,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/cj",
+      "wifi": {
+        "available": true,
+        "network_name": "CJJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:35.988643Z",
+    "generated_at": "2025-08-04T18:05:45.510570Z",
     "env": "development",
     "source": "justarrived-generator"
   }

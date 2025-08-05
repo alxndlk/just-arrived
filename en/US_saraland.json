@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mobile Downtown",
+      "iata_code": "BFM",
+      "icao_code": "KBFM",
+      "distance_km": 22.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mobile Downtown Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Mobile Downtown Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.mobiledowntownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MobileDowntownWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mobile Regional Airport",
+      "iata_code": "MOB",
+      "icao_code": "KMOB",
+      "distance_km": 23.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mobile Regional Airport, serving all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "A concourse at Mobile Regional Airport, serving domestic flights for airlines such as American Airlines and Delta."
+        },
+        {
+          "name": "Concourse B",
+          "description": "A concourse at Mobile Regional Airport, serving domestic flights for airlines such as United and Southwest."
+        }
+      ],
+      "website": "https://www.mobairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MOB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:02.878279Z",
+    "generated_at": "2025-08-04T19:03:44.573986Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,64 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 20.1,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights operated by low-cost carriers."
+        }
+      ],
+      "website": "https://www.donmueangairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 43.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Suvarnabhumi International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Suvarnabhumi International Airport, primarily serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Suvarnabhumi International Airport, currently under construction and set to open in 2022."
+        }
+      ],
+      "website": "https://www.bangkokairportonline.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKK Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi for up to 2 hours by providing their passport information."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:46.881148Z",
+    "generated_at": "2025-08-04T19:31:54.719627Z",
     "env": "development",
     "source": "justarrived-generator"
   }

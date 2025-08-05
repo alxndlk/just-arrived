@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hatay",
+      "iata_code": "HTY",
+      "icao_code": "LTDA",
+      "distance_km": 15.4,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hatay Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.hatayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hatay Airport Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:39.110617Z",
+    "generated_at": "2025-08-04T19:12:40.049547Z",
     "env": "development",
     "source": "justarrived-generator"
   }

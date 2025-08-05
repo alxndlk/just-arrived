@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kjaerstad",
+      "iata_code": "MJF",
+      "icao_code": "ENMS",
+      "distance_km": 5.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kjaerstad Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kjaerstad Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.kjaerstadairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kjaerstad Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stokka",
+      "iata_code": "SSJ",
+      "icao_code": "ENST",
+      "distance_km": 35.7,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.stokkaairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stokka Airport Wifi",
+        "note": "Passengers can connect to the wifi for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:35.902152Z",
+    "generated_at": "2025-08-04T19:28:42.778562Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Piedmont Triad International",
+      "iata_code": "GSO",
+      "icao_code": "KGSO",
+      "distance_km": 35.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Piedmont Triad International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Piedmont Triad International Airport serves domestic flights operated by American Airlines and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Piedmont Triad International Airport serves domestic flights operated by United Airlines, Allegiant Air, and Frontier Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Piedmont Triad International Airport serves international flights operated by Air Canada and WestJet."
+        }
+      ],
+      "website": "https://flyfrompti.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "DAN",
+      "icao_code": "KDAN",
+      "distance_km": 40.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport is responsible for handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:52.185409Z",
+    "generated_at": "2025-08-04T19:08:43.270521Z",
     "env": "development",
     "source": "justarrived-generator"
   }

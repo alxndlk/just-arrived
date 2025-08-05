@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Comodoro Rivadavia",
+      "iata_code": "CRD",
+      "icao_code": "SAVC",
+      "distance_km": 17.1,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Catamarca",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.comodororivadaviaairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:58.237152Z",
+    "generated_at": "2025-08-04T19:32:51.160247Z",
     "env": "development",
     "source": "justarrived-generator"
   }

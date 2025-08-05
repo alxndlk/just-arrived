@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Batang",
+      "iata_code": "YUS",
+      "icao_code": "ZLYS",
+      "distance_km": 34.6,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Batang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.batangairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Batang Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free, but it may be slow during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:45.897461Z",
+    "generated_at": "2025-08-04T18:50:42.705132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

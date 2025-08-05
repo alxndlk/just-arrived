@@ -50,8 +50,81 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skien",
+      "iata_code": "SKE",
+      "icao_code": "ENSN",
+      "distance_km": 4.0,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skien Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skien Airport, handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.skienairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skien Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Sandefjord",
+      "iata_code": "TRF",
+      "icao_code": "ENTO",
+      "distance_km": 36.8,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sandefjord Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.torp.no/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRF Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Notodden",
+      "iata_code": "NTB",
+      "icao_code": "ENNO",
+      "distance_km": 45.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Notodden Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Notodden Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.notoddenairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Notodden Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:16.581164Z",
+    "generated_at": "2025-08-04T18:29:43.605615Z",
     "env": "development",
     "source": "justarrived-generator"
   }

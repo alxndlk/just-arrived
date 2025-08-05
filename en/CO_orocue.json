@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orocue",
+      "iata_code": "ORC",
+      "icao_code": "SKOE",
+      "distance_km": 11.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orocue Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Orocue Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.orocueairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Orocue Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Carimagua",
+      "iata_code": "CCO",
+      "icao_code": "SKCI",
+      "distance_km": 25.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/terminales-aereas/Paginas/aeropuerto-de-carimagua.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Carimagua Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:01.044597Z",
+    "generated_at": "2025-08-04T19:36:53.585367Z",
     "env": "development",
     "source": "justarrived-generator"
   }

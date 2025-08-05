@@ -51,8 +51,56 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Samos",
+      "iata_code": "SMI",
+      "icao_code": "LGSM",
+      "distance_km": 8.6,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Samos Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Samos Airport offers exclusive services for high-end travelers."
+        }
+      ],
+      "website": "https://www.samos-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Samos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leros",
+      "iata_code": "LRS",
+      "icao_code": "LGLE",
+      "distance_km": 31.1,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leros Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lerosairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Leros Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:21.057932Z",
+    "generated_at": "2025-08-04T19:15:41.275651Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ile d'Yeu",
+      "iata_code": "IDY",
+      "icao_code": "LFEY",
+      "distance_km": 26.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ile d'Yeu Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.ile-yeu.fr/en/transportation/airports/",
+      "wifi": {
+        "available": true,
+        "network_name": "IDY Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Talmont",
+      "iata_code": "LSO",
+      "icao_code": "LFOO",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Talmont Airport, serving all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A private terminal for exclusive use by private jet and charter flights."
+        }
+      ],
+      "website": "https://www.talmontairport.fr",
+      "wifi": {
+        "available": true,
+        "network_name": "TalmontAirportWiFi",
+        "note": "Free WiFi available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:23.565066Z",
+    "generated_at": "2025-08-04T19:34:48.534530Z",
     "env": "development",
     "source": "justarrived-generator"
   }

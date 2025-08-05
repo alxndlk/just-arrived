@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 14.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Salt Lake City International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Salt Lake City International Airport, primarily serving regional and low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Salt Lake City International Airport, dedicated to Delta Air Lines and its partners."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:18.664073Z",
+    "generated_at": "2025-08-04T18:26:45.797387Z",
     "env": "development",
     "source": "justarrived-generator"
   }

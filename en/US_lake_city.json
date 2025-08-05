@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake City",
+      "iata_code": "LCQ",
+      "icao_code": "KLCQ",
+      "distance_km": 14.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake City Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lake City Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.lakecityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LCQ Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:46.991905Z",
+    "generated_at": "2025-08-04T19:15:51.616140Z",
     "env": "development",
     "source": "justarrived-generator"
   }

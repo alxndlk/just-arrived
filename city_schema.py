@@ -1,11 +1,9 @@
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field, HttpUrl, field_validator
 from typing import List, Optional
 
 class CurrencyInfo(BaseModel):
     name: str
     symbol: str
-
-
 
 class Terminal(BaseModel):
     name: str
@@ -13,22 +11,33 @@ class Terminal(BaseModel):
 
 
 class WifiInfo(BaseModel):
-    available: bool
-    network_name: Optional[str]
-    note: Optional[str]
+    available: Optional[bool] = False
+    network_name: Optional[str] = None
+    note: Optional[str] = None
+
+    @field_validator('*', mode='before')
+    @classmethod
+    def allow_missing_fields(cls, v):
+        return v or None
+
 
 
 class Airport(BaseModel):
-    airport_name: str
-    iata_code: str
-    icao_code: str
-    distance_km: float
-    gmt: str
-    country: str
-    timezone: str
+    airport_name: Optional[str]
+    iata_code: Optional[str]
+    icao_code: Optional[str]
+    distance_km: Optional[float]
+    gmt: Optional[str]
+    country: Optional[str]
+    timezone: Optional[str]
     terminals: List[Terminal]
-    website: HttpUrl
-    wifi: WifiInfo
+    website: Optional[HttpUrl] = None
+    wifi: Optional[WifiInfo]
+
+    @field_validator('website', mode='before')
+    @classmethod
+    def allow_empty_website(cls, v):
+        return v or None
 
 
 class Hospital(BaseModel):
@@ -96,7 +105,6 @@ class DevCityData(BaseModel):
     welcome_message_title: Optional[str] = None
     welcome_message_body: Optional[str] = None
     welcome_message_image: Optional[HttpUrl] = None
-    airports: Optional[List[Airport]] = None
     hospitals: Optional[Hospitals] = None
     emergency_numbers: Optional[EmergencyNumbers] = None
     avg_prices: Optional[AvgPriceData] = None

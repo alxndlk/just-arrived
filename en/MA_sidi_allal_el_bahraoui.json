@@ -50,8 +50,47 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sale",
+      "iata_code": "RBA",
+      "icao_code": "GMME",
+      "distance_km": 31.1,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "NAF",
+      "iata_code": "NNA",
+      "icao_code": "GMMY",
+      "distance_km": 39.0,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at NAF Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at NAF Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.nafairport.ma/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:01.165579Z",
+    "generated_at": "2025-08-04T20:09:30.851355Z",
     "env": "development",
     "source": "justarrived-generator"
   }

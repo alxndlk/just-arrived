@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 12.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 41.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal primarily serves European and intercontinental flights for multiple airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal is dedicated to flights for SkyTeam alliance members."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "This terminal is mainly used for budget airlines and charter flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "This terminal is exclusively used by KLM and its partner airlines."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:34.638804Z",
+    "generated_at": "2025-08-04T20:02:35.344326Z",
     "env": "development",
     "source": "justarrived-generator"
   }

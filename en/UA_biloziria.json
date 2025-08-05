@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cherkassy",
+      "iata_code": "CKC",
+      "icao_code": "UKKE",
+      "distance_km": 14.6,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Cherkassy Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "http://cherkassyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cherkassy Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:57.327142Z",
+    "generated_at": "2025-08-04T19:36:49.808619Z",
     "env": "development",
     "source": "justarrived-generator"
   }

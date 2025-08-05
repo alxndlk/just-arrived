@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coal Harbour",
+      "iata_code": "CXH",
+      "icao_code": "CYHC",
+      "distance_km": 48.5,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Coal Harbour Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.coalharbourairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "CoalHarbourAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sechelt",
+      "iata_code": "YHS",
+      "icao_code": "CAP3",
+      "distance_km": 50.0,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sechelt Airport offers passenger check-in, baggage claim, and boarding gates for all flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sechelt Airport caters to private and chartered flights, with exclusive lounges and amenities for passengers."
+        }
+      ],
+      "website": "https://www.secheltairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sechelt Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal and private lounge areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:27.002534Z",
+    "generated_at": "2025-08-04T18:49:41.510299Z",
     "env": "development",
     "source": "justarrived-generator"
   }

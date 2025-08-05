@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leopoldina",
+      "iata_code": "LEP",
+      "icao_code": "SNDN",
+      "distance_km": 26.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Reg. da Zona da Mata",
+      "iata_code": "IZA",
+      "icao_code": "SDZY",
+      "distance_km": 39.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.zonadamataairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zona da Mata Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:27.137010Z",
+    "generated_at": "2025-08-04T20:21:31.754794Z",
     "env": "development",
     "source": "justarrived-generator"
   }

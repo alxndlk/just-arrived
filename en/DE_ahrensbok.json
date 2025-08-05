@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lübeck Blankensee",
+      "iata_code": "LBC",
+      "icao_code": "EDHL",
+      "distance_km": 24.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lübeck Blankensee Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.flughafen-luebeck.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBC Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Kiel-Holtenau",
+      "iata_code": "KEL",
+      "icao_code": "EDHK",
+      "distance_km": 49.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kiel-Holtenau Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kiel-Holtenau Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.kiel-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kiel-Holtenau Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:59.493113Z",
+    "generated_at": "2025-08-04T19:36:52.932219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charlotte Douglas",
+      "iata_code": "CLT",
+      "icao_code": "KCLT",
+      "distance_km": 37.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Charlotte Douglas Airport serves as the primary hub for all major airlines and houses a variety of restaurants and shops for travelers to enjoy."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Charlotte Douglas Airport is home to several airlines, including American Airlines, and offers amenities such as lounges and duty-free shopping."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Charlotte Douglas Airport serves as a secondary hub for American Airlines and features a variety of dining options and retail stores."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Charlotte Douglas Airport is primarily used by American Airlines and offers a variety of amenities, including a USO lounge for military personnel."
+        }
+      ],
+      "website": "https://www.cltairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLT Airport Wi-Fi",
+        "note": "Complimentary Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rock Hill",
+      "iata_code": "RKH",
+      "icao_code": "KUZA",
+      "distance_km": 46.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.rockhillairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RKH_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:47.653957Z",
+    "generated_at": "2025-08-04T19:19:51.436922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

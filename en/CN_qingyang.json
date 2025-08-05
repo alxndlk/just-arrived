@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jinjiang",
+      "iata_code": "JJN",
+      "icao_code": "ZSQZ",
+      "distance_km": 4.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.jinjiangairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JJN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Shang-Yi",
+      "iata_code": "KNH",
+      "icao_code": "RCBS",
+      "distance_km": 45.3,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:06.649975Z",
+    "generated_at": "2025-08-04T20:07:31.436545Z",
     "env": "development",
     "source": "justarrived-generator"
   }

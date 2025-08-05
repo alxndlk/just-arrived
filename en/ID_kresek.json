@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soekarno-Hatta International",
+      "iata_code": "CGK",
+      "icao_code": "WIII",
+      "distance_km": 30.5,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Soekarno-Hatta International Airport, serving domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Soekarno-Hatta International Airport, serving domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and most modern terminal at Soekarno-Hatta International Airport, serving domestic and international flights for various airlines."
+        }
+      ],
+      "website": "https://soekarnohatta-airport.co.id/",
+      "wifi": {
+        "available": true,
+        "network_name": "Soekarno-Hatta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and connectivity during peak hours."
+      }
+    },
+    {
+      "airport_name": "Pondok Cabe",
+      "iata_code": "PCB",
+      "icao_code": "WIHP",
+      "distance_km": 49.2,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Pondok Cabe Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Pondok Cabe Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.pondokcabeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pondok Cabe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:58.278749Z",
+    "generated_at": "2025-08-04T18:23:45.381792Z",
     "env": "development",
     "source": "justarrived-generator"
   }

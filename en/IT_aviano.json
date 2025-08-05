@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 3.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aviano Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportoverona.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "AVB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Airfield Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights at Airfield Airport."
+        }
+      ],
+      "website": "https://www.airfieldairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require a password from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:16.498503Z",
+    "generated_at": "2025-08-04T19:33:53.157073Z",
     "env": "development",
     "source": "justarrived-generator"
   }

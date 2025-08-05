@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Amalfi",
+      "iata_code": "AFI",
+      "icao_code": "SKAM",
+      "distance_km": 33.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Amalfi Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Amalfi Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.amalfiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Amalfi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Puerto Berrio",
+      "iata_code": "PBE",
+      "icao_code": "SKPR",
+      "distance_km": 47.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Puerto Berrio Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Puerto Berrio Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.puertoberrioairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBE Free WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:42.153166Z",
+    "generated_at": "2025-08-04T19:27:51.264748Z",
     "env": "development",
     "source": "justarrived-generator"
   }

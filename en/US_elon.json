@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Piedmont Triad International",
+      "iata_code": "GSO",
+      "icao_code": "KGSO",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Piedmont Triad International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse mainly serves domestic flights operated by American Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse mainly serves domestic flights operated by Delta and United Airlines."
+        }
+      ],
+      "website": "https://flyfrompti.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:39.832644Z",
+    "generated_at": "2025-08-04T19:20:39.929883Z",
     "env": "development",
     "source": "justarrived-generator"
   }

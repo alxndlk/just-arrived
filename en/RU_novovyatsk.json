@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kirov",
+      "iata_code": "KVX",
+      "icao_code": "USKK",
+      "distance_km": 20.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Volgograd",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kirov Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kirov Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kirovairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kirov Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:21.635740Z",
+    "generated_at": "2025-08-04T18:36:51.237702Z",
     "env": "development",
     "source": "justarrived-generator"
   }

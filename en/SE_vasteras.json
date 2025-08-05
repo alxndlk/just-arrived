@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vasteras/Hasslo",
+      "iata_code": "VST",
+      "icao_code": "ESOW",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.swedavia.com/vasteras/",
+      "wifi": {
+        "available": true,
+        "network_name": "VST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eskilstuna",
+      "iata_code": "EKT",
+      "icao_code": "ESSU",
+      "distance_km": 27.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eskilstuna Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.eskilstunaairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "EKT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:28.174335Z",
+    "generated_at": "2025-08-04T18:12:52.070388Z",
     "env": "development",
     "source": "justarrived-generator"
   }

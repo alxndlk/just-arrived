@@ -54,8 +54,60 @@
     "police": "104"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tocumen International",
+      "iata_code": "PTY",
+      "icao_code": "MPTO",
+      "distance_km": 31.1,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights, mainly used by Copa Airlines."
+        }
+      ],
+      "website": "https://www.tocumenpanama.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tocumen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paitilla-Marcos A. Gelabert",
+      "iata_code": "PAC",
+      "icao_code": "MPMG",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "Panama",
+      "timezone": "America/Panama",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paitilla-Marcos A. Gelabert Airport, serving both international and domestic flights."
+        }
+      ],
+      "website": "https://aeropuertointernacionalpaitilla.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Paitilla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:54.070284Z",
+    "generated_at": "2025-08-04T18:33:50.916881Z",
     "env": "development",
     "source": "justarrived-generator"
   }

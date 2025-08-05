@@ -51,8 +51,81 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "M. R. Štefánika",
+      "iata_code": "BTS",
+      "icao_code": "LZIB",
+      "distance_km": 33.3,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.bts.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fertoszentmiklos Meidl Airport",
+      "iata_code": "QEG",
+      "icao_code": "LHFM",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fertoszentmiklos Meidl Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.fertoszentmiklosmeidlairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fertoszentmiklos Meidl Airport WiFi",
+        "note": "WiFi is available throughout the airport, free of charge."
+      }
+    },
+    {
+      "airport_name": "Gyor-Per",
+      "iata_code": "QGY",
+      "icao_code": "LHPR",
+      "distance_km": 49.1,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://gyorperairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "GyorPerAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:01.995803Z",
+    "generated_at": "2025-08-04T20:07:30.943491Z",
     "env": "development",
     "source": "justarrived-generator"
   }

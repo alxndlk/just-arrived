@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Calgary International Airport",
+      "iata_code": "YYC",
+      "icao_code": "CYYC",
+      "distance_km": 32.5,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Calgary International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a satellite terminal connected to the main terminal, mainly used for domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a satellite terminal connected to the main terminal, mainly used for international flights."
+        }
+      ],
+      "website": "https://www.yyc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YYC Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'YYC Airport Free WiFi' and agreeing to the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:46.597932Z",
+    "generated_at": "2025-08-04T18:39:53.456103Z",
     "env": "development",
     "source": "justarrived-generator"
   }

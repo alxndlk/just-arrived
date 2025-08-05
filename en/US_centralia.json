@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Olympia",
+      "iata_code": "OLM",
+      "icao_code": "KOLM",
+      "distance_km": 28.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Olympia Airport handles all domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Olympia Airport handles all international flights."
+        }
+      ],
+      "website": "https://www.portolympia.com/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Olympia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Winlock",
+      "iata_code": "TDO",
+      "icao_code": "KTDO",
+      "distance_km": 33.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Winlock Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Winlock Airport caters to VIP and private charter flights."
+        }
+      ],
+      "website": "https://www.winlockairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Winlock Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:42.153590Z",
+    "generated_at": "2025-08-04T20:24:37.485336Z",
     "env": "development",
     "source": "justarrived-generator"
   }

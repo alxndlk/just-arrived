@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Granada",
+      "iata_code": "GRX",
+      "icao_code": "LEGR",
+      "distance_km": 13.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "This terminal is exclusively for VIP and business class passengers."
+        }
+      ],
+      "website": "https://www.aena.es/en/granada-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "GRX_Free_WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:40.755349Z",
+    "generated_at": "2025-08-04T19:18:52.815038Z",
     "env": "development",
     "source": "justarrived-generator"
   }

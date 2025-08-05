@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Blue Danube",
+      "iata_code": "LNZ",
+      "icao_code": "LOWL",
+      "distance_km": 20.5,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.linz-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlueDanubeAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:33.728073Z",
+    "generated_at": "2025-08-04T19:34:51.733173Z",
     "env": "development",
     "source": "justarrived-generator"
   }

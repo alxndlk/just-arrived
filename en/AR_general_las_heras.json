@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 39.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal mainly serves domestic flights within Argentina."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights to and from various countries."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/ezeiza",
+      "wifi": {
+        "available": true,
+        "network_name": "EZE Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    },
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 47.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at El Palomar Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at El Palomar Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/el-palomar",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:17.657876Z",
+    "generated_at": "2025-08-04T18:59:43.514734Z",
     "env": "development",
     "source": "justarrived-generator"
   }

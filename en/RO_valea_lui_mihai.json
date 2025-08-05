@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Debrecen",
+      "iata_code": "DEB",
+      "icao_code": "LHDC",
+      "distance_km": 32.5,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.debrecenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DEB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:06.100659Z",
+    "generated_at": "2025-08-04T19:33:48.746171Z",
     "env": "development",
     "source": "justarrived-generator"
   }

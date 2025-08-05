@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shreveport Downtown",
+      "iata_code": "DTN",
+      "icao_code": "KDTN",
+      "distance_km": 7.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shreveport Downtown Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Shreveport Downtown Airport caters to private and charter flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.shreveportdowntownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTN Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Shreveport Regional Airport",
+      "iata_code": "SHV",
+      "icao_code": "KSHV",
+      "distance_km": 16.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shreveport Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Shreveport Regional Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.flyshreveport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SHV Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for unlimited use."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:13.533119Z",
+    "generated_at": "2025-08-04T18:25:47.699153Z",
     "env": "development",
     "source": "justarrived-generator"
   }

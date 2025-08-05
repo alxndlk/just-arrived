@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiel-Holtenau",
+      "iata_code": "KEL",
+      "icao_code": "EDHK",
+      "distance_km": 4.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kiel-Holtenau Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.kiel-holtenau-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kiel-Holtenau Airport WiFi",
+        "note": "Passengers can connect for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 43.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rendsburg Schachtholm Airport serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated for handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.rendsburg-schachtholm-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "RS Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Schleswig-jagel",
+      "iata_code": "WBG",
+      "icao_code": "ETNS",
+      "distance_km": 45.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Schleswig-jagel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.schleswig-jagel-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJ-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:19.214810Z",
+    "generated_at": "2025-08-04T20:33:33.756311Z",
     "env": "development",
     "source": "justarrived-generator"
   }

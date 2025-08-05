@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Clair County International",
+      "iata_code": "PHN",
+      "icao_code": "KPHN",
+      "distance_km": 20.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sarnia",
+      "iata_code": "YZR",
+      "icao_code": "CYZR",
+      "distance_km": 24.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sarnia Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.sarniaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SarniaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chatham",
+      "iata_code": "XCM",
+      "icao_code": "CNZ3",
+      "distance_km": 44.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chatham Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.chathamairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chatham Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 48.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Selfridge ANGB Airport houses all commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is dedicated to military operations and houses various military aircraft."
+        }
+      ],
+      "website": "https://www.selfridge.ang.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Selfridge Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:30.005279Z",
+    "generated_at": "2025-08-04T20:20:35.853140Z",
     "env": "development",
     "source": "justarrived-generator"
   }

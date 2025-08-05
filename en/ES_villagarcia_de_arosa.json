@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vigo",
+      "iata_code": "VGO",
+      "icao_code": "LEVX",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vigo Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vigo Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aena.es/en/vigo-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vigo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Santiago De Compostela",
+      "iata_code": "SCQ",
+      "icao_code": "LEST",
+      "distance_km": 43.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Santiago De Compostela Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Santiago De Compostela Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.aena.es/en/santiago-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SCQ-Free-Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:05.473796Z",
+    "generated_at": "2025-08-04T18:35:49.451939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

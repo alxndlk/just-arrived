@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Necocli",
+      "iata_code": "NCI",
+      "icao_code": "SKNC",
+      "distance_km": 46.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Necocli Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.necocliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Necocli Airport WiFi",
+        "note": "WiFi is available throughout the terminal for all passengers."
+      }
+    },
+    {
+      "airport_name": "Gonzalo",
+      "iata_code": "TRB",
+      "icao_code": "SKTU",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations at the airport."
+        }
+      ],
+      "website": "https://www.trbairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:39.214569Z",
+    "generated_at": "2025-08-04T18:39:51.057828Z",
     "env": "development",
     "source": "justarrived-generator"
   }

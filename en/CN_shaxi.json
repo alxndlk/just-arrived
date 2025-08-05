@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhuhai Airport",
+      "iata_code": "ZUH",
+      "icao_code": "ZGUH",
+      "distance_km": 40.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Macau International",
+      "iata_code": "MFM",
+      "icao_code": "VMMC",
+      "distance_km": 46.9,
+      "gmt": "8",
+      "country": "Macao",
+      "timezone": "Asia/Macau",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Macau International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for budget airlines and regional flights."
+        }
+      ],
+      "website": "https://macau-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MFM_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slow during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:40.690738Z",
+    "generated_at": "2025-08-04T20:06:32.030048Z",
     "env": "development",
     "source": "justarrived-generator"
   }

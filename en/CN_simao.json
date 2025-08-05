@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Simao",
+      "iata_code": "SYM",
+      "icao_code": "ZPSM",
+      "distance_km": 2.4,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Simao Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Simao Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "http://www.simaoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Simao Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:08.914327Z",
+    "generated_at": "2025-08-04T19:39:40.563143Z",
     "env": "development",
     "source": "justarrived-generator"
   }

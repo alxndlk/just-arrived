@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niort",
+      "iata_code": "NIT",
+      "icao_code": "LFBN",
+      "distance_km": 39.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Niort Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.niort-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niort Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Biard",
+      "iata_code": "PIS",
+      "icao_code": "LFBI",
+      "distance_km": 42.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroport-poitiers-biard.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Biard Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:11.474473Z",
+    "generated_at": "2025-08-04T19:26:46.145111Z",
     "env": "development",
     "source": "justarrived-generator"
   }

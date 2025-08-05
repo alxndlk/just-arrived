@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ames",
+      "iata_code": "AMW",
+      "icao_code": "KAMW",
+      "distance_km": 3.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ames Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ames Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.amesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ames Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boone",
+      "iata_code": "BNW",
+      "icao_code": "KBNW",
+      "distance_km": 22.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Perry Municipal",
+      "iata_code": "PRO",
+      "icao_code": "KPRO",
+      "distance_km": 44.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:21.674714Z",
+    "generated_at": "2025-08-04T20:01:32.642050Z",
     "env": "development",
     "source": "justarrived-generator"
   }

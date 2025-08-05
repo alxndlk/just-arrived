@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ishigaki",
+      "iata_code": "ISG",
+      "icao_code": "ROIG",
+      "distance_km": 1.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Ishigaki Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.ishigaki-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ishigaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hateruma",
+      "iata_code": "HTR",
+      "icao_code": "RORH",
+      "distance_km": 48.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:16.160634Z",
+    "generated_at": "2025-08-04T20:04:25.140580Z",
     "env": "development",
     "source": "justarrived-generator"
   }

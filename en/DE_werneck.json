@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kitzingen",
+      "iata_code": "KZG",
+      "icao_code": "ETIN",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitzingen Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.kitzingen-airport.de",
+      "wifi": {
+        "available": true,
+        "network_name": "Kitzingen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Giebelstadt Army Air Field",
+      "iata_code": "GHF",
+      "icao_code": "ETEU",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Giebelstadt Army Air Field Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Giebelstadt Army Air Field Airport is exclusively for military personnel and their families."
+        }
+      ],
+      "website": "https://www.ramstein.af.mil/Units/86th-Airlift-Wing/Units/435th-Air-Ground-Operations-Wing/Units/435th-Contingency-Response-Group/",
+      "wifi": {
+        "available": true,
+        "network_name": "Giebelstadt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:29.830941Z",
+    "generated_at": "2025-08-04T20:29:31.485942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bhavnagar",
+      "iata_code": "BHU",
+      "icao_code": "VABV",
+      "distance_km": 34.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.bhavnagarairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "BHU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:32.641002Z",
+    "generated_at": "2025-08-04T19:04:50.129169Z",
     "env": "development",
     "source": "justarrived-generator"
   }

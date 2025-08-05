@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franca",
+      "iata_code": "FRC",
+      "icao_code": "SIMK",
+      "distance_km": 34.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Franca Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.francaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Franca Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:56.126597Z",
+    "generated_at": "2025-08-04T19:22:00.048735Z",
     "env": "development",
     "source": "justarrived-generator"
   }

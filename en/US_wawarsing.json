@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 29.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sullivan County International",
+      "iata_code": "MSV",
+      "icao_code": "KMSV",
+      "distance_km": 31.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Stewart",
+      "iata_code": "SWF",
+      "icao_code": "KSWF",
+      "distance_km": 38.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to cargo operations and includes facilities for storing and handling various types of goods."
+        }
+      ],
+      "website": "https://www.swfny.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SWF Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'SWF Free WiFi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Dutchess County",
+      "iata_code": "POU",
+      "icao_code": "KPOU",
+      "distance_km": 46.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dutchess County Airport offers a variety of services and amenities for travelers."
+        }
+      ],
+      "website": "https://www.dutchesscountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:12.002450Z",
+    "generated_at": "2025-08-04T20:24:25.614317Z",
     "env": "development",
     "source": "justarrived-generator"
   }

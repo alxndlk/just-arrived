@@ -51,8 +51,47 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Severodoneck",
+      "iata_code": "SEV",
+      "icao_code": "UKCS",
+      "distance_km": 37.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lugansk",
+      "iata_code": "VSG",
+      "icao_code": "UKCW",
+      "distance_km": 49.6,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://luganskairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugansk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:22.612284Z",
+    "generated_at": "2025-08-04T20:00:35.880775Z",
     "env": "development",
     "source": "justarrived-generator"
   }

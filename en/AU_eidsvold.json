@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gayndah",
+      "iata_code": "GAH",
+      "icao_code": "YGAY",
+      "distance_km": 36.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gayndah Airport serves all domestic flights and provides a small waiting area for passengers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gayndah Airport handles all freight and cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.gayndahairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gayndah Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free by requesting a password from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:38.370972Z",
+    "generated_at": "2025-08-04T19:38:55.621563Z",
     "env": "development",
     "source": "justarrived-generator"
   }

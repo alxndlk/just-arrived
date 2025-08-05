@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Apple Valley",
+      "iata_code": "APV",
+      "icao_code": "KAPV",
+      "distance_km": 40.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Apple Valley Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Apple Valley Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.applevalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AppleValleyAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Southern California Logistics",
+      "iata_code": "VCV",
+      "icao_code": "KVCV",
+      "distance_km": 43.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Southern California Logistics Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Southern California Logistics Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.scla.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCLA-WiFi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:05.968875Z",
+    "generated_at": "2025-08-04T18:47:40.739382Z",
     "env": "development",
     "source": "justarrived-generator"
   }

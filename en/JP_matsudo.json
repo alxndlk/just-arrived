@@ -106,8 +106,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 28.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Haneda Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/inter/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection every 3 hours."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 43.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita International Airport, serving mostly international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Narita International Airport, serving mostly domestic flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Narita International Airport, serving mostly low-cost carriers"
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 3-hour time limit per session"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:15.401921Z",
+    "generated_at": "2025-08-04T18:06:03.849940Z",
     "env": "development",
     "source": "justarrived-generator"
   }

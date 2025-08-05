@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sturup",
+      "iata_code": "MMX",
+      "icao_code": "ESMS",
+      "distance_km": 22.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sturup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sturup Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/malmo-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sturup Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal at Kastrup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for low-cost carriers and some international flights."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:37.958953Z",
+    "generated_at": "2025-08-04T18:32:42.773163Z",
     "env": "development",
     "source": "justarrived-generator"
   }

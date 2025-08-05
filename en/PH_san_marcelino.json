@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Subic Bay International",
+      "iata_code": "SFS",
+      "icao_code": "RPLB",
+      "distance_km": 24.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.subicbayinternationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFS Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Diosdado Macapagal International (Clark International)",
+      "iata_code": "CRK",
+      "icao_code": "RPLC",
+      "distance_km": 47.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://crkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRK Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:07.644549Z",
+    "generated_at": "2025-08-04T18:35:49.426492Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,39 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Istanbul Airport",
+      "iata_code": "IST",
+      "icao_code": "LTFM",
+      "distance_km": 29.9,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Istanbul Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal is dedicated to international flights, providing a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Istanbul Airport serves flights within Turkey, with a range of facilities and shops for passengers."
+        }
+      ],
+      "website": "https://www.istairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "IST Airport Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport, with a network name of 'IST Airport Free WiFi'."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:45.775762Z",
+    "generated_at": "2025-08-04T18:06:48.399988Z",
     "env": "development",
     "source": "justarrived-generator"
   }

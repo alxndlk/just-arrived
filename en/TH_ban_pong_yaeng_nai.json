@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chiang Mai International",
+      "iata_code": "CNX",
+      "icao_code": "VTCC",
+      "distance_km": 20.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chiang Mai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Chiang Mai International Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://chiangmaiairportonline.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CNX Airport Wifi",
+        "note": "Free wifi is available throughout the airport. However, the connection may be slow and unreliable at times."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:03.623828Z",
+    "generated_at": "2025-08-04T19:27:56.774736Z",
     "env": "development",
     "source": "justarrived-generator"
   }

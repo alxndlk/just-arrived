@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nizhnevartovsk",
+      "iata_code": "NJC",
+      "icao_code": "USNN",
+      "distance_km": 22.7,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.njc.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NJC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:23.002734Z",
+    "generated_at": "2025-08-04T18:28:43.288023Z",
     "env": "development",
     "source": "justarrived-generator"
   }

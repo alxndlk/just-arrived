@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Okayama",
+      "iata_code": "OKJ",
+      "icao_code": "RJOB",
+      "distance_km": 39.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.okayama-airport.org/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okayama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:46.569823Z",
+    "generated_at": "2025-08-04T18:35:39.638162Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,135 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 14.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 25.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Frankfurt International Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Free WiFi",
+        "note": "Free WiFi is available throughout the airport, with a time limit of 4 hours per device."
+      }
+    },
+    {
+      "airport_name": "Mannheim Airport",
+      "iata_code": "MHG",
+      "icao_code": "EDFM",
+      "distance_km": 44.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mannheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.mannheim-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mannheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Secondary terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.mainz-finthen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mainz Finthen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 45.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Air Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Air Base Airport is reserved for military personnel and their families."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:53.575081Z",
+    "generated_at": "2025-08-04T20:23:27.130404Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Smyrna",
+      "iata_code": "MQY",
+      "icao_code": "KMQY",
+      "distance_km": 15.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smyrna Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.flynashville.com/smyrna",
+      "wifi": {
+        "available": true,
+        "network_name": "Smyrna Airport Wifi",
+        "note": "Free wifi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Nashville International",
+      "iata_code": "BNA",
+      "icao_code": "KBNA",
+      "distance_km": 19.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nashville International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Nashville International Airport serves domestic flights for Air Canada, American Airlines, and Delta."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Nashville International Airport serves domestic flights for Alaska Airlines, JetBlue, Southwest, and United."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Nashville International Airport serves domestic flights for Allegiant, Frontier, and Spirit."
+        }
+      ],
+      "website": "https://www.flynashville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fly Nashville Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:52.091008Z",
+    "generated_at": "2025-08-04T19:08:43.041139Z",
     "env": "development",
     "source": "justarrived-generator"
   }

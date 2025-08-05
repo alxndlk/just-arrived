@@ -51,8 +51,47 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nyiregyhaza Airport",
+      "iata_code": "QEY",
+      "icao_code": "LHNY",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.nyiregyhazaairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nyiregyhaza Airport WiFi",
+        "note": "Password required for access."
+      }
+    },
+    {
+      "airport_name": "Barca",
+      "iata_code": "KSC",
+      "icao_code": "LZKZ",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:02.237961Z",
+    "generated_at": "2025-08-04T20:28:26.899913Z",
     "env": "development",
     "source": "justarrived-generator"
   }

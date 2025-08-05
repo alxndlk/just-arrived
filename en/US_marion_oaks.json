@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leesburg",
+      "iata_code": "LEE",
+      "icao_code": "KLEE",
+      "distance_km": 41.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leesburg Airport houses the check-in counters, security, and boarding gates for all flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Leesburg Airport is reserved for private and charter flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.leesburgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Leesburg Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:59.821434Z",
+    "generated_at": "2025-08-04T18:51:44.978122Z",
     "env": "development",
     "source": "justarrived-generator"
   }

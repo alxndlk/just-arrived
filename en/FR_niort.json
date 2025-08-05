@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niort",
+      "iata_code": "NIT",
+      "icao_code": "LFBN",
+      "distance_km": 1.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Niort Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Niort Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.niortairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niort Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:57.459925Z",
+    "generated_at": "2025-08-04T18:26:01.619016Z",
     "env": "development",
     "source": "justarrived-generator"
   }

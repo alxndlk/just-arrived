@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 20.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eindhoven Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Eindhoven Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Eindhoven Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kempen Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A dedicated terminal for private and charter flights at Kempen Airport."
+        }
+      ],
+      "website": "https://www.kempenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kempen Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Weeze",
+      "iata_code": "NRN",
+      "icao_code": "EDLV",
+      "distance_km": 41.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Weeze Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Weeze Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.weeze-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Weeze Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:51.555947Z",
+    "generated_at": "2025-08-04T20:06:28.093663Z",
     "env": "development",
     "source": "justarrived-generator"
   }

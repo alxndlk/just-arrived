@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Altenburg Nobitz",
+      "iata_code": "AOC",
+      "icao_code": "EDAC",
+      "distance_km": 11.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenburg Nobitz Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.altenburg-nobitz-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenburg Nobitz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wilmington Railway",
+      "iata_code": "ZWI",
+      "icao_code": "EDBI",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wilmington Railway Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wilmington Railway Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.wilmingtonrailwayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WRA Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:35.325970Z",
+    "generated_at": "2025-08-04T19:11:44.392270Z",
     "env": "development",
     "source": "justarrived-generator"
   }

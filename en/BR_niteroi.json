@@ -50,8 +50,72 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santos Dumont",
+      "iata_code": "SDU",
+      "icao_code": "SBRJ",
+      "distance_km": 7.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Santos Dumont Airport, serving domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Santos Dumont Airport, serving regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosantosdumont.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "SDU Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Galeao Antonio Carlos Jobim",
+      "iata_code": "GIG",
+      "icao_code": "SBGL",
+      "distance_km": 16.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Jacarepaguá–Roberto Marinho Airport",
+      "iata_code": "RRJ",
+      "icao_code": "SBJR",
+      "distance_km": 29.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.rrjairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RRJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:15.848010Z",
+    "generated_at": "2025-08-04T19:56:32.767787Z",
     "env": "development",
     "source": "justarrived-generator"
   }

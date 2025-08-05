@@ -51,8 +51,35 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Batajnica",
+      "iata_code": "BJY",
+      "icao_code": "LYBT",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "Serbia",
+      "timezone": "Europe/Belgrade",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.batajnica-airport.rs/",
+      "wifi": {
+        "available": true,
+        "network_name": "BJY Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:20.403749Z",
+    "generated_at": "2025-08-04T18:38:44.074695Z",
     "env": "development",
     "source": "justarrived-generator"
   }

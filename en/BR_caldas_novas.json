@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Caldas Novas",
+      "iata_code": "CLV",
+      "icao_code": "SBCN",
+      "distance_km": 1.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportodecaldasnovas.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CaldasNovasAirport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:41.411849Z",
+    "generated_at": "2025-08-04T18:19:44.111232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

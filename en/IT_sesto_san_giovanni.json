@@ -51,8 +51,59 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 8.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 39.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bergamo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 41.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:27.305107Z",
+    "generated_at": "2025-08-04T20:00:32.866016Z",
     "env": "development",
     "source": "justarrived-generator"
   }

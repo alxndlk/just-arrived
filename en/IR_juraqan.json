@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamadan",
+      "iata_code": "HDM",
+      "icao_code": "OIHS",
+      "distance_km": 2.6,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamadan Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "http://www.hamadanairport.ir/",
+      "wifi": {
+        "available": true,
+        "network_name": "HDM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:53.267140Z",
+    "generated_at": "2025-08-04T19:31:54.622727Z",
     "env": "development",
     "source": "justarrived-generator"
   }

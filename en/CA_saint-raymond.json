@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Québec",
+      "iata_code": "YQB",
+      "icao_code": "CYQB",
+      "distance_km": 36.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Québec Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Terminal A",
+          "description": "Terminal A at Québec Airport is used for domestic flights operated by Air Canada and WestJet."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at Québec Airport is used for international flights operated by airlines such as United, Delta, and Air France."
+        }
+      ],
+      "website": "https://www.aeroportdequebec.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Québec Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. Simply connect to the network and accept the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:10.080657Z",
+    "generated_at": "2025-08-04T19:29:50.500887Z",
     "env": "development",
     "source": "justarrived-generator"
   }

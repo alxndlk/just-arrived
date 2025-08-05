@@ -50,8 +50,47 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional Benito Juarez",
+      "iata_code": "MEX",
+      "icao_code": "MMMX",
+      "distance_km": 44.5,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hermanos Serdan International",
+      "iata_code": "PBC",
+      "icao_code": "MMPB",
+      "distance_km": 45.7,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertopuebla.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:56.880998Z",
+    "generated_at": "2025-08-04T20:33:27.105518Z",
     "env": "development",
     "source": "justarrived-generator"
   }

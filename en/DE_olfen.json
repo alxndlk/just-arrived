@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dortmund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 46.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.essen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stadtlohn Vreden Airport",
+      "iata_code": "QEV",
+      "icao_code": "EDLS",
+      "distance_km": 48.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stadtlohn Vreden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Stadtlohn Vreden Airport, handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.stadtlohn-vreden-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "SV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:48.151381Z",
+    "generated_at": "2025-08-04T20:22:35.229112Z",
     "env": "development",
     "source": "justarrived-generator"
   }

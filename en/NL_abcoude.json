@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 14.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Schiphol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Schiphol's secondary terminal, primarily used for European flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Schiphol Airport, dedicated to long-haul flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 4-hour time limit per device."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 26.2,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:34.040244Z",
+    "generated_at": "2025-08-04T20:33:30.045431Z",
     "env": "development",
     "source": "justarrived-generator"
   }

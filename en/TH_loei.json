@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Loei",
+      "iata_code": "LOE",
+      "icao_code": "VTUL",
+      "distance_km": 3.9,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Loei Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Loei Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.loei-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Loei Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:29.996982Z",
+    "generated_at": "2025-08-04T18:53:47.856760Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Labo",
+      "iata_code": "OZC",
+      "icao_code": "RPMO",
+      "distance_km": 18.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal for international flights."
+        }
+      ],
+      "website": "https://www.laboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Labo Airport Free WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Pagadian",
+      "iata_code": "PAG",
+      "icao_code": "RPMP",
+      "distance_km": 42.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pagadian Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.pagadianairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pagadian Airport Wifi",
+        "note": "Passengers can connect to the wifi network for free, but may experience slow speeds during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:58.330851Z",
+    "generated_at": "2025-08-04T18:47:59.200829Z",
     "env": "development",
     "source": "justarrived-generator"
   }

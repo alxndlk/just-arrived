@@ -50,8 +50,56 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Prado",
+      "iata_code": "PDF",
+      "icao_code": "SNRD",
+      "distance_km": 18.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Bahia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Prado Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.pradoairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Prado Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Caravelas",
+      "iata_code": "CRQ",
+      "icao_code": "SBCV",
+      "distance_km": 26.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Bahia",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Caravelas Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.caraavelasairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "CRQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:12.998627Z",
+    "generated_at": "2025-08-04T18:48:41.998029Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Larnaca",
+      "iata_code": "LCA",
+      "icao_code": "LCLK",
+      "distance_km": 8.6,
+      "gmt": "2",
+      "country": "Cyprus",
+      "timezone": "Asia/Nicosia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Larnaca Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.hermesairports.com/larnaka-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Larnaca Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ercan",
+      "iata_code": "ECN",
+      "icao_code": "LCEN",
+      "distance_km": 24.2,
+      "gmt": "2",
+      "country": "Cyprus",
+      "timezone": "Asia/Nicosia",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:28.482241Z",
+    "generated_at": "2025-08-04T20:15:35.448248Z",
     "env": "development",
     "source": "justarrived-generator"
   }

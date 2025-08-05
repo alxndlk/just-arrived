@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 13.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "This terminal serves all low-cost carriers."
+        }
+      ],
+      "website": "https://www.acairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACY Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by selecting the 'ACY Free WiFi' network."
+      }
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 49.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:35.712656Z",
+    "generated_at": "2025-08-04T20:06:26.787205Z",
     "env": "development",
     "source": "justarrived-generator"
   }

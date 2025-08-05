@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 18.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for mainly domestic flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/travellers-txl/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "TXL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin Brandenburg Airport",
+      "iata_code": "BER",
+      "icao_code": "EDDB",
+      "distance_km": 19.6,
+      "gmt": "+1",
+      "country": "Berlin",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Berlin Brandenburg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Berlin Brandenburg Airport, primarily serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "BER Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport, but may have to watch advertisements to connect."
+      }
+    },
+    {
+      "airport_name": "Berlin-Schoenefeld",
+      "iata_code": "SXF",
+      "icao_code": "EDDB",
+      "distance_km": 20.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "BER Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:09.485461Z",
+    "generated_at": "2025-08-04T19:03:49.499392Z",
     "env": "development",
     "source": "justarrived-generator"
   }

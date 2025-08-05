@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Severodoneck",
+      "iata_code": "SEV",
+      "icao_code": "UKCS",
+      "distance_km": 43.5,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://sevairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SEVAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:55.652324Z",
+    "generated_at": "2025-08-04T18:31:54.088280Z",
     "env": "development",
     "source": "justarrived-generator"
   }

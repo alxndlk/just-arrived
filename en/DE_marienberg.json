@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wilmington Railway",
+      "iata_code": "ZWI",
+      "icao_code": "EDBI",
+      "distance_km": 44.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.wilmingtonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wilmington Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:42.889109Z",
+    "generated_at": "2025-08-04T19:03:00.285919Z",
     "env": "development",
     "source": "justarrived-generator"
   }

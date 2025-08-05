@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "SBM",
+      "icao_code": "KSBM",
+      "distance_km": 10.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Memorial Airport serves both domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Memorial Airport is dedicated to regional and commuter flights."
+        }
+      ],
+      "website": "https://www.memorialairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Memorial Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MTW",
+      "icao_code": "KMTW",
+      "distance_km": 43.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:41.119475Z",
+    "generated_at": "2025-08-04T18:23:01.580002Z",
     "env": "development",
     "source": "justarrived-generator"
   }

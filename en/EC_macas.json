@@ -49,8 +49,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Macas",
+      "iata_code": "XMS",
+      "icao_code": "SEMC",
+      "distance_km": 5.6,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Macas Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/aeropuerto-de-macas/",
+      "wifi": {
+        "available": true,
+        "network_name": "Macas Airport Wifi",
+        "note": "Passengers can access free wifi throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Sucua",
+      "iata_code": "SUQ",
+      "icao_code": "SESC",
+      "distance_km": 11.7,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sucua Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sucua Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sucuaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Sucua Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:51.157249Z",
+    "generated_at": "2025-08-04T18:51:42.506314Z",
     "env": "development",
     "source": "justarrived-generator"
   }

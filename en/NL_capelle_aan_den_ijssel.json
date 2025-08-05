@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 10.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gilze-Rijen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://gilze-rijenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 43.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Schiphol Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Schiphol Airport, primarily serving low-cost carriers and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal at Schiphol Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 4-hour time limit per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:04.826658Z",
+    "generated_at": "2025-08-04T18:24:50.317463Z",
     "env": "development",
     "source": "justarrived-generator"
   }

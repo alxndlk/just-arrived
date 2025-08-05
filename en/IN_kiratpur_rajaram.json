@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Muzaffarpur",
+      "iata_code": "MZU",
+      "icao_code": "VEMZ",
+      "distance_km": 30.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Muzaffarpur Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Muzaffarpur Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.muzaffarpurairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MZU Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    },
+    {
+      "airport_name": "Patna",
+      "iata_code": "PAT",
+      "icao_code": "VEPT",
+      "distance_km": 35.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Patna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.patnaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Patna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:14.402037Z",
+    "generated_at": "2025-08-04T19:22:43.059085Z",
     "env": "development",
     "source": "justarrived-generator"
   }

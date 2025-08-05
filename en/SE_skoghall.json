@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Karlstad",
+      "iata_code": "KSD",
+      "icao_code": "ESOK",
+      "distance_km": 3.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Karlstad Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Karlstad Airport handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.karlstadairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Karlstad Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:58.159527Z",
+    "generated_at": "2025-08-04T19:12:46.517066Z",
     "env": "development",
     "source": "justarrived-generator"
   }

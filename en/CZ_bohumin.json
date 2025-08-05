@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mosnov",
+      "iata_code": "OSR",
+      "icao_code": "LKMT",
+      "distance_km": 28.7,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.airport-brno.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.qeoairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "QEO Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:33.566156Z",
+    "generated_at": "2025-08-04T20:14:34.023423Z",
     "env": "development",
     "source": "justarrived-generator"
   }

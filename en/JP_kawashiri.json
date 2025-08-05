@@ -106,8 +106,85 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 5.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Itami Airport, serving domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Itami Airport, serving some domestic and international flights."
+        }
+      ],
+      "website": "https://www.osaka-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM Free Wi-Fi",
+        "note": "Wi-Fi is available throughout the airport with no time limit."
+      }
+    },
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 27.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.kobe-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kobe Airport Free Wi-Fi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 47.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and some international flights."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX_Free_Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may have limited connectivity in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:16.336329Z",
+    "generated_at": "2025-08-04T18:11:48.373530Z",
     "env": "development",
     "source": "justarrived-generator"
   }

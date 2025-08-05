@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 13.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Serves mainly international flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "TXL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin Brandenburg Airport",
+      "iata_code": "BER",
+      "icao_code": "EDDB",
+      "distance_km": 35.0,
+      "gmt": "+1",
+      "country": "Berlin",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Berlin Brandenburg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://ber.berlin-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BER Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin-Schoenefeld",
+      "iata_code": "SXF",
+      "icao_code": "EDDB",
+      "distance_km": 35.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal for low-cost airlines"
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "Berlin-Schoenefeld Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:45.029915Z",
+    "generated_at": "2025-08-04T18:31:49.924532Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,51 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 35.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Barajas Airport, serving mainly domestic and European flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The smallest terminal at Barajas Airport, serving mainly low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/madrid-barajas-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Aena WiFi",
+        "note": "Free for the first 30 minutes, then a fee may apply."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 36.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:29.531273Z",
+    "generated_at": "2025-08-04T20:06:31.002005Z",
     "env": "development",
     "source": "justarrived-generator"
   }

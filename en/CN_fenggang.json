@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shantou",
+      "iata_code": "SWA",
+      "icao_code": "ZGOW",
+      "distance_km": 29.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Shantou Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.stairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:19.394152Z",
+    "generated_at": "2025-08-04T18:19:58.886705Z",
     "env": "development",
     "source": "justarrived-generator"
   }

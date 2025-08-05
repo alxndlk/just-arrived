@@ -52,8 +52,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Grand Bahama International",
+      "iata_code": "FPO",
+      "icao_code": "MYGF",
+      "distance_km": 7.3,
+      "gmt": "-5",
+      "country": "Bahamas",
+      "timezone": "America/Nassau",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "West End",
+      "iata_code": "WTD",
+      "icao_code": "MYGW",
+      "distance_km": 38.3,
+      "gmt": "-5",
+      "country": "Bahamas",
+      "timezone": "America/Nassau",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at West End Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at West End Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.westendairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WestEndAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:02.762406Z",
+    "generated_at": "2025-08-04T20:04:28.796396Z",
     "env": "development",
     "source": "justarrived-generator"
   }

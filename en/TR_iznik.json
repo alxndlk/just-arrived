@@ -50,8 +50,47 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yenisehir",
+      "iata_code": "YEI",
+      "icao_code": "LTBR",
+      "distance_km": 26.2,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://yeni.havalimani.com.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "YEI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cengiz Topel",
+      "iata_code": "KCO",
+      "icao_code": "LTBQ",
+      "distance_km": 36.9,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:11.053388Z",
+    "generated_at": "2025-08-04T20:04:33.724967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

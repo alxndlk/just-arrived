@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Colonizadores",
+      "iata_code": "RVE",
+      "icao_code": "SKSA",
+      "distance_km": 5.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Los Colonizadores Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Los Colonizadores Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.loscolonizadoresairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Los Colonizadores Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the network and entering a valid email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:27.662183Z",
+    "generated_at": "2025-08-04T18:27:47.625199Z",
     "env": "development",
     "source": "justarrived-generator"
   }

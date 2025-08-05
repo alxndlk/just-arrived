@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Megas Alexandros International",
+      "iata_code": "KVA",
+      "icao_code": "LGKV",
+      "distance_km": 33.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Megas Alexandros International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.kva-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "KVA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:23.758505Z",
+    "generated_at": "2025-08-04T18:26:48.096553Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 11.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 15.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Witham Field",
+      "iata_code": "SUA",
+      "icao_code": "KSUA",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Witham Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Witham Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.withamfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WithamFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:38.312783Z",
+    "generated_at": "2025-08-04T20:23:26.090584Z",
     "env": "development",
     "source": "justarrived-generator"
   }

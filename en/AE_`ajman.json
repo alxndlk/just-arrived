@@ -51,8 +51,68 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sharjah",
+      "iata_code": "SHJ",
+      "icao_code": "OMSJ",
+      "distance_km": 12.8,
+      "gmt": "4",
+      "country": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sharjah Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.sharjahairport.ae/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sharjah Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dubai",
+      "iata_code": "DXB",
+      "icao_code": "OMDB",
+      "distance_km": 20.6,
+      "gmt": "4",
+      "country": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chelsea Twr EY Bus Station",
+      "iata_code": "XNB",
+      "icao_code": "OMDB",
+      "distance_km": 21.4,
+      "gmt": "4",
+      "country": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "terminals": [
+        {
+          "name": "Chelsea Twr EY Bus Station Airport Terminal",
+          "description": "This terminal is the main hub for all domestic and international flights at Chelsea Twr EY Bus Station Airport."
+        }
+      ],
+      "website": "https://www.chelseatwreybusstationairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chelsea Twr EY Bus Station Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:19.341770Z",
+    "generated_at": "2025-08-04T19:56:32.882634Z",
     "env": "development",
     "source": "justarrived-generator"
   }

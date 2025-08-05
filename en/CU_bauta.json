@@ -52,8 +52,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Playa Baracoa",
+      "iata_code": "UPB",
+      "icao_code": "MUPB",
+      "distance_km": 5.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Jose Marti International",
+      "iata_code": "HAV",
+      "icao_code": "MUHA",
+      "distance_km": 14.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal, mainly used for international flights."
+        }
+      ],
+      "website": "http://www.havana-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAV WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:50.242912Z",
+    "generated_at": "2025-08-04T20:12:33.096803Z",
     "env": "development",
     "source": "justarrived-generator"
   }

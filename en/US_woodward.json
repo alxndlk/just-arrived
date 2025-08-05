@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "West Woodward",
+      "iata_code": "WWR",
+      "icao_code": "KWWR",
+      "distance_km": 10.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at West Woodward Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at West Woodward Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.westwoodwardairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WWR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gage",
+      "iata_code": "GAG",
+      "icao_code": "KGAG",
+      "distance_km": 43.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gage Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gage Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.gageairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GageAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:03.759740Z",
+    "generated_at": "2025-08-04T19:17:48.573029Z",
     "env": "development",
     "source": "justarrived-generator"
   }

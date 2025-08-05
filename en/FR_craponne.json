@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bron",
+      "iata_code": "LYN",
+      "icao_code": "LFLY",
+      "distance_km": 17.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bron Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.lyon.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "LYN Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St-Exupéry",
+      "iata_code": "LYS",
+      "icao_code": "LFLL",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boutheon",
+      "iata_code": "EBU",
+      "icao_code": "LFMH",
+      "distance_km": 39.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for commercial flights at Boutheon Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.saint-etienne.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "EBU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:57.047027Z",
+    "generated_at": "2025-08-04T20:24:34.811922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sullivan County International",
+      "iata_code": "MSV",
+      "icao_code": "KMSV",
+      "distance_km": 37.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sullivan County International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sullivan County International Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.sullivancountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCIA_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 38.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Orange County Airport handles all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Orange County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.ocairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGJ Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:12.890974Z",
+    "generated_at": "2025-08-04T19:35:40.962527Z",
     "env": "development",
     "source": "justarrived-generator"
   }

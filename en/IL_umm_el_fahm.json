@@ -50,8 +50,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haifa",
+      "iata_code": "HFA",
+      "icao_code": "LLHA",
+      "distance_km": 34.2,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "http://www.haifa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Haifa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:33.400769Z",
+    "generated_at": "2025-08-04T18:27:50.559945Z",
     "env": "development",
     "source": "justarrived-generator"
   }

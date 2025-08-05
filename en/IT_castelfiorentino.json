@@ -51,8 +51,97 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peretola",
+      "iata_code": "FLR",
+      "icao_code": "LIRQ",
+      "distance_km": 28.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lucca",
+      "iata_code": "LCV",
+      "icao_code": "LIQL",
+      "distance_km": 39.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lucca Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.luccaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lucca Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Siena",
+      "iata_code": "SAY",
+      "icao_code": "LIQS",
+      "distance_km": 46.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Siena Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Siena Airport handles all freight operations."
+        }
+      ],
+      "website": "https://www.sienaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SienaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Galileo Galilei",
+      "iata_code": "PSA",
+      "icao_code": "LIRP",
+      "distance_km": 46.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Galileo Galilei Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.pisa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Galileo Galilei Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:26.823847Z",
+    "generated_at": "2025-08-04T20:17:33.379800Z",
     "env": "development",
     "source": "justarrived-generator"
   }

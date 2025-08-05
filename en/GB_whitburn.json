@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Edinburgh",
+      "iata_code": "EDI",
+      "icao_code": "EGPH",
+      "distance_km": 22.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Edinburgh Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Gates 1-10",
+          "description": "This terminal is primarily used for low-cost airlines and regional flights."
+        },
+        {
+          "name": "Gates 11-20",
+          "description": "This terminal is used for international flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.edinburghairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EDI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Perth",
+      "iata_code": "PSL",
+      "icao_code": "EGPT",
+      "distance_km": 42.0,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Perth Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.perthairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Perth Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Glasgow International",
+      "iata_code": "GLA",
+      "icao_code": "EGPF",
+      "distance_km": 46.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glasgow International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "T2",
+          "description": "Terminal 2 is primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.glasgowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Glasgow Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:26.599832Z",
+    "generated_at": "2025-08-04T20:27:31.384461Z",
     "env": "development",
     "source": "justarrived-generator"
   }

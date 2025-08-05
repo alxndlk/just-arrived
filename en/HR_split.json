@@ -107,8 +107,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Split",
+      "iata_code": "SPU",
+      "icao_code": "LDSP",
+      "distance_km": 11.7,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brac",
+      "iata_code": "BWK",
+      "icao_code": "LDSB",
+      "distance_km": 32.0,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brac Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Brac Airport offers exclusive services for private and business travelers."
+        }
+      ],
+      "website": "https://www.airport-brac.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brac Airport Free WiFi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:51.078671Z",
+    "generated_at": "2025-08-04T19:58:25.845563Z",
     "env": "development",
     "source": "justarrived-generator"
   }

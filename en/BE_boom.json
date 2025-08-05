@@ -51,8 +51,114 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 13.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Deurne/ Antwerp Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Deurne/ Antwerp Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a login or registration."
+      }
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 22.3,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Brussels Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Brussels Airport, primarily used for low-cost carriers."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal at Brussels Airport, dedicated to long-haul flights."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 33.6,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zoersel Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Zoersel Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.zoerselairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zoersel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Woensdrecht",
+      "iata_code": "WOE",
+      "icao_code": "EHWO",
+      "distance_km": 39.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Woensdrecht Airport offers a variety of services and amenities for passengers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Woensdrecht Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.woensdrechtairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Woensdrecht Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:58.573963Z",
+    "generated_at": "2025-08-04T18:58:45.760060Z",
     "env": "development",
     "source": "justarrived-generator"
   }

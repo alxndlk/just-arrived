@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alice International Airport",
+      "iata_code": "ALI",
+      "icao_code": "KALI",
+      "distance_km": 0.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aliceairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "ALI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "NAS",
+      "iata_code": "NQI",
+      "icao_code": "KNQI",
+      "distance_km": 33.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at NAS Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all air freight operations at NAS Airport."
+        }
+      ],
+      "website": "https://nasairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:56.680677Z",
+    "generated_at": "2025-08-04T18:59:58.688790Z",
     "env": "development",
     "source": "justarrived-generator"
   }

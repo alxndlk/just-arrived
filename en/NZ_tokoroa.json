@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tokoroa",
+      "iata_code": "TKZ",
+      "icao_code": "NZTO",
+      "distance_km": 3.4,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tokoroa Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tokoroa Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.tokoroaairport.co.nz",
+      "wifi": {
+        "available": true,
+        "network_name": "Tokoroa Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network to stay connected during their travels."
+      }
+    },
+    {
+      "airport_name": "Rotorua",
+      "iata_code": "ROT",
+      "icao_code": "NZRO",
+      "distance_km": 40.8,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rotorua Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Rotorua Airport serves smaller regional airlines and charter flights."
+        }
+      ],
+      "website": "https://www.rotorua-airport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rotorua Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:43.459530Z",
+    "generated_at": "2025-08-04T19:11:48.497032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 8.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 9.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gary/Chicago International Airport is a modern and efficient facility with a variety of amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gary/Chicago International Airport is equipped to handle a wide range of cargo, including perishables, live animals, and oversized freight."
+        }
+      ],
+      "website": "https://www.garychicagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GYY_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport. No password is required."
+      }
+    },
+    {
+      "airport_name": "Porter County",
+      "iata_code": "VPZ",
+      "icao_code": "KVPZ",
+      "distance_km": 35.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Porter County Airport serves as the primary hub for all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Porter County Airport caters to private and charter flights, providing a more personalized and exclusive experience for travelers."
+        }
+      ],
+      "website": "https://www.portercountyairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Porter County Airport Wifi",
+        "note": "Free wifi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 39.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights for Southwest Airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:18.566252Z",
+    "generated_at": "2025-08-04T20:18:35.573217Z",
     "env": "development",
     "source": "justarrived-generator"
   }

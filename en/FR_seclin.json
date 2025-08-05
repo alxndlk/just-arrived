@@ -51,8 +51,81 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lesquin",
+      "iata_code": "LIL",
+      "icao_code": "LFQQ",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lesquin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lesquin Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.lille.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LIL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited bandwidth during peak hours."
+      }
+    },
+    {
+      "airport_name": "Merville/Calonne",
+      "iata_code": "HZB",
+      "icao_code": "LFQT",
+      "distance_km": 27.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Merville/Calonne Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.mervillecalonneairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MervilleCalonneAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kortrijk Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kortrijk-airport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kortrijk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:58.188914Z",
+    "generated_at": "2025-08-04T19:13:44.208826Z",
     "env": "development",
     "source": "justarrived-generator"
   }

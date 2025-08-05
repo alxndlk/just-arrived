@@ -106,8 +106,89 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 19.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and main terminal at Haneda Airport, serving primarily domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Haneda Airport, serving primarily international flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi throughout the airport by selecting the network and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 46.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Narita International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used by low-cost carriers and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal opened in 2015, primarily used by low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be found on signs throughout the terminals."
+      }
+    },
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 48.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yokota AFB Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Yokota AFB Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.yokota.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yokota_AFB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:27.257499Z",
+    "generated_at": "2025-08-04T18:05:41.188017Z",
     "env": "development",
     "source": "justarrived-generator"
   }

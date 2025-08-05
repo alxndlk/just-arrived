@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OCN",
+      "icao_code": "KOKB",
+      "distance_km": 4.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Municipal Airport, where all commercial flights depart and arrive."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights, providing a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Mc Clellan-Palomar Airport",
+      "iata_code": "CLD",
+      "icao_code": "KCRQ",
+      "distance_km": 17.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:06.294747Z",
+    "generated_at": "2025-08-04T20:20:29.026434Z",
     "env": "development",
     "source": "justarrived-generator"
   }

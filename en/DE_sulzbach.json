@@ -49,8 +49,81 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 7.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ensheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.ensheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ensheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zweibrücken Airport",
+      "iata_code": "ZQW",
+      "icao_code": "EDRZ",
+      "distance_km": 25.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zweibrücken Airport, serving all domestic and international flights."
+        }
+      ],
+      "website": "https://www.zweibruecken-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZQW Airport Wifi",
+        "note": "Free wifi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Ramstein",
+      "iata_code": "RMS",
+      "icao_code": "ETAR",
+      "distance_km": 39.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ramstein Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ramstein Airport, used for charter and military flights."
+        }
+      ],
+      "website": "https://www.ramstein.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "RMS Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:54.998042Z",
+    "generated_at": "2025-08-04T20:18:33.993341Z",
     "env": "development",
     "source": "justarrived-generator"
   }

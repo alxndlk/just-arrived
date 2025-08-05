@@ -52,8 +52,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cienfuegos",
+      "iata_code": "CFG",
+      "icao_code": "MUCF",
+      "distance_km": 25.6,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.cienfuegosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CFG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Abel Santa Maria",
+      "iata_code": "SNU",
+      "icao_code": "MUSC",
+      "distance_km": 38.2,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:14.641281Z",
+    "generated_at": "2025-08-04T20:09:31.973131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

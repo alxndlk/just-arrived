@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Groznyj",
+      "iata_code": "GRV",
+      "icao_code": "URMG",
+      "distance_km": 11.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.groznyairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Groznyj Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:39.643462Z",
+    "generated_at": "2025-08-04T19:06:44.757209Z",
     "env": "development",
     "source": "justarrived-generator"
   }

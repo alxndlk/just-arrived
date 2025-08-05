@@ -50,8 +50,55 @@
     "police": "118"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Pedro",
+      "iata_code": "BZA",
+      "icao_code": "MNBZ",
+      "distance_km": 7.6,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Rosita",
+      "iata_code": "RFS",
+      "icao_code": "MNRT",
+      "distance_km": 24.7,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Siuna",
+      "iata_code": "SIU",
+      "icao_code": "MNSI",
+      "distance_km": 38.4,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Siuna Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/siuna-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Siuna Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:48.374643Z",
+    "generated_at": "2025-08-04T20:16:29.067296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

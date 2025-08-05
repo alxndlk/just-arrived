@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chu-Bu Centrair International (Central Japan International)",
+      "iata_code": "NGO",
+      "icao_code": "RJGG",
+      "distance_km": 16.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Chu-Bu Centrair International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal mainly used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.centrair.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Centrair_Free_Wi-Fi",
+        "note": "Passengers can enjoy free Wi-Fi throughout the airport with no time limits."
+      }
+    },
+    {
+      "airport_name": "Komaki AFB",
+      "iata_code": "NKM",
+      "icao_code": "RJNA",
+      "distance_km": 28.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Komaki AFB Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Komaki AFB Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.komakiafbairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KomakiAirportWifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:36.432082Z",
+    "generated_at": "2025-08-04T18:21:43.492949Z",
     "env": "development",
     "source": "justarrived-generator"
   }

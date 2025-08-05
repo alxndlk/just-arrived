@@ -49,8 +49,113 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 18.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Düsseldorf International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Düsseldorf International Airport, primarily serving low-cost airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly built terminal at Düsseldorf International Airport, dedicated to serving international flights."
+        }
+      ],
+      "website": "https://www.dus.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "DUS Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    },
+    {
+      "airport_name": "Moenchen-gl. - Dus Exp",
+      "iata_code": "MGL",
+      "icao_code": "EDLN",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 45.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cologne/bonn Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Cologne/bonn Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 47.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dortmund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:29.911910Z",
+    "generated_at": "2025-08-04T20:14:28.711511Z",
     "env": "development",
     "source": "justarrived-generator"
   }

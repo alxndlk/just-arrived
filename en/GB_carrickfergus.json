@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "George Best Belfast City",
+      "iata_code": "BHD",
+      "icao_code": "EGAC",
+      "distance_km": 11.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aldergrove International Airport",
+      "iata_code": "BFS",
+      "icao_code": "EGAA",
+      "distance_km": 27.0,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aldergrove International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.belfastairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Belfast Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:12.664992Z",
+    "generated_at": "2025-08-04T20:09:35.813310Z",
     "env": "development",
     "source": "justarrived-generator"
   }

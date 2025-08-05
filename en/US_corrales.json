@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albuquerque International",
+      "iata_code": "ABQ",
+      "icao_code": "KABQ",
+      "distance_km": 20.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albuquerque International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Sunport Terminal",
+          "description": "The Sunport Terminal at Albuquerque International Airport is dedicated to Southwest Airlines."
+        },
+        {
+          "name": "Commuter Terminal",
+          "description": "The Commuter Terminal at Albuquerque International Airport serves smaller regional airlines."
+        }
+      ],
+      "website": "https://www.abqsunport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ABQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:31.704819Z",
+    "generated_at": "2025-08-04T19:36:40.760403Z",
     "env": "development",
     "source": "justarrived-generator"
   }

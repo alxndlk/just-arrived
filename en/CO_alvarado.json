@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibague",
+      "iata_code": "IBE",
+      "icao_code": "SKIB",
+      "distance_km": 26.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibague Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibague Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ibagueairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibague Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Girardot",
+      "iata_code": "GIR",
+      "icao_code": "SKGI",
+      "distance_km": 34.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:53.191645Z",
+    "generated_at": "2025-08-04T20:33:26.778374Z",
     "env": "development",
     "source": "justarrived-generator"
   }

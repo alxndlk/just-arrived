@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Terrell Field",
+      "iata_code": "TRL",
+      "icao_code": "KTRL",
+      "distance_km": 17.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Redbird",
+      "iata_code": "RBD",
+      "icao_code": "KRBD",
+      "distance_km": 39.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.redbirdairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Redbird Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network."
+      }
+    },
+    {
+      "airport_name": "Love Field",
+      "iata_code": "DAL",
+      "icao_code": "KDAL",
+      "distance_km": 41.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Love Field Airport houses all major airlines and provides a variety of dining and shopping options."
+        },
+        {
+          "name": "Southwest Terminal",
+          "description": "The Southwest Terminal at Love Field Airport is dedicated to Southwest Airlines and offers a convenient and streamlined travel experience."
+        }
+      ],
+      "website": "https://www.dallas-lovefield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LoveFieldWiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:25.045600Z",
+    "generated_at": "2025-08-04T20:27:26.078405Z",
     "env": "development",
     "source": "justarrived-generator"
   }

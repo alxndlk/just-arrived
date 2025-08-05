@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ivano-Frankovsk",
+      "iata_code": "IFO",
+      "icao_code": "UKLI",
+      "distance_km": 38.8,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.ifl.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "IFO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:31.514091Z",
+    "generated_at": "2025-08-04T19:14:49.945200Z",
     "env": "development",
     "source": "justarrived-generator"
   }

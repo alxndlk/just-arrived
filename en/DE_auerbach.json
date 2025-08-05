@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wilmington Railway",
+      "iata_code": "ZWI",
+      "icao_code": "EDBI",
+      "distance_km": 26.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wilmington Railway Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wilmington Railway Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.wilmingtonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WRA Free WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hof",
+      "iata_code": "HOQ",
+      "icao_code": "EDQM",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hof Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.hof-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hof Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:44.134973Z",
+    "generated_at": "2025-08-04T20:32:29.503100Z",
     "env": "development",
     "source": "justarrived-generator"
   }

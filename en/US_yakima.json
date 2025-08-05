@@ -104,8 +104,56 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Yakima Air Terminal",
+      "iata_code": "YKM",
+      "icao_code": "KYKM",
+      "distance_km": 3.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yakima Air Terminal Airport serves as the primary hub for all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Yakima Air Terminal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flyykm.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YKM Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'YKM Airport WiFi' from the list of available networks."
+      }
+    },
+    {
+      "airport_name": "Bowers Field",
+      "iata_code": "ELN",
+      "icao_code": "KLEN",
+      "distance_km": 43.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bowers Field Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.bowersfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BowersFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:15.752319Z",
+    "generated_at": "2025-08-04T18:12:46.051371Z",
     "env": "development",
     "source": "justarrived-generator"
   }

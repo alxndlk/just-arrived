@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 33.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Ibaraki Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Ibaraki Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.ibaraki-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:35.722424Z",
+    "generated_at": "2025-08-04T18:59:50.578729Z",
     "env": "development",
     "source": "justarrived-generator"
   }

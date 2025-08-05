@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 11.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The dedicated terminal for international flights."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OGD",
+      "icao_code": "KOGD",
+      "distance_km": 36.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport provides a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:43.775549Z",
+    "generated_at": "2025-08-04T19:19:48.617722Z",
     "env": "development",
     "source": "justarrived-generator"
   }

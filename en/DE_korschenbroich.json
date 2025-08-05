@@ -49,8 +49,92 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moenchen-gl. - Dus Exp",
+      "iata_code": "MGL",
+      "icao_code": "EDLN",
+      "distance_km": 18.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 20.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal is primarily used for domestic and European flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is used for international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal is used for low-cost carriers."
+        },
+        {
+          "name": "Terminal D",
+          "description": "This terminal is used for long-haul flights."
+        }
+      ],
+      "website": "https://www.dus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DUS_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Geilenkirchen",
+      "iata_code": "GKE",
+      "icao_code": "ETNG",
+      "distance_km": 36.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Essen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.essen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essen Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:52.385601Z",
+    "generated_at": "2025-08-04T20:07:30.431670Z",
     "env": "development",
     "source": "justarrived-generator"
   }

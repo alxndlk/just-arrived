@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kassel-Calden",
+      "iata_code": "KSF",
+      "icao_code": "EDVK",
+      "distance_km": 19.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kassel-Calden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.kassel-airport.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kassel-Calden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Paderborn/lippstadt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.airport-pad.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:33.477109Z",
+    "generated_at": "2025-08-04T19:35:48.020347Z",
     "env": "development",
     "source": "justarrived-generator"
   }

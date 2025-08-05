@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 25.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Paderborn/lippstadt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and low-cost carriers."
+        }
+      ],
+      "website": "https://www.airport-pad.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:20.529423Z",
+    "generated_at": "2025-08-04T18:48:41.186482Z",
     "env": "development",
     "source": "justarrived-generator"
   }

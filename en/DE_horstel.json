@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Münster Osnabrück International",
+      "iata_code": "FMO",
+      "icao_code": "EDDG",
+      "distance_km": 20.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Münster Osnabrück International Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.fmo.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMO Free WiFi",
+        "note": "There is free WiFi available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Twente",
+      "iata_code": "ENS",
+      "icao_code": "EHTW",
+      "distance_km": 48.2,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Twente Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Twente Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.twente-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Twente Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:24.528264Z",
+    "generated_at": "2025-08-04T18:53:47.076904Z",
     "env": "development",
     "source": "justarrived-generator"
   }

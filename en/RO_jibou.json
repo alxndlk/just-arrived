@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baia Mare",
+      "iata_code": "BAY",
+      "icao_code": "LRBM",
+      "distance_km": 45.6,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for budget airlines and regional flights."
+        }
+      ],
+      "website": "https://www.baiamareairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "BaiaMareAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:45.196053Z",
+    "generated_at": "2025-08-04T19:29:40.552393Z",
     "env": "development",
     "source": "justarrived-generator"
   }

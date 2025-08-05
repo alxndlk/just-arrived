@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mirecourt",
+      "iata_code": "EPL",
+      "icao_code": "LFSG",
+      "distance_km": 32.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves low-cost flights."
+        }
+      ],
+      "website": "https://www.mirecourtairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mirecourt Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vittel",
+      "iata_code": "VTL",
+      "icao_code": "LFSZ",
+      "distance_km": 37.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vittel Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.vittelairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Vittel Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:41.991218Z",
+    "generated_at": "2025-08-04T18:39:51.882071Z",
     "env": "development",
     "source": "justarrived-generator"
   }

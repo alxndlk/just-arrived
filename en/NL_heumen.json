@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Weeze",
+      "iata_code": "NRN",
+      "icao_code": "EDLV",
+      "distance_km": 28.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Weeze Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.airport-weeze.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Weeze Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 46.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:17.244716Z",
+    "generated_at": "2025-08-04T20:18:30.404198Z",
     "env": "development",
     "source": "justarrived-generator"
   }

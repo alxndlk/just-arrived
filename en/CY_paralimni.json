@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Larnaca",
+      "iata_code": "LCA",
+      "icao_code": "LCLK",
+      "distance_km": 36.7,
+      "gmt": "2",
+      "country": "Cyprus",
+      "timezone": "Asia/Nicosia",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ercan",
+      "iata_code": "ECN",
+      "icao_code": "LCEN",
+      "distance_km": 45.8,
+      "gmt": "2",
+      "country": "Cyprus",
+      "timezone": "Asia/Nicosia",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ercan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Ercan Airport offers exclusive services for premium passengers."
+        }
+      ],
+      "website": "https://www.ercanairport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ercan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:27.812854Z",
+    "generated_at": "2025-08-04T20:20:30.819803Z",
     "env": "development",
     "source": "justarrived-generator"
   }

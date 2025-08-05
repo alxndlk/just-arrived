@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pingtung",
+      "iata_code": "PIF",
+      "icao_code": "RCDC",
+      "distance_km": 25.9,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.ptt-airport.com.tw/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pingtung Airport Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free by providing their mobile phone number."
+      }
+    },
+    {
+      "airport_name": "Kaoshiung International Airport",
+      "iata_code": "KHH",
+      "icao_code": "RCKH",
+      "distance_km": 26.0,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kaoshiung International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal that primarily serves international flights, with modern amenities and facilities."
+        }
+      ],
+      "website": "https://www.kia.gov.tw/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIA_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport, with a network name of KIA_Free_WiFi."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:23.193095Z",
+    "generated_at": "2025-08-04T19:31:45.594206Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 41.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and newest terminal at Barajas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used primarily for domestic flights and some low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal used for international flights, with a focus on Star Alliance airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal for international flights, featuring a unique design and a wide range of amenities."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "An extension of Terminal 4, used for long-haul flights and premium passengers."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "AENA-MAD",
+        "note": "Free WiFi is available throughout the airport, with a 30-minute time limit per session."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 43.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.torrejonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Passengers can connect for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:24.723321Z",
+    "generated_at": "2025-08-04T19:10:47.771661Z",
     "env": "development",
     "source": "justarrived-generator"
   }

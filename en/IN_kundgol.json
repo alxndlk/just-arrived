@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hubli",
+      "iata_code": "HBX",
+      "icao_code": "VAHB",
+      "distance_km": 20.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.hubliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HBX_Free_WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:08.755732Z",
+    "generated_at": "2025-08-04T18:51:47.410032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kristianstad",
+      "iata_code": "KID",
+      "icao_code": "ESMK",
+      "distance_km": 13.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kristianstad Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kristianstad Airport is used for shipping and receiving goods via air transport."
+        }
+      ],
+      "website": "https://www.kristianstadairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "KID Airport WiFi",
+        "note": "WiFi is available throughout the airport, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:47.857828Z",
+    "generated_at": "2025-08-04T18:39:53.747039Z",
     "env": "development",
     "source": "justarrived-generator"
   }

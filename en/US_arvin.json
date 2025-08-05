@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meadows Field",
+      "iata_code": "BFL",
+      "icao_code": "KBFL",
+      "distance_km": 32.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Meadows Field Airport houses all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated for private and charter flights."
+        }
+      ],
+      "website": "https://www.meadowsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MeadowsFieldAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kern County",
+      "iata_code": "TSP",
+      "icao_code": "KTSP",
+      "distance_km": 35.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kern County Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.kerncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kern County Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:52.797347Z",
+    "generated_at": "2025-08-04T18:56:46.294891Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chennault International.",
+      "iata_code": "CWF",
+      "icao_code": "KCWF",
+      "distance_km": 2.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chennault International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Chennault International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.chennaultairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CWF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LCH",
+      "icao_code": "KLCH",
+      "distance_km": 19.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport, handling freight and logistics operations."
+        }
+      ],
+      "website": "https://municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:59.316484Z",
+    "generated_at": "2025-08-04T19:19:53.213026Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coffs Harbour",
+      "iata_code": "CFS",
+      "icao_code": "YSCH",
+      "distance_km": 2.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Coffs Harbour Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.coffsharbourairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "CoffsHarbourAirportWifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Nambucca Heads",
+      "iata_code": "NBH",
+      "icao_code": "YNHS",
+      "distance_km": 39.0,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nambucca Heads Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Nambucca Heads Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.nambuccaheadsairport.com.au",
+      "wifi": {
+        "available": true,
+        "network_name": "Nambucca Heads Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:21.191761Z",
+    "generated_at": "2025-08-04T18:46:50.740193Z",
     "env": "development",
     "source": "justarrived-generator"
   }

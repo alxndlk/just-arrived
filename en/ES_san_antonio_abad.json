@@ -51,8 +51,56 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Javier",
+      "iata_code": "MJV",
+      "icao_code": "LELC",
+      "distance_km": 22.4,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Javier Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/murcia-region-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "MJV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Corvera International",
+      "iata_code": "RMU",
+      "icao_code": "LEMI",
+      "distance_km": 22.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Corvera International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Corvera International Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/corvera-murcia-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Corvera Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:34.776952Z",
+    "generated_at": "2025-08-04T18:31:43.923694Z",
     "env": "development",
     "source": "justarrived-generator"
   }

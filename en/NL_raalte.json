@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Twente",
+      "iata_code": "ENS",
+      "icao_code": "EHTW",
+      "distance_km": 42.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Twente Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Twente Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.twente-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Twente Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting it and agreeing to the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:56.777759Z",
+    "generated_at": "2025-08-04T18:35:43.057573Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -107,8 +107,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Alpe D Huez",
+      "iata_code": "AHZ",
+      "icao_code": "LFHU",
+      "distance_km": 30.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.alpedhuezairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AHZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Grenoble-isere Airport (St Geoirs)",
+      "iata_code": "GNB",
+      "icao_code": "LFLS",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Grenoble-isere Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.grenoble-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Grenoble Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:03.111745Z",
+    "generated_at": "2025-08-04T18:11:38.632228Z",
     "env": "development",
     "source": "justarrived-generator"
   }

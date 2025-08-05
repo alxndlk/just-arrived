@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peterborough",
+      "iata_code": "YPQ",
+      "icao_code": "CYPQ",
+      "distance_km": 16.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Peterborough Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Peterborough Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.peterboroughairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Peterborough Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Oshawa",
+      "iata_code": "YOO",
+      "icao_code": "CYOO",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:55.402906Z",
+    "generated_at": "2025-08-04T20:29:34.383996Z",
     "env": "development",
     "source": "justarrived-generator"
   }

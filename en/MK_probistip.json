@@ -51,8 +51,35 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alexander The Great Airport",
+      "iata_code": "SKP",
+      "icao_code": "LWSK",
+      "distance_km": 45.5,
+      "gmt": "1",
+      "country": "Macedonia",
+      "timezone": "Europe/Skopje",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Alexander The Great Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.skp-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SKP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:39.735422Z",
+    "generated_at": "2025-08-04T19:22:51.414558Z",
     "env": "development",
     "source": "justarrived-generator"
   }

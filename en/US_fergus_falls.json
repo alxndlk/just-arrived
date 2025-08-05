@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fergus Falls",
+      "iata_code": "FFM",
+      "icao_code": "KFFM",
+      "distance_km": 0.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fergus Falls Airport handles all commercial flights and is equipped with modern amenities for passenger convenience."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fergus Falls Airport caters to private and chartered flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.fergusfallsairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "FFM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for passengers to stay connected."
+      }
+    },
+    {
+      "airport_name": "Wahpeton",
+      "iata_code": "WAH",
+      "icao_code": "KBWP",
+      "distance_km": 40.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:28.448382Z",
+    "generated_at": "2025-08-04T20:21:31.744589Z",
     "env": "development",
     "source": "justarrived-generator"
   }

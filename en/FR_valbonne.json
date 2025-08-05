@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 11.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.mandelieu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cote D'azur International Airport",
+      "iata_code": "NCE",
+      "icao_code": "LFMN",
+      "distance_km": 15.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 34.3,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:52.367901Z",
+    "generated_at": "2025-08-04T20:24:29.079845Z",
     "env": "development",
     "source": "justarrived-generator"
   }

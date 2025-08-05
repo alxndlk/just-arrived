@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Las Lomitas",
+      "iata_code": "LLS",
+      "icao_code": "SATK",
+      "distance_km": 1.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Las Lomitas Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Las Lomitas Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.laslomitasairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LasLomitasAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:48.501325Z",
+    "generated_at": "2025-08-04T19:15:52.037815Z",
     "env": "development",
     "source": "justarrived-generator"
   }

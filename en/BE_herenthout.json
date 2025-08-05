@@ -51,8 +51,101 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 14.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 22.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Antwerp Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 33.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Brussels Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Brussels Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Woensdrecht",
+      "iata_code": "WOE",
+      "icao_code": "EHWO",
+      "distance_km": 44.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 49.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilze-Rijen Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.gilze-rijenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:53.398224Z",
+    "generated_at": "2025-08-04T20:32:30.159835Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Belgrade Nikola Tesla",
+      "iata_code": "BEG",
+      "icao_code": "LYBE",
+      "distance_km": 6.7,
+      "gmt": "1",
+      "country": "Serbia",
+      "timezone": "Europe/Belgrade",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.beg.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Batajnica",
+      "iata_code": "BJY",
+      "icao_code": "LYBT",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "Serbia",
+      "timezone": "Europe/Belgrade",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Batajnica Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.batajnica-airport.rs/",
+      "wifi": {
+        "available": true,
+        "network_name": "BJY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:59.326671Z",
+    "generated_at": "2025-08-04T19:36:52.298916Z",
     "env": "development",
     "source": "justarrived-generator"
   }

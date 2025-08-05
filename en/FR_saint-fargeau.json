@@ -51,8 +51,81 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 24.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal Sud",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal Ouest",
+          "description": "The secondary terminal for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "ORY Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Toussus-le-noble Airport"
+        }
+      ],
+      "website": "https://www.toussusle-noble-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toussus-le-noble Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 48.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all commercial flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/airports/le-bourget-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "LeBourgetAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:59.131434Z",
+    "generated_at": "2025-08-04T19:08:47.889717Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dandong",
+      "iata_code": "DDG",
+      "icao_code": "ZYDD",
+      "distance_km": 35.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.ddgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:58.147683Z",
+    "generated_at": "2025-08-04T18:46:39.950098Z",
     "env": "development",
     "source": "justarrived-generator"
   }

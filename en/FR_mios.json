@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arcachon – La Teste-de-Buch Airport",
+      "iata_code": "XAC",
+      "icao_code": "LFCH",
+      "distance_km": 13.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arcachon - La Teste-de-Buch Airport."
+        }
+      ],
+      "website": "https://www.bordeaux.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Arcachon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mérignac",
+      "iata_code": "BOD",
+      "icao_code": "LFBD",
+      "distance_km": 31.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves low-cost and regional flights."
+        },
+        {
+          "name": "Terminal Billi",
+          "description": "This terminal serves international and long-haul flights."
+        }
+      ],
+      "website": "https://www.bordeaux.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOD Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:15.494463Z",
+    "generated_at": "2025-08-04T20:25:32.167555Z",
     "env": "development",
     "source": "justarrived-generator"
   }

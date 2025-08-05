@@ -51,8 +51,47 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marka International Airport",
+      "iata_code": "ADJ",
+      "icao_code": "OJAM",
+      "distance_km": 45.3,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marka International Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "http://www.markaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marka Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "King Hussein",
+      "iata_code": "OMF",
+      "icao_code": "OJMF",
+      "distance_km": 46.9,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:26.802272Z",
+    "generated_at": "2025-08-04T19:58:28.527892Z",
     "env": "development",
     "source": "justarrived-generator"
   }

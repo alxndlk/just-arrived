@@ -51,8 +51,47 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hohenems-Dornbirn",
+      "iata_code": "HOH",
+      "icao_code": "LOIH",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Altenrhein",
+      "iata_code": "ACH",
+      "icao_code": "LSZR",
+      "distance_km": 43.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenrhein Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.altenrhein-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenrhein Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:28.859046Z",
+    "generated_at": "2025-08-04T20:20:30.897696Z",
     "env": "development",
     "source": "justarrived-generator"
   }

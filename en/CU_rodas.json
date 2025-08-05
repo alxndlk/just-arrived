@@ -52,8 +52,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cienfuegos",
+      "iata_code": "CFG",
+      "icao_code": "MUCF",
+      "distance_km": 25.9,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cienfuegos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.cienfuegosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CFG Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be slow and unreliable."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:21.688869Z",
+    "generated_at": "2025-08-04T18:39:42.693183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

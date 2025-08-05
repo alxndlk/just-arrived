@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Base Aerea Del Sur",
+      "iata_code": "RER",
+      "icao_code": "MGRT",
+      "distance_km": 42.7,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights within Guatemala."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights to and from other countries."
+        }
+      ],
+      "website": "https://baseaereadelsur.com.gt/",
+      "wifi": {
+        "available": true,
+        "network_name": "BaseAereaDelSurWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:42.060302Z",
+    "generated_at": "2025-08-04T18:40:48.525280Z",
     "env": "development",
     "source": "justarrived-generator"
   }

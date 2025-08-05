@@ -51,8 +51,110 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 20.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Linate Airport, primarily used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linate Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours by providing their email address."
+      }
+    },
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Milano Malpensa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Milano Malpensa Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.milanomalpensa-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MXP Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a login or registration."
+      }
+    },
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 49.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lugano",
+      "iata_code": "LUG",
+      "icao_code": "LSZA",
+      "distance_km": 49.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lugano Airport handles all international and domestic flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lugano Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.lugano-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:53.121374Z",
+    "generated_at": "2025-08-04T18:45:47.360898Z",
     "env": "development",
     "source": "justarrived-generator"
   }

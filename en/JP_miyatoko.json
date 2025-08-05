@@ -50,8 +50,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kita Kyushu",
+      "iata_code": "KKJ",
+      "icao_code": "RJFR",
+      "distance_km": 15.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kita Kyushu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kitakyushu-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KKJ Free WiFi",
+        "note": "Passengers can access the WiFi network for free by registering with their email or social media account."
+      }
+    },
+    {
+      "airport_name": "Ube",
+      "iata_code": "UBJ",
+      "icao_code": "RJDC",
+      "distance_km": 41.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ube Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ube Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://ube-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ube Airport WiFi",
+        "note": "WiFi is available throughout the terminal, free of charge."
+      }
+    },
+    {
+      "airport_name": "Fukuoka",
+      "iata_code": "FUK",
+      "icao_code": "RJFF",
+      "distance_km": 45.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:52.244286Z",
+    "generated_at": "2025-08-04T20:16:29.437610Z",
     "env": "development",
     "source": "justarrived-generator"
   }

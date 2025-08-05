@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pan Zhi Hua Bao An Ying",
+      "iata_code": "PZI",
+      "icao_code": "ZUZH",
+      "distance_km": 46.6,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.pzairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PZI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:59.113290Z",
+    "generated_at": "2025-08-04T18:06:54.129232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

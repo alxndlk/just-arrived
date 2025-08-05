@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Begumpet",
+      "iata_code": "BPM",
+      "icao_code": "VOHY",
+      "distance_km": 37.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.hyderabad.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Begumpet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hyderabad Airport",
+      "iata_code": "HYD",
+      "icao_code": "VOHS",
+      "distance_km": 43.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Hyderabad Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://hyderabad.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "HYD Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:33.759470Z",
+    "generated_at": "2025-08-04T18:59:50.743887Z",
     "env": "development",
     "source": "justarrived-generator"
   }

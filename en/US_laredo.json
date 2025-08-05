@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Laredo International Airport",
+      "iata_code": "LRD",
+      "icao_code": "KLRD",
+      "distance_km": 3.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Laredo International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Laredo International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flylaredo.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "International Quetzalcoatl",
+      "iata_code": "NLD",
+      "icao_code": "MMNL",
+      "distance_km": 16.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Matamoros",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/nuevo-laredo-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "NLD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:50.997828Z",
+    "generated_at": "2025-08-04T18:08:45.820682Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 17.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest and most modern terminal at Ninoy Aquino International Airport, serving international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main terminal at Ninoy Aquino International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The smallest terminal at Ninoy Aquino International Airport, serving mainly domestic flights."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "Available in all terminals and free for the first 2 hours."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 38.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baler Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Baler Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.balerairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:04.084917Z",
+    "generated_at": "2025-08-04T18:37:43.439922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

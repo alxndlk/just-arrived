@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Port Said",
+      "iata_code": "PSD",
+      "icao_code": "HEPS",
+      "distance_km": 42.5,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Port Said Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.cairo-airport.com/port-said-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "PortSaidAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:45.604350Z",
+    "generated_at": "2025-08-04T18:19:46.739396Z",
     "env": "development",
     "source": "justarrived-generator"
   }

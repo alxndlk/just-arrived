@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Godman AAF",
+      "iata_code": "FTK",
+      "icao_code": "KFTK",
+      "distance_km": 8.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Godman AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Godman AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.godmanarmyairfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Godman_AAF_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Louisville International (Standiford Field)",
+      "iata_code": "SDF",
+      "icao_code": "KSDF",
+      "distance_km": 44.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louisville International Airport houses all ticketing, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Louisville International Airport serves as a hub for cargo and charter flights."
+        }
+      ],
+      "website": "https://www.flylouisville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SDF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:51.462349Z",
+    "generated_at": "2025-08-04T18:50:46.757613Z",
     "env": "development",
     "source": "justarrived-generator"
   }

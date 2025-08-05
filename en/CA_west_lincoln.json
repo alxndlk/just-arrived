@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 31.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at John C. Munroe Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at John C. Munroe Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://flyhamilton.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YHM-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 35.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Catharines Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Catharines Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.stcatharinesairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "StCatharinesAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after accepting the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:02.436932Z",
+    "generated_at": "2025-08-04T19:08:47.080363Z",
     "env": "development",
     "source": "justarrived-generator"
   }

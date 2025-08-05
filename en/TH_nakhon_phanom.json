@@ -50,8 +50,56 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nakhon Phanom",
+      "iata_code": "KOP",
+      "icao_code": "VTUW",
+      "distance_km": 3.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.airportthai.co.th/en/airport/nakhon-phanom-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "NakhonPhanomAirport_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Thakhek",
+      "iata_code": "THK",
+      "icao_code": "VLTK",
+      "distance_km": 3.9,
+      "gmt": "7",
+      "country": "Laos",
+      "timezone": "Asia/Vientiane",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Thakhek Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.laoairlines.com/en/destinations/thakhek",
+      "wifi": {
+        "available": true,
+        "network_name": "Thakhek Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:55.045933Z",
+    "generated_at": "2025-08-04T18:44:42.775086Z",
     "env": "development",
     "source": "justarrived-generator"
   }

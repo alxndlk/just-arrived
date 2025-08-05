@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yun Cheng",
+      "iata_code": "YCU",
+      "icao_code": "ZBYC",
+      "distance_km": 47.0,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.yunchengairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YunChengAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:59.836826Z",
+    "generated_at": "2025-08-04T18:21:48.892093Z",
     "env": "development",
     "source": "justarrived-generator"
   }

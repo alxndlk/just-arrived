@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Phoenix Deer Valley Airport",
+      "iata_code": "DVT",
+      "icao_code": "KDVT",
+      "distance_km": 22.2,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Phoenix Deer Valley Airport is where all commercial flights are located."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Phoenix Deer Valley Airport is for private and charter flights."
+        }
+      ],
+      "website": "https://www.phoenixdeervalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DVT Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Scottsdale Municipalcipal",
+      "iata_code": "SCF",
+      "icao_code": "KSDL",
+      "distance_km": 33.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:25.009120Z",
+    "generated_at": "2025-08-04T20:16:31.428366Z",
     "env": "development",
     "source": "justarrived-generator"
   }

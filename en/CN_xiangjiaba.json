@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yibin",
+      "iata_code": "YBP",
+      "icao_code": "ZUYB",
+      "distance_km": 32.5,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Yibin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.yibinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yibin Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:23.429528Z",
+    "generated_at": "2025-08-04T19:03:51.105365Z",
     "env": "development",
     "source": "justarrived-generator"
   }

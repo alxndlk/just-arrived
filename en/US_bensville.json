@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 15.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Potomac Airfield Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Potomac Airfield Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.potomacairfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PotomacAirfieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 26.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Serving mainly domestic flights for American Airlines and its partners."
+        },
+        {
+          "name": "Terminal B/C",
+          "description": "Serving both domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal A/B/C (South)",
+          "description": "Serving mainly domestic flights for Delta Air Lines and its partners."
+        }
+      ],
+      "website": "https://www.flyreagan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:01.651701Z",
+    "generated_at": "2025-08-04T20:20:34.003254Z",
     "env": "development",
     "source": "justarrived-generator"
   }

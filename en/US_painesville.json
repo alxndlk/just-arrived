@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ashtabula",
+      "iata_code": "JFN",
+      "icao_code": "KHZY",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Ashtabula Airport, serving all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations at Ashtabula Airport."
+        }
+      ],
+      "website": "https://www.ashtabulaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ashtabula Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 42.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights at Burke Lakefront Airport."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and charter flights at Burke Lakefront Airport."
+        }
+      ],
+      "website": "http://www.burkeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:42.804810Z",
+    "generated_at": "2025-08-04T18:54:51.757477Z",
     "env": "development",
     "source": "justarrived-generator"
   }

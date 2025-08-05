@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 38.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kobe Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights, mainly used by low-cost carriers."
+        }
+      ],
+      "website": "https://www.kobeairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kobe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:51.926004Z",
+    "generated_at": "2025-08-04T18:08:43.736182Z",
     "env": "development",
     "source": "justarrived-generator"
   }

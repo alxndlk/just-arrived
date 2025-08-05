@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Magenta",
+      "iata_code": "GEA",
+      "icao_code": "NWWM",
+      "distance_km": 2.7,
+      "gmt": "11",
+      "country": "New Caledonia",
+      "timezone": "Pacific/Noumea",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Magenta Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeroport-magenta.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Magenta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tontouta",
+      "iata_code": "NOU",
+      "icao_code": "NWWW",
+      "distance_km": 36.1,
+      "gmt": "11",
+      "country": "New Caledonia",
+      "timezone": "Pacific/Noumea",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights."
+        }
+      ],
+      "website": "https://www.aeroport-noumea.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NOU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:38:56.166287Z",
+    "generated_at": "2025-08-04T18:10:37.485939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reno-Tahoe International",
+      "iata_code": "RNO",
+      "icao_code": "KRNO",
+      "distance_km": 27.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "B Gates",
+          "description": "This terminal serves mainly regional flights."
+        }
+      ],
+      "website": "https://www.renoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RNO Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Truckee-Tahoe",
+      "iata_code": "TKF",
+      "icao_code": "KTRK",
+      "distance_km": 43.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Truckee-Tahoe Airport serves commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Truckee-Tahoe Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.truckeetahoeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Truckee-Tahoe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:09.654272Z",
+    "generated_at": "2025-08-04T19:20:52.380532Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -103,8 +103,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Khwaja Rawash",
+      "iata_code": "KBL",
+      "icao_code": "OAKB",
+      "distance_km": 5.0,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Khwaja Rawash Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kblairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KBL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bagram",
+      "iata_code": "OAI",
+      "icao_code": "OAIX",
+      "distance_km": 49.0,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bagram Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "Dedicated terminal for handling cargo and freight flights."
+        }
+      ],
+      "website": "http://www.bagramairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bagram Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:31:40.180550Z",
+    "generated_at": "2025-08-04T18:03:48.641015Z",
     "env": "development",
     "source": "justarrived-generator"
   }

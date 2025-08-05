@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Owens Field",
+      "iata_code": "CUB",
+      "icao_code": "KCUB",
+      "distance_km": 49.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Owens Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Owens Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.columbiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OwensFieldAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Metropolitan Airport",
+      "iata_code": "CAE",
+      "icao_code": "KCAE",
+      "distance_km": 49.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Metropolitan Airport, where most domestic and international flights depart and arrive."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal is used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.columbiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAE_Free_WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'CAE_Free_WiFi' and following the prompts."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:09.515913Z",
+    "generated_at": "2025-08-04T19:30:46.060769Z",
     "env": "development",
     "source": "justarrived-generator"
   }

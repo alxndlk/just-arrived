@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fukuoka",
+      "iata_code": "FUK",
+      "icao_code": "RJFF",
+      "distance_km": 10.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.fuk-ab.co.jp/english/",
+      "wifi": {
+        "available": true,
+        "network_name": "FUK Airport Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Saga",
+      "iata_code": "HSG",
+      "icao_code": "RJFS",
+      "distance_km": 44.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.saga-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Saga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:49.250859Z",
+    "generated_at": "2025-08-04T18:23:40.963652Z",
     "env": "development",
     "source": "justarrived-generator"
   }

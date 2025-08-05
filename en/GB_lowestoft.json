@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Norwich International Airport",
+      "iata_code": "NWI",
+      "icao_code": "EGSH",
+      "distance_km": 38.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations at the airport."
+        }
+      ],
+      "website": "https://www.norwichairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "NWI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:28.857913Z",
+    "generated_at": "2025-08-04T20:04:26.164291Z",
     "env": "development",
     "source": "justarrived-generator"
   }

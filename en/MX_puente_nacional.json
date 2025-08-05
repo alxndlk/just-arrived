@@ -50,8 +50,60 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jalapa",
+      "iata_code": "JAL",
+      "icao_code": "MMJA",
+      "distance_km": 35.0,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jalapa Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://jalapaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Jalapa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Las Bajadas",
+      "iata_code": "VER",
+      "icao_code": "MMVR",
+      "distance_km": 37.8,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/veracruz-airport.php",
+      "wifi": {
+        "available": true,
+        "network_name": "VER Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:45.913755Z",
+    "generated_at": "2025-08-04T18:51:41.367006Z",
     "env": "development",
     "source": "justarrived-generator"
   }

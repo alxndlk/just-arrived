@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 17.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Orly Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Orly Airport, mainly used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly",
+      "wifi": {
+        "available": true,
+        "network_name": "Airport_Free_Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited speeds and time restrictions."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 20.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.toussus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toussus-le-noble Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 44.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Bourget Airport, serving both commercial and private flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/airports/le-bourget",
+      "wifi": {
+        "available": true,
+        "network_name": "LBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:38.905318Z",
+    "generated_at": "2025-08-04T19:19:48.852468Z",
     "env": "development",
     "source": "justarrived-generator"
   }

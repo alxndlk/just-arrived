@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Elmas",
+      "iata_code": "CAG",
+      "icao_code": "LIEE",
+      "distance_km": 8.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Elmas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.aeroportodicagliari.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Elmas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:50.268344Z",
+    "generated_at": "2025-08-04T18:43:43.570939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

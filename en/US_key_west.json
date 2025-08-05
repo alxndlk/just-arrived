@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Key West International Airport",
+      "iata_code": "EYW",
+      "icao_code": "KEYW",
+      "distance_km": 2.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Key West International Airport serves all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Key West International Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://eyw.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EYW Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:12.576386Z",
+    "generated_at": "2025-08-04T18:46:45.468718Z",
     "env": "development",
     "source": "justarrived-generator"
   }

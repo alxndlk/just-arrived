@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coimbra",
+      "iata_code": "CBP",
+      "icao_code": "LPCO",
+      "distance_km": 26.0,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Coimbra Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeroportocoimbra.pt/",
+      "wifi": {
+        "available": true,
+        "network_name": "Coimbra Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Viseu",
+      "iata_code": "VSE",
+      "icao_code": "LPVZ",
+      "distance_km": 49.9,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportoviseu.pt/",
+      "wifi": {
+        "available": true,
+        "network_name": "VSE Airport WiFi",
+        "note": "Password required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:58.455197Z",
+    "generated_at": "2025-08-04T20:10:28.507227Z",
     "env": "development",
     "source": "justarrived-generator"
   }

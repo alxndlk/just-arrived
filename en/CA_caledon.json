@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lester B. Pearson International",
+      "iata_code": "YYZ",
+      "icao_code": "CYYZ",
+      "distance_km": 29.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buttonville Municipalcipal",
+      "iata_code": "YKZ",
+      "icao_code": "CYKZ",
+      "distance_km": 40.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buttonville Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Buttonville Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.buttonvilleairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buttonville Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network while waiting for their flights."
+      }
+    },
+    {
+      "airport_name": "Toronto City Centre Airport",
+      "iata_code": "YTZ",
+      "icao_code": "CYTZ",
+      "distance_km": 45.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toronto City Centre Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Billy Bishop Executive Terminal",
+          "description": "The Billy Bishop Executive Terminal is a private terminal for executive and VIP travelers."
+        }
+      ],
+      "website": "https://www.billybishopairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BillyBishopAirport",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:56.076764Z",
+    "generated_at": "2025-08-04T20:00:34.893189Z",
     "env": "development",
     "source": "justarrived-generator"
   }

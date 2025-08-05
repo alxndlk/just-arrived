@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Hubert",
+      "iata_code": "YHU",
+      "icao_code": "CYHU",
+      "distance_km": 14.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 17.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Jean",
+      "iata_code": "YJN",
+      "icao_code": "CYJN",
+      "distance_km": 18.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Jean Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Jean Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.stjeanairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "StJeanAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 48.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:10.443775Z",
+    "generated_at": "2025-08-04T20:09:27.285398Z",
     "env": "development",
     "source": "justarrived-generator"
   }

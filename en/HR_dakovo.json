@@ -51,8 +51,35 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Osijek",
+      "iata_code": "OSI",
+      "icao_code": "LDOS",
+      "distance_km": 34.3,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.osijek-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osijek Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:50.372882Z",
+    "generated_at": "2025-08-04T18:49:48.370110Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Campbell AAF",
+      "iata_code": "HOP",
+      "icao_code": "KHOP",
+      "distance_km": 3.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Outlaw Field",
+      "iata_code": "CKV",
+      "icao_code": "KCKV",
+      "distance_km": 24.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Outlaw Field Airport handles all commercial flights and services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Outlaw Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.outlawfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Outlaw Field WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:00.548619Z",
+    "generated_at": "2025-08-04T20:08:33.090450Z",
     "env": "development",
     "source": "justarrived-generator"
   }

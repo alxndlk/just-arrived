@@ -51,8 +51,60 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pecs Pogany",
+      "iata_code": "PEV",
+      "icao_code": "LHPP",
+      "distance_km": 16.1,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Hungary."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to and from Pecs Pogany Airport."
+        }
+      ],
+      "website": "https://www.pecspoganyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Osijek",
+      "iata_code": "OSI",
+      "icao_code": "LDOS",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Osijek Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Osijek Airport, primarily used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.osijek-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Osijek Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:29.914022Z",
+    "generated_at": "2025-08-04T19:35:45.920895Z",
     "env": "development",
     "source": "justarrived-generator"
   }

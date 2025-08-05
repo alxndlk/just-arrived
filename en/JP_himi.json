@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toyama",
+      "iata_code": "TOY",
+      "icao_code": "RJNT",
+      "distance_km": 30.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Toyama Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.toyama-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toyama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Noto Airport",
+      "iata_code": "NTQ",
+      "icao_code": "RJNW",
+      "distance_km": 48.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Noto Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Noto Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.nto-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "NotoAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:26.340250Z",
+    "generated_at": "2025-08-04T18:32:02.855334Z",
     "env": "development",
     "source": "justarrived-generator"
   }

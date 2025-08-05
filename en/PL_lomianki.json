@@ -51,8 +51,101 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Warsaw Babice Airport",
+      "iata_code": "QEB",
+      "icao_code": "EPBC",
+      "distance_km": 7.4,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mazury",
+      "iata_code": "SZY",
+      "icao_code": "EPSY",
+      "distance_km": 12.0,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mazury Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mazuryairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mazury Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frederic Chopin",
+      "iata_code": "WAW",
+      "icao_code": "EPWA",
+      "distance_km": 19.1,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Frederic Chopin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A modern terminal with state-of-the-art facilities, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.lotnisko-chopina.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ChopinAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Modlin",
+      "iata_code": "WMI",
+      "icao_code": "EPMO",
+      "distance_km": 20.5,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Modlin Airport, handling all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.modlinairport.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Modlin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:38.458787Z",
+    "generated_at": "2025-08-04T20:12:26.981657Z",
     "env": "development",
     "source": "justarrived-generator"
   }

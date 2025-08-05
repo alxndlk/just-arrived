@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Antonio International",
+      "iata_code": "SAT",
+      "icao_code": "KSAT",
+      "distance_km": 27.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Stinson Municipalcipal",
+      "iata_code": "SSF",
+      "icao_code": "KSSF",
+      "distance_km": 36.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stinson Municipal Airport is a small but efficient building, providing all necessary services for travelers."
+        }
+      ],
+      "website": "https://www.sanantonio.gov/SSF",
+      "wifi": {
+        "available": true,
+        "network_name": "Stinson Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:11.623575Z",
+    "generated_at": "2025-08-04T20:27:35.892925Z",
     "env": "development",
     "source": "justarrived-generator"
   }

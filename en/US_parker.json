@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arapahoe Co",
+      "iata_code": "APA",
+      "icao_code": "KAPA",
+      "distance_km": 30.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Denver International",
+      "iata_code": "DEN",
+      "icao_code": "KDEN",
+      "distance_km": 38.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Jeppesen Terminal",
+          "description": "The main terminal at Denver International Airport, named after aviation pioneer Elrey B. Jeppesen."
+        },
+        {
+          "name": "Concourse A",
+          "description": "One of the three concourses at Denver International Airport, serving primarily United Airlines and its Star Alliance partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "One of the three concourses at Denver International Airport, serving primarily Southwest Airlines and its partners."
+        },
+        {
+          "name": "Concourse C",
+          "description": "One of the three concourses at Denver International Airport, serving primarily American Airlines and its partners."
+        }
+      ],
+      "website": "https://www.flydenver.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DEN Airport Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport with a simple registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:03.572125Z",
+    "generated_at": "2025-08-04T20:23:37.172901Z",
     "env": "development",
     "source": "justarrived-generator"
   }

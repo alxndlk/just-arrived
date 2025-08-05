@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Red Deer",
+      "iata_code": "YQF",
+      "icao_code": "CYQF",
+      "distance_km": 23.8,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Red Deer Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Red Deer Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flyreddeer.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YQF-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:49.661943Z",
+    "generated_at": "2025-08-04T19:25:41.743739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

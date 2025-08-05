@@ -49,8 +49,89 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 25.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Reichelsheim Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Reichelsheim Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.reichelsheimairport.de",
+      "wifi": {
+        "available": true,
+        "network_name": "Reichelsheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 45.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt International Airport, serving a variety of airlines and destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Frankfurt International Airport, primarily serving Lufthansa and its partners."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal currently under construction, set to open in 2023 and increase the airport's capacity."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Frankfurt-Egelsbach Airport, mostly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.frankfurt-egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Frankfurt-Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:24.423636Z",
+    "generated_at": "2025-08-04T20:12:30.764675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

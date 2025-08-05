@@ -48,8 +48,114 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 34.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niagara Falls International Airport serves all commercial flights and is equipped with modern amenities."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Niagara Falls International Airport is used for private and charter flights, providing a VIP experience for passengers."
+        }
+      ],
+      "website": "https://www.niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NiagaraFallsAirportWiFi",
+        "note": "WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 35.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Catharines Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Catharines Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.stcatharinesairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YCM Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for all passengers."
+      }
+    },
+    {
+      "airport_name": "Buffalo Niagara International",
+      "iata_code": "BUF",
+      "icao_code": "KBUF",
+      "distance_km": 42.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buffalo Niagara International Airport houses all of the airport's facilities, including check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a small concourse at Buffalo Niagara International Airport that primarily serves regional airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is the largest concourse at Buffalo Niagara International Airport and serves major airlines."
+        }
+      ],
+      "website": "https://www.buffaloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUF Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a fee for access."
+      }
+    },
+    {
+      "airport_name": "Dunkirk",
+      "iata_code": "DKK",
+      "icao_code": "KDKK",
+      "distance_km": 45.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dunkirk Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Dunkirk Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.dunkirkairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Dunkirk Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the terminal for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:33.906359Z",
+    "generated_at": "2025-08-04T18:55:46.072335Z",
     "env": "development",
     "source": "justarrived-generator"
   }

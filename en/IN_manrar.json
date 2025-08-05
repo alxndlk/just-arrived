@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Patna",
+      "iata_code": "PAT",
+      "icao_code": "VEPT",
+      "distance_km": 32.9,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal currently under construction."
+        }
+      ],
+      "website": "https://www.patnaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PATNA AIRPORT WIFI",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Muzaffarpur",
+      "iata_code": "MZU",
+      "icao_code": "VEMZ",
+      "distance_km": 40.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Muzaffarpur Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/muzaffarpur",
+      "wifi": {
+        "available": true,
+        "network_name": "Muzaffarpur Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for 2 hours with a valid phone number."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:49.631467Z",
+    "generated_at": "2025-08-04T19:29:42.771533Z",
     "env": "development",
     "source": "justarrived-generator"
   }

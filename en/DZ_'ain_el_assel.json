@@ -50,8 +50,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tabarka",
+      "iata_code": "TBJ",
+      "icao_code": "DTKA",
+      "distance_km": 48.8,
+      "gmt": "1",
+      "country": "Tunisia",
+      "timezone": "Africa/Tunis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tabarka Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tabarka Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.tabarka-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tabarka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:27.021094Z",
+    "generated_at": "2025-08-04T19:15:42.812699Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -93,8 +93,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Stinson Municipalcipal",
+      "iata_code": "SSF",
+      "icao_code": "KSSF",
+      "distance_km": 5.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "San Antonio International",
+      "iata_code": "SAT",
+      "icao_code": "KSAT",
+      "distance_km": 8.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for major airlines such as American Airlines, Delta, and United."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights and domestic flights for smaller airlines such as JetBlue and Southwest."
+        }
+      ],
+      "website": "https://www.sanantonio.gov/SAT",
+      "wifi": {
+        "available": true,
+        "network_name": "SAT Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the network and agreeing to the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:09.421552Z",
+    "generated_at": "2025-08-04T19:56:26.937665Z",
     "env": "development",
     "source": "justarrived-generator"
   }

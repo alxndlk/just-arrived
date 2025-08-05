@@ -51,8 +51,43 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 23.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "S. Angelo",
+      "iata_code": "TSF",
+      "icao_code": "LIPH",
+      "distance_km": 37.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at S. Angelo Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "S. Angelo Airport",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:18.772259Z",
+    "generated_at": "2025-08-04T20:10:34.596374Z",
     "env": "development",
     "source": "justarrived-generator"
   }

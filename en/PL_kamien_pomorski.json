@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Goleniow",
+      "iata_code": "SZZ",
+      "icao_code": "EPSC",
+      "distance_km": 42.6,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Goleniow Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Goleniow Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Heringsdorf",
+      "iata_code": "HDF",
+      "icao_code": "EDAH",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Heringsdorf Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flughafen-heringsdorf.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heringsdorf Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:28.933506Z",
+    "generated_at": "2025-08-04T19:36:41.904024Z",
     "env": "development",
     "source": "justarrived-generator"
   }

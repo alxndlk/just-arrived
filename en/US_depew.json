@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buffalo Niagara International",
+      "iata_code": "BUF",
+      "icao_code": "KBUF",
+      "distance_km": 3.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buffalo Niagara International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Gate 1 Terminal",
+          "description": "The Gate 1 Terminal at Buffalo Niagara International Airport is used for regional flights."
+        }
+      ],
+      "website": "https://www.buffaloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves regional flights."
+        }
+      ],
+      "website": "https://niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NiagaraFallsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 49.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:54.545784Z",
+    "generated_at": "2025-08-04T20:20:28.225923Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,59 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhulyany",
+      "iata_code": "IEV",
+      "icao_code": "UKKK",
+      "distance_km": 15.6,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal for domestic flights"
+        }
+      ],
+      "website": "https://iev.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "IEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Gostomel Airport",
+      "iata_code": "GML",
+      "icao_code": "UKKM",
+      "distance_km": 23.4,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boryspil (Borispol)",
+      "iata_code": "KBP",
+      "icao_code": "UKBB",
+      "distance_km": 47.4,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:48.280711Z",
+    "generated_at": "2025-08-04T20:14:25.607017Z",
     "env": "development",
     "source": "justarrived-generator"
   }

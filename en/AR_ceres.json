@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ceres",
+      "iata_code": "CRR",
+      "icao_code": "SANW",
+      "distance_km": 12.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ceres Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ceres Airport is responsible for handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ceresairport.com.ar",
+      "wifi": {
+        "available": true,
+        "network_name": "Ceres Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:02.978577Z",
+    "generated_at": "2025-08-04T19:08:45.577539Z",
     "env": "development",
     "source": "justarrived-generator"
   }

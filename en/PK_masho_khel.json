@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peshawar",
+      "iata_code": "PEW",
+      "icao_code": "OPPS",
+      "distance_km": 8.9,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://peshawarairport.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "PEW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kohat",
+      "iata_code": "OHT",
+      "icao_code": "OPKT",
+      "distance_km": 36.9,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kohat Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kohat Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.kohatairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kohat Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:31.450750Z",
+    "generated_at": "2025-08-04T18:41:42.143277Z",
     "env": "development",
     "source": "justarrived-generator"
   }

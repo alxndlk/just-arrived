@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Port Alberni",
+      "iata_code": "YPB",
+      "icao_code": "EHYP",
+      "distance_km": 29.6,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Alberni Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.port-alberni-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PortAlberniAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gillies Bay",
+      "iata_code": "YGB",
+      "icao_code": "CYGB",
+      "distance_km": 39.6,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gillies Bay Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gillies Bay Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://gilliesbayairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "GilliesBayAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:21.297921Z",
+    "generated_at": "2025-08-04T19:31:44.001638Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "S. Angelo",
+      "iata_code": "TSF",
+      "icao_code": "LIPH",
+      "distance_km": 13.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TSF Airport WiFi",
+        "note": "Complimentary for 2 hours, then requires purchase."
+      }
+    },
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 27.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marco Polo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Marco Polo Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCE-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aviano Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Aviano Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.avianoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aviano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:36.444629Z",
+    "generated_at": "2025-08-04T19:32:46.070222Z",
     "env": "development",
     "source": "justarrived-generator"
   }

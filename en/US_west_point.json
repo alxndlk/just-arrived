@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OGD",
+      "icao_code": "KOGD",
+      "distance_km": 11.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves as the primary hub for all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments, providing efficient and secure transportation services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Municipal Airport caters to private and corporate aircraft, offering exclusive services and amenities for a luxurious travel experience."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 38.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Main terminal for international flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Additional terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Brigham City",
+      "iata_code": "BMC",
+      "icao_code": "KBMC",
+      "distance_km": 47.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brigham City Airport serves domestic flights to various destinations."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Brigham City Airport provides services for private and charter flights."
+        }
+      ],
+      "website": "https://www.brighamcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BMC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:41.056522Z",
+    "generated_at": "2025-08-04T20:29:37.369018Z",
     "env": "development",
     "source": "justarrived-generator"
   }

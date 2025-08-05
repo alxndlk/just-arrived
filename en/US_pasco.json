@@ -48,8 +48,76 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tri-cities",
+      "iata_code": "PSC",
+      "icao_code": "KPSC",
+      "distance_km": 1.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tri-cities Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is the newest addition to the airport, serving primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves as the hub for all international flights at Tri-cities Airport."
+        }
+      ],
+      "website": "https://www.flytricities.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PSC_Free_WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Richland",
+      "iata_code": "RLD",
+      "icao_code": "KRLD",
+      "distance_km": 14.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flyrichland.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Richland Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "State",
+      "iata_code": "HES",
+      "icao_code": "KHRI",
+      "distance_km": 46.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:34.755767Z",
+    "generated_at": "2025-08-04T20:00:33.146232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

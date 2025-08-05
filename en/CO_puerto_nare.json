@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nare",
+      "iata_code": "NAR",
+      "icao_code": "SKPN",
+      "distance_km": 1.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nare Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Nare Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.nareairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NareAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Puerto Berrio",
+      "iata_code": "PBE",
+      "icao_code": "SKPR",
+      "distance_km": 34.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.puertoberrioairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:58.640061Z",
+    "generated_at": "2025-08-04T19:16:52.172694Z",
     "env": "development",
     "source": "justarrived-generator"
   }

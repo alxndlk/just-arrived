@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Persian Gulf International",
+      "iata_code": "PGU",
+      "icao_code": "OIBP",
+      "distance_km": 31.4,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Persian Gulf International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.persiangulfairport.ir/",
+      "wifi": {
+        "available": true,
+        "network_name": "PGU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:34.478808Z",
+    "generated_at": "2025-08-04T19:27:46.951587Z",
     "env": "development",
     "source": "justarrived-generator"
   }

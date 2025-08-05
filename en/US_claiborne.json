@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MLU",
+      "icao_code": "KMLU",
+      "distance_km": 14.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ruston",
+      "iata_code": "RSN",
+      "icao_code": "KRSN",
+      "distance_km": 40.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:40.058720Z",
+    "generated_at": "2025-08-04T20:23:35.913243Z",
     "env": "development",
     "source": "justarrived-generator"
   }

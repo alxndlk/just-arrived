@@ -52,8 +52,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orestes Acosta",
+      "iata_code": "MOA",
+      "icao_code": "MUMO",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Cuba."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to and from Cuba."
+        }
+      ],
+      "website": "http://www.aeropuertos.net/aeropuerto-internacional-de-moa/",
+      "wifi": {
+        "available": true,
+        "network_name": "Moa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guantanamo NAS",
+      "iata_code": "NBW",
+      "icao_code": "MUGM",
+      "distance_km": 46.6,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:51.683031Z",
+    "generated_at": "2025-08-04T20:04:32.344219Z",
     "env": "development",
     "source": "justarrived-generator"
   }

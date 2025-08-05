@@ -51,8 +51,100 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 16.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Domodedovo",
+      "iata_code": "DME",
+      "icao_code": "UUDD",
+      "distance_km": 18.8,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Domodedovo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal mainly used for international flights."
+        },
+        {
+          "name": "Terminal Business",
+          "description": "A separate terminal for business and VIP passengers."
+        }
+      ],
+      "website": "https://www.dme.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Domodedovo Free Wi-Fi",
+        "note": "Passengers can enjoy free Wi-Fi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ostafyevo International Airport",
+      "iata_code": "OSF",
+      "icao_code": "UUMO",
+      "distance_km": 26.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chkalovsky",
+      "iata_code": "CKL",
+      "icao_code": "UUMU",
+      "distance_km": 32.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chkalovsky Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and charter flights."
+        }
+      ],
+      "website": "http://www.chkalovskyairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chkalovsky Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vnukovo",
+      "iata_code": "VKO",
+      "icao_code": "UUWW",
+      "distance_km": 38.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:17.206131Z",
+    "generated_at": "2025-08-04T20:01:32.311102Z",
     "env": "development",
     "source": "justarrived-generator"
   }

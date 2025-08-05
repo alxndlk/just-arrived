@@ -106,8 +106,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 30.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal of Haneda Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 3 hours per day."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 39.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Narita International Airport, serving most major airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Narita International Airport, mainly used by low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-FreeWiFi",
+        "note": "Free wifi is available throughout the airport, but registration is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:37.444163Z",
+    "generated_at": "2025-08-04T18:08:38.131914Z",
     "env": "development",
     "source": "justarrived-generator"
   }

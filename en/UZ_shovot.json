@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Urgench",
+      "iata_code": "UGC",
+      "icao_code": "UTNU",
+      "distance_km": 28.6,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Samarkand",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.ugenchairport.uz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Urgench Airport WiFi",
+        "note": "Free WiFi available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dashoguz",
+      "iata_code": "TAZ",
+      "icao_code": "UTAT",
+      "distance_km": 34.4,
+      "gmt": "5",
+      "country": "Turkmenistan",
+      "timezone": "Asia/Ashgabat",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.turkmenistan.gov.tm/en/taz",
+      "wifi": {
+        "available": true,
+        "network_name": "Dashoguz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:00.492465Z",
+    "generated_at": "2025-08-04T18:57:45.053799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

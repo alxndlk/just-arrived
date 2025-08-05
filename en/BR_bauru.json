@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Bauru",
+      "iata_code": "BAU",
+      "icao_code": "SBBU",
+      "distance_km": 3.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Arealva",
+      "iata_code": "JTC",
+      "icao_code": "SJTC",
+      "distance_km": 16.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Arealva Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used primarily for domestic flights."
+        }
+      ],
+      "website": "https://www.arealvaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arealva Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:09.509226Z",
+    "generated_at": "2025-08-04T19:56:35.340408Z",
     "env": "development",
     "source": "justarrived-generator"
   }

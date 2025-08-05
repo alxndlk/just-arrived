@@ -50,8 +50,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 29.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 33.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 33.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Itami Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights by some airlines."
+        }
+      ],
+      "website": "https://www.osaka-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:29.302540Z",
+    "generated_at": "2025-08-04T20:02:30.662270Z",
     "env": "development",
     "source": "justarrived-generator"
   }

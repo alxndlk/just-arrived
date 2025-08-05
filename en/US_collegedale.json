@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lovell Field",
+      "iata_code": "CHA",
+      "icao_code": "KCHA",
+      "distance_km": 13.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lovell Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Lovell Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.chattairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CHA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "DNN",
+      "icao_code": "KDNN",
+      "distance_km": 32.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:23.583246Z",
+    "generated_at": "2025-08-04T20:26:34.251432Z",
     "env": "development",
     "source": "justarrived-generator"
   }

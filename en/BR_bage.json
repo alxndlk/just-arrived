@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airport Cmdt. Gustavo Kraemer",
+      "iata_code": "BGX",
+      "icao_code": "SBBG",
+      "distance_km": 7.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "http://www.aeroportobgx.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vichadero",
+      "iata_code": "VCH",
+      "icao_code": "SUVO",
+      "distance_km": 46.8,
+      "gmt": "-3",
+      "country": "Uruguay",
+      "timezone": "America/Montevideo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.vichaderoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vichadero Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:33.024621Z",
+    "generated_at": "2025-08-04T18:13:50.250802Z",
     "env": "development",
     "source": "justarrived-generator"
   }

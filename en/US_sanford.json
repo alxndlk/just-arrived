@@ -48,8 +48,112 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orlando Sanford International",
+      "iata_code": "SFB",
+      "icao_code": "KSFB",
+      "distance_km": 3.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orlando Executive",
+      "iata_code": "ORL",
+      "icao_code": "KORL",
+      "distance_km": 27.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kissimmee Gateway",
+      "iata_code": "ISM",
+      "icao_code": "KISM",
+      "distance_km": 38.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kissimmee Gateway Airport handles all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Kissimmee Gateway Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.flykissimmee.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kissimmee Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orlando International",
+      "iata_code": "MCO",
+      "icao_code": "KMCO",
+      "distance_km": 39.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "New Smyrna Beach Municipal Airport",
+      "iata_code": "QQB",
+      "icao_code": "KEVB",
+      "distance_km": 43.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Daytona Beach International Airport",
+      "iata_code": "DAB",
+      "icao_code": "KDAB",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Daytona Beach International Airport houses all ticketing, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A serves as the departure and arrival area for all domestic flights at Daytona Beach International Airport."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves as the departure and arrival area for all international flights at Daytona Beach International Airport."
+        }
+      ],
+      "website": "https://www.flydab.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAB Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:22.562172Z",
+    "generated_at": "2025-08-04T20:13:31.628362Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,110 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 9.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport serves domestic flights for various airlines."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Detroit City Airport serves international flights for select airlines."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DetroitCityAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 15.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Windsor Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Windsor Airport serves smaller regional flights."
+        }
+      ],
+      "website": "https://www.yqg.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Windsor Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 19.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Selfridge ANGB Airport, serving both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "A separate terminal for military flights and personnel at Selfridge ANGB Airport."
+        }
+      ],
+      "website": "https://www.selfridge.ang.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Selfridge Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    },
+    {
+      "airport_name": "Detroit Metropolitan Wayne County",
+      "iata_code": "DTW",
+      "icao_code": "KDTW",
+      "distance_km": 43.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "McNamara Terminal",
+          "description": "The McNamara Terminal is the main terminal at Detroit Metropolitan Wayne County Airport. It is known for its modern and spacious design, featuring a large central atrium and a variety of dining and shopping options."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Detroit Metropolitan Wayne County Airport is the newest terminal, opened in 2008. It features a more compact design and serves mostly low-cost carriers."
+        }
+      ],
+      "website": "https://www.metroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:46.353439Z",
+    "generated_at": "2025-08-04T19:27:56.301576Z",
     "env": "development",
     "source": "justarrived-generator"
   }

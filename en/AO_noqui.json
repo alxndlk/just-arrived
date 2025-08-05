@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matadi",
+      "iata_code": "MAT",
+      "icao_code": "FZAM",
+      "distance_km": 7.8,
+      "gmt": "1",
+      "country": "Democratic Republic of the Congo",
+      "timezone": "Africa/Kinshasa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Matadi Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Matadi Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.matadi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Matadi Airport WiFi",
+        "note": "WiFi is available for free throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boma",
+      "iata_code": "BOA",
+      "icao_code": "FZAJ",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "Democratic Republic of the Congo",
+      "timezone": "Africa/Kinshasa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boma Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bomaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Boma Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:20.467746Z",
+    "generated_at": "2025-08-04T18:49:39.439349Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Doha International",
+      "iata_code": "DOH",
+      "icao_code": "OTBD",
+      "distance_km": 27.7,
+      "gmt": "3",
+      "country": "Qatar",
+      "timezone": "Asia/Qatar",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional and low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal currently under construction, expected to open in 2022."
+        }
+      ],
+      "website": "https://dohahamadairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Al Udeid AB",
+      "iata_code": "XJD",
+      "icao_code": "OTBH",
+      "distance_km": 40.5,
+      "gmt": "3",
+      "country": "Qatar",
+      "timezone": "Asia/Qatar",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Al Udeid AB Airport, serving both civilian and military operations."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The separate terminal for military operations at Al Udeid AB Airport."
+        }
+      ],
+      "website": "https://www.qatarairways.com/en/destinations/qatar/doha/al-udeid-ab.html",
+      "wifi": {
+        "available": true,
+        "network_name": "AUAB-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:24.302777Z",
+    "generated_at": "2025-08-04T19:39:47.227659Z",
     "env": "development",
     "source": "justarrived-generator"
   }

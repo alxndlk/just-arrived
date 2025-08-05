@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Needles",
+      "iata_code": "EED",
+      "icao_code": "KEED",
+      "distance_km": 17.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Laughlin Bullhead International",
+      "iata_code": "IFP",
+      "icao_code": "KIFP",
+      "distance_km": 18.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Laughlin Bullhead International Airport serves all commercial and general aviation flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Laughlin Bullhead International Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://ifly.com/laughlin-bullhead-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "IFP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:55.800370Z",
+    "generated_at": "2025-08-04T20:19:30.775649Z",
     "env": "development",
     "source": "justarrived-generator"
   }

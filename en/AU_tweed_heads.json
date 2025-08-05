@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gold Coast (coolangatta)",
+      "iata_code": "OOL",
+      "icao_code": "YBCG",
+      "distance_km": 4.1,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost carrier flights."
+        }
+      ],
+      "website": "https://www.goldcoastairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "GoldCoastAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Southport",
+      "iata_code": "SHQ",
+      "icao_code": "YSPT",
+      "distance_km": 28.4,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Southport Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Southport Airport serves flights to nearby cities and towns."
+        }
+      ],
+      "website": "https://www.southportairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Southport Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:03.007649Z",
+    "generated_at": "2025-08-04T19:36:53.759873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

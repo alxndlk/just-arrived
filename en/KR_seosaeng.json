@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ulsan",
+      "iata_code": "USN",
+      "icao_code": "RKPU",
+      "distance_km": 26.8,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ulsan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ulsan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.airport.co.kr/ulsan",
+      "wifi": {
+        "available": true,
+        "network_name": "Ulsan Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Gimhae",
+      "iata_code": "PUS",
+      "icao_code": "RKPK",
+      "distance_km": 39.7,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within South Korea."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from South Korea."
+        }
+      ],
+      "website": "https://www.airport.co.kr/gimhaeeng/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Gimhae Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:45.612739Z",
+    "generated_at": "2025-08-04T19:35:52.384101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,85 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marka International Airport",
+      "iata_code": "ADJ",
+      "icao_code": "OJAM",
+      "distance_km": 7.6,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.adjordan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Queen Alia International",
+      "iata_code": "AMM",
+      "icao_code": "OJAI",
+      "distance_km": 33.3,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Queen Alia International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://qaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "QAIA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "King Hussein",
+      "iata_code": "OMF",
+      "icao_code": "OJMF",
+      "distance_km": 41.6,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at King Hussein Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at King Hussein Airport caters to high-level government officials and VIP passengers."
+        }
+      ],
+      "website": "https://www.kinghusseinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KH Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:24.559770Z",
+    "generated_at": "2025-08-04T18:06:40.201070Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brnik",
+      "iata_code": "LJU",
+      "icao_code": "LJLJ",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Brnik Airport, where most flights depart and arrive."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.lju-airport.si/",
+      "wifi": {
+        "available": true,
+        "network_name": "LJU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:09.292385Z",
+    "generated_at": "2025-08-04T19:12:50.438275Z",
     "env": "development",
     "source": "justarrived-generator"
   }

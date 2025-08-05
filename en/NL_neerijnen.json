@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 42.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Eindhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Eindhoven Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Eindhoven Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 46.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:49.566902Z",
+    "generated_at": "2025-08-04T20:24:28.835145Z",
     "env": "development",
     "source": "justarrived-generator"
   }

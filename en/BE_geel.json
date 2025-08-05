@@ -51,8 +51,134 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 20.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 37.8,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.antwerp-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Antwerp Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 42.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Eindhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Eindhoven Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require a login after a certain amount of time."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 43.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This is the main terminal of Brussels Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is mainly used for low-cost airlines and charter flights."
+        },
+        {
+          "name": "Terminal T",
+          "description": "This terminal is dedicated to private and business aviation."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 49.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilze-Rijen Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.gilze-rijen-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "GLZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:51.341386Z",
+    "generated_at": "2025-08-04T20:05:30.328148Z",
     "env": "development",
     "source": "justarrived-generator"
   }

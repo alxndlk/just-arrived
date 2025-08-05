@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Benj Matienzo",
+      "iata_code": "TUC",
+      "icao_code": "SANT",
+      "distance_km": 31.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Tucuman",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles all domestic flights within Argentina."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles all international flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuerto-tucuman",
+      "wifi": {
+        "available": true,
+        "network_name": "TUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:55.136893Z",
+    "generated_at": "2025-08-04T18:50:46.802363Z",
     "env": "development",
     "source": "justarrived-generator"
   }

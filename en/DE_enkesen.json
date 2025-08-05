@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Paderborn/lippstadt",
+      "iata_code": "PAD",
+      "icao_code": "EDLP",
+      "distance_km": 47.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.airport-pad.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAD Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:11.915288Z",
+    "generated_at": "2025-08-04T20:24:30.540130Z",
     "env": "development",
     "source": "justarrived-generator"
   }

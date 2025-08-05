@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 31.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Frankfurt-Egelsbach Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights at Frankfurt-Egelsbach Airport."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 37.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Frankfurt International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal of Frankfurt International Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA_FREE_WIFI",
+        "note": "Free WiFi is available throughout the airport, but limited to 4 hours per device."
+      }
+    },
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 41.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.reichelsheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Reichelsheim Airport WiFi",
+        "note": "Free WiFi access is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:51.305155Z",
+    "generated_at": "2025-08-04T20:32:30.057692Z",
     "env": "development",
     "source": "justarrived-generator"
   }

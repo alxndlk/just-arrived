@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "International Jetport",
+      "iata_code": "PWM",
+      "icao_code": "KPWM",
+      "distance_km": 8.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "NAS",
+      "iata_code": "NHZ",
+      "icao_code": "KNHZ",
+      "distance_km": 42.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at NAS Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at NAS Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.nasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sanford",
+      "iata_code": "SFM",
+      "icao_code": "KSFM",
+      "distance_km": 46.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal serves private and chartered flights."
+        }
+      ],
+      "website": "https://www.orlandosanfordairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFM Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after agreeing to the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:35.817619Z",
+    "generated_at": "2025-08-04T20:31:26.486386Z",
     "env": "development",
     "source": "justarrived-generator"
   }

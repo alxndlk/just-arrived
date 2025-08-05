@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fresno Air Terminal Airport",
+      "iata_code": "FAT",
+      "icao_code": "KFAT",
+      "distance_km": 16.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights and is the main terminal at Fresno Air Terminal Airport."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights and is located adjacent to Terminal A."
+        }
+      ],
+      "website": "https://www.flyfresno.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAT Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fresno-Chandler",
+      "iata_code": "FCH",
+      "icao_code": "KFCH",
+      "distance_km": 20.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fresno-Chandler Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fresno-Chandler Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.fresnochandlerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fresno-Chandler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Visalia",
+      "iata_code": "VIS",
+      "icao_code": "KVIS",
+      "distance_km": 44.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lemoore NAS (Reeves Field)",
+      "iata_code": "NLC",
+      "icao_code": "KNLC",
+      "distance_km": 48.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lemoore NAS Airport, serving all commercial and private flights."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrsw/installations/nas_lemoore.html",
+      "wifi": {
+        "available": true,
+        "network_name": "LemooreNAS_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:21.288297Z",
+    "generated_at": "2025-08-04T20:31:35.546589Z",
     "env": "development",
     "source": "justarrived-generator"
   }

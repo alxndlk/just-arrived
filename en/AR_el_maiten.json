@@ -50,8 +50,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Maiten",
+      "iata_code": "EMX",
+      "icao_code": "SAVD",
+      "distance_km": 2.3,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Catamarca",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertodelmaiten.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "ElMaitenAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Bolson",
+      "iata_code": "EHL",
+      "icao_code": "SAVB",
+      "distance_km": 48.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at El Bolson Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.elbolsonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EHL Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:08.072218Z",
+    "generated_at": "2025-08-04T19:37:50.286447Z",
     "env": "development",
     "source": "justarrived-generator"
   }

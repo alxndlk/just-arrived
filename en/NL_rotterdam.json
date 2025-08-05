@@ -104,8 +104,85 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 4.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all commercial flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RTM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 41.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gilze-Rijen Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://gilzerijen-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 47.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves mainly European destinations and is the oldest terminal at Schiphol Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves both European and intercontinental destinations and is the largest terminal at Schiphol Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves mainly intercontinental destinations and is the newest terminal at Schiphol Airport."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the instructions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:33.753518Z",
+    "generated_at": "2025-08-04T18:05:47.177561Z",
     "env": "development",
     "source": "justarrived-generator"
   }

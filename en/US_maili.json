@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 27.5,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Honolulu International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Interisland Terminal",
+          "description": "The interisland terminal at Honolulu International Airport serves flights within the Hawaiian islands."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'HNL Free WiFi' in their device's WiFi settings."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 41.8,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is exclusively for military flights and personnel."
+        }
+      ],
+      "website": "https://www.kaneohe-bay-mcas-airport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "KaneoheBayWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:38.633454Z",
+    "generated_at": "2025-08-04T20:24:33.063060Z",
     "env": "development",
     "source": "justarrived-generator"
   }

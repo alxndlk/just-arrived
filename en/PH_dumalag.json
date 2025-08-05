@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roxas City",
+      "iata_code": "RXS",
+      "icao_code": "RPVR",
+      "distance_km": 35.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kalibo",
+      "iata_code": "KLO",
+      "icao_code": "RPVK",
+      "distance_km": 50.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalibo Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://kalibo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:54.740770Z",
+    "generated_at": "2025-08-04T20:09:25.856220Z",
     "env": "development",
     "source": "justarrived-generator"
   }

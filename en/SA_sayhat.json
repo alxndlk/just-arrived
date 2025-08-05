@@ -51,8 +51,47 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 16.1,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "King Fahd International Airport",
+      "iata_code": "DMM",
+      "icao_code": "OEDF",
+      "distance_km": 25.0,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of King Fahd International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal of King Fahd International Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.dmm-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KFIA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a code from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:29.824204Z",
+    "generated_at": "2025-08-04T20:00:29.530988Z",
     "env": "development",
     "source": "justarrived-generator"
   }

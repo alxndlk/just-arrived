@@ -51,8 +51,39 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alpe D Huez",
+      "iata_code": "AHZ",
+      "icao_code": "LFHU",
+      "distance_km": 48.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A recently built terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.alpedhuezairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AHZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:04.667994Z",
+    "generated_at": "2025-08-04T19:22:59.861189Z",
     "env": "development",
     "source": "justarrived-generator"
   }

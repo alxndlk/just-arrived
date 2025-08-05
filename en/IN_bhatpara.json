@@ -51,8 +51,39 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Netaji Subhas Chandra",
+      "iata_code": "CCU",
+      "icao_code": "VECC",
+      "distance_km": 25.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles domestic flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles international flights"
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/kolkata",
+      "wifi": {
+        "available": true,
+        "network_name": "CCU Airport Free WiFi",
+        "note": "Limited to 1 hour per device per day"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:01.808889Z",
+    "generated_at": "2025-08-04T18:06:55.007690Z",
     "env": "development",
     "source": "justarrived-generator"
   }

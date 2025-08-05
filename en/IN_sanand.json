@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sardar Vallabhbhai Patel International Airport",
+      "iata_code": "AMD",
+      "icao_code": "VAAH",
+      "distance_km": 26.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles international and domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to domestic flights"
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/ahmedabad",
+      "wifi": {
+        "available": true,
+        "network_name": "AMD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:37.791572Z",
+    "generated_at": "2025-08-04T18:33:40.005158Z",
     "env": "development",
     "source": "justarrived-generator"
   }

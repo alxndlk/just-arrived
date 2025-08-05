@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reykjavik Domestic",
+      "iata_code": "RKV",
+      "icao_code": "BIRK",
+      "distance_km": 4.6,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Keflavik International",
+      "iata_code": "KEF",
+      "icao_code": "BIKF",
+      "distance_km": 35.5,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Keflavik International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Keflavik International Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.kefairport.is/",
+      "wifi": {
+        "available": true,
+        "network_name": "KEF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:13.065599Z",
+    "generated_at": "2025-08-04T20:16:26.324345Z",
     "env": "development",
     "source": "justarrived-generator"
   }

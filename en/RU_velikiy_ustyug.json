@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Velikij Ustyug",
+      "iata_code": "VUS",
+      "icao_code": "ULWU",
+      "distance_km": 0.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://vus.aero",
+      "wifi": {
+        "available": true,
+        "network_name": "Velikij Ustyug Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:02.897727Z",
+    "generated_at": "2025-08-04T18:43:47.945121Z",
     "env": "development",
     "source": "justarrived-generator"
   }

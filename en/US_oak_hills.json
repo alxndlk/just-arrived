@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 11.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Portland Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 primarily serves regional and cargo flights."
+        }
+      ],
+      "website": "https://www.portlandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited connectivity in some areas."
+      }
+    },
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 20.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland International Airport serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Portland International Airport serves domestic flights for Alaska Airlines, American Airlines, and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Portland International Airport serves domestic flights for Southwest Airlines and United Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Portland International Airport serves international flights for Air Canada, JetBlue Airways, and Sun Country Airlines."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Troutdale",
+      "iata_code": "TTD",
+      "icao_code": "KTTD",
+      "distance_km": 42.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mal",
+      "iata_code": "MMV",
+      "icao_code": "KMMV",
+      "distance_km": 45.4,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mal Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.pacificwings.com.pg/airports/mal-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mal Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:54.382046Z",
+    "generated_at": "2025-08-04T20:26:26.865804Z",
     "env": "development",
     "source": "justarrived-generator"
   }

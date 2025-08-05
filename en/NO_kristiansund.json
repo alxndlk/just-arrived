@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kvernberget",
+      "iata_code": "KSU",
+      "icao_code": "ENKB",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aro",
+      "iata_code": "MOL",
+      "icao_code": "ENML",
+      "distance_km": 46.8,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aro Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Aro Airport is responsible for handling all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.airoairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aro Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:37.875134Z",
+    "generated_at": "2025-08-04T20:16:32.264711Z",
     "env": "development",
     "source": "justarrived-generator"
   }

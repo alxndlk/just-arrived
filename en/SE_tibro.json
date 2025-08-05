@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skovde",
+      "iata_code": "KVB",
+      "icao_code": "ESGR",
+      "distance_km": 11.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skovde Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skovde Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.skovdeairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "SkovdeAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:16.398592Z",
+    "generated_at": "2025-08-04T19:36:00.595702Z",
     "env": "development",
     "source": "justarrived-generator"
   }

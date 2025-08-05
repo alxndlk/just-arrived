@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Odessa International",
+      "iata_code": "ODS",
+      "icao_code": "UKOO",
+      "distance_km": 38.6,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Odessa International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.odessa.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ODS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:25.047380Z",
+    "generated_at": "2025-08-04T18:39:47.918261Z",
     "env": "development",
     "source": "justarrived-generator"
   }

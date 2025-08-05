@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Valerio Catullo",
+      "iata_code": "VRN",
+      "icao_code": "LIPX",
+      "distance_km": 39.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Trissino",
+      "iata_code": "VIC",
+      "icao_code": "LIPT",
+      "distance_km": 43.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Trissino Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Trissino Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.trissinoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Trissino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:52.553150Z",
+    "generated_at": "2025-08-04T20:11:32.195810Z",
     "env": "development",
     "source": "justarrived-generator"
   }

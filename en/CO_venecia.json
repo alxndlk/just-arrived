@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Enrique Olaya Herrera International Airport",
+      "iata_code": "EOH",
+      "icao_code": "SKMD",
+      "distance_km": 38.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Colombia."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to and from Colombia."
+        }
+      ],
+      "website": "https://www.aeropuertoolaya.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jose Maria Cordova",
+      "iata_code": "MDE",
+      "icao_code": "SKRG",
+      "distance_km": 45.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertorionegro.co/",
+      "wifi": {
+        "available": true,
+        "network_name": "MDE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:04.118393Z",
+    "generated_at": "2025-08-04T19:25:49.236253Z",
     "env": "development",
     "source": "justarrived-generator"
   }

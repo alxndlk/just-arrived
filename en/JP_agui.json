@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chu-Bu Centrair International (Central Japan International)",
+      "iata_code": "NGO",
+      "icao_code": "RJGG",
+      "distance_km": 13.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chu-Bu Centrair International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Chu-Bu Centrair International Airport, primarily serving low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.centrair.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Centrair Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may require registration with a valid email address."
+      }
+    },
+    {
+      "airport_name": "Komaki AFB",
+      "iata_code": "NKM",
+      "icao_code": "RJNA",
+      "distance_km": 35.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Komaki AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Komaki AFB Airport, handling all cargo operations."
+        }
+      ],
+      "website": "https://www.komakiafbairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:09.739381Z",
+    "generated_at": "2025-08-04T18:43:55.090199Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hiroshima Airport",
+      "iata_code": "HIJ",
+      "icao_code": "RJOA",
+      "distance_km": 10.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hiroshima West",
+      "iata_code": "HIW",
+      "icao_code": "RJBH",
+      "distance_km": 45.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.hij.airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hiroshima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:11.273651Z",
+    "generated_at": "2025-08-04T20:12:34.387082Z",
     "env": "development",
     "source": "justarrived-generator"
   }

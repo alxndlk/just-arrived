@@ -105,8 +105,76 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 22.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 23.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fuerstenfeldbruck Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fuerstenfeldbruck Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.munich-airport.de/en/fuerstenfeldbruck-airport-487790",
+      "wifi": {
+        "available": true,
+        "network_name": "Fuerstenfeldbruck Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 28.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used by Lufthansa and its partners."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:31:58.058428Z",
+    "generated_at": "2025-08-04T19:56:26.434516Z",
     "env": "development",
     "source": "justarrived-generator"
   }

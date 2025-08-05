@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Falconara",
+      "iata_code": "AOI",
+      "icao_code": "LIPY",
+      "distance_km": 2.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Falconara Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportomarche.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Falconara Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:56.620997Z",
+    "generated_at": "2025-08-04T19:09:01.343578Z",
     "env": "development",
     "source": "justarrived-generator"
   }

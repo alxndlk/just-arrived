@@ -51,8 +51,60 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sion",
+      "iata_code": "SIR",
+      "icao_code": "LSGS",
+      "distance_km": 29.1,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sion Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Sion Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.sionairport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sion Airport Wifi",
+        "note": "Passengers can connect to the airport's wifi network for free."
+      }
+    },
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 36.8,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lausanne Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lausanne Airport is reserved for VIP and private flights."
+        }
+      ],
+      "website": "https://www.lausanne-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lausanne Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:06.869410Z",
+    "generated_at": "2025-08-04T19:26:43.825981Z",
     "env": "development",
     "source": "justarrived-generator"
   }

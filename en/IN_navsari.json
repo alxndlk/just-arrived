@@ -51,8 +51,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Surat",
+      "iata_code": "STV",
+      "icao_code": "VASU",
+      "distance_km": 34.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The only terminal at Surat Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.suratairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Surat Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Daman",
+      "iata_code": "NMB",
+      "icao_code": "VADN",
+      "distance_km": 48.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Daman Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated to handling cargo flights."
+        }
+      ],
+      "website": "https://www.damanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DamanAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:16.335407Z",
+    "generated_at": "2025-08-04T19:39:42.505863Z",
     "env": "development",
     "source": "justarrived-generator"
   }

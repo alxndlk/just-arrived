@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gothenburg City Airport",
+      "iata_code": "GSE",
+      "icao_code": "ESGP",
+      "distance_km": 16.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gothenburg City Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gothenburg City Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.goteborgcityairport.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "GSE Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Landvetter",
+      "iata_code": "GOT",
+      "icao_code": "ESGG",
+      "distance_km": 16.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:28.473062Z",
+    "generated_at": "2025-08-04T20:06:30.933700Z",
     "env": "development",
     "source": "justarrived-generator"
   }

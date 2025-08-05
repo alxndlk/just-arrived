@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Des Moines International",
+      "iata_code": "DSM",
+      "icao_code": "KDSM",
+      "distance_km": 21.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Perry Municipal",
+      "iata_code": "PRO",
+      "icao_code": "KPRO",
+      "distance_km": 33.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Perry Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Perry Municipal Airport caters to private jets and charters."
+        }
+      ],
+      "website": "https://www.perryairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Perry Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ames",
+      "iata_code": "AMW",
+      "icao_code": "KAMW",
+      "distance_km": 49.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:40.003163Z",
+    "generated_at": "2025-08-04T20:10:31.223640Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eaker",
+      "iata_code": "DUA",
+      "icao_code": "KDUA",
+      "distance_km": 2.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eaker Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Eaker Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.eakerairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "EakerAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Grayson County",
+      "iata_code": "PNX",
+      "icao_code": "KGYI",
+      "distance_km": 44.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:27.054233Z",
+    "generated_at": "2025-08-04T20:15:35.273429Z",
     "env": "development",
     "source": "justarrived-generator"
   }

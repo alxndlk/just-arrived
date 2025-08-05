@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pajas Blancas",
+      "iata_code": "COR",
+      "icao_code": "SACO",
+      "distance_km": 12.0,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Used for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuertos/cordoba",
+      "wifi": {
+        "available": true,
+        "network_name": "PajasBlancasAirportWifi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    },
+    {
+      "airport_name": "La Cumbre",
+      "iata_code": "LCM",
+      "icao_code": "SACC",
+      "distance_km": 44.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Cumbre Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at La Cumbre Airport offers exclusive services for VIP passengers."
+        }
+      ],
+      "website": "https://www.lacumbreairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LCM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:28.549756Z",
+    "generated_at": "2025-08-04T18:31:41.353951Z",
     "env": "development",
     "source": "justarrived-generator"
   }

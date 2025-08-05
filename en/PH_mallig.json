@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cauayan",
+      "iata_code": "CYZ",
+      "icao_code": "RPUY",
+      "distance_km": 34.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.cauayanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CYZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tuguegarao",
+      "iata_code": "TUG",
+      "icao_code": "RPUT",
+      "distance_km": 49.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:46.992897Z",
+    "generated_at": "2025-08-04T20:08:28.552058Z",
     "env": "development",
     "source": "justarrived-generator"
   }

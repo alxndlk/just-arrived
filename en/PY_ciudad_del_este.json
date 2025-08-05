@@ -104,8 +104,72 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGU",
+      "icao_code": "SBFI",
+      "distance_km": 15.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Alejo Garcia",
+      "iata_code": "AGT",
+      "icao_code": "SGES",
+      "distance_km": 21.9,
+      "gmt": "-4",
+      "country": "Paraguay",
+      "timezone": "America/Asuncion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.aeropuertoalejogarcia.com.py/",
+      "wifi": {
+        "available": true,
+        "network_name": "Alejo Garcia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cataratas",
+      "iata_code": "IGR",
+      "icao_code": "SARI",
+      "distance_km": 27.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Cataratas Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Cataratas Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosarg.com.ar/aeropuerto-cataratas-del-iguazu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cataratas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:56.810139Z",
+    "generated_at": "2025-08-04T19:56:36.884176Z",
     "env": "development",
     "source": "justarrived-generator"
   }

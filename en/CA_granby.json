@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bromont",
+      "iata_code": "ZBM",
+      "icao_code": "CZBM",
+      "distance_km": 12.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Jean",
+      "iata_code": "YJN",
+      "icao_code": "CYJN",
+      "distance_km": 47.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Jean Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.stjeanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StJeanAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:41.117877Z",
+    "generated_at": "2025-08-04T20:01:30.017628Z",
     "env": "development",
     "source": "justarrived-generator"
   }

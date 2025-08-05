@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Muzaffarpur",
+      "iata_code": "MZU",
+      "icao_code": "VEMZ",
+      "distance_km": 24.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://muzaffarpurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MZU Airport WiFi",
+        "note": "Free WiFi available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Patna",
+      "iata_code": "PAT",
+      "icao_code": "VEPT",
+      "distance_km": 43.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.patnaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Patna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:11.353788Z",
+    "generated_at": "2025-08-04T19:17:50.967513Z",
     "env": "development",
     "source": "justarrived-generator"
   }

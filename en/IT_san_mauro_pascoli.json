@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miramare",
+      "iata_code": "RMI",
+      "icao_code": "LIPR",
+      "distance_km": 18.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Miramare Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Miramare Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.miramareairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miramare Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Luigi Ridolfi",
+      "iata_code": "FRL",
+      "icao_code": "LIPK",
+      "distance_km": 29.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Luigi Ridolfi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.federicoelliotto.it/en/luigi-ridolfi-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "LuigiRidolfiAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:52.649373Z",
+    "generated_at": "2025-08-04T19:16:50.803303Z",
     "env": "development",
     "source": "justarrived-generator"
   }

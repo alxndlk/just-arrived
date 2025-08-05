@@ -51,8 +51,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "King Hussein",
+      "iata_code": "OMF",
+      "icao_code": "OJMF",
+      "distance_km": 34.0,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at King Hussein Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers exclusive services for high-end travelers and business executives."
+        }
+      ],
+      "website": "https://www.kinghusseinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KHA Free WiFi",
+        "note": "Passengers can connect to the free WiFi network throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marka International Airport",
+      "iata_code": "ADJ",
+      "icao_code": "OJAM",
+      "distance_km": 34.9,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.markaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:12.844708Z",
+    "generated_at": "2025-08-04T18:29:44.696714Z",
     "env": "development",
     "source": "justarrived-generator"
   }

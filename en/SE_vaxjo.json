@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Smaland Airport",
+      "iata_code": "VXO",
+      "icao_code": "ESMX",
+      "distance_km": 6.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Smaland Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.smalandairport.se/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Smaland Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:18.502409Z",
+    "generated_at": "2025-08-04T18:24:49.222528Z",
     "env": "development",
     "source": "justarrived-generator"
   }

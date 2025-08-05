@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hyvinkaa",
+      "iata_code": "HYV",
+      "icao_code": "EFHV",
+      "distance_km": 10.9,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Hyvinkaa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.hyvinkaaairport.fi/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hyvinkaa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Helsinki-vantaa",
+      "iata_code": "HEL",
+      "icao_code": "EFHK",
+      "distance_km": 47.5,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Helsinki-vantaa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Helsinki-vantaa Airport, primarily serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/helsinki-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "HEL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:48.112107Z",
+    "generated_at": "2025-08-04T18:43:43.558719Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,64 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 44.4,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.delhihindonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Delhi Hindon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 48.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal mainly serves domestic flights and low-cost carriers."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves as the main international terminal and is one of the largest terminals in India."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:29.191180Z",
+    "generated_at": "2025-08-04T19:59:32.371150Z",
     "env": "development",
     "source": "justarrived-generator"
   }

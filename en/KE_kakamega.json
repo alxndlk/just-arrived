@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kakamega",
+      "iata_code": "GGM",
+      "icao_code": "HKKG",
+      "distance_km": 4.2,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "This terminal is exclusively for VIP and private flights."
+        }
+      ],
+      "website": "https://www.kenyaairports.co.ke/airports/kakamega-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kakamega Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Kisumu",
+      "iata_code": "KIS",
+      "icao_code": "HKKI",
+      "distance_km": 41.0,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kisumu Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kisumu Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kaa.go.ke/airports/kisumu-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kisumu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:27.361130Z",
+    "generated_at": "2025-08-04T18:20:41.215559Z",
     "env": "development",
     "source": "justarrived-generator"
   }

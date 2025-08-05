@@ -107,8 +107,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Chkalovsky",
+      "iata_code": "CKL",
+      "icao_code": "UUMU",
+      "distance_km": 27.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 32.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Zhukovsky International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Zhukovsky International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.zia.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZIA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password to access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:50.392409Z",
+    "generated_at": "2025-08-04T19:58:29.870264Z",
     "env": "development",
     "source": "justarrived-generator"
   }

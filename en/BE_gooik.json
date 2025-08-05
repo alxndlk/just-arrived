@@ -51,8 +51,72 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 27.9,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for all international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Dedicated to low-cost and regional flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Used for domestic and Schengen flights."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 49.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/Antwerp Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:50.153327Z",
+    "generated_at": "2025-08-04T20:31:37.420787Z",
     "env": "development",
     "source": "justarrived-generator"
   }

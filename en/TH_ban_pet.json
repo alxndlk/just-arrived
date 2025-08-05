@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Khon Kaen",
+      "iata_code": "KKC",
+      "icao_code": "VTUK",
+      "distance_km": 5.1,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Khon Kaen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.khonkaenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KKC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:54.487127Z",
+    "generated_at": "2025-08-04T18:32:49.026794Z",
     "env": "development",
     "source": "justarrived-generator"
   }

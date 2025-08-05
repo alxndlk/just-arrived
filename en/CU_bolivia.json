@@ -52,8 +52,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jardines Del Rey Airport\r\n",
+      "iata_code": "CCC",
+      "icao_code": "MUCC",
+      "distance_km": 43.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Maximo Gomez",
+      "iata_code": "AVI",
+      "icao_code": "MUCA",
+      "distance_km": 45.8,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main international terminal serving various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Domestic terminal for local flights within Cuba."
+        }
+      ],
+      "website": "https://www.cubaairports.cu/aviation/airports/maximo-gomez-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Maximo Gomez Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:58.391632Z",
+    "generated_at": "2025-08-04T20:20:28.439190Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GTG",
+      "icao_code": "KGTG",
+      "distance_km": 36.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Anoka County–Blaine Airport ",
+      "iata_code": "QQA",
+      "icao_code": "KANE",
+      "distance_km": 45.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Anoka County-Blaine Airport handles all commercial flights and houses the airport's amenities."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Anoka County-Blaine Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.anokacountyblaineairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:25.427383Z",
+    "generated_at": "2025-08-04T20:26:34.389840Z",
     "env": "development",
     "source": "justarrived-generator"
   }

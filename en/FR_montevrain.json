@@ -51,8 +51,114 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 19.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving a variety of airlines and destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The busiest terminal at Charles De Gaulle Airport, divided into seven sub-terminals (2A to 2G) and serving a wide range of international airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The smallest and newest terminal at Charles De Gaulle Airport, primarily serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds and unlimited usage."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 24.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for commercial flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated terminal for private and business aviation"
+        }
+      ],
+      "website": "https://www.aeroportparislebourget.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 32.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal used for regional and European flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Orly Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 48.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toussus-le-noble Airport handles all commercial and private flights."
+        }
+      ],
+      "website": "https://www.aeroports-voyages.fr/aeroport/toussus-le-noble-tnf",
+      "wifi": {
+        "available": true,
+        "network_name": "Toussus-le-noble Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:50.600297Z",
+    "generated_at": "2025-08-04T19:07:50.173755Z",
     "env": "development",
     "source": "justarrived-generator"
   }

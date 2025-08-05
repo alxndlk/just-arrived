@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mc Ghee Tyson",
+      "iata_code": "TYS",
+      "icao_code": "KTYS",
+      "distance_km": 6.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gatlinburg",
+      "iata_code": "GKT",
+      "icao_code": "KGKT",
+      "distance_km": 43.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gatlinburg Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.gatlinburgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GKT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:13.333684Z",
+    "generated_at": "2025-08-04T20:28:27.727139Z",
     "env": "development",
     "source": "justarrived-generator"
   }

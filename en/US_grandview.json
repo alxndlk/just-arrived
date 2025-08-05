@@ -48,8 +48,126 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lee's Summit Municipal Airport",
+      "iata_code": "QQL",
+      "icao_code": "KLXT",
+      "distance_km": 15.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Johnson Executive",
+      "iata_code": "OJC",
+      "icao_code": "KOJC",
+      "distance_km": 18.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Johnson Executive Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Johnson Executive Airport is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.johnsonexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JEA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Downtown",
+      "iata_code": "MKC",
+      "icao_code": "KMKC",
+      "distance_km": 27.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flymkc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MKC Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "New Century Aircenter Airport",
+      "iata_code": "JCI",
+      "icao_code": "KIXD",
+      "distance_km": 33.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at New Century Aircenter Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights at New Century Aircenter Airport."
+        }
+      ],
+      "website": "https://www.flykci.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JCI Free WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Kansas City International Airport",
+      "iata_code": "MCI",
+      "icao_code": "KMCI",
+      "distance_km": 49.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.flykci.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KCI Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:15.165567Z",
+    "generated_at": "2025-08-04T20:26:37.621590Z",
     "env": "development",
     "source": "justarrived-generator"
   }

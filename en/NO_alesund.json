@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vigra",
+      "iata_code": "AES",
+      "icao_code": "ENAL",
+      "distance_km": 9.9,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vigra Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vigra Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.avinor.no/en/airport/vigra-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "VigraAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hovden",
+      "iata_code": "HOV",
+      "icao_code": "ENOV",
+      "distance_km": 32.8,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:38.497634Z",
+    "generated_at": "2025-08-04T20:03:29.892285Z",
     "env": "development",
     "source": "justarrived-generator"
   }

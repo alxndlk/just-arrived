@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lawrence J Timmerman",
+      "iata_code": "MWC",
+      "icao_code": "KMWC",
+      "distance_km": 10.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawrence J Timmerman Airport handles all commercial flights and services."
+        }
+      ],
+      "website": "https://www.mitchellairport.com/mwc/",
+      "wifi": {
+        "available": true,
+        "network_name": "MWC_Free_WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "General Mitchell International",
+      "iata_code": "MKE",
+      "icao_code": "KMKE",
+      "distance_km": 16.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at General Mitchell International Airport is the primary hub for all domestic and international flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is a satellite terminal located on the south side of the airport, primarily used for domestic flights."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D is a satellite terminal located on the north side of the airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.mitchellairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MKE Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require periodic reconnection."
+      }
+    },
+    {
+      "airport_name": "West Bend",
+      "iata_code": "ETB",
+      "icao_code": "KETB",
+      "distance_km": 41.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo shipments."
+        }
+      ],
+      "website": "https://www.westbendairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WestBendAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:30.314703Z",
+    "generated_at": "2025-08-04T18:30:45.648506Z",
     "env": "development",
     "source": "justarrived-generator"
   }

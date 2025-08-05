@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Astrakhan",
+      "iata_code": "ASF",
+      "icao_code": "URWA",
+      "distance_km": 20.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Volgograd",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Astrakhan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.astrakhanairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Astrakhan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:30.674877Z",
+    "generated_at": "2025-08-04T19:03:54.048534Z",
     "env": "development",
     "source": "justarrived-generator"
   }

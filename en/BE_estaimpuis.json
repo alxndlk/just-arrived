@@ -51,8 +51,68 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 13.8,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kortrijk Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.kortrijkairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kortrijk Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Lesquin",
+      "iata_code": "LIL",
+      "icao_code": "LFQQ",
+      "distance_km": 18.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Merville/Calonne",
+      "iata_code": "HZB",
+      "icao_code": "LFQT",
+      "distance_km": 44.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.mervillecalonneairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MervilleCalonneAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:02.105344Z",
+    "generated_at": "2025-08-04T20:28:31.914127Z",
     "env": "development",
     "source": "justarrived-generator"
   }

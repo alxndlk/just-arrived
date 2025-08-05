@@ -107,8 +107,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Santander",
+      "iata_code": "SDR",
+      "icao_code": "LEXJ",
+      "distance_km": 33.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bilbao",
+      "iata_code": "BIO",
+      "icao_code": "LEBB",
+      "distance_km": 42.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bilbao Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/bilbao-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Bilbao Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:02.109483Z",
+    "generated_at": "2025-08-04T20:27:35.365457Z",
     "env": "development",
     "source": "justarrived-generator"
   }

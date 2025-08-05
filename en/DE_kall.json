@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 36.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Aachen/Merzbruck Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aachen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:56.150330Z",
+    "generated_at": "2025-08-04T19:21:40.488648Z",
     "env": "development",
     "source": "justarrived-generator"
   }

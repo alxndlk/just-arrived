@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Mole",
+      "iata_code": "LTT",
+      "icao_code": "LFTZ",
+      "distance_km": 22.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.lamole-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "La Mole Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Le Palyvestre",
+      "iata_code": "TLN",
+      "icao_code": "LFTH",
+      "distance_km": 43.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.toulon-hyeres.aeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TLN Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    },
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 44.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mandelieu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Mandelieu Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroport-cannes-mandelieu.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:22.290159Z",
+    "generated_at": "2025-08-04T19:14:49.698676Z",
     "env": "development",
     "source": "justarrived-generator"
   }

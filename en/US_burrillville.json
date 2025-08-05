@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "North Central",
+      "iata_code": "SFZ",
+      "icao_code": "KSFZ",
+      "distance_km": 12.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.northcentralairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NCA Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "T. F. Green Airport",
+      "iata_code": "PVD",
+      "icao_code": "KPVD",
+      "distance_km": 34.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at T. F. Green Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at T. F. Green Airport primarily serves Southwest Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at T. F. Green Airport serves all other airlines, including Delta, American, and United."
+        }
+      ],
+      "website": "https://www.pvdairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PVD Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Worcester Regional Airport",
+      "iata_code": "ORH",
+      "icao_code": "KORH",
+      "distance_km": 36.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Worcester Regional Airport serves all commercial flights and provides amenities for travelers."
+        }
+      ],
+      "website": "https://www.flyworcester.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ORH WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:15.720432Z",
+    "generated_at": "2025-08-04T19:03:50.608175Z",
     "env": "development",
     "source": "justarrived-generator"
   }

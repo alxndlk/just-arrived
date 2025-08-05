@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Union",
+      "iata_code": "POP",
+      "icao_code": "MDPP",
+      "distance_km": 48.2,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Union Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at La Union Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.launionairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LaUnionAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:45.969857Z",
+    "generated_at": "2025-08-04T19:15:50.581848Z",
     "env": "development",
     "source": "justarrived-generator"
   }

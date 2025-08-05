@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bartlesville",
+      "iata_code": "BVO",
+      "icao_code": "KBVO",
+      "distance_km": 6.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bartlesville Airport is the hub for all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Bartlesville Airport caters to private and charter flights, offering exclusive amenities and services."
+        }
+      ],
+      "website": "https://www.flybvo.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BVO Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "CFV",
+      "icao_code": "KCFV",
+      "distance_km": 44.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:16.063673Z",
+    "generated_at": "2025-08-04T20:06:29.919750Z",
     "env": "development",
     "source": "justarrived-generator"
   }

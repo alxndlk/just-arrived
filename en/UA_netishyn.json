@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rovno",
+      "iata_code": "RWN",
+      "icao_code": "UKLR",
+      "distance_km": 44.1,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.rovno-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RWN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:05.224303Z",
+    "generated_at": "2025-08-04T18:36:43.731080Z",
     "env": "development",
     "source": "justarrived-generator"
   }

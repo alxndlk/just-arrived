@@ -51,8 +51,85 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 27.7,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Liege Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for cargo operations, handling a large volume of freight and air mail."
+        }
+      ],
+      "website": "https://www.liegeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Liege Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 32.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Aachen/Merzbruck Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aachen-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "AachenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 42.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Maastricht/aachen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Maastricht/aachen Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.maa.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "MaastrichtAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:39.093777Z",
+    "generated_at": "2025-08-04T19:17:41.915243Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Page Field",
+      "iata_code": "FMY",
+      "icao_code": "KFMY",
+      "distance_km": 11.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Southwest Florida International",
+      "iata_code": "RSW",
+      "icao_code": "KRSW",
+      "distance_km": 20.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Southwest Florida International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Southwest Florida International Airport serves domestic flights for Southwest Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Southwest Florida International Airport serves domestic flights for Delta, American, and United Airlines."
+        }
+      ],
+      "website": "https://www.flylcpa.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RSW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Naples",
+      "iata_code": "APF",
+      "icao_code": "KAPF",
+      "distance_km": 44.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Naples Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://flynaples.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Naples Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charlotte County",
+      "iata_code": "PGD",
+      "icao_code": "KPGD",
+      "distance_km": 44.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights, providing a more exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.flypgd.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PGD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:56.760345Z",
+    "generated_at": "2025-08-04T20:21:29.510032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

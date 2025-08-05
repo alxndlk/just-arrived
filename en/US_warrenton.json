@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Warrenton–Fauquier Airport",
+      "iata_code": "HWY",
+      "icao_code": "KHWY",
+      "distance_km": 16.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warrenton-Fauquier Airport, serving all domestic and international flights."
+        }
+      ],
+      "website": "https://www.fauquierairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fauquier Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 40.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Washington Dulles International Airport serves as the primary hub for domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Washington Dulles International Airport primarily serves international flights and is connected to the main terminal via an underground walkway."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Washington Dulles International Airport serves domestic and international flights and is connected to the main terminal via a mobile lounge system."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Washington Dulles International Airport serves domestic and international flights and is connected to the main terminal via an underground walkway."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dulles Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:53.232823Z",
+    "generated_at": "2025-08-04T20:33:26.888772Z",
     "env": "development",
     "source": "justarrived-generator"
   }

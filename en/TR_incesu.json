@@ -50,8 +50,47 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Erkilet International Airport",
+      "iata_code": "ASR",
+      "icao_code": "LTAU",
+      "distance_km": 31.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Erkilet International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Erkilet International Airport is responsible for handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.erkiletairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Erkilet Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport. Network name and password can be obtained from the information desk."
+      }
+    },
+    {
+      "airport_name": "Nevsehir",
+      "iata_code": "NAV",
+      "icao_code": "LTAZ",
+      "distance_km": 40.7,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:03.473362Z",
+    "generated_at": "2025-08-04T20:09:31.004674Z",
     "env": "development",
     "source": "justarrived-generator"
   }

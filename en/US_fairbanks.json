@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fairbanks International Airport",
+      "iata_code": "FAI",
+      "icao_code": "PAFA",
+      "distance_km": 10.3,
+      "gmt": "-9",
+      "country": "United States",
+      "timezone": "America/Anchorage",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fairbanks International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fairbanks International Airport handles freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.fai.alaska.gov/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:02.346148Z",
+    "generated_at": "2025-08-04T18:23:44.302126Z",
     "env": "development",
     "source": "justarrived-generator"
   }

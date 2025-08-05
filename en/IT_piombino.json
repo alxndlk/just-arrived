@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marina Di Campo",
+      "iata_code": "EBA",
+      "icao_code": "LIRJ",
+      "distance_km": 27.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportoelba.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "MarinaDiCampoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Baccarini",
+      "iata_code": "GRS",
+      "icao_code": "LIRS",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:47.228679Z",
+    "generated_at": "2025-08-04T20:08:28.649993Z",
     "env": "development",
     "source": "justarrived-generator"
   }

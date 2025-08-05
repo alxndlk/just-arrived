@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Cadillal",
+      "iata_code": "JUJ",
+      "icao_code": "SASJ",
+      "distance_km": 3.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Jujuy",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Argentina."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to neighboring countries."
+        }
+      ],
+      "website": "https://elcadillalairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "El Cadillal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:48.785211Z",
+    "generated_at": "2025-08-04T18:29:52.381452Z",
     "env": "development",
     "source": "justarrived-generator"
   }

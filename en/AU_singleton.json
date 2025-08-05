@@ -48,8 +48,81 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Singleton",
+      "iata_code": "SIX",
+      "icao_code": "YSGT",
+      "distance_km": 0.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Singleton Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Singleton Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.singletonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Singleton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cessnock",
+      "iata_code": "CES",
+      "icao_code": "YCNK",
+      "distance_km": 34.1,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cessnock Airport serves domestic flights within Australia."
+        }
+      ],
+      "website": "https://www.cessnockairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cessnock Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Maitland",
+      "iata_code": "MTL",
+      "icao_code": "YMND",
+      "distance_km": 40.1,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maitland Airport serves domestic flights to and from major cities in Australia."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Maitland Airport serves smaller airlines and regional flights within Australia."
+        }
+      ],
+      "website": "https://www.maitlandairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maitland Airport WiFi",
+        "note": "WiFi is available for free throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:52.547131Z",
+    "generated_at": "2025-08-04T19:37:45.292072Z",
     "env": "development",
     "source": "justarrived-generator"
   }

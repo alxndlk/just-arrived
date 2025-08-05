@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eagle County",
+      "iata_code": "EGE",
+      "icao_code": "KEGE",
+      "distance_km": 37.6,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Garfield County",
+      "iata_code": "RIL",
+      "icao_code": "KRIL",
+      "distance_km": 38.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Garfield County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Garfield County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.garfieldcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Garfield Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:50.617602Z",
+    "generated_at": "2025-08-04T20:29:28.901780Z",
     "env": "development",
     "source": "justarrived-generator"
   }

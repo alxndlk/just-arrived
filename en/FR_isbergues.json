@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Merville/Calonne",
+      "iata_code": "HZB",
+      "icao_code": "LFQT",
+      "distance_km": 13.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Merville/Calonne Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Merville/Calonne Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.mervillecalonneairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MervilleCalonneAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lesquin",
+      "iata_code": "LIL",
+      "icao_code": "LFQQ",
+      "distance_km": 46.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:42.997399Z",
+    "generated_at": "2025-08-04T20:33:36.022992Z",
     "env": "development",
     "source": "justarrived-generator"
   }

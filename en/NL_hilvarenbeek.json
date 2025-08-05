@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 17.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Eindhoven Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 28.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 36.3,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zoersel Airport houses all international and domestic flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Zoersel Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.zoerselairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zoersel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 41.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:58.189776Z",
+    "generated_at": "2025-08-04T20:19:30.994129Z",
     "env": "development",
     "source": "justarrived-generator"
   }

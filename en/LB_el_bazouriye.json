@@ -49,8 +49,81 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiryat Shmona",
+      "iata_code": "KSW",
+      "icao_code": "LLKS",
+      "distance_km": 27.7,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kiryat Shmona Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.kswairport.co.il/",
+      "wifi": {
+        "available": true,
+        "network_name": "KSW Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rosh Pina",
+      "iata_code": "RPN",
+      "icao_code": "LLIB",
+      "distance_km": 41.2,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rosh Pina Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Rosh Pina Airport, used for private and charter flights."
+        }
+      ],
+      "website": "https://www.roshpinaairport.co.il/",
+      "wifi": {
+        "available": true,
+        "network_name": "RoshPinaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Masada",
+      "iata_code": "MTZ",
+      "icao_code": "LLMZ",
+      "distance_km": 44.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Masada Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Masada Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.masadaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Masada Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:42.610805Z",
+    "generated_at": "2025-08-04T18:55:47.941892Z",
     "env": "development",
     "source": "justarrived-generator"
   }

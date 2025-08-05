@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 37.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A modern terminal mainly used by Philippine Airlines for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Ninoy Aquino International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A small terminal mainly used by low-cost carriers for domestic flights."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "WiFi is available in all terminals, but may have limited coverage and slow speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:46.504731Z",
+    "generated_at": "2025-08-04T18:24:00.636115Z",
     "env": "development",
     "source": "justarrived-generator"
   }

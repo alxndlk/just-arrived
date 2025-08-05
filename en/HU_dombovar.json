@@ -51,8 +51,35 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pecs Pogany",
+      "iata_code": "PEV",
+      "icao_code": "LHPP",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Hungary."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.pecspoganyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PEV Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:54.815143Z",
+    "generated_at": "2025-08-04T19:01:48.592065Z",
     "env": "development",
     "source": "justarrived-generator"
   }

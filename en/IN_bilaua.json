@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gwalior",
+      "iata_code": "GWL",
+      "icao_code": "VIGR",
+      "distance_km": 27.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/gwalior",
+      "wifi": {
+        "available": true,
+        "network_name": "Gwalior Airport WiFi",
+        "note": "Free WiFi access is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:44.180755Z",
+    "generated_at": "2025-08-04T19:06:48.840719Z",
     "env": "development",
     "source": "justarrived-generator"
   }

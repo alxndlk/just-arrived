@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pagadian",
+      "iata_code": "PAG",
+      "icao_code": "RPMP",
+      "distance_km": 20.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Labo",
+      "iata_code": "OZC",
+      "icao_code": "RPMO",
+      "distance_km": 44.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.laboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Labo Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:16.193096Z",
+    "generated_at": "2025-08-04T20:10:29.851631Z",
     "env": "development",
     "source": "justarrived-generator"
   }

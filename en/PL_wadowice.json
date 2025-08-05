@@ -51,8 +51,56 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Paul II Balice International",
+      "iata_code": "KRK",
+      "icao_code": "EPKK",
+      "distance_km": 30.0,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.krakowairport.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bielsko-Bialo Kaniow Airfield",
+      "iata_code": "QEO",
+      "icao_code": "EPKW",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bielsko-Bialo Kaniow Airfield Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bielsko-bialo-airport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "BielskoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:40.781709Z",
+    "generated_at": "2025-08-04T20:16:36.604526Z",
     "env": "development",
     "source": "justarrived-generator"
   }

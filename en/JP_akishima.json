@@ -106,8 +106,59 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 4.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 32.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Atsugi NAS Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Atsugi NAS Airport, primarily used for military and private flights."
+        }
+      ],
+      "website": "https://www.navy.mil/Resources/Commands/Naval-Air-Systems-Command/Naval-Air-Station-Atsugi/",
+      "wifi": {
+        "available": true,
+        "network_name": "Atsugi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 42.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:06.703096Z",
+    "generated_at": "2025-08-04T19:59:26.878431Z",
     "env": "development",
     "source": "justarrived-generator"
   }

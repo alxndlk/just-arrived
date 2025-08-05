@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Siena",
+      "iata_code": "SAY",
+      "icao_code": "LIQS",
+      "distance_km": 21.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Peretola",
+      "iata_code": "FLR",
+      "icao_code": "LIRQ",
+      "distance_km": 42.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Peretola Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroporto.firenze.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Peretola Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:25.645916Z",
+    "generated_at": "2025-08-04T20:13:36.381558Z",
     "env": "development",
     "source": "justarrived-generator"
   }

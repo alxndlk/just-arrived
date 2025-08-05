@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Anadolu University",
+      "iata_code": "AOE",
+      "icao_code": "LTBY",
+      "distance_km": 42.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Anadolu University Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Anadolu University Airport is responsible for handling all cargo shipments."
+        }
+      ],
+      "website": "https://www.anadoluairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Anadolu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eskisehir",
+      "iata_code": "ESK",
+      "icao_code": "LTBI",
+      "distance_km": 48.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights at Eskisehir Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights at Eskisehir Airport."
+        }
+      ],
+      "website": "https://www.eskisehir.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eskisehir Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:57.769903Z",
+    "generated_at": "2025-08-04T18:23:45.152873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

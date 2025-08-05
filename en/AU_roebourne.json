@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roebourne",
+      "iata_code": "RBU",
+      "icao_code": "YROE",
+      "distance_km": 4.1,
+      "gmt": "8",
+      "country": "Australia",
+      "timezone": "Australia/Perth",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roebourne Airport, serving domestic flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Roebourne Airport for all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.roebourneairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Roebourne Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Karratha",
+      "iata_code": "KTA",
+      "icao_code": "YPKA",
+      "distance_km": 40.0,
+      "gmt": "8",
+      "country": "Australia",
+      "timezone": "Australia/Perth",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Karratha Airport serves domestic flights within Australia."
+        }
+      ],
+      "website": "https://www.karrathaairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Karratha Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:24.924678Z",
+    "generated_at": "2025-08-04T19:38:52.299812Z",
     "env": "development",
     "source": "justarrived-generator"
   }

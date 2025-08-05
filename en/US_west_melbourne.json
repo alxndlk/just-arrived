@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melbourne International Airport",
+      "iata_code": "MLB",
+      "icao_code": "KMLB",
+      "distance_km": 5.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Melbourne International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "Terminal 1 is the primary terminal for domestic flights, with a variety of amenities and services available."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for international flights, with customs and immigration facilities for arriving passengers."
+        }
+      ],
+      "website": "https://www.mlbair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit or data cap."
+      }
+    },
+    {
+      "airport_name": "Merritt Island",
+      "iata_code": "COI",
+      "icao_code": "KCOI",
+      "distance_km": 28.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Merritt Island Airport is a small, single-story building with basic amenities for travelers."
+        }
+      ],
+      "website": "https://www.merrittislandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MerrittIslandAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the terminal building."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:48.048088Z",
+    "generated_at": "2025-08-04T18:44:40.874427Z",
     "env": "development",
     "source": "justarrived-generator"
   }

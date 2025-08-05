@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thief River Falls Regional Airport",
+      "iata_code": "TVF",
+      "icao_code": "KTVF",
+      "distance_km": 5.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thief River Falls Regional Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Thief River Falls Regional Airport serves private and chartered flights and provides services for pilots and passengers."
+        }
+      ],
+      "website": "https://www.thiefriverfallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRF Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "CKN",
+      "icao_code": "KCKN",
+      "distance_km": 48.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all of the necessary facilities for passengers, including check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for domestic flights and is accessible via a short walk from the main terminal."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Passengers can connect to the airport's free wifi network after accepting the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:07.181864Z",
+    "generated_at": "2025-08-04T19:34:43.400968Z",
     "env": "development",
     "source": "justarrived-generator"
   }

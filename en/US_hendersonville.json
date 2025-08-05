@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nashville International",
+      "iata_code": "BNA",
+      "icao_code": "KBNA",
+      "distance_km": 20.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nashville International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Nashville International Airport primarily serves domestic airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Nashville International Airport primarily serves international airlines."
+        }
+      ],
+      "website": "https://www.flynashville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password for access."
+      }
+    },
+    {
+      "airport_name": "Smyrna",
+      "iata_code": "MQY",
+      "icao_code": "KMQY",
+      "distance_km": 37.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smyrna Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flynashville.com/smyrna",
+      "wifi": {
+        "available": true,
+        "network_name": "Smyrna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:20.183809Z",
+    "generated_at": "2025-08-04T20:19:36.668886Z",
     "env": "development",
     "source": "justarrived-generator"
   }

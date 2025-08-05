@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 12.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burke Lakefront Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and chartered flights."
+        }
+      ],
+      "website": "https://www.burkeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 26.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hopkins International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves United Airlines and its Star Alliance partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is used by American Airlines and its Oneworld partners."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is mainly used by Delta Air Lines and its SkyTeam partners."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D serves low-cost carriers such as Southwest Airlines and Spirit Airlines."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:54.364069Z",
+    "generated_at": "2025-08-04T19:11:53.943313Z",
     "env": "development",
     "source": "justarrived-generator"
   }

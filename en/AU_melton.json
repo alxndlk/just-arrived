@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melbourne - Tullamarine Airport",
+      "iata_code": "MEL",
+      "icao_code": "YMML",
+      "distance_km": 23.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Essendon",
+      "iata_code": "MEB",
+      "icao_code": "YMEN",
+      "distance_km": 28.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Essendon Airport serves domestic flights and is equipped with modern amenities for passenger comfort."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Essendon Airport caters to private and charter flights, providing a convenient and efficient experience for private aircraft owners and operators."
+        }
+      ],
+      "website": "https://www.essendonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essendon Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Avalon",
+      "iata_code": "AVV",
+      "icao_code": "YMAV",
+      "distance_km": 39.4,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Avalon Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.avalonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Avalon Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:01.081138Z",
+    "generated_at": "2025-08-04T20:00:35.098705Z",
     "env": "development",
     "source": "justarrived-generator"
   }

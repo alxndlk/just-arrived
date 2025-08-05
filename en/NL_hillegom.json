@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 12.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's largest and most modern terminal, serving many international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal mainly used for flights within Europe."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Schiphol's oldest terminal, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also offered for faster connection."
+      }
+    },
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 38.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:11.651877Z",
+    "generated_at": "2025-08-04T20:13:30.766295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

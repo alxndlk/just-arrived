@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Saint Brieuc-Armor",
+      "iata_code": "SBK",
+      "icao_code": "LFRT",
+      "distance_km": 22.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pleurtuit",
+      "iata_code": "DNR",
+      "icao_code": "LFRD",
+      "distance_km": 34.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pleurtuit Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pleurtuit Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.pleurtuitairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Pleurtuit Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:59.353542Z",
+    "generated_at": "2025-08-04T20:23:36.998553Z",
     "env": "development",
     "source": "justarrived-generator"
   }

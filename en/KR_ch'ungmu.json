@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sacheon",
+      "iata_code": "HIN",
+      "icao_code": "RKPS",
+      "distance_km": 41.7,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sacheon Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport.co.kr/sacheon",
+      "wifi": {
+        "available": true,
+        "network_name": "Sacheon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jinhae",
+      "iata_code": "CHF",
+      "icao_code": "RKPE",
+      "distance_km": 42.4,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Jinhae Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport.co.kr/mbs/chf/index.do",
+      "wifi": {
+        "available": true,
+        "network_name": "JinhaeAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:13.918145Z",
+    "generated_at": "2025-08-04T18:13:43.295574Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -62,8 +62,43 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "San Carlos",
+      "iata_code": "NCR",
+      "icao_code": "MNSC",
+      "distance_km": 18.2,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Los Chiles",
+      "iata_code": "LSL",
+      "icao_code": "MRLC",
+      "distance_km": 46.2,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Los Chiles Airport serves domestic flights within Costa Rica."
+        }
+      ],
+      "website": "http://loschilesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Los Chiles Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:56.459046Z",
+    "generated_at": "2025-08-04T20:17:35.640523Z",
     "env": "development",
     "source": "justarrived-generator"
   }

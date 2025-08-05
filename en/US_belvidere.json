@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Rockford Airport",
+      "iata_code": "RFD",
+      "icao_code": "KRFD",
+      "distance_km": 29.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Rockford Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Greater Rockford Airport is equipped to handle a wide range of cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.flyrfd.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RFD Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. Simply connect to the network and accept the terms and conditions to access."
+      }
+    },
+    {
+      "airport_name": "Rock County",
+      "iata_code": "JVL",
+      "icao_code": "KJVL",
+      "distance_km": 49.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rock County Airport serves all commercial flights and includes amenities such as shops, restaurants, and rental car services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Rock County Airport caters to private and charter flights and offers a comfortable waiting area for passengers."
+        }
+      ],
+      "website": "https://www.rockcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RockCountyAirportWiFi",
+        "note": "Password required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:16.776595Z",
+    "generated_at": "2025-08-04T18:48:42.330168Z",
     "env": "development",
     "source": "justarrived-generator"
   }

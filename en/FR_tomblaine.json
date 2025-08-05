@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Essey",
+      "iata_code": "ENC",
+      "icao_code": "LFSN",
+      "distance_km": 1.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Metz-nancy-lorraine",
+      "iata_code": "ETZ",
+      "icao_code": "LFJL",
+      "distance_km": 33.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Metz-nancy-lorraine Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Metz-nancy-lorraine Airport, primarily used for regional and low-cost flights."
+        }
+      ],
+      "website": "https://www.metz-nancy-lorraine-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ETZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mirecourt",
+      "iata_code": "EPL",
+      "icao_code": "LFSG",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:24.943177Z",
+    "generated_at": "2025-08-04T20:32:32.284625Z",
     "env": "development",
     "source": "justarrived-generator"
   }

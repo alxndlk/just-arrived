@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ciampino Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for budget airlines and charter flights."
+        }
+      ],
+      "website": "https://www.adr.it/ciampino",
+      "wifi": {
+        "available": true,
+        "network_name": "Ciampino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:17.285958Z",
+    "generated_at": "2025-08-04T19:03:48.441092Z",
     "env": "development",
     "source": "justarrived-generator"
   }

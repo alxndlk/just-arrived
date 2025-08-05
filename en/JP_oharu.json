@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komaki AFB",
+      "iata_code": "NKM",
+      "icao_code": "RJNA",
+      "distance_km": 12.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Komaki AFB Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Komaki AFB Airport is used for transporting goods and cargo."
+        }
+      ],
+      "website": "https://www.nagoyacentrair.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komaki Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Chu-Bu Centrair International (Central Japan International)",
+      "iata_code": "NGO",
+      "icao_code": "RJGG",
+      "distance_km": 35.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights by low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A recently opened terminal used for international flights by low-cost carriers."
+        }
+      ],
+      "website": "https://www.centrair.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Centrair Free Wi-Fi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:40.226913Z",
+    "generated_at": "2025-08-04T18:39:52.488186Z",
     "env": "development",
     "source": "justarrived-generator"
   }

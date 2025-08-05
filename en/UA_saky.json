@@ -51,8 +51,39 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Simferopol",
+      "iata_code": "SIP",
+      "icao_code": "UKFF",
+      "distance_km": 35.4,
+      "gmt": "3",
+      "country": "Ukraine",
+      "timezone": "Europe/Simferopol",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly-built terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.sipaero.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SIP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:11.339191Z",
+    "generated_at": "2025-08-04T18:47:41.667915Z",
     "env": "development",
     "source": "justarrived-generator"
   }

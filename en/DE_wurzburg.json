@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Giebelstadt Army Air Field",
+      "iata_code": "GHF",
+      "icao_code": "ETEU",
+      "distance_km": 15.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Giebelstadt Army Air Field Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Giebelstadt Army Air Field Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.ramstein.af.mil/Units/86th-Airlift-Wing/Units/435th-Air-Ground-Operations-Wing/Units/435th-Air-Ground-Operations-Wing-Geilenkirchen/",
+      "wifi": {
+        "available": true,
+        "network_name": "GHF Airport WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Kitzingen",
+      "iata_code": "KZG",
+      "icao_code": "ETIN",
+      "distance_km": 16.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:43.634215Z",
+    "generated_at": "2025-08-04T19:58:33.211642Z",
     "env": "development",
     "source": "justarrived-generator"
   }

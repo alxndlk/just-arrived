@@ -51,8 +51,85 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 19.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves low-cost airlines."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 29.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 49.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.zoerselairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zoersel Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:04.717068Z",
+    "generated_at": "2025-08-04T19:03:49.766962Z",
     "env": "development",
     "source": "justarrived-generator"
   }

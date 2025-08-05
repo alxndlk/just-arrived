@@ -51,8 +51,35 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mosnov",
+      "iata_code": "OSR",
+      "icao_code": "LKMT",
+      "distance_km": 4.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.airport-ostrava.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:17.400965Z",
+    "generated_at": "2025-08-04T19:31:40.962292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,59 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matecana",
+      "iata_code": "PEI",
+      "icao_code": "SKPE",
+      "distance_km": 45.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Santaguida",
+      "iata_code": "MZL",
+      "icao_code": "SKMZ",
+      "distance_km": 48.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cartago",
+      "iata_code": "CRC",
+      "icao_code": "SKGO",
+      "distance_km": 48.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cartago Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cartago Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.cartagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cartago Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:00.204486Z",
+    "generated_at": "2025-08-04T20:11:32.792621Z",
     "env": "development",
     "source": "justarrived-generator"
   }

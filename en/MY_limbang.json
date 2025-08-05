@@ -50,8 +50,72 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Limbang",
+      "iata_code": "LMN",
+      "icao_code": "WBGJ",
+      "distance_km": 9.3,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuching",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bandar Seri Begwan International Airport",
+      "iata_code": "BWN",
+      "icao_code": "WBSB",
+      "distance_km": 22.9,
+      "gmt": "8",
+      "country": "Brunei",
+      "timezone": "Asia/Brunei",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bandar Seri Begwan International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Royal Brunei Terminal",
+          "description": "This terminal is exclusively used by Royal Brunei Airlines for their flights."
+        }
+      ],
+      "website": "https://www.bruneiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BSB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lawas",
+      "iata_code": "LWY",
+      "icao_code": "WBGW",
+      "distance_km": 49.7,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuching",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawas Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lawas Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.malaysiaairports.com.my/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lawas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:01.528968Z",
+    "generated_at": "2025-08-04T20:02:32.933166Z",
     "env": "development",
     "source": "justarrived-generator"
   }

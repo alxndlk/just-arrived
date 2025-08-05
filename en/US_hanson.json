@@ -48,8 +48,79 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "OWD",
+      "icao_code": "KOWD",
+      "distance_km": 12.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Plymouth",
+      "iata_code": "PYM",
+      "icao_code": "KPYM",
+      "distance_km": 18.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 36.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic and international flights for airlines such as Delta, Southwest, and JetBlue."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal primarily serves domestic and international flights for airlines such as American Airlines, United, and Air Canada."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal primarily serves domestic and international flights for airlines such as JetBlue, Alaska Airlines, and Aer Lingus."
+        },
+        {
+          "name": "Terminal E",
+          "description": "This terminal primarily serves international flights for airlines such as British Airways, Lufthansa, and Emirates."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Logan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "New Bedford",
+      "iata_code": "EWB",
+      "icao_code": "KEWB",
+      "distance_km": 42.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:50.896426Z",
+    "generated_at": "2025-08-04T20:28:26.077122Z",
     "env": "development",
     "source": "justarrived-generator"
   }

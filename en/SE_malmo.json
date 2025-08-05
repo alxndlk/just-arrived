@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sturup",
+      "iata_code": "MMX",
+      "icao_code": "ESMS",
+      "distance_km": 21.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 24.8,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "Serves domestic and international flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Serves primarily international flights"
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:13.087238Z",
+    "generated_at": "2025-08-04T19:56:35.513044Z",
     "env": "development",
     "source": "justarrived-generator"
   }

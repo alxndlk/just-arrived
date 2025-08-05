@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kalibo",
+      "iata_code": "KLO",
+      "icao_code": "RPVK",
+      "distance_km": 19.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.kaliboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalibo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Roxas City",
+      "iata_code": "RXS",
+      "icao_code": "RPVR",
+      "distance_km": 48.9,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://roxasairport.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "RXS Free WiFi",
+        "note": "Limited to 30 minutes per device per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:13.067606Z",
+    "generated_at": "2025-08-04T18:57:50.838494Z",
     "env": "development",
     "source": "justarrived-generator"
   }

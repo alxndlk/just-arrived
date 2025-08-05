@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Devonport",
+      "iata_code": "DPO",
+      "icao_code": "YDPO",
+      "distance_km": 6.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Hobart",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Devonport Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.devonportairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Devonport Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "Latrobe",
+      "iata_code": "LTB",
+      "icao_code": "YLTV",
+      "distance_km": 7.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Hobart",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Latrobe Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Latrobe Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.latrobeairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Latrobe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:41.645940Z",
+    "generated_at": "2025-08-04T18:50:42.296473Z",
     "env": "development",
     "source": "justarrived-generator"
   }

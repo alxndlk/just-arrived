@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yuma International Airport",
+      "iata_code": "YUM",
+      "icao_code": "KNYL",
+      "distance_km": 18.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yuma International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Yuma International Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.yumaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yuma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Luis Rio Colorado",
+      "iata_code": "UAC",
+      "icao_code": "MM76",
+      "distance_km": 44.5,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Hermosillo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis Rio Colorado Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/san-luis-rio-colorado-airport.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SLRC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:03.459381Z",
+    "generated_at": "2025-08-04T18:43:51.688722Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Penza",
+      "iata_code": "PEZ",
+      "icao_code": "UWPP",
+      "distance_km": 13.2,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Penza Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.penzaairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Penza Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:44.406511Z",
+    "generated_at": "2025-08-04T20:09:34.000750Z",
     "env": "development",
     "source": "justarrived-generator"
   }

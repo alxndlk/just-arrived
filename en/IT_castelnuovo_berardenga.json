@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Siena",
+      "iata_code": "SAY",
+      "icao_code": "LIQS",
+      "distance_km": 23.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Siena Airport, where all domestic and international flights are serviced."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments at Siena Airport."
+        }
+      ],
+      "website": "https://www.sienaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SienaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:27.919426Z",
+    "generated_at": "2025-08-04T19:33:55.337340Z",
     "env": "development",
     "source": "justarrived-generator"
   }

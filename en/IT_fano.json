@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miramare",
+      "iata_code": "RMI",
+      "icao_code": "LIPR",
+      "distance_km": 37.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Small terminal for regional flights."
+        }
+      ],
+      "website": "https://www.riminiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Miramare Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Falconara",
+      "iata_code": "AOI",
+      "icao_code": "LIPY",
+      "distance_km": 38.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Falconara Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportomarche.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AOI Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:05.527987Z",
+    "generated_at": "2025-08-04T18:26:41.841290Z",
     "env": "development",
     "source": "justarrived-generator"
   }

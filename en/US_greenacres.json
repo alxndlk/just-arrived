@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 8.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 13.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palm Beach County Park Airport offers a variety of services for travelers, including check-in, baggage claim, and a small selection of shops and restaurants."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Palm Beach County Park Airport caters to private and chartered flights, providing exclusive services and amenities for a luxurious travel experience."
+        }
+      ],
+      "website": "https://www.pbia.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBI Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with a fast and reliable connection for all travelers."
+      }
+    },
+    {
+      "airport_name": "Public",
+      "iata_code": "BCT",
+      "icao_code": "KBCT",
+      "distance_km": 31.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pompano Beach",
+      "iata_code": "PPM",
+      "icao_code": "KPMP",
+      "distance_km": 42.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:22.975620Z",
+    "generated_at": "2025-08-04T20:04:34.578091Z",
     "env": "development",
     "source": "justarrived-generator"
   }

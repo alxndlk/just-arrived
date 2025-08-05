@@ -51,8 +51,56 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zakinthos International Airport",
+      "iata_code": "ZTH",
+      "icao_code": "LGZA",
+      "distance_km": 13.1,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zakinthos International Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.zth-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZTH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kefalonia Istland International Airport",
+      "iata_code": "EFL",
+      "icao_code": "LGKF",
+      "distance_km": 41.4,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kefalonia Island International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "A separate terminal for VIP passengers, offering exclusive services and amenities."
+        }
+      ],
+      "website": "https://www.efl-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "EFL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:51.355619Z",
+    "generated_at": "2025-08-04T18:33:46.803897Z",
     "env": "development",
     "source": "justarrived-generator"
   }

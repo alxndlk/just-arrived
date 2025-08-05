@@ -50,8 +50,39 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tianjin Binhai International",
+      "iata_code": "TSN",
+      "icao_code": "ZBTJ",
+      "distance_km": 39.6,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal serving mainly international flights."
+        }
+      ],
+      "website": "https://www.tbia.com.cn",
+      "wifi": {
+        "available": true,
+        "network_name": "TSN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:08.875938Z",
+    "generated_at": "2025-08-04T19:39:40.173433Z",
     "env": "development",
     "source": "justarrived-generator"
   }

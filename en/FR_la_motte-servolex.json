@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chambery",
+      "iata_code": "CMF",
+      "icao_code": "LFLB",
+      "distance_km": 4.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chambery Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.chambery-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chambery Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Annecy-Meythe",
+      "iata_code": "NCY",
+      "icao_code": "LFLP",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Annecy-Meythe Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Annecy-Meythe Airport offers exclusive services for premium passengers."
+        }
+      ],
+      "website": "https://www.annecy-meythe-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Annecy-Meythe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:57.100578Z",
+    "generated_at": "2025-08-04T19:16:53.352164Z",
     "env": "development",
     "source": "justarrived-generator"
   }

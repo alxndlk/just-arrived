@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hovden",
+      "iata_code": "HOV",
+      "icao_code": "ENOV",
+      "distance_km": 22.8,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hovden Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hovden Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.hovdenairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hovden Airport Wifi",
+        "note": "Wifi is available throughout the airport, free of charge."
+      }
+    },
+    {
+      "airport_name": "Vigra",
+      "iata_code": "AES",
+      "icao_code": "ENAL",
+      "distance_km": 26.3,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Vigra Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Vigra Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/aalesund-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Vigra Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:27.205513Z",
+    "generated_at": "2025-08-04T19:34:52.832120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

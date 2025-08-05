@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Timisoara (traian Vuia) International",
+      "iata_code": "TSR",
+      "icao_code": "LRTR",
+      "distance_km": 8.9,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.aerotim.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Timisoara Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Arad",
+      "iata_code": "ARW",
+      "icao_code": "LRAR",
+      "distance_km": 47.2,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Arad Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost flights."
+        }
+      ],
+      "website": "https://www.arad-airport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "AradAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:59.962474Z",
+    "generated_at": "2025-08-04T18:08:47.347164Z",
     "env": "development",
     "source": "justarrived-generator"
   }

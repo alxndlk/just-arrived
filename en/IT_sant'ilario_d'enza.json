@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Giuseppe Verdi",
+      "iata_code": "PMF",
+      "icao_code": "LIMP",
+      "distance_km": 12.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.parma-airport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "PMF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:59.063918Z",
+    "generated_at": "2025-08-04T19:20:46.356232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

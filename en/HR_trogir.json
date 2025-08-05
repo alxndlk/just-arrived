@@ -51,8 +51,47 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Split",
+      "iata_code": "SPU",
+      "icao_code": "LDSP",
+      "distance_km": 4.6,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brac",
+      "iata_code": "BWK",
+      "icao_code": "LDSB",
+      "distance_km": 43.6,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.brac-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:51.091974Z",
+    "generated_at": "2025-08-04T20:24:28.968640Z",
     "env": "development",
     "source": "justarrived-generator"
   }

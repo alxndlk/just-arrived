@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brisbane International",
+      "iata_code": "BNE",
+      "icao_code": "YBBN",
+      "distance_km": 9.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The International Terminal at Brisbane Airport serves as the main gateway for travelers arriving or departing from overseas destinations."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The Domestic Terminal at Brisbane Airport handles flights to and from various cities within Australia."
+        }
+      ],
+      "website": "https://www.bne.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNE Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may have limited bandwidth."
+      }
+    },
+    {
+      "airport_name": "Redcliffe",
+      "iata_code": "RCL",
+      "icao_code": "NVSR",
+      "distance_km": 31.1,
+      "gmt": "11",
+      "country": "Vanuatu",
+      "timezone": "Pacific/Efate",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Redcliffe Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Redcliffe Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.vanuatu.travel/plan-your-trip/getting-to-vanuatu/airlines",
+      "wifi": {
+        "available": true,
+        "network_name": "Redcliffe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    },
+    {
+      "airport_name": "Dunwich",
+      "iata_code": "SRR",
+      "icao_code": "KSRR",
+      "distance_km": 32.4,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:23.606285Z",
+    "generated_at": "2025-08-04T20:27:25.997707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

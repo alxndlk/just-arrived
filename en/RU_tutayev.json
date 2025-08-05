@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yaroslavl",
+      "iata_code": "IAR",
+      "icao_code": "UUDL",
+      "distance_km": 35.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.yarairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yaroslavl Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rybinsk",
+      "iata_code": "RYB",
+      "icao_code": "UUBK",
+      "distance_km": 48.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rybinsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://rybinskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rybinsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:42.906351Z",
+    "generated_at": "2025-08-04T18:34:41.004482Z",
     "env": "development",
     "source": "justarrived-generator"
   }

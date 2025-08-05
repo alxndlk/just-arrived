@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tucson International Airport",
+      "iata_code": "TUS",
+      "icao_code": "KTUS",
+      "distance_km": 31.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Davis Monthan AFB",
+      "iata_code": "DMA",
+      "icao_code": "KDMA",
+      "distance_km": 38.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial and military flights at Davis Monthan AFB Airport."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is exclusively for military personnel and their families."
+        }
+      ],
+      "website": "https://www.dm.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Nogales International Airport",
+      "iata_code": "OLS",
+      "icao_code": "KOLS",
+      "distance_km": 49.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nogales International Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flynogalesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nogales Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:14.282803Z",
+    "generated_at": "2025-08-04T20:22:36.915787Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minangkabau International Airport",
+      "iata_code": "PDG",
+      "icao_code": "WIMG",
+      "distance_km": 19.9,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.minangkabau-airport.co.id/",
+      "wifi": {
+        "available": true,
+        "network_name": "Minangkabau Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rokot",
+      "iata_code": "RKI",
+      "icao_code": "WIBR",
+      "distance_km": 44.1,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rokot Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rokot Airport is responsible for handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.rokotairport.co.id",
+      "wifi": {
+        "available": true,
+        "network_name": "Rokot Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:46.272401Z",
+    "generated_at": "2025-08-04T19:17:42.300072Z",
     "env": "development",
     "source": "justarrived-generator"
   }

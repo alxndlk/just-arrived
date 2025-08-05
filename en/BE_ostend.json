@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ostend/Bruges International Airport",
+      "iata_code": "OST",
+      "icao_code": "EBOS",
+      "distance_km": 4.8,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Small terminal for regional flights within Europe."
+        }
+      ],
+      "website": "https://www.ostendbruges-airport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "OST-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kortrijk Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kortrijk Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.kortrijkairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "KJK Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:02.501707Z",
+    "generated_at": "2025-08-04T18:23:45.500878Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Camilo Dazo",
+      "iata_code": "CUC",
+      "icao_code": "SKCC",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertocucuta.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Antonio",
+      "iata_code": "SVZ",
+      "icao_code": "SVSA",
+      "distance_km": 39.6,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Antonio Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "http://www.sanantonioairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SanAntonioAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:59.465347Z",
+    "generated_at": "2025-08-04T19:33:45.519433Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 5.5,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves inter-island flights."
+        }
+      ],
+      "website": "https://hnlairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "Passengers can access the WiFi network for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 17.7,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:45.145655Z",
+    "generated_at": "2025-08-04T20:21:37.048353Z",
     "env": "development",
     "source": "justarrived-generator"
   }

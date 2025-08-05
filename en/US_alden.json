@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buffalo Niagara International",
+      "iata_code": "BUF",
+      "icao_code": "KBUF",
+      "distance_km": 17.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buffalo Niagara International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Buffalo Niagara International Airport serves mainly domestic flights and is connected to the main terminal via a shuttle bus."
+        }
+      ],
+      "website": "https://www.buffaloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUF Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network by selecting 'BUF Free Wi-Fi' from the list of available networks."
+      }
+    },
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 40.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niagara Falls International Airport is a modern and efficient facility, serving both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Niagara Falls International Airport caters to private and charter flights, providing a comfortable and convenient experience for passengers."
+        }
+      ],
+      "website": "https://niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NiagaraFallsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:02.871940Z",
+    "generated_at": "2025-08-04T19:28:55.022648Z",
     "env": "development",
     "source": "justarrived-generator"
   }

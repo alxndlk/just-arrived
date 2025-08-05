@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Horizon",
+      "iata_code": "HZP",
+      "icao_code": "CYNR",
+      "distance_km": 33.3,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Horizon Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Horizon Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.horizonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "HorizonAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:50.482699Z",
+    "generated_at": "2025-08-04T18:23:40.433436Z",
     "env": "development",
     "source": "justarrived-generator"
   }

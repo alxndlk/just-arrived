@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 26.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.atugi-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Atsugi Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 35.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Haneda Airport, serving a wide range of airlines and destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic terminal at Haneda Airport, primarily serving domestic flights within Japan."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/inter/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport, but may require re-logging in after a certain period of time."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:28.829637Z",
+    "generated_at": "2025-08-04T18:40:43.965438Z",
     "env": "development",
     "source": "justarrived-generator"
   }

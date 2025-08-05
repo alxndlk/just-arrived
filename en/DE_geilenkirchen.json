@@ -49,8 +49,106 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Geilenkirchen",
+      "iata_code": "GKE",
+      "icao_code": "ETNG",
+      "distance_km": 1.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Geilenkirchen Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.geilenkirchen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Geilenkirchen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 24.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aachen/Merzbruck Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Aachen/Merzbruck Airport, mainly used for charter flights."
+        }
+      ],
+      "website": "https://www.aachen-merzbruck-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AachenAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 25.2,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maastricht/aachen Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.maa.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maastricht Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kempen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kempen Airport, handling all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.kempenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kempen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:51.776709Z",
+    "generated_at": "2025-08-04T20:09:34.696445Z",
     "env": "development",
     "source": "justarrived-generator"
   }

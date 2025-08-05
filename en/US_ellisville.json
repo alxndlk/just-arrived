@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lambert-St. Louis International",
+      "iata_code": "STL",
+      "icao_code": "KSTL",
+      "distance_km": 25.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Spirit Of St Louis",
+      "iata_code": "SUS",
+      "icao_code": "KSUS",
+      "distance_km": 26.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St. Louis Downtown Airport",
+      "iata_code": "CPS",
+      "icao_code": "KCPS",
+      "distance_km": 37.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal serves private and charter flights."
+        }
+      ],
+      "website": "https://www.stlouisdowntownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STL Downtown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:08.258834Z",
+    "generated_at": "2025-08-04T20:30:27.165751Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ostend/Bruges International Airport",
+      "iata_code": "OST",
+      "icao_code": "EBOS",
+      "distance_km": 9.7,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ostend/Bruges International Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ostend/Bruges International Airport is equipped to handle a wide range of goods and shipments."
+        }
+      ],
+      "website": "https://www.ostendbruges-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 43.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kortrijk Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kortrijk Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.kortrijkairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "KJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:26.121108Z",
+    "generated_at": "2025-08-04T19:29:02.070512Z",
     "env": "development",
     "source": "justarrived-generator"
   }

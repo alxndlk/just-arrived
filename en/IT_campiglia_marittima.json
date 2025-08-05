@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marina Di Campo",
+      "iata_code": "EBA",
+      "icao_code": "LIRJ",
+      "distance_km": 43.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marina Di Campo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportomarinadicampo.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "EBA Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:43.397241Z",
+    "generated_at": "2025-08-04T19:15:50.844142Z",
     "env": "development",
     "source": "justarrived-generator"
   }

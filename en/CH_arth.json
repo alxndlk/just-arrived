@@ -51,8 +51,64 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buochs",
+      "iata_code": "BXO",
+      "icao_code": "LSZC",
+      "distance_km": 15.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buochs Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Buochs Airport is used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.buochsairport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buochs Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 43.0,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Zurich Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Zurich Airport, mainly used for regional and low-cost carriers."
+        },
+        {
+          "name": "Terminal E",
+          "description": "A dedicated terminal for flights operated by Swiss International Air Lines."
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport Free WiFi",
+        "note": "Passengers can access the free WiFi by connecting to the network and completing a short registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:57.402378Z",
+    "generated_at": "2025-08-04T19:17:47.964134Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,81 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 5.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niagara Falls International Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NiagaraFallsAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Buffalo Niagara International",
+      "iata_code": "BUF",
+      "icao_code": "KBUF",
+      "distance_km": 22.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buffalo Niagara International Airport houses all major airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Buffalo Niagara International Airport is primarily used for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.buffaloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 25.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Catharines Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Catharines Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.stcatharinesairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "StCatharinesAirportWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:59.767298Z",
+    "generated_at": "2025-08-04T18:58:44.306829Z",
     "env": "development",
     "source": "justarrived-generator"
   }

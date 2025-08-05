@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 11.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Hopkins International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights operated by United Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is primarily used for domestic flights operated by American Airlines, Delta Air Lines, and Southwest Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is primarily used for international flights operated by Air Canada, Frontier Airlines, and Spirit Airlines."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 21.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burke Lakefront Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Burke Lakefront Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.burkelakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:08.901890Z",
+    "generated_at": "2025-08-04T19:04:42.806005Z",
     "env": "development",
     "source": "justarrived-generator"
   }

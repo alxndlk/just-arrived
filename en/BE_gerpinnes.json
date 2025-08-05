@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 14.4,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Charleroi Brussels South Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Charleroi Brussels South Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.brussels-charleroi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRL Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in speed and bandwidth."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:35.467862Z",
+    "generated_at": "2025-08-04T19:14:52.260099Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,84 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Amakusa Airfield\r\n",
+      "iata_code": "AXJ",
+      "icao_code": "RJDA",
+      "distance_km": 39.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Saga",
+      "iata_code": "HSG",
+      "icao_code": "RJFS",
+      "distance_km": 41.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Saga Airport, with check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "International Terminal",
+          "description": "A separate terminal for international flights, with customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.saga-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Saga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be obtained at the information desk."
+      }
+    },
+    {
+      "airport_name": "Nagasaki",
+      "iata_code": "NGS",
+      "icao_code": "RJFU",
+      "distance_km": 44.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kumamoto",
+      "iata_code": "KMJ",
+      "icao_code": "RJFT",
+      "distance_km": 45.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kumamoto Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kumamoto Airport is used for transporting goods and freight."
+        }
+      ],
+      "website": "https://www.kmj-ab.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "KMJ_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:52.840547Z",
+    "generated_at": "2025-08-04T20:05:25.438618Z",
     "env": "development",
     "source": "justarrived-generator"
   }

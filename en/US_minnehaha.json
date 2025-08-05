@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 7.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Troutdale",
+      "iata_code": "TTD",
+      "icao_code": "KTTD",
+      "distance_km": 27.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Troutdale Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Troutdale Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.troutdaleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Troutdale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 32.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:21.922758Z",
+    "generated_at": "2025-08-04T20:24:36.475021Z",
     "env": "development",
     "source": "justarrived-generator"
   }

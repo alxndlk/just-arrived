@@ -45,8 +45,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yohannes IV",
+      "iata_code": "ASM",
+      "icao_code": "HHAS",
+      "distance_km": 25.6,
+      "gmt": "3",
+      "country": "Eritrea",
+      "timezone": "Africa/Asmara",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.asmairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ASM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Massawa International",
+      "iata_code": "MSW",
+      "icao_code": "HHMS",
+      "distance_km": 42.0,
+      "gmt": "3",
+      "country": "Eritrea",
+      "timezone": "Africa/Asmara",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Massawa International Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.eritreaairports.com/massawa-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSW Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:20.241061Z",
+    "generated_at": "2025-08-04T19:19:40.251236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

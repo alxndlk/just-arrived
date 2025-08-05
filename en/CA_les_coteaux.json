@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cornwall Regional Airport",
+      "iata_code": "YCC",
+      "icao_code": "CYCC",
+      "distance_km": 33.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cornwall Regional Airport, serving domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A smaller terminal for private and charter flights at Cornwall Regional Airport."
+        }
+      ],
+      "website": "https://www.cornwallairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cornwall Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 42.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for international and domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated terminal for US-bound flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Terminal for regional and low-cost carriers"
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "YUL Free WiFi",
+        "note": "Limited to 60 minutes per device"
+      }
+    },
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Mirabel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:37.983375Z",
+    "generated_at": "2025-08-04T18:56:43.402485Z",
     "env": "development",
     "source": "justarrived-generator"
   }

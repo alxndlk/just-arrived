@@ -50,8 +50,64 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gen Mariano Escobedo",
+      "iata_code": "MTY",
+      "icao_code": "MMMY",
+      "distance_km": 14.4,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/monterrey-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "MTY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeropuerto del Norte International Airport",
+      "iata_code": "NTR",
+      "icao_code": "MMAN",
+      "distance_km": 23.5,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Mexico."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to and from Mexico."
+        }
+      ],
+      "website": "https://www.aeropuertodelnorte.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NTR Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:54.669401Z",
+    "generated_at": "2025-08-04T18:07:50.923228Z",
     "env": "development",
     "source": "justarrived-generator"
   }

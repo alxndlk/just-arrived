@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Steamboat Springs",
+      "iata_code": "SBS",
+      "icao_code": "KSBS",
+      "distance_km": 5.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal serves all commercial flights and provides a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal caters to private and chartered flights, offering a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.steamboatsprings.net/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Steamboat Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Yampa Valley",
+      "iata_code": "HDN",
+      "icao_code": "KHDN",
+      "distance_km": 33.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yampa Valley Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Yampa Valley Airport is available for private and charter flights."
+        }
+      ],
+      "website": "https://www.flysteamboat.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YVAAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:37.665888Z",
+    "generated_at": "2025-08-04T19:12:41.608974Z",
     "env": "development",
     "source": "justarrived-generator"
   }

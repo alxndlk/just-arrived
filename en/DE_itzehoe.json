@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 33.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for commercial flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.rendsburg-schachtholm-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rendsburg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 45.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hamburg Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM-WiFi",
+        "note": "Free wifi is available throughout the airport, with a time limit of 4 hours per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:39.801597Z",
+    "generated_at": "2025-08-04T20:08:28.003730Z",
     "env": "development",
     "source": "justarrived-generator"
   }

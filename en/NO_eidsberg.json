@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moss Airport",
+      "iata_code": "RYG",
+      "icao_code": "ENRY",
+      "distance_km": 35.6,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Moss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://ryg.no/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RYG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:13.467979Z",
+    "generated_at": "2025-08-04T19:26:44.159354Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ust-Kut",
+      "iata_code": "UKX",
+      "icao_code": "UITT",
+      "distance_km": 9.6,
+      "gmt": "8",
+      "country": "Russia",
+      "timezone": "Asia/Irkutsk",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ust-Kut Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ust-Kut Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.ustkutairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "UstKutAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:46.689868Z",
+    "generated_at": "2025-08-04T19:38:58.685269Z",
     "env": "development",
     "source": "justarrived-generator"
   }

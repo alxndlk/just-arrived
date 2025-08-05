@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malta International",
+      "iata_code": "MLA",
+      "icao_code": "LMML",
+      "distance_km": 4.5,
+      "gmt": "1",
+      "country": "Malta",
+      "timezone": "Europe/Malta",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Malta International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.maltairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MIA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:15.833924Z",
+    "generated_at": "2025-08-04T19:37:52.654803Z",
     "env": "development",
     "source": "justarrived-generator"
   }

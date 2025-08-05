@@ -51,8 +51,59 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 22.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marco Polo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Marco Polo Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.veniceairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration with a valid email address."
+      }
+    },
+    {
+      "airport_name": "S. Angelo",
+      "iata_code": "TSF",
+      "icao_code": "LIPH",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Trissino",
+      "iata_code": "VIC",
+      "icao_code": "LIPT",
+      "distance_km": 43.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:29.435944Z",
+    "generated_at": "2025-08-04T20:20:30.889967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

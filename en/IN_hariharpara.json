@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rajshahi",
+      "iata_code": "RJH",
+      "icao_code": "VGRJ",
+      "distance_km": 47.2,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rajshahi Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rajshahi Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.civilaviation.gov.bd/rjshahi-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RJH Airport WiFi",
+        "note": "WiFi is available for free throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:55.224450Z",
+    "generated_at": "2025-08-04T19:07:46.266689Z",
     "env": "development",
     "source": "justarrived-generator"
   }

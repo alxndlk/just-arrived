@@ -51,8 +51,85 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pardubice",
+      "iata_code": "PED",
+      "icao_code": "LKPD",
+      "distance_km": 34.6,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.airport-pardubice.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pardubice Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hradec Kralove Airport",
+      "iata_code": "QEH",
+      "icao_code": "LKHK",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "Czechia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hradec Kralove Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hradec Kralove Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.hradec-kralove-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HradecKraloveAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dolni Benesov",
+      "iata_code": "ZBE",
+      "icao_code": "LKZA",
+      "distance_km": 47.9,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dolni Benesov Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Dolni Benesov Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.dolnibenesovairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dolni Benesov Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:37.850495Z",
+    "generated_at": "2025-08-04T20:33:35.706118Z",
     "env": "development",
     "source": "justarrived-generator"
   }

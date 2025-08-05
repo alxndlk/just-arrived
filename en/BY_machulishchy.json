@@ -50,8 +50,47 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minsk International 1",
+      "iata_code": "MHP",
+      "icao_code": "UMMM",
+      "distance_km": 8.2,
+      "gmt": "3",
+      "country": "Belarus",
+      "timezone": "Europe/Minsk",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Minsk National 2",
+      "iata_code": "MSQ",
+      "icao_code": "UMMS",
+      "distance_km": 31.1,
+      "gmt": "3",
+      "country": "Belarus",
+      "timezone": "Europe/Minsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Minsk National 2 Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Minsk National 2 Airport, used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://airport.by/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Minsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a login and have limited speed."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:02.379639Z",
+    "generated_at": "2025-08-04T20:28:26.911367Z",
     "env": "development",
     "source": "justarrived-generator"
   }

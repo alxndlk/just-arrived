@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linkoping",
+      "iata_code": "LPI",
+      "icao_code": "ESSL",
+      "distance_km": 31.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linkoping Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.linkopingairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linkoping Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:55.741491Z",
+    "generated_at": "2025-08-04T19:09:39.084021Z",
     "env": "development",
     "source": "justarrived-generator"
   }

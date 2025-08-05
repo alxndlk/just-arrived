@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Junmachi",
+      "iata_code": "GAJ",
+      "icao_code": "RJSC",
+      "distance_km": 5.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within Japan."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.junmachi-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Junmachi Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:24.836752Z",
+    "generated_at": "2025-08-04T18:25:50.990285Z",
     "env": "development",
     "source": "justarrived-generator"
   }

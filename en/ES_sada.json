@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Coruna",
+      "iata_code": "LCG",
+      "icao_code": "LECO",
+      "distance_km": 11.9,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Coruna Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at La Coruna Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aena.es/en/a-coruna-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "LCG Airport Wifi",
+        "note": "Wifi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:40.247331Z",
+    "generated_at": "2025-08-04T19:01:42.112586Z",
     "env": "development",
     "source": "justarrived-generator"
   }

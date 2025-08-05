@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Novokuznetsk",
+      "iata_code": "NOZ",
+      "icao_code": "UNWW",
+      "distance_km": 43.1,
+      "gmt": "7",
+      "country": "Russia",
+      "timezone": "Asia/Novokuznetsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.novokuznetskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "NOZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:49.841436Z",
+    "generated_at": "2025-08-04T18:39:53.762908Z",
     "env": "development",
     "source": "justarrived-generator"
   }

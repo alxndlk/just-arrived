@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 41.4,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kortrijk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kortrijk Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kortrijkairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kortrijk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:50.493122Z",
+    "generated_at": "2025-08-04T19:13:39.684118Z",
     "env": "development",
     "source": "justarrived-generator"
   }

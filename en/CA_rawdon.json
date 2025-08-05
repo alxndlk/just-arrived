@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 49.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mirabel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Mirabel Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Mirabel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:04.899673Z",
+    "generated_at": "2025-08-04T19:24:52.262119Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,84 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Düsseldorf International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Düsseldorf International Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.dus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DUS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 32.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Moenchen-gl. - Dus Exp",
+      "iata_code": "MGL",
+      "icao_code": "EDLN",
+      "distance_km": 42.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:08.054153Z",
+    "generated_at": "2025-08-04T20:09:35.621807Z",
     "env": "development",
     "source": "justarrived-generator"
   }

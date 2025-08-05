@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Udon Thani",
+      "iata_code": "UTH",
+      "icao_code": "VTUD",
+      "distance_km": 34.3,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Udon Thani Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.udonthaniairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "UdonThaniAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:21.517009Z",
+    "generated_at": "2025-08-04T19:18:45.967817Z",
     "env": "development",
     "source": "justarrived-generator"
   }

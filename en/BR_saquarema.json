@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cabo Frio",
+      "iata_code": "CFB",
+      "icao_code": "SBCB",
+      "distance_km": 44.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights within Brazil."
+        }
+      ],
+      "website": "https://www.cabofrioairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CaboFrioAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:46.334662Z",
+    "generated_at": "2025-08-04T18:20:44.616672Z",
     "env": "development",
     "source": "justarrived-generator"
   }

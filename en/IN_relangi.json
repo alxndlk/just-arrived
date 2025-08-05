@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rajahmundry",
+      "iata_code": "RJA",
+      "icao_code": "VORY",
+      "distance_km": 48.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights within India."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights to and from India."
+        }
+      ],
+      "website": "https://www.rajahmundryairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RJA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:49.350614Z",
+    "generated_at": "2025-08-04T19:08:40.025789Z",
     "env": "development",
     "source": "justarrived-generator"
   }

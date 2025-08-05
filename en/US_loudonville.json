@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albany International",
+      "iata_code": "ALB",
+      "icao_code": "KALB",
+      "distance_km": 5.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is a smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ALB Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the 'ALB Free WiFi' network."
+      }
+    },
+    {
+      "airport_name": "Schenectady County",
+      "iata_code": "SCH",
+      "icao_code": "KSCH",
+      "distance_km": 21.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Schenectady County Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.schenectadyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:07.409828Z",
+    "generated_at": "2025-08-04T19:25:50.678105Z",
     "env": "development",
     "source": "justarrived-generator"
   }

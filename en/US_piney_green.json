@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albert J Ellis",
+      "iata_code": "OAJ",
+      "icao_code": "KOAJ",
+      "distance_km": 27.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albert J Ellis Airport houses all arrival and departure gates as well as various amenities for travelers."
+        }
+      ],
+      "website": "https://www.flyoaj.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OAJ Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    },
+    {
+      "airport_name": "Simmons Nott",
+      "iata_code": "EWN",
+      "icao_code": "KEWN",
+      "distance_km": 44.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Simmons Nott Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Simmons Nott Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.flyewn.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EWN Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:12.641276Z",
+    "generated_at": "2025-08-04T19:09:45.122848Z",
     "env": "development",
     "source": "justarrived-generator"
   }

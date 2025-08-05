@@ -49,8 +49,110 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 8.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aachen/Merzbruck Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Aachen/Merzbruck Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://www.aachen-merzbruck-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Geilenkirchen",
+      "iata_code": "GKE",
+      "icao_code": "ETNG",
+      "distance_km": 18.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Geilenkirchen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.geilenkirchen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "GKE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 23.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        }
+      ],
+      "website": "https://www.maa.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maastricht Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 46.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.liegeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Liege Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:16.294021Z",
+    "generated_at": "2025-08-04T19:35:44.835804Z",
     "env": "development",
     "source": "justarrived-generator"
   }

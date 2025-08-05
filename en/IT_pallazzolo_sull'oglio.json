@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 16.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGY Free WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    },
+    {
+      "airport_name": "Brescia Montichiari",
+      "iata_code": "VBS",
+      "icao_code": "LIPO",
+      "distance_km": 39.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Brescia Montichiari Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportobrescia.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brescia Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Linate Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE_FREE_WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:23.932927Z",
+    "generated_at": "2025-08-04T18:55:42.798906Z",
     "env": "development",
     "source": "justarrived-generator"
   }

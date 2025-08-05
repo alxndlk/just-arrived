@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skavsta",
+      "iata_code": "NYO",
+      "icao_code": "ESKN",
+      "distance_km": 16.6,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Skavsta Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.skavsta.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skavsta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:46.182955Z",
+    "generated_at": "2025-08-04T19:19:46.997450Z",
     "env": "development",
     "source": "justarrived-generator"
   }

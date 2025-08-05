@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hamburg Airport, mainly used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:29.794307Z",
+    "generated_at": "2025-08-04T18:57:55.864447Z",
     "env": "development",
     "source": "justarrived-generator"
   }

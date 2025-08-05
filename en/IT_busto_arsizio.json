@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 11.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Milano Malpensa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Milano Malpensa Airport, primarily serving low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.milanomalpensa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MXP Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Connect to the network and follow the prompts to access."
+      }
+    },
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 37.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE-AIRPORT-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lugano",
+      "iata_code": "LUG",
+      "icao_code": "LSZA",
+      "distance_km": 45.9,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lugano Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lugano Airport caters to VIP and private jet passengers."
+        }
+      ],
+      "website": "https://www.lugano-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:43.632121Z",
+    "generated_at": "2025-08-04T18:21:45.824736Z",
     "env": "development",
     "source": "justarrived-generator"
   }

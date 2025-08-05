@@ -51,8 +51,97 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 13.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Eindhoven Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Eindhoven Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 40.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Maastricht/aachen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Maastricht/aachen Airport, primarily used for charter flights."
+        }
+      ],
+      "website": "https://www.maa.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MST Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 47.4,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo flights."
+        }
+      ],
+      "website": "https://www.zoerselairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zoersel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:41.204597Z",
+    "generated_at": "2025-08-04T20:19:34.196301Z",
     "env": "development",
     "source": "justarrived-generator"
   }

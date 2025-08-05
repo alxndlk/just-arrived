@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Des Moines International",
+      "iata_code": "DSM",
+      "icao_code": "KDSM",
+      "distance_km": 16.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Perry Municipal",
+      "iata_code": "PRO",
+      "icao_code": "KPRO",
+      "distance_km": 35.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Perry Municipal Airport handles all commercial flights and services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Perry Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.perryairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Perry Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ames",
+      "iata_code": "AMW",
+      "icao_code": "KAMW",
+      "distance_km": 41.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ames Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ames Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.amesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ames Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boone",
+      "iata_code": "BNW",
+      "icao_code": "KBNW",
+      "distance_km": 48.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:15.216561Z",
+    "generated_at": "2025-08-04T20:04:29.647248Z",
     "env": "development",
     "source": "justarrived-generator"
   }

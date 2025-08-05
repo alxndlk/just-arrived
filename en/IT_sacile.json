@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 11.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.avianoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aviano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "S. Angelo",
+      "iata_code": "TSF",
+      "icao_code": "LIPH",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:04.833434Z",
+    "generated_at": "2025-08-04T20:15:28.911455Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 7.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 37.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 42.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A smaller terminal dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:50.052633Z",
+    "generated_at": "2025-08-04T20:23:36.762766Z",
     "env": "development",
     "source": "justarrived-generator"
   }

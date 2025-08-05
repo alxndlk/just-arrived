@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cincinnati/Northern Kentucky",
+      "iata_code": "CVG",
+      "icao_code": "KCVG",
+      "distance_km": 45.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at CVG is the primary hub for all airlines and serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used by Delta Air Lines and its partners, with a few other airlines operating from this terminal as well."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves primarily low-cost carriers such as Allegiant Air, Frontier Airlines, and Southwest Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is used by United Airlines and its partners, as well as a few other airlines."
+        }
+      ],
+      "website": "https://www.cvgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVG Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may require reconnection in different areas."
+      }
+    },
+    {
+      "airport_name": "Cincinnati Municipal-Lunken Field",
+      "iata_code": "LUK",
+      "icao_code": "KLUK",
+      "distance_km": 47.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cincinnati Municipal-Lunken Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.cincinnati-oh.gov/aoc/airports/lunken-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cincinnati-Lunken-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:07.751605Z",
+    "generated_at": "2025-08-04T18:37:45.754090Z",
     "env": "development",
     "source": "justarrived-generator"
   }

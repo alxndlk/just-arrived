@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lisala",
+      "iata_code": "LIQ",
+      "icao_code": "FZGA",
+      "distance_km": 3.3,
+      "gmt": "1",
+      "country": "Democratic Republic of the Congo",
+      "timezone": "Africa/Kinshasa",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ngala Airfield",
+      "iata_code": "NGL",
+      "icao_code": "FANG",
+      "distance_km": 33.8,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ngala Airfield Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Ngala Airfield Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.ngalaairfieldairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Ngala Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:25.172682Z",
+    "generated_at": "2025-08-04T20:00:32.686845Z",
     "env": "development",
     "source": "justarrived-generator"
   }

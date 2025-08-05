@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Takamatsu",
+      "iata_code": "TAK",
+      "icao_code": "RJOT",
+      "distance_km": 21.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Takamatsu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Takamatsu Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.takamatsu-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TAK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:23.706480Z",
+    "generated_at": "2025-08-04T18:40:40.323390Z",
     "env": "development",
     "source": "justarrived-generator"
   }

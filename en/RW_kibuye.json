@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gisenyi",
+      "iata_code": "GYI",
+      "icao_code": "HRYG",
+      "distance_km": 43.5,
+      "gmt": "2",
+      "country": "Rwanda",
+      "timezone": "Africa/Kigali",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Goma",
+      "iata_code": "GOM",
+      "icao_code": "FZNA",
+      "distance_km": 45.3,
+      "gmt": "2",
+      "country": "Democratic Republic of the Congo",
+      "timezone": "Africa/Lubumbashi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Goma Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Goma Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.gomaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Goma Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:10.600408Z",
+    "generated_at": "2025-08-04T20:24:30.548256Z",
     "env": "development",
     "source": "justarrived-generator"
   }

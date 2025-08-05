@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soderhamn",
+      "iata_code": "SOO",
+      "icao_code": "ESCL",
+      "distance_km": 36.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.soderhamnairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Soderhamn Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:54.648642Z",
+    "generated_at": "2025-08-04T19:15:53.714779Z",
     "env": "development",
     "source": "justarrived-generator"
   }

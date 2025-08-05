@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 25.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toussus-le-noble Airport, serving all commercial flights."
+        }
+      ],
+      "website": "https://www.toussus-le-noble-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TNF Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 33.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Orly Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Orly Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-orly-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "ORY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speeds or time restrictions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:05.542065Z",
+    "generated_at": "2025-08-04T19:21:44.973679Z",
     "env": "development",
     "source": "justarrived-generator"
   }

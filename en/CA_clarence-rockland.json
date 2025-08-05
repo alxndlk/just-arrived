@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Executive Gatineau-Ottawa",
+      "iata_code": "YND",
+      "icao_code": "CYND",
+      "distance_km": 33.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Executive Gatineau-Ottawa Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Executive Gatineau-Ottawa Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.gatineauairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "GatineauAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rockcliffe St",
+      "iata_code": "YRO",
+      "icao_code": "CYRO",
+      "distance_km": 39.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ottawa Macdonald-Cartier International",
+      "iata_code": "YOW",
+      "icao_code": "CYOW",
+      "distance_km": 41.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ottawa Macdonald-Cartier International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ottawa Macdonald-Cartier International Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://yow.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YOW Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:18.225344Z",
+    "generated_at": "2025-08-04T20:10:34.345244Z",
     "env": "development",
     "source": "justarrived-generator"
   }

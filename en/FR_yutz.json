@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 30.2,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Findel Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Metz-nancy-lorraine",
+      "iata_code": "ETZ",
+      "icao_code": "LFJL",
+      "distance_km": 42.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Metz-nancy-lorraine Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Metz-nancy-lorraine Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.metz-nancy-lorraine.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "ETZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:42.323173Z",
+    "generated_at": "2025-08-04T19:00:49.662124Z",
     "env": "development",
     "source": "justarrived-generator"
   }

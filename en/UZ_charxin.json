@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Samarkand",
+      "iata_code": "SKD",
+      "icao_code": "UTSS",
+      "distance_km": 19.0,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Samarkand",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Samarkand Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller domestic terminal at Samarkand Airport."
+        }
+      ],
+      "website": "https://www.samarkandairport.uz/",
+      "wifi": {
+        "available": true,
+        "network_name": "SKD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:47.445835Z",
+    "generated_at": "2025-08-04T19:12:41.978128Z",
     "env": "development",
     "source": "justarrived-generator"
   }

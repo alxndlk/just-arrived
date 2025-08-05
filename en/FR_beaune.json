@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chalon – Champforgeuil Airfield",
+      "iata_code": "XCD",
+      "icao_code": "LFLH",
+      "distance_km": 22.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dijon",
+      "iata_code": "DIJ",
+      "icao_code": "LFSD",
+      "distance_km": 33.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tavaux",
+      "iata_code": "DLE",
+      "icao_code": "LFGJ",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tavaux Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Tavaux Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.dolejuraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tavaux Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:08.997480Z",
+    "generated_at": "2025-08-04T20:14:36.263924Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,63 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 23.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 31.5,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Schiphol Airport, serving a variety of airlines and destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for European flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Schiphol Airport, serving a mix of long-haul and regional flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also offered for faster speeds."
+      }
+    },
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 37.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:03.318266Z",
+    "generated_at": "2025-08-04T20:21:34.265159Z",
     "env": "development",
     "source": "justarrived-generator"
   }

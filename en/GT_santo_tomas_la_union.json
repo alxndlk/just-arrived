@@ -50,8 +50,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Quetzaltenango",
+      "iata_code": "AAZ",
+      "icao_code": "MGQZ",
+      "distance_km": 29.2,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Base Aerea Del Sur",
+      "iata_code": "RER",
+      "icao_code": "MGRT",
+      "distance_km": 36.0,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.baseaereadelsur.com.gt/",
+      "wifi": {
+        "available": true,
+        "network_name": "BaseAereaDelSurWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Quiche Airport",
+      "iata_code": "AQB",
+      "icao_code": "MGQC",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:58.758920Z",
+    "generated_at": "2025-08-04T20:23:32.719705Z",
     "env": "development",
     "source": "justarrived-generator"
   }

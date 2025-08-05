@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Muscatine",
+      "iata_code": "MUT",
+      "icao_code": "KMUT",
+      "distance_km": 8.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Davenport",
+      "iata_code": "DVN",
+      "icao_code": "KDVN",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Davenport Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.davenportairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Davenport Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Quad-City",
+      "iata_code": "MLI",
+      "icao_code": "KMLI",
+      "distance_km": 47.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Iowa City",
+      "iata_code": "IOW",
+      "icao_code": "KIOW",
+      "distance_km": 47.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Iowa City Airport offers a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Iowa City Airport serves smaller airlines and offers a more intimate travel experience."
+        }
+      ],
+      "website": "https://www.iowacityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IOWA CITY AIRPORT WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:50.324958Z",
+    "generated_at": "2025-08-04T20:12:33.069391Z",
     "env": "development",
     "source": "justarrived-generator"
   }

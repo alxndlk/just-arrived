@@ -50,8 +50,76 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 36.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 43.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal, serving most major airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic terminal, serving domestic flights within Japan."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration."
+      }
+    },
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 44.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kobe Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.kobe-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kobe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:35.129528Z",
+    "generated_at": "2025-08-04T20:00:33.259245Z",
     "env": "development",
     "source": "justarrived-generator"
   }

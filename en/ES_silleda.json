@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santiago De Compostela",
+      "iata_code": "SCQ",
+      "icao_code": "LEST",
+      "distance_km": 26.7,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santiago De Compostela Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/santiago-de-compostela-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SCQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the instructions to access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:52.295747Z",
+    "generated_at": "2025-08-04T19:34:01.790875Z",
     "env": "development",
     "source": "justarrived-generator"
   }

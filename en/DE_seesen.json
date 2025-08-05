@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 35.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hildesheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hildesheim Airport, primarily used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.hildesheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hildesheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Braunschweig",
+      "iata_code": "BWE",
+      "icao_code": "EDVE",
+      "distance_km": 48.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:33.605774Z",
+    "generated_at": "2025-08-04T20:15:35.564289Z",
     "env": "development",
     "source": "justarrived-generator"
   }

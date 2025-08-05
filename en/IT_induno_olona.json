@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lugano",
+      "iata_code": "LUG",
+      "icao_code": "LSZA",
+      "distance_km": 21.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lugano Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lugano Airport caters to private and executive flights."
+        }
+      ],
+      "website": "https://www.luganoairport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 26.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:20.699433Z",
+    "generated_at": "2025-08-04T20:29:26.087057Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Base Aerea Del Sur",
+      "iata_code": "RER",
+      "icao_code": "MGRT",
+      "distance_km": 41.0,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Base Aerea Del Sur Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Base Aerea Del Sur Airport is used for transporting goods and packages."
+        }
+      ],
+      "website": "https://www.basa.gob.gt/",
+      "wifi": {
+        "available": true,
+        "network_name": "BaseAereaWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Quetzaltenango",
+      "iata_code": "AAZ",
+      "icao_code": "MGQZ",
+      "distance_km": 42.3,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Quetzaltenango Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Quetzaltenango Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.quetzaltenangoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Quetzaltenango Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:03.595878Z",
+    "generated_at": "2025-08-04T18:24:43.797735Z",
     "env": "development",
     "source": "justarrived-generator"
   }

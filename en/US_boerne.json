@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Antonio International",
+      "iata_code": "SAT",
+      "icao_code": "KSAT",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.sanantonio.gov/SAT",
+      "wifi": {
+        "available": true,
+        "network_name": "SAT-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stinson Municipalcipal",
+      "iata_code": "SSF",
+      "icao_code": "KSSF",
+      "distance_km": 46.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stinson Municipal Airport provides all necessary services for travelers, including check-in, baggage claim, and security."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "For private and charter flights, the airport offers a separate terminal with luxurious amenities and personalized services."
+        }
+      ],
+      "website": "https://www.flystinson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stinson Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:48.184583Z",
+    "generated_at": "2025-08-04T18:56:45.603330Z",
     "env": "development",
     "source": "justarrived-generator"
   }

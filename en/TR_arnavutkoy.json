@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Istanbul Airport",
+      "iata_code": "IST",
+      "icao_code": "LTFM",
+      "distance_km": 8.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights to and from Istanbul Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights within Turkey."
+        }
+      ],
+      "website": "https://www.istanbulhavalimani.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "IST Free WiFi",
+        "note": "WiFi is available throughout the airport with a free 2-hour limit. Additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:39.910196Z",
+    "generated_at": "2025-08-04T18:07:43.308049Z",
     "env": "development",
     "source": "justarrived-generator"
   }

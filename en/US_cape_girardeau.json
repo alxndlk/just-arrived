@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cape Girardeau",
+      "iata_code": "CGI",
+      "icao_code": "KCGI",
+      "distance_km": 9.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cairo",
+      "iata_code": "CIR",
+      "icao_code": "KCIR",
+      "distance_km": 48.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Secondary terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.cairoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cairo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "SIK",
+      "icao_code": "KSIK",
+      "distance_km": 49.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:32.619947Z",
+    "generated_at": "2025-08-04T20:05:33.235295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

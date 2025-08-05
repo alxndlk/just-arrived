@@ -50,8 +50,35 @@
     "police": "91"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bole International",
+      "iata_code": "ADD",
+      "icao_code": "HAAB",
+      "distance_km": 20.8,
+      "gmt": "3",
+      "country": "Ethiopia",
+      "timezone": "Africa/Addis_Ababa",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.addisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bole Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:50.259948Z",
+    "generated_at": "2025-08-04T18:29:53.113130Z",
     "env": "development",
     "source": "justarrived-generator"
   }

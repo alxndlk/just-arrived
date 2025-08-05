@@ -50,8 +50,81 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matecana",
+      "iata_code": "PEI",
+      "icao_code": "SKPE",
+      "distance_km": 16.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This is the main terminal at Matecana Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.aeropuertomatecana.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Matecana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cartago",
+      "iata_code": "CRC",
+      "icao_code": "SKGO",
+      "distance_km": 23.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.cartagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cartago Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Eden",
+      "iata_code": "AXM",
+      "icao_code": "SKAR",
+      "distance_km": 23.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Eden Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/ElEden",
+      "wifi": {
+        "available": true,
+        "network_name": "ElEdenWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:21.870345Z",
+    "generated_at": "2025-08-04T19:14:48.596183Z",
     "env": "development",
     "source": "justarrived-generator"
   }

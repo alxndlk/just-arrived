@@ -51,8 +51,68 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marka International Airport",
+      "iata_code": "ADJ",
+      "icao_code": "OJAM",
+      "distance_km": 16.3,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "King Hussein",
+      "iata_code": "OMF",
+      "icao_code": "OJMF",
+      "distance_km": 32.8,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at King Hussein Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aqaba-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "King Hussein Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Queen Alia International",
+      "iata_code": "AMM",
+      "icao_code": "OJAI",
+      "distance_km": 41.5,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Queen Alia International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Queen Alia International Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.qaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "QAIA Free WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 2 hours after registering with a valid email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:21.195688Z",
+    "generated_at": "2025-08-04T19:56:33.016721Z",
     "env": "development",
     "source": "justarrived-generator"
   }

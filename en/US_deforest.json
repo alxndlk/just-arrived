@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dane County Regional",
+      "iata_code": "MSN",
+      "icao_code": "KMSN",
+      "distance_km": 10.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dane County Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Dane County Regional Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Dane County Regional Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.msnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSN Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'MSN Airport WiFi' from their device's list of available networks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:29.800458Z",
+    "generated_at": "2025-08-04T19:22:48.279762Z",
     "env": "development",
     "source": "justarrived-generator"
   }

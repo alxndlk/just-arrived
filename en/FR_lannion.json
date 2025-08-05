@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Servel",
+      "iata_code": "LAI",
+      "icao_code": "LFRO",
+      "distance_km": 3.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Servel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal exclusively for domestic flights."
+        }
+      ],
+      "website": "https://www.servelairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Servel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Morlaix",
+      "iata_code": "MXN",
+      "icao_code": "LFRU",
+      "distance_km": 30.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:33.618813Z",
+    "generated_at": "2025-08-04T20:14:33.902389Z",
     "env": "development",
     "source": "justarrived-generator"
   }

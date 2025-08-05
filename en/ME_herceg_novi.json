@@ -51,8 +51,60 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tivat",
+      "iata_code": "TIV",
+      "icao_code": "LYTV",
+      "distance_km": 16.9,
+      "gmt": "1",
+      "country": "Montenegro",
+      "timezone": "Europe/Podgorica",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Tivat Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.tivatairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tivat Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dubrovnik",
+      "iata_code": "DBV",
+      "icao_code": "LDDU",
+      "distance_km": 25.2,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dubrovnik Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers premium services for private and business jets."
+        }
+      ],
+      "website": "https://www.airport-dubrovnik.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dubrovnik Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:45.867612Z",
+    "generated_at": "2025-08-04T18:56:43.017152Z",
     "env": "development",
     "source": "justarrived-generator"
   }

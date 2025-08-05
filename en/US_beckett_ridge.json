@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cincinnati/Northern Kentucky",
+      "iata_code": "CVG",
+      "icao_code": "KCVG",
+      "distance_km": 37.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse serves domestic flights operated by Delta Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse serves domestic and international flights operated by other airlines."
+        }
+      ],
+      "website": "https://www.cvgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cincinnati Municipal-Lunken Field",
+      "iata_code": "LUK",
+      "icao_code": "KLUK",
+      "distance_km": 39.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cincinnati Municipal-Lunken Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "This terminal caters to private and charter flights, providing a more luxurious and exclusive experience."
+        }
+      ],
+      "website": "https://www.cincinnati-oh.gov/lunken-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "LUK Airport WiFi",
+        "note": "WiFi is available throughout the airport, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:17.566989Z",
+    "generated_at": "2025-08-04T19:30:49.594010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

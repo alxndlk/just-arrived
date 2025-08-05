@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tucson International Airport",
+      "iata_code": "TUS",
+      "icao_code": "KTUS",
+      "distance_km": 23.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tucson International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at Tucson International Airport is used for regional flights."
+        }
+      ],
+      "website": "https://www.flytucson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TUS-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Davis Monthan AFB",
+      "iata_code": "DMA",
+      "icao_code": "KDMA",
+      "distance_km": 25.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:25.872463Z",
+    "generated_at": "2025-08-04T20:32:32.395797Z",
     "env": "development",
     "source": "justarrived-generator"
   }

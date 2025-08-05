@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cutral",
+      "iata_code": "CUT",
+      "icao_code": "SAZW",
+      "distance_km": 20.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.cutralairport.com.ar",
+      "wifi": {
+        "available": true,
+        "network_name": "Cutral Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:21.726208Z",
+    "generated_at": "2025-08-04T18:33:55.519926Z",
     "env": "development",
     "source": "justarrived-generator"
   }

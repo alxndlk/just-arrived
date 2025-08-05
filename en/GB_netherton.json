@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Birmingham Airport",
+      "iata_code": "BHX",
+      "icao_code": "EGBB",
+      "distance_km": 24.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Birmingham Airport, serving domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The north terminal at Birmingham Airport, primarily serving low-cost and charter airlines."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The south terminal at Birmingham Airport, primarily serving international airlines."
+        }
+      ],
+      "website": "https://www.birminghamairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "BHX Free WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    },
+    {
+      "airport_name": "West Midlands International",
+      "iata_code": "CVT",
+      "icao_code": "EGBE",
+      "distance_km": 43.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:05.697703Z",
+    "generated_at": "2025-08-04T20:20:28.924939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

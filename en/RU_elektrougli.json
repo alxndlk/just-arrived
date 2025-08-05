@@ -51,8 +51,114 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 18.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A new terminal for international flights."
+        }
+      ],
+      "website": "https://www.zia.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZIA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chkalovsky",
+      "iata_code": "CKL",
+      "icao_code": "UUMU",
+      "distance_km": 19.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.chkalovskyairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "CKL Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Domodedovo",
+      "iata_code": "DME",
+      "icao_code": "UUDD",
+      "distance_km": 38.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Domodedovo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal Business",
+          "description": "A separate terminal for business and first class passengers, with exclusive lounges and services."
+        }
+      ],
+      "website": "https://www.dme.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Domodedovo Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited speed and data usage."
+      }
+    },
+    {
+      "airport_name": "Ostafyevo International Airport",
+      "iata_code": "OSF",
+      "icao_code": "UUMO",
+      "distance_km": 49.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ostafyevo International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.ostafyevoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ostafyevo Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:49.270714Z",
+    "generated_at": "2025-08-04T20:34:27.782445Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chiayi",
+      "iata_code": "CYI",
+      "icao_code": "RCKU",
+      "distance_km": 10.9,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chiayi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.chiayi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chiayi Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:29.359558Z",
+    "generated_at": "2025-08-04T18:41:39.665529Z",
     "env": "development",
     "source": "justarrived-generator"
   }

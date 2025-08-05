@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Misawa",
+      "iata_code": "MSJ",
+      "icao_code": "RJSM",
+      "distance_km": 10.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Misawa Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Misawa Airport handles all cargo operations."
+        }
+      ],
+      "website": "https://www.misawa-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Misawa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:25.421503Z",
+    "generated_at": "2025-08-04T18:48:43.517389Z",
     "env": "development",
     "source": "justarrived-generator"
   }

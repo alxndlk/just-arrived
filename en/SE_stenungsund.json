@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gothenburg City Airport",
+      "iata_code": "GSE",
+      "icao_code": "ESGP",
+      "distance_km": 34.1,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.goteborgairport.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "GSE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Trollhattan",
+      "iata_code": "THN",
+      "icao_code": "ESGT",
+      "distance_km": 34.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Trollhattan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo shipments at Trollhattan Airport."
+        }
+      ],
+      "website": "https://www.trollhattanairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Trollhattan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:32.238922Z",
+    "generated_at": "2025-08-04T19:27:48.014335Z",
     "env": "development",
     "source": "justarrived-generator"
   }

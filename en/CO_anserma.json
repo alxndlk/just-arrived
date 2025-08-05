@@ -50,8 +50,64 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santaguida",
+      "iata_code": "MZL",
+      "icao_code": "SKMZ",
+      "distance_km": 41.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo flights."
+        }
+      ],
+      "website": "https://www.aeropuertosantaguida.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Santaguida Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Matecana",
+      "iata_code": "PEI",
+      "icao_code": "SKPE",
+      "distance_km": 47.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Matecana Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Matecana Airport handles all freight and logistics operations."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Matecana Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.matecana.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Matecana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:30.536192Z",
+    "generated_at": "2025-08-04T18:38:51.350039Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Christchurch International",
+      "iata_code": "CHC",
+      "icao_code": "NZCH",
+      "distance_km": 17.6,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Christchurch International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Christchurch International Airport serves regional flights operated by smaller airlines."
+        }
+      ],
+      "website": "https://www.christchurchairport.co.nz/",
+      "wifi": {
+        "available": true,
+        "network_name": "CHC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:49.000283Z",
+    "generated_at": "2025-08-04T19:38:59.086698Z",
     "env": "development",
     "source": "justarrived-generator"
   }

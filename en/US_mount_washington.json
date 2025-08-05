@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louisville International (Standiford Field)",
+      "iata_code": "SDF",
+      "icao_code": "KSDF",
+      "distance_km": 22.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bowman Field Airport",
+      "iata_code": "LOU",
+      "icao_code": "KLOU",
+      "distance_km": 30.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Godman AAF",
+      "iata_code": "FTK",
+      "icao_code": "KFTK",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Godman AAF Airport is a small and efficient building that serves both commercial and military flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Godman AAF Airport is a modern facility equipped to handle all types of freight and logistics operations."
+        }
+      ],
+      "website": "https://www.godmanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Godman Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:44.944566Z",
+    "generated_at": "2025-08-04T20:16:33.047384Z",
     "env": "development",
     "source": "justarrived-generator"
   }

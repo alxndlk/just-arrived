@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Balikesir",
+      "iata_code": "BZI",
+      "icao_code": "LTBF",
+      "distance_km": 38.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.balikesirairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Balikesir Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bandirma",
+      "iata_code": "BDM",
+      "icao_code": "LTBG",
+      "distance_km": 47.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bandirma Airport"
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Bandirma Airport"
+        }
+      ],
+      "website": "https://www.bandirmaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bandirma Airport Wifi",
+        "note": "Free wifi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:08.181193Z",
+    "generated_at": "2025-08-04T18:35:49.473429Z",
     "env": "development",
     "source": "justarrived-generator"
   }

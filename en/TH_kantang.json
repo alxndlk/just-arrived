@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Trang",
+      "iata_code": "TST",
+      "icao_code": "VTST",
+      "distance_km": 15.3,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Trang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Trang Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.trangairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TrangAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:13.618658Z",
+    "generated_at": "2025-08-04T19:15:39.222124Z",
     "env": "development",
     "source": "justarrived-generator"
   }

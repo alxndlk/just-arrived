@@ -50,8 +50,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 29.1,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Don Muang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Don Muang Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.donmueangairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMK Free WiFi",
+        "note": "Free WiFi is available throughout the airport. A login is required and the network may be slow at times."
+      }
+    },
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 44.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Suvarnabhumi International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Suvarnabhumi International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.suvarnabhumi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Suvarnabhumi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the prompts to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:30.299843Z",
+    "generated_at": "2025-08-04T18:55:42.342236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

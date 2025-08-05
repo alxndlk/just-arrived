@@ -51,8 +51,81 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 19.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marseille Provence Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Marseille Provence Airport, primarily serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Marseille Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 27.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aix-en-Provence Aerodrome Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aix-en-Provence Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Avignon-Caumont",
+      "iata_code": "AVN",
+      "icao_code": "LFMV",
+      "distance_km": 40.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Avignon-Caumont Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.avignonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Avignon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:35.901555Z",
+    "generated_at": "2025-08-04T20:33:35.536642Z",
     "env": "development",
     "source": "justarrived-generator"
   }

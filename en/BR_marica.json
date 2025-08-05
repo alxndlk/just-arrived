@@ -50,8 +50,64 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santos Dumont",
+      "iata_code": "SDU",
+      "icao_code": "SBRJ",
+      "distance_km": 35.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Santos Dumont Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Santos Dumont Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosantosdumont.net/en",
+      "wifi": {
+        "available": true,
+        "network_name": "SDU Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be slow during peak hours."
+      }
+    },
+    {
+      "airport_name": "Galeao Antonio Carlos Jobim",
+      "iata_code": "GIG",
+      "icao_code": "SBGL",
+      "distance_km": 45.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Galeao Antonio Carlos Jobim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights, but also serves some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and most modern terminal at Galeao Antonio Carlos Jobim Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.riogaleao.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIOGALEAO-WIFI",
+        "note": "Free WiFi is available throughout the airport, but may have limited connectivity in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:54.816677Z",
+    "generated_at": "2025-08-04T18:22:46.535275Z",
     "env": "development",
     "source": "justarrived-generator"
   }

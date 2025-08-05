@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Copalar",
+      "iata_code": "CJT",
+      "icao_code": "MMCO",
+      "distance_km": 5.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aicm.com.mx/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CJTAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:09.610952Z",
+    "generated_at": "2025-08-04T19:21:44.857679Z",
     "env": "development",
     "source": "justarrived-generator"
   }

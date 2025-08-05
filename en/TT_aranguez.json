@@ -50,8 +50,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Piarco International",
+      "iata_code": "POS",
+      "icao_code": "TTPP",
+      "distance_km": 12.7,
+      "gmt": "-4",
+      "country": "Trinidad and Tobago",
+      "timezone": "America/Port_of_Spain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Piarco International Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for domestic and regional flights."
+        }
+      ],
+      "website": "https://www.tntairports.com/piarco-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIA-WIFI",
+        "note": "Passengers can access free WiFi for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:31.262678Z",
+    "generated_at": "2025-08-04T19:39:48.630711Z",
     "env": "development",
     "source": "justarrived-generator"
   }

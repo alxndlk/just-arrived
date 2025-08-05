@@ -51,8 +51,68 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 34.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The newest terminal at Sheremetyevo International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal at Sheremetyevo International Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The oldest terminal at Sheremetyevo International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.svo.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "SVO-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vnukovo",
+      "iata_code": "VKO",
+      "icao_code": "UUWW",
+      "distance_km": 43.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Vnukovo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Vnukovo Airport, mostly used for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal at Vnukovo Airport, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.vnukovo.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vnukovo WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:22.840676Z",
+    "generated_at": "2025-08-04T18:37:50.483443Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,68 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 41.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic and Schengen flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal mainly used for non-Schengen flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal for international flights, with a modern design and plenty of amenities."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, used for long-haul and non-Schengen flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slow or unreliable at times."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Torrejon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:13.807665Z",
+    "generated_at": "2025-08-04T18:24:49.984639Z",
     "env": "development",
     "source": "justarrived-generator"
   }

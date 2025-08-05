@@ -50,8 +50,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 11.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kansai International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network by selecting it and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 26.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kobe Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Kobe Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kobe-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kobe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 40.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Itami Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Itami Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.osaka-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:32.691506Z",
+    "generated_at": "2025-08-04T18:21:42.252276Z",
     "env": "development",
     "source": "justarrived-generator"
   }

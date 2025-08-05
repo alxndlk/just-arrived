@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gino Lisa",
+      "iata_code": "FOG",
+      "icao_code": "LIBF",
+      "distance_km": 32.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gino Lisa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gino Lisa Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportodifoggia.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "GinoLisaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:50.246411Z",
+    "generated_at": "2025-08-04T18:29:53.064478Z",
     "env": "development",
     "source": "justarrived-generator"
   }

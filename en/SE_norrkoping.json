@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kungsangen",
+      "iata_code": "NRK",
+      "icao_code": "ESSP",
+      "distance_km": 2.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kungsangen Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and logistics operations at Kungsangen Airport."
+        }
+      ],
+      "website": "https://www.swedavia.com/norrkoping/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kungsangen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Linkoping",
+      "iata_code": "LPI",
+      "icao_code": "ESSL",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Linkoping Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Linkoping Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.linkopingairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linkoping Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Skavsta",
+      "iata_code": "NYO",
+      "icao_code": "ESKN",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:05.246116Z",
+    "generated_at": "2025-08-04T19:58:30.696411Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,96 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Visalia",
+      "iata_code": "VIS",
+      "icao_code": "KVIS",
+      "distance_km": 27.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fresno-Chandler",
+      "iata_code": "FCH",
+      "icao_code": "KFCH",
+      "distance_km": 30.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fresno Air Terminal Airport",
+      "iata_code": "FAT",
+      "icao_code": "KFAT",
+      "distance_km": 30.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fresno Air Terminal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Fresno Air Terminal Airport is dedicated to handling international flights."
+        }
+      ],
+      "website": "https://www.flyfresno.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAT Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting \"FAT Free WiFi\" from the available networks."
+      }
+    },
+    {
+      "airport_name": "Lemoore NAS (Reeves Field)",
+      "iata_code": "NLC",
+      "icao_code": "KNLC",
+      "distance_km": 31.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lemoore NAS (Reeves Field) Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Lemoore NAS (Reeves Field) Airport serves only military flights."
+        }
+      ],
+      "website": "https://www.public.navy.mil/airfor/naslemoore/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "LemooreNASWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Corcoran",
+      "iata_code": "CRO",
+      "icao_code": "KCRO",
+      "distance_km": 47.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:57.467154Z",
+    "generated_at": "2025-08-04T20:23:36.937176Z",
     "env": "development",
     "source": "justarrived-generator"
   }

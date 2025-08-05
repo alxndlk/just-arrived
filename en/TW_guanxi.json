@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Taiwan Taoyuan International (Chiang Kai Shek International)",
+      "iata_code": "TPE",
+      "icao_code": "RCTP",
+      "distance_km": 31.0,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Taiwan Taoyuan International Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic and international terminal at Taiwan Taoyuan International Airport."
+        }
+      ],
+      "website": "https://www.taoyuan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TPE-Free-WiFi",
+        "note": "Passengers can connect for free for up to 3 hours."
+      }
+    },
+    {
+      "airport_name": "Taipei Songshan (Sung Shan)",
+      "iata_code": "TSA",
+      "icao_code": "RCSS",
+      "distance_km": 47.3,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:30.516155Z",
+    "generated_at": "2025-08-04T20:10:30.824146Z",
     "env": "development",
     "source": "justarrived-generator"
   }

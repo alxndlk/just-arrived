@@ -49,8 +49,52 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 29.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Ensheim Airport."
+        }
+      ],
+      "website": "https://www.scn-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zweibrücken Airport",
+      "iata_code": "ZQW",
+      "icao_code": "EDRZ",
+      "distance_km": 47.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zweibrücken Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.flughafen-zweibruecken.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZQW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:57.086726Z",
+    "generated_at": "2025-08-04T20:18:34.031324Z",
     "env": "development",
     "source": "justarrived-generator"
   }

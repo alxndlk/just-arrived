@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alexion",
+      "iata_code": "PKH",
+      "icao_code": "LGHL",
+      "distance_km": 42.5,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Alexion Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Alexion Airport provides exclusive services for high-end travelers."
+        }
+      ],
+      "website": "https://www.alexionairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Alexion Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:54.434210Z",
+    "generated_at": "2025-08-04T19:08:41.840314Z",
     "env": "development",
     "source": "justarrived-generator"
   }

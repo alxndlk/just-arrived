@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 1753,
   "welcome_message_title": "Welcome to Longyearbyen",
-  "welcome_message_body": null,
+  "welcome_message_body": "\"Welcome to Longyearbyen, Svalbard! Known for its stunning landscapes, unique wildlife, and charming small-town feel, we invite you to immerse yourself in our city's beauty and make unforgettable memories. Enjoy your stay!\"",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "longyearbyen",
@@ -39,8 +39,56 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Svalbard",
+      "iata_code": "LYR",
+      "icao_code": "ENSB",
+      "distance_km": 3.9,
+      "gmt": "1",
+      "country": "Svalbard and Jan Mayen",
+      "timezone": "Arctic/Longyearbyen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Svalbard Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/svalbard-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Svalbard Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Svea Airport",
+      "iata_code": "QES",
+      "icao_code": "ENSA",
+      "distance_km": 43.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Svea Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Svea Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sveaairport.no/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Svea Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:54.747630Z",
+    "generated_at": "2025-08-04T20:35:26.293869Z",
     "env": "development",
     "source": "justarrived-generator"
   }

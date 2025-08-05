@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Jose",
+      "iata_code": "SJI",
+      "icao_code": "RPVS",
+      "distance_km": 26.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.sanjosetravelhub.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanJoseAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:50.562970Z",
+    "generated_at": "2025-08-04T18:41:48.758570Z",
     "env": "development",
     "source": "justarrived-generator"
   }

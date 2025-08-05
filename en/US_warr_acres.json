@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wiley Post",
+      "iata_code": "PWA",
+      "icao_code": "KPWA",
+      "distance_km": 10.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and is equipped with modern amenities for passenger comfort."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal caters to private and chartered flights, offering exclusive services and facilities for high-end travelers."
+        }
+      ],
+      "website": "https://www.wileypostairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WileyPostAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Will Rogers World Airport",
+      "iata_code": "OKC",
+      "icao_code": "KOKC",
+      "distance_km": 14.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "International terminal"
+        }
+      ],
+      "website": "https://flyokc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKC Airport WiFi",
+        "note": "Free WiFi available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Tinker AFB",
+      "iata_code": "TIK",
+      "icao_code": "KTIK",
+      "distance_km": 24.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tinker AFB Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tinker AFB Airport is used for military personnel and their families."
+        }
+      ],
+      "website": "https://www.tinker.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TIK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:57.701986Z",
+    "generated_at": "2025-08-04T19:24:53.139380Z",
     "env": "development",
     "source": "justarrived-generator"
   }

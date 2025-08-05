@@ -106,8 +106,35 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "San Juan",
+      "iata_code": "UAQ",
+      "icao_code": "SANU",
+      "distance_km": 2.0,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/San_Juan",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at San Juan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.sanjuanairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanJuanAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:24.051322Z",
+    "generated_at": "2025-08-04T18:06:36.288923Z",
     "env": "development",
     "source": "justarrived-generator"
   }

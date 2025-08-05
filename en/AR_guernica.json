@@ -50,8 +50,84 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 18.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "La Plata",
+      "iata_code": "LPG",
+      "icao_code": "SADL",
+      "distance_km": 39.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aeroparque Jorge Newbery",
+      "iata_code": "AEP",
+      "icao_code": "SABE",
+      "distance_km": 40.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeroparque-jorge-newbery",
+      "wifi": {
+        "available": true,
+        "network_name": "Aeropuerto AEP",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 40.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at El Palomar Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at El Palomar Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.elpalomarairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:30.964829Z",
+    "generated_at": "2025-08-04T20:03:29.303216Z",
     "env": "development",
     "source": "justarrived-generator"
   }

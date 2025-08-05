@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 34.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burke Lakefront Airport serves commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Burke Lakefront Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.burkeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network while waiting for their flight."
+      }
+    },
+    {
+      "airport_name": "Ashtabula",
+      "iata_code": "JFN",
+      "icao_code": "KHZY",
+      "distance_km": 47.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ashtabula Airport houses all check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a small terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.ashtabulaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ashtabula Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:43.898787Z",
+    "generated_at": "2025-08-04T18:30:51.690695Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reno-Tahoe International",
+      "iata_code": "RNO",
+      "icao_code": "KRNO",
+      "distance_km": 19.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic flights for major airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles international flights and some domestic flights for smaller airlines."
+        }
+      ],
+      "website": "https://www.renoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RNO Free WiFi",
+        "note": "Limited free access, paid options available for faster speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:40.823957Z",
+    "generated_at": "2025-08-04T19:00:47.316385Z",
     "env": "development",
     "source": "justarrived-generator"
   }

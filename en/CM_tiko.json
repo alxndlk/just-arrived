@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tiko",
+      "iata_code": "TKC",
+      "icao_code": "FKKC",
+      "distance_km": 5.5,
+      "gmt": "1",
+      "country": "Cameroon",
+      "timezone": "Africa/Douala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Douala",
+      "iata_code": "DLA",
+      "icao_code": "FKKD",
+      "distance_km": 40.2,
+      "gmt": "1",
+      "country": "Cameroon",
+      "timezone": "Africa/Douala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Douala Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Douala Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.douala-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Douala Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:27.608498Z",
+    "generated_at": "2025-08-04T20:00:32.869057Z",
     "env": "development",
     "source": "justarrived-generator"
   }

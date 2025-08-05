@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ingolstadt-manching",
+      "iata_code": "IGS",
+      "icao_code": "INGS",
+      "distance_km": 32.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.ingolstadt-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ingolstadt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:32.361343Z",
+    "generated_at": "2025-08-04T19:10:46.904742Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,39 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional Benito Juarez",
+      "iata_code": "MEX",
+      "icao_code": "MMMX",
+      "distance_km": 9.6,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The original terminal at the airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal at the airport, primarily serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at the airport, dedicated to international flights."
+        }
+      ],
+      "website": "https://www.aicm.com.mx/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MEX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:45.181710Z",
+    "generated_at": "2025-08-04T18:05:48.350951Z",
     "env": "development",
     "source": "justarrived-generator"
   }

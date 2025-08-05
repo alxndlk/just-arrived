@@ -51,8 +51,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rajbiraj",
+      "iata_code": "RJB",
+      "icao_code": "VNRB",
+      "distance_km": 33.9,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rajbiraj Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "http://www.caanepal.gov.np/rjb-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RJB Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Biratnagar",
+      "iata_code": "BIR",
+      "icao_code": "VNVT",
+      "distance_km": 36.6,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biratnagar Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Biratnagar Airport is responsible for handling all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.biratnagarairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BIR Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the 'BIR Airport WiFi' network and entering the provided password."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:44.443680Z",
+    "generated_at": "2025-08-04T19:22:55.691322Z",
     "env": "development",
     "source": "justarrived-generator"
   }

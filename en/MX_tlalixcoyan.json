@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Las Bajadas",
+      "iata_code": "VER",
+      "icao_code": "MMVR",
+      "distance_km": 39.8,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Las Bajadas Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at Las Bajadas Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/veracruz-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "LasBajadasAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:00.774433Z",
+    "generated_at": "2025-08-04T18:35:44.164294Z",
     "env": "development",
     "source": "justarrived-generator"
   }

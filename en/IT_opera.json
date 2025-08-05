@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 9.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Linate Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE_FREE_WIFI",
+        "note": "Free wifi is available throughout the airport, no password required."
+      }
+    },
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 47.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Milano Malpensa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Milano Malpensa Airport, mainly serving low-cost and charter airlines."
+        }
+      ],
+      "website": "https://www.milanomalpensa-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MXP Free WiFi",
+        "note": "Passengers can connect for free for up to 3 hours per day."
+      }
+    },
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 48.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGY-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:04.858217Z",
+    "generated_at": "2025-08-04T19:09:44.602568Z",
     "env": "development",
     "source": "justarrived-generator"
   }

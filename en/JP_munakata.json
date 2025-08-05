@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fukuoka",
+      "iata_code": "FUK",
+      "icao_code": "RJFF",
+      "distance_km": 26.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Fukuoka Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Fukuoka Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.fuk-ab.co.jp/english/",
+      "wifi": {
+        "available": true,
+        "network_name": "FUK-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kita Kyushu",
+      "iata_code": "KKJ",
+      "icao_code": "RJFR",
+      "distance_km": 37.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kita Kyushu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kitakyushu-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "KKJ Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:49.838965Z",
+    "generated_at": "2025-08-04T18:19:49.587956Z",
     "env": "development",
     "source": "justarrived-generator"
   }

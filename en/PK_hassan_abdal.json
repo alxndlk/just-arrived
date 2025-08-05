@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tarbela",
+      "iata_code": "TLB",
+      "icao_code": "OPTA",
+      "distance_km": 36.8,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tarbela Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tarbelaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tarbela Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Islamabad International",
+      "iata_code": "ISB",
+      "icao_code": "OPRN",
+      "distance_km": 45.0,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Islamabad International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Islamabad International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.islamabadairport.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "ISB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:29.639591Z",
+    "generated_at": "2025-08-04T18:29:45.118266Z",
     "env": "development",
     "source": "justarrived-generator"
   }

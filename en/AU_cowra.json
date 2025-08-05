@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cowra",
+      "iata_code": "CWT",
+      "icao_code": "YCWR",
+      "distance_km": 5.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Condobolin",
+      "iata_code": "CBX",
+      "icao_code": "YCDO",
+      "distance_km": 41.7,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Condobolin Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Condobolin Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.condobolinairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "CBX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:03.021783Z",
+    "generated_at": "2025-08-04T20:34:28.641229Z",
     "env": "development",
     "source": "justarrived-generator"
   }

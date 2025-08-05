@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orange County",
+      "iata_code": "MGJ",
+      "icao_code": "KMGJ",
+      "distance_km": 39.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Caldwell Wright",
+      "iata_code": "CDW",
+      "icao_code": "KCDW",
+      "distance_km": 44.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MMU",
+      "icao_code": "KMMU",
+      "distance_km": 44.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stewart",
+      "iata_code": "SWF",
+      "icao_code": "KSWF",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stewart Airport serves both domestic and international flights. It offers a variety of amenities for travelers, including dining options, shops, and a currency exchange."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Stewart Airport is dedicated to handling all international flights. It features customs and immigration services, as well as duty-free shopping."
+        }
+      ],
+      "website": "https://www.swfny.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SWF Airport WiFi",
+        "note": "WiFi is available throughout the airport. Simply connect to the network and follow the prompts to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:51.318602Z",
+    "generated_at": "2025-08-04T20:30:25.523439Z",
     "env": "development",
     "source": "justarrived-generator"
   }

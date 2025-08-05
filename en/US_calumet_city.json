@@ -48,8 +48,193 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 8.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chicago Lansing Municipal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Chicago Lansing Municipal Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.chicago-lansing-municipal-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ChicagoLansingAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 11.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gary/Chicago International Airport serves all commercial flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gary/Chicago International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.garychicagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GaryChicagoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 25.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights operated by Southwest Airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights operated by Delta Air Lines and Porter Airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    },
+    {
+      "airport_name": "Lewis Lockport",
+      "iata_code": "LOT",
+      "icao_code": "KLOT",
+      "distance_km": 41.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lewis Lockport Airport is where all commercial flights operate from."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lewis Lockport Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.lewislockportairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LLA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "JOT",
+      "icao_code": "KJOT",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MunicipalAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Porter County",
+      "iata_code": "VPZ",
+      "icao_code": "KVPZ",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Porter County Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Porter County Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.portercountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Porter County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 50.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Chicago O'hare, serving domestic and international flights for United Airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Home to Delta Air Lines and its partner airlines, this terminal offers domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal is primarily used by American Airlines for domestic and international flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The international terminal at Chicago O'hare, serving a variety of airlines and destinations."
+        }
+      ],
+      "website": "https://www.flychicago.com/ohare/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "ORD-WiFi",
+        "note": "Free wifi is available throughout the airport, but may require periodic reconnection."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:05.338522Z",
+    "generated_at": "2025-08-04T20:07:26.374922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

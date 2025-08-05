@@ -50,8 +50,63 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Halim Perdana Kusuma",
+      "iata_code": "HLP",
+      "icao_code": "WIIH",
+      "distance_km": 8.7,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pondok Cabe",
+      "iata_code": "PCB",
+      "icao_code": "WIHP",
+      "distance_km": 25.1,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Soekarno-Hatta International",
+      "iata_code": "CGK",
+      "icao_code": "WIII",
+      "distance_km": 33.6,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Soekarno-Hatta International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Soekarno-Hatta International Airport, exclusively serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Soekarno-Hatta International Airport, exclusively serving domestic flights."
+        }
+      ],
+      "website": "https://soekarnohatta-airport.co.id/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the instructions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:09.737946Z",
+    "generated_at": "2025-08-04T20:05:35.898091Z",
     "env": "development",
     "source": "justarrived-generator"
   }

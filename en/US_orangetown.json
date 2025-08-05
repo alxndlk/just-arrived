@@ -48,8 +48,137 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 20.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 24.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Teterboro Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "This terminal is dedicated to private jet operations, providing a luxurious and exclusive experience for travelers."
+        }
+      ],
+      "website": "https://www.teb.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TEB Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password from the information desk."
+      }
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 31.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic flights and is home to various airlines including American Airlines and Delta."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves both domestic and international flights and is home to airlines such as JetBlue and Southwest."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves primarily domestic flights and is home to airlines such as United and Spirit."
+        }
+      ],
+      "website": "https://www.laguardiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LGA Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi throughout the airport by connecting to the network 'LGA Free Wi-Fi'."
+      }
+    },
+    {
+      "airport_name": "Caldwell Wright",
+      "iata_code": "CDW",
+      "icao_code": "KCDW",
+      "distance_km": 36.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 44.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 47.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MMU",
+      "icao_code": "KMMU",
+      "distance_km": 48.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:12.345980Z",
+    "generated_at": "2025-08-04T20:03:36.038045Z",
     "env": "development",
     "source": "justarrived-generator"
   }

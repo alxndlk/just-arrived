@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 33.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aviano Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Aviano Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.avianoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aviano Airport Free WiFi",
+        "note": "Passengers can connect to the free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.airfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 49.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCE Free Wifi",
+        "note": "Limited to 2 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:33.444713Z",
+    "generated_at": "2025-08-04T18:48:49.536959Z",
     "env": "development",
     "source": "justarrived-generator"
   }

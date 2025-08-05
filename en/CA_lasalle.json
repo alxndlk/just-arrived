@@ -48,8 +48,131 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 10.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Windsor Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.yqg.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YQG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Detroit City Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Detroit Metropolitan Wayne County",
+      "iata_code": "DTW",
+      "icao_code": "KDTW",
+      "distance_km": 23.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "McNamara Terminal",
+          "description": "The main terminal at Detroit Metropolitan Wayne County Airport, serving most major airlines."
+        },
+        {
+          "name": "North Terminal",
+          "description": "A smaller terminal at Detroit Metropolitan Wayne County Airport, serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.metroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW-Free-WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Willow Run",
+      "iata_code": "YIP",
+      "icao_code": "KYIP",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Willow Run Airport offers a variety of amenities for travelers, including dining options and rental car services."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Willow Run Airport is a major hub for shipping and logistics, serving a wide range of domestic and international destinations."
+        }
+      ],
+      "website": "https://www.willowrunairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WillowRunAirportWiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 43.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Selfridge ANGB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Selfridge ANGB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.selfridge.ang.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Selfridge-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:21.308702Z",
+    "generated_at": "2025-08-04T18:39:48.982172Z",
     "env": "development",
     "source": "justarrived-generator"
   }

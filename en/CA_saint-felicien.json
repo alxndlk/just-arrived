@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Roberval",
+      "iata_code": "YRJ",
+      "icao_code": "CYRJ",
+      "distance_km": 22.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Roberval Airport serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.robervalairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Roberval Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Methode",
+      "iata_code": "YDO",
+      "icao_code": "CYDO",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Methode Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Methode Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.stmethodeairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "StMethodeAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the network name and entering a password."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:01.787456Z",
+    "generated_at": "2025-08-04T19:25:50.141628Z",
     "env": "development",
     "source": "justarrived-generator"
   }

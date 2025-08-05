@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sibiu",
+      "iata_code": "SBZ",
+      "icao_code": "LRSB",
+      "distance_km": 44.7,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Sibiu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.sibiuairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sibiu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Transilvania",
+      "iata_code": "TGM",
+      "icao_code": "LRTM",
+      "distance_km": 44.9,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Transilvania Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.transilvaniaairport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "Transilvania Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:54.925367Z",
+    "generated_at": "2025-08-04T18:34:45.789325Z",
     "env": "development",
     "source": "justarrived-generator"
   }

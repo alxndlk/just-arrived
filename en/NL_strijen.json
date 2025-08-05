@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 22.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gilze-Rijen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gilze-Rijen Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.gilzerijenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 24.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Woensdrecht",
+      "iata_code": "WOE",
+      "icao_code": "EHWO",
+      "distance_km": 37.2,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:31.994750Z",
+    "generated_at": "2025-08-04T20:33:29.915385Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 38.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 46.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Oshima",
+      "iata_code": "OIM",
+      "icao_code": "RJTO",
+      "distance_km": 47.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Oshima Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Oshima Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.oshima-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Oshima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:25.544760Z",
+    "generated_at": "2025-08-04T20:05:28.439061Z",
     "env": "development",
     "source": "justarrived-generator"
   }

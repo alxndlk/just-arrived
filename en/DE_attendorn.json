@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 47.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dortmund Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM Free WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:21.429248Z",
+    "generated_at": "2025-08-04T18:48:41.669134Z",
     "env": "development",
     "source": "justarrived-generator"
   }

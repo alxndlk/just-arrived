@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Entrammes",
+      "iata_code": "LVA",
+      "icao_code": "LFOV",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Entrammes Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Entrammes Airport is used for shipping and receiving of goods."
+        }
+      ],
+      "website": "https://www.entrmmesairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Entrammes Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marce",
+      "iata_code": "ANE",
+      "icao_code": "LFJR",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.marce-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marce Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:49.621041Z",
+    "generated_at": "2025-08-04T19:16:51.462086Z",
     "env": "development",
     "source": "justarrived-generator"
   }

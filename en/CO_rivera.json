@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Marguita",
+      "iata_code": "NVA",
+      "icao_code": "SKNV",
+      "distance_km": 18.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.lamarguitaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaMarguitaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:00.891334Z",
+    "generated_at": "2025-08-04T18:50:49.210960Z",
     "env": "development",
     "source": "justarrived-generator"
   }

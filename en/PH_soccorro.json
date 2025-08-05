@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 12.9,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it primarily serves international flights for Philippine Airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Ninoy Aquino International Airport, serving both international and domestic flights for various airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Also known as the Domestic Terminal, it serves domestic flights for various airlines."
+        }
+      ],
+      "website": "https://www.miaa.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA FREE WIFI",
+        "note": "Free wifi is available throughout all terminals."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 42.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baler Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.balerairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:18.112215Z",
+    "generated_at": "2025-08-04T18:47:46.336652Z",
     "env": "development",
     "source": "justarrived-generator"
   }

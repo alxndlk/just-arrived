@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 15.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bielefeld Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bielefeld Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.bielefeld-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bielefeld Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guetersloh",
+      "iata_code": "GUT",
+      "icao_code": "ETUO",
+      "distance_km": 33.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guetersloh Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Guetersloh Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.guetersloh-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "GUT Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:05.694538Z",
+    "generated_at": "2025-08-04T18:24:46.883234Z",
     "env": "development",
     "source": "justarrived-generator"
   }

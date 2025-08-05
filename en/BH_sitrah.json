@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 15.7,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sakhir Air Base Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Sakhir Air Base Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 16.8,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bahrain International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BAH Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:38.079325Z",
+    "generated_at": "2025-08-04T20:15:26.307073Z",
     "env": "development",
     "source": "justarrived-generator"
   }

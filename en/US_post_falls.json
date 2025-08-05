@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coeur D'Alene",
+      "iata_code": "COE",
+      "icao_code": "KCOE",
+      "distance_km": 13.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Felts Field",
+      "iata_code": "SFF",
+      "icao_code": "KSFF",
+      "distance_km": 35.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Felts Field Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.feltsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FeltsFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Spokane International",
+      "iata_code": "GEG",
+      "icao_code": "KGEG",
+      "distance_km": 46.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:28.817935Z",
+    "generated_at": "2025-08-04T20:05:28.694509Z",
     "env": "development",
     "source": "justarrived-generator"
   }

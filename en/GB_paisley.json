@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glasgow International",
+      "iata_code": "GLA",
+      "icao_code": "EGPF",
+      "distance_km": 2.1,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glasgow International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Glasgow International Airport is used for overflow flights and some low-cost airlines."
+        }
+      ],
+      "website": "https://www.glasgowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GLA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Prestwick",
+      "iata_code": "PIK",
+      "icao_code": "EGPK",
+      "distance_km": 39.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Prestwick Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Prestwick Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.glasgowprestwick.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Prestwick Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:49.007041Z",
+    "generated_at": "2025-08-04T20:00:34.452378Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,100 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Concord-Padgett Regional Airport",
+      "iata_code": "USA",
+      "icao_code": "KJQF",
+      "distance_km": 14.9,
+      "gmt": "-5",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Charlotte Douglas",
+      "iata_code": "CLT",
+      "icao_code": "KCLT",
+      "distance_km": 21.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Charlotte Douglas Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves American Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves a variety of airlines including Delta, JetBlue, and United."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C primarily serves American Airlines flights."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D serves a variety of airlines including Frontier, Southwest, and Spirit."
+        },
+        {
+          "name": "Concourse E",
+          "description": "Concourse E serves international flights and is connected to the main terminal via a walkway."
+        }
+      ],
+      "website": "https://www.cltairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Statesville Municipal",
+      "iata_code": "SVH",
+      "icao_code": "KSVH",
+      "distance_km": 42.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Rowan County",
+      "iata_code": "SRW",
+      "icao_code": "KRUQ",
+      "distance_km": 45.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rowan County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Rowan County Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.rowancountyairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Rowan County Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:18.646488Z",
+    "generated_at": "2025-08-04T20:02:25.341721Z",
     "env": "development",
     "source": "justarrived-generator"
   }

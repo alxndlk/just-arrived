@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Karlsruhe/Baden-Baden",
+      "iata_code": "FKB",
+      "icao_code": "EDSB",
+      "distance_km": 37.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Karlsruhe/Baden-Baden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.baden-airpark.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FKB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stuttgart Echterdingen",
+      "iata_code": "STR",
+      "icao_code": "EDDS",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for select airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.stuttgart-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stuttgart Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:26.949452Z",
+    "generated_at": "2025-08-04T19:36:41.158962Z",
     "env": "development",
     "source": "justarrived-generator"
   }

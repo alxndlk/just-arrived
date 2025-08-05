@@ -52,8 +52,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Canos",
+      "iata_code": "GAO",
+      "icao_code": "MUGT",
+      "distance_km": 10.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Los Canos Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.loscanosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Los Canos Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Guantanamo NAS",
+      "iata_code": "NBW",
+      "icao_code": "MUGM",
+      "distance_km": 21.3,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guantanamo NAS Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for military and private flights."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/ns_guantanamo_bay.html",
+      "wifi": {
+        "available": true,
+        "network_name": "GuantanamoNAS",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:51.176060Z",
+    "generated_at": "2025-08-04T19:20:44.122436Z",
     "env": "development",
     "source": "justarrived-generator"
   }

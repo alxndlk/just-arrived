@@ -51,8 +51,47 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Andravida",
+      "iata_code": "PYR",
+      "icao_code": "LGAD",
+      "distance_km": 39.9,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Araxos Airport",
+      "iata_code": "GPA",
+      "icao_code": "LGRX",
+      "distance_km": 40.1,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Araxos Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Araxos Airport, handling freight and cargo operations."
+        }
+      ],
+      "website": "https://www.araxos-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Araxos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:50.633628Z",
+    "generated_at": "2025-08-04T20:28:25.958295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

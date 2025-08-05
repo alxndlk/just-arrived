@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yakima Air Terminal",
+      "iata_code": "YKM",
+      "icao_code": "KYKM",
+      "distance_km": 49.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yakima Air Terminal Airport handles all commercial flights and houses various amenities for passengers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Yakima Air Terminal Airport serves private and charter flights and offers services for pilots and their passengers."
+        }
+      ],
+      "website": "https://www.yakimaairterminal.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YKM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:59.542406Z",
+    "generated_at": "2025-08-04T19:03:41.141088Z",
     "env": "development",
     "source": "justarrived-generator"
   }

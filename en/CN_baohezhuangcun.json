@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nanyuan Airport",
+      "iata_code": "NAY",
+      "icao_code": "ZBBB",
+      "distance_km": 13.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanyuan Airport, serving domestic flights within China."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nanyuan Airport, primarily used for charter and regional flights."
+        }
+      ],
+      "website": "http://en.bcia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanyuan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beijing Daxing International Airport",
+      "iata_code": "PKX",
+      "icao_code": "ZBAD",
+      "distance_km": 21.9,
+      "gmt": null,
+      "country": "Beijing",
+      "timezone": "+8",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beijing Daxing International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Beijing Daxing International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.bdia.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "PKX_Free_WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the network PKX_Free_WiFi."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:57.895844Z",
+    "generated_at": "2025-08-04T20:07:26.041132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

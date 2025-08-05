@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aachen/Merzbruck Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aachen-merzbruck-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for passenger flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Geilenkirchen",
+      "iata_code": "GKE",
+      "icao_code": "ETNG",
+      "distance_km": 41.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Geilenkirchen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.geilenkirchen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Geilenkirchen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:49.973601Z",
+    "generated_at": "2025-08-04T19:27:55.746469Z",
     "env": "development",
     "source": "justarrived-generator"
   }

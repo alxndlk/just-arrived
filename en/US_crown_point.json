@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chicago Lansing Municipal Airport",
+      "iata_code": "QQI",
+      "icao_code": "KIGQ",
+      "distance_km": 20.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chicago Lansing Municipal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights at Chicago Lansing Municipal Airport."
+        }
+      ],
+      "website": "https://www.chicagolansingairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gary/Chicago International",
+      "iata_code": "GYY",
+      "icao_code": "KGYY",
+      "distance_km": 23.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gary/Chicago International Airport serves all commercial flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gary/Chicago International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.garychicagoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GYY Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Porter County",
+      "iata_code": "VPZ",
+      "icao_code": "KVPZ",
+      "distance_km": 28.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Porter County Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Porter County Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.flyportercountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PorterCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:09.228541Z",
+    "generated_at": "2025-08-04T20:07:31.628797Z",
     "env": "development",
     "source": "justarrived-generator"
   }

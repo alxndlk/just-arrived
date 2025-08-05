@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bangalore International Airport",
+      "iata_code": "BLR",
+      "icao_code": "VOBL",
+      "distance_km": 10.8,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bangalore International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newly constructed terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "https://www.bengaluruairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BLR Airport WiFi",
+        "note": "Complimentary WiFi available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:20.166960Z",
+    "generated_at": "2025-08-04T19:29:53.829490Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Grand Strand Airport",
+      "iata_code": "CRE",
+      "icao_code": "KCRE",
+      "distance_km": 10.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.grandstrandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Grand Strand Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Myrtle Beach AFB",
+      "iata_code": "MYR",
+      "icao_code": "KMYR",
+      "distance_km": 34.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Myrtle Beach AFB Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Myrtle Beach AFB Airport is primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flymyrtlebeach.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MYR Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:49.123003Z",
+    "generated_at": "2025-08-04T19:24:47.885359Z",
     "env": "development",
     "source": "justarrived-generator"
   }

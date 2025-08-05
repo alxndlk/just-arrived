@@ -50,8 +50,35 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lime Acres",
+      "iata_code": "LMR",
+      "icao_code": "FALC",
+      "distance_km": 22.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lime Acres Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lime Acres Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.limeacresairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "LimeAcresAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:37.930008Z",
+    "generated_at": "2025-08-04T19:11:44.655924Z",
     "env": "development",
     "source": "justarrived-generator"
   }

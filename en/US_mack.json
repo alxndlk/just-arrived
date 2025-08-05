@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cincinnati/Northern Kentucky",
+      "iata_code": "CVG",
+      "icao_code": "KCVG",
+      "distance_km": 10.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse serves domestic flights for airlines such as Delta and American Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse serves international flights for airlines such as Air Canada and Vacation Express."
+        },
+        {
+          "name": "Concourse C",
+          "description": "This concourse serves domestic flights for airlines such as Frontier and Southwest."
+        }
+      ],
+      "website": "https://www.cvgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cincinnati Municipal-Lunken Field",
+      "iata_code": "LUK",
+      "icao_code": "KLUK",
+      "distance_km": 12.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:00.963945Z",
+    "generated_at": "2025-08-04T20:26:27.203662Z",
     "env": "development",
     "source": "justarrived-generator"
   }

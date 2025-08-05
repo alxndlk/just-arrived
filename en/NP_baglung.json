@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baglung",
+      "iata_code": "BGL",
+      "icao_code": "VNBL",
+      "distance_km": 10.0,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baglung Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.baglungairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baglung Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Pokhara",
+      "iata_code": "PKR",
+      "icao_code": "VNPK",
+      "distance_km": 38.6,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.pokharaairport.com.np/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pokhara Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:48.752623Z",
+    "generated_at": "2025-08-04T18:42:47.214414Z",
     "env": "development",
     "source": "justarrived-generator"
   }

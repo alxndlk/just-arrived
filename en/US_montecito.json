@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santa Barbara Metropolitan Area",
+      "iata_code": "SBA",
+      "icao_code": "KSBA",
+      "distance_km": 18.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Barbara Metropolitan Area Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Santa Barbara Metropolitan Area Airport is primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.flysba.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SBA Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ventura",
+      "iata_code": "OXR",
+      "icao_code": "KOXR",
+      "distance_km": 47.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ventura Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Ventura Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.venturaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VenturaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:15.920772Z",
+    "generated_at": "2025-08-04T19:34:46.854294Z",
     "env": "development",
     "source": "justarrived-generator"
   }

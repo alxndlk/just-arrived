@@ -51,8 +51,85 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 20.7,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest and busiest terminal at Brussels Airport, serving flights to and from international destinations."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Brussels Airport, primarily used for domestic flights within Belgium and nearby European countries."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal at Brussels Airport, primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds."
+      }
+    },
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 39.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Charleroi Brussels South Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.brussels-charleroi-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRL Airport Wifi",
+        "note": "Wifi is available throughout the airport, but may require a password or login."
+      }
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 47.3,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/en",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:08.712370Z",
+    "generated_at": "2025-08-04T18:38:43.741053Z",
     "env": "development",
     "source": "justarrived-generator"
   }

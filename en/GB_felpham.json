@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Goodwood",
+      "iata_code": "QUG",
+      "icao_code": "EGHR",
+      "distance_km": 21.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Shoreham",
+      "iata_code": "ESH",
+      "icao_code": "EGKA",
+      "distance_km": 25.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shoreham Airport serves commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Shoreham Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.shorehamairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Shoreham Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bembridge",
+      "iata_code": "BBP",
+      "icao_code": "EGHJ",
+      "distance_km": 32.5,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bembridge Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.bembridgeairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bembridge Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:57.535270Z",
+    "generated_at": "2025-08-04T20:24:34.817023Z",
     "env": "development",
     "source": "justarrived-generator"
   }

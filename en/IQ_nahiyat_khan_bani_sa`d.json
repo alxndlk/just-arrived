@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baghdad International",
+      "iata_code": "BGW",
+      "icao_code": "ORBI",
+      "distance_km": 45.4,
+      "gmt": "3",
+      "country": "Iraq",
+      "timezone": "Asia/Baghdad",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal under construction for future use."
+        }
+      ],
+      "website": "https://www.baghdad-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:49.969935Z",
+    "generated_at": "2025-08-04T18:12:58.312164Z",
     "env": "development",
     "source": "justarrived-generator"
   }

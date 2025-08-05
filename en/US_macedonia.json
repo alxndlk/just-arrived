@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 27.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 30.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 30.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.fultonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Akron/canton Regional",
+      "iata_code": "CAK",
+      "icao_code": "KCAK",
+      "distance_km": 44.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:02.721290Z",
+    "generated_at": "2025-08-04T20:24:35.317158Z",
     "env": "development",
     "source": "justarrived-generator"
   }

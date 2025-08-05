@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Damascus International Airport",
+      "iata_code": "DAM",
+      "icao_code": "OSDI",
+      "distance_km": 33.9,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Damascus International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Damascus International Airport handles the transportation of goods and freight."
+        }
+      ],
+      "website": "http://www.damascusairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAM Airport WiFi",
+        "note": "WiFi is available throughout the airport for a fee."
+      }
+    },
+    {
+      "airport_name": "Masada",
+      "iata_code": "MTZ",
+      "icao_code": "LLMZ",
+      "distance_km": 39.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Masada Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Masada Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.masadaairport.co.il/",
+      "wifi": {
+        "available": true,
+        "network_name": "Masada Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:59.815823Z",
+    "generated_at": "2025-08-04T18:58:41.561709Z",
     "env": "development",
     "source": "justarrived-generator"
   }

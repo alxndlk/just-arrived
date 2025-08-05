@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Collins Bay",
+      "iata_code": "YKC",
+      "icao_code": "CYKC",
+      "distance_km": 27.9,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Regina",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Collins Bay Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A terminal for private and charter flights at Collins Bay Airport."
+        }
+      ],
+      "website": "https://www.collinsbayairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Collins Bay Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kingston",
+      "iata_code": "YGK",
+      "icao_code": "CYGK",
+      "distance_km": 28.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kingston Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kingston Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ygkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YGK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:25.140574Z",
+    "generated_at": "2025-08-04T19:04:48.570866Z",
     "env": "development",
     "source": "justarrived-generator"
   }

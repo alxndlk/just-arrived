@@ -49,8 +49,60 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Skive Airport",
+      "iata_code": "SQW",
+      "icao_code": "EKSV",
+      "distance_km": 27.8,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skive Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Skive Airport, handling freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.skiveairport.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "SkiveAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Karup",
+      "iata_code": "KRP",
+      "icao_code": "EKKA",
+      "distance_km": 37.7,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Karup Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Karup Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://karupairport.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Karup Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:16.099120Z",
+    "generated_at": "2025-08-04T19:26:47.904832Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jackson-evers",
+      "iata_code": "JAN",
+      "icao_code": "KJAN",
+      "distance_km": 4.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Jackson-evers Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves Delta Airlines and its partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves American Airlines, Southwest Airlines, and United Airlines."
+        }
+      ],
+      "website": "https://jmaa.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JAN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hawkins Field",
+      "iata_code": "HKS",
+      "icao_code": "KHKS",
+      "distance_km": 10.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hawkins Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.flyjackson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HKS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:03.053837Z",
+    "generated_at": "2025-08-04T18:44:47.528707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

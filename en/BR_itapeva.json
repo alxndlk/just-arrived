@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braganca Paulista",
+      "iata_code": "BJP",
+      "icao_code": "SBBP",
+      "distance_km": 40.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sao Jose Dos Campos",
+      "iata_code": "SJK",
+      "icao_code": "SBSJ",
+      "distance_km": 47.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosjc.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:19.826940Z",
+    "generated_at": "2025-08-04T20:30:27.877879Z",
     "env": "development",
     "source": "justarrived-generator"
   }

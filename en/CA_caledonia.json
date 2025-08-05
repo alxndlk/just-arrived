@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 9.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at John C. Munroe Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all cargo and freight operations at the airport."
+        }
+      ],
+      "website": "https://www.hamiltonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YHM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:53.730061Z",
+    "generated_at": "2025-08-04T19:16:49.110033Z",
     "env": "development",
     "source": "justarrived-generator"
   }

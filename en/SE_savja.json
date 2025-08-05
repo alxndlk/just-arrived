@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arlanda",
+      "iata_code": "ARN",
+      "icao_code": "ESSA",
+      "distance_km": 24.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The newest terminal, mainly used by Scandinavian Airlines."
+        },
+        {
+          "name": "SkyCity",
+          "description": "A separate building connected to the terminals, featuring a shopping center and train station."
+        }
+      ],
+      "website": "https://www.swedavia.com/arlanda/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:40.597606Z",
+    "generated_at": "2025-08-04T19:29:39.572783Z",
     "env": "development",
     "source": "justarrived-generator"
   }

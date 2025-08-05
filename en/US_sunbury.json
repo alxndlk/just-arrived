@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Penn Valley",
+      "iata_code": "SEG",
+      "icao_code": "KSEG",
+      "distance_km": 5.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Penn Valley Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Penn Valley Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.pennvalleyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PennValleyWifi",
+        "note": "Wifi is available throughout the airport for passengers to use."
+      }
+    },
+    {
+      "airport_name": "Lycoming County",
+      "iata_code": "IPT",
+      "icao_code": "KIPT",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lycoming County Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lycoming County Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flyipt.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IPT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:56.213802Z",
+    "generated_at": "2025-08-04T19:29:48.339916Z",
     "env": "development",
     "source": "justarrived-generator"
   }

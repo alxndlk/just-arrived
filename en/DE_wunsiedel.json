@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bindlacher-Berg",
+      "iata_code": "BYU",
+      "icao_code": "EDQD",
+      "distance_km": 27.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bindlacher-Berg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.bindlacher-berg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BB-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hof",
+      "iata_code": "HOQ",
+      "icao_code": "EDQM",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.hof-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hof Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:24.711794Z",
+    "generated_at": "2025-08-04T19:31:45.541653Z",
     "env": "development",
     "source": "justarrived-generator"
   }

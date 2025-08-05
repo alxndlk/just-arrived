@@ -50,8 +50,81 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haifa",
+      "iata_code": "HFA",
+      "icao_code": "LLHA",
+      "distance_km": 26.4,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haifa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://haifa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Haifa Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rosh Pina",
+      "iata_code": "RPN",
+      "icao_code": "LLIB",
+      "distance_km": 26.8,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rosh Pina Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://roshpinaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RoshPinaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kiryat Shmona",
+      "iata_code": "KSW",
+      "icao_code": "LLKS",
+      "distance_km": 42.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kswairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "KSW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:36.009658Z",
+    "generated_at": "2025-08-04T18:31:45.721791Z",
     "env": "development",
     "source": "justarrived-generator"
   }

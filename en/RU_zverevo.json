@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rostov",
+      "iata_code": "ROV",
+      "icao_code": "URRR",
+      "distance_km": 38.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rostov Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.rostov-airport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ROV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:08.036857Z",
+    "generated_at": "2025-08-04T18:56:51.154511Z",
     "env": "development",
     "source": "justarrived-generator"
   }

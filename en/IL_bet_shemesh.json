@@ -106,8 +106,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 29.8,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Ben Gurion Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main terminal at Ben Gurion Airport, used for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A new terminal currently under construction, expected to open in 2022 and serve as the main terminal for low-cost carriers."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "BG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require periodic reconnection."
+      }
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 43.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Serves domestic flights within Israel."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Serves international flights to and from Europe and Asia."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sde-dov-airport/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:27.261013Z",
+    "generated_at": "2025-08-04T18:13:48.140981Z",
     "env": "development",
     "source": "justarrived-generator"
   }

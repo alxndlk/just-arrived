@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fort Smith Regional Airport",
+      "iata_code": "FSM",
+      "icao_code": "KFSM",
+      "distance_km": 42.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Smith Regional Airport houses all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Fort Smith Regional Airport is used for private and charter flights."
+        }
+      ],
+      "website": "http://www.fortsmithairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FSM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Robert S Kerr",
+      "iata_code": "RKR",
+      "icao_code": "KRKR",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.robertskerrairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RKR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:34.553579Z",
+    "generated_at": "2025-08-04T19:36:42.418255Z",
     "env": "development",
     "source": "justarrived-generator"
   }

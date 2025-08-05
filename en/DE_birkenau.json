@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mannheim Airport",
+      "iata_code": "MHG",
+      "icao_code": "EDFM",
+      "distance_km": 16.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mannheim Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mannheim-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mannheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Heidelberg Airport",
+      "iata_code": "HDB",
+      "icao_code": "EDIU",
+      "distance_km": 19.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.heidelberg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "HDB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 44.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Frankfurt-Egelsbach Airport, used for private and charter flights."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:29.554806Z",
+    "generated_at": "2025-08-04T20:29:36.672280Z",
     "env": "development",
     "source": "justarrived-generator"
   }

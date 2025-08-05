@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meucon",
+      "iata_code": "VNE",
+      "icao_code": "LFRV",
+      "distance_km": 4.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Meucon Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Meucon Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.vannes.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Meucon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Montoir",
+      "iata_code": "LBY",
+      "icao_code": "LFRE",
+      "distance_km": 47.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroport.fr/les-aeroports-de-l-uaf/montoir",
+      "wifi": {
+        "available": true,
+        "network_name": "Montoir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:38.485135Z",
+    "generated_at": "2025-08-04T19:31:50.808572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

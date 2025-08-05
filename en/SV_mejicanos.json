@@ -103,8 +103,51 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Ilopango International Airport",
+      "iata_code": "ILS",
+      "icao_code": "MSSS",
+      "distance_km": 10.9,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "El Salvador International",
+      "iata_code": "SAL",
+      "icao_code": "MSLP",
+      "distance_km": 36.4,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": "America/El_Salvador",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Secondary terminal for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Cargo terminal for air freight."
+        }
+      ],
+      "website": "https://www.aeropuertoelsalvador.gob.sv/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:50.967740Z",
+    "generated_at": "2025-08-04T19:58:29.966187Z",
     "env": "development",
     "source": "justarrived-generator"
   }

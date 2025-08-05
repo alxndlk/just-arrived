@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Romblon",
+      "iata_code": "TBH",
+      "icao_code": "RPVU",
+      "distance_km": 7.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Romblon Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.romblonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Romblon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Malay",
+      "iata_code": "MPH",
+      "icao_code": "RPWY",
+      "distance_km": 38.7,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Malay Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A private terminal for VIP and chartered flights."
+        }
+      ],
+      "website": "https://www.malayairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Malay Airport Wifi",
+        "note": "Wifi is available in all terminals and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:19.584479Z",
+    "generated_at": "2025-08-04T20:17:36.820583Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A smaller terminal at Frankfurt-Egelsbach Airport, catering to private and charter flights."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Frankfurt-Egelsbach Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 33.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Frankfurt International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal of Frankfurt International Airport, primarily serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal of Frankfurt International Airport, dedicated to Lufthansa and its partner airlines."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Frankfurt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a daily time limit of 4 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:25.599065Z",
+    "generated_at": "2025-08-04T20:14:28.631637Z",
     "env": "development",
     "source": "justarrived-generator"
   }

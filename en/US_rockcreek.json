@@ -48,8 +48,118 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 9.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland Airport serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Portland Airport caters to private and charter flights, offering a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://www.portlandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with no time or data limits."
+      }
+    },
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 22.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Portland International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "A concourse in the main terminal, primarily used for domestic flights operated by Alaska Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "A concourse in the main terminal, primarily used for domestic flights operated by Delta Air Lines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "A concourse in the main terminal, primarily used for domestic flights operated by United Airlines."
+        },
+        {
+          "name": "International Terminal",
+          "description": "A separate terminal for international flights, with customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    },
+    {
+      "airport_name": "Troutdale",
+      "iata_code": "TTD",
+      "icao_code": "KTTD",
+      "distance_km": 42.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Troutdale Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Troutdale Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.portofportland.com/PDX_Airport.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "TTD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mal",
+      "iata_code": "MMV",
+      "icao_code": "KMMV",
+      "distance_km": 45.3,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mal Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.papuanewguinea.travel/airports/mal-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Mal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:14.266213Z",
+    "generated_at": "2025-08-04T19:30:51.890139Z",
     "env": "development",
     "source": "justarrived-generator"
   }

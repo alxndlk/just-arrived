@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Trissino",
+      "iata_code": "VIC",
+      "icao_code": "LIPT",
+      "distance_km": 20.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportovicenza.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Trissino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Valerio Catullo",
+      "iata_code": "VRN",
+      "icao_code": "LIPX",
+      "distance_km": 33.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Valerio Catullo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Valerio Catullo Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportoverona.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VRN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:13.973314Z",
+    "generated_at": "2025-08-04T19:15:40.809869Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,43 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Neubrandenburg",
+      "iata_code": "FNB",
+      "icao_code": "ETNU",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flughafen-neubrandenburg.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "FNB Free WiFi",
+        "note": "High-speed WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rechlin",
+      "iata_code": "REB",
+      "icao_code": "EDAX",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:49.518069Z",
+    "generated_at": "2025-08-04T20:01:34.806701Z",
     "env": "development",
     "source": "justarrived-generator"
   }

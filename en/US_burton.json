@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bishop International Airport",
+      "iata_code": "FNT",
+      "icao_code": "KFNT",
+      "distance_km": 10.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bishop International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bishop International Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.bishopairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bishop Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pontiac",
+      "iata_code": "PTK",
+      "icao_code": "KPTK",
+      "distance_km": 40.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pontiac Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Pontiac Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.pontiacairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pontiac Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:40.077106Z",
+    "generated_at": "2025-08-04T18:42:42.926671Z",
     "env": "development",
     "source": "justarrived-generator"
   }

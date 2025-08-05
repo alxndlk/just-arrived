@@ -51,8 +51,59 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 24.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 29.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 40.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kempen Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kempen Airport is used for shipping and receiving goods and packages."
+        }
+      ],
+      "website": "https://www.kempenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kempen Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:39.730020Z",
+    "generated_at": "2025-08-04T20:15:36.007247Z",
     "env": "development",
     "source": "justarrived-generator"
   }

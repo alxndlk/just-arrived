@@ -50,8 +50,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nevatim AFB",
+      "iata_code": "VTM",
+      "icao_code": "LLNV",
+      "distance_km": 15.0,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nevatim AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nevatim AFB Airport, used for military and charter flights."
+        }
+      ],
+      "website": "https://www.iaf.org.il/en/iaf-bases/nevatim",
+      "wifi": {
+        "available": true,
+        "network_name": "Nevatim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beer Sheba",
+      "iata_code": "BEV",
+      "icao_code": "LLBS",
+      "distance_km": 29.7,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/beer-sheba-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BEV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:05.766851Z",
+    "generated_at": "2025-08-04T18:38:41.383187Z",
     "env": "development",
     "source": "justarrived-generator"
   }

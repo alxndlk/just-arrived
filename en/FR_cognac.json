@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Parvaud",
+      "iata_code": "CNG",
+      "icao_code": "LFBG",
+      "distance_km": 1.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Parvaud Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.parvaudairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Parvaud Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brie-Champniers",
+      "iata_code": "ANG",
+      "icao_code": "LFBU",
+      "distance_km": 42.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Brie-Champniers Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Brie-Champniers Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.brie-champniers-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brie-Champniers Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:12.076773Z",
+    "generated_at": "2025-08-04T18:58:45.933429Z",
     "env": "development",
     "source": "justarrived-generator"
   }

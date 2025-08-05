@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oktiabrskij",
+      "iata_code": "OKT",
+      "icao_code": "UWUK",
+      "distance_km": 27.6,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.oktairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "OKT Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:51.690814Z",
+    "generated_at": "2025-08-04T18:24:39.586315Z",
     "env": "development",
     "source": "justarrived-generator"
   }

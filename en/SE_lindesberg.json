@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orebro-bofors",
+      "iata_code": "ORB",
+      "icao_code": "ESOE",
+      "distance_km": 42.9,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.orebroairport.se/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Orebro Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:47.798394Z",
+    "generated_at": "2025-08-04T19:29:40.702871Z",
     "env": "development",
     "source": "justarrived-generator"
   }

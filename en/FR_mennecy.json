@@ -51,8 +51,75 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 18.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 31.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest terminal at Charles De Gaulle Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The largest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals (2A to 2G) serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The smallest terminal at Charles De Gaulle Airport, mainly serving low-cost airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/airport-guide/charles-de-gaulle-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport Wifi",
+        "note": "Passengers can enjoy free wifi for up to 4 hours by connecting to the network and following the instructions on the login page."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:50.410024Z",
+    "generated_at": "2025-08-04T20:19:25.380716Z",
     "env": "development",
     "source": "justarrived-generator"
   }

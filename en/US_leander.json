@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Austin Executive Airport ",
+      "iata_code": "EDC",
+      "icao_code": "KEDC",
+      "distance_km": 34.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin Executive Airport handles all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Austin Executive Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.austinexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Austin Executive Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Austin-bergstrom International",
+      "iata_code": "AUS",
+      "icao_code": "KAUS",
+      "distance_km": 45.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin-bergstrom International Airport houses the majority of the airport's facilities, including ticketing, baggage claim, and passenger services."
+        },
+        {
+          "name": "Barbara Jordan Terminal",
+          "description": "The Barbara Jordan Terminal is a separate terminal for international flights, equipped with customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.austintexas.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AUS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:55.637887Z",
+    "generated_at": "2025-08-04T20:01:30.886583Z",
     "env": "development",
     "source": "justarrived-generator"
   }

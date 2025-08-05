@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komaki AFB",
+      "iata_code": "NKM",
+      "icao_code": "RJNA",
+      "distance_km": 21.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Komaki AFB Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Komaki AFB Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.komaki.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "KomakiAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:18.449571Z",
+    "generated_at": "2025-08-04T18:24:49.045854Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiel-Holtenau",
+      "iata_code": "KEL",
+      "icao_code": "EDHK",
+      "distance_km": 30.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kiel-Holtenau Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.kiel-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kiel-Holtenau Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lübeck Blankensee",
+      "iata_code": "LBC",
+      "icao_code": "EDHL",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:31.219469Z",
+    "generated_at": "2025-08-04T20:32:37.607157Z",
     "env": "development",
     "source": "justarrived-generator"
   }

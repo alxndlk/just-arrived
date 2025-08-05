@@ -51,8 +51,85 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 29.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maastricht/aachen Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Maastricht/aachen Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.maa.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 33.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kempen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for handling cargo shipments at Kempen Airport."
+        }
+      ],
+      "website": "https://www.kempenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kempen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 39.2,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Liege Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Liege Airport, primarily used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.liegeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Liege Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:06.594459Z",
+    "generated_at": "2025-08-04T20:14:26.828924Z",
     "env": "development",
     "source": "justarrived-generator"
   }

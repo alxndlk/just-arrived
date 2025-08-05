@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toyama",
+      "iata_code": "TOY",
+      "icao_code": "RJNT",
+      "distance_km": 42.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.toyama-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toyama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:53.546143Z",
+    "generated_at": "2025-08-04T18:49:50.531165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

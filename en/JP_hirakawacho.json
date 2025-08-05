@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aomori",
+      "iata_code": "AOJ",
+      "icao_code": "RJSA",
+      "distance_km": 20.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aomori Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Aomori Airport handles all international flights."
+        }
+      ],
+      "website": "https://www.aomori-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aomori Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Odate Noshiro",
+      "iata_code": "ONJ",
+      "icao_code": "RJSR",
+      "distance_km": 46.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Odate Noshiro Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.odatenoshiroairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ONJ Airport Wifi",
+        "note": "Passengers can connect to the airport's free wifi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:40.941718Z",
+    "generated_at": "2025-08-04T18:41:46.116323Z",
     "env": "development",
     "source": "justarrived-generator"
   }

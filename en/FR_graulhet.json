@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Sequestre",
+      "iata_code": "LBI",
+      "icao_code": "LFCI",
+      "distance_km": 23.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Sequestre Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.toulouse.aeroport.fr/en/passengers",
+      "wifi": {
+        "available": true,
+        "network_name": "LeSequestreAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mazamet",
+      "iata_code": "DCM",
+      "icao_code": "LFCK",
+      "distance_km": 33.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mazamet Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.mazametairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Mazamet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:55.876710Z",
+    "generated_at": "2025-08-04T19:12:46.528602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

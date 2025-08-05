@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Bernado",
+      "iata_code": "ELB",
+      "icao_code": "SKBC",
+      "distance_km": 34.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Bernado Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to regional flights within Colombia."
+        }
+      ],
+      "website": "https://www.sanbernadoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SanBernadoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:19.558685Z",
+    "generated_at": "2025-08-04T19:11:01.243240Z",
     "env": "development",
     "source": "justarrived-generator"
   }

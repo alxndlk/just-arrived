@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Osh International Airport",
+      "iata_code": "OSS",
+      "icao_code": "UAFO",
+      "distance_km": 30.3,
+      "gmt": "6",
+      "country": "Kyrgyzstan",
+      "timezone": "Asia/Bishkek",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Osh International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.airport.kg/en/osh-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "OshAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:39.337030Z",
+    "generated_at": "2025-08-04T18:54:48.651242Z",
     "env": "development",
     "source": "justarrived-generator"
   }

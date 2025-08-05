@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 33.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Schiphol Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for European and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A recently renovated terminal mainly used by KLM and its partner airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "A modern terminal serving mostly international flights, including those operated by low-cost carriers."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The newest terminal at Schiphol Airport, primarily used by SkyTeam alliance airlines."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 4 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:12.337504Z",
+    "generated_at": "2025-08-04T20:25:27.393022Z",
     "env": "development",
     "source": "justarrived-generator"
   }

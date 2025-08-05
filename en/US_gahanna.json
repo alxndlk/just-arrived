@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Port Columbus International",
+      "iata_code": "CMH",
+      "icao_code": "KCMH",
+      "distance_km": 3.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Port Columbus International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Port Columbus International Airport primarily serves Delta and its SkyTeam partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Port Columbus International Airport serves American, Southwest, and United airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Port Columbus International Airport serves Allegiant, Frontier, and Spirit airlines."
+        }
+      ],
+      "website": "https://flycolumbus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CMH Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network by selecting 'CMH Free Wi-Fi' from the list of available networks."
+      }
+    },
+    {
+      "airport_name": "Ohio State University",
+      "iata_code": "OSU",
+      "icao_code": "KOSU",
+      "distance_km": 18.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ohio State University Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights, providing a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://osuairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSU Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rickenbacker",
+      "iata_code": "LCK",
+      "icao_code": "KLCK",
+      "distance_km": 23.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rickenbacker Airport serves all commercial and cargo flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rickenbacker Airport handles all cargo operations and is equipped with state-of-the-art facilities."
+        }
+      ],
+      "website": "https://www.flyrickenbacker.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rickenbacker Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:56.417917Z",
+    "generated_at": "2025-08-04T18:37:43.239920Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "City County",
+      "iata_code": "HVR",
+      "icao_code": "KHVR",
+      "distance_km": 5.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at City County Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at City County Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.citycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CityCountyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:07.500881Z",
+    "generated_at": "2025-08-04T19:31:39.534076Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 14.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Hamburg Airport, primarily serving low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lübeck Blankensee",
+      "iata_code": "LBC",
+      "icao_code": "EDHL",
+      "distance_km": 45.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Lübeck Blankensee Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.flughafen-luebeck.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBC Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:56.516729Z",
+    "generated_at": "2025-08-04T19:33:44.538454Z",
     "env": "development",
     "source": "justarrived-generator"
   }

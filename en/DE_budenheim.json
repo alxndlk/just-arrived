@@ -49,8 +49,97 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 5.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 8.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Air Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Air Base Airport is used for military and government flights."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseAirport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 29.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main and largest terminal at Frankfurt International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at Frankfurt International Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA-WiFi",
+        "note": "Free WiFi is available throughout the airport, with limited complimentary access for non-EU citizens."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:35.204714Z",
+    "generated_at": "2025-08-04T20:33:35.486021Z",
     "env": "development",
     "source": "justarrived-generator"
   }

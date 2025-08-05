@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 18.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Finkenwerder",
+      "iata_code": "XFW",
+      "icao_code": "EDHI",
+      "distance_km": 30.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Finkenwerder Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Finkenwerder Airport, mainly used for regional and private flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "Finkenwerder Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 44.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:31.159774Z",
+    "generated_at": "2025-08-04T20:05:28.792808Z",
     "env": "development",
     "source": "justarrived-generator"
   }

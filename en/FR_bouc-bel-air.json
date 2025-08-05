@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 6.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Castellet",
+      "iata_code": "CTT",
+      "icao_code": "LFMQ",
+      "distance_km": 37.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all flights at Le Castellet Airport."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "A separate terminal for private jet flights at Le Castellet Airport."
+        }
+      ],
+      "website": "https://www.lecastelletairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Le Castellet Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:00.992435Z",
+    "generated_at": "2025-08-04T20:19:35.661947Z",
     "env": "development",
     "source": "justarrived-generator"
   }

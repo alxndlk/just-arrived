@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 37.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Secondary terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/travellers-txl/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "TXL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:04.018615Z",
+    "generated_at": "2025-08-04T19:35:00.302571Z",
     "env": "development",
     "source": "justarrived-generator"
   }

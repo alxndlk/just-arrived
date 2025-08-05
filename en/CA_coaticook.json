@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sherbrooke",
+      "iata_code": "YSC",
+      "icao_code": "CYSC",
+      "distance_km": 32.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sherbrooke Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sherbrooke Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.sherbrookeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sherbrooke Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newport",
+      "iata_code": "EFK",
+      "icao_code": "KEFK",
+      "distance_km": 43.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and chartered flights."
+        }
+      ],
+      "website": "https://www.newportairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Newport Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:20.083896Z",
+    "generated_at": "2025-08-04T19:35:42.825213Z",
     "env": "development",
     "source": "justarrived-generator"
   }

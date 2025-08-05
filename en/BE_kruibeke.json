@@ -51,8 +51,101 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 10.8,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Deurne/ Antwerp Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.antwerp-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ANR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Woensdrecht",
+      "iata_code": "WOE",
+      "icao_code": "EHWO",
+      "distance_km": 30.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 32.6,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest and busiest terminal at Brussels Airport, serving a majority of international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal mainly used for domestic and regional flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal used for low-cost carriers and some international flights."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en",
+      "wifi": {
+        "available": true,
+        "network_name": "BRU Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but a premium option is also offered for faster speeds."
+      }
+    },
+    {
+      "airport_name": "Zoersel",
+      "iata_code": "OBL",
+      "icao_code": "EBZR",
+      "distance_km": 33.3,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zoersel Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Zoersel Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.zoerselairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zoersel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:02.904156Z",
+    "generated_at": "2025-08-04T20:18:29.219958Z",
     "env": "development",
     "source": "justarrived-generator"
   }

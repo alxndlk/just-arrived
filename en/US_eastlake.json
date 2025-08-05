@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 26.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burke Lakefront Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Burke Lakefront Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.burkelakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 43.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hopkins International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Hopkins International Airport serves domestic flights operated by Delta and United Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Hopkins International Airport serves domestic flights operated by American Airlines and Southwest Airlines."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:37.550261Z",
+    "generated_at": "2025-08-04T19:00:47.307014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 15.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 23.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hopkins International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves United Airlines and its Star Alliance partners."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves American Airlines and its Oneworld partners."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C primarily serves Delta Air Lines and its SkyTeam partners."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 41.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.fultonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:11.582384Z",
+    "generated_at": "2025-08-04T20:12:34.381195Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 40.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kansai International Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Tokushima",
+      "iata_code": "TKS",
+      "icao_code": "RJOS",
+      "distance_km": 50.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tokushima Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tokushima Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.tokushima-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tokushima Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:24.181654Z",
+    "generated_at": "2025-08-04T18:46:51.374418Z",
     "env": "development",
     "source": "justarrived-generator"
   }

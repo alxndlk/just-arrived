@@ -50,8 +50,39 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malatya",
+      "iata_code": "MLX",
+      "icao_code": "LTAT",
+      "distance_km": 6.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Malatya Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Malatya Airport handles the transportation of goods and cargo."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Malatya Airport provides exclusive services for high-profile passengers."
+        }
+      ],
+      "website": "https://www.malatya.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Malatya Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:28.069034Z",
+    "generated_at": "2025-08-04T18:07:36.876478Z",
     "env": "development",
     "source": "justarrived-generator"
   }

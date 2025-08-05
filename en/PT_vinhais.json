@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Braganca",
+      "iata_code": "BGC",
+      "icao_code": "LPBG",
+      "distance_km": 20.7,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chaves",
+      "iata_code": "CHV",
+      "icao_code": "LPCH",
+      "distance_km": 39.8,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chaves Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Chaves Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.chavesairport.pt/",
+      "wifi": {
+        "available": true,
+        "network_name": "ChavesAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:12.954661Z",
+    "generated_at": "2025-08-04T20:32:31.611324Z",
     "env": "development",
     "source": "justarrived-generator"
   }

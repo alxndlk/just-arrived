@@ -49,8 +49,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brnik",
+      "iata_code": "LJU",
+      "icao_code": "LJLJ",
+      "distance_km": 6.8,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Alpe Adria",
+      "iata_code": "KLU",
+      "icao_code": "LOWK",
+      "distance_km": 46.5,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Alpe Adria Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.klagenfurt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:15.146498Z",
+    "generated_at": "2025-08-04T20:06:29.934926Z",
     "env": "development",
     "source": "justarrived-generator"
   }

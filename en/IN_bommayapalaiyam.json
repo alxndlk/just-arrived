@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pondicherry",
+      "iata_code": "PNY",
+      "icao_code": "VOPC",
+      "distance_km": 6.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.pondicherryairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pondicherry Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:30.576898Z",
+    "generated_at": "2025-08-04T19:34:50.458504Z",
     "env": "development",
     "source": "justarrived-generator"
   }

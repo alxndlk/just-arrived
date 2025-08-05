@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tajima",
+      "iata_code": "TJH",
+      "icao_code": "RJBT",
+      "distance_km": 27.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tajima Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tajima Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tajima-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tajima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:10.015837Z",
+    "generated_at": "2025-08-04T18:29:00.395561Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fanning Field",
+      "iata_code": "IDA",
+      "icao_code": "KIDA",
+      "distance_km": 10.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fanning Field Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Fanning Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.iflyida.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IDA Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Madison County",
+      "iata_code": "RXE",
+      "icao_code": "KRXE",
+      "distance_km": 41.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Madison County Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Madison County Airport caters to private and charter flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.madisoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MadisonAirportWiFi",
+        "note": "Passengers can access free WiFi throughout the airport with a simple registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:06.310067Z",
+    "generated_at": "2025-08-04T18:58:43.862227Z",
     "env": "development",
     "source": "justarrived-generator"
   }

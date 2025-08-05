@@ -50,8 +50,60 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cigli AB",
+      "iata_code": "IGL",
+      "icao_code": "LTBL",
+      "distance_km": 15.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cigli AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.cigliabairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CigliAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Adnan Menderes Airport",
+      "iata_code": "ADB",
+      "icao_code": "LTBJ",
+      "distance_km": 16.6,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "The international terminal serves all international flights at Adnan Menderes Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal serves all domestic flights at Adnan Menderes Airport."
+        }
+      ],
+      "website": "https://www.adnanmenderesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Adnan Menderes Airport Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password or registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:12.275509Z",
+    "generated_at": "2025-08-04T18:25:46.823236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

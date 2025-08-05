@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 32.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport with a variety of shops, restaurants, and services."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 38.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:45.992383Z",
+    "generated_at": "2025-08-04T20:19:34.516586Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,51 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Isla Mujeres",
+      "iata_code": "ISJ",
+      "icao_code": "MMIM",
+      "distance_km": 4.1,
+      "gmt": "-5",
+      "country": "Mexico",
+      "timezone": "America/Cancun",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cancún International",
+      "iata_code": "CUN",
+      "icao_code": "MMUN",
+      "distance_km": 26.0,
+      "gmt": "-5",
+      "country": "Mexico",
+      "timezone": "America/Cancun",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The original terminal of Cancún International Airport, serving mainly domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal of Cancún International Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal of Cancún International Airport, serving mainly international flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.cancun-airport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "CUN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:41.198912Z",
+    "generated_at": "2025-08-04T20:23:36.016524Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "D.Z. Romualdez",
+      "iata_code": "TAC",
+      "icao_code": "RPVA",
+      "distance_km": 8.5,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of D.Z. Romualdez Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of D.Z. Romualdez Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.tacairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ormoc",
+      "iata_code": "OMC",
+      "icao_code": "RPVO",
+      "distance_km": 47.9,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ormoc Airport serves domestic flights and is equipped with basic amenities for travelers."
+        }
+      ],
+      "website": "https://www.caap.gov.ph/ormoc-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "OrmocAirportWiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:01.341741Z",
+    "generated_at": "2025-08-04T18:22:49.358162Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Friedrichshafen",
+      "iata_code": "FDH",
+      "icao_code": "EDNY",
+      "distance_km": 42.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Friedrichshafen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.fly-away.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDH Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 43.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Zurich Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:29.406197Z",
+    "generated_at": "2025-08-04T18:39:46.906579Z",
     "env": "development",
     "source": "justarrived-generator"
   }

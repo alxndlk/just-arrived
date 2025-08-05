@@ -50,8 +50,60 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Letaba",
+      "iata_code": "LTA",
+      "icao_code": "FATZ",
+      "distance_km": 15.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Letaba Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Letaba Airport is responsible for handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.letabaairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Letaba Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Polokwane",
+      "iata_code": "PTG",
+      "icao_code": "FAPI",
+      "distance_km": 33.3,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Polokwane Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Polokwane Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.airports.co.za/airports/polokwane-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Polokwane Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:42.183203Z",
+    "generated_at": "2025-08-04T18:51:41.872568Z",
     "env": "development",
     "source": "justarrived-generator"
   }

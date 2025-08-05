@@ -51,8 +51,64 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 30.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal primarily serves domestic and regional flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves a mix of international and domestic flights."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BRU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 31.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Charleroi Brussels South Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Charleroi Brussels South Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.charleroi-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRL Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal, but it may be limited to a certain amount of time or data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:04.240916Z",
+    "generated_at": "2025-08-04T18:46:44.414569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

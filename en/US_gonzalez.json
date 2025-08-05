@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pensacola International Airport",
+      "iata_code": "PNS",
+      "icao_code": "KPNS",
+      "distance_km": 15.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pensacola International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used for domestic flights operated by American Airlines and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is primarily used for domestic flights operated by Southwest Airlines and United Airlines."
+        }
+      ],
+      "website": "https://flypensacola.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PNS-Free-WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after accepting the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Pensacola NAS",
+      "iata_code": "NPA",
+      "icao_code": "KNPA",
+      "distance_km": 19.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pensacola NAS Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Pensacola NAS Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/nas_pensacola.html",
+      "wifi": {
+        "available": true,
+        "network_name": "PensacolaNAS_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:33.606788Z",
+    "generated_at": "2025-08-04T19:10:49.896884Z",
     "env": "development",
     "source": "justarrived-generator"
   }

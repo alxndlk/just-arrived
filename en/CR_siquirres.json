@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guapiles",
+      "iata_code": "GPL",
+      "icao_code": "MRGP",
+      "distance_km": 34.9,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.sjoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Guapiles Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rio Frio",
+      "iata_code": "RFR",
+      "icao_code": "MRRF",
+      "distance_km": 49.8,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rio Frio Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rio Frio Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.riofrioairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RioFrioAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:22.511023Z",
+    "generated_at": "2025-08-04T18:40:41.823408Z",
     "env": "development",
     "source": "justarrived-generator"
   }

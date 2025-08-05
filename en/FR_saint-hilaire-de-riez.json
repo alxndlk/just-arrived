@@ -51,8 +51,68 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Talmont",
+      "iata_code": "LSO",
+      "icao_code": "LFOO",
+      "distance_km": 27.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ile d'Yeu",
+      "iata_code": "IDY",
+      "icao_code": "LFEY",
+      "distance_km": 33.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ile d'Yeu Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.ile-yeu.fr/en/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ile d'Yeu Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Les Ajoncs",
+      "iata_code": "EDM",
+      "icao_code": "LFRI",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.lesajoncsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LesAjoncsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:26.112573Z",
+    "generated_at": "2025-08-04T20:23:30.072154Z",
     "env": "development",
     "source": "justarrived-generator"
   }

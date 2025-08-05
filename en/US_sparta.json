@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MMU",
+      "icao_code": "KMMU",
+      "distance_km": 32.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Municipal Airport serves flights to and from international destinations."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Caldwell Wright",
+      "iata_code": "CDW",
+      "icao_code": "KCDW",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Caldwell Wright Airport offers convenient access to all flights and amenities."
+        }
+      ],
+      "website": "https://www.caldwellairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CaldwellAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:03.149512Z",
+    "generated_at": "2025-08-04T20:30:26.702354Z",
     "env": "development",
     "source": "justarrived-generator"
   }

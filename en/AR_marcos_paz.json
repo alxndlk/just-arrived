@@ -50,8 +50,59 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 26.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 27.3,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aeroparque Jorge Newbery",
+      "iata_code": "AEP",
+      "icao_code": "SABE",
+      "distance_km": 44.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for regional and international flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeroparque-jorge-newbery",
+      "wifi": {
+        "available": true,
+        "network_name": "Aeropuerto AEP",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:06.997641Z",
+    "generated_at": "2025-08-04T20:05:35.861675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

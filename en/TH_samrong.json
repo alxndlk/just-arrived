@@ -50,8 +50,64 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 17.9,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Suvarnabhumi Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary international terminal at Suvarnabhumi Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The domestic terminal at Suvarnabhumi Airport."
+        }
+      ],
+      "website": "https://www.suvarnabhumi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Suvarnabhumi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 29.1,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Don Muang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Don Muang Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.donmueangairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the instructions to access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:37.833819Z",
+    "generated_at": "2025-08-04T18:41:45.468377Z",
     "env": "development",
     "source": "justarrived-generator"
   }

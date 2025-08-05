@@ -50,8 +50,35 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Secunda",
+      "iata_code": "ZEC",
+      "icao_code": "FASC",
+      "distance_km": 48.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Secunda Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Secunda Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.secundaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Secunda Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:46.858670Z",
+    "generated_at": "2025-08-04T19:10:53.281636Z",
     "env": "development",
     "source": "justarrived-generator"
   }

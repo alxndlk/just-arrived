@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Clermont/Ferrand Auvergne International (Aulnat)",
+      "iata_code": "CFE",
+      "icao_code": "LFLC",
+      "distance_km": 7.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.clermont-aeroport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CFE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charmeil",
+      "iata_code": "VHY",
+      "icao_code": "LFLV",
+      "distance_km": 44.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.clermont-aeroport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Charmeil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:13.899984Z",
+    "generated_at": "2025-08-04T19:33:52.550707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chateauroux",
+      "iata_code": "CHR",
+      "icao_code": "LFLX",
+      "distance_km": 1.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chateauroux Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.chateauroux-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CHR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:47.691142Z",
+    "generated_at": "2025-08-04T18:32:45.365953Z",
     "env": "development",
     "source": "justarrived-generator"
   }

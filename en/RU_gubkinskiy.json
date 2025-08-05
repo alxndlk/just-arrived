@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Novy Urengoy",
+      "iata_code": "NUX",
+      "icao_code": "USMU",
+      "distance_km": 40.0,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Novy Urengoy Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.novy-urengoy-airport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "NovyUrengoyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:20.143104Z",
+    "generated_at": "2025-08-04T18:38:44.335105Z",
     "env": "development",
     "source": "justarrived-generator"
   }

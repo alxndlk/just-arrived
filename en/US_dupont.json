@@ -48,8 +48,134 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 10.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 19.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Olympia",
+      "iata_code": "OLM",
+      "icao_code": "KOLM",
+      "distance_km": 24.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Olympia Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Olympia Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flyolympia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OLM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sanderson Field",
+      "iata_code": "SHN",
+      "icao_code": "KSHN",
+      "distance_km": 39.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sanderson Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sanderson Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.sandersonfield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sanderson Field WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bremerton",
+      "iata_code": "PWT",
+      "icao_code": "KPWT",
+      "distance_km": 42.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bremerton Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.portofbremerton.org/bremerton-national-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Bremerton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 45.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seattle-Tacoma International Airport houses all major airlines and provides a variety of dining and shopping options for travelers."
+        },
+        {
+          "name": "North Satellite Terminal",
+          "description": "The North Satellite Terminal at Seattle-Tacoma International Airport serves as a hub for Alaska Airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "South Satellite Terminal",
+          "description": "The South Satellite Terminal at Seattle-Tacoma International Airport serves as a hub for Delta Airlines and offers a variety of amenities for travelers."
+        }
+      ],
+      "website": "https://www.portseattle.org/seattle-tacoma-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "SEA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:50.012142Z",
+    "generated_at": "2025-08-04T20:30:24.687917Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Billund",
+      "iata_code": "BLL",
+      "icao_code": "EKBI",
+      "distance_km": 47.2,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Billund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.billund-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Billund Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:08.445209Z",
+    "generated_at": "2025-08-04T18:25:42.908554Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arealva",
+      "iata_code": "JTC",
+      "icao_code": "SJTC",
+      "distance_km": 43.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Arealva Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.arealvaairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arealva Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lins",
+      "iata_code": "LIP",
+      "icao_code": "SBLN",
+      "distance_km": 47.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lins Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lins Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.linsairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LinsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:46.934076Z",
+    "generated_at": "2025-08-04T18:51:41.169264Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marco Island",
+      "iata_code": "MRK",
+      "icao_code": "KMKY",
+      "distance_km": 2.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marco Island Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Marco Island Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flights.com/airports/MRK",
+      "wifi": {
+        "available": true,
+        "network_name": "MarcoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Naples",
+      "iata_code": "APF",
+      "icao_code": "KAPF",
+      "distance_km": 25.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Naples Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Naples Airport is used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.flynaples.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Naples Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:07.019753Z",
+    "generated_at": "2025-08-04T19:04:41.274929Z",
     "env": "development",
     "source": "justarrived-generator"
   }

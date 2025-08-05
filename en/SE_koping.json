@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eskilstuna",
+      "iata_code": "EKT",
+      "icao_code": "ESSU",
+      "distance_km": 34.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eskilstuna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Eskilstuna Airport, handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.eskilstunaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EKT Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Vasteras/Hasslo",
+      "iata_code": "VST",
+      "icao_code": "ESOW",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:05.734599Z",
+    "generated_at": "2025-08-04T20:17:26.451010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

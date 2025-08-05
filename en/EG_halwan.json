@@ -51,8 +51,39 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cairo International Airport",
+      "iata_code": "CAI",
+      "icao_code": "HECA",
+      "distance_km": 30.9,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights."
+        }
+      ],
+      "website": "https://www.cairo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CAI-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:43.015695Z",
+    "generated_at": "2025-08-04T18:05:47.738757Z",
     "env": "development",
     "source": "justarrived-generator"
   }

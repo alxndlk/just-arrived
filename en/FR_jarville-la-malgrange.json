@@ -51,8 +51,72 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Essey",
+      "iata_code": "ENC",
+      "icao_code": "LFSN",
+      "distance_km": 3.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Essey Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Essey Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.esseyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EsseyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Metz-nancy-lorraine",
+      "iata_code": "ETZ",
+      "icao_code": "LFJL",
+      "distance_km": 34.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mirecourt",
+      "iata_code": "EPL",
+      "icao_code": "LFSG",
+      "distance_km": 39.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mirecourt Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mirecourtairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mirecourt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:59.016291Z",
+    "generated_at": "2025-08-04T20:31:33.175473Z",
     "env": "development",
     "source": "justarrived-generator"
   }

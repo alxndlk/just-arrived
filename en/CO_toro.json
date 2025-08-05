@@ -50,8 +50,55 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cartago",
+      "iata_code": "CRC",
+      "icao_code": "SKGO",
+      "distance_km": 23.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "El Eden",
+      "iata_code": "AXM",
+      "icao_code": "SKAR",
+      "distance_km": 39.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Eden Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/colombia/axm",
+      "wifi": {
+        "available": true,
+        "network_name": "ElEdenAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Matecana",
+      "iata_code": "PEI",
+      "icao_code": "SKPE",
+      "distance_km": 44.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:47.763150Z",
+    "generated_at": "2025-08-04T20:18:33.283270Z",
     "env": "development",
     "source": "justarrived-generator"
   }

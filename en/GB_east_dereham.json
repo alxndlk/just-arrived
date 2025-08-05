@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Norwich International Airport",
+      "iata_code": "NWI",
+      "icao_code": "EGSH",
+      "distance_km": 22.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Marham RAF",
+      "iata_code": "KNF",
+      "icao_code": "EGYM",
+      "distance_km": 37.2,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marham RAF Airport serves both civilian and military flights."
+        }
+      ],
+      "website": "https://www.raf.mod.uk/our-organisation/stations/raf-marham/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marham Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:21.220291Z",
+    "generated_at": "2025-08-04T20:15:34.817706Z",
     "env": "development",
     "source": "justarrived-generator"
   }

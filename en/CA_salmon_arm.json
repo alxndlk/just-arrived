@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salmon Arm",
+      "iata_code": "YSN",
+      "icao_code": "CZAM",
+      "distance_km": 3.4,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Vancouver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Salmon Arm Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Salmon Arm Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.salmonarmairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SalmonArmAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:57.194791Z",
+    "generated_at": "2025-08-04T18:56:46.555418Z",
     "env": "development",
     "source": "justarrived-generator"
   }

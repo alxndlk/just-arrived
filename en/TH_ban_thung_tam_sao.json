@@ -50,8 +50,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hat Yai",
+      "iata_code": "HDY",
+      "icao_code": "VTSS",
+      "distance_km": 3.1,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.hatyaiairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hat Yai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Songkhla",
+      "iata_code": "SGZ",
+      "icao_code": "VTSH",
+      "distance_km": 38.0,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.songkhlaairport.go.th/",
+      "wifi": {
+        "available": true,
+        "network_name": "Songkhla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:58.592051Z",
+    "generated_at": "2025-08-04T19:03:41.645427Z",
     "env": "development",
     "source": "justarrived-generator"
   }

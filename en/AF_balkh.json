@@ -47,8 +47,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mazar-i-sharif",
+      "iata_code": "MZR",
+      "icao_code": "OAMS",
+      "distance_km": 28.2,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mazar-i-sharif Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.mazariairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MazarAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:52.677200Z",
+    "generated_at": "2025-08-04T18:22:43.292162Z",
     "env": "development",
     "source": "justarrived-generator"
   }

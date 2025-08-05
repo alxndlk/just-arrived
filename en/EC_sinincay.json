@@ -49,8 +49,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cuenca",
+      "iata_code": "CUE",
+      "icao_code": "SECU",
+      "distance_km": 6.4,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cuenca Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cuenca Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.corpac.gob.ec/cuenca-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cuenca Airport WiFi",
+        "note": "WiFi is available throughout the airport for free. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:40.054566Z",
+    "generated_at": "2025-08-04T19:14:53.491565Z",
     "env": "development",
     "source": "justarrived-generator"
   }

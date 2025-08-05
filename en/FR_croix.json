@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lesquin",
+      "iata_code": "LIL",
+      "icao_code": "LFQQ",
+      "distance_km": 12.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kortrijk",
+      "iata_code": "KJK",
+      "icao_code": "EBKT",
+      "distance_km": 15.9,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Merville/Calonne",
+      "iata_code": "HZB",
+      "icao_code": "LFQT",
+      "distance_km": 36.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.mervillecalonneairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:40.414557Z",
+    "generated_at": "2025-08-04T20:14:29.499904Z",
     "env": "development",
     "source": "justarrived-generator"
   }

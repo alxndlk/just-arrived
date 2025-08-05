@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moulins Montbeugny Airport",
+      "iata_code": "XMU",
+      "icao_code": "LFHY",
+      "distance_km": 6.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Moulins Montbeugny Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Moulins Montbeugny Airport provides services for private and charter flights."
+        }
+      ],
+      "website": "https://www.moulins-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Moulins Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Charmeil",
+      "iata_code": "VHY",
+      "icao_code": "LFLV",
+      "distance_km": 44.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Charmeil Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal building mainly used for private and charter flights."
+        }
+      ],
+      "website": "http://www.clermont-aeroport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Charmeil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:33.897591Z",
+    "generated_at": "2025-08-04T20:23:35.331441Z",
     "env": "development",
     "source": "justarrived-generator"
   }

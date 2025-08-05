@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 30.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 31.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Toronto City Centre Airport",
+      "iata_code": "YTZ",
+      "icao_code": "CYTZ",
+      "distance_km": 49.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toronto City Centre Airport is a modern and compact facility, offering a convenient and efficient travel experience."
+        },
+        {
+          "name": "Billy Bishop Executive Terminal",
+          "description": "The Billy Bishop Executive Terminal is a private terminal for business and VIP travelers, providing exclusive services and amenities."
+        }
+      ],
+      "website": "https://www.billybishopairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YTZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 49.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:21.156539Z",
+    "generated_at": "2025-08-04T20:09:32.333068Z",
     "env": "development",
     "source": "justarrived-generator"
   }

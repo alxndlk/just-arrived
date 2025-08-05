@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Queenstown",
+      "iata_code": "ZQN",
+      "icao_code": "NZQN",
+      "distance_km": 18.6,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Wanaka",
+      "iata_code": "WKA",
+      "icao_code": "NZWF",
+      "distance_km": 37.1,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wanaka Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.wanakaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wanaka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:13.205646Z",
+    "generated_at": "2025-08-04T20:18:30.078767Z",
     "env": "development",
     "source": "justarrived-generator"
   }

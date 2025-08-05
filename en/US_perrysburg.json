@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Toledo",
+      "iata_code": "TDZ",
+      "icao_code": "KTDZ",
+      "distance_km": 14.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Toledo Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.toledoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toledo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toledo Express",
+      "iata_code": "TOL",
+      "icao_code": "KTOL",
+      "distance_km": 15.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toledo Express Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Toledo Express Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.toledoexpressairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ToledoExpressWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:18.352232Z",
+    "generated_at": "2025-08-04T18:47:46.208595Z",
     "env": "development",
     "source": "justarrived-generator"
   }

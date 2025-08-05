@@ -51,8 +51,85 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alicante El Altet",
+      "iata_code": "ALC",
+      "icao_code": "LEAL",
+      "distance_km": 29.7,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Alicante El Altet Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.alicante-airport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Alicante Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and usage time."
+      }
+    },
+    {
+      "airport_name": "San Javier",
+      "iata_code": "MJV",
+      "icao_code": "LELC",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/san-javier-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SanJavierAirportWifi",
+        "note": "Free wifi is available throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Corvera International",
+      "iata_code": "RMU",
+      "icao_code": "LEMI",
+      "distance_km": 49.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for international flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "Dedicated terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.corveraairporttravel.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CorveraAirportWifi",
+        "note": "Free wifi available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:49.369216Z",
+    "generated_at": "2025-08-04T19:12:49.010137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 21.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Windsor Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Windsor Airport serves smaller regional flights."
+        }
+      ],
+      "website": "https://www.yqg.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YQG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 38.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Detroit City Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Detroit Metropolitan Wayne County",
+      "iata_code": "DTW",
+      "icao_code": "KDTW",
+      "distance_km": 40.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "McNamara Terminal",
+          "description": "The McNamara Terminal is the main terminal at Detroit Metropolitan Wayne County Airport and serves as the hub for Delta Air Lines."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Detroit Metropolitan Wayne County Airport serves as the hub for low-cost carriers such as Spirit Airlines and Southwest Airlines."
+        }
+      ],
+      "website": "https://www.metroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:05.414580Z",
+    "generated_at": "2025-08-04T18:53:43.354864Z",
     "env": "development",
     "source": "justarrived-generator"
   }

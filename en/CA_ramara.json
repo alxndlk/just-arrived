@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 31.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake Simcoe Regional Airport offers a variety of amenities for travelers, including shops, restaurants, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lake Simcoe Regional Airport caters to private and corporate flights, offering exclusive services and amenities for a luxurious travel experience."
+        }
+      ],
+      "website": "https://www.lakesimcoeairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "LSRA Free WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Muskoka",
+      "iata_code": "YQA",
+      "icao_code": "CYQA",
+      "distance_km": 37.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Muskoka Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Muskoka Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.muskokaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Muskoka Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:04.205955Z",
+    "generated_at": "2025-08-04T19:30:43.136292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

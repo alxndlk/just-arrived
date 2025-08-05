@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hiroshima West",
+      "iata_code": "HIW",
+      "icao_code": "RJBH",
+      "distance_km": 22.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hiroshima West Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.hiroshimawestairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "HIW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:03.207760Z",
+    "generated_at": "2025-08-04T18:46:40.529437Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,56 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nyiregyhaza Airport",
+      "iata_code": "QEY",
+      "icao_code": "LHNY",
+      "distance_km": 36.6,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nyiregyhaza Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.nyiregyhazaairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nyiregyhaza Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Debrecen",
+      "iata_code": "DEB",
+      "icao_code": "LHDC",
+      "distance_km": 45.2,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": "Europe/Budapest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and charter flights."
+        }
+      ],
+      "website": "http://www.debrecenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DEB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:04.596372Z",
+    "generated_at": "2025-08-04T20:26:32.424489Z",
     "env": "development",
     "source": "justarrived-generator"
   }

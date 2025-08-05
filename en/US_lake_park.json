@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 9.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 12.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Witham Field",
+      "iata_code": "SUA",
+      "icao_code": "KSUA",
+      "distance_km": 48.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Witham Field Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Witham Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.stlucieco.gov/departments-services/a-z/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "WithamFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:38.541274Z",
+    "generated_at": "2025-08-04T20:32:33.328401Z",
     "env": "development",
     "source": "justarrived-generator"
   }

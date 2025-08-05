@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cacador",
+      "iata_code": "CFC",
+      "icao_code": "SBCD",
+      "distance_km": 7.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Vienna",
+      "iata_code": "VIA",
+      "icao_code": "SSVI",
+      "distance_km": 28.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Vienna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.viennaairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "ViennaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:22.880105Z",
+    "generated_at": "2025-08-04T20:00:32.656866Z",
     "env": "development",
     "source": "justarrived-generator"
   }

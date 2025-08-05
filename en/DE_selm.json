@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 20.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Dortmund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 48.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Essen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Essen Airport, mostly used for regional flights."
+        }
+      ],
+      "website": "https://www.essen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "EssenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, but may require periodic reconnection."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:54.541021Z",
+    "generated_at": "2025-08-04T18:45:41.948724Z",
     "env": "development",
     "source": "justarrived-generator"
   }

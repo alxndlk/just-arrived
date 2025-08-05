@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Corvera International",
+      "iata_code": "RMU",
+      "icao_code": "LEMI",
+      "distance_km": 41.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Dedicated to domestic flights."
+        }
+      ],
+      "website": "https://www.corveraairporttravel.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CorveraAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:25.756464Z",
+    "generated_at": "2025-08-04T19:00:40.918177Z",
     "env": "development",
     "source": "justarrived-generator"
   }

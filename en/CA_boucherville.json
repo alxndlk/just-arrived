@@ -48,8 +48,93 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Hubert",
+      "iata_code": "YHU",
+      "icao_code": "CYHU",
+      "distance_km": 16.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 28.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "YUL Free WiFi",
+        "note": "Limited to 2 hours per device per day."
+      }
+    },
+    {
+      "airport_name": "St Jean",
+      "iata_code": "YJN",
+      "icao_code": "CYJN",
+      "distance_km": 31.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Jean Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.stjeanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YJN Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers."
+      }
+    },
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Mirabel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:28.026447Z",
+    "generated_at": "2025-08-04T20:05:28.623044Z",
     "env": "development",
     "source": "justarrived-generator"
   }

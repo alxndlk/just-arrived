@@ -50,8 +50,47 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 3.8,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 12.0,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sde Dov Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Sde Dov Airport provides exclusive services for high-profile passengers."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sde-dov-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "SdeDovAirportWifi",
+        "note": "Passengers can connect to the airport's wifi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:01.191371Z",
+    "generated_at": "2025-08-04T20:09:30.873035Z",
     "env": "development",
     "source": "justarrived-generator"
   }

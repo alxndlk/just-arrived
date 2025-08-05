@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 7.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Milano Malpensa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Milano Malpensa Airport, mainly serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanomalpensa-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MXP Free WiFi",
+        "note": "WiFi is available throughout the airport, but it may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Lugano",
+      "iata_code": "LUG",
+      "icao_code": "LSZA",
+      "distance_km": 41.4,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lugano Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lugano Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.lugano-airport.ch/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugano Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 44.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Linate Airport, primarily serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE WIFI",
+        "note": "Free wifi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:24.538563Z",
+    "generated_at": "2025-08-04T18:28:48.455164Z",
     "env": "development",
     "source": "justarrived-generator"
   }

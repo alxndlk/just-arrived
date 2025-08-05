@@ -51,8 +51,85 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Airfield",
+      "iata_code": "UDN",
+      "icao_code": "LIPD",
+      "distance_km": 5.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Airfield Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Airfield Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.airfieldairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Airfield Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ronchi Dei Legionari",
+      "iata_code": "TRS",
+      "icao_code": "LIPQ",
+      "distance_km": 33.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ronchi Dei Legionari Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.aeroporto.fvg.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRS Free WiFi",
+        "note": "Password required for access."
+      }
+    },
+    {
+      "airport_name": "Aviano",
+      "iata_code": "AVB",
+      "icao_code": "LIPA",
+      "distance_km": 49.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.avianoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aviano Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:46.074154Z",
+    "generated_at": "2025-08-04T18:19:49.330150Z",
     "env": "development",
     "source": "justarrived-generator"
   }

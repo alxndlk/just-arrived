@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 21.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 43.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 45.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Essen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Essen Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.essen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:19.248473Z",
+    "generated_at": "2025-08-04T20:14:36.578343Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jefferson County",
+      "iata_code": "BPT",
+      "icao_code": "KBPT",
+      "distance_km": 7.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flybpt.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BPT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beaumont Municipalcipal",
+      "iata_code": "BMT",
+      "icao_code": "KBMT",
+      "distance_km": 19.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Beaumont Municipal Airport serves all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Beaumont Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.beaumontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BMT Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:30.644662Z",
+    "generated_at": "2025-08-04T19:11:41.973094Z",
     "env": "development",
     "source": "justarrived-generator"
   }

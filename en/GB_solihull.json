@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Birmingham Airport",
+      "iata_code": "BHX",
+      "icao_code": "EGBB",
+      "distance_km": 5.3,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Birmingham Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal of Birmingham Airport mainly serves low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.birminghamairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "BHX Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "West Midlands International",
+      "iata_code": "CVT",
+      "icao_code": "EGBE",
+      "distance_km": 20.9,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at West Midlands International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at West Midlands International Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.wmia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WMIA Free WiFi",
+        "note": "Passengers can connect to the free WiFi network throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:38:09.691984Z",
+    "generated_at": "2025-08-04T19:57:31.154795Z",
     "env": "development",
     "source": "justarrived-generator"
   }

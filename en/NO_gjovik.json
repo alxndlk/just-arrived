@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hamar Airport",
+      "iata_code": "HMR",
+      "icao_code": "ENHA",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hamar Airport is where all commercial flights are serviced."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Hamar Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.hamarairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hamar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:25.567307Z",
+    "generated_at": "2025-08-04T18:54:42.003292Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,68 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kos Island International Airport",
+      "iata_code": "KGS",
+      "icao_code": "LGKO",
+      "distance_km": 13.8,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kos Island International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Kos Island International Airport offers exclusive services for VIP passengers."
+        }
+      ],
+      "website": "https://www.kgs-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "KosAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kalymnos Island",
+      "iata_code": "JKL",
+      "icao_code": "LGKY",
+      "distance_km": 28.9,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalymnos Island Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "http://www.kalymnosairport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalymnos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Imsik",
+      "iata_code": "BXN",
+      "icao_code": "LTBV",
+      "distance_km": 49.9,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:57.023969Z",
+    "generated_at": "2025-08-04T20:33:27.121970Z",
     "env": "development",
     "source": "justarrived-generator"
   }

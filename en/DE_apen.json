@@ -49,8 +49,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leer Papenburg Airport",
+      "iata_code": "QEJ",
+      "icao_code": "EDWF",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.leer-papenburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeerPapenburgAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Varrelbusch",
+      "iata_code": "VAC",
+      "icao_code": "EDWU",
+      "distance_km": 37.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:00.627639Z",
+    "generated_at": "2025-08-04T20:24:29.754156Z",
     "env": "development",
     "source": "justarrived-generator"
   }

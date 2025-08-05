@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sacramento International",
+      "iata_code": "SMF",
+      "icao_code": "KSMF",
+      "distance_km": 20.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Sacramento International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Sacramento International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://sacramento.aero/smf",
+      "wifi": {
+        "available": true,
+        "network_name": "SMF Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Auburn",
+      "iata_code": "AUN",
+      "icao_code": "KAUN",
+      "distance_km": 43.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Auburn Airport serves all domestic flights and houses a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Auburn Airport caters to private and chartered flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.auburnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AuburnAirportWifi",
+        "note": "Passengers can connect to the airport's free wifi network throughout the terminals."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:55.314125Z",
+    "generated_at": "2025-08-04T18:19:51.962355Z",
     "env": "development",
     "source": "justarrived-generator"
   }

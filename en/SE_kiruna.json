@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiruna",
+      "iata_code": "KRN",
+      "icao_code": "ESNQ",
+      "distance_km": 6.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kiruna Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kiruna Airport is responsible for handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.swedavia.com/kiruna/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:58.596722Z",
+    "generated_at": "2025-08-04T18:45:41.007138Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Smith-Reynolds",
+      "iata_code": "INT",
+      "icao_code": "KINT",
+      "distance_km": 18.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smith-Reynolds Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Smith-Reynolds Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.smithreynoldsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "INT Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Piedmont Triad International",
+      "iata_code": "GSO",
+      "icao_code": "KGSO",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Piedmont Triad International Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Piedmont Triad International Airport handles freight and cargo shipments."
+        }
+      ],
+      "website": "https://flyfrompti.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rowan County",
+      "iata_code": "SRW",
+      "icao_code": "KRUQ",
+      "distance_km": 41.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:23.421048Z",
+    "generated_at": "2025-08-04T20:13:36.272373Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,39 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 45.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Used for domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Used for international flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Newest and largest terminal, used for both domestic and international flights"
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGIA Wi-Fi",
+        "note": "Free for first 30 minutes, then charges apply"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:46.909444Z",
+    "generated_at": "2025-08-04T19:17:41.277163Z",
     "env": "development",
     "source": "justarrived-generator"
   }

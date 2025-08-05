@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "LSE",
+      "icao_code": "KLSE",
+      "distance_km": 10.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Municipal Airport, featuring a variety of shops, restaurants, and services."
+        },
+        {
+          "name": "North Terminal",
+          "description": "A smaller terminal used for domestic flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "A new terminal currently under construction, set to open in 2022."
+        }
+      ],
+      "website": "www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MunicipalAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "ONA",
+      "icao_code": "KONA",
+      "distance_km": 37.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments."
+        }
+      ],
+      "website": "http://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fort Mccoy",
+      "iata_code": "CMY",
+      "icao_code": "KCMY",
+      "distance_km": 39.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Mccoy Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fort Mccoy Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.fortmccoyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FortMccoyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:21.642938Z",
+    "generated_at": "2025-08-04T20:27:25.671813Z",
     "env": "development",
     "source": "justarrived-generator"
   }

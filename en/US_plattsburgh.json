@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Plattsburgh International",
+      "iata_code": "PBG",
+      "icao_code": "KPBG",
+      "distance_km": 2.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Plattsburgh International Airport handles all commercial flights and includes a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Plattsburgh International Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flyplattsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Burlington International",
+      "iata_code": "BTV",
+      "icao_code": "KBTV",
+      "distance_km": 34.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burlington International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Burlington International Airport is used for general aviation and private aircraft."
+        }
+      ],
+      "website": "https://www.btv.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTV-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:03.108635Z",
+    "generated_at": "2025-08-04T18:55:55.684072Z",
     "env": "development",
     "source": "justarrived-generator"
   }

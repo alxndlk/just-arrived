@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ordu Giresun Airport",
+      "iata_code": "OGU",
+      "icao_code": "LTCB",
+      "distance_km": 49.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.ordugiresunairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OrduGiresunAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:59.325672Z",
+    "generated_at": "2025-08-04T20:11:26.768656Z",
     "env": "development",
     "source": "justarrived-generator"
   }

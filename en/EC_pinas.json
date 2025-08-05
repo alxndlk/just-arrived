@@ -49,8 +49,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santa Rosa Regional",
+      "iata_code": "ETR",
+      "icao_code": "LFFY",
+      "distance_km": 40.2,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Rosa Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Santa Rosa Regional Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.santarosaregionalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantaRosaAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Camilo Ponce Enríquez Airport",
+      "iata_code": "LOH",
+      "icao_code": "SELO",
+      "distance_km": 48.7,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Camilo Ponce Enríquez Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Camilo Ponce Enríquez Airport handles all air freight operations."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/aeropuerto-de-camilo-ponce-enriquez/",
+      "wifi": {
+        "available": true,
+        "network_name": "CamiloPonceWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:09.010535Z",
+    "generated_at": "2025-08-04T18:58:45.187976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

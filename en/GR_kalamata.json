@@ -51,8 +51,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kalamata",
+      "iata_code": "KLX",
+      "icao_code": "LGKL",
+      "distance_km": 8.2,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kalamata Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal at Kalamata Airport offers premium services for business and first class passengers."
+        }
+      ],
+      "website": "https://www.kalamata-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalamata Airport Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting the network name and following the instructions."
+      }
+    },
+    {
+      "airport_name": "Eleftherios Venizelos",
+      "iata_code": "SPJ",
+      "icao_code": "LGSP",
+      "distance_km": 38.0,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eleftherios Venizelos Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Satellite Terminal",
+          "description": "The satellite terminal at Eleftherios Venizelos Airport serves mainly international flights."
+        }
+      ],
+      "website": "https://www.aia.gr/en/our-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "ATH-Free-WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:03.783771Z",
+    "generated_at": "2025-08-04T18:35:47.487173Z",
     "env": "development",
     "source": "justarrived-generator"
   }

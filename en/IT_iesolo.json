@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marco Polo",
+      "iata_code": "VCE",
+      "icao_code": "LIPZ",
+      "distance_km": 24.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marco Polo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Marco Polo Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.veniceairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VCE-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the VCE-FreeWiFi network and accept the terms and conditions to access."
+      }
+    },
+    {
+      "airport_name": "S. Angelo",
+      "iata_code": "TSF",
+      "icao_code": "LIPH",
+      "distance_km": 36.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at S. Angelo Airport, servicing both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at S. Angelo Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.trevisoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "TSF Free WiFi",
+        "note": "WiFi is available throughout the airport, with a free option for basic internet access and a paid option for faster speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:10.422662Z",
+    "generated_at": "2025-08-04T18:45:48.084123Z",
     "env": "development",
     "source": "justarrived-generator"
   }

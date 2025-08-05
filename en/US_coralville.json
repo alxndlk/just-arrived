@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Iowa City",
+      "iata_code": "IOW",
+      "icao_code": "KIOW",
+      "distance_km": 6.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Iowa City Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Iowa City Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.iowacityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IOW Free Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Eastern Iowa Airport",
+      "iata_code": "CID",
+      "icao_code": "KCID",
+      "distance_km": 22.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eastern Iowa Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.eiairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "EIAirport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:05.852070Z",
+    "generated_at": "2025-08-04T18:50:53.057064Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,63 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiryat Shmona",
+      "iata_code": "KSW",
+      "icao_code": "LLKS",
+      "distance_km": 36.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Beirut Rafic Hariri Airport",
+      "iata_code": "BEY",
+      "icao_code": "OLBA",
+      "distance_km": 45.6,
+      "gmt": "2",
+      "country": "Lebanon",
+      "timezone": "Asia/Beirut",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for all international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated terminal for Middle East Airlines (MEA) flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Newly built terminal for all international and domestic flights."
+        }
+      ],
+      "website": "https://www.beirutairport.gov.lb/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Masada",
+      "iata_code": "MTZ",
+      "icao_code": "LLMZ",
+      "distance_km": 49.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:50.521748Z",
+    "generated_at": "2025-08-04T20:27:28.690033Z",
     "env": "development",
     "source": "justarrived-generator"
   }

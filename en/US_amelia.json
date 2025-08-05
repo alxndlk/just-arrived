@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cincinnati/Northern Kentucky",
+      "iata_code": "CVG",
+      "icao_code": "KCVG",
+      "distance_km": 38.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cincinnati/Northern Kentucky Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Cincinnati/Northern Kentucky Airport, primarily used by low-cost carriers."
+        }
+      ],
+      "website": "https://www.cvgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CVG Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cincinnati Municipal-Lunken Field",
+      "iata_code": "LUK",
+      "icao_code": "KLUK",
+      "distance_km": 38.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cincinnati Municipal-Lunken Field Airport provides services for commercial, private, and military flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Cincinnati Municipal-Lunken Field Airport offers exclusive services for private and charter flights."
+        }
+      ],
+      "website": "https://www.cvgairport.com/lunken",
+      "wifi": {
+        "available": true,
+        "network_name": "LUK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:28.097692Z",
+    "generated_at": "2025-08-04T19:15:44.658776Z",
     "env": "development",
     "source": "justarrived-generator"
   }

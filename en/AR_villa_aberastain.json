@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Juan",
+      "iata_code": "UAQ",
+      "icao_code": "SANU",
+      "distance_km": 12.8,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/San_Juan",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuertos/san-juan",
+      "wifi": {
+        "available": true,
+        "network_name": "SanJuanAirportWifi",
+        "note": "Passengers can enjoy free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:19.203195Z",
+    "generated_at": "2025-08-04T19:33:51.476156Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -52,8 +52,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rafael Cabrera",
+      "iata_code": "GER",
+      "icao_code": "MUNG",
+      "distance_km": 5.7,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.rafaelcabreraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RafaelCabreraAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Siguanea",
+      "iata_code": "SZJ",
+      "icao_code": "MUSN",
+      "distance_km": 31.9,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Siguanea Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.siguaneaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Siguanea Airport Wifi",
+        "note": "Wifi is available throughout the airport, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:28.994449Z",
+    "generated_at": "2025-08-04T18:31:41.551259Z",
     "env": "development",
     "source": "justarrived-generator"
   }

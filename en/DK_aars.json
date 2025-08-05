@@ -49,8 +49,56 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aalborg",
+      "iata_code": "AAL",
+      "icao_code": "EKYT",
+      "distance_km": 38.2,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aalborg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter flights and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aal.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aalborg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Skive Airport",
+      "iata_code": "SQW",
+      "icao_code": "EKSV",
+      "distance_km": 39.5,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Skive Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.skiveairport.dk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Skive Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:41.178581Z",
+    "generated_at": "2025-08-04T19:35:50.213241Z",
     "env": "development",
     "source": "justarrived-generator"
   }

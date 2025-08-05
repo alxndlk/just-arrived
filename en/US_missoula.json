@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Missoula International",
+      "iata_code": "MSO",
+      "icao_code": "KMSO",
+      "distance_km": 6.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This terminal serves regional flights."
+        }
+      ],
+      "website": "https://www.flymissoula.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSO Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mineral Point Iowa County Airport",
+      "iata_code": "QQJ",
+      "icao_code": "KMRJ",
+      "distance_km": 39.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:20.148478Z",
+    "generated_at": "2025-08-04T19:59:35.300108Z",
     "env": "development",
     "source": "justarrived-generator"
   }

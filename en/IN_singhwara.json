@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Darbhanga Airport",
+      "iata_code": "DBR",
+      "icao_code": "VE89",
+      "distance_km": 18.3,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.darbhangaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Darbhanga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Muzaffarpur",
+      "iata_code": "MZU",
+      "icao_code": "VEMZ",
+      "distance_km": 36.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Muzaffarpur Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Muzaffarpur Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://muzaffarpurairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MZU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:22.491814Z",
+    "generated_at": "2025-08-04T20:18:35.840130Z",
     "env": "development",
     "source": "justarrived-generator"
   }

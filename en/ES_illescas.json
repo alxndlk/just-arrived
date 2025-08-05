@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 44.7,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The original terminal at Barajas Airport, now mostly used for domestic flights and low-cost airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Barajas Airport, primarily used for flights within Spain and the Schengen area."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main international terminal at Barajas Airport, with a modern design and state-of-the-art facilities."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4 at Barajas Airport, used for long-haul and non-Schengen flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AENA-WIFI",
+        "note": "Free WiFi is available throughout the airport, but a user account must be created to access it."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 44.8,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is exclusively for military personnel and their families."
+        }
+      ],
+      "website": "https://www.ejercitodelaire.mde.es/ea/pag?idDoc=A7D6C9D4D3EBAE46C1257C1C002C3A0B",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:26.788759Z",
+    "generated_at": "2025-08-04T18:41:42.317443Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Okhotsk",
+      "iata_code": "OHO",
+      "icao_code": "UHOO",
+      "distance_km": 10.2,
+      "gmt": "10",
+      "country": "Russia",
+      "timezone": "Asia/Vladivostok",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Okhotsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Okhotsk Airport, handling all freight operations."
+        }
+      ],
+      "website": "https://www.okhotskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okhotsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:42.036662Z",
+    "generated_at": "2025-08-04T19:37:39.732332Z",
     "env": "development",
     "source": "justarrived-generator"
   }

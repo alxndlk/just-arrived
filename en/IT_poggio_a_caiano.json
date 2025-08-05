@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peretola",
+      "iata_code": "FLR",
+      "icao_code": "LIRQ",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.aeroporto.firenze.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FLR Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Lucca",
+      "iata_code": "LCV",
+      "icao_code": "LIQL",
+      "distance_km": 37.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lucca Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lucca Airport handles all freight shipments."
+        }
+      ],
+      "website": "https://www.luccaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lucca Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:27.822200Z",
+    "generated_at": "2025-08-04T19:28:42.223572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

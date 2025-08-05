@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cambridge",
+      "iata_code": "CGE",
+      "icao_code": "KCGE",
+      "distance_km": 37.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cambridge Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Cambridge Airport is exclusively for private flights and charter services."
+        }
+      ],
+      "website": "https://www.cambridgeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cambridge Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:18.479484Z",
+    "generated_at": "2025-08-04T19:31:41.737170Z",
     "env": "development",
     "source": "justarrived-generator"
   }

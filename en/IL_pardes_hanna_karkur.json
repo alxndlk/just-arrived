@@ -50,8 +50,43 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haifa",
+      "iata_code": "HFA",
+      "icao_code": "LLHA",
+      "distance_km": 38.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 44.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sde Dov Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/sde-dov-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sde Dov Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:13.965907Z",
+    "generated_at": "2025-08-04T20:05:27.093866Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Neosho",
+      "iata_code": "EOS",
+      "icao_code": "KEOS",
+      "distance_km": 2.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Joplin Regional",
+      "iata_code": "JLN",
+      "icao_code": "KJLN",
+      "distance_km": 35.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Miami",
+      "iata_code": "MIO",
+      "icao_code": "KMIO",
+      "distance_km": 46.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Miami Airport serves domestic and international flights for various airlines."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Miami Airport serves domestic and international flights for various airlines."
+        }
+      ],
+      "website": "https://www.miami-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:45.363373Z",
+    "generated_at": "2025-08-04T20:23:31.399165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

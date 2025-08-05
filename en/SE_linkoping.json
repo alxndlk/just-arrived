@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linkoping",
+      "iata_code": "LPI",
+      "icao_code": "ESSL",
+      "distance_km": 1.8,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights within Sweden."
+        }
+      ],
+      "website": "https://www.linkopingairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linkoping Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kungsangen",
+      "iata_code": "NRK",
+      "icao_code": "ESSP",
+      "distance_km": 40.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kungsangen Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kungsangen Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.swedavia.com/norrkoping/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kungsangen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:38.602278Z",
+    "generated_at": "2025-08-04T18:13:52.850093Z",
     "env": "development",
     "source": "justarrived-generator"
   }

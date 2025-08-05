@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Taganrog",
+      "iata_code": "TGK",
+      "icao_code": "URRT",
+      "distance_km": 19.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.taganrog-airport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Taganrog Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:49.431630Z",
+    "generated_at": "2025-08-04T19:17:59.410967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

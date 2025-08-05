@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lugansk",
+      "iata_code": "VSG",
+      "icao_code": "UKCW",
+      "distance_km": 15.4,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal is used for both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is used for handling and transporting cargo."
+        }
+      ],
+      "website": "https://www.luganskairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Lugansk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:30.112558Z",
+    "generated_at": "2025-08-04T19:16:40.243121Z",
     "env": "development",
     "source": "justarrived-generator"
   }

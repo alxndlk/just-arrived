@@ -50,8 +50,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tafaraoui",
+      "iata_code": "TAF",
+      "icao_code": "DAOL",
+      "distance_km": 38.2,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Es Senia",
+      "iata_code": "ORN",
+      "icao_code": "DAOO",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Es Senia Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.essenia-airport.dz",
+      "wifi": {
+        "available": true,
+        "network_name": "EsSeniaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:36.561450Z",
+    "generated_at": "2025-08-04T20:13:28.243305Z",
     "env": "development",
     "source": "justarrived-generator"
   }

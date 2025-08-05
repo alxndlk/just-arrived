@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coatepeque Airport",
+      "iata_code": "CTF",
+      "icao_code": "MGCT",
+      "distance_km": 27.4,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Coatepeque Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Coatepeque Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.coatepequeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Coatepeque Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tapachula International",
+      "iata_code": "TAP",
+      "icao_code": "MMTP",
+      "distance_km": 29.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.tapachula-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tapachula Airport WiFi",
+        "note": "Free and unlimited access for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:09.351500Z",
+    "generated_at": "2025-08-04T18:44:49.999457Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Donostia - San Sebastian",
+      "iata_code": "EAS",
+      "icao_code": "LESO",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/san-sebastian-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "EAS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vitoria",
+      "iata_code": "VIT",
+      "icao_code": "LEVT",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aena.es/en/vitoria-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Vitoria Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:00.825213Z",
+    "generated_at": "2025-08-04T18:55:54.624558Z",
     "env": "development",
     "source": "justarrived-generator"
   }

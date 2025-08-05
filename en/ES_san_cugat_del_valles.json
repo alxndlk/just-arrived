@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Prat De Llobregat",
+      "iata_code": "BCN",
+      "icao_code": "LEBL",
+      "distance_km": 18.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main and largest terminal at El Prat De Llobregat Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at El Prat De Llobregat Airport, mainly used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/barcelona-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "BCN Free Wifi",
+        "note": "Free wifi is available throughout the airport, but users must register with a valid email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:41.907596Z",
+    "generated_at": "2025-08-04T18:19:44.811849Z",
     "env": "development",
     "source": "justarrived-generator"
   }

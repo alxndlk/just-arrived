@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 6.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 25.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baltimore/Washington International Thurgood Marshall Airport serves as the hub for all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Baltimore/Washington International Thurgood Marshall Airport serves as the hub for domestic flights operated by Southwest Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Baltimore/Washington International Thurgood Marshall Airport serves as the hub for domestic flights operated by American Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Baltimore/Washington International Thurgood Marshall Airport serves as the hub for domestic and international flights operated by Delta Airlines."
+        }
+      ],
+      "website": "https://www.bwiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWI Free WiFi",
+        "note": "Passengers can access free WiFi throughout the entire airport by selecting the network name and accepting the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Lee",
+      "iata_code": "ANP",
+      "icao_code": "KANP",
+      "distance_km": 41.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lee Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.leeairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Lee Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 42.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tipton AAF Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.tiptonaafairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "TiptonAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:51.352128Z",
+    "generated_at": "2025-08-04T20:20:27.750966Z",
     "env": "development",
     "source": "justarrived-generator"
   }

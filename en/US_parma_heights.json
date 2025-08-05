@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 6.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Hopkins International Airport, where most airlines operate."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is used by airlines such as American Airlines, Delta, and Southwest."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is used by airlines such as United and Spirit."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Free WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 16.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burke Lakefront Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Burke Lakefront Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.burkelakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 45.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport is used for shipping and receiving of goods and packages."
+        }
+      ],
+      "website": "https://www.fultonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:20.918237Z",
+    "generated_at": "2025-08-04T18:54:43.950932Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santa Fe",
+      "iata_code": "SFN",
+      "icao_code": "SAAV",
+      "distance_km": 26.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Fe Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Santa Fe Airport is responsible for handling all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.santafeairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFN Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:09.428272Z",
+    "generated_at": "2025-08-04T19:21:44.370881Z",
     "env": "development",
     "source": "justarrived-generator"
   }

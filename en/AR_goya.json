@@ -50,8 +50,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Goya",
+      "iata_code": "OYA",
+      "icao_code": "SATG",
+      "distance_km": 4.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.goyaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Goya Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Reconquista",
+      "iata_code": "RCQ",
+      "icao_code": "SATR",
+      "distance_km": 44.0,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.reconquistaairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "RCQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:50.432415Z",
+    "generated_at": "2025-08-04T18:23:41.415540Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dolni Benesov",
+      "iata_code": "ZBE",
+      "icao_code": "LKZA",
+      "distance_km": 30.1,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.dolnibenesovairport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "DolniBenesovAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:44.579937Z",
+    "generated_at": "2025-08-04T19:06:46.474310Z",
     "env": "development",
     "source": "justarrived-generator"
   }

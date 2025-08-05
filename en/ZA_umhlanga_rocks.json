@@ -50,8 +50,60 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Virginia",
+      "iata_code": "VIR",
+      "icao_code": "FAVG",
+      "distance_km": 3.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Virginia Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Virginia Airport is equipped to handle a variety of cargo, including perishables and hazardous materials."
+        }
+      ],
+      "website": "https://www.virginiaairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Virginia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Durban International",
+      "iata_code": "DUR",
+      "icao_code": "FALE",
+      "distance_km": 13.9,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and domestic flights."
+        }
+      ],
+      "website": "https://www.durbanairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "DUR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:43.079784Z",
+    "generated_at": "2025-08-04T18:48:52.354619Z",
     "env": "development",
     "source": "justarrived-generator"
   }

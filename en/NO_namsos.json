@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Namsos",
+      "iata_code": "OSY",
+      "icao_code": "ENNM",
+      "distance_km": 3.7,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Namsos Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Namsos Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.avinor.no/en/airport/namsos-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Namsos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ryumsjoen",
+      "iata_code": "RVK",
+      "icao_code": "ENRM",
+      "distance_km": 47.9,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ryumsjoen Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ryumsjoen Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.ryumsjoenairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ryumsjoen Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:00.824452Z",
+    "generated_at": "2025-08-04T19:36:52.665129Z",
     "env": "development",
     "source": "justarrived-generator"
   }

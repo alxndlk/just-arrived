@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sedona",
+      "iata_code": "SDX",
+      "icao_code": "KSEZ",
+      "distance_km": 2.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sedona Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.sedonaairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sedona Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pulliam Field",
+      "iata_code": "FLG",
+      "icao_code": "KFLG",
+      "distance_km": 33.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pulliam Field Airport handles all commercial flights and is equipped with modern amenities for passenger convenience."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Pulliam Field Airport caters to private and charter flights, offering a comfortable and efficient experience for passengers."
+        }
+      ],
+      "website": "https://www.flagstaffairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FLG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:05.071149Z",
+    "generated_at": "2025-08-04T19:28:54.061833Z",
     "env": "development",
     "source": "justarrived-generator"
   }

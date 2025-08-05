@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kramatorsk",
+      "iata_code": "KRQ",
+      "icao_code": "UKCK",
+      "distance_km": 31.3,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kramatorsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.krqairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KRQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:08.854782Z",
+    "generated_at": "2025-08-04T18:23:47.334030Z",
     "env": "development",
     "source": "justarrived-generator"
   }

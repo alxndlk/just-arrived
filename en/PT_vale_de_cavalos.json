@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lisbon Portela",
+      "iata_code": "LIS",
+      "icao_code": "LPPT",
+      "distance_km": 13.5,
+      "gmt": null,
+      "country": "Portugal",
+      "timezone": "Europe/Lisbon",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lisbon Portela Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.aeroportolisboa.pt/en/lis/home",
+      "wifi": {
+        "available": true,
+        "network_name": "Lisbon Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:31.311266Z",
+    "generated_at": "2025-08-04T20:04:26.268937Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -104,8 +104,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Ilopango International Airport",
+      "iata_code": "ILS",
+      "icao_code": "MSSS",
+      "distance_km": 20.0,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ilopango International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ilopango International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aeropuertoselsalvador.gob.sv/aeropuerto-ilopango/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ilopango Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Salvador International",
+      "iata_code": "SAL",
+      "icao_code": "MSLP",
+      "distance_km": 35.8,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": "America/El_Salvador",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        }
+      ],
+      "website": "https://www.sanmiguelairport.gob.sv/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAL Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:27.227975Z",
+    "generated_at": "2025-08-04T20:29:31.549626Z",
     "env": "development",
     "source": "justarrived-generator"
   }

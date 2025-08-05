@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Twente",
+      "iata_code": "ENS",
+      "icao_code": "EHTW",
+      "distance_km": 14.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Twente Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Twente Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.twente-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Twente Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stadtlohn Vreden Airport",
+      "iata_code": "QEV",
+      "icao_code": "EDLS",
+      "distance_km": 44.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stadtlohn Vreden Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.stadtlohn-vreden-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "StadtlohnVredenAirport_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:45.828472Z",
+    "generated_at": "2025-08-04T20:32:29.584268Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gen Belgrano",
+      "iata_code": "SLA",
+      "icao_code": "SASA",
+      "distance_km": 6.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeropuertos/salta",
+      "wifi": {
+        "available": true,
+        "network_name": "GenBelgranoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:17.819967Z",
+    "generated_at": "2025-08-04T19:00:39.930641Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,147 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 12.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.metroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 19.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Selfridge ANGB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Selfridge ANGB Airport is used for military operations and personnel."
+        }
+      ],
+      "website": "https://www.selfridge.ang.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Selfridge Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 28.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pontiac",
+      "iata_code": "PTK",
+      "icao_code": "KPTK",
+      "distance_km": 30.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights at Pontiac Airport."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.oakgov.com/aviation/airports/Pages/Pontiac-Airport.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Pontiac Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Detroit Metropolitan Wayne County",
+      "iata_code": "DTW",
+      "icao_code": "KDTW",
+      "distance_km": 39.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "McNamara Terminal",
+          "description": "The main terminal at Detroit Metropolitan Wayne County Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "A smaller terminal at Detroit Metropolitan Wayne County Airport, primarily serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.metroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    },
+    {
+      "airport_name": "Willow Run",
+      "iata_code": "YIP",
+      "icao_code": "KYIP",
+      "distance_km": 46.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Willow Run Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Willow Run Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.willowrunairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "WillowRunAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:13.838453Z",
+    "generated_at": "2025-08-04T20:28:33.021149Z",
     "env": "development",
     "source": "justarrived-generator"
   }

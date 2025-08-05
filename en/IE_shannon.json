@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shannon",
+      "iata_code": "SNN",
+      "icao_code": "EINN",
+      "distance_km": 4.2,
+      "gmt": null,
+      "country": "Ireland",
+      "timezone": "Europe/Dublin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Shannon Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Shannon Airport is a newer addition, primarily used for international flights."
+        }
+      ],
+      "website": "https://www.shannonairport.ie/",
+      "wifi": {
+        "available": true,
+        "network_name": "Shannon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:01.255020Z",
+    "generated_at": "2025-08-04T20:32:25.469681Z",
     "env": "development",
     "source": "justarrived-generator"
   }

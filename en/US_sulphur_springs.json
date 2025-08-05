@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sulphur Springs",
+      "iata_code": "SLR",
+      "icao_code": "KSLR",
+      "distance_km": 1.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Majors Field",
+      "iata_code": "GVT",
+      "icao_code": "KGVT",
+      "distance_km": 42.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Majors Field Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Majors Field Airport is responsible for handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.majorsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MajorsFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:25.652112Z",
+    "generated_at": "2025-08-04T20:18:36.118893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

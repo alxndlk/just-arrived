@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 40.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hopkins International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves domestic flights for United Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves domestic flights for American Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C primarily serves domestic flights for Delta Airlines."
+        }
+      ],
+      "website": "https://www.clevelandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:52.059006Z",
+    "generated_at": "2025-08-04T19:24:47.524199Z",
     "env": "development",
     "source": "justarrived-generator"
   }

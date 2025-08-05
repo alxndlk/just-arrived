@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kotlas",
+      "iata_code": "KSZ",
+      "icao_code": "ULKK",
+      "distance_km": 4.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kotlas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kotlasairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kotlas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:15.844596Z",
+    "generated_at": "2025-08-04T18:27:42.291260Z",
     "env": "development",
     "source": "justarrived-generator"
   }

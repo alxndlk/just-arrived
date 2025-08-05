@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memmingen-Allgäu",
+      "iata_code": "FMM",
+      "icao_code": "EDJA",
+      "distance_km": 26.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Memmingen-Allgäu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used primarily for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.allgaeu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Friedrichshafen",
+      "iata_code": "FDH",
+      "icao_code": "EDNY",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Friedrichshafen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and low-cost airlines."
+        }
+      ],
+      "website": "https://www.fly-away.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:51.704107Z",
+    "generated_at": "2025-08-04T19:06:51.531262Z",
     "env": "development",
     "source": "justarrived-generator"
   }

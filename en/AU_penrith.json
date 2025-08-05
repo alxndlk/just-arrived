@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sydney Bankstown",
+      "iata_code": "BWU",
+      "icao_code": "YSBK",
+      "distance_km": 36.3,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sydney Bankstown Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sydney Bankstown Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.bankstownairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bankstown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sydney Kingsford Smith Airport",
+      "iata_code": "SYD",
+      "icao_code": "YSSY",
+      "distance_km": 49.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Sydney Kingsford Smith Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights, with a focus on low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal serving domestic and regional flights, with a variety of shopping and dining options."
+        }
+      ],
+      "website": "https://www.sydneyairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "SYD Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, with a 3-hour time limit per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:47.468083Z",
+    "generated_at": "2025-08-04T19:12:44.989119Z",
     "env": "development",
     "source": "justarrived-generator"
   }

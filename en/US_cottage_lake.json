@@ -48,8 +48,133 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kenmore Air Harbor SPB",
+      "iata_code": "LKE",
+      "icao_code": "KW55",
+      "distance_km": 23.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Snohomish County - Paine Field",
+      "iata_code": "PAE",
+      "icao_code": "KPAE",
+      "distance_km": 23.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boeing Field/King County International Airport",
+      "iata_code": "BFI",
+      "icao_code": "KBFI",
+      "distance_km": 28.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boeing Field/King County International Airport serves both commercial and general aviation flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Boeing Field/King County International Airport is primarily used for cargo and private flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac/airlines/boeing-field",
+      "wifi": {
+        "available": true,
+        "network_name": "BFI Airport WiFi",
+        "note": "WiFi is available throughout the airport. Users may need to sign in with a valid email address to access the network."
+      }
+    },
+    {
+      "airport_name": "Renton",
+      "iata_code": "RNT",
+      "icao_code": "KRNT",
+      "distance_km": 29.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Renton Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Renton Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.rentonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Renton Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 37.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seattle-Tacoma International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "North Satellite Terminal",
+          "description": "The North Satellite Terminal at Seattle-Tacoma International Airport primarily serves Alaska Airlines and its partners."
+        },
+        {
+          "name": "South Satellite Terminal",
+          "description": "The South Satellite Terminal at Seattle-Tacoma International Airport serves international flights and some domestic flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Seattle-Tacoma International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Seattle-Tacoma International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Seattle-Tacoma International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D at Seattle-Tacoma International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse N",
+          "description": "Concourse N at Seattle-Tacoma International Airport serves international flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac",
+      "wifi": {
+        "available": true,
+        "network_name": "SEA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:30.530109Z",
+    "generated_at": "2025-08-04T20:12:35.690294Z",
     "env": "development",
     "source": "justarrived-generator"
   }

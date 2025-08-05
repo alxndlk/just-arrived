@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guetersloh",
+      "iata_code": "GUT",
+      "icao_code": "ETUO",
+      "distance_km": 22.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.guetersloh-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "GUT Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bielefeld Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bielefeld Airport, used primarily for domestic flights."
+        }
+      ],
+      "website": "https://www.bielefeld-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BFE Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Münster Osnabrück International",
+      "iata_code": "FMO",
+      "icao_code": "EDDG",
+      "distance_km": 32.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.fmo.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMO Free WiFi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:06.551186Z",
+    "generated_at": "2025-08-04T18:51:49.818675Z",
     "env": "development",
     "source": "justarrived-generator"
   }

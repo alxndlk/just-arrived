@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 31.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Narita International Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary international terminal at Narita International Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Narita International Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 32.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibaraki Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibaraki Airport is used for the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.ibarakiairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:30.749028Z",
+    "generated_at": "2025-08-04T18:21:40.242812Z",
     "env": "development",
     "source": "justarrived-generator"
   }

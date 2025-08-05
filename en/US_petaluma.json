@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Napa County",
+      "iata_code": "APC",
+      "icao_code": "KAPC",
+      "distance_km": 30.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Napa County Airport offers a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "For those traveling by private jet, the private terminal at Napa County Airport provides a luxurious and exclusive experience."
+        }
+      ],
+      "website": "https://www.countyofnapa.org/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Napa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sonoma County",
+      "iata_code": "STS",
+      "icao_code": "KSTS",
+      "distance_km": 33.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sonoma County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is primarily used for regional flights and is connected to the main terminal via a covered walkway."
+        }
+      ],
+      "website": "https://www.sonomacountyairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "STS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:14.126084Z",
+    "generated_at": "2025-08-04T18:26:45.740032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

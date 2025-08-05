@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maj. Brig. Trompowsky",
+      "iata_code": "VAG",
+      "icao_code": "SBVG",
+      "distance_km": 37.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sao Lourenco",
+      "iata_code": "SSO",
+      "icao_code": "SNLO",
+      "distance_km": 38.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sao Lourenco Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sao Lourenco Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.saolourencoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SaoLourencoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:13.021882Z",
+    "generated_at": "2025-08-04T20:24:30.762608Z",
     "env": "development",
     "source": "justarrived-generator"
   }

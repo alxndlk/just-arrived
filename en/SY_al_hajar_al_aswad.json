@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Damascus International Airport",
+      "iata_code": "DAM",
+      "icao_code": "OSDI",
+      "distance_km": 20.0,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Damascus International Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Damascus International Airport is used for the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.damascusairport.sy/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:14.625644Z",
+    "generated_at": "2025-08-04T18:15:00.698544Z",
     "env": "development",
     "source": "justarrived-generator"
   }

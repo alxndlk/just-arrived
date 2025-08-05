@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Rafael",
+      "iata_code": "AFA",
+      "icao_code": "SAMR",
+      "distance_km": 6.3,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Mendoza",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at San Rafael Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.sanrafaelairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanRafaelAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:37:54.529009Z",
+    "generated_at": "2025-08-04T18:09:36.982145Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sonoma County",
+      "iata_code": "STS",
+      "icao_code": "KSTS",
+      "distance_km": 13.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://sonomacountyairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "STS Airport Wifi",
+        "note": "Passengers can connect to the wifi network for free by selecting the 'STS Airport Wifi' network and following the instructions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:52.427635Z",
+    "generated_at": "2025-08-04T19:20:43.279464Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 21.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Detroit Metropolitan Wayne County",
+      "iata_code": "DTW",
+      "icao_code": "KDTW",
+      "distance_km": 25.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 35.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport offers a variety of amenities for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Detroit City Airport is home to several airlines and offers a convenient layout for travelers."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DetroitCityWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Willow Run",
+      "iata_code": "YIP",
+      "icao_code": "KYIP",
+      "distance_km": 39.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:56.315500Z",
+    "generated_at": "2025-08-04T20:12:33.346439Z",
     "env": "development",
     "source": "justarrived-generator"
   }

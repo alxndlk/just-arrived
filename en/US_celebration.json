@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kissimmee Gateway",
+      "iata_code": "ISM",
+      "icao_code": "KISM",
+      "distance_km": 26.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Orlando International",
+      "iata_code": "MCO",
+      "icao_code": "KMCO",
+      "distance_km": 27.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gilbert Field",
+      "iata_code": "GIF",
+      "icao_code": "KGIF",
+      "distance_km": 33.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilbert Field Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gilbert Field Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.gilbertfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GilbertFieldWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orlando Executive",
+      "iata_code": "ORL",
+      "icao_code": "KORL",
+      "distance_km": 33.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:23.796483Z",
+    "generated_at": "2025-08-04T20:22:37.203855Z",
     "env": "development",
     "source": "justarrived-generator"
   }

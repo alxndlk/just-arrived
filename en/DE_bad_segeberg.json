@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lübeck Blankensee",
+      "iata_code": "LBC",
+      "icao_code": "EDHL",
+      "distance_km": 28.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Lübeck Blankensee Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Lübeck Blankensee Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.luebeck-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBC Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 37.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hamburg Airport, mainly used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM-WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:13.828249Z",
+    "generated_at": "2025-08-04T18:57:51.100619Z",
     "env": "development",
     "source": "justarrived-generator"
   }

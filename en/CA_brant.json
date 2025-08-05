@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 36.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.hamiltonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YHM-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kitchener-Waterloo Regional",
+      "iata_code": "YKF",
+      "icao_code": "CYKF",
+      "distance_km": 37.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitchener-Waterloo Regional Airport serves all commercial flights and provides a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Kitchener-Waterloo Regional Airport is used for private and charter flights, offering a more personalized and efficient experience for travelers."
+        }
+      ],
+      "website": "https://www.waterlooairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YKF Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport. Simply select the network and accept the terms and conditions to connect."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:56.168516Z",
+    "generated_at": "2025-08-04T18:34:47.155884Z",
     "env": "development",
     "source": "justarrived-generator"
   }

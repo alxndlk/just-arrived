@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rotterdam Zestienhoven",
+      "iata_code": "RTM",
+      "icao_code": "EHRD",
+      "distance_km": 18.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rotterdam Zestienhoven Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Rotterdam Zestienhoven Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.rotterdamthehagueairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rotterdam Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 29.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and European flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles international flights for various airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles intercontinental flights for various airlines."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 43.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Soesterberg Air Base Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.soesterberg-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Soesterberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:39.516010Z",
+    "generated_at": "2025-08-04T20:08:31.783346Z",
     "env": "development",
     "source": "justarrived-generator"
   }

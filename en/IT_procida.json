@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capodichino",
+      "iata_code": "NAP",
+      "icao_code": "LIRN",
+      "distance_km": 26.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Capodichino Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportodinapoli.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAP Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and data usage."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:25.907510Z",
+    "generated_at": "2025-08-04T19:26:50.417157Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dubrovnik",
+      "iata_code": "DBV",
+      "icao_code": "LDDU",
+      "distance_km": 36.8,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.airport-dubrovnik.hr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "DBV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:43.764952Z",
+    "generated_at": "2025-08-04T19:22:53.090992Z",
     "env": "development",
     "source": "justarrived-generator"
   }

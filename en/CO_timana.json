@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pitalito",
+      "iata_code": "PTX",
+      "icao_code": "SKPI",
+      "distance_km": 17.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pitalito Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pitalito Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/terminales-aereas/Pitalito",
+      "wifi": {
+        "available": true,
+        "network_name": "PTX Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network while waiting for their flights."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:41.203862Z",
+    "generated_at": "2025-08-04T18:54:49.472425Z",
     "env": "development",
     "source": "justarrived-generator"
   }

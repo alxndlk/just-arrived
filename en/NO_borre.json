@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moss Airport",
+      "iata_code": "RYG",
+      "icao_code": "ENRY",
+      "distance_km": 20.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Moss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated for cargo operations, handling both domestic and international shipments."
+        }
+      ],
+      "website": "https://www.ryg.no/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MossAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sandefjord",
+      "iata_code": "TRF",
+      "icao_code": "ENTO",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sandefjord Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Charter Terminal",
+          "description": "The charter terminal at Sandefjord Airport is used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.sandefjordlufthavn.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sandefjord Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:38.047750Z",
+    "generated_at": "2025-08-04T18:48:50.008470Z",
     "env": "development",
     "source": "justarrived-generator"
   }

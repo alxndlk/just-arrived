@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 14.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marseille Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 28.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:02.365334Z",
+    "generated_at": "2025-08-04T20:03:35.616809Z",
     "env": "development",
     "source": "justarrived-generator"
   }

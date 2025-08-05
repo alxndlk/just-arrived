@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 31.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.liegeairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Liege Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 46.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Charleroi Brussels South Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.brussels-charleroi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CRL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:53.781176Z",
+    "generated_at": "2025-08-04T18:44:43.399960Z",
     "env": "development",
     "source": "justarrived-generator"
   }

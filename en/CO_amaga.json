@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Enrique Olaya Herrera International Airport",
+      "iata_code": "EOH",
+      "icao_code": "SKMD",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Enrique Olaya Herrera International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.enriqueolayaherreraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EOH Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jose Maria Cordova",
+      "iata_code": "MDE",
+      "icao_code": "SKRG",
+      "distance_km": 32.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.medellin-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MDE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:37.830805Z",
+    "generated_at": "2025-08-04T18:41:45.118100Z",
     "env": "development",
     "source": "justarrived-generator"
   }

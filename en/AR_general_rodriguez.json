@@ -50,8 +50,76 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 30.9,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at El Palomar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at El Palomar Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.elpalomarairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal buildings."
+      }
+    },
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 43.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main international terminal at Ezeiza Airport, serving most major airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic and regional flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/ezeiza",
+      "wifi": {
+        "available": true,
+        "network_name": "EZE Airport Free WiFi",
+        "note": "Passengers can connect for free for up to 3 hours."
+      }
+    },
+    {
+      "airport_name": "Aeroparque Jorge Newbery",
+      "iata_code": "AEP",
+      "icao_code": "SABE",
+      "distance_km": 49.3,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:23.998974Z",
+    "generated_at": "2025-08-04T20:00:29.130975Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,137 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 9.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 21.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights operated by Air Canada, American Airlines, and Southwest Airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights operated by Delta Air Lines and WestJet."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights operated by JetBlue and United Airlines."
+        }
+      ],
+      "website": "https://www.laguardiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LGA Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network for up to 30 minutes per day."
+      }
+    },
+    {
+      "airport_name": "Republic Field",
+      "iata_code": "FRG",
+      "icao_code": "KFRG",
+      "distance_km": 23.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 39.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Teterboro Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at Teterboro Airport caters to high-end travelers and offers luxurious amenities."
+        }
+      ],
+      "website": "https://www.teterboroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TEB Public WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 42.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Linden",
+      "iata_code": "LDJ",
+      "icao_code": "KLDJ",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Linden Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Linden Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.lindenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:07.520215Z",
+    "generated_at": "2025-08-04T20:14:36.292658Z",
     "env": "development",
     "source": "justarrived-generator"
   }

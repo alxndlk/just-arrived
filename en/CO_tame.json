@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tame",
+      "iata_code": "TME",
+      "icao_code": "SKTM",
+      "distance_km": 5.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tame Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and private charters."
+        }
+      ],
+      "website": "https://www.aeropuertotame.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tame Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:13.991953Z",
+    "generated_at": "2025-08-04T18:28:38.832264Z",
     "env": "development",
     "source": "justarrived-generator"
   }

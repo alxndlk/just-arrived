@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 20.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Zweibrücken Airport",
+      "iata_code": "ZQW",
+      "icao_code": "EDRZ",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Zweibrücken Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.zweibruecken-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZQW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ramstein",
+      "iata_code": "RMS",
+      "icao_code": "ETAR",
+      "distance_km": 47.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:53.804443Z",
+    "generated_at": "2025-08-04T20:16:33.941639Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -104,8 +104,56 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Hamilton",
+      "iata_code": "HLT",
+      "icao_code": "YHML",
+      "distance_km": 10.0,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hamilton Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.hamiltonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hamilton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Spring Creek",
+      "iata_code": "SCG",
+      "icao_code": "YSPK",
+      "distance_km": 47.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Spring Creek Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Spring Creek Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.springcreekairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Spring Creek Airport Wifi",
+        "note": "Wifi is available throughout the airport for passengers to use."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:37.500310Z",
+    "generated_at": "2025-08-04T19:27:49.127961Z",
     "env": "development",
     "source": "justarrived-generator"
   }

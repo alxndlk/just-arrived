@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Anapa",
+      "iata_code": "AAQ",
+      "icao_code": "URKA",
+      "distance_km": 41.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and charter flights."
+        }
+      ],
+      "website": "https://www.anapa-airport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Anapa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:57.715206Z",
+    "generated_at": "2025-08-04T18:33:49.586909Z",
     "env": "development",
     "source": "justarrived-generator"
   }

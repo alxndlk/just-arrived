@@ -48,8 +48,147 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 9.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at McChord AFB Airport serves both military and civilian flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at McChord AFB Airport handles all freight and military transport flights."
+        }
+      ],
+      "website": "https://www.mcchord.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "McChord WiFi",
+        "note": "WiFi is available throughout the airport, but a valid military ID is required to access the network."
+      }
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 19.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Industrial Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Industrial Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.industrialairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IndustrialAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Olympia",
+      "iata_code": "OLM",
+      "icao_code": "KOLM",
+      "distance_km": 28.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 43.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seattle-Tacoma International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "North Satellite Terminal",
+          "description": "The North Satellite Terminal at Seattle-Tacoma International Airport is primarily used for Alaska Airlines flights."
+        },
+        {
+          "name": "South Satellite Terminal",
+          "description": "The South Satellite Terminal at Seattle-Tacoma International Airport serves international flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac",
+      "wifi": {
+        "available": true,
+        "network_name": "SEA-TAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bremerton",
+      "iata_code": "PWT",
+      "icao_code": "KPWT",
+      "distance_km": 45.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bremerton Airport serves all commercial flights and provides a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Bremerton Airport caters to private and charter flights, offering a more personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.portofbremerton.org/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Bremerton Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Sanderson Field",
+      "iata_code": "SHN",
+      "icao_code": "KSHN",
+      "distance_km": 45.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Sanderson Field Airport, handling all commercial and private flights."
+        }
+      ],
+      "website": "https://www.portofwillapa.com/sanderson-field-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sanderson Field WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:06.536274Z",
+    "generated_at": "2025-08-04T20:21:34.484915Z",
     "env": "development",
     "source": "justarrived-generator"
   }

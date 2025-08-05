@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 13.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ensheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ensheim Airport, primarily used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.ensheim-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ensheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a password from the information desk."
+      }
+    },
+    {
+      "airport_name": "Zweibrücken Airport",
+      "iata_code": "ZQW",
+      "icao_code": "EDRZ",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Zweibrücken Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.zweibruecken-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZQW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:14.154021Z",
+    "generated_at": "2025-08-04T20:26:37.480234Z",
     "env": "development",
     "source": "justarrived-generator"
   }

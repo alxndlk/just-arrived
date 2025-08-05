@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guiyang",
+      "iata_code": "KWE",
+      "icao_code": "ZUGY",
+      "distance_km": 45.0,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guiyang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Guiyang Airport, mainly serving domestic flights."
+        }
+      ],
+      "website": "https://www.gyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Guiyang Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be slow during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:26.184585Z",
+    "generated_at": "2025-08-04T18:31:39.022546Z",
     "env": "development",
     "source": "justarrived-generator"
   }

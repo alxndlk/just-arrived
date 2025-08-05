@@ -49,8 +49,71 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 10.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 32.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Oberpfaffenhofen Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.oberpfaffenhofen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ingolstadt-manching",
+      "iata_code": "IGS",
+      "icao_code": "INGS",
+      "distance_km": 46.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:57.730498Z",
+    "generated_at": "2025-08-04T20:14:30.671563Z",
     "env": "development",
     "source": "justarrived-generator"
   }

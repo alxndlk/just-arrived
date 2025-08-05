@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pohang",
+      "iata_code": "KPO",
+      "icao_code": "RKTH",
+      "distance_km": 24.6,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/pohang/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pohang Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ulsan",
+      "iata_code": "USN",
+      "icao_code": "RKPU",
+      "distance_km": 31.2,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ulsan Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter flights and private jets."
+        }
+      ],
+      "website": "https://www.airport.co.kr/ulsan",
+      "wifi": {
+        "available": true,
+        "network_name": "Ulsan Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:37:04.496898Z",
+    "generated_at": "2025-08-04T18:08:49.531594Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,143 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Orly Airport"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Orly Airport, mainly used for domestic flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Orly Airport, used for low-cost airlines"
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/homepage",
+      "wifi": {
+        "available": true,
+        "network_name": "Orly Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 23.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Bourget Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and business aviation."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/airports/le-bourget",
+      "wifi": {
+        "available": true,
+        "network_name": "LBG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 26.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving a wide range of international airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The main hub for Air France and other SkyTeam alliance airlines, with several sub-terminals serving different regions."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal mainly used for low-cost airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/access/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slower in some areas during peak hours."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 30.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toussus-le-noble Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Toussus-le-noble Airport caters to private and corporate jets."
+        }
+      ],
+      "website": "https://www.toussus.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toussus-le-noble Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Paris Cergy Pontoise",
+      "iata_code": "POX",
+      "icao_code": "LFPT",
+      "distance_km": 43.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.paris-cergy-pontoise-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "POX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:52.796784Z",
+    "generated_at": "2025-08-04T18:44:47.757182Z",
     "env": "development",
     "source": "justarrived-generator"
   }

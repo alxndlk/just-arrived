@@ -52,8 +52,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jose Marti International",
+      "iata_code": "HAV",
+      "icao_code": "MUHA",
+      "distance_km": 20.1,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal handles domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for charter flights to and from the United States."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This modern terminal is used for international flights from major airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "This terminal is used for regional flights within Cuba."
+        }
+      ],
+      "website": "https://www.havana-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "Havana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Playa Baracoa",
+      "iata_code": "UPB",
+      "icao_code": "MUPB",
+      "distance_km": 32.6,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic and charter flights."
+        }
+      ],
+      "website": "https://www.upb.cu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Playa Baracoa Airport Wifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:55.191735Z",
+    "generated_at": "2025-08-04T18:42:49.767216Z",
     "env": "development",
     "source": "justarrived-generator"
   }

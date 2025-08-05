@@ -50,8 +50,39 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Angeles",
+      "iata_code": "LSQ",
+      "icao_code": "SCGE",
+      "distance_km": 31.0,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The terminal for low-cost carriers"
+        }
+      ],
+      "website": "https://www.flylax.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LAX-Free-WiFi",
+        "note": "Limited to 45 minutes per device"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:32.619510Z",
+    "generated_at": "2025-08-04T20:15:25.982328Z",
     "env": "development",
     "source": "justarrived-generator"
   }

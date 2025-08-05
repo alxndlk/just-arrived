@@ -51,8 +51,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marka International Airport",
+      "iata_code": "ADJ",
+      "icao_code": "OJAM",
+      "distance_km": 24.4,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marka International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.markaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Marka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Queen Alia International",
+      "iata_code": "AMM",
+      "icao_code": "OJAI",
+      "distance_km": 42.2,
+      "gmt": "2",
+      "country": "Jordan",
+      "timezone": "Asia/Amman",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Queen Alia International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://qaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "QAIA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:52.822575Z",
+    "generated_at": "2025-08-04T18:20:48.712589Z",
     "env": "development",
     "source": "justarrived-generator"
   }

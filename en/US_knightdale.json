@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Raleigh-durham International Airport",
+      "iata_code": "RDU",
+      "icao_code": "KRDU",
+      "distance_km": 28.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights for major airlines such as American Airlines, Delta, and United."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights for major airlines such as JetBlue, Southwest, and Air Canada."
+        }
+      ],
+      "website": "https://www.rdu.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RDU Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franklin",
+      "iata_code": "LFN",
+      "icao_code": "KLHZ",
+      "distance_km": 38.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Franklin Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Franklin Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.franklinairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "FranklinAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:45.887676Z",
+    "generated_at": "2025-08-04T18:56:43.805064Z",
     "env": "development",
     "source": "justarrived-generator"
   }

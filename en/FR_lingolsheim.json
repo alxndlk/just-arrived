@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Entzheim",
+      "iata_code": "SXB",
+      "icao_code": "LFST",
+      "distance_km": 4.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Entzheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Entzheim Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.strasbourg.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Entzheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited signal in certain areas."
+      }
+    },
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 29.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Karlsruhe/Baden-Baden",
+      "iata_code": "FKB",
+      "icao_code": "EDSB",
+      "distance_km": 38.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:12.896030Z",
+    "generated_at": "2025-08-04T20:14:32.375304Z",
     "env": "development",
     "source": "justarrived-generator"
   }

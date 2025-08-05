@@ -107,8 +107,89 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Chkalovsky",
+      "iata_code": "CKL",
+      "icao_code": "UUMU",
+      "distance_km": 6.4,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.chkalovskyairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chkalovsky Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 36.7,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The newest and largest terminal at Sheremetyevo International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A modern terminal at Sheremetyevo International Airport, mainly serving international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The oldest terminal at Sheremetyevo International Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.svo.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sheremetyevo Free Wi-Fi",
+        "note": "Passengers can access free Wi-Fi throughout the airport by connecting to the network and entering their email address."
+      }
+    },
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 41.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Zhukovsky International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Zhukovsky International Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.zia.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZIA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'ZIA Free WiFi' from the list of available networks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:41:10.837088Z",
+    "generated_at": "2025-08-04T19:58:30.922063Z",
     "env": "development",
     "source": "justarrived-generator"
   }

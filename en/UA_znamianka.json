@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kirovograd",
+      "iata_code": "KGO",
+      "icao_code": "UKKG",
+      "distance_km": 32.9,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://kgo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KGO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:04.789020Z",
+    "generated_at": "2025-08-04T18:53:40.082268Z",
     "env": "development",
     "source": "justarrived-generator"
   }

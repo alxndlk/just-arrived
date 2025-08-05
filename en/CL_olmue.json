@@ -50,8 +50,60 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vina del Mar",
+      "iata_code": "KNA",
+      "icao_code": "SCVM",
+      "distance_km": 35.8,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.aeropuertovinadelmar.cl/",
+      "wifi": {
+        "available": true,
+        "network_name": "VinaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Valparaiso",
+      "iata_code": "VAP",
+      "icao_code": "SCRD",
+      "distance_km": 45.1,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Valparaiso Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Valparaiso Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.valparaisoairport.cl/",
+      "wifi": {
+        "available": true,
+        "network_name": "VAP Free WiFi",
+        "note": "WiFi is available throughout the airport. A password is required for access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:14.874325Z",
+    "generated_at": "2025-08-04T20:19:31.941463Z",
     "env": "development",
     "source": "justarrived-generator"
   }

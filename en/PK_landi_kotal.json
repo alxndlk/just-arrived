@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peshawar",
+      "iata_code": "PEW",
+      "icao_code": "OPPS",
+      "distance_km": 35.9,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal handles all international flights at Peshawar Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal handles all domestic flights at Peshawar Airport."
+        }
+      ],
+      "website": "https://www.peshawarairport.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "PEW Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:30.207913Z",
+    "generated_at": "2025-08-04T18:38:49.231884Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maribor International Airport",
+      "iata_code": "MBX",
+      "icao_code": "LJMB",
+      "distance_km": 45.6,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for budget airlines and regional flights."
+        }
+      ],
+      "website": "https://www.maribor-airport.si/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maribor Airport Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free by providing their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:59.279466Z",
+    "generated_at": "2025-08-04T18:35:44.211502Z",
     "env": "development",
     "source": "justarrived-generator"
   }

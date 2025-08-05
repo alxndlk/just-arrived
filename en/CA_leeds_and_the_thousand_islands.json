@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brockville",
+      "iata_code": "XBR",
+      "icao_code": "CNL3",
+      "distance_km": 34.8,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brockville Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Brockville Airport is reserved for private and corporate flights."
+        }
+      ],
+      "website": "https://www.brockvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brockville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Collins Bay",
+      "iata_code": "YKC",
+      "icao_code": "CYKC",
+      "distance_km": 46.9,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Regina",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Collins Bay Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Collins Bay Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.collinsbayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CB Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Kingston",
+      "iata_code": "YGK",
+      "icao_code": "CYGK",
+      "distance_km": 48.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kingston Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kingston Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kingstonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YGK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:13.645390Z",
+    "generated_at": "2025-08-04T19:30:49.564359Z",
     "env": "development",
     "source": "justarrived-generator"
   }

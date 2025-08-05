@@ -50,8 +50,64 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 19.5,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Don Muang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Don Muang Airport, mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://airportthai.co.th/en/airports/don-muang-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "DMK-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be slow during peak hours."
+      }
+    },
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 42.7,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Suvarnabhumi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Suvarnabhumi Airport, exclusively serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Suvarnabhumi Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.bangkokairportonline.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Suvarnabhumi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited speed and connectivity."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:27.755603Z",
+    "generated_at": "2025-08-04T18:29:45.190035Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -52,8 +52,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Abel Santa Maria",
+      "iata_code": "SNU",
+      "icao_code": "MUSC",
+      "distance_km": 38.2,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Trinidad",
+      "iata_code": "TND",
+      "icao_code": "MUTD",
+      "distance_km": 39.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cienfuegos",
+      "iata_code": "CFG",
+      "icao_code": "MUCF",
+      "distance_km": 45.1,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cienfuegos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.cubajet.com/destinations/cienfuegos-airport-cfg",
+      "wifi": {
+        "available": true,
+        "network_name": "Cienfuegos Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:27.412627Z",
+    "generated_at": "2025-08-04T20:02:25.991466Z",
     "env": "development",
     "source": "justarrived-generator"
   }

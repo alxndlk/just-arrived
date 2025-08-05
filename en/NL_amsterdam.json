@@ -104,8 +104,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 11.3,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal is the main international terminal at Schiphol Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is mainly used for European flights at Schiphol Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal is used for intercontinental flights at Schiphol Airport."
+        }
+      ],
+      "website": "https://www.schiphol.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 37.7,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base Airport handles all commercial flights and provides a range of amenities for passengers."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Soesterberg Air Base Airport is used for military operations and is not open to the public."
+        }
+      ],
+      "website": "https://www.defensie.nl/organisatie/luchtmacht/vliegbases-en-luchtmachtonderdelen/vliegbasis-soesterberg",
+      "wifi": {
+        "available": true,
+        "network_name": "Soesterberg Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:23.592067Z",
+    "generated_at": "2025-08-04T19:56:27.562995Z",
     "env": "development",
     "source": "justarrived-generator"
   }

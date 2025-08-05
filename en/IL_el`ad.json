@@ -50,8 +50,47 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ben Gurion International",
+      "iata_code": "TLV",
+      "icao_code": "LLBG",
+      "distance_km": 9.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "A small terminal mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The main and largest terminal at Ben Gurion Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en-US/airports/bengurion/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "BGIAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sde Dov",
+      "iata_code": "SDV",
+      "icao_code": "LLSD",
+      "distance_km": 16.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:04.598666Z",
+    "generated_at": "2025-08-04T20:03:35.765366Z",
     "env": "development",
     "source": "justarrived-generator"
   }

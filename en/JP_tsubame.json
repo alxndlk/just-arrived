@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Niigata",
+      "iata_code": "KIJ",
+      "icao_code": "RJSN",
+      "distance_km": 37.1,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.niigata-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niigata Airport Free WiFi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:47.495835Z",
+    "generated_at": "2025-08-04T18:22:41.337580Z",
     "env": "development",
     "source": "justarrived-generator"
   }

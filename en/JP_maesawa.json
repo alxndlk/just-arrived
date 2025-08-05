@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hanamaki",
+      "iata_code": "HNA",
+      "icao_code": "RJSI",
+      "distance_km": 41.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hanamaki Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hanamaki Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.hanamakiairport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HanamakiAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:48.353166Z",
+    "generated_at": "2025-08-04T19:06:47.029147Z",
     "env": "development",
     "source": "justarrived-generator"
   }

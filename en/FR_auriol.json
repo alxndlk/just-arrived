@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Castellet",
+      "iata_code": "CTT",
+      "icao_code": "LFMQ",
+      "distance_km": 17.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "Exclusive terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.lecastellet-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Le Castellet Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 26.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/en/aix-en-provence",
+      "wifi": {
+        "available": true,
+        "network_name": "Aix-en-Provence Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 34.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Marseille Provence Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal of Marseille Provence Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MRS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:12.534886Z",
+    "generated_at": "2025-08-04T20:23:28.943611Z",
     "env": "development",
     "source": "justarrived-generator"
   }

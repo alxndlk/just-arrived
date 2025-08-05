@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Robert J. Miller",
+      "iata_code": "MJX",
+      "icao_code": "KMJX",
+      "distance_km": 31.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "North Philadelphia",
+      "iata_code": "PNE",
+      "icao_code": "KPNE",
+      "distance_km": 39.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Trenton Mercer Airport",
+      "iata_code": "TTN",
+      "icao_code": "KTTN",
+      "distance_km": 39.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Trenton Mercer Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Trenton Mercer Airport is used for shipping and receiving of goods."
+        }
+      ],
+      "website": "https://www.mercercounty.org/departments/transportation-and-infrastructure/trenton-mercer-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TTN Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:29.188829Z",
+    "generated_at": "2025-08-04T20:31:25.664022Z",
     "env": "development",
     "source": "justarrived-generator"
   }

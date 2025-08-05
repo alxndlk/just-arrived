@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 39.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 47.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal at Haneda Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Haneda Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with no time limit. Users must agree to terms and conditions to access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:55.600918Z",
+    "generated_at": "2025-08-04T20:00:26.559148Z",
     "env": "development",
     "source": "justarrived-generator"
   }

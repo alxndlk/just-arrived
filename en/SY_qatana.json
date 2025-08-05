@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Masada",
+      "iata_code": "MTZ",
+      "icao_code": "LLMZ",
+      "distance_km": 38.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Damascus International Airport",
+      "iata_code": "DAM",
+      "icao_code": "OSDI",
+      "distance_km": 40.3,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.damascusairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:06.698946Z",
+    "generated_at": "2025-08-04T20:13:26.001735Z",
     "env": "development",
     "source": "justarrived-generator"
   }

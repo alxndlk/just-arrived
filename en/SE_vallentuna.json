@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arlanda",
+      "iata_code": "ARN",
+      "icao_code": "ESSA",
+      "distance_km": 15.6,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "This terminal mainly serves domestic and regional flights within Europe."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "This is the main international terminal, serving flights to destinations worldwide."
+        }
+      ],
+      "website": "https://www.swedavia.com/arlanda/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require periodic reconnection."
+      }
+    },
+    {
+      "airport_name": "Bromma",
+      "iata_code": "BMA",
+      "icao_code": "ESSB",
+      "distance_km": 21.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bromma Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bromma Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/bromma/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bromma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Norrtalje Mellingeholms Airport",
+      "iata_code": "QEM",
+      "icao_code": "ESSN",
+      "distance_km": 41.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Norrtalje Mellingeholms Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.norrtaljemellingeholmsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NMA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited bandwidth during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:40.292001Z",
+    "generated_at": "2025-08-04T20:09:29.641728Z",
     "env": "development",
     "source": "justarrived-generator"
   }

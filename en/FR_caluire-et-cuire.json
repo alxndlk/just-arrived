@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bron",
+      "iata_code": "LYN",
+      "icao_code": "LFLY",
+      "distance_km": 10.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bron Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bron Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.bronairport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bron Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St-Exupéry",
+      "iata_code": "LYS",
+      "icao_code": "LFLL",
+      "distance_km": 19.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St-Exupéry Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at St-Exupéry Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.lyonaeroports.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "LYS-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:34.292561Z",
+    "generated_at": "2025-08-04T18:32:41.850739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

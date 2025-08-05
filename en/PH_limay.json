@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Subic Bay International",
+      "iata_code": "SFS",
+      "icao_code": "RPLB",
+      "distance_km": 43.4,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.subicbayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Subic Bay Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 45.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it primarily serves international flights for Philippine Airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at the airport, serving both domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Also known as the Domestic Terminal, it serves domestic flights for various airlines."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require registration and have limited usage time."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:36.234132Z",
+    "generated_at": "2025-08-04T18:22:41.382829Z",
     "env": "development",
     "source": "justarrived-generator"
   }

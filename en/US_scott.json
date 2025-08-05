@@ -48,8 +48,67 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 13.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pittsburgh International",
+      "iata_code": "PIT",
+      "icao_code": "KPIT",
+      "distance_km": 19.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pittsburgh International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a regional concourse at Pittsburgh International Airport, serving smaller airlines and domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a regional concourse at Pittsburgh International Airport, serving smaller airlines and domestic flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is the newest concourse at Pittsburgh International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "County",
+      "iata_code": "WSG",
+      "icao_code": "KAFJ",
+      "distance_km": 28.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:05.335560Z",
+    "generated_at": "2025-08-04T20:17:31.102110Z",
     "env": "development",
     "source": "justarrived-generator"
   }

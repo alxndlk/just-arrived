@@ -51,8 +51,35 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Karlovy Vary",
+      "iata_code": "KLV",
+      "icao_code": "LKKV",
+      "distance_km": 45.9,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.karlovevaryairport.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLV Free WiFi",
+        "note": "Passengers can access the free WiFi for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:48.344633Z",
+    "generated_at": "2025-08-04T18:30:50.412386Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bremen",
+      "iata_code": "BRE",
+      "icao_code": "EDDW",
+      "distance_km": 46.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.bremen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bremen Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:06.380229Z",
+    "generated_at": "2025-08-04T19:02:48.790885Z",
     "env": "development",
     "source": "justarrived-generator"
   }

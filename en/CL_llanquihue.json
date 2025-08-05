@@ -50,8 +50,56 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frutillar",
+      "iata_code": "FRT",
+      "icao_code": "SCEV",
+      "distance_km": 15.5,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Frutillar Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.frtairport.cl/",
+      "wifi": {
+        "available": true,
+        "network_name": "FRT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tepual",
+      "iata_code": "PMC",
+      "icao_code": "SCTE",
+      "distance_km": 20.9,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tepual Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tepual Airport is responsible for handling all air freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.tepualairport.cl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tepual Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:13.883952Z",
+    "generated_at": "2025-08-04T20:18:35.128107Z",
     "env": "development",
     "source": "justarrived-generator"
   }

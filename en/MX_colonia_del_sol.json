@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Cabos",
+      "iata_code": "SJD",
+      "icao_code": "MMSD",
+      "distance_km": 34.7,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Mazatlan",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.loscabosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Los Cabos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:23.129490Z",
+    "generated_at": "2025-08-04T18:30:39.732253Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bowman Field Airport",
+      "iata_code": "LOU",
+      "icao_code": "KLOU",
+      "distance_km": 8.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bowman Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.loukymetro.org/airports/bowman-field/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bowman Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Louisville International (Standiford Field)",
+      "iata_code": "SDF",
+      "icao_code": "KSDF",
+      "distance_km": 17.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louisville International Airport houses the ticketing counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Louisville International Airport serves domestic flights for airlines such as American, Delta, and United."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Louisville International Airport serves domestic and international flights for airlines such as Southwest, Allegiant, and Frontier."
+        }
+      ],
+      "website": "https://www.flylouisville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SDF Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:25.777779Z",
+    "generated_at": "2025-08-04T18:29:44.446602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

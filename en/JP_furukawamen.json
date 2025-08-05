@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nagasaki",
+      "iata_code": "NGS",
+      "icao_code": "RJFU",
+      "distance_km": 43.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nagasaki Airport serves both domestic and international flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Nagasaki Airport handles all international flights and has customs and immigration facilities."
+        }
+      ],
+      "website": "https://www.nagasaki-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nagasaki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:15.750368Z",
+    "generated_at": "2025-08-04T19:10:40.419559Z",
     "env": "development",
     "source": "justarrived-generator"
   }

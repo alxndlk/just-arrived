@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Civil",
+      "iata_code": "TRZ",
+      "icao_code": "VOTR",
+      "distance_km": 43.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights within India."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights to and from India."
+        }
+      ],
+      "website": "https://www.trichyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:37.757920Z",
+    "generated_at": "2025-08-04T20:27:37.501701Z",
     "env": "development",
     "source": "justarrived-generator"
   }

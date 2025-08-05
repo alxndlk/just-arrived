@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sacramento International",
+      "iata_code": "SMF",
+      "icao_code": "KSMF",
+      "distance_km": 24.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights."
+        }
+      ],
+      "website": "https://sacramento.aero/smf",
+      "wifi": {
+        "available": true,
+        "network_name": "SMF Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Auburn",
+      "iata_code": "AUN",
+      "icao_code": "KAUN",
+      "distance_km": 44.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Auburn Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Auburn Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.auburnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AuburnAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:39.327535Z",
+    "generated_at": "2025-08-04T19:19:47.166066Z",
     "env": "development",
     "source": "justarrived-generator"
   }

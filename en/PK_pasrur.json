@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sialkot International",
+      "iata_code": "SKT",
+      "icao_code": "OPST",
+      "distance_km": 33.7,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sialkot International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sialkot International Airport handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.sial.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "SIAL-WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Satwari",
+      "iata_code": "IXJ",
+      "icao_code": "VIJU",
+      "distance_km": 49.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/jammu",
+      "wifi": {
+        "available": true,
+        "network_name": "Satwari Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:25.026492Z",
+    "generated_at": "2025-08-04T18:26:50.100840Z",
     "env": "development",
     "source": "justarrived-generator"
   }

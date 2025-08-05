@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santiago De Compostela",
+      "iata_code": "SCQ",
+      "icao_code": "LEST",
+      "distance_km": 10.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/santiago-de-compostela-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SCQ Airport Wifi",
+        "note": "Free and unlimited access throughout the airport."
+      }
+    },
+    {
+      "airport_name": "La Coruna",
+      "iata_code": "LCG",
+      "icao_code": "LECO",
+      "distance_km": 49.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at La Coruna Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at La Coruna Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/la-coruna-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "LCG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:35.448363Z",
+    "generated_at": "2025-08-04T18:19:44.551966Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,106 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Friedrichshafen",
+      "iata_code": "FDH",
+      "icao_code": "EDNY",
+      "distance_km": 32.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Friedrichshafen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.fly-away.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Altenrhein",
+      "iata_code": "ACH",
+      "icao_code": "LSZR",
+      "distance_km": 35.5,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenrhein Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.altenrhein-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenrhein Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 43.4,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Zurich Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Zurich Airport, primarily used for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    },
+    {
+      "airport_name": "Hohenems-Dornbirn",
+      "iata_code": "HOH",
+      "icao_code": "LOIH",
+      "distance_km": 48.8,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hohenems-Dornbirn Airport is a modern and efficient facility, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hohenems-Dornbirn Airport handles all freight and cargo operations, providing efficient and secure handling of goods."
+        }
+      ],
+      "website": "https://www.hohenems-dornbirn-airport.at/",
+      "wifi": {
+        "available": true,
+        "network_name": "HOH Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:28.823833Z",
+    "generated_at": "2025-08-04T19:19:46.070280Z",
     "env": "development",
     "source": "justarrived-generator"
   }

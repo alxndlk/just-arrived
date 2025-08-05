@@ -50,8 +50,56 @@
     "police": "119"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Puerto Lempira",
+      "iata_code": "PEU",
+      "icao_code": "MHPL",
+      "distance_km": 5.6,
+      "gmt": "-6",
+      "country": "Honduras",
+      "timezone": "America/Tegucigalpa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.puertolempiraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Puerto Lempira Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cauquira",
+      "iata_code": "CDD",
+      "icao_code": "MHCU",
+      "distance_km": 19.2,
+      "gmt": "-6",
+      "country": "Honduras",
+      "timezone": "America/Tegucigalpa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cauquira Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cauquira Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://cauquiraairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Cauquira Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:34.862452Z",
+    "generated_at": "2025-08-04T18:30:45.478013Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Golubovci",
+      "iata_code": "TGD",
+      "icao_code": "LYPG",
+      "distance_km": 4.1,
+      "gmt": "1",
+      "country": "Montenegro",
+      "timezone": "Europe/Podgorica",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.montenegroairports.com/en/golubovci-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TGD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tivat",
+      "iata_code": "TIV",
+      "icao_code": "LYTV",
+      "distance_km": 41.8,
+      "gmt": "1",
+      "country": "Montenegro",
+      "timezone": "Europe/Podgorica",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.montenegroairports.com/tivat",
+      "wifi": {
+        "available": true,
+        "network_name": "Tivat Airport Free WiFi",
+        "note": "No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:25.955580Z",
+    "generated_at": "2025-08-04T19:37:57.252790Z",
     "env": "development",
     "source": "justarrived-generator"
   }

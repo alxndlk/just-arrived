@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glass Field",
+      "iata_code": "YPA",
+      "icao_code": "CYPA",
+      "distance_km": 4.8,
+      "gmt": "-6",
+      "country": "Canada",
+      "timezone": "America/Regina",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glass Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Glass Field Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.glassfieldairport.ca",
+      "wifi": {
+        "available": true,
+        "network_name": "GlassFieldAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:06.239746Z",
+    "generated_at": "2025-08-04T18:35:47.048643Z",
     "env": "development",
     "source": "justarrived-generator"
   }

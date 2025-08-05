@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Daniel Field",
+      "iata_code": "DNL",
+      "icao_code": "KDNL",
+      "distance_km": 6.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bush Field",
+      "iata_code": "AGS",
+      "icao_code": "KAGS",
+      "distance_km": 16.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bush Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bush Field Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://agsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AGS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "AIK",
+      "icao_code": "KAIK",
+      "distance_km": 22.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:35.546602Z",
+    "generated_at": "2025-08-04T20:11:34.968993Z",
     "env": "development",
     "source": "justarrived-generator"
   }

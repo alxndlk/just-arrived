@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lutsk",
+      "iata_code": "UCK",
+      "icao_code": "UKLC",
+      "distance_km": 18.7,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lutsk Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lutsk Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.lutskairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Lutsk Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:27.898836Z",
+    "generated_at": "2025-08-04T19:15:42.827764Z",
     "env": "development",
     "source": "justarrived-generator"
   }

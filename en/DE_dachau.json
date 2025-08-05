@@ -49,8 +49,84 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 14.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 22.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.oberpfaffenhofen-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 28.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and main terminal at Franz Josef Strauss Airport, serving a variety of domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Franz Josef Strauss Airport, primarily used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.munich-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with a 24-hour limit per device."
+      }
+    },
+    {
+      "airport_name": "Augsburg - Muehlhausen",
+      "iata_code": "AGB",
+      "icao_code": "EDMA",
+      "distance_km": 41.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:14.265451Z",
+    "generated_at": "2025-08-04T20:04:24.368041Z",
     "env": "development",
     "source": "justarrived-generator"
   }

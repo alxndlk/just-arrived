@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bromma",
+      "iata_code": "BMA",
+      "icao_code": "ESSB",
+      "distance_km": 17.7,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bromma Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bromma Airport, primarily used for charter flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/bromma/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bromma Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:05.591719Z",
+    "generated_at": "2025-08-04T19:04:39.016572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

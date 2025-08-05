@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 13.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 18.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St Hubert",
+      "iata_code": "YHU",
+      "icao_code": "CYHU",
+      "distance_km": 22.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Hubert Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Hubert Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.admtl.com/en/airports/st-hubert",
+      "wifi": {
+        "available": true,
+        "network_name": "StHubertAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Jean",
+      "iata_code": "YJN",
+      "icao_code": "CYJN",
+      "distance_km": 48.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Jean Airport handles all commercial flights and houses various amenities for passengers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at St Jean Airport is used for private and charter flights and offers services for private aircraft owners."
+        }
+      ],
+      "website": "https://www.stjeanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StJeanAirportWifi",
+        "note": "Passengers can connect to the airport's wifi network for free with a valid boarding pass."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:38.466339Z",
+    "generated_at": "2025-08-04T20:16:36.595498Z",
     "env": "development",
     "source": "justarrived-generator"
   }

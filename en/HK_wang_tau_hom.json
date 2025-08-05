@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hong Kong International",
+      "iata_code": "HKG",
+      "icao_code": "VHHH",
+      "distance_km": 25.9,
+      "gmt": "8",
+      "country": "Hong Kong",
+      "timezone": "Asia/Hong_Kong",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Hong Kong International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A dedicated terminal for low-cost carriers, providing a more budget-friendly option for travelers."
+        }
+      ],
+      "website": "https://www.hongkongairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HKG Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:31:43.283248Z",
+    "generated_at": "2025-08-04T19:01:43.944206Z",
     "env": "development",
     "source": "justarrived-generator"
   }

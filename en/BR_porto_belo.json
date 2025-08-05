@@ -50,8 +50,60 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Navegantes",
+      "iata_code": "NVT",
+      "icao_code": "SBNF",
+      "distance_km": 33.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Navegantes Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.navegantesairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "NVT Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "Blumenau",
+      "iata_code": "BNU",
+      "icao_code": "SSBL",
+      "distance_km": 47.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "http://www.blumenauairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Blumenau Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:44.915116Z",
+    "generated_at": "2025-08-04T18:44:41.744101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

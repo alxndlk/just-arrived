@@ -106,8 +106,68 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 32.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A modern terminal with a wide range of amenities, primarily serving domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "A dedicated terminal for international flights, with a variety of shops and restaurants."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Passengers can enjoy free WiFi for up to 3 hours per day by registering with a valid email address."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 34.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and main terminal of Narita International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used by low-cost carriers and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal dedicated to low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network by registering with a valid email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:43:25.294047Z",
+    "generated_at": "2025-08-04T18:14:44.702096Z",
     "env": "development",
     "source": "justarrived-generator"
   }

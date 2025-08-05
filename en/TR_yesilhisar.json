@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nevsehir",
+      "iata_code": "NAV",
+      "icao_code": "LTAZ",
+      "distance_km": 45.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.nevsehir.dhmi.gov.tr/havaalanlari/home.aspx?hv=42",
+      "wifi": {
+        "available": true,
+        "network_name": "NAV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:29.407262Z",
+    "generated_at": "2025-08-04T19:05:45.334206Z",
     "env": "development",
     "source": "justarrived-generator"
   }

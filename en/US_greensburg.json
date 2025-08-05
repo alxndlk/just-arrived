@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Westmoreland County",
+      "iata_code": "LBE",
+      "icao_code": "KLBE",
+      "distance_km": 12.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Allegheny County",
+      "iata_code": "AGC",
+      "icao_code": "KAGC",
+      "distance_km": 33.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Allegheny County Airport is a small but modern facility with all the necessary amenities for travelers."
+        }
+      ],
+      "website": "https://www.flypittsburgh.com/allegheny-county-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AGC_Free_WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "ndiana County Airport (Jimmy Stewart Field)",
+      "iata_code": "IDI",
+      "icao_code": "KIDI",
+      "distance_km": 47.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Indiana County Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.indianaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Indiana Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:12.458694Z",
+    "generated_at": "2025-08-04T20:25:36.692521Z",
     "env": "development",
     "source": "justarrived-generator"
   }

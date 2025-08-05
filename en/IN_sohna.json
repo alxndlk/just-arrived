@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 34.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights and low-cost carriers."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights."
+        }
+      ],
+      "website": "https://www.newdelhiairport.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "DEL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:00.113788Z",
+    "generated_at": "2025-08-04T18:27:57.350854Z",
     "env": "development",
     "source": "justarrived-generator"
   }

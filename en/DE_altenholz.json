@@ -49,8 +49,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiel-Holtenau",
+      "iata_code": "KEL",
+      "icao_code": "EDHK",
+      "distance_km": 2.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building at Kiel-Holtenau Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kiel-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KielAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rendsburg Schachtholm Airport",
+      "iata_code": "QEX",
+      "icao_code": "EDXR",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Schleswig-jagel",
+      "iata_code": "WBG",
+      "icao_code": "ETNS",
+      "distance_km": 40.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.flughafen-schleswig-jagel.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schleswig-Jagel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:02.085909Z",
+    "generated_at": "2025-08-04T20:30:26.506772Z",
     "env": "development",
     "source": "justarrived-generator"
   }

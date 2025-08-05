@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bremen",
+      "iata_code": "BRE",
+      "icao_code": "EDDW",
+      "distance_km": 22.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bremen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.bremen-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bremen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Varrelbusch",
+      "iata_code": "VAC",
+      "icao_code": "EDWU",
+      "distance_km": 35.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.varrelbusch-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Varrelbusch Airport Wifi",
+        "note": "Free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:02.537429Z",
+    "generated_at": "2025-08-04T19:03:43.783296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

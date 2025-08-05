@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aurillac",
+      "iata_code": "AUR",
+      "icao_code": "LFLW",
+      "distance_km": 3.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aurillac-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aurillac Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:42.017378Z",
+    "generated_at": "2025-08-04T18:45:56.515237Z",
     "env": "development",
     "source": "justarrived-generator"
   }

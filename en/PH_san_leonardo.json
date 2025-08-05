@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 42.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Baler Airport, serving domestic flights to and from various cities in the Philippines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Baler Airport, serving chartered and private flights."
+        }
+      ],
+      "website": "https://www.balerairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Diosdado Macapagal International (Clark International)",
+      "iata_code": "CRK",
+      "icao_code": "RPLC",
+      "distance_km": 48.8,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.clarkinternationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Clark International Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:48.407741Z",
+    "generated_at": "2025-08-04T18:24:01.941296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

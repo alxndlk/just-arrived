@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Austin Executive Airport ",
+      "iata_code": "EDC",
+      "icao_code": "KEDC",
+      "distance_km": 11.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin Executive Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Austin Executive Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.austinexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AustinExecutiveWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Austin-bergstrom International",
+      "iata_code": "AUS",
+      "icao_code": "KAUS",
+      "distance_km": 26.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "This terminal serves low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.austintexas.gov/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AUS-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:24.892987Z",
+    "generated_at": "2025-08-04T20:21:31.544494Z",
     "env": "development",
     "source": "justarrived-generator"
   }

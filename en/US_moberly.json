@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moberly",
+      "iata_code": "MBY",
+      "icao_code": "KMBY",
+      "distance_km": 5.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Moberly Airport serves all commercial flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Moberly Airport caters to private and charter flights, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.moberlyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MoberlyAirportWiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:27.960268Z",
+    "generated_at": "2025-08-04T19:11:41.004996Z",
     "env": "development",
     "source": "justarrived-generator"
   }

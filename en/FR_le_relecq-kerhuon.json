@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brest Lesquin",
+      "iata_code": "BES",
+      "icao_code": "LFRB",
+      "distance_km": 4.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Brest Lesquin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.brest.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brest Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Morlaix",
+      "iata_code": "MXN",
+      "icao_code": "LFRU",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroport-morlaix.bzh/",
+      "wifi": {
+        "available": true,
+        "network_name": "Morlaix Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:48.584413Z",
+    "generated_at": "2025-08-04T19:18:01.197963Z",
     "env": "development",
     "source": "justarrived-generator"
   }

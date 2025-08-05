@@ -50,8 +50,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Catbi",
+      "iata_code": "HPH",
+      "icao_code": "VVCI",
+      "distance_km": 35.6,
+      "gmt": "7",
+      "country": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Catbi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Catbi Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://catbiairport.vn/",
+      "wifi": {
+        "available": true,
+        "network_name": "Catbi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Van Don International Airport",
+      "iata_code": "VDO",
+      "icao_code": "VVVD",
+      "distance_km": 42.9,
+      "gmt": "7",
+      "country": "Vietnam",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.vandonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VanDonAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:43.901786Z",
+    "generated_at": "2025-08-04T20:09:25.213741Z",
     "env": "development",
     "source": "justarrived-generator"
   }

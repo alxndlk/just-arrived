@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sukkur",
+      "iata_code": "SKZ",
+      "icao_code": "OPSK",
+      "distance_km": 32.3,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.sukkurairport.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sukkur Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jacobabad",
+      "iata_code": "JAG",
+      "icao_code": "OPJA",
+      "distance_km": 40.3,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jacobabad Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jacobabad Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.pakistanairport.com.pk/jacobabad-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Jacobabad Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:46.031164Z",
+    "generated_at": "2025-08-04T18:19:47.964788Z",
     "env": "development",
     "source": "justarrived-generator"
   }

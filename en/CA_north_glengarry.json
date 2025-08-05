@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cornwall Regional Airport",
+      "iata_code": "YCC",
+      "icao_code": "CYCC",
+      "distance_km": 29.0,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cornwall Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Cornwall Regional Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.cornwallairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CornwallAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    },
+    {
+      "airport_name": "Richards Field",
+      "iata_code": "MSS",
+      "icao_code": "KMSS",
+      "distance_km": 44.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richards Field Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "For those flying on private or chartered flights, the private terminal at Richards Field Airport offers a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://www.richardsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RichardsFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:18.130232Z",
+    "generated_at": "2025-08-04T19:26:48.504467Z",
     "env": "development",
     "source": "justarrived-generator"
   }

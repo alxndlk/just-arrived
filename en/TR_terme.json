@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Carsamba",
+      "iata_code": "SZF",
+      "icao_code": "LTFH",
+      "distance_km": 35.4,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights to and from Turkey."
+        }
+      ],
+      "website": "https://www.szfa.com.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "SZF Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:08.939844Z",
+    "generated_at": "2025-08-04T18:23:47.825014Z",
     "env": "development",
     "source": "justarrived-generator"
   }

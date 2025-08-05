@@ -106,8 +106,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 20.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Haneda Airport, mainly serving domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "A separate terminal dedicated to international flights at Haneda Airport."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND_Free_Wi-Fi",
+        "note": "Passengers can access free Wi-Fi for up to 3 hours per day."
+      }
+    },
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 39.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Yokota AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Yokota AFB Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://yokota.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yokota Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:50.054690Z",
+    "generated_at": "2025-08-04T20:27:33.749541Z",
     "env": "development",
     "source": "justarrived-generator"
   }

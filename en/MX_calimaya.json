@@ -50,8 +50,47 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Licenciado Adolfo Lopez Mateos International",
+      "iata_code": "TLC",
+      "icao_code": "MMTO",
+      "distance_km": 14.6,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "General Mariano Matamoros Airport",
+      "iata_code": "CVJ",
+      "icao_code": "MMCB",
+      "distance_km": 47.2,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at General Mariano Matamoros Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at General Mariano Matamoros Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/ciudad-victoria-general-mariano-matamoros-airport.php",
+      "wifi": {
+        "available": true,
+        "network_name": "CVJ Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:47.226739Z",
+    "generated_at": "2025-08-04T20:04:27.364603Z",
     "env": "development",
     "source": "justarrived-generator"
   }

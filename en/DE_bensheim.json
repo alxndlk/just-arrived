@@ -49,8 +49,100 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mannheim Airport",
+      "iata_code": "MHG",
+      "icao_code": "EDFM",
+      "distance_km": 22.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Heidelberg Airport",
+      "iata_code": "HDB",
+      "icao_code": "EDIU",
+      "distance_km": 30.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Heidelberg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.heidelberg-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Heidelberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 42.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and oldest terminal at Frankfurt Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newer terminal at Frankfurt Airport, primarily serving international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Currently under construction and expected to open in 2023, this terminal will primarily serve low-cost carriers."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds and no ads."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 47.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:59:27.448982Z",
+    "generated_at": "2025-08-04T20:05:28.559623Z",
     "env": "development",
     "source": "justarrived-generator"
   }

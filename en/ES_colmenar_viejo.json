@@ -51,8 +51,64 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 27.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Barajas Airport, serving domestic and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The smallest terminal at Barajas Airport, serving mainly low-cost and regional flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal at Barajas Airport, serving a variety of airlines and destinations."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Barajas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Torrejon AFB Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Torrejon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:57.486275Z",
+    "generated_at": "2025-08-04T18:27:05.061174Z",
     "env": "development",
     "source": "justarrived-generator"
   }

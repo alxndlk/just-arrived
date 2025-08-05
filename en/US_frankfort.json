@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "FFT",
+      "icao_code": "KFFT",
+      "distance_km": 3.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic flights within the United States."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves international flights to and from the United States."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Blue Grass",
+      "iata_code": "LEX",
+      "icao_code": "KLEX",
+      "distance_km": 29.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "This terminal serves regional flights operated by smaller airlines."
+        }
+      ],
+      "website": "https://www.bluegrassairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlueGrassAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:29.129579Z",
+    "generated_at": "2025-08-04T20:19:33.338184Z",
     "env": "development",
     "source": "justarrived-generator"
   }

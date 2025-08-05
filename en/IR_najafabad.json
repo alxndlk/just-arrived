@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hesa",
+      "iata_code": "IFH",
+      "icao_code": "OIFE",
+      "distance_km": 36.0,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Isfahan International",
+      "iata_code": "IFN",
+      "icao_code": "OIFM",
+      "distance_km": 49.5,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Isfahan International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://isfahanairport.ir/",
+      "wifi": {
+        "available": true,
+        "network_name": "Isfahan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:37:23.689353Z",
+    "generated_at": "2025-08-04T19:57:29.137252Z",
     "env": "development",
     "source": "justarrived-generator"
   }

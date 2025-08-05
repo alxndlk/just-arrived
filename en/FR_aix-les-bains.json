@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chambery",
+      "iata_code": "CMF",
+      "icao_code": "LFLB",
+      "distance_km": 6.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chambery Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Chambery Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.chambery-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chambery Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Annecy-Meythe",
+      "iata_code": "NCY",
+      "icao_code": "LFLP",
+      "distance_km": 30.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:49.440385Z",
+    "generated_at": "2025-08-04T20:08:28.769860Z",
     "env": "development",
     "source": "justarrived-generator"
   }

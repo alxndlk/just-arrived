@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "AHH",
+      "icao_code": "KAHH",
+      "distance_km": 24.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal is primarily used for domestic flights and offers a comfortable and convenient travel experience."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal caters to international flights and offers a range of services for international travelers."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Downtown",
+      "iata_code": "STP",
+      "icao_code": "KSTP",
+      "distance_km": 46.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Downtown Airport offers a variety of amenities for travelers, including dining options, shopping, and rental car services."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "For those flying in on private jets, the private terminal at Downtown Airport offers luxurious amenities and personalized services."
+        }
+      ],
+      "website": "https://www.downtownairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Downtown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a network name of 'Downtown Airport WiFi'."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:40.745985Z",
+    "generated_at": "2025-08-04T19:25:42.701943Z",
     "env": "development",
     "source": "justarrived-generator"
   }

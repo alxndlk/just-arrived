@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kefalonia Istland International Airport",
+      "iata_code": "EFL",
+      "icao_code": "LGKF",
+      "distance_km": 6.3,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "This terminal serves regional flights within Greece."
+        }
+      ],
+      "website": "https://www.efl-airport.gr/",
+      "wifi": {
+        "available": true,
+        "network_name": "EFL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:50.160759Z",
+    "generated_at": "2025-08-04T18:49:48.608202Z",
     "env": "development",
     "source": "justarrived-generator"
   }

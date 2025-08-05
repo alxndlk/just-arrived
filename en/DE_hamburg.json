@@ -105,8 +105,35 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Hamburg Airport",
+      "iata_code": "HAM",
+      "icao_code": "EDDH",
+      "distance_km": 9.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hamburg Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hamburg Airport, mainly used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.hamburg-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a 4-hour time limit per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:00.548777Z",
+    "generated_at": "2025-08-04T18:03:55.580983Z",
     "env": "development",
     "source": "justarrived-generator"
   }

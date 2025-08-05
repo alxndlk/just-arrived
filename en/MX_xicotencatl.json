@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciudad Mante",
+      "iata_code": "MMC",
+      "icao_code": "MMDM",
+      "distance_km": 18.9,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Monterrey",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/ciudad-mante-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CiudadManteAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:17.719741Z",
+    "generated_at": "2025-08-04T19:29:52.675569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

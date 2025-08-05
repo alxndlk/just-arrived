@@ -47,8 +47,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kunduz",
+      "iata_code": "UND",
+      "icao_code": "OAUZ",
+      "distance_km": 22.8,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kunduz Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kunduz Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kunduzairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kunduz Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Taluqan",
+      "iata_code": "TQN",
+      "icao_code": "OATQ",
+      "distance_km": 34.2,
+      "gmt": "4.30",
+      "country": "Afghanistan",
+      "timezone": "Asia/Kabul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Taluqan Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.motca.gov.af/index.php/taluqan-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Taluqan Airport WiFi",
+        "note": "Passengers can access the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:52.536587Z",
+    "generated_at": "2025-08-04T18:45:40.214031Z",
     "env": "development",
     "source": "justarrived-generator"
   }

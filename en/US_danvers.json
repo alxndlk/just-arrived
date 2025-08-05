@@ -48,8 +48,75 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beverly Municipal Airport",
+      "iata_code": "BVY",
+      "icao_code": "KBVY",
+      "distance_km": 6.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lawrence",
+      "iata_code": "LWM",
+      "icao_code": "KLWM",
+      "distance_km": 21.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Logan International",
+      "iata_code": "BOS",
+      "icao_code": "KBOS",
+      "distance_km": 23.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest terminal at Logan International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The second largest terminal at Logan International Airport, primarily serving domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A smaller terminal at Logan International Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.massport.com/logan-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BOS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hanscom Field",
+      "iata_code": "BED",
+      "icao_code": "KBED",
+      "distance_km": 30.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:27.237806Z",
+    "generated_at": "2025-08-04T20:10:25.719976Z",
     "env": "development",
     "source": "justarrived-generator"
   }

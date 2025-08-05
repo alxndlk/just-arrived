@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Griffiss AFB",
+      "iata_code": "RME",
+      "icao_code": "KRME",
+      "distance_km": 27.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Griffiss AFB Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Griffiss AFB Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.griffissairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Griffiss Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Syracuse Hancock International Airport",
+      "iata_code": "SYR",
+      "icao_code": "KSYR",
+      "distance_km": 28.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Syracuse Hancock International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Syracuse Hancock International Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.syrairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "SYR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:14.166585Z",
+    "generated_at": "2025-08-04T19:35:41.388497Z",
     "env": "development",
     "source": "justarrived-generator"
   }

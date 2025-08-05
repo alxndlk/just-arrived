@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chernovtsy",
+      "iata_code": "CWC",
+      "icao_code": "UKLN",
+      "distance_km": 46.0,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chernovtsy Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.chernovtsyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CWC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:26.610629Z",
+    "generated_at": "2025-08-04T19:33:55.063165Z",
     "env": "development",
     "source": "justarrived-generator"
   }

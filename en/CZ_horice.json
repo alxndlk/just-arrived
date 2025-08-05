@@ -51,8 +51,47 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hradec Kralove Airport",
+      "iata_code": "QEH",
+      "icao_code": "LKHK",
+      "distance_km": 19.8,
+      "gmt": "1",
+      "country": "Czechia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.airport-hradec-kralove.cz/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hradec Kralove Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pardubice",
+      "iata_code": "PED",
+      "icao_code": "LKPD",
+      "distance_km": 40.1,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:16.686503Z",
+    "generated_at": "2025-08-04T20:33:38.055424Z",
     "env": "development",
     "source": "justarrived-generator"
   }

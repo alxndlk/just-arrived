@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Aurora",
+      "iata_code": "GUA",
+      "icao_code": "MGGT",
+      "distance_km": 16.0,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Aurora Airport handles both domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at La Aurora Airport is primarily used for cargo and private flights."
+        }
+      ],
+      "website": "https://www.laauroraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaAuroraAirportWifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:48.243894Z",
+    "generated_at": "2025-08-04T19:35:52.250929Z",
     "env": "development",
     "source": "justarrived-generator"
   }

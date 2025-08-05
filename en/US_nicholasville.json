@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Blue Grass",
+      "iata_code": "LEX",
+      "icao_code": "KLEX",
+      "distance_km": 16.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Blue Grass Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Blue Grass Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.bluegrassairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlueGrassAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Capital City",
+      "iata_code": "FFT",
+      "icao_code": "KFFT",
+      "distance_km": 43.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly constructed terminal for international flights."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:23.103817Z",
+    "generated_at": "2025-08-04T18:40:41.911237Z",
     "env": "development",
     "source": "justarrived-generator"
   }

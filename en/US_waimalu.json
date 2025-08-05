@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 7.4,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Honolulu International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Interisland Terminal",
+          "description": "The interisland terminal at Honolulu International Airport is dedicated to flights within the Hawaiian Islands."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 18.4,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kaneohe Bay MCAS Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.mcasiwakuni.marines.mil/About/Units/Marine-Aircraft-Group-12/Kaneohe-Bay-MCAS/",
+      "wifi": {
+        "available": true,
+        "network_name": "KaneoheBayAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:18.427341Z",
+    "generated_at": "2025-08-04T20:21:31.179626Z",
     "env": "development",
     "source": "justarrived-generator"
   }

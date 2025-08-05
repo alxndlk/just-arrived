@@ -50,8 +50,68 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kadmandu",
+      "iata_code": "SKH",
+      "icao_code": "VNSK",
+      "distance_km": 12.8,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dang",
+      "iata_code": "DNP",
+      "icao_code": "VNDG",
+      "distance_km": 37.1,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dang Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.caanepal.org.np/dang-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Dang Airport WiFi",
+        "note": "WiFi is available throughout the terminal, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Rukumkot",
+      "iata_code": "RUK",
+      "icao_code": "VNRK",
+      "distance_km": 39.6,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rukumkot Airport serves all domestic flights within Nepal."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rukumkot Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.rukumkotairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Rukumkot Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:03.664347Z",
+    "generated_at": "2025-08-04T20:28:32.130357Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Magdagachi",
+      "iata_code": "GDG",
+      "icao_code": "UHBI",
+      "distance_km": 1.9,
+      "gmt": "9",
+      "country": "Russia",
+      "timezone": "Asia/Yakutsk",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "http://www.magdagachiairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Magdagachi Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:21.551582Z",
+    "generated_at": "2025-08-04T19:18:45.873251Z",
     "env": "development",
     "source": "justarrived-generator"
   }

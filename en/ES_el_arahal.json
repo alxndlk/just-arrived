@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Moron",
+      "iata_code": "OZP",
+      "icao_code": "LEMO",
+      "distance_km": 18.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Moron Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Moron Airport, used for regional flights."
+        }
+      ],
+      "website": "https://www.moronairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Moron Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Pablo",
+      "iata_code": "SVQ",
+      "icao_code": "LEZL",
+      "distance_km": 35.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/sevilla-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SVQ Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited bandwidth."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:00.595473Z",
+    "generated_at": "2025-08-04T18:56:49.638135Z",
     "env": "development",
     "source": "justarrived-generator"
   }

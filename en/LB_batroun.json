@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beirut Rafic Hariri Airport",
+      "iata_code": "BEY",
+      "icao_code": "OLBA",
+      "distance_km": 49.3,
+      "gmt": "2",
+      "country": "Lebanon",
+      "timezone": "Asia/Beirut",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beirut Rafic Hariri Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.beirutairport.gov.lb/",
+      "wifi": {
+        "available": true,
+        "network_name": "BEY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kleyate",
+      "iata_code": "KYE",
+      "icao_code": "OLKA",
+      "distance_km": 49.4,
+      "gmt": "2",
+      "country": "Lebanon",
+      "timezone": "Asia/Beirut",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kleyate Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kleyateairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kleyate Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:46.838883Z",
+    "generated_at": "2025-08-04T18:31:49.484010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

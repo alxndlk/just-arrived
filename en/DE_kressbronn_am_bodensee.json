@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Friedrichshafen",
+      "iata_code": "FDH",
+      "icao_code": "EDNY",
+      "distance_km": 10.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights within Europe."
+        }
+      ],
+      "website": "https://www.bodensee-airport.eu/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Altenrhein",
+      "iata_code": "ACH",
+      "icao_code": "LSZR",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenrhein Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and chartered flights."
+        }
+      ],
+      "website": "https://www.altenrhein-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenrhein Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    },
+    {
+      "airport_name": "Hohenems-Dornbirn",
+      "iata_code": "HOH",
+      "icao_code": "LOIH",
+      "distance_km": 24.8,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.hohenems-dornbirn-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:04.036471Z",
+    "generated_at": "2025-08-04T19:34:43.586748Z",
     "env": "development",
     "source": "justarrived-generator"
   }

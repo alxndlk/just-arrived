@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 24.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 48.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baltimore/Washington International Thurgood Marshall Airport serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is home to several airlines, including Southwest and Spirit, and offers a variety of dining and shopping options."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B primarily serves international flights and offers a variety of amenities for travelers."
+        }
+      ],
+      "website": "https://www.bwiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply select the network and follow the prompts to connect."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:51.249982Z",
+    "generated_at": "2025-08-04T20:28:26.032238Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nalchik",
+      "iata_code": "NAL",
+      "icao_code": "URMN",
+      "distance_km": 36.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nalchik Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nalchik Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.nalchikairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:59.092777Z",
+    "generated_at": "2025-08-04T18:26:39.136973Z",
     "env": "development",
     "source": "justarrived-generator"
   }

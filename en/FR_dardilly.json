@@ -51,8 +51,85 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bron",
+      "iata_code": "LYN",
+      "icao_code": "LFLY",
+      "distance_km": 16.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bron Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.lyonaeroports.com/en/bron-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BronAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St-Exupéry",
+      "iata_code": "LYS",
+      "icao_code": "LFLL",
+      "distance_km": 27.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at St-Exupéry Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.lyonaeroports.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "LYS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boutheon",
+      "iata_code": "EBU",
+      "icao_code": "LFMH",
+      "distance_km": 46.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.boutheon-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boutheon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:01.095703Z",
+    "generated_at": "2025-08-04T19:33:48.499599Z",
     "env": "development",
     "source": "justarrived-generator"
   }

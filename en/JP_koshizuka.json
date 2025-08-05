@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kumamoto",
+      "iata_code": "KMJ",
+      "icao_code": "RJFT",
+      "distance_km": 14.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Saga",
+      "iata_code": "HSG",
+      "icao_code": "RJFS",
+      "distance_km": 48.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Saga Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Saga Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.saga-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Saga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:26.895654Z",
+    "generated_at": "2025-08-04T20:02:25.952507Z",
     "env": "development",
     "source": "justarrived-generator"
   }

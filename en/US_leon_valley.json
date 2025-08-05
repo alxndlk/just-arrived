@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Antonio International",
+      "iata_code": "SAT",
+      "icao_code": "KSAT",
+      "distance_km": 14.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.sanantonio-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAT Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stinson Municipalcipal",
+      "iata_code": "SSF",
+      "icao_code": "KSSF",
+      "distance_km": 14.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stinson Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private flights and offers a more luxurious and personalized experience."
+        }
+      ],
+      "website": "https://www.stinsonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stinson Airport WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:48.814321Z",
+    "generated_at": "2025-08-04T19:19:49.706175Z",
     "env": "development",
     "source": "justarrived-generator"
   }

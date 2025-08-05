@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Labo",
+      "iata_code": "OZC",
+      "icao_code": "RPMO",
+      "distance_km": 28.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal for flights to and from other countries."
+        }
+      ],
+      "website": "https://www.laboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Labo Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:58.494158Z",
+    "generated_at": "2025-08-04T18:42:49.794353Z",
     "env": "development",
     "source": "justarrived-generator"
   }

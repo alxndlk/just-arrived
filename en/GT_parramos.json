@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Aurora",
+      "iata_code": "GUA",
+      "icao_code": "MGGT",
+      "distance_km": 29.4,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/guatemala/la-aurora.php",
+      "wifi": {
+        "available": true,
+        "network_name": "LaAuroraAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:18.130546Z",
+    "generated_at": "2025-08-04T18:54:39.935350Z",
     "env": "development",
     "source": "justarrived-generator"
   }

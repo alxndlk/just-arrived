@@ -50,8 +50,47 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biratnagar",
+      "iata_code": "BIR",
+      "icao_code": "VNVT",
+      "distance_km": 42.5,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bhojpur",
+      "iata_code": "BHP",
+      "icao_code": "VNBJ",
+      "distance_km": 46.1,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bhojpur Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bhojpur Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.caanepal.org.np/bhojpur-airport.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Bhojpur Airport WiFi",
+        "note": "WiFi is available throughout the airport, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:43.715053Z",
+    "generated_at": "2025-08-04T19:59:25.560985Z",
     "env": "development",
     "source": "justarrived-generator"
   }

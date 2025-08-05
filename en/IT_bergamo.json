@@ -107,8 +107,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 4.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bergamo - Orio al Serio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used primarily for low-cost carriers."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGY Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 40.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Linate Airport, primarily used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE_FREE_WIFI",
+        "note": "Free WiFi is available throughout the airport. Network name and password can be found on signs throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:25.334120Z",
+    "generated_at": "2025-08-04T18:13:47.194640Z",
     "env": "development",
     "source": "justarrived-generator"
   }

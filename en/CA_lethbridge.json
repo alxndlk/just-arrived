@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lethbridge",
+      "iata_code": "YQL",
+      "icao_code": "CYQL",
+      "distance_km": 7.5,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lethbridge Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lethbridge Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.lethbridgeairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YQL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:41.511386Z",
+    "generated_at": "2025-08-04T18:19:45.048191Z",
     "env": "development",
     "source": "justarrived-generator"
   }

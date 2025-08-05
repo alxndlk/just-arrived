@@ -50,8 +50,59 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cheongju",
+      "iata_code": "CJJ",
+      "icao_code": "RKTU",
+      "distance_km": 34.6,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Jeonju",
+      "iata_code": "CHN",
+      "icao_code": "RKJU",
+      "distance_km": 37.0,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jeonju Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jeonju Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.airport.co.kr/chn",
+      "wifi": {
+        "available": true,
+        "network_name": "Jeonju Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Osan AB",
+      "iata_code": "OSN",
+      "icao_code": "RKSO",
+      "distance_km": 43.3,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:59.532544Z",
+    "generated_at": "2025-08-04T20:21:33.975406Z",
     "env": "development",
     "source": "justarrived-generator"
   }

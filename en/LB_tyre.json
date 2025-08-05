@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kiryat Shmona",
+      "iata_code": "KSW",
+      "icao_code": "LLKS",
+      "distance_km": 35.0,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kiryat Shmona Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.kswairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KSW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rosh Pina",
+      "iata_code": "RPN",
+      "icao_code": "LLIB",
+      "distance_km": 47.5,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Rosh Pina Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/rosh-pina-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RoshPinaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:01.211144Z",
+    "generated_at": "2025-08-04T18:26:40.733635Z",
     "env": "development",
     "source": "justarrived-generator"
   }

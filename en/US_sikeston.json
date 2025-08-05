@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Memorial",
+      "iata_code": "SIK",
+      "icao_code": "KSIK",
+      "distance_km": 3.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Cape Girardeau",
+      "iata_code": "CGI",
+      "icao_code": "KCGI",
+      "distance_km": 37.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cape Girardeau Airport handles all commercial flights and services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Cape Girardeau Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flycgi.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGIAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cairo",
+      "iata_code": "CIR",
+      "icao_code": "KCIR",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Cairo Airport, where most international and domestic flights operate."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "Terminal 1 is used for domestic flights within the United States."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for international flights to and from other countries."
+        }
+      ],
+      "website": "https://www.cairoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CairoAirportWifi",
+        "note": "Free wifi is available throughout the airport, but it may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "Malden",
+      "iata_code": "MAW",
+      "icao_code": "KMAW",
+      "distance_km": 47.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Malden Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Malden Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.maldenairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Malden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:18.403519Z",
+    "generated_at": "2025-08-04T20:18:35.570199Z",
     "env": "development",
     "source": "justarrived-generator"
   }

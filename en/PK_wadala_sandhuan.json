@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sialkot International",
+      "iata_code": "SKT",
+      "icao_code": "OPST",
+      "distance_km": 40.0,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sialkot International Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal used for Hajj and Umrah flights."
+        }
+      ],
+      "website": "https://www.sial.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "SIAL Airport Free WiFi",
+        "note": "Passengers can access free WiFi for 2 hours after which they will need to purchase a voucher."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:44.835232Z",
+    "generated_at": "2025-08-04T18:21:43.208546Z",
     "env": "development",
     "source": "justarrived-generator"
   }

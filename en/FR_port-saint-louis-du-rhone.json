@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 34.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marseille Provence Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and seasonal flights."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marseille Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may have limited speeds and data usage."
+      }
+    },
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 47.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Aix-en-Provence Aerodrome Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.marseille-airport.com/aix-en-provence-aerodrome",
+      "wifi": {
+        "available": true,
+        "network_name": "Aix-en-Provence Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:54.453472Z",
+    "generated_at": "2025-08-04T20:34:27.937962Z",
     "env": "development",
     "source": "justarrived-generator"
   }

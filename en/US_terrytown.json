@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 15.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lakefront Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 23.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport houses the majority of the airport's services and amenities."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Louis Armstrong New Orléans International Airport primarily serves domestic flights operated by American Airlines and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Louis Armstrong New Orléans International Airport primarily serves international flights operated by Southwest Airlines and Spirit Airlines."
+        }
+      ],
+      "website": "https://www.flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'MSY Free WiFi' from the list of available networks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:13.797194Z",
+    "generated_at": "2025-08-04T18:46:48.442603Z",
     "env": "development",
     "source": "justarrived-generator"
   }

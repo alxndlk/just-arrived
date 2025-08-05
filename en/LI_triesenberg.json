@@ -50,8 +50,56 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hohenems-Dornbirn",
+      "iata_code": "HOH",
+      "icao_code": "LOIH",
+      "distance_km": 31.8,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.hohenemsairport.at/",
+      "wifi": {
+        "available": true,
+        "network_name": "HOH Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Altenrhein",
+      "iata_code": "ACH",
+      "icao_code": "LSZR",
+      "distance_km": 40.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenrhein Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.altenrhein-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenrhein Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:35.682937Z",
+    "generated_at": "2025-08-04T19:38:00.335799Z",
     "env": "development",
     "source": "justarrived-generator"
   }

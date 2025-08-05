@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Satna",
+      "iata_code": "TNI",
+      "icao_code": "VIST",
+      "distance_km": 26.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Satna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Satna Airport, handling air freight and logistics operations."
+        }
+      ],
+      "website": "https://satnaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SatnaAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:26.840161Z",
+    "generated_at": "2025-08-04T18:46:51.151971Z",
     "env": "development",
     "source": "justarrived-generator"
   }

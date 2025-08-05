@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Worcester Regional Airport",
+      "iata_code": "ORH",
+      "icao_code": "KORH",
+      "distance_km": 21.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hanscom Field",
+      "iata_code": "BED",
+      "icao_code": "KBED",
+      "distance_km": 34.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hanscom Field Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.massport.com/hanscom-field/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hanscom Field WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "North Central",
+      "iata_code": "SFZ",
+      "icao_code": "KSFZ",
+      "distance_km": 39.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GDM",
+      "icao_code": "KGDM",
+      "distance_km": 45.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:21.412328Z",
+    "generated_at": "2025-08-04T20:13:36.258708Z",
     "env": "development",
     "source": "justarrived-generator"
   }

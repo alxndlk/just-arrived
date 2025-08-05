@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Luis Munoz Marin International",
+      "iata_code": "SJU",
+      "icao_code": "TJSJ",
+      "distance_km": 8.6,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Luis Munoz Marin International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Luis Munoz Marin International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sanjuancairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJU Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Isla Grande",
+      "iata_code": "SIG",
+      "icao_code": "TJIG",
+      "distance_km": 14.8,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Roosevelt NAS",
+      "iata_code": "NRR",
+      "icao_code": "TJNR",
+      "distance_km": 41.0,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:26.365005Z",
+    "generated_at": "2025-08-04T20:04:34.756955Z",
     "env": "development",
     "source": "justarrived-generator"
   }

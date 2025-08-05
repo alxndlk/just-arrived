@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hangzhou",
+      "iata_code": "HGH",
+      "icao_code": "ZSHC",
+      "distance_km": 46.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.hzairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HGH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:08.068973Z",
+    "generated_at": "2025-08-04T18:43:50.433957Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Suvarnabhumi International",
+      "iata_code": "BKK",
+      "icao_code": "VTBS",
+      "distance_km": 13.8,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Suvarnabhumi International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Suvarnabhumi International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.bangkokairportonline.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BKK Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but may have limited speed and connectivity."
+      }
+    },
+    {
+      "airport_name": "Don Muang",
+      "iata_code": "DMK",
+      "icao_code": "VTBD",
+      "distance_km": 42.8,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.donmueangairportthai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DMK Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:44.481230Z",
+    "generated_at": "2025-08-04T18:49:49.220873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

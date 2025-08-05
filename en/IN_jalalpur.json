@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Surat",
+      "iata_code": "STV",
+      "icao_code": "VASU",
+      "distance_km": 25.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Surat Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newly constructed terminal at Surat Airport, exclusively for domestic flights."
+        }
+      ],
+      "website": "https://www.suratairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SuratAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:03.965086Z",
+    "generated_at": "2025-08-04T20:30:31.505247Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,56 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arapiraca",
+      "iata_code": "APQ",
+      "icao_code": "SNAL",
+      "distance_km": 15.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Maceio",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Arapiraca Airport serves all domestic flights within Brazil."
+        }
+      ],
+      "website": "https://www.aeroportosdobrasil.com.br/en/aeroporto-de-arapiraca-apq/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arapiraca Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Campo Alegre",
+      "iata_code": "CMP",
+      "icao_code": "SNKE",
+      "distance_km": 31.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Belem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Campo Alegre Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Campo Alegre Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.campoalegreairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CampoAlegreAirportWiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:42.191752Z",
+    "generated_at": "2025-08-04T19:23:49.011311Z",
     "env": "development",
     "source": "justarrived-generator"
   }

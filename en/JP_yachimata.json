@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 13.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Narita Airport's main terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Narita Airport's second terminal, primarily used for international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Narita Airport's newest terminal, exclusively used by low-cost carriers."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport with unlimited usage."
+      }
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 49.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Haneda Airport, serving airlines such as Japan Airlines, ANA, and Delta."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic terminal at Haneda Airport, serving airlines such as Skymark Airlines, Jetstar Japan, and StarFlyer."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/inter/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection every 3 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:17.036026Z",
+    "generated_at": "2025-08-04T18:24:50.401920Z",
     "env": "development",
     "source": "justarrived-generator"
   }

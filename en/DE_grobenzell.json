@@ -49,8 +49,84 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fuerstenfeldbruck",
+      "iata_code": "FEL",
+      "icao_code": "ETSF",
+      "distance_km": 7.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Oberpfaffenhofen",
+      "iata_code": "OBF",
+      "icao_code": "EDMO",
+      "distance_km": 14.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oberpfaffenhofen Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A separate terminal for private and charter flights at Oberpfaffenhofen Airport."
+        }
+      ],
+      "website": "https://www.oberpfaffenhofen-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OBF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 35.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Franz Josef Strauss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal of Franz Josef Strauss Airport, mainly serving low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Augsburg - Muehlhausen",
+      "iata_code": "AGB",
+      "icao_code": "EDMA",
+      "distance_km": 40.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:21.885845Z",
+    "generated_at": "2025-08-04T20:15:29.966707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

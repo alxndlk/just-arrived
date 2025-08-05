@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Forbes",
+      "iata_code": "FRB",
+      "icao_code": "YFBS",
+      "distance_km": 3.6,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Forbes Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Forbes Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.forbesairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "ForbesAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Parkes",
+      "iata_code": "PKE",
+      "icao_code": "YPKS",
+      "distance_km": 33.8,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:24.753666Z",
+    "generated_at": "2025-08-04T20:34:30.848383Z",
     "env": "development",
     "source": "justarrived-generator"
   }

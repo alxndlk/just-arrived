@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miramare",
+      "iata_code": "RMI",
+      "icao_code": "LIPR",
+      "distance_km": 6.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Luigi Ridolfi",
+      "iata_code": "FRL",
+      "icao_code": "LIPK",
+      "distance_km": 49.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Luigi Ridolfi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Luigi Ridolfi Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.lridolfiairport.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "LR Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:03.388846Z",
+    "generated_at": "2025-08-04T20:28:32.055536Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -52,8 +52,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Las Brujas",
+      "iata_code": "BWW",
+      "icao_code": "MUBR",
+      "distance_km": 35.4,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Abel Santa Maria",
+      "iata_code": "SNU",
+      "icao_code": "MUSC",
+      "distance_km": 48.3,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.abelsantamariaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AbelSantaMariaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:37.153638Z",
+    "generated_at": "2025-08-04T20:06:26.806403Z",
     "env": "development",
     "source": "justarrived-generator"
   }

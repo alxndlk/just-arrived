@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 47.2,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/torrejon-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "TOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 48.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The oldest terminal at Barajas Airport, currently undergoing renovations."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A small terminal used mainly for domestic flights and low-cost carriers."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The main terminal at Barajas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "Also known as Terminal 4 Satellite, this terminal is connected to Terminal 4 and mainly serves long-haul international flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Barajas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option with faster speeds is also available for purchase."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:04.968173Z",
+    "generated_at": "2025-08-04T18:26:42.564229Z",
     "env": "development",
     "source": "justarrived-generator"
   }

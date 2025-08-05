@@ -51,8 +51,35 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Blue Danube",
+      "iata_code": "LNZ",
+      "icao_code": "LOWL",
+      "distance_km": 23.4,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Blue Danube Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.blue-danube-airport.at/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BD Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:51.002000Z",
+    "generated_at": "2025-08-04T19:30:59.821533Z",
     "env": "development",
     "source": "justarrived-generator"
   }

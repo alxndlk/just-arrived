@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sao Jose Do Rio Preto",
+      "iata_code": "SJP",
+      "icao_code": "SBSR",
+      "distance_km": 32.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Votuporanga",
+      "iata_code": "VOT",
+      "icao_code": "SDVG",
+      "distance_km": 32.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "http://www.aeroportovotuporanga.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "Votuporanga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:00.050270Z",
+    "generated_at": "2025-08-04T20:11:32.905838Z",
     "env": "development",
     "source": "justarrived-generator"
   }

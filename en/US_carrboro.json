@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Raleigh-durham International Airport",
+      "iata_code": "RDU",
+      "icao_code": "KRDU",
+      "distance_km": 27.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at RDU, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The original terminal at RDU, now used for domestic flights by several airlines."
+        }
+      ],
+      "website": "https://www.rdu.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RDU Guest WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:11.610157Z",
+    "generated_at": "2025-08-04T18:53:40.557425Z",
     "env": "development",
     "source": "justarrived-generator"
   }

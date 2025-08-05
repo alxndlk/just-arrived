@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malay",
+      "iata_code": "MPH",
+      "icao_code": "RPWY",
+      "distance_km": 25.6,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.malayairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MPH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kalibo",
+      "iata_code": "KLO",
+      "icao_code": "RPVK",
+      "distance_km": 28.2,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.kaliboairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:33.903515Z",
+    "generated_at": "2025-08-04T18:28:49.910046Z",
     "env": "development",
     "source": "justarrived-generator"
   }

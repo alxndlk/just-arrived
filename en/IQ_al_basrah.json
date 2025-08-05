@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Basrah International Airport ",
+      "iata_code": "BSR",
+      "icao_code": "ORMM",
+      "distance_km": 4.8,
+      "gmt": "3",
+      "country": "Iraq",
+      "timezone": "Asia/Baghdad",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for domestic flights."
+        }
+      ],
+      "website": "https://www.basrah-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Basrah Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Abadan",
+      "iata_code": "ABD",
+      "icao_code": "OIAA",
+      "distance_km": 43.3,
+      "gmt": "3.30",
+      "country": "Iran",
+      "timezone": "Asia/Tehran",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Abadan Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Abadan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://abadanairport.ir/",
+      "wifi": {
+        "available": true,
+        "network_name": "Abadan Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:28.575255Z",
+    "generated_at": "2025-08-04T18:04:44.012088Z",
     "env": "development",
     "source": "justarrived-generator"
   }

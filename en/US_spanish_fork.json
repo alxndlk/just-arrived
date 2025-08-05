@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Provo",
+      "iata_code": "PVU",
+      "icao_code": "KPVU",
+      "distance_km": 13.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provo Airport serves all domestic flights and houses the check-in counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Provo Airport serves private and charter flights and offers amenities such as a pilot lounge and flight planning facilities."
+        }
+      ],
+      "website": "https://www.provo.org/departments/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Provo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:29.758211Z",
+    "generated_at": "2025-08-04T18:32:39.788674Z",
     "env": "development",
     "source": "justarrived-generator"
   }

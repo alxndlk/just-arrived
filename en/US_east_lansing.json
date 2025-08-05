@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Capital City",
+      "iata_code": "LAN",
+      "icao_code": "KLAN",
+      "distance_km": 9.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Capital City Airport serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.capitalcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CapitalCityAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:33.846178Z",
+    "generated_at": "2025-08-04T18:31:41.806522Z",
     "env": "development",
     "source": "justarrived-generator"
   }

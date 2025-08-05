@@ -51,8 +51,72 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 1.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lausanne Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lausanne Airport is reserved for VIP and private charter flights."
+        }
+      ],
+      "website": "https://www.lausanne-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lausanne Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QNJ",
+      "icao_code": "LFLI",
+      "distance_km": 45.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Annemasse Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.annemasse-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Annemasse Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QYA",
+      "icao_code": "LFLI",
+      "distance_km": 45.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:47.350396Z",
+    "generated_at": "2025-08-04T20:24:28.776410Z",
     "env": "development",
     "source": "justarrived-generator"
   }

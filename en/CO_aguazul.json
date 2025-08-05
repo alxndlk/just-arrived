@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Yopal",
+      "iata_code": "EYP",
+      "icao_code": "SKYP",
+      "distance_km": 24.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at El Yopal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/ElYopal",
+      "wifi": {
+        "available": true,
+        "network_name": "EYP Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:42.604960Z",
+    "generated_at": "2025-08-04T18:32:43.846057Z",
     "env": "development",
     "source": "justarrived-generator"
   }

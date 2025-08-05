@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Renaison",
+      "iata_code": "RNE",
+      "icao_code": "LFLO",
+      "distance_km": 5.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Renaison Airport is where all commercial flights arrive and depart from."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Renaison Airport is reserved for VIP and private flights."
+        }
+      ],
+      "website": "https://www.renaisonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Renaison Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Charolais Bourgogne S.",
+      "iata_code": "SYT",
+      "icao_code": "LFLN",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for mainly regional flights."
+        }
+      ],
+      "website": "https://www.charolais-bourgogne-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:59.436120Z",
+    "generated_at": "2025-08-04T18:37:40.584659Z",
     "env": "development",
     "source": "justarrived-generator"
   }

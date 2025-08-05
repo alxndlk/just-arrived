@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Amausi",
+      "iata_code": "LKO",
+      "icao_code": "VILK",
+      "distance_km": 5.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles only domestic flights."
+        }
+      ],
+      "website": "http://www.aai.aero/en/airports/lucknow",
+      "wifi": {
+        "available": true,
+        "network_name": "Amausi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:00.621942Z",
+    "generated_at": "2025-08-04T19:16:51.222946Z",
     "env": "development",
     "source": "justarrived-generator"
   }

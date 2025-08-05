@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sonoma County",
+      "iata_code": "STS",
+      "icao_code": "KSTS",
+      "distance_km": 5.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sonoma County Airport handles all commercial flights and is equipped with all necessary amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sonoma County Airport caters to private and chartered flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.sonomacountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCA Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for a limited time. Additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:59.793604Z",
+    "generated_at": "2025-08-04T19:34:39.837493Z",
     "env": "development",
     "source": "justarrived-generator"
   }

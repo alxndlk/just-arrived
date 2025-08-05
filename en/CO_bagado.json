@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Quibdo",
+      "iata_code": "UIB",
+      "icao_code": "SKUI",
+      "distance_km": 39.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mandinga",
+      "iata_code": "COG",
+      "icao_code": "SKCD",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.mandingaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandinga Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:19.096624Z",
+    "generated_at": "2025-08-04T20:22:37.032056Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,110 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 30.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves mainly international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves mainly domestic and US flights."
+        }
+      ],
+      "website": "https://yul.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YUL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mirabel",
+      "iata_code": "YMX",
+      "icao_code": "CYMX",
+      "distance_km": 30.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Domestic and international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Low-cost carriers"
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "YMX Airport WiFi",
+        "note": "Free for 2 hours, then requires purchase"
+      }
+    },
+    {
+      "airport_name": "St Hubert",
+      "iata_code": "YHU",
+      "icao_code": "CYHU",
+      "distance_km": 43.1,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Hubert Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Hubert Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.admtl.com/en/airports/saint-hubert",
+      "wifi": {
+        "available": true,
+        "network_name": "YHU Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cornwall Regional Airport",
+      "iata_code": "YCC",
+      "icao_code": "CYCC",
+      "distance_km": 47.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cornwall Regional Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.cornwallairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cornwall Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:54.340665Z",
+    "generated_at": "2025-08-04T18:51:46.114984Z",
     "env": "development",
     "source": "justarrived-generator"
   }

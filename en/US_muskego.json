@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "General Mitchell International",
+      "iata_code": "MKE",
+      "icao_code": "KMKE",
+      "distance_km": 19.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "This concourse serves mainly domestic flights."
+        },
+        {
+          "name": "Concourse D",
+          "description": "This concourse serves international flights."
+        }
+      ],
+      "website": "https://www.mitchellairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MKE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lawrence J Timmerman",
+      "iata_code": "MWC",
+      "icao_code": "KMWC",
+      "distance_km": 23.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lawrence J Timmerman Airport houses all check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The General Aviation Terminal at Lawrence J Timmerman Airport is used for private and corporate flights, and is equipped with a lounge and amenities for passengers."
+        }
+      ],
+      "website": "https://www.milwaukee.gov/Timmerman",
+      "wifi": {
+        "available": true,
+        "network_name": "Timmerman Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network after agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Kenosha Regional Airport",
+      "iata_code": "ENW",
+      "icao_code": "KENW",
+      "distance_km": 42.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kenosha Regional Airport, serving all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kenosha Regional Airport, handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.kenoshaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kenosha Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:09.879962Z",
+    "generated_at": "2025-08-04T18:47:45.140285Z",
     "env": "development",
     "source": "justarrived-generator"
   }

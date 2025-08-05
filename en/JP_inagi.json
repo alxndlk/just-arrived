@@ -50,8 +50,63 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 18.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 27.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Haneda Airport, primarily serving domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Haneda Airport, exclusively serving low-cost carriers."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration."
+      }
+    },
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 28.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:17.087322Z",
+    "generated_at": "2025-08-04T19:59:35.208154Z",
     "env": "development",
     "source": "justarrived-generator"
   }

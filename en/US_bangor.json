@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bangor International Airport",
+      "iata_code": "BGR",
+      "icao_code": "KBGR",
+      "distance_km": 3.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bangor International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bangor International Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://flybangor.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGR Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'BGR Free WiFi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Old Town",
+      "iata_code": "OLD",
+      "icao_code": "KOLD",
+      "distance_km": 15.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Old Town Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Old Town Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.oldtownairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "OldTownAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:21.621204Z",
+    "generated_at": "2025-08-04T18:40:41.267826Z",
     "env": "development",
     "source": "justarrived-generator"
   }

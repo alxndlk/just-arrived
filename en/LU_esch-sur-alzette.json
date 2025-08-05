@@ -47,8 +47,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 22.3,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Findel Airport, primarily for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.findel-airport.lu/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:56.339780Z",
+    "generated_at": "2025-08-04T18:36:40.472250Z",
     "env": "development",
     "source": "justarrived-generator"
   }

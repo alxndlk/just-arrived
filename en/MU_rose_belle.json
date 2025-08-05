@@ -50,8 +50,35 @@
     "fire": "115"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sir Seewoosagur Ramgoolam International",
+      "iata_code": "MRU",
+      "icao_code": "FIMP",
+      "distance_km": 8.0,
+      "gmt": "4",
+      "country": "Mauritius",
+      "timezone": "Indian/Mauritius",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic terminal for local flights."
+        }
+      ],
+      "website": "https://mauritius-airport.intnet.mu/",
+      "wifi": {
+        "available": true,
+        "network_name": "MRU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:59.542667Z",
+    "generated_at": "2025-08-04T19:14:38.628605Z",
     "env": "development",
     "source": "justarrived-generator"
   }

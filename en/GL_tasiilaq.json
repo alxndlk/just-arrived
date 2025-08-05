@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tasiilaq",
+      "iata_code": "AGM",
+      "icao_code": "BGAM",
+      "distance_km": 2.8,
+      "gmt": "-3",
+      "country": "Greenland",
+      "timezone": "America/Godthab",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kulusuk",
+      "iata_code": "KUS",
+      "icao_code": "BGKK",
+      "distance_km": 24.2,
+      "gmt": "-3",
+      "country": "Greenland",
+      "timezone": "America/Godthab",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kulusuk Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.airgreenland.com/destinations/kulusuk",
+      "wifi": {
+        "available": true,
+        "network_name": "Kulusuk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:51.743969Z",
+    "generated_at": "2025-08-04T20:35:25.947436Z",
     "env": "development",
     "source": "justarrived-generator"
   }

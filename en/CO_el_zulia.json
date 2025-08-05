@@ -50,8 +50,97 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Camilo Dazo",
+      "iata_code": "CUC",
+      "icao_code": "SKCC",
+      "distance_km": 10.1,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Camilo Dazo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Camilo Dazo Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://aeropuertocucuta.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CUC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Antonio",
+      "iata_code": "SVZ",
+      "icao_code": "SVSA",
+      "distance_km": 20.5,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Antonio Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Antonio Airport is responsible for handling all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.sanantonioairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "San Antonio Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "San Cristobal",
+      "iata_code": "SCI",
+      "icao_code": "SVPM",
+      "distance_km": 44.4,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "La Fria",
+      "iata_code": "LFR",
+      "icao_code": "SVLF",
+      "distance_km": 49.7,
+      "gmt": "-4",
+      "country": "Venezuela",
+      "timezone": "America/Caracas",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Fria Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at La Fria Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.aeropuertolafria.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaFriaAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:16.010038Z",
+    "generated_at": "2025-08-04T20:12:30.242943Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pingtung",
+      "iata_code": "PIF",
+      "icao_code": "RCDC",
+      "distance_km": 10.1,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.pif-airport.com.tw/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kaoshiung International Airport",
+      "iata_code": "KHH",
+      "icao_code": "RCKH",
+      "distance_km": 30.9,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kaoshiung International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The newest terminal at Kaoshiung International Airport, exclusively serving international flights."
+        }
+      ],
+      "website": "https://www.kia.gov.tw/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIA_Free_WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Tainan",
+      "iata_code": "TNN",
+      "icao_code": "RCNN",
+      "distance_km": 42.5,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tainan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights."
+        }
+      ],
+      "website": "https://www.tna.gov.tw/",
+      "wifi": {
+        "available": true,
+        "network_name": "TNA_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:18.776392Z",
+    "generated_at": "2025-08-04T18:49:43.711207Z",
     "env": "development",
     "source": "justarrived-generator"
   }

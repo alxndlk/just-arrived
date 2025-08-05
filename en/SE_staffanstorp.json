@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sturup",
+      "iata_code": "MMX",
+      "icao_code": "ESMS",
+      "distance_km": 14.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sturup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/malmo/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sturup Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 35.7,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal for international flights at Kastrup Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The secondary terminal for domestic and regional flights at Kastrup Airport."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "Limited free access with option to purchase higher speed."
+      }
+    },
+    {
+      "airport_name": "Ljungbyhed Airport",
+      "iata_code": "QEL",
+      "icao_code": "ESTL",
+      "distance_km": 50.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ljungbyhed Airport offers a variety of services for passengers including check-in, baggage claim, and dining options."
+        },
+        {
+          "name": "Private Aviation Terminal",
+          "description": "For private and charter flights, the private aviation terminal at Ljungbyhed Airport offers a VIP lounge and dedicated services for a more comfortable and efficient travel experience."
+        }
+      ],
+      "website": "https://www.ljungbyhedairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ljungbyhed Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:19.012660Z",
+    "generated_at": "2025-08-04T20:08:30.599475Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kitzingen",
+      "iata_code": "KZG",
+      "icao_code": "ETIN",
+      "distance_km": 32.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kitzingen Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kitzingen Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kitzingenairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "KZG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Giebelstadt Army Air Field",
+      "iata_code": "GHF",
+      "icao_code": "ETEU",
+      "distance_km": 36.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Giebelstadt Army Air Field Airport handles all commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Giebelstadt Army Air Field Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.army.mil/ghf",
+      "wifi": {
+        "available": true,
+        "network_name": "GHF Airport Wifi",
+        "note": "Wifi is available throughout the airport, but a password is required for access."
+      }
+    },
+    {
+      "airport_name": "Nürnberg",
+      "iata_code": "NUE",
+      "icao_code": "EDDN",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nürnberg Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.airport-nuernberg.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NUE Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but a premium option is also available for faster speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:07.982510Z",
+    "generated_at": "2025-08-04T20:23:33.486316Z",
     "env": "development",
     "source": "justarrived-generator"
   }

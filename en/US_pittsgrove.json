@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 17.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Philadelphia International",
+      "iata_code": "PHL",
+      "icao_code": "KPHL",
+      "distance_km": 38.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Greater Wilmington",
+      "iata_code": "ILG",
+      "icao_code": "KILG",
+      "distance_km": 43.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Wilmington Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Greater Wilmington Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flywilmilg.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ILG Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for all passengers."
+      }
+    },
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 48.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Atlantic City International Airport handles all commercial flights and provides various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Atlantic City International Airport caters to private and chartered flights, offering a comfortable and convenient experience for passengers."
+        }
+      ],
+      "website": "https://www.sjta.com/acairport/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACY Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:26.116407Z",
+    "generated_at": "2025-08-04T20:33:29.476614Z",
     "env": "development",
     "source": "justarrived-generator"
   }

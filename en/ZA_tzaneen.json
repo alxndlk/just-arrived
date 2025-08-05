@@ -50,8 +50,56 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Letaba",
+      "iata_code": "LTA",
+      "icao_code": "FATZ",
+      "distance_km": 1.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.airports.co.za/airports/letaba-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Letaba Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Polokwane",
+      "iata_code": "PTG",
+      "icao_code": "FAPI",
+      "distance_km": 22.4,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Polokwane Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.airports.co.za/airports/polokwane-international",
+      "wifi": {
+        "available": true,
+        "network_name": "Polokwane Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:47.079861Z",
+    "generated_at": "2025-08-04T19:08:41.165474Z",
     "env": "development",
     "source": "justarrived-generator"
   }

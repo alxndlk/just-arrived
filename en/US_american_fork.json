@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Provo",
+      "iata_code": "PVU",
+      "icao_code": "KPVU",
+      "distance_km": 18.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provo Airport houses all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Provo Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.provoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Provo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 47.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for major airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles international flights and some domestic flights for smaller airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Handles regional flights for smaller airlines."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:01.195336Z",
+    "generated_at": "2025-08-04T18:37:41.718235Z",
     "env": "development",
     "source": "justarrived-generator"
   }

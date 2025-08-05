@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Napa County",
+      "iata_code": "APC",
+      "icao_code": "KAPC",
+      "distance_km": 32.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buchanan Field",
+      "iata_code": "CCR",
+      "icao_code": "KCCR",
+      "distance_km": 40.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Metropolitan Oak International",
+      "iata_code": "OAK",
+      "icao_code": "KOAK",
+      "distance_km": 41.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Metropolitan Oak International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at Metropolitan Oak International Airport, serving mostly domestic flights."
+        }
+      ],
+      "website": "https://www.oaklandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "OAK Free WiFi",
+        "note": "WiFi is available throughout the airport, with no time limit."
+      }
+    },
+    {
+      "airport_name": "San Francisco International",
+      "iata_code": "SFO",
+      "icao_code": "KSFO",
+      "distance_km": 43.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:50.236972Z",
+    "generated_at": "2025-08-04T20:02:27.770010Z",
     "env": "development",
     "source": "justarrived-generator"
   }

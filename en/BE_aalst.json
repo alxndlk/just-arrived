@@ -51,8 +51,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 31.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal for low-cost carriers."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Deurne/ Antwerp Airport",
+      "iata_code": "ANR",
+      "icao_code": "EBAW",
+      "distance_km": 40.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Deurne/ Antwerp Airport, offering domestic and international flights."
+        }
+      ],
+      "website": "https://www.antwerp-airport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Antwerp Airport Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:51.792873Z",
+    "generated_at": "2025-08-04T18:20:47.911277Z",
     "env": "development",
     "source": "justarrived-generator"
   }

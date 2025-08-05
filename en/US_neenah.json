@@ -48,8 +48,97 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Outagamie County",
+      "iata_code": "ATW",
+      "icao_code": "KATW",
+      "distance_km": 10.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "This terminal serves regional flights to nearby cities."
+        }
+      ],
+      "website": "http://www.atwairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wittman Field",
+      "iata_code": "OSH",
+      "icao_code": "KOSH",
+      "distance_km": 21.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fond Du Lac",
+      "iata_code": "FLD",
+      "icao_code": "KFLD",
+      "distance_km": 44.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fond Du Lac Airport serves all commercial flights and includes amenities such as a food court, gift shops, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Fond Du Lac Airport caters to private and chartered flights, offering luxury lounges and concierge services."
+        }
+      ],
+      "website": "https://www.fdlairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Austin-straubel Field",
+      "iata_code": "GRB",
+      "icao_code": "KGRB",
+      "distance_km": 45.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Executive Terminal",
+          "description": "This terminal is reserved for private and corporate flights."
+        }
+      ],
+      "website": "https://www.greenbay.com/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:06.553365Z",
+    "generated_at": "2025-08-04T20:10:29.269669Z",
     "env": "development",
     "source": "justarrived-generator"
   }

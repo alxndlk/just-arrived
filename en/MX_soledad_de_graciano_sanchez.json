@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Luis Potosi",
+      "iata_code": "SLP",
+      "icao_code": "MMSP",
+      "distance_km": 8.0,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis Potosi Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Luis Potosi Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://slpairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:35.196168Z",
+    "generated_at": "2025-08-04T18:07:42.002032Z",
     "env": "development",
     "source": "justarrived-generator"
   }

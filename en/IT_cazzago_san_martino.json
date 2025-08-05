@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bergamo - Orio al Serio",
+      "iata_code": "BGY",
+      "icao_code": "LIME",
+      "distance_km": 27.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanbergamoairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brescia Montichiari",
+      "iata_code": "VBS",
+      "icao_code": "LIPO",
+      "distance_km": 29.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost flights."
+        }
+      ],
+      "website": "https://www.aeroportobrescia.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brescia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:30.624916Z",
+    "generated_at": "2025-08-04T19:23:43.892460Z",
     "env": "development",
     "source": "justarrived-generator"
   }

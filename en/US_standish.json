@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "International Jetport",
+      "iata_code": "PWM",
+      "icao_code": "KPWM",
+      "distance_km": 25.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.portlandjetport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PWM Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sanford",
+      "iata_code": "SFM",
+      "icao_code": "KSFM",
+      "distance_km": 41.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights at Sanford Airport."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal serves private and charter flights at Sanford Airport."
+        }
+      ],
+      "website": "https://www.orlandosanfordairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFM Free WiFi",
+        "note": "No password required."
+      }
+    },
+    {
+      "airport_name": "Auburn",
+      "iata_code": "LEW",
+      "icao_code": "KLEW",
+      "distance_km": 44.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Auburn Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Auburn Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.auburnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Auburn Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:27.038390Z",
+    "generated_at": "2025-08-04T19:24:05.239888Z",
     "env": "development",
     "source": "justarrived-generator"
   }

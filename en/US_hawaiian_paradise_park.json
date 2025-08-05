@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hilo International",
+      "iata_code": "ITO",
+      "icao_code": "PHTO",
+      "distance_km": 16.4,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hilo International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Inter-Island Terminal",
+          "description": "The inter-island terminal at Hilo International Airport serves flights between the Hawaiian Islands."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/ito/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITO Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:55.892006Z",
+    "generated_at": "2025-08-04T19:12:45.724912Z",
     "env": "development",
     "source": "justarrived-generator"
   }

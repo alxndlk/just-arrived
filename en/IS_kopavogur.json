@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reykjavik Domestic",
+      "iata_code": "RKV",
+      "icao_code": "BIRK",
+      "distance_km": 2.5,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic flights at Reykjavik Domestic Airport."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.isavia.is/en/reykjavik-domestic-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RKV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Keflavik International",
+      "iata_code": "KEF",
+      "icao_code": "BIKF",
+      "distance_km": 37.0,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Keflavik International Airport, serving both international and domestic flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Keflavik International Airport is dedicated to handling international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Keflavik International Airport is primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.kefairport.is/",
+      "wifi": {
+        "available": true,
+        "network_name": "KEF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:44.297907Z",
+    "generated_at": "2025-08-04T20:05:34.531740Z",
     "env": "development",
     "source": "justarrived-generator"
   }

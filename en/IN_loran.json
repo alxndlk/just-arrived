@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Srinagar",
+      "iata_code": "SXR",
+      "icao_code": "VISR",
+      "distance_km": 44.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://srinagarairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SXR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rawala Kot",
+      "iata_code": "RAZ",
+      "icao_code": "OPRT",
+      "distance_km": 46.0,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rawala Kot Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rawala Kot Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.rawalakotairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Rawala Kot Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for 1 hour."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:55.204611Z",
+    "generated_at": "2025-08-04T19:19:51.669849Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,39 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 15.9,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves primarily domestic and regional flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves primarily international flights."
+        },
+        {
+          "name": "Terminal E",
+          "description": "This terminal is used for long-haul and intercontinental flights."
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:18.462093Z",
+    "generated_at": "2025-08-04T19:00:38.938804Z",
     "env": "development",
     "source": "justarrived-generator"
   }

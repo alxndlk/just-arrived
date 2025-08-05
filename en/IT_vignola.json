@@ -51,8 +51,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Guglielmo Marconi",
+      "iata_code": "BLQ",
+      "icao_code": "LIPE",
+      "distance_km": 23.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Guglielmo Marconi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.bologna-airport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BLQ_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:14.803818Z",
+    "generated_at": "2025-08-04T18:46:45.685560Z",
     "env": "development",
     "source": "justarrived-generator"
   }

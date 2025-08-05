@@ -48,8 +48,35 @@
     "ambulance": "199"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Minna",
+      "iata_code": "MXJ",
+      "icao_code": "DNMN",
+      "distance_km": 46.8,
+      "gmt": "1",
+      "country": "Nigeria",
+      "timezone": "Africa/Lagos",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "This terminal is reserved for VIP and private flights."
+        }
+      ],
+      "website": "https://www.minnaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Minna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:21.714558Z",
+    "generated_at": "2025-08-04T18:48:41.472201Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hail",
+      "iata_code": "HAS",
+      "icao_code": "OEHL",
+      "distance_km": 8.8,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hail Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.hailairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hail Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:56.965169Z",
+    "generated_at": "2025-08-04T18:07:48.103795Z",
     "env": "development",
     "source": "justarrived-generator"
   }

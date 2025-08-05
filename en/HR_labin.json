@@ -51,8 +51,56 @@
     "police": "192"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pula",
+      "iata_code": "PUY",
+      "icao_code": "LDPL",
+      "distance_km": 26.2,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pula Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.pula-airport.hr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pula Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rijeka",
+      "iata_code": "RJK",
+      "icao_code": "LDRI",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "Croatia",
+      "timezone": "Europe/Zagreb",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Rijeka Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.rijeka-airport.hr/",
+      "wifi": {
+        "available": true,
+        "network_name": "RJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:01.748465Z",
+    "generated_at": "2025-08-04T19:24:52.966447Z",
     "env": "development",
     "source": "justarrived-generator"
   }

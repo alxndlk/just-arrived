@@ -51,8 +51,51 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sheremetyevo International",
+      "iata_code": "SVO",
+      "icao_code": "UUEE",
+      "distance_km": 36.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The newest terminal at Sheremetyevo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The older terminal at Sheremetyevo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The main terminal at Sheremetyevo Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal D",
+          "description": "The terminal at Sheremetyevo Airport dedicated to flights operated by Aeroflot."
+        },
+        {
+          "name": "Terminal E",
+          "description": "The terminal at Sheremetyevo Airport dedicated to flights operated by other airlines."
+        },
+        {
+          "name": "Terminal F",
+          "description": "The terminal at Sheremetyevo Airport dedicated to low-cost carriers."
+        }
+      ],
+      "website": "https://www.svo.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "SVO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:35.560351Z",
+    "generated_at": "2025-08-04T18:30:45.583950Z",
     "env": "development",
     "source": "justarrived-generator"
   }

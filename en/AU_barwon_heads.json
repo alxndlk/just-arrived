@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Geelong",
+      "iata_code": "GEX",
+      "icao_code": "YGLG",
+      "distance_km": 19.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Geelong Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Geelong Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.geelongairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Geelong Airport WiFi",
+        "note": "WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Avalon",
+      "iata_code": "AVV",
+      "icao_code": "YMAV",
+      "distance_km": 25.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Avalon Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.avalonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "AVV Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:21.914249Z",
+    "generated_at": "2025-08-04T19:09:48.940946Z",
     "env": "development",
     "source": "justarrived-generator"
   }

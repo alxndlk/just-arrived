@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ninoy Aquino International",
+      "iata_code": "MNL",
+      "icao_code": "RPLL",
+      "distance_km": 15.1,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Ninoy Aquino International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Also known as the Centennial Terminal, it primarily serves Philippine Airlines and its subsidiaries for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Ninoy Aquino International Airport, serving both domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Also known as the Domestic Terminal, it is the smallest terminal at Ninoy Aquino International Airport, serving mostly domestic flights."
+        }
+      ],
+      "website": "https://www.mnlairport.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAIA WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slow and unreliable at times."
+      }
+    },
+    {
+      "airport_name": "Baler",
+      "iata_code": "BQA",
+      "icao_code": "RPUR",
+      "distance_km": 41.7,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic flights to and from Baler and other nearby cities."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from Baler, connecting to major cities around the world."
+        }
+      ],
+      "website": "https://www.balerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:16.772365Z",
+    "generated_at": "2025-08-04T19:05:41.560840Z",
     "env": "development",
     "source": "justarrived-generator"
   }

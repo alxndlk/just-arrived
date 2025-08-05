@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sandefjord",
+      "iata_code": "TRF",
+      "icao_code": "ENTO",
+      "distance_km": 16.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Moss Airport",
+      "iata_code": "RYG",
+      "icao_code": "ENRY",
+      "distance_km": 23.2,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Moss Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Moss Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.ryg.no/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "RYG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:27.287811Z",
+    "generated_at": "2025-08-04T20:02:30.529492Z",
     "env": "development",
     "source": "justarrived-generator"
   }

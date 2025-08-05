@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Touquet",
+      "iata_code": "LTQ",
+      "icao_code": "LFAT",
+      "distance_km": 23.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Le Touquet Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.letouquetairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LTQ Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for unlimited access."
+      }
+    },
+    {
+      "airport_name": "Calais",
+      "iata_code": "CQF",
+      "icao_code": "LFAC",
+      "distance_km": 32.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Calais Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Calais Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.calaisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Calais Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:16.676656Z",
+    "generated_at": "2025-08-04T19:21:49.141724Z",
     "env": "development",
     "source": "justarrived-generator"
   }

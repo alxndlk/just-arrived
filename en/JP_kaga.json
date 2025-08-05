@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komatsu",
+      "iata_code": "KMQ",
+      "icao_code": "RJNK",
+      "distance_km": 14.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Komatsu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Komatsu Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.komatsu-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komatsu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fukui",
+      "iata_code": "FKJ",
+      "icao_code": "RJNF",
+      "distance_km": 19.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fukui Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fukui Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.fukui-airport.co.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fukui Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:10.690229Z",
+    "generated_at": "2025-08-04T18:25:45.532384Z",
     "env": "development",
     "source": "justarrived-generator"
   }

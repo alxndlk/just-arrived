@@ -51,8 +51,39 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 7.7,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles domestic and international flights for airlines such as Swiss, Lufthansa, and Air France."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Serves as a hub for low-cost carriers such as EasyJet and Ryanair."
+        },
+        {
+          "name": "Terminal E",
+          "description": "Dedicated to handling long-haul flights for airlines such as Emirates, Singapore Airlines, and Delta."
+        }
+      ],
+      "website": "https://www.zurich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zurich Airport Free WiFi",
+        "note": "Passengers can connect to the free WiFi network for up to 2 hours per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:31.494540Z",
+    "generated_at": "2025-08-04T18:55:40.985089Z",
     "env": "development",
     "source": "justarrived-generator"
   }

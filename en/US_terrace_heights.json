@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yakima Air Terminal",
+      "iata_code": "YKM",
+      "icao_code": "KYKM",
+      "distance_km": 8.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yakima Air Terminal Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Yakima Air Terminal Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.yakimaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YKM Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport by connecting to the designated network."
+      }
+    },
+    {
+      "airport_name": "Bowers Field",
+      "iata_code": "ELN",
+      "icao_code": "KLEN",
+      "distance_km": 43.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo shipments."
+        }
+      ],
+      "website": "https://www.bowersfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BowersFieldAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:07.621889Z",
+    "generated_at": "2025-08-04T19:30:44.554087Z",
     "env": "development",
     "source": "justarrived-generator"
   }

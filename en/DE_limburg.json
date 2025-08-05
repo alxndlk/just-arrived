@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 35.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Air Base Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for military and private flights."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 46.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.mainzfinthenairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "MainzFinthenAirportWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:02.957941Z",
+    "generated_at": "2025-08-04T20:06:33.256927Z",
     "env": "development",
     "source": "justarrived-generator"
   }

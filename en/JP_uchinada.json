@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Komatsu",
+      "iata_code": "KMQ",
+      "icao_code": "RJNK",
+      "distance_km": 34.8,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.komatsu-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Komatsu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toyama",
+      "iata_code": "TOY",
+      "icao_code": "RJNT",
+      "distance_km": 48.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Toyama Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Toyama Airport, serving mainly domestic flights."
+        }
+      ],
+      "website": "https://toyama-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Toyama Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:15.107614Z",
+    "generated_at": "2025-08-04T18:45:49.888501Z",
     "env": "development",
     "source": "justarrived-generator"
   }

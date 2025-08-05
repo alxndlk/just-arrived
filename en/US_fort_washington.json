@@ -48,8 +48,134 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 4.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 13.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for various airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights for various airlines."
+        }
+      ],
+      "website": "https://www.flyreagan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 43.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tipton AAF Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.tipton.army.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tipton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 45.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Washington Dulles International Airport serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Washington Dulles International Airport serves mainly United Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Washington Dulles International Airport serves mainly international flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Washington Dulles International Airport serves mainly domestic flights."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dulles Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 49.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Montgomery County Airport offers a variety of amenities for travelers, including dining options, lounges, and retail stores."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Montgomery County Airport caters to private and corporate aircraft, providing a luxurious and exclusive experience for passengers."
+        }
+      ],
+      "website": "https://www.montgomerycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:13.053731Z",
+    "generated_at": "2025-08-04T20:11:28.010112Z",
     "env": "development",
     "source": "justarrived-generator"
   }

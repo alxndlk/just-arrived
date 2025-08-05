@@ -49,8 +49,63 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin Brandenburg Airport",
+      "iata_code": "BER",
+      "icao_code": "EDDB",
+      "distance_km": 7.2,
+      "gmt": "+1",
+      "country": "Berlin",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Berlin-Schoenefeld",
+      "iata_code": "SXF",
+      "icao_code": "EDDB",
+      "distance_km": 8.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Secondary terminal for low-cost carriers."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Terminal for charter flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "SXF Free WiFi",
+        "note": "Limited free access, premium options available for purchase."
+      }
+    },
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 23.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:00.803157Z",
+    "generated_at": "2025-08-04T20:09:30.813828Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,47 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zurich",
+      "iata_code": "ZRH",
+      "icao_code": "LSZH",
+      "distance_km": 27.0,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buochs",
+      "iata_code": "BXO",
+      "icao_code": "LSZC",
+      "distance_km": 43.3,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buochs Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Buochs Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.buochsairport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buochs Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:47.172746Z",
+    "generated_at": "2025-08-04T20:33:31.313456Z",
     "env": "development",
     "source": "justarrived-generator"
   }

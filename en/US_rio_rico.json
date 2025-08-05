@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nogales International Airport",
+      "iata_code": "OLS",
+      "icao_code": "KOLS",
+      "distance_km": 15.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nogales International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Nogales International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flyols.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FlyOLS",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:20:57.879475Z",
+    "generated_at": "2025-08-04T18:52:39.764287Z",
     "env": "development",
     "source": "justarrived-generator"
   }

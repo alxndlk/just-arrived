@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 11.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A primarily serves Southwest Airlines flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves various airlines including Delta, American, and United."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C serves international flights and is also known as the 'International Terminal'."
+        }
+      ],
+      "website": "https://flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free to use."
+      }
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 33.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:06.279059Z",
+    "generated_at": "2025-08-04T19:18:42.604762Z",
     "env": "development",
     "source": "justarrived-generator"
   }

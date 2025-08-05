@@ -48,8 +48,88 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 2.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 5.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palm Beach International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Palm Beach International Airport serves domestic flights for various airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Palm Beach International Airport serves international flights for various airlines."
+        }
+      ],
+      "website": "https://www.pbia.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Public",
+      "iata_code": "BCT",
+      "icao_code": "KBCT",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.bocaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BCT Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pompano Beach",
+      "iata_code": "PPM",
+      "icao_code": "KPMP",
+      "distance_km": 50.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:53.516064Z",
+    "generated_at": "2025-08-04T20:31:37.502149Z",
     "env": "development",
     "source": "justarrived-generator"
   }

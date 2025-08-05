@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 11.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 38.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at BWI airport serves domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at BWI airport serves domestic flights for Southwest Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at BWI airport serves domestic flights for American Airlines, Delta Air Lines, and Spirit Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at BWI airport serves domestic and international flights for Alaska Airlines, JetBlue, and United Airlines."
+        }
+      ],
+      "website": "https://www.bwiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWI Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport. Premium Wi-Fi is also available for purchase."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:23.478424Z",
+    "generated_at": "2025-08-04T20:22:33.077089Z",
     "env": "development",
     "source": "justarrived-generator"
   }

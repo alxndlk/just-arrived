@@ -51,8 +51,56 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Biratnagar",
+      "iata_code": "BIR",
+      "icao_code": "VNVT",
+      "distance_km": 28.8,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.biratnagarairport.com.np/",
+      "wifi": {
+        "available": true,
+        "network_name": "BIR Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours with a valid boarding pass."
+      }
+    },
+    {
+      "airport_name": "Rajbiraj",
+      "iata_code": "RJB",
+      "icao_code": "VNRB",
+      "distance_km": 38.0,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rajbiraj Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.rajbirajairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "RJB Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:20.694702Z",
+    "generated_at": "2025-08-04T19:13:52.068269Z",
     "env": "development",
     "source": "justarrived-generator"
   }

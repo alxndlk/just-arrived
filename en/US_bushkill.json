@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lehigh Valley International",
+      "iata_code": "ABE",
+      "icao_code": "KABE",
+      "distance_km": 18.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mt Pocono",
+      "iata_code": "MPO",
+      "icao_code": "KMPO",
+      "distance_km": 37.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mt Pocono Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Mt Pocono Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.mtpoconoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MtPoconoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Upper Bucks",
+      "iata_code": "UKT",
+      "icao_code": "KUKT",
+      "distance_km": 40.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:23.503920Z",
+    "generated_at": "2025-08-04T20:34:25.448096Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Peoria",
+      "iata_code": "PIA",
+      "icao_code": "KPIA",
+      "distance_km": 12.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Peoria Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Greater Peoria Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.flypia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PIA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:41.648268Z",
+    "generated_at": "2025-08-04T18:51:40.754575Z",
     "env": "development",
     "source": "justarrived-generator"
   }

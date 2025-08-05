@@ -106,8 +106,60 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Posadas",
+      "iata_code": "PSS",
+      "icao_code": "SARP",
+      "distance_km": 23.5,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Posadas Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Posadas Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "http://www.aa2000.com.ar/posadas",
+      "wifi": {
+        "available": true,
+        "network_name": "Posadas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Teniente Prim Alarcon",
+      "iata_code": "ENO",
+      "icao_code": "SGEN",
+      "distance_km": 24.9,
+      "gmt": "-4",
+      "country": "Paraguay",
+      "timezone": "America/Asuncion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations for the airport."
+        }
+      ],
+      "website": "https://www.aeropuertoeno.com.py/",
+      "wifi": {
+        "available": true,
+        "network_name": "Teniente Prim Alarcon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:11.585002Z",
+    "generated_at": "2025-08-04T18:47:43.784546Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,59 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 32.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Barajas Airport, handling most international flights and some domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for domestic flights and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal used for both domestic and international flights, mainly by low-cost airlines."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The newest and most modern terminal at Barajas Airport, used for most international flights and some domestic flights."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, used for some international flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AENA-WIFI",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection every 15 minutes."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:07.799027Z",
+    "generated_at": "2025-08-04T20:15:29.048137Z",
     "env": "development",
     "source": "justarrived-generator"
   }

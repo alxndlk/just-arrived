@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cherry Capital Airport",
+      "iata_code": "TVC",
+      "icao_code": "KTVC",
+      "distance_km": 2.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cherry Capital Airport offers a variety of amenities for travelers, including dining options, retail stores, and rental car services."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Cherry Capital Airport primarily serves regional airlines and offers a more relaxed and efficient travel experience for passengers."
+        }
+      ],
+      "website": "https://www.tvcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TVC Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Antrim County",
+      "iata_code": "ACB",
+      "icao_code": "KACB",
+      "distance_km": 39.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Antrim County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Antrim County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.antrimcountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Antrim Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:38.798766Z",
+    "generated_at": "2025-08-04T19:05:50.002910Z",
     "env": "development",
     "source": "justarrived-generator"
   }

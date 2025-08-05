@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aeropuerto de las Américas",
+      "iata_code": "SDQ",
+      "icao_code": "MDSD",
+      "distance_km": 31.7,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Handles international flights to and from North America and Europe."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Handles domestic flights within the Dominican Republic and other Caribbean destinations."
+        }
+      ],
+      "website": "https://www.aeropuertolasamericas.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SDQ Airport WiFi",
+        "note": "WiFi is free for the first hour, additional time can be purchased for a fee."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:51.301516Z",
+    "generated_at": "2025-08-04T18:57:40.516274Z",
     "env": "development",
     "source": "justarrived-generator"
   }

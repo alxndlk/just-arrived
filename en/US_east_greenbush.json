@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albany International",
+      "iata_code": "ALB",
+      "icao_code": "KALB",
+      "distance_km": 17.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal A",
+          "description": "Terminal A is used primarily for domestic flights and is connected to the main terminal by a covered walkway."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is used for international flights and is accessible via a shuttle bus from the main terminal."
+        }
+      ],
+      "website": "https://www.albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AlbanyAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Schenectady County",
+      "iata_code": "SCH",
+      "icao_code": "KSCH",
+      "distance_km": 32.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Schenectady County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Schenectady County Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.schenectadyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:08.764426Z",
+    "generated_at": "2025-08-04T19:02:52.002482Z",
     "env": "development",
     "source": "justarrived-generator"
   }

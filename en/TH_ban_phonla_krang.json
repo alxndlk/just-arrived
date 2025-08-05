@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nakhon Ratchasima",
+      "iata_code": "NAK",
+      "icao_code": "VTUQ",
+      "distance_km": 12.3,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.nakhonratchasimaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:51.695766Z",
+    "generated_at": "2025-08-04T18:45:39.105501Z",
     "env": "development",
     "source": "justarrived-generator"
   }

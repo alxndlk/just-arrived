@@ -48,8 +48,75 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Wilmington",
+      "iata_code": "ILG",
+      "icao_code": "KILG",
+      "distance_km": 13.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Philadelphia International",
+      "iata_code": "PHL",
+      "icao_code": "KPHL",
+      "distance_km": 26.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal mainly serves international flights and is equipped with duty-free shops and restaurants."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic flights and has a variety of retail and dining options."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves both domestic and international flights and offers a wide range of amenities including lounges and spas."
+        }
+      ],
+      "website": "https://www.phl.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PHL Free WiFi",
+        "note": "Passengers can connect to the network for free for up to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Chestercounty Carlson",
+      "iata_code": "CTH",
+      "icao_code": "KMQS",
+      "distance_km": 45.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 48.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:05.057891Z",
+    "generated_at": "2025-08-04T20:33:37.547355Z",
     "env": "development",
     "source": "justarrived-generator"
   }

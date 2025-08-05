@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Southport",
+      "iata_code": "SHQ",
+      "icao_code": "YSPT",
+      "distance_km": 2.2,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gold Coast (coolangatta)",
+      "iata_code": "OOL",
+      "icao_code": "YBCG",
+      "distance_km": 24.1,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dunwich",
+      "iata_code": "SRR",
+      "icao_code": "KSRR",
+      "distance_km": 49.9,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Brisbane",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dunwich Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Dunwich Airport serves flights to and from nearby cities and towns."
+        }
+      ],
+      "website": "https://www.dunwichairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Dunwich Airport WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:07.028679Z",
+    "generated_at": "2025-08-04T20:08:30.010109Z",
     "env": "development",
     "source": "justarrived-generator"
   }

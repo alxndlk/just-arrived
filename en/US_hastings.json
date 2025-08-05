@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hastings",
+      "iata_code": "HSI",
+      "icao_code": "KHSI",
+      "distance_km": 3.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hastings Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hastings Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.hastingsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HastingsAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Grand Island",
+      "iata_code": "GRI",
+      "icao_code": "KGRI",
+      "distance_km": 41.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Grand Island Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flygrandisland.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:05.957092Z",
+    "generated_at": "2025-08-04T20:31:34.115603Z",
     "env": "development",
     "source": "justarrived-generator"
   }

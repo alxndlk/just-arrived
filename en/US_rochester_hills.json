@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pontiac",
+      "iata_code": "PTK",
+      "icao_code": "KPTK",
+      "distance_km": 20.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Selfridge ANGB",
+      "iata_code": "MTC",
+      "icao_code": "KMTC",
+      "distance_km": 24.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Detroit City",
+      "iata_code": "DET",
+      "icao_code": "KDET",
+      "distance_km": 29.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Detroit City Airport serves domestic flights and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Detroit City Airport serves international flights and offers a modern and spacious environment for travelers."
+        }
+      ],
+      "website": "https://www.detroitcityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Windsor",
+      "iata_code": "YQG",
+      "icao_code": "CYQG",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:03.646958Z",
+    "generated_at": "2025-08-04T20:00:35.233704Z",
     "env": "development",
     "source": "justarrived-generator"
   }

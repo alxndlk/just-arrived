@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 16.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ibaraki Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ibaraki Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.ibaraki-airport.net/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 44.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita International Airport, serving primarily international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Narita International Airport, serving primarily domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal at Narita International Airport, serving low-cost carriers and international flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT Free Wi-Fi",
+        "note": "High-speed internet access is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:37.520535Z",
+    "generated_at": "2025-08-04T18:34:42.001163Z",
     "env": "development",
     "source": "justarrived-generator"
   }

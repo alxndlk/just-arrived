@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stockton Metropolitan Airport",
+      "iata_code": "SCK",
+      "icao_code": "KSCK",
+      "distance_km": 42.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stockton Metropolitan Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights."
+        }
+      ],
+      "website": "https://www.flystockton.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:28.427406Z",
+    "generated_at": "2025-08-04T18:46:51.502770Z",
     "env": "development",
     "source": "justarrived-generator"
   }

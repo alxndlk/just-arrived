@@ -51,8 +51,64 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cairo International Airport",
+      "iata_code": "CAI",
+      "icao_code": "HECA",
+      "distance_km": 43.9,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights, opened in 2009."
+        }
+      ],
+      "website": "https://www.cairo-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cairo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sphinx International Airport",
+      "iata_code": "SPX",
+      "icao_code": "HESX",
+      "distance_km": 47.9,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sphinx International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.sphinxairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sphinx Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:57.701250Z",
+    "generated_at": "2025-08-04T19:58:26.367747Z",
     "env": "development",
     "source": "justarrived-generator"
   }

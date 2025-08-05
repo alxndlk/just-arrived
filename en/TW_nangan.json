@@ -50,8 +50,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matsu",
+      "iata_code": "MFK",
+      "icao_code": "RCMT",
+      "distance_km": 2.5,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Nangan",
+      "iata_code": "LZN",
+      "icao_code": "RCFG",
+      "distance_km": 2.7,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fuzhou",
+      "iata_code": "FOC",
+      "icao_code": "ZSFZ",
+      "distance_km": 35.9,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Fuzhou Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.fuzhou-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fuzhou Airport Free WiFi",
+        "note": "Passengers can connect to the WiFi network for free by providing their phone number to receive a verification code."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:10.513028Z",
+    "generated_at": "2025-08-04T20:34:29.295713Z",
     "env": "development",
     "source": "justarrived-generator"
   }

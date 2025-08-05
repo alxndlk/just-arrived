@@ -50,8 +50,56 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ponta Porã International Airport",
+      "iata_code": "PMG",
+      "icao_code": "SBPP",
+      "distance_km": 3.0,
+      "gmt": "-4",
+      "country": "Brazil",
+      "timezone": "America/Campo_Grande",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ponta Porã International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.pontaporaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PontaPorãAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pedro Juan Caballero",
+      "iata_code": "PJC",
+      "icao_code": "SGPJ",
+      "distance_km": 7.3,
+      "gmt": "-4",
+      "country": "Paraguay",
+      "timezone": "America/Asuncion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pedro Juan Caballero Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.pjcairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "PJC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:13.861894Z",
+    "generated_at": "2025-08-04T18:19:58.053918Z",
     "env": "development",
     "source": "justarrived-generator"
   }

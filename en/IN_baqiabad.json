@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Varanasi",
+      "iata_code": "VNS",
+      "icao_code": "VIBN",
+      "distance_km": 39.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Varanasi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal exclusively for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/varanasi",
+      "wifi": {
+        "available": true,
+        "network_name": "VNS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:20.021721Z",
+    "generated_at": "2025-08-04T19:08:52.158776Z",
     "env": "development",
     "source": "justarrived-generator"
   }

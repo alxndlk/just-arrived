@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Namangan",
+      "iata_code": "NMA",
+      "icao_code": "UTKN",
+      "distance_km": 23.2,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.namanganairport.uz/",
+      "wifi": {
+        "available": true,
+        "network_name": "Namangan Airport WiFi",
+        "note": "Free WiFi access is provided throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Andizhan",
+      "iata_code": "AZN",
+      "icao_code": "UTKA",
+      "distance_km": 41.9,
+      "gmt": "5",
+      "country": "Uzbekistan",
+      "timezone": "Asia/Tashkent",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Andizhan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated to handling cargo shipments at Andizhan Airport."
+        }
+      ],
+      "website": "https://www.uzairways.com/en/airports/andizhan",
+      "wifi": {
+        "available": true,
+        "network_name": "Andizhan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:17.261003Z",
+    "generated_at": "2025-08-04T18:47:44.787564Z",
     "env": "development",
     "source": "justarrived-generator"
   }

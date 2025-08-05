@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 26.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Provo",
+      "iata_code": "PVU",
+      "icao_code": "KPVU",
+      "distance_km": 40.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provo Airport serves all commercial flights and features modern amenities for travelers."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Provo Airport caters to private and chartered flights, offering a more exclusive and personalized experience."
+        }
+      ],
+      "website": "https://www.provoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Provo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:18.693771Z",
+    "generated_at": "2025-08-04T20:25:32.859489Z",
     "env": "development",
     "source": "justarrived-generator"
   }

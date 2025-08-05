@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eelde",
+      "iata_code": "GRQ",
+      "icao_code": "EHGG",
+      "distance_km": 18.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Eelde Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.groningenairport.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Eelde Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leeuwarden",
+      "iata_code": "LWR",
+      "icao_code": "EHLW",
+      "distance_km": 40.4,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leeuwarden Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.leeuwardenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Leeuwarden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:10.127185Z",
+    "generated_at": "2025-08-04T18:57:49.026232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dodge City Municipal",
+      "iata_code": "DDC",
+      "icao_code": "KDDC",
+      "distance_km": 4.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dodge City Municipal Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.flydodgecity.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DDC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Childress",
+      "iata_code": "CDS",
+      "icao_code": "KCDS",
+      "distance_km": 42.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Childress Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Childress Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.childressairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Childress Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:46.505150Z",
+    "generated_at": "2025-08-04T18:44:41.158448Z",
     "env": "development",
     "source": "justarrived-generator"
   }

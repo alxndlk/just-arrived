@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alice Springs",
+      "iata_code": "ASP",
+      "icao_code": "YBAS",
+      "distance_km": 11.8,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Darwin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.alicespringsairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "ASP Free WiFi",
+        "note": "Limited to 2 hours per device per day."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:34.882154Z",
+    "generated_at": "2025-08-04T18:49:43.488037Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Entebbe",
+      "iata_code": "EBB",
+      "icao_code": "HUEN",
+      "distance_km": 44.1,
+      "gmt": "3",
+      "country": "Uganda",
+      "timezone": "Africa/Kampala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Entebbe Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Entebbe Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.entebbe-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EBB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:49.570054Z",
+    "generated_at": "2025-08-04T19:37:41.284490Z",
     "env": "development",
     "source": "justarrived-generator"
   }

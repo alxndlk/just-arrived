@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Austin-straubel Field",
+      "iata_code": "GRB",
+      "icao_code": "KGRB",
+      "distance_km": 16.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Austin-straubel Field Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Austin-straubel Field Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.flygrb.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRB_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:59.626313Z",
+    "generated_at": "2025-08-04T19:13:42.169180Z",
     "env": "development",
     "source": "justarrived-generator"
   }

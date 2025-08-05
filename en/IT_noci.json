@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "M. A. Grottag",
+      "iata_code": "TAR",
+      "icao_code": "LIBG",
+      "distance_km": 38.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palese",
+      "iata_code": "BRI",
+      "icao_code": "LIBD",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Palese Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Palese Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://paleseairport.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Palese Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:28.569521Z",
+    "generated_at": "2025-08-04T20:16:31.466824Z",
     "env": "development",
     "source": "justarrived-generator"
   }

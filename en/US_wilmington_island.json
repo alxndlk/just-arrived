@@ -48,8 +48,81 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hunter AAF",
+      "iata_code": "SVN",
+      "icao_code": "KSVN",
+      "distance_km": 14.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hunter AAF Airport serves commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Hunter AAF Airport caters to military personnel and their families."
+        }
+      ],
+      "website": "https://www.hunteraafairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hunter AAF Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Savannah/Hilton Head",
+      "iata_code": "SAV",
+      "icao_code": "KSAV",
+      "distance_km": 26.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Savannah/Hilton Head Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a smaller terminal at Savannah/Hilton Head Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://savannahairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hilton Head",
+      "iata_code": "HHH",
+      "icao_code": "KHXD",
+      "distance_km": 36.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hilton Head Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.hiltonheadairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HiltonHeadAirportWiFi",
+        "note": "Complimentary WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:12.123068Z",
+    "generated_at": "2025-08-04T19:08:51.837689Z",
     "env": "development",
     "source": "justarrived-generator"
   }

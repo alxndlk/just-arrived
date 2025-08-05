@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Akron/canton Regional",
+      "iata_code": "CAK",
+      "icao_code": "KCAK",
+      "distance_km": 16.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fulton International Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.fultonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fulton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Wayne County",
+      "iata_code": "BJJ",
+      "icao_code": "KBJJ",
+      "distance_km": 34.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:49.453294Z",
+    "generated_at": "2025-08-04T20:08:28.775374Z",
     "env": "development",
     "source": "justarrived-generator"
   }

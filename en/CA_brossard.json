@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Hubert",
+      "iata_code": "YHU",
+      "icao_code": "CYHU",
+      "distance_km": 12.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Hubert Airport serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Hubert Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.admtl.com/en/airports/st-hubert",
+      "wifi": {
+        "available": true,
+        "network_name": "YHU Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Jean",
+      "iata_code": "YJN",
+      "icao_code": "CYJN",
+      "distance_km": 17.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Jean Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at St Jean Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.stjeanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StJeanAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pierre Elliott Trudeau International",
+      "iata_code": "YUL",
+      "icao_code": "CYUL",
+      "distance_km": 23.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Montreal",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Pierre Elliott Trudeau International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A secondary terminal at the airport, primarily used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.admtl.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "YUL Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, with no time limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:30.464027Z",
+    "generated_at": "2025-08-04T18:20:43.024525Z",
     "env": "development",
     "source": "justarrived-generator"
   }

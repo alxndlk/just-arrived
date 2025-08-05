@@ -50,8 +50,35 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Assis",
+      "iata_code": "AIF",
+      "icao_code": "SNAX",
+      "distance_km": 9.4,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Assis Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.assisairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "AssisAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:39.129837Z",
+    "generated_at": "2025-08-04T18:40:47.156200Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Luis County Regional Airport",
+      "iata_code": "SBP",
+      "icao_code": "KSBP",
+      "distance_km": 18.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Paso Robles",
+      "iata_code": "PRB",
+      "icao_code": "KPRB",
+      "distance_km": 44.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paso Robles Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Paso Robles Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.prcity.com/189/Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "PRB Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:59.231556Z",
+    "generated_at": "2025-08-04T20:20:28.464046Z",
     "env": "development",
     "source": "justarrived-generator"
   }

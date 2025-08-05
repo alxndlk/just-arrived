@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mobile Downtown",
+      "iata_code": "BFM",
+      "icao_code": "KBFM",
+      "distance_km": 38.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mobile Downtown Airport handles all incoming and outgoing flights for commercial airlines."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Mobile Downtown Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.mobiledowntownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mobile Downtown Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'MobileAirportWiFi' from their device's network options."
+      }
+    },
+    {
+      "airport_name": "Mobile Regional Airport",
+      "iata_code": "MOB",
+      "icao_code": "KMOB",
+      "distance_km": 39.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Edwards",
+      "iata_code": "GUF",
+      "icao_code": "KJKA",
+      "distance_km": 48.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:10.374809Z",
+    "generated_at": "2025-08-04T20:12:34.343254Z",
     "env": "development",
     "source": "justarrived-generator"
   }

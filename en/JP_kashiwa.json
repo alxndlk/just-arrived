@@ -106,8 +106,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 38.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Narita International Airport, serving international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Narita International Airport, serving international and domestic flights for multiple airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Narita International Airport, primarily serving low-cost carriers for both international and domestic flights."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport Free Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, but a registration is required."
+      }
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 39.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haneda Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal of Haneda Airport, mainly serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network by registering with a valid email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:40.387723Z",
+    "generated_at": "2025-08-04T18:06:48.504627Z",
     "env": "development",
     "source": "justarrived-generator"
   }

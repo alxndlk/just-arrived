@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stuttgart Echterdingen",
+      "iata_code": "STR",
+      "icao_code": "EDDS",
+      "distance_km": 31.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for mainly domestic flights."
+        }
+      ],
+      "website": "https://www.stuttgart-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stuttgart Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:33.275543Z",
+    "generated_at": "2025-08-04T19:31:47.398454Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chhatrapati Shivaji International (Sahar International)",
+      "iata_code": "BOM",
+      "icao_code": "VABB",
+      "distance_km": 35.0,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Domestic terminal serving mainly low-cost airlines"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "International terminal serving major airlines"
+        }
+      ],
+      "website": "https://www.csia.in/",
+      "wifi": {
+        "available": true,
+        "network_name": "MIAL_Free_WiFi",
+        "note": "Limited to 45 minutes per device"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:55.417846Z",
+    "generated_at": "2025-08-04T18:08:44.373337Z",
     "env": "development",
     "source": "justarrived-generator"
   }

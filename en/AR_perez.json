@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fisherton",
+      "iata_code": "ROS",
+      "icao_code": "SAAR",
+      "distance_km": 7.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.rosario.gob.ar/web/movilidad/transporte-aereo",
+      "wifi": {
+        "available": true,
+        "network_name": "Fisherton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:18.912201Z",
+    "generated_at": "2025-08-04T18:45:50.161096Z",
     "env": "development",
     "source": "justarrived-generator"
   }

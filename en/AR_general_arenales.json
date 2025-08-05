@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Junin",
+      "iata_code": "JNI",
+      "icao_code": "SAAJ",
+      "distance_km": 44.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.juninairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Junin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:55.699048Z",
+    "generated_at": "2025-08-04T19:03:38.935241Z",
     "env": "development",
     "source": "justarrived-generator"
   }

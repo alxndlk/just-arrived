@@ -50,8 +50,71 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Seoul AB",
+      "iata_code": "SSN",
+      "icao_code": "RKSM",
+      "distance_km": 3.5,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Suwon",
+      "iata_code": "SWU",
+      "icao_code": "RKSW",
+      "distance_km": 20.4,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Suwon Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Suwon Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.suwonairport.co.kr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Suwon Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gimpo Airport",
+      "iata_code": "GMP",
+      "icao_code": "RKSS",
+      "distance_km": 33.6,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Osan AB",
+      "iata_code": "OSN",
+      "icao_code": "RKSO",
+      "distance_km": 40.3,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:58.053647Z",
+    "generated_at": "2025-08-04T19:56:29.225446Z",
     "env": "development",
     "source": "justarrived-generator"
   }

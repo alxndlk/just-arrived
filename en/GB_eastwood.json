@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nottingham Airport",
+      "iata_code": "NQT",
+      "icao_code": "EGBN",
+      "distance_km": 10.8,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nottingham Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Nottingham Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.nottinghamairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nottingham Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "East Midlands",
+      "iata_code": "EMA",
+      "icao_code": "EGNX",
+      "distance_km": 21.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.eastmidlandsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EMA Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:14.092501Z",
+    "generated_at": "2025-08-04T20:16:26.395390Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 16.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Portland International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Portland International Airport serves domestic flights for Alaska Airlines, American Airlines, and Delta Air Lines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Portland International Airport serves domestic and international flights for United Airlines and Southwest Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Portland International Airport serves domestic and international flights for JetBlue, Spirit Airlines, and Sun Country Airlines."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX_Free_Wifi",
+        "note": "Complimentary Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portland",
+      "iata_code": "HIO",
+      "icao_code": "KHIO",
+      "distance_km": 29.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flypdx.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDX Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mal",
+      "iata_code": "MMV",
+      "icao_code": "KMMV",
+      "distance_km": 49.4,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:02.298654Z",
+    "generated_at": "2025-08-04T20:14:26.507554Z",
     "env": "development",
     "source": "justarrived-generator"
   }

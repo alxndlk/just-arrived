@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arkhangelsk",
+      "iata_code": "ARH",
+      "icao_code": "ULAA",
+      "distance_km": 20.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Arkhangelsk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights within Russia."
+        }
+      ],
+      "website": "https://www.arh.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:16.324115Z",
+    "generated_at": "2025-08-04T18:39:39.989345Z",
     "env": "development",
     "source": "justarrived-generator"
   }

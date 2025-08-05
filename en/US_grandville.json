@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gerald R. Ford International",
+      "iata_code": "GRR",
+      "icao_code": "KGRR",
+      "distance_km": 18.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Park Township",
+      "iata_code": "HLM",
+      "icao_code": "KHLM",
+      "distance_km": 32.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Park Township Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A private terminal for chartered and private flights."
+        }
+      ],
+      "website": "https://www.parktownshipairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ParkAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Muskegon",
+      "iata_code": "MKG",
+      "icao_code": "KMKG",
+      "distance_km": 49.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Detroit",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:34.171300Z",
+    "generated_at": "2025-08-04T20:18:36.517883Z",
     "env": "development",
     "source": "justarrived-generator"
   }

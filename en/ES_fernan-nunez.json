@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cordoba",
+      "iata_code": "ODB",
+      "icao_code": "LEBA",
+      "distance_km": 22.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/cordoba-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "CORDOBA_AIRPORT_WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:00.633562Z",
+    "generated_at": "2025-08-04T19:29:46.694074Z",
     "env": "development",
     "source": "justarrived-generator"
   }

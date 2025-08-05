@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Burlington International",
+      "iata_code": "BTV",
+      "icao_code": "KBTV",
+      "distance_km": 5.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Burlington International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Burlington International Airport is used for general aviation and private aircraft."
+        }
+      ],
+      "website": "https://www.btv.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTV Free WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    },
+    {
+      "airport_name": "Plattsburgh International",
+      "iata_code": "PBG",
+      "icao_code": "KPBG",
+      "distance_km": 33.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Plattsburgh International Airport houses all passenger services and amenities."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Plattsburgh International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flyplattsburgh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PBG Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:39.574676Z",
+    "generated_at": "2025-08-04T18:54:49.740934Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haifa",
+      "iata_code": "HFA",
+      "icao_code": "LLHA",
+      "distance_km": 4.7,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Haifa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/haifa/Pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Haifa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rosh Pina",
+      "iata_code": "RPN",
+      "icao_code": "LLIB",
+      "distance_km": 48.4,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rosh Pina Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rosh Pina Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.roshpinaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RoshPinaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:40.006597Z",
+    "generated_at": "2025-08-04T18:34:40.927485Z",
     "env": "development",
     "source": "justarrived-generator"
   }

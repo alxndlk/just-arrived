@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meadows Field",
+      "iata_code": "BFL",
+      "icao_code": "KBFL",
+      "distance_km": 21.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo shipments."
+        }
+      ],
+      "website": "https://www.meadowsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MBJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kern County",
+      "iata_code": "TSP",
+      "icao_code": "KTSP",
+      "distance_km": 45.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:02.257216Z",
+    "generated_at": "2025-08-04T20:22:31.228922Z",
     "env": "development",
     "source": "justarrived-generator"
   }

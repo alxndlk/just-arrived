@@ -49,8 +49,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tulcan",
+      "iata_code": "TUA",
+      "icao_code": "SETU",
+      "distance_km": 26.0,
+      "gmt": "-5",
+      "country": "Ecuador",
+      "timezone": "America/Guayaquil",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Tulcan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Tulcan Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.tulcanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tulcan Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may be limited in some areas."
+      }
+    },
+    {
+      "airport_name": "San Luis",
+      "iata_code": "IPI",
+      "icao_code": "SKIP",
+      "distance_km": 32.8,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Luis Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at San Luis Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.sanluisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanLuisAirportWiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:04.307684Z",
+    "generated_at": "2025-08-04T19:08:48.039252Z",
     "env": "development",
     "source": "justarrived-generator"
   }

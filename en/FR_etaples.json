@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Touquet",
+      "iata_code": "LTQ",
+      "icao_code": "LFAT",
+      "distance_km": 1.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Touquet Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.letouquetairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LTQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:24.882392Z",
+    "generated_at": "2025-08-04T19:23:40.743298Z",
     "env": "development",
     "source": "justarrived-generator"
   }

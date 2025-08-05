@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rukumkot",
+      "iata_code": "RUK",
+      "icao_code": "VNRK",
+      "distance_km": 1.2,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rukumkot Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rukumkot Airport handles the transportation of goods and supplies."
+        }
+      ],
+      "website": "https://www.rukumkotairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Rukumkot Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Kadmandu",
+      "iata_code": "SKH",
+      "icao_code": "VNSK",
+      "distance_km": 33.3,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.kathmandu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:10.002105Z",
+    "generated_at": "2025-08-04T18:39:41.342453Z",
     "env": "development",
     "source": "justarrived-generator"
   }

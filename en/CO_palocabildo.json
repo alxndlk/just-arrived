@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mariquita",
+      "iata_code": "MQU",
+      "icao_code": "SKQU",
+      "distance_km": 19.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aerocivil.gov.co/colombia/terminales-aeropuertos/mariquita",
+      "wifi": {
+        "available": true,
+        "network_name": "Mariquita Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Santaguida",
+      "iata_code": "MZL",
+      "icao_code": "SKMZ",
+      "distance_km": 49.6,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santaguida Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Santaguida Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.santaguidaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Santaguida Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:47.947799Z",
+    "generated_at": "2025-08-04T19:32:49.498374Z",
     "env": "development",
     "source": "justarrived-generator"
   }

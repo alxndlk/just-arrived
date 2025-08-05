@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 33.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal serving mainly regional and low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly renovated terminal serving mainly Delta Airlines."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:38.315067Z",
+    "generated_at": "2025-08-04T19:36:42.969709Z",
     "env": "development",
     "source": "justarrived-generator"
   }

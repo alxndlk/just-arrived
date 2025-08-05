@@ -50,8 +50,72 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Boukhalef",
+      "iata_code": "TNG",
+      "icao_code": "GMTT",
+      "distance_km": 34.5,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Tangier-Ibn-Battouta-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TNG Airport Wifi",
+        "note": "Free for the first hour, then a fee applies."
+      }
+    },
+    {
+      "airport_name": "Sania Ramel",
+      "iata_code": "TTU",
+      "icao_code": "GMTN",
+      "distance_km": 36.2,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "North Front",
+      "iata_code": "GIB",
+      "icao_code": "LXGB",
+      "distance_km": 39.4,
+      "gmt": "1",
+      "country": "Gibraltar",
+      "timezone": "Europe/Gibraltar",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at North Front Airport serves both international and domestic flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at North Front Airport is reserved for private and executive flights."
+        }
+      ],
+      "website": "https://www.gibraltarairport.gi/",
+      "wifi": {
+        "available": true,
+        "network_name": "NorthFrontAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:24.397193Z",
+    "generated_at": "2025-08-04T20:23:34.794558Z",
     "env": "development",
     "source": "justarrived-generator"
   }

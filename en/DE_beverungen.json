@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kassel-Calden",
+      "iata_code": "KSF",
+      "icao_code": "EDVK",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kassel-Calden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter and regional flights."
+        }
+      ],
+      "website": "https://www.kassel-airport.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kassel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:53.822996Z",
+    "generated_at": "2025-08-04T19:12:45.170778Z",
     "env": "development",
     "source": "justarrived-generator"
   }

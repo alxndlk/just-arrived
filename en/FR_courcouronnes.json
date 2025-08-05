@@ -51,8 +51,75 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 12.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 27.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 38.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 43.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving mostly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals and serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Charles De Gaulle Airport, mainly serving low-cost airlines and domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/airport-guides/paris-charles-de-gaulle-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but a premium option is also available for faster connection speeds."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:59.383208Z",
+    "generated_at": "2025-08-04T20:22:31.095538Z",
     "env": "development",
     "source": "justarrived-generator"
   }

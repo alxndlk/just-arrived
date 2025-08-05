@@ -50,8 +50,35 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tajin",
+      "iata_code": "PAZ",
+      "icao_code": "MMPA",
+      "distance_km": 38.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tajin Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "A separate terminal for VIP passengers and private jets."
+        }
+      ],
+      "website": "https://www.aeropuertotajin.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tajin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:27.534202Z",
+    "generated_at": "2025-08-04T19:36:40.148852Z",
     "env": "development",
     "source": "justarrived-generator"
   }

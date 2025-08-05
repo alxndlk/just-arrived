@@ -48,8 +48,117 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pal-Waukee",
+      "iata_code": "PWK",
+      "icao_code": "KPWK",
+      "distance_km": 18.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chicago O'hare International",
+      "iata_code": "ORD",
+      "icao_code": "KORD",
+      "distance_km": 19.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights for United Airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights for American Airlines, Delta Air Lines, and Air Canada."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves domestic and international flights for American Airlines, Delta Air Lines, and Alaska Airlines."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "This terminal serves international flights for various airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/ohare/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "ORD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Midway",
+      "iata_code": "MDW",
+      "icao_code": "KMDW",
+      "distance_km": 29.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves domestic and international flights operated by Southwest Airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves domestic and international flights operated by Delta Air Lines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal serves domestic and international flights operated by United Airlines."
+        }
+      ],
+      "website": "https://www.flychicago.com/midway/home/pages/default.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "MDW Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Memorial",
+      "iata_code": "UGN",
+      "icao_code": "KUGN",
+      "distance_km": 37.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dupage County",
+      "iata_code": "DPA",
+      "icao_code": "KDPA",
+      "distance_km": 47.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dupage County Airport handles all commercial and private flights."
+        }
+      ],
+      "website": "https://www.dupageairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DPA Free WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:59.824411Z",
+    "generated_at": "2025-08-04T20:25:31.005808Z",
     "env": "development",
     "source": "justarrived-generator"
   }

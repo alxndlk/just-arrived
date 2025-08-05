@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 24.1,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 39.6,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kaneohe Bay MCAS Airport serves both commercial and military flights."
+        }
+      ],
+      "website": "https://www.kaneohebaymcasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KaneoheBayMCASAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:21.666269Z",
+    "generated_at": "2025-08-04T20:24:31.375781Z",
     "env": "development",
     "source": "justarrived-generator"
   }

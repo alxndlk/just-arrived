@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arkansas City",
+      "iata_code": "WLD",
+      "icao_code": "KWLD",
+      "distance_km": 10.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ponca City",
+      "iata_code": "PNC",
+      "icao_code": "KPNC",
+      "distance_km": 38.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and chartered flights and offers amenities such as a lounge, conference rooms, and concierge services."
+        }
+      ],
+      "website": "https://www.poncaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PoncaCityAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:24.082874Z",
+    "generated_at": "2025-08-04T20:25:28.480782Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,105 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Wayne",
+      "iata_code": "SNA",
+      "icao_code": "KSNA",
+      "distance_km": 16.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "FUL",
+      "icao_code": "KFUL",
+      "distance_km": 39.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Chino",
+      "iata_code": "CNO",
+      "icao_code": "KCNO",
+      "distance_km": 45.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Chino Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private flights and offers a more exclusive experience."
+        }
+      ],
+      "website": "https://www.chinoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ChinoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Long Beach Municipal",
+      "iata_code": "LGB",
+      "icao_code": "KLGB",
+      "distance_km": 46.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Long Beach Municipal Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.longbeach.gov/lgb/",
+      "wifi": {
+        "available": true,
+        "network_name": "LGB Free WiFi",
+        "note": "WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Riverside Municipalcipal",
+      "iata_code": "RAL",
+      "icao_code": "KRAL",
+      "distance_km": 49.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Riverside Municipal Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Riverside Municipal Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.riversideca.gov/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "RAL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:58.672785Z",
+    "generated_at": "2025-08-04T20:03:31.306764Z",
     "env": "development",
     "source": "justarrived-generator"
   }

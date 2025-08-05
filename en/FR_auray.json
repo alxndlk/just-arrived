@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Meucon",
+      "iata_code": "VNE",
+      "icao_code": "LFRV",
+      "distance_km": 16.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lann Bihoue",
+      "iata_code": "LRT",
+      "icao_code": "LFRH",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.lorient.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:23.811883Z",
+    "generated_at": "2025-08-04T20:21:26.932572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

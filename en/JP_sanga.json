@@ -50,8 +50,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Itami",
+      "iata_code": "ITM",
+      "icao_code": "RJOO",
+      "distance_km": 31.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Itami Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights only."
+        }
+      ],
+      "website": "https://www.osaka-airport.co.jp/en/itami/",
+      "wifi": {
+        "available": true,
+        "network_name": "ITM Free Wi-Fi",
+        "note": "Passengers can connect to the airport's free Wi-Fi network after completing a simple registration process."
+      }
+    },
+    {
+      "airport_name": "Kobe",
+      "iata_code": "UKB",
+      "icao_code": "RJBE",
+      "distance_km": 42.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kansai International",
+      "iata_code": "KIX",
+      "icao_code": "RJBB",
+      "distance_km": 45.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Kansai International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost carriers and domestic flights."
+        }
+      ],
+      "website": "https://www.kansai-airport.or.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "KIX Free Wi-Fi",
+        "note": "Passengers can access the free Wi-Fi by connecting to the network and following the instructions on the login page."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:19:38.649527Z",
+    "generated_at": "2025-08-04T20:13:28.505712Z",
     "env": "development",
     "source": "justarrived-generator"
   }

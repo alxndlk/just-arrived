@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Honolulu International",
+      "iata_code": "HNL",
+      "icao_code": "PHNL",
+      "distance_km": 30.1,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Honolulu International Airport is the largest and busiest terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Inter-Island Terminal",
+          "description": "The Inter-Island Terminal at Honolulu International Airport serves flights between the Hawaiian islands."
+        }
+      ],
+      "website": "https://airports.hawaii.gov/hnl/",
+      "wifi": {
+        "available": true,
+        "network_name": "HNL Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited connectivity in certain areas."
+      }
+    },
+    {
+      "airport_name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+      "iata_code": "NGF",
+      "icao_code": "PHNG",
+      "distance_km": 42.2,
+      "gmt": "-10",
+      "country": "United States\r\n",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:32.306690Z",
+    "generated_at": "2025-08-04T20:23:30.613057Z",
     "env": "development",
     "source": "justarrived-generator"
   }

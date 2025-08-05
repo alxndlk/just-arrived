@@ -50,8 +50,56 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tachilek",
+      "iata_code": "THL",
+      "icao_code": "VYTL",
+      "distance_km": 38.7,
+      "gmt": "6.30",
+      "country": null,
+      "timezone": "Asia/Rangoon",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tachilek Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tachilekairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tachilek Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chiang Rai",
+      "iata_code": "CEI",
+      "icao_code": "VTCT",
+      "distance_km": 46.4,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.chiangraiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CEI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:59.898784Z",
+    "generated_at": "2025-08-04T20:26:27.236440Z",
     "env": "development",
     "source": "justarrived-generator"
   }

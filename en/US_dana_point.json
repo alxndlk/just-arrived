@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Wayne",
+      "iata_code": "SNA",
+      "icao_code": "KSNA",
+      "distance_km": 27.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Serves domestic and international flights operated by Alaska Airlines, American Airlines, Delta Air Lines, and United Airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Serves domestic and international flights operated by Frontier Airlines, JetBlue, Southwest Airlines, and WestJet."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Serves domestic and international flights operated by Air Canada, Allegiant Air, and Sun Country Airlines."
+        }
+      ],
+      "website": "https://www.ocair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SNA Free WiFi",
+        "note": "Passengers may access the airport's free WiFi by connecting to the network and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OCN",
+      "icao_code": "KOKB",
+      "distance_km": 42.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport is the primary hub for all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport is responsible for handling all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:12.008527Z",
+    "generated_at": "2025-08-04T18:39:40.955248Z",
     "env": "development",
     "source": "justarrived-generator"
   }

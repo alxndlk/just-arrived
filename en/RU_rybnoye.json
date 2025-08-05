@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ryazan",
+      "iata_code": "RZN",
+      "icao_code": "UUWR",
+      "distance_km": 11.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ryazan Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.ryazanairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "RZN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:22:08.310391Z",
+    "generated_at": "2025-08-04T18:53:39.709939Z",
     "env": "development",
     "source": "justarrived-generator"
   }

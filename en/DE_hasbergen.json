@@ -49,8 +49,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Münster Osnabrück International",
+      "iata_code": "FMO",
+      "icao_code": "EDDG",
+      "distance_km": 17.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.fmo.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMO Free WiFi",
+        "note": "WiFi is available throughout the entire airport, free of charge."
+      }
+    },
+    {
+      "airport_name": "Guetersloh",
+      "iata_code": "GUT",
+      "icao_code": "ETUO",
+      "distance_km": 47.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 48.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bielefeld Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.bielefeld-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BFE_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:23.433581Z",
+    "generated_at": "2025-08-04T20:27:26.073259Z",
     "env": "development",
     "source": "justarrived-generator"
   }

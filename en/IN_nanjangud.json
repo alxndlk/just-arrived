@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mysore",
+      "iata_code": "MYQ",
+      "icao_code": "VOMY",
+      "distance_km": 20.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within India."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from Mysore."
+        }
+      ],
+      "website": "https://www.mysoreairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mysore Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:28.665561Z",
+    "generated_at": "2025-08-04T18:25:56.680110Z",
     "env": "development",
     "source": "justarrived-generator"
   }

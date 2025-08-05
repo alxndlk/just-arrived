@@ -47,8 +47,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Djougou",
+      "iata_code": "DJA",
+      "icao_code": "DBBD",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "Benin",
+      "timezone": "Africa/Porto-Novo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Djougou Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.djougouairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Djougou Airport WiFi",
+        "note": "WiFi is available throughout the airport, free of charge."
+      }
+    },
+    {
+      "airport_name": "Niamtougou",
+      "iata_code": "LRL",
+      "icao_code": "DXNG",
+      "distance_km": 41.8,
+      "gmt": null,
+      "country": "Togo",
+      "timezone": "Africa/Lome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niamtougou Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Niamtougou Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "http://www.niamtougouairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Niamtougou Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:26.921567Z",
+    "generated_at": "2025-08-04T20:34:25.883431Z",
     "env": "development",
     "source": "justarrived-generator"
   }

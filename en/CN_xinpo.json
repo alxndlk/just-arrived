@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haikou",
+      "iata_code": "HAK",
+      "icao_code": "ZJHK",
+      "distance_km": 27.8,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.haikou-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAK Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:41.242361Z",
+    "generated_at": "2025-08-04T20:08:35.937967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

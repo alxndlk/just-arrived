@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kirovsk",
+      "iata_code": "KVK",
+      "icao_code": "ULMK",
+      "distance_km": 48.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Volgograd",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kirovskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kirovsk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:49.140913Z",
+    "generated_at": "2025-08-04T18:43:42.712956Z",
     "env": "development",
     "source": "justarrived-generator"
   }

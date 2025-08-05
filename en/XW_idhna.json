@@ -9,7 +9,7 @@
   "currencies": null,
   "population": 26009,
   "welcome_message_title": "Welcome to Idhna",
-  "welcome_message_body": null,
+  "welcome_message_body": "Welcome to Idhna, a charming city in the beautiful West Bank. Known for its rich history and warm hospitality, we invite you to explore and enjoy all that our city has to offer.",
   "welcome_message_image": null,
   "avg_prices": {
     "city": "idhna",
@@ -39,8 +39,60 @@
   },
   "emergency_numbers": null,
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beer Sheba",
+      "iata_code": "BEV",
+      "icao_code": "LLBS",
+      "distance_km": 38.1,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Beer Sheba Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.iaa.gov.il/en/airports/beersheba-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BEV_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nevatim AFB",
+      "iata_code": "VTM",
+      "icao_code": "LLNV",
+      "distance_km": 39.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nevatim AFB Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nevatim AFB Airport, primarily used for military and cargo flights."
+        }
+      ],
+      "website": "https://www.iaf.org.il/98-en/IAF.aspx",
+      "wifi": {
+        "available": true,
+        "network_name": "Nevatim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:57.515019Z",
+    "generated_at": "2025-08-04T18:46:42.568759Z",
     "env": "development",
     "source": "justarrived-generator"
   }

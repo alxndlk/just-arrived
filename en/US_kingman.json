@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kingman",
+      "iata_code": "IGM",
+      "icao_code": "KIGM",
+      "distance_km": 7.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kingman Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kingman Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kingmanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kingman Airport Wifi",
+        "note": "Passengers can connect to the free wifi network throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Laughlin Bullhead International",
+      "iata_code": "IFP",
+      "icao_code": "KIFP",
+      "distance_km": 50.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Laughlin Bullhead International Airport serves commercial flights and includes amenities such as restaurants and shops."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Laughlin Bullhead International Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://flyifp.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IFP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:21.028955Z",
+    "generated_at": "2025-08-04T18:38:47.220644Z",
     "env": "development",
     "source": "justarrived-generator"
   }

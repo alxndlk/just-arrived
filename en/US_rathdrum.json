@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coeur D'Alene",
+      "iata_code": "COE",
+      "icao_code": "KCOE",
+      "distance_km": 15.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Coeur D'Alene Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Coeur D'Alene Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.cdaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CDA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Felts Field",
+      "iata_code": "SFF",
+      "icao_code": "KSFF",
+      "distance_km": 40.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Felts Field Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Felts Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.spokaneairports.net/felts-field-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "FeltsFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:07.699566Z",
+    "generated_at": "2025-08-04T19:26:43.816293Z",
     "env": "development",
     "source": "justarrived-generator"
   }

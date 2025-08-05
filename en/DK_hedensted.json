@@ -49,8 +49,56 @@
     "police": "114"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Billund",
+      "iata_code": "BLL",
+      "icao_code": "EKBI",
+      "distance_km": 34.4,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Billund Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter flights and low-cost airlines."
+        }
+      ],
+      "website": "https://www.bll.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Billund Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maamigili",
+      "iata_code": "VAM",
+      "icao_code": "VRMV",
+      "distance_km": 37.2,
+      "gmt": "5",
+      "country": "Maldives",
+      "timezone": "Indian/Maldives",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maamigili Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://maamigiliairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maamigili Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:32.296519Z",
+    "generated_at": "2025-08-04T19:14:52.755252Z",
     "env": "development",
     "source": "justarrived-generator"
   }

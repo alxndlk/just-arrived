@@ -51,8 +51,39 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 49.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and largest terminal at Charles De Gaulle Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Comprised of seven sub-terminals, serving a variety of airlines and destinations."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal primarily used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-charles-de-gaulle",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection every 15 minutes."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:03.898631Z",
+    "generated_at": "2025-08-04T18:33:50.847451Z",
     "env": "development",
     "source": "justarrived-generator"
   }

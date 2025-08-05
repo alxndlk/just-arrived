@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mineralnye Vodyj",
+      "iata_code": "MRV",
+      "icao_code": "URMM",
+      "distance_km": 13.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.mrv.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mineralnye Vodyj Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:59.370054Z",
+    "generated_at": "2025-08-04T18:50:48.566458Z",
     "env": "development",
     "source": "justarrived-generator"
   }

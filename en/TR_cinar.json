@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Diyarbakir",
+      "iata_code": "DIY",
+      "icao_code": "LTCC",
+      "distance_km": 27.2,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights to and from Turkey."
+        }
+      ],
+      "website": "https://www.diyarbakir.dhmi.gov.tr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Diyarbakir Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:51.875316Z",
+    "generated_at": "2025-08-04T18:22:43.108394Z",
     "env": "development",
     "source": "justarrived-generator"
   }

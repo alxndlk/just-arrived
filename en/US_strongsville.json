@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hopkins International",
+      "iata_code": "CLE",
+      "icao_code": "KCLE",
+      "distance_km": 10.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Burke Lakefront",
+      "iata_code": "BKL",
+      "icao_code": "KBKL",
+      "distance_km": 25.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton International",
+      "iata_code": "AKC",
+      "icao_code": "KAKR",
+      "distance_km": 43.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Fulton International Airport serves flights to neighboring states and cities."
+        }
+      ],
+      "website": "https://www.fultonairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "FultonAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'FultonAirportWiFi' from the list of available networks."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:15.502569Z",
+    "generated_at": "2025-08-04T20:04:29.694441Z",
     "env": "development",
     "source": "justarrived-generator"
   }

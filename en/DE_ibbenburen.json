@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Münster Osnabrück International",
+      "iata_code": "FMO",
+      "icao_code": "EDDG",
+      "distance_km": 16.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost flights."
+        }
+      ],
+      "website": "https://www.fmo.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FMO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:27.072516Z",
+    "generated_at": "2025-08-04T18:28:44.271978Z",
     "env": "development",
     "source": "justarrived-generator"
   }

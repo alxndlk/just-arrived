@@ -104,8 +104,72 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 22.7,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Catharines Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Catharines Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.stcatharinesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "StCatharinesAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 39.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niagara Falls International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IAG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "John C. Munroe",
+      "iata_code": "YHM",
+      "icao_code": "CYHM",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:23.250211Z",
+    "generated_at": "2025-08-04T20:11:29.838163Z",
     "env": "development",
     "source": "justarrived-generator"
   }

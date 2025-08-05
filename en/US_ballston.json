@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schenectady County",
+      "iata_code": "SCH",
+      "icao_code": "KSCH",
+      "distance_km": 12.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Albany International",
+      "iata_code": "ALB",
+      "icao_code": "KALB",
+      "distance_km": 23.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at Albany International Airport serves regional flights."
+        }
+      ],
+      "website": "https://www.albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ALB-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Warren County",
+      "iata_code": "GFL",
+      "icao_code": "KGFL",
+      "distance_km": 48.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warren County Airport handles all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Warren County Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.warrencountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Warren County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:49:57.366746Z",
+    "generated_at": "2025-08-04T20:24:34.852524Z",
     "env": "development",
     "source": "justarrived-generator"
   }

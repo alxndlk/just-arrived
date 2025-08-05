@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Limon International Airport",
+      "iata_code": "LIO",
+      "icao_code": "MRLM",
+      "distance_km": 32.2,
+      "gmt": "-6",
+      "country": "Costa Rica",
+      "timezone": "America/Costa_Rica",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo shipments."
+        }
+      ],
+      "website": "https://www.limonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Limon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:02:09.785993Z",
+    "generated_at": "2025-08-04T18:35:47.912936Z",
     "env": "development",
     "source": "justarrived-generator"
   }

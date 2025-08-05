@@ -48,8 +48,101 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "McChord AFB",
+      "iata_code": "TCM",
+      "icao_code": "KTCM",
+      "distance_km": 21.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at McChord AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at McChord AFB Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.mcchord.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "McChordAFB-WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Industrial",
+      "iata_code": "TIW",
+      "icao_code": "KTIW",
+      "distance_km": 29.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Olympia",
+      "iata_code": "OLM",
+      "icao_code": "KOLM",
+      "distance_km": 41.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Olympia Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Olympia Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.portolympia.com/airport",
+      "wifi": {
+        "available": true,
+        "network_name": "OLM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 44.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seattle-Tacoma International Airport is where most passengers will arrive and depart from. It offers a variety of dining and shopping options, as well as services such as currency exchange and baggage storage."
+        },
+        {
+          "name": "North Satellite Terminal",
+          "description": "The North Satellite Terminal at Seattle-Tacoma International Airport primarily serves Alaska Airlines and its partners. It offers a smaller selection of dining and shopping options compared to the main terminal, but is still convenient for those traveling with Alaska Airlines."
+        },
+        {
+          "name": "South Satellite Terminal",
+          "description": "The South Satellite Terminal at Seattle-Tacoma International Airport serves international flights and some domestic flights. It offers a variety of dining and shopping options, as well as amenities such as a children's play area and a yoga room."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac",
+      "wifi": {
+        "available": true,
+        "network_name": "SEA-TAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the prompts to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:32.561388Z",
+    "generated_at": "2025-08-04T20:21:36.505974Z",
     "env": "development",
     "source": "justarrived-generator"
   }

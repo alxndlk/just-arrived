@@ -51,8 +51,39 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 48.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights only."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newly built terminal exclusively for international flights."
+        }
+      ],
+      "website": "https://www.zia.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZIA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:02.681090Z",
+    "generated_at": "2025-08-04T20:15:28.673223Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maribor International Airport",
+      "iata_code": "MBX",
+      "icao_code": "LJMB",
+      "distance_km": 24.9,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.maribor-airport.si/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maribor Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Thalerhof",
+      "iata_code": "GRZ",
+      "icao_code": "LOWG",
+      "distance_km": 46.2,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Thalerhof Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is a smaller terminal used for low-cost airlines and charter flights."
+        }
+      ],
+      "website": "https://www.flughafen-graz.at/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Thalerhof Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:46.864511Z",
+    "generated_at": "2025-08-04T19:39:00.679074Z",
     "env": "development",
     "source": "justarrived-generator"
   }

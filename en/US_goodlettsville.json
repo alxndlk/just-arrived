@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nashville International",
+      "iata_code": "BNA",
+      "icao_code": "KBNA",
+      "distance_km": 22.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nashville International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Nashville International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Nashville International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Nashville International Airport serves primarily domestic flights."
+        }
+      ],
+      "website": "https://www.flynashville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BNA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Smyrna",
+      "iata_code": "MQY",
+      "icao_code": "KMQY",
+      "distance_km": 42.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Smyrna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.flynashville.com/smyrna",
+      "wifi": {
+        "available": true,
+        "network_name": "Smyrna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:24.010697Z",
+    "generated_at": "2025-08-04T19:00:42.700914Z",
     "env": "development",
     "source": "justarrived-generator"
   }

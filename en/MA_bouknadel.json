@@ -50,8 +50,60 @@
     "police": "19"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sale",
+      "iata_code": "RBA",
+      "icao_code": "GMME",
+      "distance_km": 10.9,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sale Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sale Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.onda.ma/en/Our-Airports/Rabat-Sale-Airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Sale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "NAF",
+      "iata_code": "NNA",
+      "icao_code": "GMMY",
+      "distance_km": 16.0,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at NAF Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at NAF Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.nafairport.ma/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:29.141984Z",
+    "generated_at": "2025-08-04T20:04:34.951008Z",
     "env": "development",
     "source": "justarrived-generator"
   }

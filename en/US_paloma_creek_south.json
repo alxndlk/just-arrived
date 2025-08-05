@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dallas/Fort Worth International",
+      "iata_code": "DFW",
+      "icao_code": "KDFW",
+      "distance_km": 36.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Love Field",
+      "iata_code": "DAL",
+      "icao_code": "KDAL",
+      "distance_km": 41.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Love Field Airport serves domestic flights for various airlines."
+        },
+        {
+          "name": "Southwest Terminal",
+          "description": "The Southwest Terminal at Love Field Airport is solely dedicated to Southwest Airlines."
+        }
+      ],
+      "website": "https://www.dallas-lovefield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DAL Free WiFi",
+        "note": "Passengers can connect to the free WiFi network throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fort Worth Alliance",
+      "iata_code": "AFW",
+      "icao_code": "KAFW",
+      "distance_km": 43.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fort Worth Alliance Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fort Worth Alliance Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.flyfw.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FWA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:26.975628Z",
+    "generated_at": "2025-08-04T20:33:29.711381Z",
     "env": "development",
     "source": "justarrived-generator"
   }

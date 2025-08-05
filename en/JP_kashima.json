@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 31.6,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights, with a wide range of amenities and services."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for international and domestic flights, with a variety of shops and restaurants."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for low-cost carriers, with basic facilities and limited dining options."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport Free Wi-Fi",
+        "note": "Unlimited free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 31.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.ibaraki-airport.net/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ibaraki Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:42.944824Z",
+    "generated_at": "2025-08-04T20:10:26.965149Z",
     "env": "development",
     "source": "justarrived-generator"
   }

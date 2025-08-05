@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ingolstadt-manching",
+      "iata_code": "IGS",
+      "icao_code": "INGS",
+      "distance_km": 14.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ingolstadt-manching Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ingolstadt-manching Airport, mainly used for private and charter flights."
+        }
+      ],
+      "website": "https://www.ingolstadt-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ingolstadt Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Franz Josef Strauss",
+      "iata_code": "MUC",
+      "icao_code": "EDDM",
+      "distance_km": 30.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Franz Josef Strauss Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Franz Josef Strauss Airport, primarily serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.munich-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MUC Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require registration and have time limits."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:00.325957Z",
+    "generated_at": "2025-08-04T19:17:48.284157Z",
     "env": "development",
     "source": "justarrived-generator"
   }

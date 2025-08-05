@@ -49,8 +49,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brnik",
+      "iata_code": "LJU",
+      "icao_code": "LJLJ",
+      "distance_km": 27.8,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brnik Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Brnik Airport is responsible for handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.lju-airport.si/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LJU Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Alpe Adria",
+      "iata_code": "KLU",
+      "icao_code": "LOWK",
+      "distance_km": 38.0,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.klagenfurt-airport.at/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:49.036256Z",
+    "generated_at": "2025-08-04T19:39:00.710534Z",
     "env": "development",
     "source": "justarrived-generator"
   }

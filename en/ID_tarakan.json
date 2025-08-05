@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Juwata",
+      "iata_code": "TRK",
+      "icao_code": "WALR",
+      "distance_km": 8.1,
+      "gmt": "8",
+      "country": "Indonesia",
+      "timezone": "Asia/Makassar",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bunyu",
+      "iata_code": "BYQ",
+      "icao_code": "WALV",
+      "distance_km": 38.5,
+      "gmt": "8",
+      "country": "Indonesia",
+      "timezone": "Asia/Makassar",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bunyu Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bunyu Airport handles all air freight and logistics operations."
+        }
+      ],
+      "website": "https://www.bunyuairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "BunyuAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:38:19.503012Z",
+    "generated_at": "2025-08-04T19:57:31.625391Z",
     "env": "development",
     "source": "justarrived-generator"
   }

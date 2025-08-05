@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sanford",
+      "iata_code": "SFM",
+      "icao_code": "KSFM",
+      "distance_km": 16.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sanford Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sanford Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://flysfb.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SFB-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "International Jetport",
+      "iata_code": "PWM",
+      "icao_code": "KPWM",
+      "distance_km": 34.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Pease International",
+      "iata_code": "PSM",
+      "icao_code": "KPSM",
+      "distance_km": 35.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pease International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pease International Airport handles all air freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.peaseairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PeaseAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:34.605691Z",
+    "generated_at": "2025-08-04T20:25:33.950440Z",
     "env": "development",
     "source": "justarrived-generator"
   }

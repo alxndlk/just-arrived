@@ -104,8 +104,64 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 4.3,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Salt Lake City International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Salt Lake City International Airport, mainly serving Delta Air Lines and its partners."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal at Salt Lake City International Airport, serving mainly international flights."
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OGD",
+      "icao_code": "KOGD",
+      "distance_km": 47.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Municipal Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal of Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:32:38.632096Z",
+    "generated_at": "2025-08-04T18:04:47.503721Z",
     "env": "development",
     "source": "justarrived-generator"
   }

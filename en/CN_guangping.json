@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Handan",
+      "iata_code": "HDG",
+      "icao_code": "ZBHD",
+      "distance_km": 45.7,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.hdgairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:17.049967Z",
+    "generated_at": "2025-08-04T18:24:48.582378Z",
     "env": "development",
     "source": "justarrived-generator"
   }

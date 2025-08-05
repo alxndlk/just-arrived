@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Valencia",
+      "iata_code": "VLC",
+      "icao_code": "LEVC",
+      "distance_km": 10.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/valencia-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "VLC Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:59.534012Z",
+    "generated_at": "2025-08-04T19:03:41.336416Z",
     "env": "development",
     "source": "justarrived-generator"
   }

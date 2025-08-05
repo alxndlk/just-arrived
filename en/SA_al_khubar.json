@@ -107,8 +107,84 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 11.1,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 41.0,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 42.6,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sakhir Air Base Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.bahrainairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Sakhir Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "King Fahd International Airport",
+      "iata_code": "DMM",
+      "icao_code": "OEDF",
+      "distance_km": 45.9,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at King Fahd International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for international flights, with modern facilities and amenities."
+        }
+      ],
+      "website": "https://www.dammamairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KFIAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:37:48.466722Z",
+    "generated_at": "2025-08-04T19:57:30.247295Z",
     "env": "development",
     "source": "justarrived-generator"
   }

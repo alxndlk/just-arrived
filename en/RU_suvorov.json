@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kaluga",
+      "iata_code": "KLF",
+      "icao_code": "UUBC",
+      "distance_km": 43.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kaluga Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.kaluga-airport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLF Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:24.139506Z",
+    "generated_at": "2025-08-04T19:00:40.347811Z",
     "env": "development",
     "source": "justarrived-generator"
   }

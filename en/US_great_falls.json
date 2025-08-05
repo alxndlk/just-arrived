@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Great Falls International Airport",
+      "iata_code": "GTF",
+      "icao_code": "KGTF",
+      "distance_km": 4.8,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Great Falls International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at Great Falls International Airport serves regional flights."
+        }
+      ],
+      "website": "https://flygtf.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GTF Airport WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:52.541318Z",
+    "generated_at": "2025-08-04T20:20:33.030707Z",
     "env": "development",
     "source": "justarrived-generator"
   }

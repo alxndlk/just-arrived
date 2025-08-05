@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vinnica",
+      "iata_code": "VIN",
+      "icao_code": "UKWW",
+      "distance_km": 34.5,
+      "gmt": "2",
+      "country": "Ukraine",
+      "timezone": "Europe/Kiev",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Vinnica Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Vinnica Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://vinnica-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vinnica Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:26.222566Z",
+    "generated_at": "2025-08-04T18:38:47.395006Z",
     "env": "development",
     "source": "justarrived-generator"
   }

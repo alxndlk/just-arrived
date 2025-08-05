@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glasgow International",
+      "iata_code": "GLA",
+      "icao_code": "EGPF",
+      "distance_km": 13.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Glasgow International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Glasgow International Airport is a smaller terminal used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.glasgowairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GlasgowAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:52.827062Z",
+    "generated_at": "2025-08-04T20:12:33.251092Z",
     "env": "development",
     "source": "justarrived-generator"
   }

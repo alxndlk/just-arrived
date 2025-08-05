@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Stord Airport",
+      "iata_code": "SRP",
+      "icao_code": "ENSO",
+      "distance_km": 7.5,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Stord Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Stord Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.stordairport.no/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stord Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:30.424537Z",
+    "generated_at": "2025-08-04T19:09:51.509562Z",
     "env": "development",
     "source": "justarrived-generator"
   }

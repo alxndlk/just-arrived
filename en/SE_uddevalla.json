@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Trollhattan",
+      "iata_code": "THN",
+      "icao_code": "ESGT",
+      "distance_km": 24.1,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Trollhattan Airport houses all arrival and departure gates as well as various amenities for travelers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Trollhattan Airport handles all freight and cargo shipments, providing efficient services for businesses and logistics companies."
+        }
+      ],
+      "website": "https://www.trollhattanairport.se/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "THN Free WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'THN Free WiFi' and following the prompts."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:33.923840Z",
+    "generated_at": "2025-08-04T18:37:53.304482Z",
     "env": "development",
     "source": "justarrived-generator"
   }

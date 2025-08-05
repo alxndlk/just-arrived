@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jinja",
+      "iata_code": "JIN",
+      "icao_code": "HUJI",
+      "distance_km": 21.7,
+      "gmt": "3",
+      "country": "Uganda",
+      "timezone": "Africa/Kampala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jinja Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jinja Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.jinjaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jinja Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:44.199032Z",
+    "generated_at": "2025-08-04T18:48:52.070814Z",
     "env": "development",
     "source": "justarrived-generator"
   }

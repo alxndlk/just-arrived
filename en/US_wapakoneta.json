@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Neil Armstrong",
+      "iata_code": "AXV",
+      "icao_code": "KAXV",
+      "distance_km": 0.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Neil Armstrong Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Neil Armstrong Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.neilarmstrongairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Neil Armstrong Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Allen County",
+      "iata_code": "AOH",
+      "icao_code": "KAOH",
+      "distance_km": 23.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:26.237274Z",
+    "generated_at": "2025-08-04T20:30:28.434059Z",
     "env": "development",
     "source": "justarrived-generator"
   }

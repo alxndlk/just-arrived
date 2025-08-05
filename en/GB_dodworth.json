@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Robin Hood",
+      "iata_code": "DSA",
+      "icao_code": "EGCN",
+      "distance_km": 34.4,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The primary terminal for all flights at Robin Hood Airport."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A dedicated terminal for handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.robinhoodairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RobinHoodAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leeds/bradford",
+      "iata_code": "LBA",
+      "icao_code": "EGNM",
+      "distance_km": 37.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leeds/Bradford Airport handles all domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The north terminal at Leeds/Bradford Airport handles some domestic flights and low-cost carriers."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The south terminal at Leeds/Bradford Airport handles some domestic flights and charter flights."
+        }
+      ],
+      "website": "https://www.leedsbradfordairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "LBA Free WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply select the network and follow the instructions to connect."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:01.165335Z",
+    "generated_at": "2025-08-04T20:30:31.405186Z",
     "env": "development",
     "source": "justarrived-generator"
   }

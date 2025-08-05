@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marce",
+      "iata_code": "ANE",
+      "icao_code": "LFJR",
+      "distance_km": 4.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Marce Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.angersloireaeroport.fr/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marce Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:00.852161Z",
+    "generated_at": "2025-08-04T19:30:41.335720Z",
     "env": "development",
     "source": "justarrived-generator"
   }

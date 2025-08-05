@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Shanshan",
+      "iata_code": "SXJ",
+      "icao_code": "ZWSS",
+      "distance_km": 25.6,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.shanshanairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Shanshan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:33.030889Z",
+    "generated_at": "2025-08-04T18:38:50.023898Z",
     "env": "development",
     "source": "justarrived-generator"
   }

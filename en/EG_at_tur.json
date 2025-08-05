@@ -51,8 +51,35 @@
     "police": "122"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tour Sinai City",
+      "iata_code": "ELT",
+      "icao_code": "HETR",
+      "distance_km": 2.5,
+      "gmt": "2",
+      "country": "Egypt",
+      "timezone": "Africa/Cairo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.sinaicityairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SinaicityAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:17.007592Z",
+    "generated_at": "2025-08-04T19:14:44.254132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haskovo",
+      "iata_code": "HKV",
+      "icao_code": "LB14",
+      "distance_km": 29.0,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Haskovo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.haskovoairport.bg/",
+      "wifi": {
+        "available": true,
+        "network_name": "HaskovoAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:34.112578Z",
+    "generated_at": "2025-08-04T18:47:50.485411Z",
     "env": "development",
     "source": "justarrived-generator"
   }

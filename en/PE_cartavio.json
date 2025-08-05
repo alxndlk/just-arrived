@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Trujillo",
+      "iata_code": "TRU",
+      "icao_code": "SPRU",
+      "distance_km": 25.6,
+      "gmt": "-5",
+      "country": "Peru",
+      "timezone": "America/Lima",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertodetrujillo.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRU Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:07.677748Z",
+    "generated_at": "2025-08-04T18:55:55.044569Z",
     "env": "development",
     "source": "justarrived-generator"
   }

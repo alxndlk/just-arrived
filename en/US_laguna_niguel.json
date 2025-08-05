@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Wayne",
+      "iata_code": "SNA",
+      "icao_code": "KSNA",
+      "distance_km": 22.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for major airlines."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights for smaller airlines."
+        }
+      ],
+      "website": "https://www.ocair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SNA Airport WiFi",
+        "note": "Passengers can access complimentary WiFi for up to 45 minutes after watching a short advertisement."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "FUL",
+      "icao_code": "KFUL",
+      "distance_km": 45.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.fulmunicipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "FUL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OCN",
+      "icao_code": "KOKB",
+      "distance_km": 47.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Municipal Airport, where all domestic and international flights arrive and depart."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo shipments at Municipal Airport."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:56.013842Z",
+    "generated_at": "2025-08-04T18:25:41.745345Z",
     "env": "development",
     "source": "justarrived-generator"
   }

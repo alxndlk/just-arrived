@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gazipasa Airport",
+      "iata_code": "GZP",
+      "icao_code": "LTFG",
+      "distance_km": 48.9,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gazipasa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gazipasa Airport, primarily used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.gazipasaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GZP Airport WiFi",
+        "note": "WiFi is available throughout the airport, but may require a password from the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:29:28.528288Z",
+    "generated_at": "2025-08-04T18:59:47.968798Z",
     "env": "development",
     "source": "justarrived-generator"
   }

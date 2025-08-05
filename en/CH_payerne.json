@@ -51,8 +51,60 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 38.8,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.lausanne-airport.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lausanne Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Belp",
+      "iata_code": "BRN",
+      "icao_code": "LSZB",
+      "distance_km": 44.6,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Belp Airport serves both domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.flughafenbern.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Belp Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:53.110753Z",
+    "generated_at": "2025-08-04T19:27:55.141902Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barnstable",
+      "iata_code": "HYA",
+      "icao_code": "KHYA",
+      "distance_km": 10.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Barnstable Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.barnstableairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BarnstableAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Provincetown",
+      "iata_code": "PVC",
+      "icao_code": "KPVC",
+      "distance_km": 40.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provincetown Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Provincetown Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.provincetownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PVC Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network for internet access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:58.905785Z",
+    "generated_at": "2025-08-04T19:07:49.589555Z",
     "env": "development",
     "source": "justarrived-generator"
   }

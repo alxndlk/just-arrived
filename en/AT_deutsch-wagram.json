@@ -51,8 +51,47 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vienna International",
+      "iata_code": "VIE",
+      "icao_code": "LOWW",
+      "distance_km": 20.0,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "M. R. Štefánika",
+      "iata_code": "BTS",
+      "icao_code": "LZIB",
+      "distance_km": 49.1,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at M. R. Štefánika Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at M. R. Štefánika Airport, primarily used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.bts.aero/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTS Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:44.282107Z",
+    "generated_at": "2025-08-04T20:33:36.113589Z",
     "env": "development",
     "source": "justarrived-generator"
   }

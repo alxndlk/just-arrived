@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Galion",
+      "iata_code": "GQQ",
+      "icao_code": "KGQQ",
+      "distance_km": 1.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lahm Municipal",
+      "iata_code": "MFD",
+      "icao_code": "KMFD",
+      "distance_km": 24.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lahm Municipal Airport handles all commercial flights and has a variety of amenities for passengers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights, providing a comfortable and convenient experience for general aviation passengers."
+        }
+      ],
+      "website": "https://www.lahmairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lahm Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'Lahm Airport WiFi' from their device's list of available networks."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "MNN",
+      "icao_code": "KMNN",
+      "distance_km": 34.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:31.577309Z",
+    "generated_at": "2025-08-04T20:28:34.474259Z",
     "env": "development",
     "source": "justarrived-generator"
   }

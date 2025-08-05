@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ensheim",
+      "iata_code": "SCN",
+      "icao_code": "EDDR",
+      "distance_km": 17.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Secondary terminal for low-cost carriers."
+        }
+      ],
+      "website": "https://www.saarbruecken-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ensheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zweibrücken Airport",
+      "iata_code": "ZQW",
+      "icao_code": "EDRZ",
+      "distance_km": 31.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.zweibruecken-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ZQW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ramstein",
+      "iata_code": "RMS",
+      "icao_code": "ETAR",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ramstein Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for military and charter flights."
+        }
+      ],
+      "website": "https://www.ramstein.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ramstein Airport WiFi",
+        "note": "Passengers can access the WiFi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:09.847804Z",
+    "generated_at": "2025-08-04T20:19:26.837560Z",
     "env": "development",
     "source": "justarrived-generator"
   }

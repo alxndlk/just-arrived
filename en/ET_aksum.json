@@ -50,8 +50,35 @@
     "police": "91"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Axum",
+      "iata_code": "AXU",
+      "icao_code": "HAAX",
+      "distance_km": 1.2,
+      "gmt": "3",
+      "country": "Ethiopia",
+      "timezone": "Africa/Addis_Ababa",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Axum Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Axum Airport is used for the transportation of goods and freight."
+        }
+      ],
+      "website": "https://www.ethiopianairports.gov.et/axum-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "AxumAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:50:11.540683Z",
+    "generated_at": "2025-08-04T18:24:46.507415Z",
     "env": "development",
     "source": "justarrived-generator"
   }

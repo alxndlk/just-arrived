@@ -50,8 +50,64 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haugesund",
+      "iata_code": "HAU",
+      "icao_code": "ENHD",
+      "distance_km": 8.3,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Haugesund Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Haugesund Airport is responsible for handling all freight and cargo operations."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/haugesund-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAU Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sola",
+      "iata_code": "SVG",
+      "icao_code": "ENZV",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sola Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Sola Airport handles all domestic flights within Norway."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Sola Airport serves all international flights from and to Norway."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/stavanger-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Sola Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:20.221095Z",
+    "generated_at": "2025-08-04T19:19:41.172774Z",
     "env": "development",
     "source": "justarrived-generator"
   }

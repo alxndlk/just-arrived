@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Westover ARB/Metropolitan",
+      "iata_code": "CEF",
+      "icao_code": "KCEF",
+      "distance_km": 24.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Worcester Regional Airport",
+      "iata_code": "ORH",
+      "icao_code": "KORH",
+      "distance_km": 33.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Worcester Regional Airport, serving domestic flights."
+        }
+      ],
+      "website": "https://www.flyorh.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ORH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "GDM",
+      "icao_code": "KGDM",
+      "distance_km": 40.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Barnes",
+      "iata_code": "BAF",
+      "icao_code": "KBAF",
+      "distance_km": 41.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:59.742471Z",
+    "generated_at": "2025-08-04T20:29:34.563785Z",
     "env": "development",
     "source": "justarrived-generator"
   }

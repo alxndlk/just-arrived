@@ -51,8 +51,81 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Altenrhein",
+      "iata_code": "ACH",
+      "icao_code": "LSZR",
+      "distance_km": 13.9,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Altenrhein Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flughafen-stgallen.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenrhein Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hohenems-Dornbirn",
+      "iata_code": "HOH",
+      "icao_code": "LOIH",
+      "distance_km": 14.0,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hohenems-Dornbirn Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hohenems-Dornbirn Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.hohenems-dornbirnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HOH Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Friedrichshafen",
+      "iata_code": "FDH",
+      "icao_code": "EDNY",
+      "distance_km": 25.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Friedrichshafen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.fly-away.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "FDH Airport WiFi",
+        "note": "Free for the first hour, additional time can be purchased."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:33.487720Z",
+    "generated_at": "2025-08-04T18:42:44.743352Z",
     "env": "development",
     "source": "justarrived-generator"
   }

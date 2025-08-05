@@ -51,8 +51,47 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Pablo",
+      "iata_code": "SVQ",
+      "icao_code": "LEZL",
+      "distance_km": 21.0,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Pablo Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at San Pablo Airport, used mainly for low-cost airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/sevilla-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "SVQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Moron",
+      "iata_code": "OZP",
+      "icao_code": "LEMO",
+      "distance_km": 39.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:10.212314Z",
+    "generated_at": "2025-08-04T20:27:35.903020Z",
     "env": "development",
     "source": "justarrived-generator"
   }

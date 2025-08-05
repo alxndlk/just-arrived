@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aachen/Merzbruck",
+      "iata_code": "AAH",
+      "icao_code": "EDKA",
+      "distance_km": 45.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Secondary terminal for regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.aachen-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "AAH Free WiFi",
+        "note": "No password required for access."
+      }
+    },
+    {
+      "airport_name": "Spangdahlem",
+      "iata_code": "SPM",
+      "icao_code": "ETAD",
+      "distance_km": 49.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Spangdahlem Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.spangdahlem.af.mil/Units/52nd-FW/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:33.196300Z",
+    "generated_at": "2025-08-04T19:35:46.483892Z",
     "env": "development",
     "source": "justarrived-generator"
   }

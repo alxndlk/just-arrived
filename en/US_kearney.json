@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kearney",
+      "iata_code": "EAR",
+      "icao_code": "KEAR",
+      "distance_km": 7.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.flykearney.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kearney Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Brewster Field",
+      "iata_code": "HDE",
+      "icao_code": "KHDE",
+      "distance_km": 39.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brewster Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Brewster Field Airport offers exclusive services for private jet passengers."
+        }
+      ],
+      "website": "https://www.brewsterfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brewster Field WiFi",
+        "note": "Passengers can connect to the airport's WiFi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:23.750521Z",
+    "generated_at": "2025-08-04T20:27:36.820625Z",
     "env": "development",
     "source": "justarrived-generator"
   }

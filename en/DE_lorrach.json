@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 10.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal with international and domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal for low-cost and regional flights"
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport-WiFi",
+        "note": "Free WiFi access throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 10.2,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal serves international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal serves mainly low-cost airlines."
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport Free Wifi",
+        "note": "Passengers can connect to the wifi network for free for up to 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:15.072741Z",
+    "generated_at": "2025-08-04T18:29:40.690990Z",
     "env": "development",
     "source": "justarrived-generator"
   }

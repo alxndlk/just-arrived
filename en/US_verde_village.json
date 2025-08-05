@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sedona",
+      "iata_code": "SDX",
+      "icao_code": "KSEZ",
+      "distance_km": 27.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sedona Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Sedona Airport is exclusively for private and chartered flights."
+        }
+      ],
+      "website": "https://www.sedonaairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "SedonaAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network while waiting for their flights."
+      }
+    },
+    {
+      "airport_name": "Prescott",
+      "iata_code": "PRC",
+      "icao_code": "KPRC",
+      "distance_km": 39.9,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Phoenix",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Prescott Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Prescott Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.prescottaz.gov/business/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Prescott Airport WiFi",
+        "note": "WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:47:36.107636Z",
+    "generated_at": "2025-08-04T19:14:54.026467Z",
     "env": "development",
     "source": "justarrived-generator"
   }

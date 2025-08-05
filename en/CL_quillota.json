@@ -50,8 +50,47 @@
     "police": "133"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vina del Mar",
+      "iata_code": "KNA",
+      "icao_code": "SCVM",
+      "distance_km": 34.9,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Valparaiso",
+      "iata_code": "VAP",
+      "icao_code": "SCRD",
+      "distance_km": 43.1,
+      "gmt": "-4",
+      "country": null,
+      "timezone": "America/Santiago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Valparaiso Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Valparaiso Airport."
+        }
+      ],
+      "website": "https://www.valparaisoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Valparaiso Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:48:40.495330Z",
+    "generated_at": "2025-08-04T20:01:26.157650Z",
     "env": "development",
     "source": "justarrived-generator"
   }

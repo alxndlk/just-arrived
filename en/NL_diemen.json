@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Schiphol",
+      "iata_code": "AMS",
+      "icao_code": "EHAM",
+      "distance_km": 14.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Schiphol's main terminal, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Dedicated to flights within the Schengen Area."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Serving non-Schengen and intercontinental flights."
+        }
+      ],
+      "website": "https://www.schiphol.nl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Schiphol Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Soesterberg Air Base\r\n",
+      "iata_code": "UTC",
+      "icao_code": "EHSB",
+      "distance_km": 31.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Soesterberg Air Base Airport serves both civilian and military flights."
+        }
+      ],
+      "website": "https://www.defensie.nl/english/topics/air-base-soesterberg",
+      "wifi": {
+        "available": true,
+        "network_name": "Soesterberg Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:40.320356Z",
+    "generated_at": "2025-08-04T20:08:31.845051Z",
     "env": "development",
     "source": "justarrived-generator"
   }

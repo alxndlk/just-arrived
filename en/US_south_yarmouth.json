@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barnstable",
+      "iata_code": "HYA",
+      "icao_code": "KHYA",
+      "distance_km": 6.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Provincetown",
+      "iata_code": "PVC",
+      "icao_code": "KPVC",
+      "distance_km": 44.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Martha's Vineyard",
+      "iata_code": "MVY",
+      "icao_code": "KMVY",
+      "distance_km": 46.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Martha's Vineyard Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Martha's Vineyard Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://mvyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MVY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nantucket Memorial",
+      "iata_code": "ACK",
+      "icao_code": "KACK",
+      "distance_km": 47.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:51.751435Z",
+    "generated_at": "2025-08-04T20:25:35.335539Z",
     "env": "development",
     "source": "justarrived-generator"
   }

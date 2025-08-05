@@ -50,8 +50,85 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lanseria",
+      "iata_code": "HLA",
+      "icao_code": "FALA",
+      "distance_km": 36.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal is used for domestic flights within South Africa."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is used for international flights."
+        }
+      ],
+      "website": "https://lanseria.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lanseria Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for the first 30 minutes. After that, a fee may apply."
+      }
+    },
+    {
+      "airport_name": "Wonderboom Airport.",
+      "iata_code": "PRY",
+      "icao_code": "FAWB",
+      "distance_km": 44.1,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Wonderboom Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Wonderboom Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.wonderboomairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wonderboom Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pilanesberg",
+      "iata_code": "NTY",
+      "icao_code": "FAPN",
+      "distance_km": 46.4,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pilanesberg Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Pilanesberg Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.pilanesberg-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pilanesberg Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:54:08.384964Z",
+    "generated_at": "2025-08-04T18:28:42.290914Z",
     "env": "development",
     "source": "justarrived-generator"
   }

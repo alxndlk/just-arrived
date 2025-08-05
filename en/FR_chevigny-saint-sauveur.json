@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dijon",
+      "iata_code": "DIJ",
+      "icao_code": "LFSD",
+      "distance_km": 5.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for commercial flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for charter and private flights."
+        }
+      ],
+      "website": "https://www.dijon-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DIJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tavaux",
+      "iata_code": "DLE",
+      "icao_code": "LFGJ",
+      "distance_km": 35.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Tavaux Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Tavaux Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.tavaux-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tavaux Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:57:14.706676Z",
+    "generated_at": "2025-08-04T19:22:41.934692Z",
     "env": "development",
     "source": "justarrived-generator"
   }

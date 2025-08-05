@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arapiraca",
+      "iata_code": "APQ",
+      "icao_code": "SNAL",
+      "distance_km": 23.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Maceio",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Campo Alegre",
+      "iata_code": "CMP",
+      "icao_code": "SNKE",
+      "distance_km": 26.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Belem",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.campoalegreairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "CampoAlegreAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:59.440538Z",
+    "generated_at": "2025-08-04T20:07:30.806568Z",
     "env": "development",
     "source": "justarrived-generator"
   }

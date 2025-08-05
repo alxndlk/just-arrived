@@ -49,8 +49,59 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wilmington Railway",
+      "iata_code": "ZWI",
+      "icao_code": "EDBI",
+      "distance_km": 25.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Altenburg Nobitz",
+      "iata_code": "AOC",
+      "icao_code": "EDAC",
+      "distance_km": 40.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hof",
+      "iata_code": "HOQ",
+      "icao_code": "EDQM",
+      "distance_km": 47.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hof Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.hof-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hof Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:10.689528Z",
+    "generated_at": "2025-08-04T20:14:36.352352Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 27.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richmond International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Richmond International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Richmond International Airport serves primarily international flights."
+        }
+      ],
+      "website": "https://flyrichmond.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIC Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:32.699572Z",
+    "generated_at": "2025-08-04T19:36:40.537553Z",
     "env": "development",
     "source": "justarrived-generator"
   }

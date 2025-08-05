@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Arnage",
+      "iata_code": "LME",
+      "icao_code": "LFRM",
+      "distance_km": 26.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Arnage Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.arnageairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Arnage Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Symphorien",
+      "iata_code": "TUF",
+      "icao_code": "LFOT",
+      "distance_km": 47.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.tours.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tours Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:21.935871Z",
+    "generated_at": "2025-08-04T19:05:42.819213Z",
     "env": "development",
     "source": "justarrived-generator"
   }

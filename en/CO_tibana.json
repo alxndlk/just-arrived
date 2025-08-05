@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Miraflores",
+      "iata_code": "MFS",
+      "icao_code": "SKMF",
+      "distance_km": 23.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo flights."
+        }
+      ],
+      "website": "https://www.mirafloresairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MFS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:15.063886Z",
+    "generated_at": "2025-08-04T19:32:01.281764Z",
     "env": "development",
     "source": "justarrived-generator"
   }

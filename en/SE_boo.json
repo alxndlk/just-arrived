@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bromma",
+      "iata_code": "BMA",
+      "icao_code": "ESSB",
+      "distance_km": 19.3,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Arlanda",
+      "iata_code": "ARN",
+      "icao_code": "ESSA",
+      "distance_km": 40.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "Serves domestic and international flights."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Serves international flights, including long-haul destinations."
+        }
+      ],
+      "website": "https://www.swedavia.com/arlanda/",
+      "wifi": {
+        "available": true,
+        "network_name": "ARN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:59.485429Z",
+    "generated_at": "2025-08-04T20:12:28.926703Z",
     "env": "development",
     "source": "justarrived-generator"
   }

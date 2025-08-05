@@ -52,8 +52,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jose Marti International",
+      "iata_code": "HAV",
+      "icao_code": "MUHA",
+      "distance_km": 24.7,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal for international flights, mainly used by Air Canada and Air France."
+        },
+        {
+          "name": "Terminal 5",
+          "description": "The terminal for charter flights and private jets."
+        }
+      ],
+      "website": "http://www.havana-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Playa Baracoa",
+      "iata_code": "UPB",
+      "icao_code": "MUPB",
+      "distance_km": 42.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:08.517278Z",
+    "generated_at": "2025-08-04T20:20:29.209161Z",
     "env": "development",
     "source": "justarrived-generator"
   }

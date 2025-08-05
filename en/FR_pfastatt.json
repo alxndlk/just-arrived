@@ -51,8 +51,89 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 25.6,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Euroairport Swiss Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Euroairport Swiss Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.euroairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 25.6,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newly built terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.euroairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Euroairport_Free_WiFi",
+        "note": "Limited to 2 hours per day."
+      }
+    },
+    {
+      "airport_name": "Colmar-houssen",
+      "iata_code": "CMR",
+      "icao_code": "LFGA",
+      "distance_km": 35.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Colmar-houssen Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Colmar-houssen Airport, primarily used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.colmar-houssen-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Colmar Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:06.352476Z",
+    "generated_at": "2025-08-04T19:25:51.892167Z",
     "env": "development",
     "source": "justarrived-generator"
   }

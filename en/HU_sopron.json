@@ -51,8 +51,60 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Fertoszentmiklos Meidl Airport",
+      "iata_code": "QEG",
+      "icao_code": "LHFM",
+      "distance_km": 22.7,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "http://www.fertoszentmiklosmeidlairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fertoszentmiklos Meidl Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vienna International",
+      "iata_code": "VIE",
+      "icao_code": "LOWW",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Austria",
+      "timezone": "Europe/Vienna",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Vienna International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost carriers and some regional flights."
+        }
+      ],
+      "website": "https://www.viennaairport.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "ViennaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:41.587291Z",
+    "generated_at": "2025-08-04T19:59:33.077997Z",
     "env": "development",
     "source": "justarrived-generator"
   }

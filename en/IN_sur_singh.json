@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Alama Iqbal International",
+      "iata_code": "LHE",
+      "icao_code": "OPLA",
+      "distance_km": 32.6,
+      "gmt": "5",
+      "country": "Pakistan",
+      "timezone": "Asia/Karachi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.lahoreairport.com.pk/",
+      "wifi": {
+        "available": true,
+        "network_name": "LHE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Raja Sansi International Airport",
+      "iata_code": "ATQ",
+      "icao_code": "VIAR",
+      "distance_km": 35.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.sriaai.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ATQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:30.174317Z",
+    "generated_at": "2025-08-04T19:09:51.872807Z",
     "env": "development",
     "source": "justarrived-generator"
   }

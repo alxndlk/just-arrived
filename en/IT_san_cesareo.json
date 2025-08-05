@@ -51,8 +51,64 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 17.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ciampino Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.adr.it/ciampino",
+      "wifi": {
+        "available": true,
+        "network_name": "Ciampino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leonardo Da Vinci (Fiumicino)",
+      "iata_code": "FCO",
+      "icao_code": "LIRF",
+      "distance_km": 45.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for budget airlines and some domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal for international flights, with modern amenities and shopping options."
+        }
+      ],
+      "website": "https://www.adr.it/en/fiumicino",
+      "wifi": {
+        "available": true,
+        "network_name": "FCO Free WiFi",
+        "note": "Limited free WiFi is available throughout the airport. Premium high-speed WiFi is available for purchase."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:09.085368Z",
+    "generated_at": "2025-08-04T19:04:43.526206Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mielec Airport",
+      "iata_code": "QEI",
+      "icao_code": "EPML",
+      "distance_km": 23.1,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://mielecairport.pl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mielec Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jasionka",
+      "iata_code": "RZE",
+      "icao_code": "EPRZ",
+      "distance_km": 24.1,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Jasionka Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.rzeszowairport.pl/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Jasionka Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:12.884367Z",
+    "generated_at": "2025-08-04T20:33:33.202108Z",
     "env": "development",
     "source": "justarrived-generator"
   }

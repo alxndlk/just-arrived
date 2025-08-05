@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Downtown",
+      "iata_code": "MKC",
+      "icao_code": "KMKC",
+      "distance_km": 19.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Downtown Airport serves domestic flights and features a variety of amenities for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Downtown Airport serves international flights and offers duty-free shopping and dining options."
+        }
+      ],
+      "website": "https://www.downtownairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Downtown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Kansas City International Airport",
+      "iata_code": "MCI",
+      "icao_code": "KMCI",
+      "distance_km": 26.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal serves domestic and international flights."
+        }
+      ],
+      "website": "https://www.flykci.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KCI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lee's Summit Municipal Airport",
+      "iata_code": "QQL",
+      "icao_code": "KLXT",
+      "distance_km": 31.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lee's Summit Municipal Airport features a modern and efficient design, providing a comfortable and convenient experience for travelers."
+        }
+      ],
+      "website": "https://www.lsmoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LSMO Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:05.096365Z",
+    "generated_at": "2025-08-04T20:28:36.976092Z",
     "env": "development",
     "source": "justarrived-generator"
   }

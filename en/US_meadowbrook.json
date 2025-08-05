@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 15.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dinwiddie County Airport",
+      "iata_code": "PTB",
+      "icao_code": "KPTB",
+      "distance_km": 24.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dinwiddie County Airport offers a variety of amenities for travelers, including dining options and rental car services."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "For those traveling by private jet, there is a separate terminal with VIP services available at Dinwiddie County Airport."
+        }
+      ],
+      "website": "https://www.dinwiddieairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dinwiddie Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:23.879004Z",
+    "generated_at": "2025-08-04T20:32:37.328120Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Indianapolis International",
+      "iata_code": "IND",
+      "icao_code": "KIND",
+      "distance_km": 15.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Indianapolis International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Indianapolis International Airport is primarily used for domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Indianapolis International Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.indianapolisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IND Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Indianapolis Executive Airport ",
+      "iata_code": "TYQ",
+      "icao_code": "KTYQ",
+      "distance_km": 24.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Indianapolis Executive Airport is a small and efficient building, offering a comfortable waiting area and basic amenities for travelers."
+        }
+      ],
+      "website": "https://www.indianapolisexecutiveairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IndyExecWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mount Comfort Airport",
+      "iata_code": "QQQ",
+      "icao_code": "KMQJ",
+      "distance_km": 41.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mount Comfort Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Mount Comfort Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.mountcomfortairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MountComfortAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:44.009666Z",
+    "generated_at": "2025-08-04T20:08:35.967366Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Catharines",
+      "iata_code": "YCM",
+      "icao_code": "CYSN",
+      "distance_km": 9.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Catharines Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at St Catharines Airport is responsible for the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.stcatharinesairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "StCatharinesAirportWiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Niagara Falls International Airport",
+      "iata_code": "IAG",
+      "icao_code": "KIAG",
+      "distance_km": 20.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Niagara Falls International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Niagara Falls International Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.niagarafallsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NIAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Buffalo Niagara International",
+      "iata_code": "BUF",
+      "icao_code": "KBUF",
+      "distance_km": 43.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buffalo Niagara International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 at Buffalo Niagara International Airport is primarily used for low-cost carriers and charter flights."
+        }
+      ],
+      "website": "https://www.buffaloairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BUF Free WiFi",
+        "note": "WiFi is available throughout the airport, but may require a login or registration."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:27.286612Z",
+    "generated_at": "2025-08-04T18:49:43.647064Z",
     "env": "development",
     "source": "justarrived-generator"
   }

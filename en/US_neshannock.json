@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Beaver Falls",
+      "iata_code": "BFP",
+      "icao_code": "KBVI",
+      "distance_km": 31.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Beaver Falls Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Beaver Falls Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.beaverfallsairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "BFP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Youngstown",
+      "iata_code": "YNG",
+      "icao_code": "KYNG",
+      "distance_km": 35.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Butler County - Kenny Scholter Field",
+      "iata_code": "BTP",
+      "icao_code": "KBTP",
+      "distance_km": 42.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes check-in counters, security checkpoints, and boarding gates."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and charter flights, providing a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.butlercountyairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "BTP Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport. No password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:05.222247Z",
+    "generated_at": "2025-08-04T20:30:31.574628Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Whitehorse International",
+      "iata_code": "YXY",
+      "icao_code": "CYXY",
+      "distance_km": 1.5,
+      "gmt": "-8",
+      "country": "Canada",
+      "timezone": "America/Whitehorse",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Whitehorse International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal at Whitehorse International Airport is used for general aviation and charter flights."
+        }
+      ],
+      "website": "https://www.whitehorseairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "WhitehorseAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:07.842975Z",
+    "generated_at": "2025-08-04T18:43:50.916379Z",
     "env": "development",
     "source": "justarrived-generator"
   }

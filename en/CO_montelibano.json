@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Monte Libano",
+      "iata_code": "MTB",
+      "icao_code": "SKML",
+      "distance_km": 11.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "www.montelibanoairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "MonteLibanoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Caucasia",
+      "iata_code": "CAQ",
+      "icao_code": "SKCU",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Caucasia Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Caucasia Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "http://www.caucasiaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Caucasia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:37.608079Z",
+    "generated_at": "2025-08-04T20:00:25.307446Z",
     "env": "development",
     "source": "justarrived-generator"
   }

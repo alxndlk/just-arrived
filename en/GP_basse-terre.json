@@ -45,8 +45,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Le Raizet",
+      "iata_code": "PTP",
+      "icao_code": "TFFR",
+      "distance_km": 34.4,
+      "gmt": "-4",
+      "country": "Guadeloupe",
+      "timezone": "America/Guadeloupe",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Le Raizet Airport, handling both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.guadeloupe.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:43.973651Z",
+    "generated_at": "2025-08-04T19:38:57.516753Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -54,8 +54,56 @@
     "police": "993"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bandar Seri Begwan International Airport",
+      "iata_code": "BWN",
+      "icao_code": "WBSB",
+      "distance_km": 6.2,
+      "gmt": "8",
+      "country": "Brunei",
+      "timezone": "Asia/Brunei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.bsbairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BSB Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Limbang",
+      "iata_code": "LMN",
+      "icao_code": "WBGJ",
+      "distance_km": 25.7,
+      "gmt": "8",
+      "country": "Malaysia",
+      "timezone": "Asia/Kuching",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Limbang Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.malaysiaairports.com.my/index.php/component/content/article/21-our-airports/airports/airports-malaysia/airports-malaysia-sarawak/72-limbang-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Limbang Airport WiFi",
+        "note": "WiFi is available throughout the terminal, free of charge."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:28.656202Z",
+    "generated_at": "2025-08-04T18:29:45.148529Z",
     "env": "development",
     "source": "justarrived-generator"
   }

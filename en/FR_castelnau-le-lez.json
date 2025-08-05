@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Montpellier Méditerranée",
+      "iata_code": "MPL",
+      "icao_code": "LFMT",
+      "distance_km": 8.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Montpellier Méditerranée Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights at Montpellier Méditerranée Airport."
+        }
+      ],
+      "website": "https://www.montpellier.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Montpellier Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Garons",
+      "iata_code": "FNI",
+      "icao_code": "LFTW",
+      "distance_km": 43.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:49.745421Z",
+    "generated_at": "2025-08-04T20:11:31.781778Z",
     "env": "development",
     "source": "justarrived-generator"
   }

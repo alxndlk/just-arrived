@@ -51,8 +51,35 @@
     "police": "117"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Belp",
+      "iata_code": "BRN",
+      "icao_code": "LSZB",
+      "distance_km": 5.1,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for Belp Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for private and charter flights."
+        }
+      ],
+      "website": "https://www.flughafenbern.ch/",
+      "wifi": {
+        "available": true,
+        "network_name": "Belp Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:43.762932Z",
+    "generated_at": "2025-08-04T19:20:40.104663Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,75 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lausanne",
+      "iata_code": "QLS",
+      "icao_code": "LSGL",
+      "distance_km": 18.0,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QNJ",
+      "icao_code": "LFLI",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Annemasse Airport",
+      "iata_code": "QYA",
+      "icao_code": "LFLI",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Geneve-cointrin",
+      "iata_code": "GVA",
+      "icao_code": "LSGG",
+      "distance_km": 40.5,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Geneve-cointrin Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "Terminal 1 is primarily used for international flights, with a focus on European destinations."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for domestic flights within Switzerland."
+        }
+      ],
+      "website": "https://www.gva.ch/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Geneve-cointrin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:58.178759Z",
+    "generated_at": "2025-08-04T20:32:24.692154Z",
     "env": "development",
     "source": "justarrived-generator"
   }

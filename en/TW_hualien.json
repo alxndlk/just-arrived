@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hualien",
+      "iata_code": "HUN",
+      "icao_code": "RCYU",
+      "distance_km": 6.0,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.hualien-airport.com.tw/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hualien Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:33.970557Z",
+    "generated_at": "2025-08-04T18:19:42.558825Z",
     "env": "development",
     "source": "justarrived-generator"
   }

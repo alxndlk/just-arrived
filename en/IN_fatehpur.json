@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Patna",
+      "iata_code": "PAT",
+      "icao_code": "VEPT",
+      "distance_km": 14.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Patna Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights operated by low-cost carriers."
+        }
+      ],
+      "website": "https://www.patnaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Patna Airport Wifi",
+        "note": "Free wifi is available throughout the airport, with a limit of 2 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:01.803207Z",
+    "generated_at": "2025-08-04T20:28:31.976645Z",
     "env": "development",
     "source": "justarrived-generator"
   }

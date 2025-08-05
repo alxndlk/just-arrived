@@ -51,8 +51,51 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leonardo Da Vinci (Fiumicino)",
+      "iata_code": "FCO",
+      "icao_code": "LIRF",
+      "distance_km": 39.2,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leonardo Da Vinci Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Leonardo Da Vinci Airport, mainly used for low-cost and charter flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Leonardo Da Vinci Airport, dedicated to long-haul and international flights."
+        }
+      ],
+      "website": "https://www.adr.it/fiumicino",
+      "wifi": {
+        "available": true,
+        "network_name": "Leonardo Da Vinci Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport, with a 3-hour time limit per session."
+      }
+    },
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 40.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:56:50.636502Z",
+    "generated_at": "2025-08-04T20:27:28.662006Z",
     "env": "development",
     "source": "justarrived-generator"
   }

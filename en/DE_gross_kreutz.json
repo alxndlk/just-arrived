@@ -49,8 +49,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Berlin-tegel / Otto Lilienthal",
+      "iata_code": "TXL",
+      "icao_code": "EDDT",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Used for low-cost airlines and charter flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Dedicated for business and first class passengers."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/airport-tegel/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "TXL Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Berlin Brandenburg Airport",
+      "iata_code": "BER",
+      "icao_code": "EDDB",
+      "distance_km": 48.9,
+      "gmt": "+1",
+      "country": "Berlin",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost carriers and regional flights."
+        }
+      ],
+      "website": "https://www.berlin-airport.de/en/index.php",
+      "wifi": {
+        "available": true,
+        "network_name": "BER Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:16.491427Z",
+    "generated_at": "2025-08-04T19:33:52.896339Z",
     "env": "development",
     "source": "justarrived-generator"
   }

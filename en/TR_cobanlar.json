@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Afyon",
+      "iata_code": "AFY",
+      "icao_code": "LTAH",
+      "distance_km": 16.3,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Afyon Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Afyon Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.afyonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AfyonAirportWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:14.326924Z",
+    "generated_at": "2025-08-04T19:32:00.472005Z",
     "env": "development",
     "source": "justarrived-generator"
   }

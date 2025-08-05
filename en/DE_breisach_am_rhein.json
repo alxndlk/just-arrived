@@ -49,8 +49,71 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Colmar-houssen",
+      "iata_code": "CMR",
+      "icao_code": "LFGA",
+      "distance_km": 17.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 40.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Black Forest Airport offers a modern and efficient travel experience for passengers."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Black Forest Airport handles the transportation of goods and packages to and from the region."
+        }
+      ],
+      "website": "https://www.blackforestairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlackForestAirportWiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Euroairport Swiss",
+      "iata_code": "BSL",
+      "icao_code": "_BSL",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Euroairport France",
+      "iata_code": "MLH",
+      "icao_code": "LFSB",
+      "distance_km": 48.4,
+      "gmt": "1",
+      "country": "Switzerland",
+      "timezone": "Europe/Zurich",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:34:59.323143Z",
+    "generated_at": "2025-08-04T20:19:26.136218Z",
     "env": "development",
     "source": "justarrived-generator"
   }

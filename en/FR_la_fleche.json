@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marce",
+      "iata_code": "ANE",
+      "icao_code": "LFJR",
+      "distance_km": 43.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marce Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Marce Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.marceairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Marce Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:53.227652Z",
+    "generated_at": "2025-08-04T19:06:49.897698Z",
     "env": "development",
     "source": "justarrived-generator"
   }

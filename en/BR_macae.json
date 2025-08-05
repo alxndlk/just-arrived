@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Macae",
+      "iata_code": "MEA",
+      "icao_code": "SBME",
+      "distance_km": 2.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buzios",
+      "iata_code": "BZC",
+      "icao_code": "SBBZ",
+      "distance_km": 47.9,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.buziosairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Buzios Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:37:07.180815Z",
+    "generated_at": "2025-08-04T19:57:28.483201Z",
     "env": "development",
     "source": "justarrived-generator"
   }

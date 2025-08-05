@@ -106,8 +106,51 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Gimpo Airport",
+      "iata_code": "GMP",
+      "icao_code": "RKSS",
+      "distance_km": 23.8,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Seoul (Incheon)",
+      "iata_code": "ICN",
+      "icao_code": "RKSI",
+      "distance_km": 30.9,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Newly built terminal for international flights"
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Domestic terminal for domestic flights"
+        }
+      ],
+      "website": "https://www.airport.kr/ap/en/index.do",
+      "wifi": {
+        "available": true,
+        "network_name": "ICN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:17.792480Z",
+    "generated_at": "2025-08-04T19:56:35.833855Z",
     "env": "development",
     "source": "justarrived-generator"
   }

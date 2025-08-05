@@ -48,8 +48,80 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 33.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 37.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and charter flights and offers a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.glennlmartinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "GLM Airport WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 39.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 47.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Montgomery County Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.montgomerycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Montgomery Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:39.163427Z",
+    "generated_at": "2025-08-04T20:10:26.711864Z",
     "env": "development",
     "source": "justarrived-generator"
   }

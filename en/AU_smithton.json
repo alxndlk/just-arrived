@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Smithton",
+      "iata_code": "SIO",
+      "icao_code": "YSMI",
+      "distance_km": 3.7,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Hobart",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smithton Airport handles all domestic flights within Australia."
+        },
+        {
+          "name": "International Terminal",
+          "description": "There is no international terminal at Smithton Airport as it is a small regional airport."
+        }
+      ],
+      "website": "https://www.smithtonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Smithton Airport Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:21.045592Z",
+    "generated_at": "2025-08-04T19:37:54.182920Z",
     "env": "development",
     "source": "justarrived-generator"
   }

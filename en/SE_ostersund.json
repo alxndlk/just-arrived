@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Åre Östersund Airport",
+      "iata_code": "OSD",
+      "icao_code": "ESPC",
+      "distance_km": 8.0,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for seasonal and charter flights."
+        }
+      ],
+      "website": "https://www.swedavia.com/ostersund/",
+      "wifi": {
+        "available": true,
+        "network_name": "OSD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:39.053163Z",
+    "generated_at": "2025-08-04T18:29:47.913284Z",
     "env": "development",
     "source": "justarrived-generator"
   }

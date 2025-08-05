@@ -50,8 +50,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atsugi NAS",
+      "iata_code": "NJA",
+      "icao_code": "RJTA",
+      "distance_km": 12.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Atsugi NAS Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Atsugi NAS Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.mod.go.jp/asdf/atsugi/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "Atsugi_NAS_Airport_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 24.7,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yokota AFB Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Yokota AFB Airport is used for military flights and operations."
+        }
+      ],
+      "website": "https://www.yokota.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yokota Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 41.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main and largest terminal at Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Haneda Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND-FreeWiFi",
+        "note": "Free WiFi is available throughout the airport, but may require reconnection every 3 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:46.748828Z",
+    "generated_at": "2025-08-04T18:34:44.668131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

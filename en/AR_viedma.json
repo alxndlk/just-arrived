@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Viedma",
+      "iata_code": "VDM",
+      "icao_code": "SAVV",
+      "distance_km": 5.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Salta",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.viedmaairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "VDM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:52:02.541015Z",
+    "generated_at": "2025-08-04T18:26:38.608419Z",
     "env": "development",
     "source": "justarrived-generator"
   }

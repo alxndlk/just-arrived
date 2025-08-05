@@ -50,8 +50,35 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Klerksdorp",
+      "iata_code": "KXE",
+      "icao_code": "FAKD",
+      "distance_km": 41.9,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.klerksdorpairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "Klerksdorp Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:34.809081Z",
+    "generated_at": "2025-08-04T18:32:40.368988Z",
     "env": "development",
     "source": "justarrived-generator"
   }

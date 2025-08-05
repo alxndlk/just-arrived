@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dane County Regional",
+      "iata_code": "MSN",
+      "icao_code": "KMSN",
+      "distance_km": 48.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dane County Regional Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is the primary concourse for domestic flights at Dane County Regional Airport."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is the secondary concourse for domestic flights at Dane County Regional Airport."
+        }
+      ],
+      "website": "https://www.msnairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tri County",
+      "iata_code": "LNR",
+      "icao_code": "KLNR",
+      "distance_km": 49.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tri County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Tri County Airport handles all freight and shipping operations."
+        }
+      ],
+      "website": "https://www.tricountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TriCountyWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:19.981509Z",
+    "generated_at": "2025-08-04T19:15:43.101127Z",
     "env": "development",
     "source": "justarrived-generator"
   }

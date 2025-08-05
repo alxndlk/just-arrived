@@ -51,8 +51,35 @@
     "police": "999"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yanbu",
+      "iata_code": "YNB",
+      "icao_code": "OEYN",
+      "distance_km": 13.2,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Yanbu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.yanbuairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yanbu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:34.430388Z",
+    "generated_at": "2025-08-04T18:07:41.949127Z",
     "env": "development",
     "source": "justarrived-generator"
   }

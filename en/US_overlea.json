@@ -48,8 +48,113 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 10.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baltimore/Washington International Thurgood Marshall",
+      "iata_code": "BWI",
+      "icao_code": "KBWI",
+      "distance_km": 24.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at BWI handles all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is primarily used by Southwest Airlines for their domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is used by various airlines for their domestic and international flights."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is used by various airlines for their domestic and international flights."
+        },
+        {
+          "name": "Concourse D",
+          "description": "Concourse D is primarily used by Delta Airlines for their domestic and international flights."
+        },
+        {
+          "name": "Concourse E",
+          "description": "Concourse E is primarily used by international airlines for their flights to and from BWI."
+        }
+      ],
+      "website": "https://www.bwiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BWI Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tipton AAF",
+      "iata_code": "FME",
+      "icao_code": "KFME",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tipton AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tipton AAF Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.tiptonaafairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TiptonAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lee",
+      "iata_code": "ANP",
+      "icao_code": "KANP",
+      "distance_km": 42.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lee Airport handles all commercial flights and includes a variety of amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Lee Airport caters to private and charter flights, with upscale services and facilities available."
+        }
+      ],
+      "website": "http://www.leeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeeAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminals."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:42.217037Z",
+    "generated_at": "2025-08-04T20:24:28.166404Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,60 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Girona-Costa Brava",
+      "iata_code": "GRO",
+      "icao_code": "LEGE",
+      "distance_km": 43.1,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Girona-Costa Brava Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for low-cost airlines and seasonal flights."
+        }
+      ],
+      "website": "https://www.aena.es/en/girona-costa-brava-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "GRO Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "El Prat De Llobregat",
+      "iata_code": "BCN",
+      "icao_code": "LEBL",
+      "distance_km": 45.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at El Prat De Llobregat Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at El Prat De Llobregat Airport, primarily serving low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.aena.es/en/barcelona-airport/index.html",
+      "wifi": {
+        "available": true,
+        "network_name": "BCN Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:51:16.320750Z",
+    "generated_at": "2025-08-04T19:17:53.305141Z",
     "env": "development",
     "source": "justarrived-generator"
   }

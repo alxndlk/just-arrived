@@ -50,8 +50,56 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Uttaradit",
+      "iata_code": "UTR",
+      "icao_code": "VTPU",
+      "distance_km": 24.7,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.utr-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "UTR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sukhothai",
+      "iata_code": "THS",
+      "icao_code": "VTPO",
+      "distance_km": 42.9,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sukhothai Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.sukhothaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sukhothai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:55:57.943867Z",
+    "generated_at": "2025-08-04T19:21:41.988508Z",
     "env": "development",
     "source": "justarrived-generator"
   }

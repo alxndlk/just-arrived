@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sydney Bankstown",
+      "iata_code": "BWU",
+      "icao_code": "YSBK",
+      "distance_km": 6.4,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sydney Bankstown Airport serves domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Sydney Bankstown Airport serves flights to and from other countries."
+        }
+      ],
+      "website": "https://www.bankstownairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bankstown Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Sydney Kingsford Smith Airport",
+      "iata_code": "SYD",
+      "icao_code": "YSSY",
+      "distance_km": 12.4,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Sydney",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Sydney Kingsford Smith Airport, serving international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The main domestic terminal at Sydney Kingsford Smith Airport, serving both Qantas and Jetstar flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller domestic terminal at Sydney Kingsford Smith Airport, serving Virgin Australia and Regional Express (Rex) flights."
+        }
+      ],
+      "website": "https://www.sydneyairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "SYD Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport, with a 3-hour time limit per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:53.811730Z",
+    "generated_at": "2025-08-04T19:32:51.091435Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zonguldak",
+      "iata_code": "ONQ",
+      "icao_code": "LTAS",
+      "distance_km": 10.2,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.zonguldakairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zonguldak Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:45.912907Z",
+    "generated_at": "2025-08-04T18:41:47.474581Z",
     "env": "development",
     "source": "justarrived-generator"
   }

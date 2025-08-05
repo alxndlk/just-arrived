@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Gatien",
+      "iata_code": "DOL",
+      "icao_code": "LFRG",
+      "distance_km": 32.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Octeville",
+      "iata_code": "LEH",
+      "icao_code": "LFOH",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Boos",
+      "iata_code": "URO",
+      "icao_code": "LFOP",
+      "distance_km": 45.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights and low-cost carriers."
+        }
+      ],
+      "website": "https://www.boos-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Boos Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:56.015113Z",
+    "generated_at": "2025-08-04T20:33:31.793718Z",
     "env": "development",
     "source": "justarrived-generator"
   }

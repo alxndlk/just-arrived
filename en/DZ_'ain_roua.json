@@ -50,8 +50,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Setif",
+      "iata_code": "QSF",
+      "icao_code": "DAAS",
+      "distance_km": 21.7,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal used for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.setifairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SetifAirportWifi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bejaia",
+      "iata_code": "BJA",
+      "icao_code": "DAAE",
+      "distance_km": 47.0,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Bejaia Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Bejaia Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.bejaia-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bejaia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:40.809282Z",
+    "generated_at": "2025-08-04T20:26:26.126296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

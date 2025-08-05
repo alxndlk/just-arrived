@@ -51,8 +51,106 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mandelieu",
+      "iata_code": "CEQ",
+      "icao_code": "LFMD",
+      "distance_km": 6.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Mandelieu Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.mandelieu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mandelieu Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cote D'azur International Airport",
+      "iata_code": "NCE",
+      "icao_code": "LFMN",
+      "distance_km": 18.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal for low-cost airlines."
+        }
+      ],
+      "website": "https://www.nice.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "NCE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Fontvieille Heliport",
+      "iata_code": "MCM",
+      "icao_code": "LNMC",
+      "distance_km": 36.9,
+      "gmt": "1",
+      "country": "Monaco",
+      "timezone": "Europe/Monaco",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fontvieille Heliport Airport serves as the primary hub for all commercial and private helicopter flights."
+        }
+      ],
+      "website": "https://www.monaco-helicopter.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FontvieilleHeliport",
+        "note": "Free WiFi is available throughout the terminal building."
+      }
+    },
+    {
+      "airport_name": "La Mole",
+      "iata_code": "LTT",
+      "icao_code": "LFTZ",
+      "distance_km": 45.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at La Mole Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lamole-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LTT Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:52.286273Z",
+    "generated_at": "2025-08-04T18:56:48.840233Z",
     "env": "development",
     "source": "justarrived-generator"
   }

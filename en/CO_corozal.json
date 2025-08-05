@@ -50,8 +50,47 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Corozal",
+      "iata_code": "CZU",
+      "icao_code": "SKCZ",
+      "distance_km": 3.6,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Corozal Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Corozal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.corozalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Corozal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Tolu",
+      "iata_code": "TLU",
+      "icao_code": "SKTL",
+      "distance_km": 41.9,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:11.609860Z",
+    "generated_at": "2025-08-04T20:01:28.042792Z",
     "env": "development",
     "source": "justarrived-generator"
   }

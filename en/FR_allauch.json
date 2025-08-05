@@ -51,8 +51,59 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aix-en-Provence Aerodrome",
+      "iata_code": "QXB",
+      "icao_code": "LFMA",
+      "distance_km": 20.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aix-en-Provence Aerodrome Airport handles all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Aix-en-Provence Aerodrome Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.aixenprovenceairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AixAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marseille Provence Airport",
+      "iata_code": "MRS",
+      "icao_code": "LFML",
+      "distance_km": 24.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Le Castellet",
+      "iata_code": "CTT",
+      "icao_code": "LFMQ",
+      "distance_km": 26.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:44.444018Z",
+    "generated_at": "2025-08-04T20:14:24.459601Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "J. Batista Bos Filho Airport",
+      "iata_code": "IJU",
+      "icao_code": "SSIJ",
+      "distance_km": 3.2,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sepe Tiaraju",
+      "iata_code": "GEL",
+      "icao_code": "SBNM",
+      "distance_km": 27.5,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sepe Tiaraju Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Sepe Tiaraju Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sepetiarajuairport.com.br",
+      "wifi": {
+        "available": true,
+        "network_name": "SepeTiarajuAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:47:33.151526Z",
+    "generated_at": "2025-08-04T20:00:33.128786Z",
     "env": "development",
     "source": "justarrived-generator"
   }

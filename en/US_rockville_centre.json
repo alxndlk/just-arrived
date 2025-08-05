@@ -48,8 +48,137 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 12.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Republic Field",
+      "iata_code": "FRG",
+      "icao_code": "KFRG",
+      "distance_km": 20.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Republic Field Airport serves as the primary hub for all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Republic Field Airport is exclusively used for private and corporate flights."
+        }
+      ],
+      "website": "https://www.republicairport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Republic Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 23.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 41.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 45.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Westchester County Apt Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Westchester County Apt Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://airport.westchestergov.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HPN Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 45.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The oldest and smallest terminal, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal, used for both domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal, mainly used for domestic and international flights."
+        }
+      ],
+      "website": "https://www.newarkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EWR Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Long Island Mac Arthur",
+      "iata_code": "ISP",
+      "icao_code": "KISP",
+      "distance_km": 47.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:17.381229Z",
+    "generated_at": "2025-08-04T20:11:29.781520Z",
     "env": "development",
     "source": "justarrived-generator"
   }

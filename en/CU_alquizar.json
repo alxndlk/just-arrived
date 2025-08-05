@@ -52,8 +52,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Playa Baracoa",
+      "iata_code": "UPB",
+      "icao_code": "MUPB",
+      "distance_km": 25.1,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Playa Baracoa Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertos.net/aeropuerto-playa-baracoa/",
+      "wifi": {
+        "available": true,
+        "network_name": "Playa Baracoa Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Jose Marti International",
+      "iata_code": "HAV",
+      "icao_code": "MUHA",
+      "distance_km": 27.8,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Jose Marti International Airport, serving most major airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights within Cuba."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Jose Marti International Airport, serving primarily international flights to and from the United States."
+        }
+      ],
+      "website": "http://www.havana-airport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAV-WIFI",
+        "note": "Free WiFi is available throughout the airport, but may experience slow speeds during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:33.169636Z",
+    "generated_at": "2025-08-04T18:42:41.131157Z",
     "env": "development",
     "source": "justarrived-generator"
   }

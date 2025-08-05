@@ -50,8 +50,56 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kawthaung",
+      "iata_code": "KAW",
+      "icao_code": "VYKT",
+      "distance_km": 15.7,
+      "gmt": "6.30",
+      "country": null,
+      "timezone": "Asia/Rangoon",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kawthaung Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kawthaungairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAW Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ranong",
+      "iata_code": "UNN",
+      "icao_code": "VTSR",
+      "distance_km": 18.6,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.airportthai.co.th/en/airport/ranong-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Ranong Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:31.780774Z",
+    "generated_at": "2025-08-04T20:24:27.166253Z",
     "env": "development",
     "source": "justarrived-generator"
   }

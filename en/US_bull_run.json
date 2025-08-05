@@ -48,8 +48,134 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Washington Dulles International",
+      "iata_code": "IAD",
+      "icao_code": "KIAD",
+      "distance_km": 20.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Washington Dulles International Airport is the primary hub for domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is dedicated to international flights and is connected to the main terminal by an underground walkway."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B serves as a hub for domestic flights and is connected to the main terminal by a pedestrian bridge."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C is the newest concourse at Washington Dulles International Airport and is primarily used by United Airlines."
+        }
+      ],
+      "website": "https://www.flydulles.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IAD Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'IAD Airport WiFi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Warrenton–Fauquier Airport",
+      "iata_code": "HWY",
+      "icao_code": "KHWY",
+      "distance_km": 27.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Warrenton-Fauquier Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Warrenton-Fauquier Airport is used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.fauquierairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FauquierAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ronald Reagan Washington National Airport",
+      "iata_code": "DCA",
+      "icao_code": "KDCA",
+      "distance_km": 42.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The oldest and smallest terminal, serving mainly regional flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The main terminal, serving most domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal, serving mainly international flights."
+        }
+      ],
+      "website": "https://www.flyreagan.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DCA Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Potomac Airfield",
+      "iata_code": "VKX",
+      "icao_code": "KVKX",
+      "distance_km": 49.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Montgomery County",
+      "iata_code": "GAI",
+      "icao_code": "KGAI",
+      "distance_km": 49.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Montgomery County Airport, serving both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is dedicated to private flights and offers exclusive amenities for private jet travelers."
+        }
+      ],
+      "website": "https://www.montgomerycountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MCAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:57.598429Z",
+    "generated_at": "2025-08-04T20:18:28.832373Z",
     "env": "development",
     "source": "justarrived-generator"
   }

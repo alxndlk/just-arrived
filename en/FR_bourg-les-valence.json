@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chabeuil",
+      "iata_code": "VAF",
+      "icao_code": "LFLU",
+      "distance_km": 6.6,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Vals-Lanas",
+      "iata_code": "OBS",
+      "icao_code": "LFHO",
+      "distance_km": 35.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroport.fr/valence-chabeuil",
+      "wifi": {
+        "available": true,
+        "network_name": "Vals-Lanas Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:04.376531Z",
+    "generated_at": "2025-08-04T20:15:28.890115Z",
     "env": "development",
     "source": "justarrived-generator"
   }

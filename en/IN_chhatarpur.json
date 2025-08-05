@@ -107,8 +107,51 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Indira Gandhi International",
+      "iata_code": "DEL",
+      "icao_code": "VIDP",
+      "distance_km": 14.7,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Delhi Hindon Airport",
+      "iata_code": "HDX",
+      "icao_code": "VIDX",
+      "distance_km": 43.2,
+      "gmt": "5.3",
+      "country": "India",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The international terminal."
+        }
+      ],
+      "website": "https://www.delhiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DELHI_HINDON_AIRPORT",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:08.614452Z",
+    "generated_at": "2025-08-04T20:29:35.594064Z",
     "env": "development",
     "source": "justarrived-generator"
   }

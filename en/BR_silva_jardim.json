@@ -50,8 +50,47 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cabo Frio",
+      "iata_code": "CFB",
+      "icao_code": "SBCB",
+      "distance_km": 44.3,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Buzios",
+      "iata_code": "BZC",
+      "icao_code": "SBBZ",
+      "distance_km": 45.8,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Buzios Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Buzios Airport, used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.buziosairport.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "BZC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:49.434299Z",
+    "generated_at": "2025-08-04T20:14:25.700483Z",
     "env": "development",
     "source": "justarrived-generator"
   }

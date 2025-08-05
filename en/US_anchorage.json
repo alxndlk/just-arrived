@@ -60,8 +60,43 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Ted Stevens Anchorage International Airport",
+      "iata_code": "ANC",
+      "icao_code": "PANC",
+      "distance_km": 47.7,
+      "gmt": "-9",
+      "country": "United States",
+      "timezone": "America/Anchorage",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palmer Municipalcipal",
+      "iata_code": "PAQ",
+      "icao_code": "PAAQ",
+      "distance_km": 50.0,
+      "gmt": "-9",
+      "country": "United States",
+      "timezone": "America/Anchorage",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palmer Municipal Airport, serving domestic flights."
+        }
+      ],
+      "website": "https://www.palmerairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:18.802815Z",
+    "generated_at": "2025-08-04T19:57:25.965056Z",
     "env": "development",
     "source": "justarrived-generator"
   }

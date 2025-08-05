@@ -50,8 +50,55 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Quiche Airport",
+      "iata_code": "AQB",
+      "icao_code": "MGQC",
+      "distance_km": 16.4,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Huehuetenango",
+      "iata_code": "HUG",
+      "icao_code": "MGHT",
+      "distance_km": 33.5,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Quetzaltenango",
+      "iata_code": "AAZ",
+      "icao_code": "MGQZ",
+      "distance_km": 41.0,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Quetzaltenango Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.quetzaltenangoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Quetzaltenango Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:30.417516Z",
+    "generated_at": "2025-08-04T20:11:30.021348Z",
     "env": "development",
     "source": "justarrived-generator"
   }

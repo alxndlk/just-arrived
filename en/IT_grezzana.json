@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Valerio Catullo",
+      "iata_code": "VRN",
+      "icao_code": "LIPX",
+      "distance_km": 15.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Valerio Catullo Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Valerio Catullo Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.aeroportoverona.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "VRN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Trissino",
+      "iata_code": "VIC",
+      "icao_code": "LIPT",
+      "distance_km": 41.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:15.262141Z",
+    "generated_at": "2025-08-04T20:27:36.091045Z",
     "env": "development",
     "source": "justarrived-generator"
   }

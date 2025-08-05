@@ -50,8 +50,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zenata",
+      "iata_code": "TLM",
+      "icao_code": "DAON",
+      "distance_km": 25.9,
+      "gmt": "1",
+      "country": null,
+      "timezone": "Africa/Algiers",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Zenata Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to domestic flights within Morocco."
+        }
+      ],
+      "website": "https://www.zenataairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zenata Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Les Anglades",
+      "iata_code": "OUD",
+      "icao_code": "GMFO",
+      "distance_km": 30.2,
+      "gmt": null,
+      "country": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.lesangladesairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Les Anglades Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:35.500718Z",
+    "generated_at": "2025-08-04T20:08:27.246092Z",
     "env": "development",
     "source": "justarrived-generator"
   }

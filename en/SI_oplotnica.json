@@ -49,8 +49,35 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maribor International Airport",
+      "iata_code": "MBX",
+      "icao_code": "LJMB",
+      "distance_km": 24.0,
+      "gmt": "1",
+      "country": "Slovenia",
+      "timezone": "Europe/Ljubljana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maribor International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Maribor International Airport is responsible for handling all cargo and freight shipments."
+        }
+      ],
+      "website": "https://www.maribor-airport.si/",
+      "wifi": {
+        "available": true,
+        "network_name": "MBX Airport Wifi",
+        "note": "Complimentary wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:03.825259Z",
+    "generated_at": "2025-08-04T19:38:41.487572Z",
     "env": "development",
     "source": "justarrived-generator"
   }

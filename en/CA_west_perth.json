@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Centralia",
+      "iata_code": "YCE",
+      "icao_code": "CYCE",
+      "distance_km": 30.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "London International",
+      "iata_code": "YXU",
+      "icao_code": "CYXU",
+      "distance_km": 49.3,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at London International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at London International Airport serves smaller regional airlines and charter flights."
+        }
+      ],
+      "website": "https://www.londonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "YXU Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:57.243746Z",
+    "generated_at": "2025-08-04T20:33:27.085642Z",
     "env": "development",
     "source": "justarrived-generator"
   }

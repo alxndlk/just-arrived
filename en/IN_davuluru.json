@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vijayawada",
+      "iata_code": "VGA",
+      "icao_code": "VOBZ",
+      "distance_km": 30.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "Handles all domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights."
+        }
+      ],
+      "website": "https://vijayawadaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VGA Free WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:02.016368Z",
+    "generated_at": "2025-08-04T19:32:52.396463Z",
     "env": "development",
     "source": "justarrived-generator"
   }

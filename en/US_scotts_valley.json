@@ -48,8 +48,100 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Watsonville",
+      "iata_code": "WVI",
+      "icao_code": "KWVI",
+      "distance_km": 27.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Reid-Hillview",
+      "iata_code": "RHV",
+      "icao_code": "KRHV",
+      "distance_km": 32.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mineta San Jose International Airport",
+      "iata_code": "SJC",
+      "icao_code": "KSJC",
+      "distance_km": 35.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Mineta San Jose International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A secondary terminal at Mineta San Jose International Airport, primarily used for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "A newer terminal at Mineta San Jose International Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.flysanjose.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJC Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Palo Alto",
+      "iata_code": "PAO",
+      "icao_code": "KPAO",
+      "distance_km": 46.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Marina Municipal",
+      "iata_code": "OAR",
+      "icao_code": "KOAR",
+      "distance_km": 49.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marina Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Marina Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.marinaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Marina Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:04.086867Z",
+    "generated_at": "2025-08-04T20:24:35.280118Z",
     "env": "development",
     "source": "justarrived-generator"
   }

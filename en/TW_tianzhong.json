@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chingchuankang",
+      "iata_code": "RMQ",
+      "icao_code": "RCMQ",
+      "distance_km": 43.4,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chingchuankang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal dedicated to international flights, providing modern amenities and services."
+        }
+      ],
+      "website": "https://www.taoyuan-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RMQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chiayi",
+      "iata_code": "CYI",
+      "icao_code": "RCKU",
+      "distance_km": 48.4,
+      "gmt": "8",
+      "country": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chiayi Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Chiayi Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.chiayiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chiayi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:48.535063Z",
+    "generated_at": "2025-08-04T18:34:48.605037Z",
     "env": "development",
     "source": "justarrived-generator"
   }

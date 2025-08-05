@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 5.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport houses all airline check-in counters, baggage claim, security checkpoints, and a variety of dining and shopping options."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Louis Armstrong New Orléans International Airport serves domestic and international flights, with gates A1-A7."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Louis Armstrong New Orléans International Airport serves domestic flights, with gates B1-B9."
+        }
+      ],
+      "website": "https://www.flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 23.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:50.898432Z",
+    "generated_at": "2025-08-04T20:28:25.994487Z",
     "env": "development",
     "source": "justarrived-generator"
   }

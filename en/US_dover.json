@@ -104,8 +104,43 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Dover AFB",
+      "iata_code": "DOV",
+      "icao_code": "KDOV",
+      "distance_km": 6.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 49.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.millvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Millville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:37.000813Z",
+    "generated_at": "2025-08-04T20:23:25.978331Z",
     "env": "development",
     "source": "justarrived-generator"
   }

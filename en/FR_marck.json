@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Calais",
+      "iata_code": "CQF",
+      "icao_code": "LFAC",
+      "distance_km": 1.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Calais Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Calais Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.calais-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Calais Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:45.049009Z",
+    "generated_at": "2025-08-04T19:24:44.939251Z",
     "env": "development",
     "source": "justarrived-generator"
   }

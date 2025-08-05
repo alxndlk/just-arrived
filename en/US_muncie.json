@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "AID",
+      "icao_code": "KAID",
+      "distance_km": 24.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Marion",
+      "iata_code": "MZZ",
+      "icao_code": "KMZZ",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Marion Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Marion Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.marionairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MarionAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:39.935041Z",
+    "generated_at": "2025-08-04T18:21:43.145942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

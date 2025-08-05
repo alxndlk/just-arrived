@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Porterville",
+      "iata_code": "PTV",
+      "icao_code": "KPTV",
+      "distance_km": 1.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Visalia",
+      "iata_code": "VIS",
+      "icao_code": "KVIS",
+      "distance_km": 43.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Visalia Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.flyvisalia.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "VIS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Corcoran",
+      "iata_code": "CRO",
+      "icao_code": "KCRO",
+      "distance_km": 46.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:33.490484Z",
+    "generated_at": "2025-08-04T20:01:29.540708Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -47,8 +47,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ilopango International Airport",
+      "iata_code": "ILS",
+      "icao_code": "MSSS",
+      "distance_km": 12.6,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ilopango International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ilopango International Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.aeropuertoselsalvador.gob.sv/aeropuerto-internacional-de-ilopango/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ilopango Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "El Salvador International",
+      "iata_code": "SAL",
+      "icao_code": "MSLP",
+      "distance_km": 32.2,
+      "gmt": "-6",
+      "country": "El Salvador",
+      "timezone": "America/El_Salvador",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal is mainly used for international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is used for domestic flights and some international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "This terminal is used for cargo and private flights."
+        }
+      ],
+      "website": "http://www.salairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "SAL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:24.061712Z",
+    "generated_at": "2025-08-04T20:04:25.801083Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,64 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 6.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Ciampino Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Ciampino Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.adr.it/ciampino",
+      "wifi": {
+        "available": true,
+        "network_name": "Ciampino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leonardo Da Vinci (Fiumicino)",
+      "iata_code": "FCO",
+      "icao_code": "LIRF",
+      "distance_km": 34.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Leonardo Da Vinci Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Leonardo Da Vinci Airport, mainly serving low-cost airlines."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Leonardo Da Vinci Airport, primarily used for long-haul flights."
+        }
+      ],
+      "website": "https://www.adr.it/fiumicino",
+      "wifi": {
+        "available": true,
+        "network_name": "Fiumicino Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport. Simply connect to the network and follow the instructions to access the internet."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:37.709128Z",
+    "generated_at": "2025-08-04T18:54:54.567108Z",
     "env": "development",
     "source": "justarrived-generator"
   }

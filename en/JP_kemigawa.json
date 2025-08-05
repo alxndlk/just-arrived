@@ -50,8 +50,64 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Haneda Airport",
+      "iata_code": "HND",
+      "icao_code": "RJTT",
+      "distance_km": 27.9,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Haneda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal of Haneda Airport, primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.haneda-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HND Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network by selecting 'HND Free Wi-Fi' from the available networks and following the instructions."
+      }
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 32.0,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest and busiest terminal at Narita International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal primarily used by low-cost carriers and some international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal used exclusively by low-cost carriers."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Narita Airport Free Wi-Fi",
+        "note": "Passengers can connect to the free Wi-Fi network by selecting the network and following the instructions on the login page."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:42.153989Z",
+    "generated_at": "2025-08-04T19:19:48.395055Z",
     "env": "development",
     "source": "justarrived-generator"
   }

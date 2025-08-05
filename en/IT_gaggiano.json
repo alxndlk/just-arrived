@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Linate",
+      "iata_code": "LIN",
+      "icao_code": "LIML",
+      "distance_km": 20.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Linate Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal at Linate Airport, mainly serving low-cost airlines."
+        }
+      ],
+      "website": "https://www.milanolinate-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "LINATE_WIFI",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Milano Malpensa",
+      "iata_code": "MXP",
+      "icao_code": "LIMC",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Milano Malpensa Airport, serving international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Milano Malpensa Airport, mainly serving low-cost and charter airlines."
+        }
+      ],
+      "website": "https://www.milanomalpensa-airport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MXP Free Wifi",
+        "note": "Passengers can connect to the airport's free wifi network for up to 3 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:34.483584Z",
+    "generated_at": "2025-08-04T19:31:49.661251Z",
     "env": "development",
     "source": "justarrived-generator"
   }

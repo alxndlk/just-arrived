@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Internacional",
+      "iata_code": "RGL",
+      "icao_code": "SAWG",
+      "distance_km": 4.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Rio_Gallegos",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Internacional Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Internacional Airport, mostly used for domestic flights."
+        }
+      ],
+      "website": "http://www.aeropuertorgl.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "RGL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:58.817931Z",
+    "generated_at": "2025-08-04T18:19:51.314844Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "100"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nikos Kazantzakis Airport",
+      "iata_code": "HER",
+      "icao_code": "LGIR",
+      "distance_km": 22.8,
+      "gmt": "2",
+      "country": "Greece",
+      "timezone": "Europe/Athens",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nikos Kazantzakis Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost carriers and seasonal flights."
+        }
+      ],
+      "website": "https://www.heraklion-airport.info/",
+      "wifi": {
+        "available": true,
+        "network_name": "HER-Airport-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:37.441430Z",
+    "generated_at": "2025-08-04T19:36:42.285506Z",
     "env": "development",
     "source": "justarrived-generator"
   }

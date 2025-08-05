@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rioja",
+      "iata_code": "RIJ",
+      "icao_code": "SPJA",
+      "distance_km": 20.4,
+      "gmt": "-5",
+      "country": "Peru",
+      "timezone": "America/Lima",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rioja Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rioja Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.riojaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Rioja Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free for up to 2 hours."
+      }
+    },
+    {
+      "airport_name": "Moyobamba",
+      "iata_code": "MBP",
+      "icao_code": "SPBB",
+      "distance_km": 28.9,
+      "gmt": "-5",
+      "country": "Peru",
+      "timezone": "America/Lima",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights within Peru."
+        }
+      ],
+      "website": "https://www.moyobambaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Moyobamba Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:08.834952Z",
+    "generated_at": "2025-08-04T18:27:39.791051Z",
     "env": "development",
     "source": "justarrived-generator"
   }

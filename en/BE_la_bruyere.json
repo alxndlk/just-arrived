@@ -51,8 +51,63 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Charleroi Brussels South",
+      "iata_code": "CRL",
+      "icao_code": "EBCI",
+      "distance_km": 25.1,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 49.3,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Brussels Airport",
+      "iata_code": "BRU",
+      "icao_code": "EBBR",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Brussels Airport, serving most international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Brussels Airport, primarily used for low-cost and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal at Brussels Airport, used for select airlines and destinations."
+        }
+      ],
+      "website": "https://www.brusselsairport.be/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brussels Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with limited access for non-EU residents."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:58.195354Z",
+    "generated_at": "2025-08-04T20:31:37.739500Z",
     "env": "development",
     "source": "justarrived-generator"
   }

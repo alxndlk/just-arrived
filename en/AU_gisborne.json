@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Melbourne - Tullamarine Airport",
+      "iata_code": "MEL",
+      "icao_code": "YMML",
+      "distance_km": 30.5,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Melbourne - Tullamarine Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The domestic terminal at Melbourne - Tullamarine Airport."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The budget airlines terminal at Melbourne - Tullamarine Airport."
+        }
+      ],
+      "website": "https://melbourneairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "MEL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Essendon",
+      "iata_code": "MEB",
+      "icao_code": "YMEN",
+      "distance_km": 38.6,
+      "gmt": "10",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Essendon Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Essendon Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.essendonairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essendon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:50.218677Z",
+    "generated_at": "2025-08-04T19:33:43.599472Z",
     "env": "development",
     "source": "justarrived-generator"
   }

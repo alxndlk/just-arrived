@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bourges",
+      "iata_code": "BOU",
+      "icao_code": "LFLD",
+      "distance_km": 27.5,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bourges Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bourges Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.bourges-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bourges Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:01.760680Z",
+    "generated_at": "2025-08-04T18:47:39.543968Z",
     "env": "development",
     "source": "justarrived-generator"
   }

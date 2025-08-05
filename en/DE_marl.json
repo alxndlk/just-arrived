@@ -49,8 +49,84 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 31.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Dortmund",
+      "iata_code": "DTM",
+      "icao_code": "EDLW",
+      "distance_km": 38.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dortmund Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Dortmund Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.dortmund-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DTM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Stadtlohn Vreden Airport",
+      "iata_code": "QEV",
+      "icao_code": "EDLS",
+      "distance_km": 41.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Stadtlohn Vreden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal is dedicated to handling cargo and freight shipments at Stadtlohn Vreden Airport."
+        }
+      ],
+      "website": "https://www.stadtlohn-vreden-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Stadtlohn Vreden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    },
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 49.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:27.270232Z",
+    "generated_at": "2025-08-04T20:00:29.406462Z",
     "env": "development",
     "source": "justarrived-generator"
   }

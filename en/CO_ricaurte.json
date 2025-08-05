@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "San Luis",
+      "iata_code": "IPI",
+      "icao_code": "SKIP",
+      "distance_km": 49.5,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Luis Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sanluisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanLuisAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:38.167319Z",
+    "generated_at": "2025-08-04T20:23:31.107112Z",
     "env": "development",
     "source": "justarrived-generator"
   }

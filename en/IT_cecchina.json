@@ -51,8 +51,64 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ciampino",
+      "iata_code": "CIA",
+      "icao_code": "LIRA",
+      "distance_km": 11.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.adr.it/ciampino",
+      "wifi": {
+        "available": true,
+        "network_name": "Ciampino Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Leonardo Da Vinci (Fiumicino)",
+      "iata_code": "FCO",
+      "icao_code": "LIRF",
+      "distance_km": 34.7,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Leonardo Da Vinci Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines and charter flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal, dedicated to international flights."
+        }
+      ],
+      "website": "https://www.adr.it/fiumicino",
+      "wifi": {
+        "available": true,
+        "network_name": "Leonardo Da Vinci Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, with a limited time of 2 hours per session."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:47.808259Z",
+    "generated_at": "2025-08-04T19:17:42.672031Z",
     "env": "development",
     "source": "justarrived-generator"
   }

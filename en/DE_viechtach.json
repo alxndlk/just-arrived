@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wallmuhle",
+      "iata_code": "RBM",
+      "icao_code": "KRBM",
+      "distance_km": 33.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Wallmuhle Airport with domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.wallmuhle-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Wallmuhle Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:38.845155Z",
+    "generated_at": "2025-08-04T19:36:42.310893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

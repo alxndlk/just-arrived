@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Talmont",
+      "iata_code": "LSO",
+      "icao_code": "LFOO",
+      "distance_km": 0.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Talmont Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Talmont Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.talmontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Talmont Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Les Ajoncs",
+      "iata_code": "EDM",
+      "icao_code": "LFRI",
+      "distance_km": 38.0,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.lesajoncsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LesAjoncsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:52.891161Z",
+    "generated_at": "2025-08-04T19:08:42.376720Z",
     "env": "development",
     "source": "justarrived-generator"
   }

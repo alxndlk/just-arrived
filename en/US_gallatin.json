@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nashville International",
+      "iata_code": "BNA",
+      "icao_code": "KBNA",
+      "distance_km": 32.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Smyrna",
+      "iata_code": "MQY",
+      "icao_code": "KMQY",
+      "distance_km": 44.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Smyrna Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Smyrna Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.flynashville.com/smyrna",
+      "wifi": {
+        "available": true,
+        "network_name": "Smyrna Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:59.395127Z",
+    "generated_at": "2025-08-04T20:04:28.553302Z",
     "env": "development",
     "source": "justarrived-generator"
   }

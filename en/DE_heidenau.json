@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dresden Airport",
+      "iata_code": "DRS",
+      "icao_code": "EDDC",
+      "distance_km": 17.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Dresden Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Dresden Airport, mainly used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.dresden-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dresden Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:32:59.523424Z",
+    "generated_at": "2025-08-04T19:02:45.934051Z",
     "env": "development",
     "source": "justarrived-generator"
   }

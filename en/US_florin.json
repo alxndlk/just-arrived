@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sacramento International",
+      "iata_code": "SMF",
+      "icao_code": "KSMF",
+      "distance_km": 28.5,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The secondary terminal for domestic and international flights."
+        }
+      ],
+      "website": "https://sacramento.aero/smf",
+      "wifi": {
+        "available": true,
+        "network_name": "SMF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:44.609656Z",
+    "generated_at": "2025-08-04T18:29:50.493726Z",
     "env": "development",
     "source": "justarrived-generator"
   }

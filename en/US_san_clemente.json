@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Wayne",
+      "iata_code": "SNA",
+      "icao_code": "KSNA",
+      "distance_km": 34.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for major airlines such as American Airlines and Delta."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves domestic and international flights for airlines such as United and Alaska Airlines."
+        }
+      ],
+      "website": "https://www.ocair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SNA Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OCN",
+      "icao_code": "KOKB",
+      "distance_km": 35.1,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mc Clellan-Palomar Airport",
+      "iata_code": "CLD",
+      "icao_code": "KCRQ",
+      "distance_km": 48.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.sandiego.gov/airports/mcclellan-palomar",
+      "wifi": {
+        "available": true,
+        "network_name": "CLD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:03.061491Z",
+    "generated_at": "2025-08-04T18:25:43.856273Z",
     "env": "development",
     "source": "justarrived-generator"
   }

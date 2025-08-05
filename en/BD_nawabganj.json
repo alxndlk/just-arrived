@@ -50,8 +50,47 @@
     "police": "865513"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rajshahi",
+      "iata_code": "RJH",
+      "icao_code": "VGRJ",
+      "distance_km": 40.0,
+      "gmt": "6",
+      "country": "Bangladesh",
+      "timezone": "Asia/Dhaka",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Malda",
+      "iata_code": "LDA",
+      "icao_code": "VEMH",
+      "distance_km": 49.6,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.maldaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Malda Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:40:49.328588Z",
+    "generated_at": "2025-08-04T19:58:29.778217Z",
     "env": "development",
     "source": "justarrived-generator"
   }

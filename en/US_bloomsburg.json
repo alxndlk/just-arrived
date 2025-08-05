@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Penn Valley",
+      "iata_code": "SEG",
+      "icao_code": "KSEG",
+      "distance_km": 37.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hazleton",
+      "iata_code": "HZL",
+      "icao_code": "KHZL",
+      "distance_km": 39.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hazleton Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Hazleton Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.hazletonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hazleton Airport WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lycoming County",
+      "iata_code": "IPT",
+      "icao_code": "KIPT",
+      "distance_km": 47.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:31.809142Z",
+    "generated_at": "2025-08-04T20:23:30.617339Z",
     "env": "development",
     "source": "justarrived-generator"
   }

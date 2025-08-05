@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mount Gambier",
+      "iata_code": "MGB",
+      "icao_code": "YMTG",
+      "distance_km": 40.9,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Adelaide",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mount Gambier Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.mountgambierairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGB Airport WiFi",
+        "note": "Free WiFi is available throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Naracoorte",
+      "iata_code": "NAC",
+      "icao_code": "YNRC",
+      "distance_km": 47.7,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Adelaide",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Naracoorte Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Naracoorte Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.naracoorteairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAC Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:05.090493Z",
+    "generated_at": "2025-08-04T19:38:43.416191Z",
     "env": "development",
     "source": "justarrived-generator"
   }

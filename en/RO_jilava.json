@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Baneasa",
+      "iata_code": "BBU",
+      "icao_code": "LRBS",
+      "distance_km": 18.1,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Baneasa Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Baneasa Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.bucharestairports.ro/en/baneasa/",
+      "wifi": {
+        "available": true,
+        "network_name": "Baneasa Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Henri Coanda International",
+      "iata_code": "OTP",
+      "icao_code": "LROP",
+      "distance_km": 26.5,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:52.884147Z",
+    "generated_at": "2025-08-04T20:28:26.173267Z",
     "env": "development",
     "source": "justarrived-generator"
   }

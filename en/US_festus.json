@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St. Louis Downtown Airport",
+      "iata_code": "CPS",
+      "icao_code": "KCPS",
+      "distance_km": 45.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St. Louis Downtown Airport serves all commercial flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at St. Louis Downtown Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://flystlouis.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STL_Downtown_Airport",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Farmington Regional Airport",
+      "iata_code": "FAM",
+      "icao_code": "KFAM",
+      "distance_km": 48.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Farmington Regional Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Farmington Regional Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.farmingtonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FAM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:17.231785Z",
+    "generated_at": "2025-08-04T19:13:51.352897Z",
     "env": "development",
     "source": "justarrived-generator"
   }

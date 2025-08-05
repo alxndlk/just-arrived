@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Masada",
+      "iata_code": "MTZ",
+      "icao_code": "LLMZ",
+      "distance_km": 42.6,
+      "gmt": "2",
+      "country": "Israel",
+      "timezone": "Asia/Jerusalem",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Masada Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Masada Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.masadaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Masada Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:45.117801Z",
+    "generated_at": "2025-08-04T18:40:50.058052Z",
     "env": "development",
     "source": "justarrived-generator"
   }

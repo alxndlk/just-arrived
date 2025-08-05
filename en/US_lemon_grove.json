@@ -48,8 +48,138 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gillespie Field",
+      "iata_code": "SEE",
+      "icao_code": "KSEE",
+      "distance_km": 11.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "San Diego International Airport",
+      "iata_code": "SAN",
+      "icao_code": "KSAN",
+      "distance_km": 15.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at San Diego International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second terminal at San Diego International Airport, serving primarily domestic flights."
+        }
+      ],
+      "website": "https://www.san.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "SAN-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "North Island NAS",
+      "iata_code": "NZY",
+      "icao_code": "KNZY",
+      "distance_km": 15.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and is equipped with various amenities for passenger convenience."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "This terminal is dedicated to military personnel and their families, providing easy access to military bases and other locations."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal caters to private and charter flights, offering a more luxurious and personalized travel experience."
+        }
+      ],
+      "website": "https://www.nasnorthisland.navy.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS North Island WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network by selecting 'NAS North Island WiFi' and following the prompts."
+      }
+    },
+    {
+      "airport_name": "Brown Field Municipalcipal",
+      "iata_code": "SDM",
+      "icao_code": "KSDM",
+      "distance_km": 18.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Brown Field Municipal Airport serves commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Brown Field Municipal Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.sandiego.gov/airports/brown",
+      "wifi": {
+        "available": true,
+        "network_name": "BrownFieldAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "General A. L. Rodriguez International",
+      "iata_code": "TIJ",
+      "icao_code": "MMTJ",
+      "distance_km": 21.5,
+      "gmt": "-8",
+      "country": "Mexico",
+      "timezone": "America/Tijuana",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Mc Clellan-Palomar Airport",
+      "iata_code": "CLD",
+      "icao_code": "KCRQ",
+      "distance_km": 47.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mc Clellan-Palomar Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Mc Clellan-Palomar Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.san.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "CLD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:12:01.200788Z",
+    "generated_at": "2025-08-04T20:10:28.867912Z",
     "env": "development",
     "source": "justarrived-generator"
   }

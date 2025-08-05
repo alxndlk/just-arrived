@@ -50,8 +50,56 @@
     "police": "060"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Matamoros",
+      "iata_code": "MAM",
+      "icao_code": "MMMA",
+      "distance_km": 31.1,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Matamoros",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Matamoros Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Matamoros Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/matamoros",
+      "wifi": {
+        "available": true,
+        "network_name": "MAM Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "South Padre Is. International",
+      "iata_code": "BRO",
+      "icao_code": "KBRO",
+      "distance_km": 47.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at South Padre Island International Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.southpadreairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPI Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:48.018793Z",
+    "generated_at": "2025-08-04T18:24:02.893644Z",
     "env": "development",
     "source": "justarrived-generator"
   }

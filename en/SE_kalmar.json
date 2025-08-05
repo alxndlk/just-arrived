@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kalmar",
+      "iata_code": "KLR",
+      "icao_code": "ESMQ",
+      "distance_km": 5.3,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kalmar Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for domestic flights within Sweden."
+        }
+      ],
+      "website": "https://www.kalmarairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kalmar Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:59.478983Z",
+    "generated_at": "2025-08-04T18:32:50.901947Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bielefeld",
+      "iata_code": "BFE",
+      "icao_code": "EDLI",
+      "distance_km": 39.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Bielefeld Airport."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.bielefeld-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "BFE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:42.875735Z",
+    "generated_at": "2025-08-04T18:21:42.015027Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "South Bend Regional",
+      "iata_code": "SBN",
+      "icao_code": "KSBN",
+      "distance_km": 47.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Indiana/Indianapolis",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at South Bend Regional Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at South Bend Regional Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://flysbn.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SBN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:10:32.084265Z",
+    "generated_at": "2025-08-04T19:33:00.620779Z",
     "env": "development",
     "source": "justarrived-generator"
   }

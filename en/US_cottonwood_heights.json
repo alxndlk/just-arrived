@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Salt Lake City International",
+      "iata_code": "SLC",
+      "icao_code": "KSLC",
+      "distance_km": 23.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights"
+        },
+        {
+          "name": "International Terminal",
+          "description": "The terminal for international flights"
+        }
+      ],
+      "website": "https://www.slcairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Provo",
+      "iata_code": "PVU",
+      "icao_code": "KPVU",
+      "distance_km": 44.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:10.875526Z",
+    "generated_at": "2025-08-04T20:07:35.583727Z",
     "env": "development",
     "source": "justarrived-generator"
   }

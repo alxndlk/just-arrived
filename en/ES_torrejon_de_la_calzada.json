@@ -51,8 +51,72 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barajas",
+      "iata_code": "MAD",
+      "icao_code": "LEMD",
+      "distance_km": 35.3,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The newest and largest terminal at Barajas Airport, mainly used for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The oldest terminal at Barajas Airport, mainly used for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal mainly used for low-cost and charter flights."
+        },
+        {
+          "name": "Terminal 4",
+          "description": "The second largest terminal at Barajas Airport, mainly used for international and intercontinental flights."
+        },
+        {
+          "name": "Terminal 4S",
+          "description": "A satellite terminal connected to Terminal 4, mainly used for long-haul flights."
+        }
+      ],
+      "website": "https://www.aeropuertomadrid-barajas.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "MAD Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may require re-connection every 15 minutes."
+      }
+    },
+    {
+      "airport_name": "Torrejon AFB",
+      "iata_code": "TOJ",
+      "icao_code": "LETO",
+      "distance_km": 35.6,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Torrejon AFB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Torrejon AFB Airport, primarily used for military and private flights."
+        }
+      ],
+      "website": "https://www.torrejon.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Torrejon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:50.894899Z",
+    "generated_at": "2025-08-04T19:27:55.686906Z",
     "env": "development",
     "source": "justarrived-generator"
   }

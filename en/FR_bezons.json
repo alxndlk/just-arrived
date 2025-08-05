@@ -51,8 +51,135 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Paris Cergy Pontoise",
+      "iata_code": "POX",
+      "icao_code": "LFPT",
+      "distance_km": 16.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-cergy-pontoise-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "POX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Le Bourget",
+      "iata_code": "LBG",
+      "icao_code": "LFPB",
+      "distance_km": 17.2,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Le Bourget Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "A dedicated terminal for private and corporate flights, offering VIP services and amenities."
+        }
+      ],
+      "website": "https://www.lebourget.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LeBourgetAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Toussus-le-noble",
+      "iata_code": "TNF",
+      "icao_code": "LFPN",
+      "distance_km": 20.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Toussus-le-noble Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.toussus-le-noble-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "ToussusWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Orly",
+      "iata_code": "ORY",
+      "icao_code": "LFPO",
+      "distance_km": 24.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Orly Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Orly Airport, mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/paris-orly",
+      "wifi": {
+        "available": true,
+        "network_name": "ParisAirports_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Charles De Gaulle",
+      "iata_code": "CDG",
+      "icao_code": "LFPG",
+      "distance_km": 26.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest terminal at Charles De Gaulle Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The largest terminal at Charles De Gaulle Airport, divided into 7 sub-terminals (2A to 2G) serving both international and domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A smaller terminal at Charles De Gaulle Airport, mainly used for low-cost airlines and some domestic flights."
+        }
+      ],
+      "website": "https://www.parisaeroport.fr/en/passengers/flight-preparation/flight-departures/paris-charles-de-gaulle-departures",
+      "wifi": {
+        "available": true,
+        "network_name": "CDG Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may require reconnection every 15 minutes."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:53.783465Z",
+    "generated_at": "2025-08-04T18:38:05.965449Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,109 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt-Egelsbach Airport",
+      "iata_code": "QEF",
+      "icao_code": "EDFE",
+      "distance_km": 14.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Frankfurt-Egelsbach Airport, serving domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "A separate terminal for private and charter flights at Frankfurt-Egelsbach Airport."
+        }
+      ],
+      "website": "https://www.egelsbach-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Egelsbach Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Frankfurt International Airport",
+      "iata_code": "FRA",
+      "icao_code": "EDDF",
+      "distance_km": 16.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Frankfurt International Airport, serving mainly Lufthansa and its Star Alliance partners."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The second largest terminal at Frankfurt International Airport, serving mainly non-Star Alliance airlines."
+        }
+      ],
+      "website": "https://www.frankfurt-airport.com/en.html",
+      "wifi": {
+        "available": true,
+        "network_name": "FRA Free WiFi",
+        "note": "Free WiFi is available throughout the airport, but may require a new login every 30 minutes."
+      }
+    },
+    {
+      "airport_name": "Reichelsheim Airport",
+      "iata_code": "QER",
+      "icao_code": "EDFB",
+      "distance_km": 32.3,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Air Base",
+      "iata_code": "WIE",
+      "icao_code": "ETOU",
+      "distance_km": 40.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Air Base Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and private flights."
+        }
+      ],
+      "website": "https://www.airbaseairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "AirBaseWiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mainz Finthen Airport",
+      "iata_code": "QEZ",
+      "icao_code": "EDFZ",
+      "distance_km": 47.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:58.537141Z",
+    "generated_at": "2025-08-04T20:15:33.278131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

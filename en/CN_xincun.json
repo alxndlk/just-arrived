@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Zhaotong",
+      "iata_code": "ZAT",
+      "icao_code": "ZPZT",
+      "distance_km": 40.1,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.zhaotongairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zhaotong Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:05.452266Z",
+    "generated_at": "2025-08-04T20:30:31.581738Z",
     "env": "development",
     "source": "justarrived-generator"
   }

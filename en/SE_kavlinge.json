@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ljungbyhed Airport",
+      "iata_code": "QEL",
+      "icao_code": "ESTL",
+      "distance_km": 32.2,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ljungbyhed Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ljungbyhed Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.ljungbyhedairport.se/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ljungbyhed Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Sturup",
+      "iata_code": "MMX",
+      "icao_code": "ESMS",
+      "distance_km": 33.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sturup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.swedavia.com/malmo-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "SturupAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kastrup",
+      "iata_code": "CPH",
+      "icao_code": "EKCH",
+      "distance_km": 34.1,
+      "gmt": "1",
+      "country": "Denmark",
+      "timezone": "Europe/Copenhagen",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal at Kastrup Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Kastrup Airport, primarily serving international flights."
+        }
+      ],
+      "website": "https://www.cph.dk/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPH Airport Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:37.491689Z",
+    "generated_at": "2025-08-04T20:08:27.599654Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -104,8 +104,51 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Bozeman Yellowstone International Airport",
+      "iata_code": "BZN",
+      "icao_code": "KBZN",
+      "distance_km": 1.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bozeman Yellowstone International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a satellite terminal connected to the main terminal, primarily used for regional flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is a satellite terminal connected to the main terminal, primarily used for seasonal flights."
+        }
+      ],
+      "website": "https://bozemanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BZN-WiFi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mission Field",
+      "iata_code": "LVM",
+      "icao_code": "KLVM",
+      "distance_km": 48.7,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:07.736779Z",
+    "generated_at": "2025-08-04T20:26:27.830544Z",
     "env": "development",
     "source": "justarrived-generator"
   }

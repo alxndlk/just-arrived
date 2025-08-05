@@ -51,8 +51,47 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Falconara",
+      "iata_code": "AOI",
+      "icao_code": "LIPY",
+      "distance_km": 46.8,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sant Egidio",
+      "iata_code": "PEG",
+      "icao_code": "LIRZ",
+      "distance_km": 49.5,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sant Egidio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sant Egidio Airport, mainly used for charter and private flights."
+        }
+      ],
+      "website": "https://www.aeroportodipergola.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantEgidioAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:17.963683Z",
+    "generated_at": "2025-08-04T20:09:32.153209Z",
     "env": "development",
     "source": "justarrived-generator"
   }

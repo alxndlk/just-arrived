@@ -51,8 +51,60 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kandla",
+      "iata_code": "IXY",
+      "icao_code": "VAKE",
+      "distance_km": 22.3,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kandla Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "A separate terminal dedicated to handling cargo operations at Kandla Airport."
+        }
+      ],
+      "website": "https://www.kandlaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kandla Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Rudra Mata",
+      "iata_code": "BHJ",
+      "icao_code": "VABJ",
+      "distance_km": 26.2,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.aai.aero/en/airports/bhuj",
+      "wifi": {
+        "available": true,
+        "network_name": "Rudra Mata Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:10.841821Z",
+    "generated_at": "2025-08-04T19:27:05.195964Z",
     "env": "development",
     "source": "justarrived-generator"
   }

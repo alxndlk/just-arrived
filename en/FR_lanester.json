@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lann Bihoue",
+      "iata_code": "LRT",
+      "icao_code": "LFRH",
+      "distance_km": 7.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Lann Bihoue Airport, handling both international and domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Lann Bihoue Airport, primarily used for regional flights."
+        }
+      ],
+      "website": "https://www.brest.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lann Bihoue Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Meucon",
+      "iata_code": "VNE",
+      "icao_code": "LFRV",
+      "distance_km": 44.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Meucon Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Meucon Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.vannes.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Meucon Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:28.826105Z",
+    "generated_at": "2025-08-04T18:50:01.855602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

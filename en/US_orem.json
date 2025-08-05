@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Provo",
+      "iata_code": "PVU",
+      "icao_code": "KPVU",
+      "distance_km": 9.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Provo Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Provo Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.provoairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Provo Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:49.462029Z",
+    "generated_at": "2025-08-04T18:19:47.407674Z",
     "env": "development",
     "source": "justarrived-generator"
   }

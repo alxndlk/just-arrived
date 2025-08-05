@@ -50,8 +50,35 @@
     "police": "119"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Malé International Airport",
+      "iata_code": "MLE",
+      "icao_code": "VRMM",
+      "distance_km": 23.8,
+      "gmt": "5",
+      "country": "Maldives",
+      "timezone": "Indian/Maldives",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.maleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLE Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:21.205178Z",
+    "generated_at": "2025-08-04T19:39:43.899942Z",
     "env": "development",
     "source": "justarrived-generator"
   }

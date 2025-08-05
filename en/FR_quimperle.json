@@ -51,8 +51,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lann Bihoue",
+      "iata_code": "LRT",
+      "icao_code": "LFRH",
+      "distance_km": 15.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Lann Bihoue Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Lann Bihoue Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.lorient.aeroport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "LRT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pluguffan",
+      "iata_code": "UIP",
+      "icao_code": "LFRQ",
+      "distance_km": 47.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pluguffan Airport, serving domestic and international flights."
+        }
+      ],
+      "website": "https://www.brest.aeroport.bzh/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Pluguffan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:48:38.068993Z",
+    "generated_at": "2025-08-04T19:15:48.540661Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Finkenwerder",
+      "iata_code": "XFW",
+      "icao_code": "EDHI",
+      "distance_km": 5.0,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Finkenwerder Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Finkenwerder Airport, primarily used for charter and private flights."
+        }
+      ],
+      "website": "https://www.finkenwerderairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Finkenwerder Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 11.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal primarily serves domestic and Schengen flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal primarily serves international and non-Schengen flights."
+        }
+      ],
+      "website": "https://www.hannover-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAJ Free WiFi",
+        "note": "Free WiFi is available throughout the airport, no password required."
+      }
+    },
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 35.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hildesheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights and private charters."
+        }
+      ],
+      "website": "https://www.hildesheimairport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hildesheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:51.388315Z",
+    "generated_at": "2025-08-04T20:28:36.052699Z",
     "env": "development",
     "source": "justarrived-generator"
   }

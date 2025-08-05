@@ -50,8 +50,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pilar",
+      "iata_code": "PIL",
+      "icao_code": "SGPI",
+      "distance_km": 43.1,
+      "gmt": "-4",
+      "country": "Paraguay",
+      "timezone": "America/Asuncion",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Camba Punta",
+      "iata_code": "CNQ",
+      "icao_code": "SARC",
+      "distance_km": 44.7,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Cordoba",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.cambapuntaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Camba Punta Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:36.141086Z",
+    "generated_at": "2025-08-04T20:29:32.452027Z",
     "env": "development",
     "source": "justarrived-generator"
   }

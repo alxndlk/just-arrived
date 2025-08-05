@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Rio Mayo",
+      "iata_code": "ROY",
+      "icao_code": "SAWM",
+      "distance_km": 2.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Catamarca",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Rio Mayo Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Rio Mayo Airport handles all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.argentina.gob.ar/transporte/aviacioncivil/aeropuertos/rio-mayo",
+      "wifi": {
+        "available": true,
+        "network_name": "RioMayoAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:16:31.622411Z",
+    "generated_at": "2025-08-04T19:37:57.903477Z",
     "env": "development",
     "source": "justarrived-generator"
   }

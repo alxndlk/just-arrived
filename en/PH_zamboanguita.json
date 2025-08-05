@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Dumaguete",
+      "iata_code": "DGT",
+      "icao_code": "RPVD",
+      "distance_km": 28.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.dumagueteairport.gov.ph/",
+      "wifi": {
+        "available": true,
+        "network_name": "DGT Airport Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:36.633566Z",
+    "generated_at": "2025-08-04T18:42:40.858350Z",
     "env": "development",
     "source": "justarrived-generator"
   }

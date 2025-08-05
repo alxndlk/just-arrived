@@ -50,8 +50,72 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Coatepeque Airport",
+      "iata_code": "CTF",
+      "icao_code": "MGCT",
+      "distance_km": 31.9,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tapachula International",
+      "iata_code": "TAP",
+      "icao_code": "MMTP",
+      "distance_km": 38.7,
+      "gmt": "-6",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/tapachula-international-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "TAP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Base Aerea Del Sur",
+      "iata_code": "RER",
+      "icao_code": "MGRT",
+      "distance_km": 48.3,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.aeropuertosdelmundo.com.ar/americadelnorte/guatemala/aeropuertos/base-aerea-del-sur.php",
+      "wifi": {
+        "available": true,
+        "network_name": "BaseAereaDelSur",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:53.394178Z",
+    "generated_at": "2025-08-04T20:07:30.549737Z",
     "env": "development",
     "source": "justarrived-generator"
   }

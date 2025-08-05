@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Albany",
+      "iata_code": "CVO",
+      "icao_code": "KCVO",
+      "distance_km": 14.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Albany Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B is primarily used for regional flights and is connected to the main terminal via a walkway."
+        }
+      ],
+      "website": "https://www.albanyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Albany Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:49:57.985252Z",
+    "generated_at": "2025-08-04T18:24:40.571046Z",
     "env": "development",
     "source": "justarrived-generator"
   }

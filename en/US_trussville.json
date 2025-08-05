@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Birmingham-Shuttlesworth International Airport",
+      "iata_code": "BHM",
+      "icao_code": "KBHM",
+      "distance_km": 18.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Birmingham-Shuttlesworth International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Birmingham-Shuttlesworth International Airport serves domestic flights for American Airlines, Delta Air Lines, and United Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Birmingham-Shuttlesworth International Airport serves domestic flights for Southwest Airlines."
+        }
+      ],
+      "website": "https://www.flybirmingham.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BHM Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport with no time limit."
+      }
+    },
+    {
+      "airport_name": "St Clair County",
+      "iata_code": "PLR",
+      "icao_code": "KPLR",
+      "distance_km": 28.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:13:42.359150Z",
+    "generated_at": "2025-08-04T20:10:36.005688Z",
     "env": "development",
     "source": "justarrived-generator"
   }

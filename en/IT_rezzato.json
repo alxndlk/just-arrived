@@ -51,8 +51,60 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Brescia Montichiari",
+      "iata_code": "VBS",
+      "icao_code": "LIPO",
+      "distance_km": 10.0,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Brescia Montichiari Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Brescia Montichiari Airport, primarily used for private and charter flights."
+        }
+      ],
+      "website": "https://www.aeroportobrescia.it/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Brescia Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Valerio Catullo",
+      "iata_code": "VRN",
+      "icao_code": "LIPX",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.aeroportoverona.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "VRN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:44:38.225693Z",
+    "generated_at": "2025-08-04T19:12:41.407873Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,81 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Liege Airport",
+      "iata_code": "LGG",
+      "icao_code": "EBLG",
+      "distance_km": 28.0,
+      "gmt": "1",
+      "country": "Belgium",
+      "timezone": "Europe/Brussels",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Liege Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Liege Airport, primarily used for cargo and private flights."
+        }
+      ],
+      "website": "https://www.liegeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Liege Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Maastricht/aachen",
+      "iata_code": "MST",
+      "icao_code": "EHBK",
+      "distance_km": 32.6,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maastricht/aachen Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.maa.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maastricht Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 46.8,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Kempen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Kempen Airport, mainly used for budget airlines."
+        }
+      ],
+      "website": "https://www.kempenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kempen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport, but may be limited in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:14.137017Z",
+    "generated_at": "2025-08-04T20:25:32.126609Z",
     "env": "development",
     "source": "justarrived-generator"
   }

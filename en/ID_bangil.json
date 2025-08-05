@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Juanda",
+      "iata_code": "SUB",
+      "icao_code": "WRSJ",
+      "distance_km": 23.8,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Juanda Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A newer terminal at Juanda Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.juanda-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Juanda Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Abdul Rahman Saleh",
+      "iata_code": "MLG",
+      "icao_code": "WIAS",
+      "distance_km": 37.9,
+      "gmt": "7",
+      "country": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://abdulrahmansalehairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "ARSAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:46:34.873342Z",
+    "generated_at": "2025-08-04T18:21:41.942256Z",
     "env": "development",
     "source": "justarrived-generator"
   }

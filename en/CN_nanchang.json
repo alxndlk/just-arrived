@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nanchang",
+      "iata_code": "KHN",
+      "icao_code": "ZSCN",
+      "distance_km": 20.3,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nanchang Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nanchang Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "http://www.ncairport.com.cn/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanchang Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by scanning the QR code provided at the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:42.231833Z",
+    "generated_at": "2025-08-04T20:04:31.551508Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Adelaide International Airport",
+      "iata_code": "ADL",
+      "icao_code": "YPAD",
+      "distance_km": 42.3,
+      "gmt": "9.30",
+      "country": "Australia",
+      "timezone": "Australia/Adelaide",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Adelaide International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Regional Terminal",
+          "description": "The regional terminal at Adelaide International Airport caters to regional and low-cost airlines."
+        }
+      ],
+      "website": "https://www.adelaideairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "AdelaideAirportWiFi",
+        "note": "Free WiFi is available throughout the airport, with no time or data limit."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:28.607923Z",
+    "generated_at": "2025-08-04T19:38:51.701285Z",
     "env": "development",
     "source": "justarrived-generator"
   }

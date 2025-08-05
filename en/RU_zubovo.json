@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ufa International Airport",
+      "iata_code": "UFA",
+      "icao_code": "UWUU",
+      "distance_km": 5.8,
+      "gmt": "5",
+      "country": "Russia",
+      "timezone": "Asia/Yekaterinburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://ufa-airport.ru/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "UFA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:13:24.015838Z",
+    "generated_at": "2025-08-04T19:35:41.651366Z",
     "env": "development",
     "source": "justarrived-generator"
   }

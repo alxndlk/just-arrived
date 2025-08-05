@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Iloilo International",
+      "iata_code": "ILO",
+      "icao_code": "RPVI",
+      "distance_km": 24.3,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Bacolod",
+      "iata_code": "BCD",
+      "icao_code": "RPVB",
+      "distance_km": 50.0,
+      "gmt": "8",
+      "country": "Philippines",
+      "timezone": "Asia/Manila",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bacolod Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.bacolodairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bacolod Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by requesting a password at the information desk."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:57.844707Z",
+    "generated_at": "2025-08-04T20:12:28.964442Z",
     "env": "development",
     "source": "justarrived-generator"
   }

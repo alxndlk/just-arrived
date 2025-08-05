@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mountain Home AFB",
+      "iata_code": "MUO",
+      "icao_code": "KMUO",
+      "distance_km": 1.1,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Boise",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mountain Home AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Mountain Home AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.military.com/base-guide/mountain-home-air-force-base",
+      "wifi": {
+        "available": true,
+        "network_name": "MUO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:45:57.213192Z",
+    "generated_at": "2025-08-04T20:23:27.151049Z",
     "env": "development",
     "source": "justarrived-generator"
   }

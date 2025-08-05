@@ -49,8 +49,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hanover Airport",
+      "iata_code": "HAJ",
+      "icao_code": "EDDV",
+      "distance_km": 44.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Hanover Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.hannover-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HAJ-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Airport Hildesheim",
+      "iata_code": "ZNO",
+      "icao_code": "EDVM",
+      "distance_km": 47.6,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Hildesheim Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Hildesheim Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.hildesheim-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Hildesheim Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:58.036877Z",
+    "generated_at": "2025-08-04T20:16:29.868080Z",
     "env": "development",
     "source": "justarrived-generator"
   }

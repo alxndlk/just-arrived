@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kashi",
+      "iata_code": "KHG",
+      "icao_code": "ZWSH",
+      "distance_km": 45.0,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "https://www.kashi-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kashi Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:13.380253Z",
+    "generated_at": "2025-08-04T18:36:47.778377Z",
     "env": "development",
     "source": "justarrived-generator"
   }

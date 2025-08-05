@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sundsvall/harnosand",
+      "iata_code": "SDL",
+      "icao_code": "ESNN",
+      "distance_km": 28.4,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kramfors",
+      "iata_code": "KRF",
+      "icao_code": "ESNK",
+      "distance_km": 47.1,
+      "gmt": "1",
+      "country": "Sweden",
+      "timezone": "Europe/Stockholm",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kramfors Airport provides all necessary amenities for travelers, including check-in counters, baggage claim, and boarding gates."
+        }
+      ],
+      "website": "https://www.swedavia.com/kramfors/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kramfors Airport Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:43.214204Z",
+    "generated_at": "2025-08-04T20:16:32.943809Z",
     "env": "development",
     "source": "justarrived-generator"
   }

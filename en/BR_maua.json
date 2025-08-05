@@ -50,8 +50,76 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Congonhas International Airport",
+      "iata_code": "CGH",
+      "icao_code": "SBSP",
+      "distance_km": 20.7,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportosdobrasil.com.br/aeroporto-de-congonhas/",
+      "wifi": {
+        "available": true,
+        "network_name": "Congonhas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroporto Internacional Guarulhos",
+      "iata_code": "GRU",
+      "icao_code": "SBGR",
+      "distance_km": 27.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic and international flights for various airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Serves as the main terminal for international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "Dedicated to international flights for LATAM Airlines."
+        }
+      ],
+      "website": "https://www.aeroportoguarulhos.net/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRU Airport Free Wi-Fi",
+        "note": "Limited to 3 hours per device per day."
+      }
+    },
+    {
+      "airport_name": "Santos",
+      "iata_code": "SSZ",
+      "icao_code": "SBST",
+      "distance_km": 31.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:34:44.974002Z",
+    "generated_at": "2025-08-04T19:56:34.202367Z",
     "env": "development",
     "source": "justarrived-generator"
   }

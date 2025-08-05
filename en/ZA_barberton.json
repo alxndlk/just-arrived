@@ -50,8 +50,56 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nelspruit Airport",
+      "iata_code": "NLP",
+      "icao_code": "FANS",
+      "distance_km": 34.7,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Nelspruit Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.nelspruitairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nelspruit Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kruger Mpumalanga International Airport",
+      "iata_code": "MQP",
+      "icao_code": "FAKN",
+      "distance_km": 44.8,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kruger Mpumalanga International Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kruger Mpumalanga International Airport, handling freight and logistics operations."
+        }
+      ],
+      "website": "https://www.kmiairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "KMIA Free WiFi",
+        "note": "WiFi is available throughout the airport, but may have limited coverage in certain areas."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:50:53.838383Z",
+    "generated_at": "2025-08-04T19:17:45.102210Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louis Armstrong New Orléans International Airport",
+      "iata_code": "MSY",
+      "icao_code": "KMSY",
+      "distance_km": 7.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louis Armstrong New Orléans International Airport houses all the major airlines and provides a variety of services and amenities for travelers."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A is a smaller terminal at the airport, primarily used by Southwest Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B is the newest terminal at the airport, featuring modern architecture and a variety of shops and restaurants."
+        }
+      ],
+      "website": "https://flymsy.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MSY Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for the first 30 minutes and then available for purchase."
+      }
+    },
+    {
+      "airport_name": "Lakefront",
+      "iata_code": "NEW",
+      "icao_code": "KNEW",
+      "distance_km": 20.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lakefront Airport serves domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Lakefront Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.lakefrontairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Lakefront Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:23.376674Z",
+    "generated_at": "2025-08-04T19:33:55.935437Z",
     "env": "development",
     "source": "justarrived-generator"
   }

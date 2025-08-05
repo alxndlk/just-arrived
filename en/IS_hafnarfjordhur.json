@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Reykjavik Domestic",
+      "iata_code": "RKV",
+      "icao_code": "BIRK",
+      "distance_km": 12.5,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic flights at Reykjavik Domestic Airport."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal used for private and charter flights at Reykjavik Domestic Airport."
+        }
+      ],
+      "website": "https://www.isavia.is/en/reykjavik-domestic-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "RKV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Keflavik International",
+      "iata_code": "KEF",
+      "icao_code": "BIKF",
+      "distance_km": 32.0,
+      "gmt": null,
+      "country": "Iceland",
+      "timezone": "Atlantic/Reykjavik",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Keflavik International Airport handles all international flights and is equipped with modern facilities and amenities."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Keflavik International Airport handles all domestic flights within Iceland and offers convenient connections to international flights."
+        }
+      ],
+      "website": "https://www.kefairport.is/",
+      "wifi": {
+        "available": true,
+        "network_name": "KEF Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:27.290417Z",
+    "generated_at": "2025-08-04T20:08:35.211087Z",
     "env": "development",
     "source": "justarrived-generator"
   }

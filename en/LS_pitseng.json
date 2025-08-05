@@ -51,8 +51,56 @@
     "police": "123"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leribe",
+      "iata_code": "LRB",
+      "icao_code": "FXLR",
+      "distance_km": 25.5,
+      "gmt": "2",
+      "country": "Lesotho",
+      "timezone": "Africa/Maseru",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Leribe Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Leribe Airport, handling all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.leribeairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Leribe Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Seshutes",
+      "iata_code": "SHZ",
+      "icao_code": "FXSS",
+      "distance_km": 30.5,
+      "gmt": "2",
+      "country": "Lesotho",
+      "timezone": "Africa/Maseru",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seshutes Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.lesotho.gov.ls/transport/airports/seshutes-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "SHZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:06.951024Z",
+    "generated_at": "2025-08-04T18:57:47.596256Z",
     "env": "development",
     "source": "justarrived-generator"
   }

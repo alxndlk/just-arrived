@@ -50,8 +50,35 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Værnes",
+      "iata_code": "TRD",
+      "icao_code": "ENVA",
+      "distance_km": 1.8,
+      "gmt": "1",
+      "country": "Norway",
+      "timezone": "Europe/Oslo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Værnes Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Low-Cost Carrier Terminal",
+          "description": "This terminal is dedicated to low-cost airlines and offers a more budget-friendly travel experience."
+        }
+      ],
+      "website": "https://avinor.no/en/airport/trondheim-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "TRD Airport WiFi",
+        "note": "WiFi is available throughout the airport and is free for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:12.888561Z",
+    "generated_at": "2025-08-04T18:48:39.043223Z",
     "env": "development",
     "source": "justarrived-generator"
   }

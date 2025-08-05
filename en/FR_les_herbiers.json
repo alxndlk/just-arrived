@@ -51,8 +51,35 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Les Ajoncs",
+      "iata_code": "EDM",
+      "icao_code": "LFRI",
+      "distance_km": 34.1,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Les Ajoncs Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal dedicated to low-cost and regional airlines."
+        }
+      ],
+      "website": "https://www.lesajoncsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LesAjoncsAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:33:14.751645Z",
+    "generated_at": "2025-08-04T19:02:51.989674Z",
     "env": "development",
     "source": "justarrived-generator"
   }

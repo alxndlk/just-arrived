@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nantucket Memorial",
+      "iata_code": "ACK",
+      "icao_code": "KACK",
+      "distance_km": 3.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Barnstable",
+      "iata_code": "HYA",
+      "icao_code": "KHYA",
+      "distance_km": 46.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Barnstable Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "http://www.town.barnstable.ma.us/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Barnstable Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Martha's Vineyard",
+      "iata_code": "MVY",
+      "icao_code": "KMVY",
+      "distance_km": 46.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:50.914854Z",
+    "generated_at": "2025-08-04T20:21:29.274528Z",
     "env": "development",
     "source": "justarrived-generator"
   }

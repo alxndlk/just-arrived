@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Calgary International Airport",
+      "iata_code": "YYC",
+      "icao_code": "CYYC",
+      "distance_km": 45.3,
+      "gmt": "-7",
+      "country": "Canada",
+      "timezone": "America/Edmonton",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Calgary International Airport houses all major airlines and offers a variety of amenities for travelers."
+        },
+        {
+          "name": "International Terminal",
+          "description": "The international terminal at Calgary International Airport serves as a hub for international flights and offers customs and immigration services."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "The domestic terminal at Calgary International Airport serves all domestic flights within Canada and offers a variety of shops and restaurants for travelers."
+        }
+      ],
+      "website": "https://www.yyc.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YYC-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:36.702243Z",
+    "generated_at": "2025-08-04T18:41:43.474244Z",
     "env": "development",
     "source": "justarrived-generator"
   }

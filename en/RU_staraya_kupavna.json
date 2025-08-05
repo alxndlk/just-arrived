@@ -51,8 +51,59 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chkalovsky",
+      "iata_code": "CKL",
+      "icao_code": "UUMU",
+      "distance_km": 10.3,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chkalovsky Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Chkalovsky Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "http://www.chkalovskyairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Chkalovsky Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zhukovsky International Airport",
+      "iata_code": "ZIA",
+      "icao_code": "UUBW",
+      "distance_km": 27.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Domodedovo",
+      "iata_code": "DME",
+      "icao_code": "UUDD",
+      "distance_km": 46.0,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:17:50.904465Z",
+    "generated_at": "2025-08-04T20:12:33.130928Z",
     "env": "development",
     "source": "justarrived-generator"
   }

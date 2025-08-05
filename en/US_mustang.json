@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Will Rogers World Airport",
+      "iata_code": "OKC",
+      "icao_code": "KOKC",
+      "distance_km": 11.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Wiley Post",
+      "iata_code": "PWA",
+      "icao_code": "KPWA",
+      "distance_km": 19.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Tinker AFB",
+      "iata_code": "TIK",
+      "icao_code": "KTIK",
+      "distance_km": 31.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tinker AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Tinker AFB Airport is reserved for military personnel and their families."
+        }
+      ],
+      "website": "https://www.tinker.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "TinkerWiFi",
+        "note": "Passengers can connect to the TinkerWiFi network for free."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "CHK",
+      "icao_code": "KCHK",
+      "distance_km": 43.9,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:21:59.005824Z",
+    "generated_at": "2025-08-04T20:14:26.303238Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kakamega",
+      "iata_code": "GGM",
+      "icao_code": "HKKG",
+      "distance_km": 37.2,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kakamega Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kakamega Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.kakamegaairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Kakamega Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kitale",
+      "iata_code": "KTL",
+      "icao_code": "HKKT",
+      "distance_km": 46.5,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:57.933407Z",
+    "generated_at": "2025-08-04T20:05:25.786605Z",
     "env": "development",
     "source": "justarrived-generator"
   }

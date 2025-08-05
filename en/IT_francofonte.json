@@ -51,8 +51,81 @@
     "police": "113"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "NAS Sigonella",
+      "iata_code": "NSY",
+      "icao_code": "LICZ",
+      "distance_km": 19.1,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at NAS Sigonella Airport serves both civilian and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at NAS Sigonella Airport is reserved for military personnel and their families."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnreurafswa/installations/nas_sigonella.html",
+      "wifi": {
+        "available": true,
+        "network_name": "NAS Sigonella Airport WiFi",
+        "note": "WiFi is available throughout the airport, but a valid military or civilian ID is required to access the network."
+      }
+    },
+    {
+      "airport_name": "Fontanarossa",
+      "iata_code": "CTA",
+      "icao_code": "LICC",
+      "distance_km": 30.9,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fontanarossa Airport handles both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Fontanarossa Airport handles the transportation of goods and packages."
+        }
+      ],
+      "website": "https://www.aeroporto.catania.it/",
+      "wifi": {
+        "available": true,
+        "network_name": "Fontanarossa Airport WiFi",
+        "note": "Passengers can access free WiFi for up to 2 hours by providing their email address."
+      }
+    },
+    {
+      "airport_name": "Comiso",
+      "iata_code": "CIY",
+      "icao_code": "LICB",
+      "distance_km": 36.4,
+      "gmt": "1",
+      "country": "Italy",
+      "timezone": "Europe/Rome",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Comiso Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeroportodicomiso.eu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Comiso Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:52:18.118627Z",
+    "generated_at": "2025-08-04T19:18:47.788587Z",
     "env": "development",
     "source": "justarrived-generator"
   }

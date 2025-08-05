@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Briansk",
+      "iata_code": "BZK",
+      "icao_code": "UUBP",
+      "distance_km": 37.1,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Briansk Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Briansk Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.brianskairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "BrianskAirportWifi",
+        "note": "Passengers can connect to the wifi network for free, but may experience slow speeds during peak hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:15:02.023013Z",
+    "generated_at": "2025-08-04T18:47:39.742268Z",
     "env": "development",
     "source": "justarrived-generator"
   }

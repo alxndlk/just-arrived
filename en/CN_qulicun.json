@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nanning",
+      "iata_code": "NNG",
+      "icao_code": "ZGNN",
+      "distance_km": 37.9,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Nanning Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal of Nanning Airport, mainly serving domestic flights."
+        }
+      ],
+      "website": "https://www.nanningairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nanning Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Zhongshan Ferry Port",
+      "iata_code": "ZGN",
+      "icao_code": "ZGNN",
+      "distance_km": 37.9,
+      "gmt": "8",
+      "country": "China",
+      "timezone": "Asia/Shanghai",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights."
+        }
+      ],
+      "website": "https://www.zhongshanairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Zhongshan Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:18.247996Z",
+    "generated_at": "2025-08-04T18:30:40.332039Z",
     "env": "development",
     "source": "justarrived-generator"
   }

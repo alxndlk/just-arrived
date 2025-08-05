@@ -50,8 +50,47 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Las Heras",
+      "iata_code": "LHS",
+      "icao_code": "SAVH",
+      "distance_km": 14.4,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Rio_Gallegos",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This is the main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal is used for regional and charter flights."
+        }
+      ],
+      "website": "https://www.lasherasairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "LHAS Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Plumerillo",
+      "iata_code": "MDZ",
+      "icao_code": "SAME",
+      "distance_km": 16.1,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Mendoza",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:55.459210Z",
+    "generated_at": "2025-08-04T20:33:27.016131Z",
     "env": "development",
     "source": "justarrived-generator"
   }

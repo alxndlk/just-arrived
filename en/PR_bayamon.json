@@ -48,8 +48,51 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Isla Grande",
+      "iata_code": "SIG",
+      "icao_code": "TJIG",
+      "distance_km": 10.9,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Luis Munoz Marin International",
+      "iata_code": "SJU",
+      "icao_code": "TJSJ",
+      "distance_km": 18.0,
+      "gmt": "-4",
+      "country": "Puerto Rico",
+      "timezone": "America/Puerto_Rico",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Mainly used for domestic flights and some regional destinations."
+        },
+        {
+          "name": "Terminal C",
+          "description": "Dedicated to international flights and some regional destinations."
+        }
+      ],
+      "website": "https://www.sanjuananairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJU Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:39:32.835055Z",
+    "generated_at": "2025-08-04T19:57:35.721198Z",
     "env": "development",
     "source": "justarrived-generator"
   }

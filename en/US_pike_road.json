@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Maxwell AFB",
+      "iata_code": "MXF",
+      "icao_code": "KMXF",
+      "distance_km": 23.5,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Maxwell AFB Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Maxwell AFB Airport serves all military flights."
+        }
+      ],
+      "website": "https://www.maxwell.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Maxwell Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dannelly Field",
+      "iata_code": "MGM",
+      "icao_code": "KMGM",
+      "distance_km": 28.3,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and is equipped with modern amenities for passenger comfort."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is dedicated to private and charter flights, providing a luxurious and exclusive experience for travelers."
+        }
+      ],
+      "website": "http://www.flymgm.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGM Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:19.928970Z",
+    "generated_at": "2025-08-04T19:26:48.775507Z",
     "env": "development",
     "source": "justarrived-generator"
   }

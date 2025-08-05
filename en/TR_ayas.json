@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Etimesgut",
+      "iata_code": "ANK",
+      "icao_code": "LTAD",
+      "distance_km": 42.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from Turkey."
+        }
+      ],
+      "website": "https://www.etimesgutairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Etimesgut Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:08.311048Z",
+    "generated_at": "2025-08-04T19:13:46.000608Z",
     "env": "development",
     "source": "justarrived-generator"
   }

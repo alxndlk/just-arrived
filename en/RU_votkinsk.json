@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Izhevsk",
+      "iata_code": "IJK",
+      "icao_code": "USII",
+      "distance_km": 40.3,
+      "gmt": "4",
+      "country": "Russia",
+      "timezone": "Europe/Samara",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "http://www.izhevsk-airport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "IJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:00.814330Z",
+    "generated_at": "2025-08-04T18:19:50.267465Z",
     "env": "development",
     "source": "justarrived-generator"
   }

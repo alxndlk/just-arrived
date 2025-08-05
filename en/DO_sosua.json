@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "La Union",
+      "iata_code": "POP",
+      "icao_code": "MDPP",
+      "distance_km": 4.5,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at La Union Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at La Union Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.popairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LaUnionAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cibao International Airport",
+      "iata_code": "STI",
+      "icao_code": "MDST",
+      "distance_km": 39.7,
+      "gmt": "-4",
+      "country": "Dominican Republic",
+      "timezone": "America/Santo_Domingo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Cibao International Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.aeropuertocibao.com.do/",
+      "wifi": {
+        "available": true,
+        "network_name": "Aeropuerto Cibao",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:43.877775Z",
+    "generated_at": "2025-08-04T18:29:51.693111Z",
     "env": "development",
     "source": "justarrived-generator"
   }

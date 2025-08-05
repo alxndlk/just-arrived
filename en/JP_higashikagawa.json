@@ -50,8 +50,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Tokushima",
+      "iata_code": "TKS",
+      "icao_code": "RJOS",
+      "distance_km": 24.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Tokushima Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.tokushima-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Tokushima Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Takamatsu",
+      "iata_code": "TAK",
+      "icao_code": "RJOT",
+      "distance_km": 32.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Takamatsu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.takamatsu-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Takamatsu Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting 'TAK Airport Free WiFi' and agreeing to the terms and conditions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:00.945437Z",
+    "generated_at": "2025-08-04T18:43:52.747210Z",
     "env": "development",
     "source": "justarrived-generator"
   }

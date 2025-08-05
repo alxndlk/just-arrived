@@ -51,8 +51,85 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Imsik",
+      "iata_code": "BXN",
+      "icao_code": "LTBV",
+      "distance_km": 33.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Imsik Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Imsik Airport, used for domestic flights only."
+        }
+      ],
+      "website": "https://www.imsikairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Imsik Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Milas",
+      "iata_code": "BJV",
+      "icao_code": "LTFE",
+      "distance_km": 39.7,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves domestic flights within Turkey."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves international flights to and from various countries."
+        }
+      ],
+      "website": "https://www.milasairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MilasAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Milas–Bodrum Airport\r\n",
+      "iata_code": "BVJ",
+      "icao_code": "LTFE",
+      "distance_km": 40.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "Handles all international flights at Milas-Bodrum Airport."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "Serves all domestic flights within Turkey."
+        }
+      ],
+      "website": "http://www.milasbodrumairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Milas-Bodrum Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:35.055465Z",
+    "generated_at": "2025-08-04T20:15:26.073602Z",
     "env": "development",
     "source": "justarrived-generator"
   }

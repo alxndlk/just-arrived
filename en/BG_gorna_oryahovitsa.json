@@ -51,8 +51,35 @@
     "police": "166"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gorna Oriahovitsa",
+      "iata_code": "GOZ",
+      "icao_code": "LBGO",
+      "distance_km": 3.4,
+      "gmt": "2",
+      "country": "Bulgaria",
+      "timezone": "Europe/Sofia",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal building for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.gornaoriahovitsa-airport.bg/",
+      "wifi": {
+        "available": true,
+        "network_name": "GOZ Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:09:44.832605Z",
+    "generated_at": "2025-08-04T18:42:43.574705Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Aomori",
+      "iata_code": "AOJ",
+      "icao_code": "RJSA",
+      "distance_km": 18.2,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo flights and operations."
+        }
+      ],
+      "website": "https://www.aomoriairport.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "AOJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:40:07.838819Z",
+    "generated_at": "2025-08-04T19:08:46.788284Z",
     "env": "development",
     "source": "justarrived-generator"
   }

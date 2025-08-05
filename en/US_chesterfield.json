@@ -48,8 +48,76 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Lambert-St. Louis International",
+      "iata_code": "STL",
+      "icao_code": "KSTL",
+      "distance_km": 20.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal of Lambert-St. Louis International Airport, where most flights depart and arrive."
+        },
+        {
+          "name": "East Terminal",
+          "description": "The East Terminal is primarily used for domestic flights and is connected to the Main Terminal via a shuttle service."
+        },
+        {
+          "name": "West Terminal",
+          "description": "The West Terminal is used for international flights and is connected to the Main Terminal via a shuttle service."
+        }
+      ],
+      "website": "https://www.flystl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Spirit Of St Louis",
+      "iata_code": "SUS",
+      "icao_code": "KSUS",
+      "distance_km": 21.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "St. Louis Downtown Airport",
+      "iata_code": "CPS",
+      "icao_code": "KCPS",
+      "distance_km": 37.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal serves private and charter flights."
+        }
+      ],
+      "website": "https://www.flystl.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "STL Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:05.037299Z",
+    "generated_at": "2025-08-04T20:32:25.977132Z",
     "env": "development",
     "source": "justarrived-generator"
   }

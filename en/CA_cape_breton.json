@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sydney",
+      "iata_code": "YQY",
+      "icao_code": "CYQY",
+      "distance_km": 11.4,
+      "gmt": "-4",
+      "country": "Canada",
+      "timezone": "America/Glace_Bay",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Sydney Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations at Sydney Airport."
+        }
+      ],
+      "website": "https://www.sydneyairport.com.au/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sydney Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:45:16.636259Z",
+    "generated_at": "2025-08-04T18:19:57.092236Z",
     "env": "development",
     "source": "justarrived-generator"
   }

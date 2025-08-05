@@ -48,8 +48,109 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hartsfield-jackson Atlanta International",
+      "iata_code": "ATL",
+      "icao_code": "KATL",
+      "distance_km": 9.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "College Park",
+      "iata_code": "CGS",
+      "icao_code": "KCGS",
+      "distance_km": 12.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at College Park Airport serves as the hub for all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at College Park Airport caters to private and charter flights, providing a more exclusive and luxurious experience."
+        }
+      ],
+      "website": "https://www.collegeparkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CPA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Atlanta Speedway Airport",
+      "iata_code": "HMP",
+      "icao_code": "KHMP",
+      "distance_km": 20.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Fulton County",
+      "iata_code": "FTY",
+      "icao_code": "KFTY",
+      "distance_km": 26.3,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Fulton County Airport houses check-in counters, security checkpoints, and baggage claim areas."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Fulton County Airport caters to private and charter flights, providing amenities such as lounges and concierge services."
+        }
+      ],
+      "website": "https://www.fultoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FTY Airport Wifi",
+        "note": "Passengers can connect to the airport's free wifi network by selecting 'FTY Airport Wifi' and agreeing to the terms and conditions."
+      }
+    },
+    {
+      "airport_name": "Dekalb-Peachtree",
+      "iata_code": "PDK",
+      "icao_code": "KPDK",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dekalb-Peachtree Airport offers a variety of amenities and services for travelers."
+        },
+        {
+          "name": "North Terminal",
+          "description": "The North Terminal is primarily used for private and charter flights, with a separate entrance and security checkpoint."
+        }
+      ],
+      "website": "https://www.pdkairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "PDK Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:08:26.372058Z",
+    "generated_at": "2025-08-04T20:31:35.828696Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nakhon Si Thammarat",
+      "iata_code": "NST",
+      "icao_code": "VTSN",
+      "distance_km": 42.5,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Nakhon Si Thammarat Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.nakhonsithammaratairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "NST Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:31.307619Z",
+    "generated_at": "2025-08-04T18:41:40.470660Z",
     "env": "development",
     "source": "justarrived-generator"
   }

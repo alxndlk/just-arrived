@@ -51,8 +51,35 @@
     "police": "091"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Los Llanos",
+      "iata_code": "ABC",
+      "icao_code": "LEAB",
+      "distance_km": 38.5,
+      "gmt": "1",
+      "country": "Spain",
+      "timezone": "Europe/Madrid",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.losllanosairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LLA Free WiFi",
+        "note": "WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:15.287106Z",
+    "generated_at": "2025-08-04T19:05:39.939198Z",
     "env": "development",
     "source": "justarrived-generator"
   }

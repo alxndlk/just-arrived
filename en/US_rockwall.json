@@ -48,8 +48,84 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Terrell Field",
+      "iata_code": "TRL",
+      "icao_code": "KTRL",
+      "distance_km": 25.2,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Majors Field",
+      "iata_code": "GVT",
+      "icao_code": "KGVT",
+      "distance_km": 38.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Majors Field Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Majors Field Airport is reserved for private and charter flights."
+        }
+      ],
+      "website": "https://www.majorsfieldairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Majors Field Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Love Field",
+      "iata_code": "DAL",
+      "icao_code": "KDAL",
+      "distance_km": 39.4,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Love Field Airport handles all domestic flights."
+        },
+        {
+          "name": "Southwest Terminal",
+          "description": "The Southwest Terminal at Love Field Airport is exclusively used by Southwest Airlines."
+        }
+      ],
+      "website": "https://www.dallas-lovefield.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LoveFieldWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Redbird",
+      "iata_code": "RBD",
+      "icao_code": "KRBD",
+      "distance_km": 48.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:55:43.289986Z",
+    "generated_at": "2025-08-04T20:03:34.546317Z",
     "env": "development",
     "source": "justarrived-generator"
   }

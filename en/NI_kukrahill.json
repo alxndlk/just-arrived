@@ -50,8 +50,35 @@
     "police": "118"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Bluefields",
+      "iata_code": "BEF",
+      "icao_code": "MNBL",
+      "distance_km": 28.2,
+      "gmt": "-6",
+      "country": "Nicaragua",
+      "timezone": "America/Managua",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bluefields Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Bluefields Airport handles all air freight operations."
+        }
+      ],
+      "website": "https://www.bluefieldsairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BluefieldsAirportWiFi",
+        "note": "Passengers can connect to the airport's free WiFi network."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:12:35.954713Z",
+    "generated_at": "2025-08-04T19:34:52.422995Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "John Wayne",
+      "iata_code": "SNA",
+      "icao_code": "KSNA",
+      "distance_km": 27.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for airlines such as American Airlines, Delta, and United."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights for airlines such as Alaska Airlines, Frontier, and Southwest."
+        }
+      ],
+      "website": "https://www.ocair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SNA Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No login or password required."
+      }
+    },
+    {
+      "airport_name": "Municipal",
+      "iata_code": "OCN",
+      "icao_code": "KOKB",
+      "distance_km": 42.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Municipal Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Municipal Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.municipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Municipal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:21.122604Z",
+    "generated_at": "2025-08-04T18:37:50.163830Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oulu",
+      "iata_code": "OUL",
+      "icao_code": "EFOU",
+      "distance_km": 43.0,
+      "gmt": "2",
+      "country": "Finland",
+      "timezone": "Europe/Helsinki",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Oulu Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.finavia.fi/en/oulu-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Oulu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:05:06.812454Z",
+    "generated_at": "2025-08-04T19:28:54.663814Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,56 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gillot",
+      "iata_code": "RUN",
+      "icao_code": "FMEE",
+      "distance_km": 26.2,
+      "gmt": "4",
+      "country": "Reunion",
+      "timezone": "Indian/Reunion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gillot Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gillot Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aeroport.fr/eng/reunion-gillot",
+      "wifi": {
+        "available": true,
+        "network_name": "Gillot Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Pierre dela Reunion",
+      "iata_code": "ZSE",
+      "icao_code": "KZSE",
+      "distance_km": 40.9,
+      "gmt": "4",
+      "country": "Reunion",
+      "timezone": "Indian/Reunion",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights at St Pierre dela Reunion Airport."
+        }
+      ],
+      "website": "https://www.aeroport.fr/reunion-saint-pierre",
+      "wifi": {
+        "available": true,
+        "network_name": "St Pierre Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:00.480594Z",
+    "generated_at": "2025-08-04T18:37:42.249625Z",
     "env": "development",
     "source": "justarrived-generator"
   }

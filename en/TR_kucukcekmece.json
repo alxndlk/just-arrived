@@ -50,8 +50,68 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Istanbul Airport",
+      "iata_code": "IST",
+      "icao_code": "LTFM",
+      "distance_km": 29.8,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Istanbul Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used by low-cost carriers and charter flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A new terminal currently under construction, expected to open in 2021 and serve as the home base for Turkish Airlines."
+        }
+      ],
+      "website": "https://www.istanbulhavalimani.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "IST Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport. Simply connect to the 'IST Wi-Fi' network and follow the instructions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Sabiha Gokcen",
+      "iata_code": "SAW",
+      "icao_code": "LTFJ",
+      "distance_km": 44.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sabiha Gokcen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sabiha Gokcen Airport, primarily used for domestic flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A newer terminal at Sabiha Gokcen Airport, dedicated to international flights."
+        }
+      ],
+      "website": "https://www.sabihagokcen.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sabiha Gokcen Airport Wifi",
+        "note": "Free wifi is available throughout the airport, but may require a login or registration process."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:35:39.487631Z",
+    "generated_at": "2025-08-04T18:07:46.128650Z",
     "env": "development",
     "source": "justarrived-generator"
   }

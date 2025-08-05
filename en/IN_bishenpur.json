@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Municipal",
+      "iata_code": "IMF",
+      "icao_code": "VEIM",
+      "distance_km": 20.5,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary terminal for international flights."
+        }
+      ],
+      "website": "https://www.imfairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "IMF Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:46.685542Z",
+    "generated_at": "2025-08-04T19:11:48.151106Z",
     "env": "development",
     "source": "justarrived-generator"
   }

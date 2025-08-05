@@ -50,8 +50,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Yokota AFB",
+      "iata_code": "OKO",
+      "icao_code": "RJTY",
+      "distance_km": 28.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Yokota AFB Airport serves both civilian and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Yokota AFB Airport is used exclusively for military flights."
+        }
+      ],
+      "website": "https://www.yokota.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Yokota Airport WiFi",
+        "note": "Passengers can access the WiFi network for free by connecting to the designated network and following the instructions."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:26:06.207541Z",
+    "generated_at": "2025-08-04T18:56:50.544963Z",
     "env": "development",
     "source": "justarrived-generator"
   }

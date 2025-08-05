@@ -51,8 +51,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Thanjavur",
+      "iata_code": "TJV",
+      "icao_code": "VOTJ",
+      "distance_km": 35.1,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights within India."
+        },
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights to and from Thanjavur Airport."
+        }
+      ],
+      "website": "https://www.thanjavurairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "TJV Airport WiFi",
+        "note": "WiFi is available throughout the airport, free for the first 2 hours."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:04:57.042830Z",
+    "generated_at": "2025-08-04T19:28:49.972838Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Glenn L Martin",
+      "iata_code": "MTN",
+      "icao_code": "KMTN",
+      "distance_km": 35.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses various amenities for travelers."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights and offers a more personalized experience for travelers."
+        }
+      ],
+      "website": "https://www.martinstateairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MTN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Greater Wilmington",
+      "iata_code": "ILG",
+      "icao_code": "KILG",
+      "distance_km": 45.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.flywilmilg.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ILG Free WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:48.410682Z",
+    "generated_at": "2025-08-04T19:07:45.269101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,35 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Konya",
+      "iata_code": "KYA",
+      "icao_code": "LTAN",
+      "distance_km": 12.5,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.konyaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Konya Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:28.628636Z",
+    "generated_at": "2025-08-04T18:05:41.590732Z",
     "env": "development",
     "source": "justarrived-generator"
   }

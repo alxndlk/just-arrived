@@ -51,8 +51,39 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Madras International (Meenambakkam)",
+      "iata_code": "MAA",
+      "icao_code": "VOMM",
+      "distance_km": 13.4,
+      "gmt": "5.30",
+      "country": "India",
+      "timezone": "Asia/Kolkata",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Handles domestic flights for major Indian airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Handles international flights for major international airlines."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "Handles cargo operations for various airlines."
+        }
+      ],
+      "website": "https://www.chennaiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MadrasAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:30:14.519051Z",
+    "generated_at": "2025-08-04T19:00:00.762893Z",
     "env": "development",
     "source": "justarrived-generator"
   }

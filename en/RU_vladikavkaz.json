@@ -107,8 +107,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Vladikavkaz",
+      "iata_code": "OGZ",
+      "icao_code": "URMO",
+      "distance_km": 18.9,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Sleptsovskaya",
+      "iata_code": "IGT",
+      "icao_code": "URMS",
+      "distance_km": 40.6,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.igt.aero/",
+      "wifi": {
+        "available": true,
+        "network_name": "IGT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:36:02.300403Z",
+    "generated_at": "2025-08-04T19:57:25.006373Z",
     "env": "development",
     "source": "justarrived-generator"
   }

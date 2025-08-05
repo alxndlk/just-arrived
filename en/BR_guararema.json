@@ -50,8 +50,64 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sao Jose Dos Campos",
+      "iata_code": "SJK",
+      "icao_code": "SBSJ",
+      "distance_km": 27.1,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sao Jose Dos Campos Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Sao Jose Dos Campos Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeroportosjc.com.br/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroporto Internacional Guarulhos",
+      "iata_code": "GRU",
+      "icao_code": "SBGR",
+      "distance_km": 45.6,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The oldest and smallest terminal at Aeroporto Internacional Guarulhos, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The main terminal at Aeroporto Internacional Guarulhos, used for both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest and largest terminal at Aeroporto Internacional Guarulhos, exclusively used for international flights."
+        }
+      ],
+      "website": "https://www.gru.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRU Airport Wi-Fi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:56.191088Z",
+    "generated_at": "2025-08-04T18:43:51.981511Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Greater Binghamton",
+      "iata_code": "BGM",
+      "icao_code": "KBGM",
+      "distance_km": 21.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Greater Binghamton Airport serves all domestic flights."
+        },
+        {
+          "name": "International Terminal",
+          "description": "There is no international terminal at Greater Binghamton Airport."
+        }
+      ],
+      "website": "https://www.flybgm.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BGM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:30.355664Z",
+    "generated_at": "2025-08-04T18:57:55.606643Z",
     "env": "development",
     "source": "justarrived-generator"
   }

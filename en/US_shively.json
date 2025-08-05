@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Louisville International (Standiford Field)",
+      "iata_code": "SDF",
+      "icao_code": "KSDF",
+      "distance_km": 6.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Louisville International Airport handles all domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Louisville International Airport is primarily used for cargo and charter flights."
+        }
+      ],
+      "website": "https://www.flylouisville.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SDF Free WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bowman Field Airport",
+      "iata_code": "LOU",
+      "icao_code": "KLOU",
+      "distance_km": 9.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/Kentucky/Louisville",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bowman Field Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Bowman Field Airport caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flylouisville.com/bowman-field-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "BowmanAirportWifi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Godman AAF",
+      "iata_code": "FTK",
+      "icao_code": "KFTK",
+      "distance_km": 35.1,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Godman AAF Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Godman AAF Airport is exclusively for military use."
+        }
+      ],
+      "website": "https://www.godman.army.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Godman Airport Wifi",
+        "note": "Passengers can access free wifi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:36:25.244040Z",
+    "generated_at": "2025-08-04T19:05:45.942175Z",
     "env": "development",
     "source": "justarrived-generator"
   }

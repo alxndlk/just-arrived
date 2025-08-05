@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ukunda",
+      "iata_code": "UKA",
+      "icao_code": "HKUK",
+      "distance_km": 18.9,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Moi International",
+      "iata_code": "MBA",
+      "icao_code": "HKMO",
+      "distance_km": 23.0,
+      "gmt": "3",
+      "country": "Kenya",
+      "timezone": "Africa/Nairobi",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and regional flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The international terminal for all international flights."
+        }
+      ],
+      "website": "https://www.kaa.go.ke/airports/moi-international-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Moi Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:02:39.440913Z",
+    "generated_at": "2025-08-04T20:29:32.713372Z",
     "env": "development",
     "source": "justarrived-generator"
   }

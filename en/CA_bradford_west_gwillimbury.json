@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Buttonville Municipalcipal",
+      "iata_code": "YKZ",
+      "icao_code": "CYKZ",
+      "distance_km": 36.5,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Buttonville Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Buttonville Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.buttonvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Buttonville Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Lake Simcoe Regional",
+      "iata_code": "YLK",
+      "icao_code": "CYLS",
+      "distance_km": 39.6,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Lake Simcoe Regional Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Lake Simcoe Regional Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.lakesimcoeairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LSRA_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:58:52.246135Z",
+    "generated_at": "2025-08-04T18:32:49.716286Z",
     "env": "development",
     "source": "justarrived-generator"
   }

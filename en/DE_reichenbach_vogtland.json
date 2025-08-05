@@ -49,8 +49,55 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wilmington Railway",
+      "iata_code": "ZWI",
+      "icao_code": "EDBI",
+      "distance_km": 21.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Altenburg Nobitz",
+      "iata_code": "AOC",
+      "icao_code": "EDAC",
+      "distance_km": 42.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This is the main terminal at Altenburg Nobitz Airport, serving both domestic and international flights."
+        }
+      ],
+      "website": "https://www.altenburg-nobitz-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Altenburg Airport Wifi",
+        "note": "Passengers can connect to the airport's wifi network for free."
+      }
+    },
+    {
+      "airport_name": "Hof",
+      "iata_code": "HOQ",
+      "icao_code": "EDQM",
+      "distance_km": 47.8,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:24:02.900280Z",
+    "generated_at": "2025-08-04T20:14:35.829451Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,39 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Syracuse Hancock International Airport",
+      "iata_code": "SYR",
+      "icao_code": "KSYR",
+      "distance_km": 22.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Syracuse Hancock International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal A",
+          "description": "Terminal A at Syracuse Hancock International Airport serves primarily domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "Terminal B at Syracuse Hancock International Airport serves primarily international flights."
+        }
+      ],
+      "website": "https://www.syrairport.org/",
+      "wifi": {
+        "available": true,
+        "network_name": "SYR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:18:40.349620Z",
+    "generated_at": "2025-08-04T18:50:41.526811Z",
     "env": "development",
     "source": "justarrived-generator"
   }

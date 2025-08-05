@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Atlantic City International",
+      "iata_code": "ACY",
+      "icao_code": "KACY",
+      "distance_km": 7.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Atlantic City International Airport serves all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Atlantic City International Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.acairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ACY Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Millville",
+      "iata_code": "MIV",
+      "icao_code": "KMIV",
+      "distance_km": 46.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.millvilleairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Millville Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:59.291319Z",
+    "generated_at": "2025-08-04T19:32:52.706232Z",
     "env": "development",
     "source": "justarrived-generator"
   }

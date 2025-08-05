@@ -48,8 +48,55 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 24.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "This concourse serves domestic flights for airlines such as American, Delta, and JetBlue."
+        },
+        {
+          "name": "Concourse B",
+          "description": "This concourse serves domestic flights for airlines such as United, Southwest, and Spirit."
+        },
+        {
+          "name": "Concourse C",
+          "description": "This concourse serves international flights for airlines such as Air Canada and Lufthansa."
+        }
+      ],
+      "website": "https://flyrichmond.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIC_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dinwiddie County Airport",
+      "iata_code": "PTB",
+      "icao_code": "KPTB",
+      "distance_km": 44.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:56:07.842643Z",
+    "generated_at": "2025-08-04T20:03:35.892985Z",
     "env": "development",
     "source": "justarrived-generator"
   }

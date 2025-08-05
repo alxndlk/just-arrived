@@ -50,8 +50,60 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "New Ulaanbaator International Airport",
+      "iata_code": "UBN",
+      "icao_code": "ZMCK",
+      "distance_km": 35.4,
+      "gmt": "8",
+      "country": "Mongolia",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.airport.gov.mn/",
+      "wifi": {
+        "available": true,
+        "network_name": "UBN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chinggis Khaan International",
+      "iata_code": "ULN",
+      "icao_code": "ZMUB",
+      "distance_km": 37.8,
+      "gmt": "8",
+      "country": "Mongolia",
+      "timezone": "Asia/Ulaanbaatar",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chinggis Khaan International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://ulnairport.mn/",
+      "wifi": {
+        "available": true,
+        "network_name": "ULN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:11:07.302421Z",
+    "generated_at": "2025-08-04T20:09:35.756453Z",
     "env": "development",
     "source": "justarrived-generator"
   }

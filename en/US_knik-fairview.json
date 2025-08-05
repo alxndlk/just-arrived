@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palmer Municipalcipal",
+      "iata_code": "PAQ",
+      "icao_code": "PAAQ",
+      "distance_km": 28.8,
+      "gmt": "-9",
+      "country": "United States",
+      "timezone": "America/Anchorage",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Palmer Municipal Airport serves all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Palmer Municipal Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.palmermunicipalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PAQ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ted Stevens Anchorage International Airport",
+      "iata_code": "ANC",
+      "icao_code": "PANC",
+      "distance_km": 42.1,
+      "gmt": "-9",
+      "country": "United States",
+      "timezone": "America/Anchorage",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ted Stevens Anchorage International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Ted Stevens Anchorage International Airport is primarily used for cargo and charter flights."
+        }
+      ],
+      "website": "https://www.dot.alaska.gov/anc",
+      "wifi": {
+        "available": true,
+        "network_name": "ANC_Free_WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:27:09.140875Z",
+    "generated_at": "2025-08-04T18:57:49.370924Z",
     "env": "development",
     "source": "justarrived-generator"
   }

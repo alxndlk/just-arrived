@@ -50,8 +50,51 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ibaraki",
+      "iata_code": "IBR",
+      "icao_code": "RJAH",
+      "distance_km": 9.5,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Narita International Airport",
+      "iata_code": "NRT",
+      "icao_code": "RJAA",
+      "distance_km": 44.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main international terminal at Narita Airport, serving over 50 airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "The secondary international terminal at Narita Airport, serving mainly low-cost carriers."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "The newest terminal at Narita Airport, exclusively for low-cost carriers."
+        }
+      ],
+      "website": "https://www.narita-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "NRT-FreeWiFi",
+        "note": "WiFi is available throughout the airport, but a free registration is required."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:57:20.186010Z",
+    "generated_at": "2025-08-04T20:04:29.913827Z",
     "env": "development",
     "source": "justarrived-generator"
   }

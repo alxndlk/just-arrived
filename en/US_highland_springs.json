@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Richmond International Airport",
+      "iata_code": "RIC",
+      "icao_code": "KRIC",
+      "distance_km": 5.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Richmond International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Richmond International Airport primarily serves domestic flights for American Airlines."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Richmond International Airport primarily serves domestic flights for Delta and United Airlines."
+        },
+        {
+          "name": "Concourse C",
+          "description": "Concourse C at Richmond International Airport primarily serves domestic flights for Southwest Airlines."
+        }
+      ],
+      "website": "https://flyrichmond.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RIC Free WiFi",
+        "note": "Passengers can enjoy free WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Dinwiddie County Airport",
+      "iata_code": "PTB",
+      "icao_code": "KPTB",
+      "distance_km": 37.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Dinwiddie County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Dinwiddie County Airport is reserved for private and chartered flights."
+        }
+      ],
+      "website": "https://www.dinwiddieairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Dinwiddie Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:37:51.336374Z",
+    "generated_at": "2025-08-04T19:06:50.596029Z",
     "env": "development",
     "source": "justarrived-generator"
   }

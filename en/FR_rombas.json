@@ -51,8 +51,47 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Metz-nancy-lorraine",
+      "iata_code": "ETZ",
+      "icao_code": "LFJL",
+      "distance_km": 31.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Findel",
+      "iata_code": "LUX",
+      "icao_code": "ELLX",
+      "distance_km": 43.1,
+      "gmt": "1",
+      "country": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Findel Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Findel Airport, primarily used for low-cost and regional flights."
+        }
+      ],
+      "website": "https://www.lux-airport.lu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Findel Airport WiFi",
+        "note": "Free WiFi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:43.657235Z",
+    "generated_at": "2025-08-04T20:31:27.042820Z",
     "env": "development",
     "source": "justarrived-generator"
   }

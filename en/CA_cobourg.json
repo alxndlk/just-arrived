@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Peterborough",
+      "iata_code": "YPQ",
+      "icao_code": "CYPQ",
+      "distance_km": 38.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.peterboroughairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Peterborough Airport WiFi",
+        "note": "Passengers can enjoy complimentary WiFi throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Trenton",
+      "iata_code": "YTR",
+      "icao_code": "CYTR",
+      "distance_km": 48.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Trenton Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Trenton Airport, handling all freight and shipping operations."
+        }
+      ],
+      "website": "https://www.trentonairport.ca/",
+      "wifi": {
+        "available": true,
+        "network_name": "Trenton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:23:33.299318Z",
+    "generated_at": "2025-08-04T18:54:46.904517Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,56 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Canakkale",
+      "iata_code": "CKZ",
+      "icao_code": "LTBH",
+      "distance_km": 3.7,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Canakkale Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Canakkale Airport, used primarily for domestic flights."
+        }
+      ],
+      "website": "https://www.canakkale-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Canakkale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gokceada",
+      "iata_code": "GKD",
+      "icao_code": "LTFK",
+      "distance_km": 45.0,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gokceada Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.gokceadaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gokceada Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:03:58.458038Z",
+    "generated_at": "2025-08-04T18:37:40.878255Z",
     "env": "development",
     "source": "justarrived-generator"
   }

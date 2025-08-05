@@ -51,8 +51,60 @@
     "police": "107"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Barca",
+      "iata_code": "KSC",
+      "icao_code": "LZKZ",
+      "distance_km": 42.6,
+      "gmt": "1",
+      "country": "Slovakia",
+      "timezone": "Europe/Bratislava",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Barca Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Barca Airport, mainly used for domestic flights."
+        }
+      ],
+      "website": "https://www.barcaairport.sk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Barca Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Nyiregyhaza Airport",
+      "iata_code": "QEY",
+      "icao_code": "LHNY",
+      "distance_km": 45.7,
+      "gmt": "1",
+      "country": "Hungary",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.nyiregyhazaairport.hu/",
+      "wifi": {
+        "available": true,
+        "network_name": "Nyiregyhaza Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:46:14.376043Z",
+    "generated_at": "2025-08-04T20:23:29.126319Z",
     "env": "development",
     "source": "justarrived-generator"
   }

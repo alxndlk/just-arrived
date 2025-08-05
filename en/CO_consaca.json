@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cano",
+      "iata_code": "PSO",
+      "icao_code": "SKPS",
+      "distance_km": 38.2,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Cano Airport with domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal with regional flights."
+        }
+      ],
+      "website": "https://www.puertocanointernationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Cano Airport Free WiFi",
+        "note": "Password required. Available in all areas of the airport."
+      }
+    },
+    {
+      "airport_name": "San Luis",
+      "iata_code": "IPI",
+      "icao_code": "SKIP",
+      "distance_km": 46.0,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at San Luis Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at San Luis Airport handles all air freight and cargo operations."
+        }
+      ],
+      "website": "https://www.sanluisairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SanLuisAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:09:57.547959Z",
+    "generated_at": "2025-08-04T19:32:52.534588Z",
     "env": "development",
     "source": "justarrived-generator"
   }

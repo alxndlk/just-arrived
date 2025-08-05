@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Hunter AAF",
+      "iata_code": "SVN",
+      "icao_code": "KSVN",
+      "distance_km": 17.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Savannah/Hilton Head",
+      "iata_code": "SAV",
+      "icao_code": "KSAV",
+      "distance_km": 27.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Hilton Head",
+      "iata_code": "HHH",
+      "icao_code": "KHXD",
+      "distance_km": 46.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Hilton Head Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at Hilton Head Airport offers luxurious amenities for private jet travelers."
+        }
+      ],
+      "website": "https://www.hiltonheadairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HiltonHeadAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:11:37.690649Z",
+    "generated_at": "2025-08-04T20:33:25.412816Z",
     "env": "development",
     "source": "justarrived-generator"
   }

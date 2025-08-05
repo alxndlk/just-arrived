@@ -106,8 +106,47 @@
       }
     }
   ],
+  "airports": [
+    {
+      "airport_name": "Virginia",
+      "iata_code": "VIR",
+      "icao_code": "FAVG",
+      "distance_km": 13.1,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Durban International",
+      "iata_code": "DUR",
+      "icao_code": "FALE",
+      "distance_km": 30.6,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional and low-cost carriers."
+        }
+      ],
+      "website": "https://www.durban-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "DUR Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:33:09.990821Z",
+    "generated_at": "2025-08-04T19:56:29.732122Z",
     "env": "development",
     "source": "justarrived-generator"
   }

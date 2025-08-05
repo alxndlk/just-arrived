@@ -48,8 +48,126 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Snohomish County - Paine Field",
+      "iata_code": "PAE",
+      "icao_code": "KPAE",
+      "distance_km": 10.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Kenmore Air Harbor SPB",
+      "iata_code": "LKE",
+      "icao_code": "KW55",
+      "distance_km": 21.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kenmore Air Harbor SPB Airport, serving both arriving and departing passengers."
+        },
+        {
+          "name": "Water Terminal",
+          "description": "The water terminal at Kenmore Air Harbor SPB Airport, providing access to seaplane flights."
+        }
+      ],
+      "website": "https://www.kenmoreair.com/airports/kenmore-air-harbor-seaplane-base/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kenmore Air WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Boeing Field/King County International Airport",
+      "iata_code": "BFI",
+      "icao_code": "KBFI",
+      "distance_km": 31.0,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Boeing Field/King County International Airport serves all commercial and private flights."
+        },
+        {
+          "name": "South Terminal",
+          "description": "The South Terminal at Boeing Field/King County International Airport is primarily used for cargo and general aviation operations."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "BoeingFieldWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Renton",
+      "iata_code": "RNT",
+      "icao_code": "KRNT",
+      "distance_km": 35.2,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Renton Airport offers a variety of amenities for travelers including shops, restaurants, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Renton Airport is reserved for private and corporate flights, offering a more exclusive and personalized experience for passengers."
+        }
+      ],
+      "website": "https://www.rentonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Renton Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    },
+    {
+      "airport_name": "Seattle-Tacoma International",
+      "iata_code": "SEA",
+      "icao_code": "KSEA",
+      "distance_km": 41.3,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Seattle-Tacoma International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "North Satellite Terminal",
+          "description": "The North Satellite Terminal at Seattle-Tacoma International Airport primarily serves Alaska Airlines and its affiliates."
+        },
+        {
+          "name": "South Satellite Terminal",
+          "description": "The South Satellite Terminal at Seattle-Tacoma International Airport serves international flights and some domestic flights."
+        }
+      ],
+      "website": "https://www.portseattle.org/sea-tac",
+      "wifi": {
+        "available": true,
+        "network_name": "SEA-TAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:53.472119Z",
+    "generated_at": "2025-08-04T20:29:29.030409Z",
     "env": "development",
     "source": "justarrived-generator"
   }

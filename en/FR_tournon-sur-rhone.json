@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chabeuil",
+      "iata_code": "VAF",
+      "icao_code": "LFLU",
+      "distance_km": 19.7,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Chabeuil Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.chabeuilairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chabeuil Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Vals-Lanas",
+      "iata_code": "OBS",
+      "icao_code": "LFHO",
+      "distance_km": 45.9,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.vals-lanas-airport.fr/",
+      "wifi": {
+        "available": true,
+        "network_name": "Vals-Lanas Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:44.784837Z",
+    "generated_at": "2025-08-04T19:20:41.907101Z",
     "env": "development",
     "source": "justarrived-generator"
   }

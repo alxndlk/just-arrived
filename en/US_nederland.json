@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Jefferson County",
+      "iata_code": "BPT",
+      "icao_code": "KBPT",
+      "distance_km": 2.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Jefferson County Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Jefferson County Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.jeffersoncountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JCAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beaumont Municipalcipal",
+      "iata_code": "BMT",
+      "icao_code": "KBMT",
+      "distance_km": 15.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Beaumont Municipal Airport serves domestic flights to and from various cities in the United States."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Beaumont Municipal Airport handles all freight and cargo operations, including imports and exports."
+        }
+      ],
+      "website": "https://www.flybeaumont.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BMT Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:09.697386Z",
+    "generated_at": "2025-08-04T18:58:45.850383Z",
     "env": "development",
     "source": "justarrived-generator"
   }

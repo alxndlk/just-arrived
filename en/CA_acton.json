@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kitchener-Waterloo Regional",
+      "iata_code": "YKF",
+      "icao_code": "CYKF",
+      "distance_km": 33.9,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Lester B. Pearson International",
+      "iata_code": "YYZ",
+      "icao_code": "CYYZ",
+      "distance_km": 34.4,
+      "gmt": "-5",
+      "country": "Canada",
+      "timezone": "America/Toronto",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The largest terminal at Lester B. Pearson International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "A modern terminal serving international flights with a wide range of amenities and services."
+        }
+      ],
+      "website": "https://www.torontopearson.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YYZ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and accept the terms and conditions to access."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:07:48.001913Z",
+    "generated_at": "2025-08-04T20:31:32.229373Z",
     "env": "development",
     "source": "justarrived-generator"
   }

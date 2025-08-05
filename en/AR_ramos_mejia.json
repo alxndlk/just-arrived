@@ -50,8 +50,85 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "El Palomar",
+      "iata_code": "EPA",
+      "icao_code": "SADP",
+      "distance_km": 6.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.elpalomarairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "EPA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroparque Jorge Newbery",
+      "iata_code": "AEP",
+      "icao_code": "SABE",
+      "distance_km": 17.2,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Aeroparque Jorge Newbery Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Aeroparque Jorge Newbery Airport, used primarily for domestic flights."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/aeroparque-jorge-newbery",
+      "wifi": {
+        "available": true,
+        "network_name": "AEP-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Ezeiza Ministro Pistarini",
+      "iata_code": "EZE",
+      "icao_code": "SAEZ",
+      "distance_km": 18.3,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main international terminal at Ezeiza Ministro Pistarini Airport."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The domestic terminal at Ezeiza Ministro Pistarini Airport."
+        }
+      ],
+      "website": "https://www.aa2000.com.ar/en/ezeiza",
+      "wifi": {
+        "available": true,
+        "network_name": "EZE Free WiFi",
+        "note": "Limited to 2 hours per device."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:42:18.149434Z",
+    "generated_at": "2025-08-04T18:13:46.658814Z",
     "env": "development",
     "source": "justarrived-generator"
   }

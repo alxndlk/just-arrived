@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Merritt Island",
+      "iata_code": "COI",
+      "icao_code": "KCOI",
+      "distance_km": 8.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Merritt Island Airport serves all commercial and private flights."
+        }
+      ],
+      "website": "https://www.merrittislandairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MIA WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Space Coast Regional",
+      "iata_code": "TIX",
+      "icao_code": "KTIX",
+      "distance_km": 23.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Space Coast Regional Airport handles all commercial flights and services."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Space Coast Regional Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.spacecoastregionalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SCRA_WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Melbourne International Airport",
+      "iata_code": "MLB",
+      "icao_code": "KMLB",
+      "distance_km": 32.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "This terminal is used for domestic flights operated by major airlines."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for domestic flights operated by regional airlines."
+        }
+      ],
+      "website": "https://www.mlbair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:03:38.789672Z",
+    "generated_at": "2025-08-04T19:27:50.689739Z",
     "env": "development",
     "source": "justarrived-generator"
   }

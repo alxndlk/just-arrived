@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eelde",
+      "iata_code": "GRQ",
+      "icao_code": "EHGG",
+      "distance_km": 29.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Leer Papenburg Airport",
+      "iata_code": "QEJ",
+      "icao_code": "EDWF",
+      "distance_km": 45.4,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.leer-papenburg-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "LP Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:07:14.095289Z",
+    "generated_at": "2025-08-04T20:08:30.405826Z",
     "env": "development",
     "source": "justarrived-generator"
   }

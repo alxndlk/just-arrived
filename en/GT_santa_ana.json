@@ -49,8 +49,35 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Santa Elena",
+      "iata_code": "FRS",
+      "icao_code": "MGTK",
+      "distance_km": 13.6,
+      "gmt": "-6",
+      "country": "Guatemala",
+      "timezone": "America/Guatemala",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Santa Elena Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Santa Elena Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://santaelenaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SantaElenaAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:16:25.518032Z",
+    "generated_at": "2025-08-04T18:48:43.975107Z",
     "env": "development",
     "source": "justarrived-generator"
   }

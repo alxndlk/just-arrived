@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Cheddi Jagan International",
+      "iata_code": "GEO",
+      "icao_code": "SYCJ",
+      "distance_km": 34.7,
+      "gmt": "-4",
+      "country": "Guyana",
+      "timezone": "America/Guyana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://cjairport.gov.gy/",
+      "wifi": {
+        "available": true,
+        "network_name": "CJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:17:35.805221Z",
+    "generated_at": "2025-08-04T19:38:54.435249Z",
     "env": "development",
     "source": "justarrived-generator"
   }

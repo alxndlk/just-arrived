@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kamuela",
+      "iata_code": "MUE",
+      "icao_code": "PHMU",
+      "distance_km": 3.7,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kamuela Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Kamuela Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.kamuelaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kamuela Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Upolu Point",
+      "iata_code": "UPP",
+      "icao_code": "PHUP",
+      "distance_km": 36.8,
+      "gmt": "-10",
+      "country": "United States",
+      "timezone": "Pacific/Honolulu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:21.467148Z",
+    "generated_at": "2025-08-04T20:29:26.290141Z",
     "env": "development",
     "source": "justarrived-generator"
   }

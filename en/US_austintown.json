@@ -48,8 +48,56 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Youngstown",
+      "iata_code": "YNG",
+      "icao_code": "KYNG",
+      "distance_km": 19.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Youngstown Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://youngstownairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "YNG Airport WiFi",
+        "note": "Complimentary WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Beaver Falls",
+      "iata_code": "BFP",
+      "icao_code": "KBVI",
+      "distance_km": 46.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Beaver Falls Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at Beaver Falls Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "http://www.beaverfallsairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "BFP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:48.651764Z",
+    "generated_at": "2025-08-04T18:41:48.683055Z",
     "env": "development",
     "source": "justarrived-generator"
   }

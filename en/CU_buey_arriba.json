@@ -52,8 +52,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "C.M. de Cespedes",
+      "iata_code": "BYM",
+      "icao_code": "MUBY",
+      "distance_km": 25.5,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at C.M. de Cespedes Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at C.M. de Cespedes Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.bymairport.cu/",
+      "wifi": {
+        "available": true,
+        "network_name": "BYM Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport terminal."
+      }
+    },
+    {
+      "airport_name": "Sierra Maestra",
+      "iata_code": "MZO",
+      "icao_code": "MUMZ",
+      "distance_km": 43.0,
+      "gmt": "-5",
+      "country": "Cuba",
+      "timezone": "America/Havana",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Sierra Maestra Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for domestic flights within Cuba."
+        }
+      ],
+      "website": "https://www.sierramaestraairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SierraMaestraAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:27.554706Z",
+    "generated_at": "2025-08-04T18:41:40.798645Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Ryan",
+      "iata_code": "BTR",
+      "icao_code": "KBTR",
+      "distance_km": 30.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ryan Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ryan Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.flybtr.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "RyanAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:04:15.664694Z",
+    "generated_at": "2025-08-04T18:37:46.087349Z",
     "env": "development",
     "source": "justarrived-generator"
   }

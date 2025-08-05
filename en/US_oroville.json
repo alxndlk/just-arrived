@@ -48,8 +48,71 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Oroville",
+      "iata_code": "OVE",
+      "icao_code": "KOVE",
+      "distance_km": 4.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Beale AFB",
+      "iata_code": "BAB",
+      "icao_code": "KBAB",
+      "distance_km": 38.9,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Beale AFB Airport serves both commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Beale AFB Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.beale.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Beale Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Chico",
+      "iata_code": "CIC",
+      "icao_code": "KCIC",
+      "distance_km": 41.4,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Yuba County",
+      "iata_code": "MYV",
+      "icao_code": "KMYV",
+      "distance_km": 44.7,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:25:07.123941Z",
+    "generated_at": "2025-08-04T20:15:29.002283Z",
     "env": "development",
     "source": "justarrived-generator"
   }

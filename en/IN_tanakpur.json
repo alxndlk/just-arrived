@@ -51,8 +51,43 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mahendranagar",
+      "iata_code": "XMG",
+      "icao_code": "VNMN",
+      "distance_km": 14.9,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Baitadi",
+      "iata_code": "BIT",
+      "icao_code": "VNBT",
+      "distance_km": 38.9,
+      "gmt": "5.45",
+      "country": "Nepal",
+      "timezone": "Asia/Kathmandu",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Baitadi Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.baitadiairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Baitadi Airport Wifi",
+        "note": "Passengers can connect to the airport's wifi network for free."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:35:38.958992Z",
+    "generated_at": "2025-08-04T20:19:29.572749Z",
     "env": "development",
     "source": "justarrived-generator"
   }

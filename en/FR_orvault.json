@@ -51,8 +51,60 @@
     "police": "17"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Nantes Atlantique",
+      "iata_code": "NTE",
+      "icao_code": "LFRS",
+      "distance_km": 12.8,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Nantes Atlantique Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Nantes Atlantique Airport, mainly used for low-cost and seasonal flights."
+        }
+      ],
+      "website": "https://www.nantes.aeroport.fr/en",
+      "wifi": {
+        "available": true,
+        "network_name": "Nantes Airport WiFi",
+        "note": "Free WiFi is available throughout the airport. Simply connect to the network and follow the instructions to access the internet."
+      }
+    },
+    {
+      "airport_name": "Montoir",
+      "iata_code": "SNR",
+      "icao_code": "LFRZ",
+      "distance_km": 42.3,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Montoir Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Montoir Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.montoirairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Montoir Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:10:56.809421Z",
+    "generated_at": "2025-08-04T18:43:47.255381Z",
     "env": "development",
     "source": "justarrived-generator"
   }

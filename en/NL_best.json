@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eindhoven",
+      "iata_code": "EIN",
+      "icao_code": "EHEH",
+      "distance_km": 5.9,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "Main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Smaller terminal for low-cost carriers."
+        }
+      ],
+      "website": "https://www.eindhovenairport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "EIN Free WiFi",
+        "note": "Limited to 1 hour per device. Premium option available for purchase."
+      }
+    },
+    {
+      "airport_name": "Kempen Airport",
+      "iata_code": "QEK",
+      "icao_code": "EHBD",
+      "distance_km": 32.0,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": null,
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Gilze-Rijen",
+      "iata_code": "GLZ",
+      "icao_code": "EHGR",
+      "distance_km": 45.1,
+      "gmt": "1",
+      "country": "Netherlands",
+      "timezone": "Europe/Amsterdam",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Gilze-Rijen Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Gilze-Rijen Airport, handling all freight and logistics operations."
+        }
+      ],
+      "website": "https://www.gilze-rijen-airport.nl/",
+      "wifi": {
+        "available": true,
+        "network_name": "Gilze-Rijen Airport Wifi",
+        "note": "Free wifi is available throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:48.378991Z",
+    "generated_at": "2025-08-04T20:09:25.443956Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -51,8 +51,35 @@
     "police": "997"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Copernicus Airport",
+      "iata_code": "WRO",
+      "icao_code": "EPWR",
+      "distance_km": 25.0,
+      "gmt": "1",
+      "country": "Poland",
+      "timezone": "Europe/Warsaw",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for low-cost and charter flights."
+        }
+      ],
+      "website": "https://www.airport.wroclaw.pl/en",
+      "wifi": {
+        "available": true,
+        "network_name": "WRO Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:43:30.857070Z",
+    "generated_at": "2025-08-04T19:11:40.622435Z",
     "env": "development",
     "source": "justarrived-generator"
   }

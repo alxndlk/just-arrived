@@ -50,8 +50,64 @@
     "fire": "193"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sao Jose Dos Campos",
+      "iata_code": "SJK",
+      "icao_code": "SBSJ",
+      "distance_km": 44.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.aeroportosjc.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "SJK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Aeroporto Internacional Guarulhos",
+      "iata_code": "GRU",
+      "icao_code": "SBGR",
+      "distance_km": 48.0,
+      "gmt": "-3",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "This terminal is used for domestic flights within Brazil."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "This terminal is used for international flights."
+        },
+        {
+          "name": "Terminal 3",
+          "description": "This terminal is used for both domestic and international flights."
+        }
+      ],
+      "website": "https://www.gru.com.br/",
+      "wifi": {
+        "available": true,
+        "network_name": "GRU Free WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:06:10.236496Z",
+    "generated_at": "2025-08-04T18:39:40.793017Z",
     "env": "development",
     "source": "justarrived-generator"
   }

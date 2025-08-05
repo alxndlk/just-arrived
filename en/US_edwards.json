@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Eagle County",
+      "iata_code": "EGE",
+      "icao_code": "KEGE",
+      "distance_km": 25.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Aspen",
+      "iata_code": "ASE",
+      "icao_code": "KASE",
+      "distance_km": 49.4,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Aspen Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Jet Terminal",
+          "description": "The private jet terminal at Aspen Airport caters to luxury travelers and private aircraft."
+        }
+      ],
+      "website": "https://www.aspenairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "AspenAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:00:02.286703Z",
+    "generated_at": "2025-08-04T20:28:32.221888Z",
     "env": "development",
     "source": "justarrived-generator"
   }

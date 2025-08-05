@@ -48,8 +48,43 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Wellington International",
+      "iata_code": "WLG",
+      "icao_code": "NZWN",
+      "distance_km": 22.0,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Paraparaumu",
+      "iata_code": "PPQ",
+      "icao_code": "NZPP",
+      "distance_km": 28.3,
+      "gmt": "12",
+      "country": "New Zealand",
+      "timezone": "Pacific/Auckland",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Paraparaumu Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.kapiticoast.govt.nz/airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Paraparaumu Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:34.455187Z",
+    "generated_at": "2025-08-04T20:02:35.348359Z",
     "env": "development",
     "source": "justarrived-generator"
   }

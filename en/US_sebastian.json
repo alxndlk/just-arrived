@@ -48,8 +48,76 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Vero Beach Municipal",
+      "iata_code": "VRB",
+      "icao_code": "KVRB",
+      "distance_km": 15.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Melbourne International Airport",
+      "iata_code": "MLB",
+      "icao_code": "KMLB",
+      "distance_km": 38.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Melbourne International Airport houses all domestic and international flights."
+        },
+        {
+          "name": "Terminal 1",
+          "description": "Terminal 1 is used for domestic flights and is home to various airlines such as Delta, American Airlines, and JetBlue."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "Terminal 2 is used for international flights and is home to airlines such as Air Canada, British Airways, and Lufthansa."
+        }
+      ],
+      "website": "https://www.mlbair.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "MLB Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "St Lucie County",
+      "iata_code": "FPR",
+      "icao_code": "KFPR",
+      "distance_km": 39.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at St Lucie County Airport offers all necessary amenities for travelers, including check-in counters, security checkpoints, and a variety of dining and shopping options."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at St Lucie County Airport caters to private and charter flights, providing a more exclusive and personalized experience for travelers."
+        }
+      ],
+      "website": "https://www.flystluciecountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "FPR Airport WiFi",
+        "note": "Free WiFi is available throughout the airport for all passengers."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:14:21.640230Z",
+    "generated_at": "2025-08-04T20:11:29.864467Z",
     "env": "development",
     "source": "justarrived-generator"
   }

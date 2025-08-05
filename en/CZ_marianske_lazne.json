@@ -51,8 +51,60 @@
     "police": "158"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Marianske Lazne",
+      "iata_code": "MKA",
+      "icao_code": "LKMR",
+      "distance_km": 2.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Marianske Lazne Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and chartered flights."
+        }
+      ],
+      "website": "https://www.marianskelazneairport.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "MKA Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Karlovy Vary",
+      "iata_code": "KLV",
+      "icao_code": "LKKV",
+      "distance_km": 30.4,
+      "gmt": "1",
+      "country": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Karlovy Vary Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for private and charter flights."
+        }
+      ],
+      "website": "https://www.airport-karlovyvary.cz/",
+      "wifi": {
+        "available": true,
+        "network_name": "KLV Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:41:09.704441Z",
+    "generated_at": "2025-08-04T19:09:44.060832Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,56 @@
     "police": "155"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mardin",
+      "iata_code": "MQM",
+      "icao_code": "LTCR",
+      "distance_km": 6.1,
+      "gmt": "3",
+      "country": "Turkey",
+      "timezone": "Europe/Istanbul",
+      "terminals": [
+        {
+          "name": "International Terminal",
+          "description": "This terminal serves all international flights."
+        },
+        {
+          "name": "Domestic Terminal",
+          "description": "This terminal serves all domestic flights."
+        }
+      ],
+      "website": "https://www.mardinairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mardin Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Kameshli",
+      "iata_code": "KAC",
+      "icao_code": "OSKL",
+      "distance_km": 49.2,
+      "gmt": "2",
+      "country": "Syria",
+      "timezone": "Asia/Damascus",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Kameshli Airport serves all domestic and international flights."
+        }
+      ],
+      "website": "https://www.syria-airports.com/kameshli-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "KAC Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:59:49.962684Z",
+    "generated_at": "2025-08-04T19:24:48.773749Z",
     "env": "development",
     "source": "justarrived-generator"
   }

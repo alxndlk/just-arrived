@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "University Park Airport",
+      "iata_code": "SCE",
+      "icao_code": "KUNV",
+      "distance_km": 14.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at University Park Airport handles all commercial flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at University Park Airport serves private and charter flights."
+        }
+      ],
+      "website": "https://www.universityparkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "UPAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mifflin County",
+      "iata_code": "RED",
+      "icao_code": "KRVL",
+      "distance_km": 28.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mifflin County Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Mifflin County Airport is used for shipping and receiving goods."
+        }
+      ],
+      "website": "https://www.mifflincountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Mifflin County Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:28:27.047424Z",
+    "generated_at": "2025-08-04T20:16:31.544296Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,114 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Düsseldorf International Airport",
+      "iata_code": "DUS",
+      "icao_code": "EDDL",
+      "distance_km": 20.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The largest terminal at Düsseldorf International Airport, serving mainly international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Düsseldorf International Airport, mainly used for domestic flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal at Düsseldorf International Airport, primarily used for low-cost carriers."
+        }
+      ],
+      "website": "https://www.dus.com/en",
+      "wifi": {
+        "available": true,
+        "network_name": "DUS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Essen",
+      "iata_code": "ESS",
+      "icao_code": "EDLE",
+      "distance_km": 26.7,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at Essen Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "A smaller terminal at Essen Airport, mainly used for regional flights."
+        }
+      ],
+      "website": "https://www.essen-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "Essen Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Cologne/bonn",
+      "iata_code": "CGN",
+      "icao_code": "EDDK",
+      "distance_km": 33.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for international and domestic flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal mainly used for low-cost airlines."
+        }
+      ],
+      "website": "https://www.cologne-bonn-airport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CGN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Moenchen-gl. - Dus Exp",
+      "iata_code": "MGL",
+      "icao_code": "EDLN",
+      "distance_km": 37.9,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for regional flights."
+        }
+      ],
+      "website": "https://www.moenchen-gl-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "MGL Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:27.304802Z",
+    "generated_at": "2025-08-04T18:41:45.589999Z",
     "env": "development",
     "source": "justarrived-generator"
   }

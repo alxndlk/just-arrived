@@ -48,8 +48,64 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pensacola International Airport",
+      "iata_code": "PNS",
+      "icao_code": "KPNS",
+      "distance_km": 5.0,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Pensacola International Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Concourse A",
+          "description": "Concourse A at Pensacola International Airport is primarily used for domestic flights."
+        },
+        {
+          "name": "Concourse B",
+          "description": "Concourse B at Pensacola International Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.flypensacola.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "PNS Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Pensacola NAS",
+      "iata_code": "NPA",
+      "icao_code": "KNPA",
+      "distance_km": 11.8,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal of Pensacola NAS Airport."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal of Pensacola NAS Airport, used for military personnel and their families."
+        }
+      ],
+      "website": "https://www.cnic.navy.mil/regions/cnrse/installations/nas_pensacola.html",
+      "wifi": {
+        "available": true,
+        "network_name": "PensacolaNAS-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:08:32.921938Z",
+    "generated_at": "2025-08-04T18:41:43.102397Z",
     "env": "development",
     "source": "justarrived-generator"
   }

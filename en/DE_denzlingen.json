@@ -49,8 +49,56 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Black Forest",
+      "iata_code": "LHA",
+      "icao_code": "EDTL",
+      "distance_km": 29.5,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for all domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for regional flights."
+        }
+      ],
+      "website": "https://www.blackforestairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "BlackForestAirportWifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Colmar-houssen",
+      "iata_code": "CMR",
+      "icao_code": "LFGA",
+      "distance_km": 38.4,
+      "gmt": "1",
+      "country": "France",
+      "timezone": "Europe/Paris",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Colmar-houssen Airport handles all domestic and international flights."
+        }
+      ],
+      "website": "https://www.colmarairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ColmarAirportWiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:42:25.086852Z",
+    "generated_at": "2025-08-04T19:10:45.833590Z",
     "env": "development",
     "source": "justarrived-generator"
   }

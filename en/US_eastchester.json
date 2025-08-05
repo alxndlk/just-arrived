@@ -48,8 +48,196 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Westchester County Apt",
+      "iata_code": "HPN",
+      "icao_code": "KHPN",
+      "distance_km": 15.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "This terminal serves domestic flights for major airlines such as American Airlines, Delta, and JetBlue."
+        },
+        {
+          "name": "Terminal B",
+          "description": "This terminal serves international flights for major airlines such as Air Canada, British Airways, and Lufthansa."
+        }
+      ],
+      "website": "https://www.airport.westchestergov.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "HPN Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free by selecting 'HPN Airport WiFi' from their device's list of available networks."
+      }
+    },
+    {
+      "airport_name": "LaGuardia",
+      "iata_code": "LGA",
+      "icao_code": "KLGA",
+      "distance_km": 20.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The main terminal at LaGuardia Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The newest terminal at LaGuardia Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The smallest terminal at LaGuardia Airport, serving domestic flights."
+        }
+      ],
+      "website": "https://www.laguardiaairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "LGA Free WiFi",
+        "note": "Free WiFi is available throughout the airport. No password is required."
+      }
+    },
+    {
+      "airport_name": "Teterboro",
+      "iata_code": "TEB",
+      "icao_code": "KTEB",
+      "distance_km": 23.9,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "John F Kennedy International",
+      "iata_code": "JFK",
+      "icao_code": "KJFK",
+      "distance_km": 34.7,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "International flights for major airlines"
+        },
+        {
+          "name": "Terminal 2",
+          "description": "International flights for smaller airlines"
+        },
+        {
+          "name": "Terminal 4",
+          "description": "Main terminal for domestic and international flights"
+        },
+        {
+          "name": "Terminal 5",
+          "description": "Domestic flights for JetBlue"
+        },
+        {
+          "name": "Terminal 7",
+          "description": "Domestic and international flights for major airlines"
+        },
+        {
+          "name": "Terminal 8",
+          "description": "Domestic and international flights for American Airlines"
+        }
+      ],
+      "website": "https://www.jfkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "JFK Airport WiFi",
+        "note": "Free WiFi is available throughout the airport"
+      }
+    },
+    {
+      "airport_name": "Caldwell Wright",
+      "iata_code": "CDW",
+      "icao_code": "KCDW",
+      "distance_km": 40.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Caldwell Wright Airport houses ticket counters, baggage claim, and security checkpoints."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Caldwell Wright Airport is used for private and charter flights."
+        }
+      ],
+      "website": "https://www.caldwellairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CDW Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminals."
+      }
+    },
+    {
+      "airport_name": "Republic Field",
+      "iata_code": "FRG",
+      "icao_code": "KFRG",
+      "distance_km": 41.4,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Republic Field Airport serves both commercial and private flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Republic Field Airport caters to private and corporate flights."
+        }
+      ],
+      "website": "https://www.republicairport.net/",
+      "wifi": {
+        "available": true,
+        "network_name": "Republic Airport WiFi",
+        "note": "WiFi is available throughout the airport for free."
+      }
+    },
+    {
+      "airport_name": "Newark Liberty International",
+      "iata_code": "EWR",
+      "icao_code": "KEWR",
+      "distance_km": 42.6,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "The oldest terminal at Newark Liberty International Airport, serving mainly domestic flights."
+        },
+        {
+          "name": "Terminal B",
+          "description": "The largest terminal at Newark Liberty International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal C",
+          "description": "The newest terminal at Newark Liberty International Airport, serving mainly United Airlines flights."
+        }
+      ],
+      "website": "https://www.newarkairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "EWR-Free-WiFi",
+        "note": "Free WiFi is available throughout the airport, but it may be slow or unreliable at times."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:05:09.648048Z",
+    "generated_at": "2025-08-04T20:07:31.546567Z",
     "env": "development",
     "source": "justarrived-generator"
   }

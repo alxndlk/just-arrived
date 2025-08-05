@@ -48,8 +48,72 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Davenport",
+      "iata_code": "DVN",
+      "icao_code": "KDVN",
+      "distance_km": 10.6,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Davenport Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Davenport Airport handles all freight and cargo shipments."
+        }
+      ],
+      "website": "https://www.davenportairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Davenport Airport WiFi",
+        "note": "Passengers can connect to the airport's free WiFi network throughout the terminal."
+      }
+    },
+    {
+      "airport_name": "Quad-City",
+      "iata_code": "MLI",
+      "icao_code": "KMLI",
+      "distance_km": 12.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Clinton",
+      "iata_code": "CWI",
+      "icao_code": "KCWI",
+      "distance_km": 31.7,
+      "gmt": "-6",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo operations."
+        }
+      ],
+      "website": "https://www.clintonairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "CWI Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:02.555922Z",
+    "generated_at": "2025-08-04T20:05:35.601336Z",
     "env": "development",
     "source": "justarrived-generator"
   }

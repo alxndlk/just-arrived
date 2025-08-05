@@ -48,8 +48,85 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Abraham Gonzalez International",
+      "iata_code": "CJS",
+      "icao_code": "MMCS",
+      "distance_km": 16.7,
+      "gmt": "-7",
+      "country": "Mexico",
+      "timezone": "America/Ojinaga",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Abraham Gonzalez International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Abraham Gonzalez International Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.aeropuertosgap.com.mx/en/ciudad-juarez",
+      "wifi": {
+        "available": true,
+        "network_name": "AeropuertoCJS",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "El Paso International Airport",
+      "iata_code": "ELP",
+      "icao_code": "KELP",
+      "distance_km": 22.0,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at El Paso International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Sun Country Terminal",
+          "description": "The Sun Country Terminal is used exclusively by Sun Country Airlines for their flights to and from El Paso."
+        }
+      ],
+      "website": "https://www.elpasointernationalairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "ELP Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Biggs AAF",
+      "iata_code": "BIF",
+      "icao_code": "KBIF",
+      "distance_km": 24.5,
+      "gmt": "-7",
+      "country": "United States",
+      "timezone": "America/Denver",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Biggs AAF Airport serves all commercial and military flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Biggs AAF Airport provides services for military personnel and their families."
+        }
+      ],
+      "website": "https://www.biggsaafairport.com",
+      "wifi": {
+        "available": true,
+        "network_name": "Biggs AAF Airport WiFi",
+        "note": "WiFi is available throughout the airport for passengers to use."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:14:36.131996Z",
+    "generated_at": "2025-08-04T20:34:26.915967Z",
     "env": "development",
     "source": "justarrived-generator"
   }

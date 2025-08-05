@@ -48,8 +48,59 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Palm Beach County Park",
+      "iata_code": "LNA",
+      "icao_code": "KLNA",
+      "distance_km": 23.5,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Palm Beach International Airport",
+      "iata_code": "PBI",
+      "icao_code": "KPBI",
+      "distance_km": 25.8,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Witham Field",
+      "iata_code": "SUA",
+      "icao_code": "KSUA",
+      "distance_km": 34.0,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Witham Field Airport handles all commercial and private flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "The general aviation terminal at Witham Field Airport caters to private and charter flights."
+        }
+      ],
+      "website": "https://www.stuartairshow.com/witham-field-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Witham Field Airport WiFi",
+        "note": "Passengers can access free WiFi throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:51:42.494964Z",
+    "generated_at": "2025-08-04T20:02:27.039755Z",
     "env": "development",
     "source": "justarrived-generator"
   }

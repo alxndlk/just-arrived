@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Pitalito",
+      "iata_code": "PTX",
+      "icao_code": "SKPI",
+      "distance_km": 15.6,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "This terminal handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.pitalitoairport.co/",
+      "wifi": {
+        "available": true,
+        "network_name": "PTX Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Capitolio",
+      "iata_code": "FLA",
+      "icao_code": "SKFL",
+      "distance_km": 45.4,
+      "gmt": "-5",
+      "country": "Colombia",
+      "timezone": "America/Bogota",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Capitolio Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Capitolio Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.capitolioairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Capitolio Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:00:41.399116Z",
+    "generated_at": "2025-08-04T18:34:41.224409Z",
     "env": "development",
     "source": "justarrived-generator"
   }

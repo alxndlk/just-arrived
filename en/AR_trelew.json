@@ -50,8 +50,35 @@
     "police": "101"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Almirante Zar",
+      "iata_code": "REL",
+      "icao_code": "SAVT",
+      "distance_km": 2.6,
+      "gmt": "-3",
+      "country": "Argentina",
+      "timezone": "America/Argentina/Catamarca",
+      "terminals": [
+        {
+          "name": "Terminal A",
+          "description": "Domestic flights"
+        },
+        {
+          "name": "Terminal B",
+          "description": "International flights"
+        }
+      ],
+      "website": "https://www.almirantezarairport.com.ar/",
+      "wifi": {
+        "available": true,
+        "network_name": "AlmiranteZarAirportWifi",
+        "note": "Free wifi available throughout the airport"
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:45.919303Z",
+    "generated_at": "2025-08-04T18:19:45.324492Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,60 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "St Augustine",
+      "iata_code": "UST",
+      "icao_code": "KSGJ",
+      "distance_km": 6.2,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all domestic and international flights."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal caters to private and chartered flights."
+        }
+      ],
+      "website": "https://www.flyust.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "UST Airport Wifi",
+        "note": "Passengers can connect to the wifi for free by selecting the network and entering a valid email address."
+      }
+    },
+    {
+      "airport_name": "Bunnell Flagler County Airport",
+      "iata_code": "QQF",
+      "icao_code": "KFIN",
+      "distance_km": 49.1,
+      "gmt": "-5",
+      "country": "United States",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and includes amenities such as restaurants, shops, and rental car services."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "This terminal is exclusively for private and charter flights, with a VIP lounge and concierge services available."
+        }
+      ],
+      "website": "https://www.bunnellflaglercountyairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bunnell Flagler Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:44:30.395549Z",
+    "generated_at": "2025-08-04T19:59:32.435501Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -49,8 +49,85 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Frankfurt-Hahn",
+      "iata_code": "HHN",
+      "icao_code": "EDFH",
+      "distance_km": 18.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Frankfurt-Hahn Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for charter and low-cost airlines."
+        }
+      ],
+      "website": "https://www.hahn-airport.de/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "HHN Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Spangdahlem",
+      "iata_code": "SPM",
+      "icao_code": "ETAD",
+      "distance_km": 34.2,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Spangdahlem Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Spangdahlem Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.spangdahlem-airport.de/",
+      "wifi": {
+        "available": true,
+        "network_name": "SPM Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Bitburg Air Base",
+      "iata_code": "BBJ",
+      "icao_code": "EDAB",
+      "distance_km": 46.1,
+      "gmt": "1",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bitburg Air Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Bitburg Air Base Airport is used exclusively for military flights and operations."
+        }
+      ],
+      "website": "https://www.bitburg.af.mil/",
+      "wifi": {
+        "available": true,
+        "network_name": "Bitburg Airport WiFi",
+        "note": "Passengers can connect to the WiFi network for free, but may experience slower speeds due to the remote location of the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:58:26.704103Z",
+    "generated_at": "2025-08-04T19:23:44.114220Z",
     "env": "development",
     "source": "justarrived-generator"
   }

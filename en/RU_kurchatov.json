@@ -51,8 +51,35 @@
     "police": "102"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Kursk",
+      "iata_code": "URS",
+      "icao_code": "UUOK",
+      "distance_km": 43.5,
+      "gmt": "3",
+      "country": "Russia",
+      "timezone": "Europe/Moscow",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights."
+        }
+      ],
+      "website": "https://www.kurskairport.ru/",
+      "wifi": {
+        "available": true,
+        "network_name": "Kursk Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:01:08.666852Z",
+    "generated_at": "2025-08-04T18:34:50.982158Z",
     "env": "development",
     "source": "justarrived-generator"
   }

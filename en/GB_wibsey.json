@@ -48,8 +48,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Leeds/bradford",
+      "iata_code": "LBA",
+      "icao_code": "EGNM",
+      "distance_km": 13.6,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Linton-On-Ouse",
+      "iata_code": "HRT",
+      "icao_code": "KHRT",
+      "distance_km": 29.7,
+      "gmt": null,
+      "country": "United Kingdom",
+      "timezone": "Europe/London",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Linton-On-Ouse Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Linton-On-Ouse Airport caters to VIP and private charter flights."
+        }
+      ],
+      "website": "https://www.lintononouseairport.co.uk/",
+      "wifi": {
+        "available": true,
+        "network_name": "Linton-On-Ouse Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:39:24.362427Z",
+    "generated_at": "2025-08-04T20:20:35.731542Z",
     "env": "development",
     "source": "justarrived-generator"
   }

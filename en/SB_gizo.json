@@ -46,8 +46,47 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Gizo",
+      "iata_code": "GZO",
+      "icao_code": "AGGN",
+      "distance_km": 1.4,
+      "gmt": "11",
+      "country": "Solomon Islands",
+      "timezone": "Pacific/Guadalcanal",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    },
+    {
+      "airport_name": "Ringi Cove",
+      "iata_code": "RIN",
+      "icao_code": "AGRC",
+      "distance_km": 23.8,
+      "gmt": "11",
+      "country": "Solomon Islands",
+      "timezone": "Pacific/Guadalcanal",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Ringi Cove Airport serves all domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Ringi Cove Airport handles all freight and cargo operations."
+        }
+      ],
+      "website": "https://www.aviation.gov.sb/airports/ringi-cove-airport/",
+      "wifi": {
+        "available": true,
+        "network_name": "Ringi Cove Airport WiFi",
+        "note": "WiFi is available for free throughout the airport terminal."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:15:33.314392Z",
+    "generated_at": "2025-08-04T20:34:31.524782Z",
     "env": "development",
     "source": "justarrived-generator"
   }

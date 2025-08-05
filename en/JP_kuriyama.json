@@ -50,8 +50,60 @@
     "police": "110"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chitose",
+      "iata_code": "CTS",
+      "icao_code": "RJCC",
+      "distance_km": 30.4,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Chitose Airport, serving domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily serving domestic flights."
+        }
+      ],
+      "website": "https://www.new-chitose-airport.jp/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "New Chitose Airport Free WiFi",
+        "note": "Passengers can access the free WiFi network for up to 3 hours per day."
+      }
+    },
+    {
+      "airport_name": "Okadama",
+      "iata_code": "OKD",
+      "icao_code": "RJCO",
+      "distance_km": 33.3,
+      "gmt": "9",
+      "country": "Japan",
+      "timezone": "Asia/Tokyo",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Okadama Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal at Okadama Airport handles all cargo and freight operations."
+        }
+      ],
+      "website": "https://www.okadama-airport.co.jp/",
+      "wifi": {
+        "available": true,
+        "network_name": "Okadama Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:53:52.307516Z",
+    "generated_at": "2025-08-04T19:19:49.882188Z",
     "env": "development",
     "source": "justarrived-generator"
   }

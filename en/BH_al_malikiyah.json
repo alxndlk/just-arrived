@@ -48,8 +48,89 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Sakhir Air Base",
+      "iata_code": "KHB",
+      "icao_code": "OBKH",
+      "distance_km": 8.2,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": null,
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Sakhir Air Base Airport serves both domestic and international flights."
+        },
+        {
+          "name": "Military Terminal",
+          "description": "The military terminal at Sakhir Air Base Airport is reserved for military personnel and government officials."
+        }
+      ],
+      "website": "https://www.bahrainairport.com/en/",
+      "wifi": {
+        "available": true,
+        "network_name": "Sakhir Airport Wifi",
+        "note": "Wifi is available throughout the airport, but may require a password for access."
+      }
+    },
+    {
+      "airport_name": "Bahrain International",
+      "iata_code": "BAH",
+      "icao_code": "OBBI",
+      "distance_km": 23.3,
+      "gmt": "3",
+      "country": "Bahrain",
+      "timezone": "Asia/Bahrain",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Bahrain International Airport serves both domestic and international flights."
+        },
+        {
+          "name": "VIP Terminal",
+          "description": "The VIP terminal offers exclusive services for high-profile passengers and private jets."
+        },
+        {
+          "name": "Cargo Terminal",
+          "description": "The cargo terminal handles all freight and cargo operations at Bahrain International Airport."
+        }
+      ],
+      "website": "https://www.bahrainairport.bh/",
+      "wifi": {
+        "available": true,
+        "network_name": "BahrainAirportWiFi",
+        "note": "Free Wi-Fi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "King Abdulaziz AB",
+      "iata_code": "DHA",
+      "icao_code": "OEDR",
+      "distance_km": 45.0,
+      "gmt": "3",
+      "country": "Saudi Arabia",
+      "timezone": "Asia/Riyadh",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of King Abdulaziz AB Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used mainly for domestic flights."
+        }
+      ],
+      "website": "https://www.gaca.gov.sa/web/en-gb/airports/king-abdulaziz-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "KAIA-WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:38:59.157048Z",
+    "generated_at": "2025-08-04T20:20:33.864647Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -48,8 +48,35 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Iasi",
+      "iata_code": "IAS",
+      "icao_code": "LRIA",
+      "distance_km": 45.8,
+      "gmt": "2",
+      "country": "Romania",
+      "timezone": "Europe/Bucharest",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Iasi Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal primarily used for charter and seasonal flights."
+        }
+      ],
+      "website": "https://www.iasi-airport.ro/",
+      "wifi": {
+        "available": true,
+        "network_name": "IASI-AIRPORT-WIFI",
+        "note": "Passengers can connect to the wifi network for free by providing their email address."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:06:16.329816Z",
+    "generated_at": "2025-08-04T19:29:52.641804Z",
     "env": "development",
     "source": "justarrived-generator"
   }

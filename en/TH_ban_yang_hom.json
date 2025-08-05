@@ -50,8 +50,35 @@
     "police": "191"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Chiang Rai",
+      "iata_code": "CEI",
+      "icao_code": "VTCT",
+      "distance_km": 44.8,
+      "gmt": "7",
+      "country": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal for domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal for domestic flights only."
+        }
+      ],
+      "website": "http://www.chiangraiairport.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "Chiang Rai Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T12:54:42.156557Z",
+    "generated_at": "2025-08-04T19:20:40.041582Z",
     "env": "development",
     "source": "justarrived-generator"
   }

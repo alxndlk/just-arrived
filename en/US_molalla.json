@@ -48,8 +48,68 @@
     "general": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Mcnary Field",
+      "iata_code": "SLE",
+      "icao_code": "KSLE",
+      "distance_km": 38.6,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "This terminal serves all commercial flights and houses the main check-in area, security checkpoint, and baggage claim."
+        },
+        {
+          "name": "General Aviation Terminal",
+          "description": "This terminal is used for private and charter flights, with a separate entrance and amenities for general aviation passengers."
+        }
+      ],
+      "website": "https://www.flysle.com/",
+      "wifi": {
+        "available": true,
+        "network_name": "SLE Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Mal",
+      "iata_code": "MMV",
+      "icao_code": "KMMV",
+      "distance_km": 43.8,
+      "gmt": "10",
+      "country": "Papua New Guinea",
+      "timezone": "Pacific/Port_Moresby",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Mal Airport serves both domestic and international flights."
+        }
+      ],
+      "website": "https://www.papuanewguinea.travel/airports/mal-airport",
+      "wifi": {
+        "available": true,
+        "network_name": "Mal Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Portland International",
+      "iata_code": "PDX",
+      "icao_code": "KPDX",
+      "distance_km": 48.8,
+      "gmt": "-8",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:01:53.769385Z",
+    "generated_at": "2025-08-04T20:29:29.083538Z",
     "env": "development",
     "source": "justarrived-generator"
   }

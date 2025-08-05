@@ -50,8 +50,47 @@
     "police": "10111"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Grand Central",
+      "iata_code": "GCJ",
+      "icao_code": "FAGC",
+      "distance_km": 38.4,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [
+        {
+          "name": "Main Terminal",
+          "description": "The main terminal at Grand Central Airport handles all domestic and international flights."
+        },
+        {
+          "name": "Private Terminal",
+          "description": "The private terminal at Grand Central Airport is exclusively for private and charter flights."
+        }
+      ],
+      "website": "https://www.grandcentralairport.co.za/",
+      "wifi": {
+        "available": true,
+        "network_name": "GCJ Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Secunda",
+      "iata_code": "ZEC",
+      "icao_code": "FASC",
+      "distance_km": 49.2,
+      "gmt": "2",
+      "country": "South Africa",
+      "timezone": "Africa/Johannesburg",
+      "terminals": [],
+      "website": "",
+      "wifi": {}
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T11:53:34.062502Z",
+    "generated_at": "2025-08-04T20:02:35.296285Z",
     "env": "development",
     "source": "justarrived-generator"
   }

@@ -50,8 +50,60 @@
     "police": "112"
   },
   "restaurants": null,
+  "airports": [
+    {
+      "airport_name": "Muan International",
+      "iata_code": "MWX",
+      "icao_code": "RKJB",
+      "distance_km": 8.1,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal of Muan International Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal used for domestic flights only."
+        }
+      ],
+      "website": "https://www.airport.co.kr/muaneng/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Muan Airport Wifi",
+        "note": "Free wifi is available throughout the airport."
+      }
+    },
+    {
+      "airport_name": "Gwangju",
+      "iata_code": "KWJ",
+      "icao_code": "RKJJ",
+      "distance_km": 35.1,
+      "gmt": "9",
+      "country": "South Korea",
+      "timezone": "Asia/Seoul",
+      "terminals": [
+        {
+          "name": "Terminal 1",
+          "description": "The main terminal at Gwangju Airport, serving both domestic and international flights."
+        },
+        {
+          "name": "Terminal 2",
+          "description": "A smaller terminal at Gwangju Airport, primarily used for domestic flights."
+        }
+      ],
+      "website": "https://www.airport.co.kr/gwangjueng/main.do",
+      "wifi": {
+        "available": true,
+        "network_name": "Gwangju Airport WiFi",
+        "note": "Free WiFi is available throughout the airport."
+      }
+    }
+  ],
   "_meta": {
-    "generated_at": "2025-08-04T13:18:17.750052Z",
+    "generated_at": "2025-08-04T19:39:44.087928Z",
     "env": "development",
     "source": "justarrived-generator"
   }
